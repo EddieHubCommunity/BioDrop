@@ -6,9 +6,21 @@ import Modal from "@components/Modal";
 import Input from "@components/form/Input";
 import UserPage from "@components/user/UserPage";
 import Notification from "@components/Notification";
+import { clientEnv } from "@config/schemas/clientSchema";
+import {
+  profileSchema,
+  usernameSchema,
+} from "@config/schemas/jsonProfileSchemas";
+import * as z from "zod";
+import { PROJECT_NAME } from "@constants/index";
 
-export default function Playground() {
-  const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL;
+export async function getServerSideProps() {
+  return {
+    props: { BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+  };
+}
+
+export default function Playground({ BASE_URL }) {
   const defaultJson = `{
     "name": "Your Name",
     "bio": "Write a short bio about yourself",
@@ -24,6 +36,7 @@ export default function Playground() {
   const [validateComplete, setValidateComplete] = useState(false);
   const [formatComplete, setFormatComplete] = useState(false);
   const [errorMessage, setErrMsg] = useState("");
+  const [errors, setErrors] = useState([]);
   const [successMessage, setSuccessMsg] = useState("");
   const [gitUsername, setGitUsername] = useState("");
   const [previewModalState, setPreviewModalState] = useState(false);
@@ -31,8 +44,10 @@ export default function Playground() {
   const [showNotification, setShowNotification] = useState(false);
 
   const handleValidateJson = () => {
+    setErrors([]);
     try {
-      JSON.parse(profileJson);
+      const parsedProfile = JSON.parse(profileJson);
+      profileSchema.parse(parsedProfile);
       setSuccessMsg("Valid Json");
       setErrMsg("");
       setValidateComplete(true);
@@ -40,8 +55,12 @@ export default function Playground() {
       setTimeout(() => setShowNotification(false), 1500);
       return true;
     } catch (err) {
-      setErrMsg(err.toString());
-      setError(true);
+      if (err instanceof z.ZodError || z.ZodError.create(err).errors) {
+        setErrMsg("Invalid JSON. Please check the errors below.");
+        setErrors(err.errors);
+      } else {
+        setErrMsg(err.toString());
+      }
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
@@ -65,12 +84,20 @@ export default function Playground() {
   };
 
   const handlePreview = () => {
-    if (!gitUsername) {
-      setErrMsg("Github username required");
+    setErrors([]);
+    try {
+      usernameSchema.parse(gitUsername);
+    } catch (e) {
+      const errors = [...e.errors];
+      errors[0].path = ["GitHub username"];
+      setErrMsg("GitHub username required");
+      setErrors(e.errors);
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
+      return false;
     }
+
     try {
       if (gitUsername && profileJson && handleValidateJson()) {
         setErrMsg("");
@@ -80,8 +107,8 @@ export default function Playground() {
         setPreviewModalData(actualJson);
         setPreviewModalState(true);
       }
-    } catch (err) {
-      setErrMsg(err.toString());
+    } catch (e) {
+      setErrMsg(e.toString());
       setSuccessMsg("");
       setShowNotification(true);
       setTimeout(() => setShowNotification(false), 1500);
@@ -90,29 +117,29 @@ export default function Playground() {
 
   const buttonProps = () => {
     if (!formatComplete) {
-      return { text: "Format", onClick: handleFormatJson, primary: false };
+      return { children: "Format", onClick: handleFormatJson, primary: false };
     }
 
     if (formatComplete && !validateComplete) {
       return {
-        text: "Validate",
+        children: "Validate",
         onClick: handleValidateJson,
         primary: false,
       };
     }
 
     if (formatComplete && validateComplete) {
-      return { text: "Preview", onClick: handlePreview, primary: true };
+      return { children: "Preview", onClick: handlePreview, primary: true };
     }
 
-    return { text: "", disable: true };
+    return { children: "", disable: true };
   };
 
   return (
     <>
       <PageHead
         title="Playground"
-        description="Playground for verifying and preview linkfree profile json"
+        description={`Playground for verifying and preview ${PROJECT_NAME} profile json`}
       />
 
       <Page>
@@ -148,7 +175,7 @@ export default function Playground() {
           Your Profile Json
         </label>
         <textarea
-          className="h-80 dark:bg-primary-high dark:text-white border-2 hover:border-tertiary-medium focus:ring-0 focus:border-tertiary-medium focus:outline-0 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
+          className="h-80 dark:bg-primary-high dark:text-primary-low border-2 hover:border-tertiary-medium focus:ring-0 focus:border-tertiary-medium focus:outline-0 transition-all duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
           id="profileJson"
           name="profileJson"
           value={profileJson}
@@ -160,6 +187,20 @@ export default function Playground() {
             setErrMsg("");
           }}
         />
+
+        <span className="mb-5">
+          {errors.map((error, idx) => {
+            return (
+              <p key={idx} className="text-red-500">
+                {error.path.length === 1
+                  ? error.path
+                  : `${error.path[0]} - ${error.path[2]}`}
+                : {error.message}
+              </p>
+            );
+          })}
+        </span>
+
         <div className="flex flex-row justify-end mb-3 gap-2">
           <Button {...buttonProps()} />
         </div>

@@ -1,0 +1,116 @@
+{
+  "name": "Rupesh Dubey",
+  "bio": "Beta {β} - MLSA 🎓 || BCA' 25 Undergrad || Machine Learning Enthusiast || Community Driven || Building @ CodeYacht",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Python",
+    "Machine Learning",
+    "Communities"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/okrupesh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/okrupesh"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@okrupesh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/okrupesh"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Checkout My GitHub",
+      "url": "https://github.com/okrupesh",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/okrupesh",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/okrupesh",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube: First Video Soon",
+      "url": "https://youtube.com/@okrupesh",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "name": "Open Source and Random Tech Blogs",
+      "url": "https://okrupesh.hashnode.dev/",
+      "icon": "SiHashnode",
+      "color": "#0755AA"
+    },
+    {
+      "name": "GitHub Sponsors: Support my Work",
+      "url": "https://github.com/sponsors/okrupesh",
+      "icon": "FaDollarSign"
+    },
+    {
+      "group": "Contact",
+      "name": "Mail me here",
+      "url": "mailto:contactrupeshdubey@gmail.com",
+      "icon": "SiGmail",
+      "color": "#FF651F"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Learning to Code and Collaborate",
+      "date": "Always",
+      "icon": "FaLaptopCode",
+      "color": "orange",
+      "description": "Always Open to learn and collaborate on new tech stacks.",
+      "url": "https://twitter.com/okrupesh"
+    },
+    {
+      "title": "Became Microsoft Learn Student Ambassador",
+      "date": "April 2023",
+      "icon": "faWindows",
+      "color": "yellow",
+      "description": "Learning and helping other to learn.",
+      "url": "https://studentambassadors.microsoft.com/studentambassadors/profile/4222c1bc-4928-4461-af60-a938494ce6be?wt.mc_id=studentamb_265181"
+    },
+    {
+      "title": "Appeared On Twitter",
+      "date": "January 2023",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Recreated my Twitter Account and trying to stay active this time.",
+      "url": "https://twitter.com/okrupesh"
+    },
+    {
+      "title": "First Quality PR on Github",
+      "date": "January 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "First PR merged in a live website. Contributed in HTML",
+      "url": "https://github.com/okrupesh"
+    },
+    {
+      "title": "Started with Open-Source",
+      "date": "October 2021",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Created my GitHub Account",
+      "url": "https://github.com/okrupesh"
+    }
+  ]
+}

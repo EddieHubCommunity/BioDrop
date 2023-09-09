@@ -13,6 +13,16 @@ body:
       description: Provide a clear and concise explanation of your issue.
     validations:
       required: true
+  - type: dropdown
+    id: assignee
+    attributes:
+      label: Do you want to work on this issue?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: false
   - type: textarea
     id: extrainfo
     attributes:

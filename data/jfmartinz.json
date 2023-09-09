@@ -1,15 +1,13 @@
 {
   "name": "Joseph Martin",
-  "bio": "Aspiring Front end developer 🚀 | Self-Taught Developer ✨ | Open Source Enthusiast 💫 | Computer Science Student 🎓",
+  "bio": "Aspiring Full Stack Developer 🧑🏻‍💻 | Self-Taught 📚 | Open Source 🌐 | Computer Science 🎓",
   "tags": [
     "Open Source",
     "Javascript",
     "HTML",
     "CSS",
-    "React",
-    "Express",
-    "MongoDb",
-    "Tailwind"
+    "Full-stack developer",
+    "Self-taught"
   ],
   "socials": [
     {
@@ -25,11 +23,17 @@
       "url": "https://www.linkedin.com/in/jfmartinz/"
     },
     {
-      "icon": "SiCodewars",
-      "url": "https://www.codewars.com/users/jfmartinz"
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/profile.php?id=61550922350882"
     }
   ],
   "links": [
+    {
+      "group": "Join our community",
+      "name": "DevLounge",
+      "url": "https://discord.gg/4hVUVucEvV",
+      "icon": "FaDiscord"
+    },
     {
       "group": "Socials",
       "name": "Follow My Coding Journey",
@@ -49,10 +53,23 @@
       "icon": "FaLinkedin"
     },
     {
+      "group": "Socials",
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61550922350882",
+      "icon": "FaFacebook"
+    },
+
+    {
       "group": "Coding Challenges",
       "name": "Codewars",
       "icon": "SiCodewars",
       "url": "https://www.codewars.com/users/jfmartinz"
+    },
+    {
+      "group": "Others",
+      "name": "Codepen",
+      "icon": "SiCodepen",
+      "url": "https://codepen.io/jfmartinz"
     }
   ],
   "milestones": [
@@ -61,8 +78,22 @@
       "date": "April 2023",
       "icon": "FaCheck",
       "color": "blue",
-      "description": "Accepted as a GSSoc23 contributor! Collaborating with mentors and fellow contributors for 3 months on an impactful open-source project. Excited to make meaningful contributions.",
+      "description": "Accepted as a GSSoC23 contributor! Collaborating with mentors and fellow contributors for three months on an impactful open-source project.",
       "url": "https://www.linkedin.com/posts/jfmartinz_gssoc2023-gssoc-opensource-activity-7061604923590803456-DTWo?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "Completion of GSSoC 2023 Program",
+      "date": "August 10 2023",
+      "icon": "FaTrophy",
+      "color": "green",
+      "description": "Successfully completed the GSSoC23 program! Collaborated on various open-source projects, gained valuable experience, and contributed to the community over a span of three months."
+    },
+    {
+      "title": "182nd place on the GSSoC23 leaderboard",
+      "date": "August 10 2023",
+      "icon": "FaMedal",
+      "color": "purple",
+      "description": "Achieved 182nd place on the GSSoC23 leaderboard out of 1600+ active participants. Contributed significantly to open-source projects and demonstrated dedication."
     }
   ]
 }

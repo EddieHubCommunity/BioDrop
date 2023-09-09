@@ -1,6 +1,6 @@
 {
   "name": "Manish Tyagi ",
-  "bio": "**Open Source** Advocate🥑 | Developer | Postman **Student Leader**",
+  "bio": "Open Source DevRel | Postman Student Leader | Organizer API Days",
   "tags": [
     "Open Source",
     "DevRel",
@@ -19,11 +19,11 @@
     },
     {
       "icon": "FaLinkedin",
-      "url": "https://linkedin.com/in/manish-tyagi-8b7b22217"
+      "url": "https://linkedin.com/in/manishty"
     },
     {
       "icon": "FaInstagram",
-      "url": "https://instagram.com/manish_tyagi.__"
+      "url": "https://threads.net/@manishtyagi__"
     }
   ],
   "testimonials": ["the-amazing-atharva"],
@@ -36,6 +36,12 @@
     },
     {
       "group": "Socials",
+      "name": "Let's Thread together",
+      "url": "https://threads.net/@manishtyagi__",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
       "name": "Let's collab on GitHub",
       "url": "https://github.com/money8203",
       "icon": "FaGithub"
@@ -43,14 +49,14 @@
     {
       "group": "Socials",
       "name": "Connect with me on LinkedIn",
-      "url": "https://linkedin.com/in/manish-tyagi-8b7b22217",
+      "url": "https://linkedin.com/in/manishty",
       "icon": "FaLinkedin"
     },
     {
       "group": "Socials",
-      "name": "Google Developer Profile",
-      "url": "https://g.dev/manisht",
-      "icon": "SiGoogle"
+      "name": "Connect 1:1 with me",
+      "url": "calendly.com/manisht",
+      "icon": "SiCalendly"
     },
     {
       "group": "Socials",
@@ -60,14 +66,14 @@
     },
     {
       "group": "Socials",
-      "name": "Personal Profile",
-      "url": "https://manishtyagi.carrd.co/",
-      "icon": "FaGlobe"
+      "name": "Google Developer Profile",
+      "url": "https://g.dev/manisht",
+      "icon": "SiGoogle"
     },
     {
       "group": "Socials",
       "name": "Microsoft Learn Profile",
-      "url": "https://learn.microsoft.com/en-gb/users/me/achievements",
+      "url": "https://learn.microsoft.com/en-gb/users/manishtyagi/achievements",
       "icon": "SiMicrosoft"
     },
     {

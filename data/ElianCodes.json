@@ -1,0 +1,52 @@
+{
+  "name": "Elian Van Cutsem",
+  "bio": "Team DX at Astro | ex. Software Engineer at vBridge & Bright Energy | meetup organizer | BeJS & React Brussels household figure | Speaker",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Astro",
+    "DevRel",
+    "Belgium"
+  ],
+  "socials": [
+    {
+      "url": "https://twitter.com/eliancodes",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://webtoo.ls/@eliancodes",
+      "icon": "FaMastodon"
+    },
+    {
+      "url": "https://bsky.app/profile/eliancodes.bsky.social",
+      "icon": "FaFeather"
+    },
+    {
+      "url": "https://threads.net/@eliancodes",
+      "icon": "FaUnlink"
+    },
+    {
+      "url": "https://www.linkedin.com/in/elianvancutsem/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "links": [
+    {
+      "name": "My Github profile",
+      "url": "https://github.com/eliancodes",
+      "icon": "FaGithub"
+    },
+
+    {
+      "name": "My website",
+      "url": "https://www.elian.codes",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Sponsor me on GitHub",
+      "url": "https://github.com/sponsors/eliancodes",
+      "icon": "FaDollarSign"
+    }
+  ]
+}

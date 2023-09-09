@@ -1,0 +1,181 @@
+{
+  "location": {
+    "provided": "Thailand",
+    "name": "ประเทศไทย",
+    "lat": 14.8971921,
+    "lon": 100.83273,
+    "updatedAt": "2023-06-16T14:03:40.281Z"
+  },
+  "username": "eddiejaoude",
+  "bio": "Open Source DevRel | Founder of **EddieHub** and [BioDrop](https://biodrop.io) | **GitHub** Star",
+  "events": [
+    {
+      "color": "#fe2043",
+      "name": "WeAreDevelopers World Congress",
+      "description": "SHAPING THE FUTURE TOGETHER. Every year, we are dedicated to bringing together software developers and tech decision-makers from all around the globe to discuss and learn about the latest trends and innovations shaping our world.",
+      "date": {
+        "start": "2023-07-27T09:00:00.000Z",
+        "end": "2023-07-28T17:00:00.000Z",
+        "_id": "6496f3e5ff6b1decdc0800b4",
+        "startFmt": "Thursday, 27 July 2023 at 09:00:00 UTC",
+        "endFmt": "Friday, 28 July 2023 at 17:00:00 UTC",
+        "future": true,
+        "ongoing": false
+      },
+      "url": "https://www.wearedevelopers.com/world-congress",
+      "order": 0
+    },
+    {
+      "isVirtual": true,
+      "color": "blue",
+      "name": "Infobip Shift Conference",
+      "description": "This is not another developer event. This is an experience that brings together the global tech community for two days of learning, networking, and creating new memories. This is a gathering of professionals, founders, leaders, disruptors, and dreamers. This is Infobip Shift. And we want to Shift Your World.",
+      "date": {
+        "start": "2023-09-18T10:00:00.000Z",
+        "end": "2023-09-19T18:00:00.000Z",
+        "_id": "6496f3e5ff6b1decdc0800b6",
+        "startFmt": "Monday, 18 September 2023 at 10:00:00 UTC",
+        "endFmt": "Tuesday, 19 September 2023 at 18:00:00 UTC",
+        "future": true,
+        "ongoing": false
+      },
+      "url": "https://shift.infobip.com",
+      "order": 1
+    }
+  ],
+  "isEnabled": true,
+  "links": [
+    {
+      "_id": "1234",
+      "url": "http://eddiejaoude.io",
+      "group": "Business",
+      "icon": "FaLink",
+      "isEnabled": true,
+      "isPinned": false,
+      "name": "Business: DevRel Services",
+      "order": 0
+    },
+    {
+      "_id": "2345",
+      "url": "https://twitter.com/eddiejaoude",
+      "group": "Socials Primary",
+      "icon": "FaTwitter",
+      "isEnabled": true,
+      "isPinned": true,
+      "name": "Follow me on Twitter",
+      "order": 1
+    },
+    {
+      "_id": "3456",
+      "url": "https://youtube.com/eddiejaoude",
+      "group": "Socials Primary",
+      "icon": "FaYoutube",
+      "isEnabled": true,
+      "isPinned": true,
+      "name": "YouTube: Learn more about Open Source",
+      "order": 2
+    },
+    {
+      "_id": "4567",
+      "url": "https://github.com/eddiejaoude",
+      "group": "Socials Primary",
+      "icon": "FaGithub",
+      "isEnabled": true,
+      "isPinned": true,
+      "name": "GitHub: Collaborate on Open Source",
+      "order": 3
+    }
+  ],
+  "milestones": [
+    {
+      "url": "https://www.eddiejaoude.io/",
+      "date": "May 2010",
+      "isGoal": false,
+      "title": "Started Freelancing",
+      "icon": "FaDollarSign",
+      "description": "Started my own business",
+      "color": "grey",
+      "order": 0
+    },
+    {
+      "url": "https://github.com/eddiejaoude",
+      "date": "2020",
+      "isGoal": false,
+      "title": "GitHub Star",
+      "icon": "FaGithub",
+      "description": "Became a **GitHub** Star for the first year of the program",
+      "color": "green",
+      "order": 1
+    },
+    {
+      "url": "https://biodrop.io",
+      "date": "2021",
+      "isGoal": false,
+      "title": "Started Open Source project BioDrop",
+      "icon": "FaGithub",
+      "description": "Connecting your audience with a single link: this project started on a YouTube livestream",
+      "color": "green",
+      "order": 2
+    },
+    {
+      "url": "https://biodrop.io",
+      "date": "2023",
+      "isGoal": true,
+      "title": "BioDrop to a SAAS platform",
+      "icon": "FaGithub",
+      "description": "Have advanced premium features, but will always be free and open source",
+      "color": "green",
+      "order": 3
+    }
+  ],
+  "name": "Eddie Jaoude",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "DevRel",
+    "Preview"
+  ],
+  "testimonials": [
+    {
+      "isPinned": true,
+      "username": "FrancescoXX",
+      "title": "Eddie === Open Source",
+      "description": "it's difficult to describe in such a few words what Eddie has done and he is doing for the Developer community. The passion he transmits online is 1/10 of the one he transmits live, and meeting him and having the first collaboration on Youtube in 2020 was a great moment. I wish him and Sara the best for the future and to geek out as much as possible. Eddie === Open Source",
+      "date": "2023-01-27T00:00:00.000Z",
+      "order": 0
+    },
+    {
+      "_id": "648c6baf3b160e3e2125b4ea",
+      "isPinned": true,
+      "username": "loftwah",
+      "title": "A true Eddlian",
+      "description": "Eddie, the founder of the EddieHub community, is a true leader in the tech industry. He founded the successful BioDrop project and served as an incredible mentor to those around him. He has a unique ability to share his knowledge and experience in an approachable and impactful way. His guidance and support have significantly and positively impacted my career. I highly recommend Eddie as a mentor, leader, and community builder. He is an asset to any organization or project.",
+      "date": "2023-01-25T00:00:00.000Z",
+      "url": "https://biodrop-preview.vercel.app/loftwah",
+      "order": 1
+    }
+  ],
+  "updatedAt": "2023-06-24T13:13:09.175Z",
+  "layout": "inline",
+  "socials": [
+    {
+      "_id": "2345",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "FaTwitter"
+    },
+    {
+      "_id": "3456",
+      "url": "https://youtube.com/eddiejaoude",
+      "icon": "FaYoutube"
+    },
+    {
+      "_id": "4567",
+      "url": "https://github.com/eddiejaoude",
+      "icon": "FaGithub"
+    }
+  ],
+  "cleanBio": "Open Source DevRel | Founder of EddieHub and BioDrop | GitHub Star\n"
+}

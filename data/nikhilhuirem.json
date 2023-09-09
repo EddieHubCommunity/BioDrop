@@ -1,0 +1,16 @@
+{
+  "name": "Nikhil Huirem",
+  "bio": "Software Developer based in India",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nikhilhuirem",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/nikhilhuirem",
+      "icon": "FaGithub"
+    }
+  ]
+}

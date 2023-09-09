@@ -1,8 +1,8 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require("@axe-core/playwright").default;
+import AxeBuilder from "@axe-core/playwright";
 
-const defaultUsers = 5;
+const defaultUsers = 9;
 
 test("Search has title", async ({ page }) => {
   await page.goto("/search");
@@ -15,6 +15,7 @@ test("Navigate to the Search page", async ({ page }) => {
     .getByRole("navigation")
     .getByRole("link", { name: "Search" })
     .click();
+  await page.waitForLoadState("networkidle");
   await expect(page.locator("h1")).toHaveText("Search");
 });
 
@@ -65,15 +66,27 @@ test("Search page shows results after typing 3 characters", async ({
   await expect(page.locator("main li")).toContainText(["aka"]);
 });
 
-test.fixme("After search click profile", async ({ page }) => {
-  // 1. perform search
-  // 2. click on searched profile
-  // 3. check profile is displayed
+test("After search click profile", async ({ page }) => {
+  // 1. Perform search
+  await page.goto("/search");
+  const input = page.locator("[name='keyword']");
+  await input.type("eddiejaoude");
+
+  // 2. Click on the searched profile
+  const profileLinkSelector = 'a[href="/eddiejaoude"]';
+  const profileLink = page.locator(profileLinkSelector);
+  await profileLink.click();
+  await page.waitForLoadState("networkidle");
+
+  // 3. Check if the profile is displayed
+  const profileHeader = page.locator("h1");
+  const profileHeaderText = await profileHeader.innerText();
+  await expect(profileHeaderText).toContain("Eddie Jaoude"); 
 });
 
 test.fixme(
   "find the profile after providing concise name",
-  async ({ page }) => {
+  async () => {
     // 1. click on search profile
     // 2. type the whole name
     // 3. Display the profile if the name is correct

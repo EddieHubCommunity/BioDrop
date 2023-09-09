@@ -1,5 +1,5 @@
-import { FiChevronRight } from "react-icons/fi";
-import { AiOutlineHome } from "react-icons/ai";
+import HomeIcon from "@heroicons/react/24/outline/HomeIcon";
+import ChevronRightIcon from "@heroicons/react/24/outline/ChevronRightIcon";
 
 import Link from "@components/Link";
 
@@ -11,25 +11,22 @@ export default function BreadCrumb({ section, name }) {
           <div>
             <Link
               href="/docs"
-              className="text-primary hover:text-primary-medium-low"
+              className="text-primary hover:text-tertiary-medium"
             >
-              <AiOutlineHome
-                className="h-5 w-5 flex-shrink-0"
-                aria-hidden="true"
-              />
+              <HomeIcon className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
               <span className="sr-only">Docs</span>
             </Link>
           </div>
         </li>
         <li key={section}>
           <div className="flex items-center">
-            <FiChevronRight
+            <ChevronRightIcon
               className="h-5 w-5 flex-shrink-0 text-primary"
               aria-hidden="true"
             />
             <Link
               href={`/docs/#${section}`}
-              className="ml-4 text-sm font-medium text-primary hover:text-primary-medium-low"
+              className="ml-4 text-sm font-medium text-primary hover:text-tertiary-medium"
             >
               {section}
             </Link>
@@ -37,13 +34,13 @@ export default function BreadCrumb({ section, name }) {
         </li>
         <li key={name}>
           <div className="flex items-center">
-            <FiChevronRight
+            <ChevronRightIcon
               className="h-5 w-5 flex-shrink-0 text-primary"
               aria-hidden="true"
             />
             <Link
               href="#"
-              className="ml-4 text-sm font-medium text-primary hover:text-primary-medium-low"
+              className="ml-4 text-sm font-medium text-primary hover:text-tertiary-medium"
             >
               {name}
             </Link>

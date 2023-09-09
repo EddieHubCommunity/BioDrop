@@ -1,13 +1,15 @@
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-
 import Link from "@components/Link";
 import Alert from "@components/Alert";
 import FallbackImage from "@components/FallbackImage";
+import Markdown from "@components/Markdown";
 
-export default function UserTestimonials({ testimonials }) {
+export default function UserTestimonials({ testimonials, BASE_URL }) {
   return (
     <>
-      {!testimonials && <Alert type="info" message="No testimonials found" />}
+      {!testimonials?.length && (
+        <Alert type="info" message="No Testimonials found" />
+      )}
+
       {testimonials &&
         testimonials.map((testimonial, key) => (
           <div
@@ -20,6 +22,7 @@ export default function UserTestimonials({ testimonials }) {
                   width={100} // just to pass nextjs error
                   height={100}
                   src={`https://github.com/${testimonial.username}.png`}
+                  fallback={testimonial.username}
                   alt={testimonial.username}
                   className="rounded-full bg-primary-low"
                 />
@@ -28,7 +31,10 @@ export default function UserTestimonials({ testimonials }) {
                 <h3 className="font-medium dark:text-primary-medium-low text-primary-high">
                   {testimonial.title}
                 </h3>
-                <Link href={testimonial.url} target="_blank">
+                <Link
+                  href={`${BASE_URL}/${testimonial.username}`}
+                  target="_blank"
+                >
                   @{testimonial.username}
                 </Link>
               </div>
@@ -39,12 +45,15 @@ export default function UserTestimonials({ testimonials }) {
                 <h3 className="font-medium dark:text-primary-low text-primary-high">
                   {testimonial.title}
                 </h3>
-                <Link href={testimonial.url} target="_blank">
+                <Link
+                  href={`${BASE_URL}/${testimonial.username}`}
+                  target="_blank"
+                >
                   @{testimonial.username}
                 </Link>
               </div>
               <div className="prose prose-sm max-w-none w-fit text-primary-medium dark:text-primary-medium-low ">
-                <ReactMarkdown>{testimonial.description}</ReactMarkdown>
+                <Markdown>{testimonial.description}</Markdown>
               </div>
             </div>
           </div>

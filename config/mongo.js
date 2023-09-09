@@ -1,14 +1,15 @@
 import mongoose from "mongoose";
 import logger from "./logger";
+import { serverEnv } from "@config/schemas/serverSchema";
 
 let connection;
 
 const connectMongo = async () => {
-  const { LINKFREE_MONGO_CONNECTION_STRING } = process.env;
+  const { BIODROP_MONGO_CONNECTION_STRING } = serverEnv;
 
-  if (!LINKFREE_MONGO_CONNECTION_STRING) {
+  if (!BIODROP_MONGO_CONNECTION_STRING) {
     throw new Error(
-      "Please define the LINKFREE_MONGO_CONNECTION_STRING environment variable (if local add to .env file)"
+      "Please define the BIODROP_MONGO_CONNECTION_STRING environment variable (if local add to .env file)"
     );
   }
 
@@ -17,9 +18,9 @@ const connectMongo = async () => {
   }
 
   try {
-    const options = { autoIndex: true, family: 4 };
+    const options = { autoIndex: true, family: 4, maxPoolSize: 10 };
     connection = await mongoose.connect(
-      LINKFREE_MONGO_CONNECTION_STRING,
+      BIODROP_MONGO_CONNECTION_STRING,
       options
     );
     logger.info("DB connection successful:", connection.name);
