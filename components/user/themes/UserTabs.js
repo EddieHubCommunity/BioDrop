@@ -46,7 +46,8 @@ export default function UserTabs({ data, BASE_URL }) {
   });
   const [tabs, setTabs] = useState(displayTabs);
   const changeTab = (e, value) => {
-    e.preventDefault();    setTabs(
+    e.preventDefault();    
+    setTabs(
       tabs.map((tab) =>{
         if (tab.name === e.target?.value || tab.name === value){
         addTabsToURL(tab.url)
@@ -59,7 +60,15 @@ export default function UserTabs({ data, BASE_URL }) {
   };
 
   useEffect(() => {
-    getTabsURL()
+    const selectedTab = tabs.map((tab) =>
+        (tab.url === getTabsURL() ) ?
+          { ...tab, current: true }
+          :
+          { ...tab, current: false }
+        
+      )
+    
+      setTabs(selectedTab)
   }, [])
 
   function addTabsToURL(url) {
@@ -67,17 +76,17 @@ export default function UserTabs({ data, BASE_URL }) {
     window.history.pushState({}, '', `?tabs=${url}`);
   }
 
-  const getTabsURL = () => {
-    if (typeof window !== 'undefined') {
+  function getTabsURL() {
+    if (typeof window === 'undefined') return
       const urlParams = new URLSearchParams(window.location.search);
-      const tabs = urlParams.get('tabs');
-      if (tabs) {
-        console.log(`Button value from URL: ${tabs}`);
-      } else {
-        addTabsToURL('links')
+      let tabs = urlParams.get('tabs');
+      if (!tabs) {    
+        const tab = 'links'
+        addTabsToURL(tab)  
+        tabs = tab
       }
-    }
-  };
+      return tabs
+  }
 
   return (
     <>
