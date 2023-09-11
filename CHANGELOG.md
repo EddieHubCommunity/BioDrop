@@ -1,45 +1,45 @@
-# [2.15.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.14.0...v2.15.0) (2023-09-04)
+# [2.16.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.10...v2.16.0) (2023-09-11)
 
 
 ### Features
 
-* premium with stripe integration ([#8647](https://github.com/EddieHubCommunity/BioDrop/issues/8647)) ([36e2a88](https://github.com/EddieHubCommunity/BioDrop/commit/36e2a882f2155a769070e3acf49ffe58091b78e6)), closes [#8909](https://github.com/EddieHubCommunity/BioDrop/issues/8909)
+* hide fake info ([#9017](https://github.com/EddieHubCommunity/BioDrop/issues/9017)) ([7ac42aa](https://github.com/EddieHubCommunity/BioDrop/commit/7ac42aaf6d9fe2535ac7f53cb4c4340dc910ff60))
 
 
 
-# [2.14.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.13.0...v2.14.0) (2023-09-04)
+## [2.15.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.9...v2.15.10) (2023-09-11)
 
 
-### Features
+### Bug Fixes
 
-* user profile picture on manage testimonials ([#8938](https://github.com/EddieHubCommunity/BioDrop/issues/8938)) ([3bbb1b9](https://github.com/EddieHubCommunity/BioDrop/commit/3bbb1b9c76d81921c41e3bf5238f1b5f27c4b553))
-
-
-
-# [2.13.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.12.0...v2.13.0) (2023-09-02)
-
-
-### Features
-
-* blog and newsletter ([#8920](https://github.com/EddieHubCommunity/BioDrop/issues/8920)) ([80e026e](https://github.com/EddieHubCommunity/BioDrop/commit/80e026e4c7b349d0a5abbefa0fdc4e9a09693760))
+* update the biodrop-cli ([#9002](https://github.com/EddieHubCommunity/BioDrop/issues/9002)) ([ba54d9e](https://github.com/EddieHubCommunity/BioDrop/commit/ba54d9ebf8efcc2c4632afbfb259dcfc86d43608))
 
 
 
-# [2.12.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.11.0...v2.12.0) (2023-09-02)
+## [2.15.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.8...v2.15.9) (2023-09-08)
 
 
-### Features
+### Bug Fixes
 
-* minimum forks, stars criteria in repo main list ([#8915](https://github.com/EddieHubCommunity/BioDrop/issues/8915)) ([38cdb37](https://github.com/EddieHubCommunity/BioDrop/commit/38cdb37e9c39813a0a2e5d39c90c52be7f939696))
-
-
-
-# [2.11.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.10.5...v2.11.0) (2023-09-01)
+* search result card zoom on hover ([#8993](https://github.com/EddieHubCommunity/BioDrop/issues/8993)) ([b08ebc8](https://github.com/EddieHubCommunity/BioDrop/commit/b08ebc87e8b97ee355fdbdc08eb5d37f9e82c2ef))
 
 
-### Features
 
-* filter options for event section ([#8904](https://github.com/EddieHubCommunity/BioDrop/issues/8904)) ([978596e](https://github.com/EddieHubCommunity/BioDrop/commit/978596ed2e6e1c2e16415189891103cfa1182620))
+## [2.15.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.7...v2.15.8) (2023-09-08)
+
+
+### Bug Fixes
+
+* remove decode links as id is used ([#8991](https://github.com/EddieHubCommunity/BioDrop/issues/8991)) ([237b19c](https://github.com/EddieHubCommunity/BioDrop/commit/237b19cb7ba7e5720a12fe81760a73196a53ff95))
+
+
+
+## [2.15.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.6...v2.15.7) (2023-09-08)
+
+
+### Bug Fixes
+
+* all events ([#8921](https://github.com/EddieHubCommunity/BioDrop/issues/8921)) ([64b73e2](https://github.com/EddieHubCommunity/BioDrop/commit/64b73e2475334839891a1a5e90f59d38b4471131))
 
 
 

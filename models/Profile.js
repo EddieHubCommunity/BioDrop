@@ -35,6 +35,10 @@ const ProfileSchema = new Schema(
       type: Boolean,
       default: true,
     },
+    isShadowBanned: {
+      type: Boolean,
+      default: false,
+    },
     isStatsPublic: {
       type: Boolean,
       default: false,
