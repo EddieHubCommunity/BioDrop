@@ -1,3 +1,12 @@
+# [2.16.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.10...v2.16.0) (2023-09-11)
+
+
+### Features
+
+* hide fake info ([#9017](https://github.com/EddieHubCommunity/BioDrop/issues/9017)) ([7ac42aa](https://github.com/EddieHubCommunity/BioDrop/commit/7ac42aaf6d9fe2535ac7f53cb4c4340dc910ff60))
+
+
+
 ## [2.15.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.9...v2.15.10) (2023-09-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * all events ([#8921](https://github.com/EddieHubCommunity/BioDrop/issues/8921)) ([64b73e2](https://github.com/EddieHubCommunity/BioDrop/commit/64b73e2475334839891a1a5e90f59d38b4471131))
-
-
-
-## [2.15.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.5...v2.15.6) (2023-09-08)
-
-
-### Bug Fixes
-
-* glow animation for links ([#8854](https://github.com/EddieHubCommunity/BioDrop/issues/8854)) ([638d454](https://github.com/EddieHubCommunity/BioDrop/commit/638d454fd57bdf742238f1d7a0ba59393f972472))
 
 
 
