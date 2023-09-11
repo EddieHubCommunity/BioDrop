@@ -154,7 +154,7 @@ export default function Search({
     }, 500);
 
     return () => clearTimeout(timer);
-  }, [inputValue]);
+  }, [inputValue, router]);
 
   useEffect(() => {
     const onKeyDownHandler = (e) => {
