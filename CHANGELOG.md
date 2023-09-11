@@ -1,3 +1,12 @@
+## [2.15.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.9...v2.15.10) (2023-09-11)
+
+
+### Bug Fixes
+
+* update the biodrop-cli ([#9002](https://github.com/EddieHubCommunity/BioDrop/issues/9002)) ([ba54d9e](https://github.com/EddieHubCommunity/BioDrop/commit/ba54d9ebf8efcc2c4632afbfb259dcfc86d43608))
+
+
+
 ## [2.15.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.8...v2.15.9) (2023-09-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * glow animation for links ([#8854](https://github.com/EddieHubCommunity/BioDrop/issues/8854)) ([638d454](https://github.com/EddieHubCommunity/BioDrop/commit/638d454fd57bdf742238f1d7a0ba59393f972472))
-
-
-
-## [2.15.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.4...v2.15.5) (2023-09-08)
-
-
-### Bug Fixes
-
-* improved dark mode background ([#8945](https://github.com/EddieHubCommunity/BioDrop/issues/8945)) ([f8bfca8](https://github.com/EddieHubCommunity/BioDrop/commit/f8bfca8b2ac6911650e7e921f9796520ecc2fab4))
 
 
 
