@@ -1,7 +1,7 @@
 import logger from "@config/logger";
 import { Changelog } from "@models/index";
 
-export default async function logChange({ username, collection, changesBefore, changesAfter }) {
+export default async function logChange({ userId, collection, changesBefore, changesAfter }) {
   let diff;
 
   const collectionName = collection;
@@ -14,7 +14,7 @@ export default async function logChange({ username, collection, changesBefore, c
   }
 
   const change = {
-    username,
+    userId,
     docId,
     collectionName,
     changesBefore,
