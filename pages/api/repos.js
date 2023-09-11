@@ -26,16 +26,25 @@ export async function getRepos(sortBy) {
   dateOneMonthAgo.setMonth(dateOneMonthAgo.getMonth() - 1); //1 month ago
   try {
     repos = await Profile.aggregate([
+      {
+        $match: {
+          isEnabled: true,
+          $or: [
+            { isShadowBanned: { $exists: false } },
+            { isShadowBanned: { $eq: false } },
+          ],
+        },
+      },
       { $project: { username: 1, repos: 1, isEnabled: 1 } },
-      { $match: { isEnabled: true } },
       { $unwind: "$repos" },
-      { $match: {
+      {
+        $match: {
           $and: [
-            {"repos.dates.pushedAt": {$gt: dateOneMonthAgo } },
-            {"repos.stats.forks": {$gte: 10 } } ,
-            {"repos.stats.stars": {$gte: 100 } } 
-          ]
-        } 
+            { "repos.dates.pushedAt": { $gt: dateOneMonthAgo } },
+            { "repos.stats.forks": { $gte: 10 } },
+            { "repos.stats.stars": { $gte: 100 } },
+          ],
+        },
       },
       {
         $sort: { [sortOptions[sortBy]]: -1 },
