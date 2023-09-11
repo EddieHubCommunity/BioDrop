@@ -28,7 +28,7 @@ export const navigation = [
       { name: "Editing with JSON", href: "/docs/how-to-guides/editing-json" },
       { name: "Editing with Forms", href: "/docs/how-to-guides/editing-forms" },
       { name: "JSON to Forms", href: "/docs/how-to-guides/json-to-forms" },
-      { name: "BioDrop CLI", href: "/docs/environments/linkfree-cli" },
+      { name: "BioDrop CLI", href: "/docs/environments/biodrop-cli" },
       { name: "Available Icons", href: "/icons" },
     ],
   },
