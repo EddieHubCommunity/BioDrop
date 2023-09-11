@@ -17,7 +17,7 @@ export default function Alert({ type, message }) {
     case "error":
       return (
         <div
-          className={`alert-${type} mt-3 bg-red-100 rounded-lg  text-base text-red-700 inline-flex items-center w-full`}
+          className={`alert-${type} mt-3 bg-red-100 rounded-lg py-5 px-6 mb-3 text-base text-red-700 inline-flex items-center w-full`}
           role="alert"
         >
           <ExclamationCircleIcon className="h-5 w-5 mr-2" />
@@ -27,7 +27,7 @@ export default function Alert({ type, message }) {
     case "warning":
       return (
         <div
-          className={`alert-${type}  bg-yellow-100 rounded-lg py-5 px-6 mb-3   text-base text-yellow-700 inline-flex items-center w-full`}
+          className={`alert-${type} mt-3 bg-yellow-100 rounded-lg py-5 px-6 mb-3 text-base text-yellow-700 inline-flex items-center w-full`}
           role="alert"
         >
           <ExclamationTriangleIcon className="h-5 w-5 mr-2" />

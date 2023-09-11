@@ -199,37 +199,15 @@ export default function Home({
     <>
       <PageHead />
       <div className="bg-primary-low dark:bg-dark">
-        {/* py-12 sm:py-24 */}
         <div className="px-6 py-8 sm:px-6  lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <div className=" bg-primary-low dark:drop-shadow-none dark:bg-dark   mb-6 p-4 drop-shadow-md">
-              {alerts.map((alert, index) => (
-                <Alert key={index} type={alert.type} message={alert.message} />
-              ))}
-
-              <BasicCards
-                data={[
-                  {
-                    name: "Active Users",
-                    current: total.active,
-                    total: total.users,
-                    delta: today.users,
-                  },
-                  {
-                    name: "Profile Views",
-                    current: total.views,
-                    total: total.views - today.views,
-                    delta: today.views,
-                  },
-                  {
-                    name: "Links Clicked",
-                    current: total.clicks,
-                    total: total.clicks - today.clicks,
-                    delta: today.clicks,
-                  },
-                ]}
-              />
-            </div>
+            
+           <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark-2 mb-8 p-8 drop-shadow-md">
+             {alerts.map((alert, index) => (
+            <Alert key={index} type={alert.type} message={alert.message} />
+            ))}
+           </div>
+            
             <h2 className="text-3xl font-bold tracking-tight text-primary-medium dark:text-primary-low sm:text-4xl">
               Connect to your audience with a{" "}
               <span className="text-tertiary-medium">single link</span>
@@ -266,6 +244,32 @@ export default function Home({
           </div>
         </div>
       </div>
+
+     <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark-2 mb-8 p-8 drop-shadow-md">
+         <BasicCards
+          data={[
+            {
+              name: "Active Users",
+              current: total.active,
+              total: total.users,
+              delta: today.users,
+            },
+            {
+              name: "Profile Views",
+              current: total.views,
+              total: total.views - today.views,
+              delta: today.views,
+            },
+            {
+              name: "Links Clicked",
+              current: total.clicks,
+              total: total.clicks - today.clicks,
+              delta: today.clicks,
+            },
+          ]}
+        />
+      </div>
+
 
       <div className="bg-primary-low dark:bg-dark">
         <div className="mx-auto max-w-7xl py-16 px-4  sm:px-6 lg:px-8">
