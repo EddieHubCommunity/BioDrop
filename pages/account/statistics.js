@@ -1,8 +1,11 @@
 import { authOptions } from "../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import dynamic from "next/dynamic";
-import ProgressBar from "@components/statistics/ProgressBar";
+import { useRouter } from "next/router";
+import { useSession } from "next-auth/react";
+import { FaMapPin, FaMousePointer } from "react-icons/fa";
 
+import ProgressBar from "@components/statistics/ProgressBar";
 import { getUserApi } from "../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
 import { getStats } from "../api/account/statistics";
@@ -32,6 +35,7 @@ export async function getServerSideProps(context) {
       },
     };
   }
+
   const username = session.username;
   const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
@@ -103,6 +107,27 @@ export async function getServerSideProps(context) {
 }
 
 export default function Statistics({ data, profile, progress, BASE_URL }) {
+  const router = useRouter();
+  const alerts = {
+    premium: "You are now a premium user!",
+    cancel: "You cancelled your subscription.",
+  };
+
+  const { data: session } = useSession();
+  if (typeof window !== "undefined" && window.localStorage) {
+    if (router.query.alert) {
+      localStorage.removeItem("premium-intent");
+    }
+    if (
+      session &&
+      session.accountType !== "premium" &&
+      localStorage.getItem("premium-intent")
+    ) {
+      localStorage.removeItem("premium-intent");
+      router.push("/api/stripe");
+    }
+  }
+
   return (
     <>
       <PageHead
@@ -112,6 +137,10 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
 
       <Page>
         <Navigation />
+
+        {router.query.alert && (
+          <Alert type="info" message={alerts[router.query.alert]} />
+        )}
 
         <UserMini
           BASE_URL={BASE_URL}
@@ -156,6 +185,70 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
             </div>
             <DynamicChart data={data.profile.daily} />
           </div>
+        )}
+
+        {session && session.accountType === "premium" && profile.stats && (
+          <ul
+            role="list"
+            className="grid grid-cols-1 gap-x-6 gap-y-8 lg:grid-cols-2 xl:gap-x-8 mb-8"
+          >
+            {profile.stats.referers && (
+              <li className="overflow-hidden rounded-xl border border-gray-200">
+                <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
+                  <FaMousePointer className="h-6 w-6 text-primary-medium" />
+                  <div className="text-sm font-medium leading-6 text-primary-medium">
+                    Referrers
+                  </div>
+                </div>
+                <dl className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
+                  {Object.entries(profile.stats.referers)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 5)
+                    .map((referer) => (
+                      <div
+                        key={referer[0]}
+                        className="flex justify-between gap-x-4 py-3"
+                      >
+                        <dt className="text-primary-medium dark:text-primary-low">
+                          {referer[0].replaceAll("|", ".")}
+                        </dt>
+                        <dd className="text-primary-medium dark:text-primary-low">
+                          {referer[1]}
+                        </dd>
+                      </div>
+                    ))}
+                </dl>
+              </li>
+            )}
+            {profile.stats.countries && (
+              <li className="overflow-hidden rounded-xl border border-gray-200">
+                <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
+                  <FaMapPin className="h-6 w-6 text-primary-medium" />
+                  <div className="text-sm font-medium leading-6 text-primary-medium">
+                    Locations
+                  </div>
+                </div>
+                <dl className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
+                  {Object.entries(profile.stats.countries)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 5)
+                    .map((country) => (
+                      <div
+                        key={country[0]}
+                        className="flex justify-between gap-x-4 py-3"
+                      >
+                        <dt className="text-primary-medium dark:text-primary-low">
+                          {country[0].replaceAll("|", ".")}
+                        </dt>
+                        <dd className="text-primary-medium dark:text-primary-low">
+                          {country[1]}
+                        </dd>
+                      </div>
+                    ))}
+                </dl>
+              </li>
+            )}
+          </ul>
         )}
 
         <table className="min-w-full divide-y divide-primary-medium-low">

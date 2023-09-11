@@ -2,6 +2,8 @@ const z = require("zod");
 
 const envSchema = z.object({
   NEXT_PUBLIC_BASE_URL: z.string().url().default("http://localhost:3000"),
+  STRIPE_PREMIUM_PRICING_ID: z.string().optional(),
+  STRIPE_MANAGE_PLAN_URL: z.string().optional(),
 });
 
 const clientEnv = envSchema.safeParse(process.env);

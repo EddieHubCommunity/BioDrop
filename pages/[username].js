@@ -55,7 +55,11 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { data: profile, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+    props: {
+      data: profile,
+      settings: { ...profile.settings, type: profile.accountType },
+      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
+    },
   };
 }
 
@@ -97,6 +101,6 @@ export default function User({ data, BASE_URL }) {
   );
 }
 
-User.getLayout = function getLayout(page) {
-  return <MultiLayout>{page}</MultiLayout>;
+User.getLayout = function getLayout(page, settings) {
+  return <MultiLayout settings={settings}>{page}</MultiLayout>;
 };
