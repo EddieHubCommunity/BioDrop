@@ -1,3 +1,5 @@
+import Label from "./Label";
+
 export default function Select({
   value,
   onChange,
@@ -8,11 +10,9 @@ export default function Select({
   ...restProps
 }) {
   return (
-    <>
+    <div>
       {label && (
-        <label htmlFor={name} className={`sr-only ${className} hidden md:block`}>
-          {label}
-        </label>
+        <Label htmlFor={name} className={className}>{label}</Label>
       )}
       <select
         id={name}
@@ -33,6 +33,6 @@ export default function Select({
           </option>
         ))}
       </select>
-    </>
+    </div>
   );
 }

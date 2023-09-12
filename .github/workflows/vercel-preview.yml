@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - date-input
+      - premium-strip
 
 jobs:
   deploy:
@@ -29,7 +29,7 @@ jobs:
           echo "$PERCENTAGE" >> $GITHUB_STEP_SUMMARY
           du -h -d 3 .vercel/output/functions/en
           vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
-          vercel alias --scope ${{ secrets.VERCEL_TEAM_ID }} --token ${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` linkfree-preview.vercel.app
+          vercel alias --scope ${{ secrets.VERCEL_TEAM_ID }} --token ${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` biodrop-preview.vercel.app
 
   load-data:
     runs-on: ubuntu-latest
@@ -37,4 +37,4 @@ jobs:
     steps:
       - name: load json files
         if: steps.changes.outputs.data == 'true'
-        run: curl -f https://linkfree-preview.vercel.app/api/system/reload?secret=${{ secrets.LINKFREE_API_SECRET_PREVIEW }}
+        run: curl -L -f https://biodrop-preview.vercel.app/api/system/reload?secret=${{ secrets.BIODROP_API_SECRET_PREVIEW }}

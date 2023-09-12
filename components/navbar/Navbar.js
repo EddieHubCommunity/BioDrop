@@ -1,7 +1,6 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef, useState } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
-import Image from "next/image";
 
 import app from "@config/app.json";
 import NavLink from "@components/navbar/NavLink";
@@ -9,9 +8,11 @@ import Link from "@components/Link";
 import { useTheme } from "next-themes";
 import { classNames } from "@services/utils/classNames";
 
-import FaGithub from "@components/icons/FaGithub";
+import { FaGithub } from "react-icons/fa";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
 import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
+import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
+import LogoWide from "@public/logos/LogoWide";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,7 +22,6 @@ export default function Navbar() {
   const navConRef = useRef();
   const { data: session } = useSession();
   const { systemTheme, theme, setTheme } = useTheme();
-  const getLink = (path) => `${router.basePath}${path}`;
 
   useEffect(() => {
     setMounted(true);
@@ -96,27 +96,33 @@ export default function Navbar() {
       name: "Discover",
       url: "/discover",
     },
+    // {
+    //   name: "Pricing",
+    //   url: "/pricing",
+    // },
   ];
 
   const authControls = () => (
     <>
       {!session && (
-        <NavLink
-          item={{ name: "Login / Sign up", url: "/login" }}
-          setIsOpen={setIsOpen}
-          onClick={(e) => {
-            e.preventDefault();
-            signIn();
-          }}
-        />
+        <>
+          <NavLink
+            item={{ name: "Login", url: "/login" }}
+            setIsOpen={setIsOpen}
+            onClick={(e) => {
+              e.preventDefault();
+              signIn();
+            }}
+          />
+          <NavLink
+            item={{ name: "Sign up", url: "/pricing" }}
+            setIsOpen={setIsOpen}
+          />
+        </>
       )}
 
       {session && (
         <>
-          <NavLink
-            item={{ name: "Profile", url: `/${session.username}` }}
-            setIsOpen={setIsOpen}
-          />
           <NavLink
             item={{ name: "Account", url: "/account/statistics" }}
             setIsOpen={setIsOpen}
@@ -133,20 +139,20 @@ export default function Navbar() {
 
   return (
     <header className="min-h-full" ref={navConRef}>
-      <nav className="relative top-0 bg-primary-high dark:bg-primary-medium">
+      <nav
+        className={classNames(
+          "relative top-0 bg-primary-high dark:bg-primary-medium",
+          session &&
+            session.accountType === "premium" &&
+            "border-b-2 border-tertiary-medium"
+        )}
+      >
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
                 <Link href="/">
-                  <Image
-                    src={getLink("/logo192.png")}
-                    alt="EddieHub logo"
-                    width={32}
-                    height={32}
-                    priority
-                    onClick={() => setIsOpen(false)}
-                  />
+                  <LogoWide onClick={() => setIsOpen(false)} width={128} />
                 </Link>
               </div>
               <div className="hidden md:block">
@@ -167,7 +173,7 @@ export default function Navbar() {
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
                 <Link
-                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  href={BASE_GITHUB_PROJECT_URL}
                   target="_blank"
                   rel="noreferrer"
                   aria-current="page"
@@ -255,7 +261,7 @@ export default function Navbar() {
                   setIsOpen={setIsOpen}
                 />
                 <Link
-                  href="https://github.com/EddieHubCommunity/LinkFree"
+                  href={BASE_GITHUB_PROJECT_URL}
                   target="_blank"
                   rel="noreferrer"
                   aria-current="page"

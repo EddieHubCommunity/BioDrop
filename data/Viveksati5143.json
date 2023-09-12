@@ -69,6 +69,14 @@
       "url": "https://twitter.com/Vivek__twts/status/1678303627616702464?s=20"
     },
     {
+      "title": "Top 100 contributor GSSoC'23",
+      "date": "August 2023",
+      "icon": "SiTarget",
+      "color": "grey",
+      "description": "Ranked 69 among the 1557 active contributors from different countries",
+      "url": "https://gssoc.girlscript.tech/leaderboard"
+    },
+    {
       "isGoal": true,
       "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
       "date": "2023",

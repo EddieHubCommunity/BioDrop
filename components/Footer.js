@@ -1,14 +1,18 @@
-import Image from "next/image";
+import va from "@vercel/analytics";
 
-import FaLinkedin from "@components/icons/FaLinkedin";
-import FaGithub from "@components/icons/FaGithub";
-import FaYoutube from "@components/icons/FaYoutube";
+import {
+  FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
 
-import CurrencyDollarIcon from "@heroicons/react/24/outline/CurrencyDollarIcon";
 import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
-import Button from "./Button";
 import Link from "@components/Link";
 import app from "@config/app.json";
+import { BASE_GITHUB_PROJECT_URL, BASE_GITHUB_URL } from "@constants/index";
+import LogoWide from "@public/logos/LogoWide";
 
 export default function Footer() {
   const navigation = {
@@ -16,7 +20,6 @@ export default function Footer() {
       { name: "Search", href: "/search", external: false },
       { name: "Events", href: "/events", external: false },
       { name: "Map", href: "/map", external: false },
-      { name: "Premium", href: "/premium", external: false },
       { name: "Login", href: "/auth/signin", external: false },
     ],
     support: [
@@ -34,7 +37,7 @@ export default function Footer() {
       { name: "Json Playground", href: "/playground", external: false },
       {
         name: "Contributing Guide",
-        href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/CONTRIBUTING.md",
+        href: BASE_GITHUB_PROJECT_URL + "/blob/main/CONTRIBUTING.md",
         external: true,
       },
       { name: "Road map", href: "/roadmap", external: false },
@@ -42,7 +45,7 @@ export default function Footer() {
     community: [
       {
         name: "EddieHub GitHub Org",
-        href: "https://github.com/EddieHubCommunity",
+        href: BASE_GITHUB_URL,
         external: true,
       },
       {
@@ -50,32 +53,46 @@ export default function Footer() {
         href: "/maintainers",
         external: false,
       },
-      { name: "Resources", href: "/docs/community-resources", external: false },
+
       {
         name: "Contributors",
-        href: "https://github.com/EddieHubCommunity/LinkFree/graphs/contributors",
+        href: BASE_GITHUB_PROJECT_URL + "/graphs/contributors",
         external: true,
       },
+      { name: "Resources", href: "/docs/community-resources", external: false },
+      { name: "Blog & Newsletter", href: "https://biodrop.substack.com/", external: true },
       { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
       {
         name: "License",
-        href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/LICENSE",
+        href: BASE_GITHUB_PROJECT_URL + "/blob/main/LICENSE",
         external: true,
       },
-      { name: "Terms", href: "/terms", external: false },
+      { name: "Terms", href: "/docs/terms", external: false },
     ],
     social: [
       {
         name: "LinkedIn",
-        href: "https://www.linkedin.com/company/linkfree.eddiehub/",
+        href: "https://www.linkedin.com/company/biodrop-io/",
         external: true,
         icon: FaLinkedin,
       },
       {
+        name: "Twitter",
+        href: "https://twitter.com/biodrop_io/",
+        external: true,
+        icon: FaTwitter,
+      },
+      {
+        name: "Instagram",
+        href: "https://instagram.com/biodrop_io/",
+        external: true,
+        icon: FaInstagram,
+      },
+      {
         name: "GitHub",
-        href: "https://github.com/EddieHubCommunity/LinkFree",
+        href: BASE_GITHUB_PROJECT_URL,
         external: true,
         icon: FaGithub,
       },
@@ -95,12 +112,7 @@ export default function Footer() {
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <Image
-            width={100}
-            height={100}
-            src="/logo512.png"
-            alt="LinkFree logo"
-          />
+          <LogoWide width={300} />
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
@@ -114,6 +126,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
+                        onClick={() => va.track(`footer`, { link: item.name })}
                       >
                         {item.name}
                       </Link>
@@ -132,6 +145,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
+                        onClick={() => va.track(`footer`, { link: item.name })}
                       >
                         {item.name}
                       </Link>
@@ -152,6 +166,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
+                        onClick={() => va.track(`footer`, { link: item.name })}
                       >
                         {item.name}
                       </Link>
@@ -170,6 +185,7 @@ export default function Footer() {
                         href={item.href}
                         className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
                         target={item.external ? "_blank" : "_self"}
+                        onClick={() => va.track(`footer`, { link: item.name })}
                       >
                         {item.name}
                       </Link>
@@ -179,22 +195,6 @@ export default function Footer() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24 flex flex-col lg:flex-row items-center justify-between">
-          <div className="flex-1 text-center lg:text-left pb-4 lg:pb-0">
-            <h3 className="font-semibold leading-6 text-white">
-              Subscribe to learn more about future Premium Paid Features
-            </h3>
-            <p className="mt-2 text-sm leading-6 text-primary-low-high">
-              LinkFree will always be 100% Open Source and have a free tier.
-            </p>
-          </div>
-          <Button primary={true} href="/premium">
-            <span className="mr-2">
-              <CurrencyDollarIcon className="h-6 w-6" />
-            </span>
-            <span>Learn more about Premium</span>
-          </Button>
         </div>
         <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
           <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
@@ -207,6 +207,7 @@ export default function Footer() {
                 href={item.href}
                 className="text-primary-low-high hover:text-primary-low"
                 target={item.external ? "_blank" : "_self"}
+                onClick={() => va.track(`socials`, { link: item.name })}
               >
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
@@ -214,8 +215,9 @@ export default function Footer() {
             ))}
           </div>
           <Link
-            href="https://github.com/EddieHubCommunity/LinkFree"
+            href={BASE_GITHUB_PROJECT_URL}
             className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
+            onClick={() => va.track(`footer`, { link: "powered by EddieHub" })}
           >
             <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
             Powered by EddieHub

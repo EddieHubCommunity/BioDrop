@@ -12,6 +12,8 @@ import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
+import { PROJECT_NAME } from "@constants/index";
+import Bulb from "@components/Bulb";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -97,8 +99,8 @@ export default function Events({ events }) {
   return (
     <>
       <PageHead
-        title="LinkFree admin over"
-        description="Overview for LinkFree admins"
+        title={`${PROJECT_NAME} admin over`}
+        description={`Overview for ${PROJECT_NAME} admins`}
       />
       <Page>
         <Navigation />
@@ -136,9 +138,10 @@ export default function Events({ events }) {
                   <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
                     {event.name}
                   </p>
-                  <p className="mt-1 truncate text-xs leading-5 text-primary-medium dark:text-primary-low-medium">
-                    {event.username}
-                  </p>
+                  <div className="mt-1 truncate text-xs leading-5 text-primary-medium dark:text-primary-low-medium flex flex-row content-center gap-2 place-items-center">
+                    <Bulb isEnabled={!event.isShadowBanned} />
+                    <span>{event.username}</span>
+                  </div>
                 </div>
               </div>
               <div className="hidden sm:flex sm:flex-col sm:items-end">
