@@ -1,6 +1,9 @@
 {
   "version": "2.15.8",
-  "alerts": [],
+  "alerts": [{
+    "type": "info",
+    "message": "Font Awesome profile icons have been updated to v6. Some icons have been renamed or changed appearance. Check https://www.biodrop.io/icons for all available icons."
+  }],
   "layouts": [
     "classic",
     "inline",
