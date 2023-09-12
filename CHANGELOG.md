@@ -1,3 +1,12 @@
+## [2.17.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.2...v2.17.3) (2023-09-12)
+
+
+### Bug Fixes
+
+* link icon optional ([#8953](https://github.com/EddieHubCommunity/BioDrop/issues/8953)) ([b0fee54](https://github.com/EddieHubCommunity/BioDrop/commit/b0fee54a4cef6b829658b93b9e09a446e2dce45c))
+
+
+
 ## [2.17.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.1...v2.17.2) (2023-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * hide fake info ([#9017](https://github.com/EddieHubCommunity/BioDrop/issues/9017)) ([7ac42aa](https://github.com/EddieHubCommunity/BioDrop/commit/7ac42aaf6d9fe2535ac7f53cb4c4340dc910ff60))
-
-
-
-## [2.15.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.9...v2.15.10) (2023-09-11)
-
-
-### Bug Fixes
-
-* update the biodrop-cli ([#9002](https://github.com/EddieHubCommunity/BioDrop/issues/9002)) ([ba54d9e](https://github.com/EddieHubCommunity/BioDrop/commit/ba54d9ebf8efcc2c4632afbfb259dcfc86d43608))
 
 
 
