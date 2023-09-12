@@ -1,3 +1,12 @@
+## [2.17.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.1...v2.17.2) (2023-09-12)
+
+
+### Bug Fixes
+
+* search query param when empty ([#8999](https://github.com/EddieHubCommunity/BioDrop/issues/8999)) ([3ea87d0](https://github.com/EddieHubCommunity/BioDrop/commit/3ea87d0c720db8f990a3132fc77017b80b80f0d5))
+
+
+
 ## [2.17.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.0...v2.17.1) (2023-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update the biodrop-cli ([#9002](https://github.com/EddieHubCommunity/BioDrop/issues/9002)) ([ba54d9e](https://github.com/EddieHubCommunity/BioDrop/commit/ba54d9ebf8efcc2c4632afbfb259dcfc86d43608))
-
-
-
-## [2.15.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.8...v2.15.9) (2023-09-08)
-
-
-### Bug Fixes
-
-* search result card zoom on hover ([#8993](https://github.com/EddieHubCommunity/BioDrop/issues/8993)) ([b08ebc8](https://github.com/EddieHubCommunity/BioDrop/commit/b08ebc87e8b97ee355fdbdc08eb5d37f9e82c2ef))
 
 
 
