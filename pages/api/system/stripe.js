@@ -264,10 +264,19 @@ export async function webhookHandler(req, res) {
     case "customer.subscription.resumed":
     case "invoice.paid":
     case "invoice.payment_succeeded":
+      const update = { type: "premium" };
+      // check if they already had a trial
+      const user = await User.findOne({
+        stripeCustomerId: event.data.object.customer,
+      });
+      if (!user.premiumTrialStartDate) {
+        update.premiumTrialStartDate = new Date();
+      }
+
       // successful payment
       await User.findOneAndUpdate(
         { stripeCustomerId: event.data.object.customer },
-        { type: "premium" }
+        update
       );
       break;
     case "payment_intent.payment_failed":
