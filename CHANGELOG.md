@@ -1,3 +1,12 @@
+# [2.17.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.16.0...v2.17.0) (2023-09-12)
+
+
+### Features
+
+* highlight profile status ([#9027](https://github.com/EddieHubCommunity/BioDrop/issues/9027)) ([ad65552](https://github.com/EddieHubCommunity/BioDrop/commit/ad65552fd450e6837c4ddc8b708491e477cb6719))
+
+
+
 # [2.16.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.10...v2.16.0) (2023-09-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove decode links as id is used ([#8991](https://github.com/EddieHubCommunity/BioDrop/issues/8991)) ([237b19c](https://github.com/EddieHubCommunity/BioDrop/commit/237b19cb7ba7e5720a12fe81760a73196a53ff95))
-
-
-
-## [2.15.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.6...v2.15.7) (2023-09-08)
-
-
-### Bug Fixes
-
-* all events ([#8921](https://github.com/EddieHubCommunity/BioDrop/issues/8921)) ([64b73e2](https://github.com/EddieHubCommunity/BioDrop/commit/64b73e2475334839891a1a5e90f59d38b4471131))
 
 
 
