@@ -89,8 +89,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   };
 
   const handleTagRemove = (tagToRemove) => {
-    const indexOfTagToRemove = tags.findIndex((tag) => tag === tagToRemove);
-    const updatedTags = tags.filter((_, index) => index !== indexOfTagToRemove);
+    const updatedTags = tags.filter((tag) => tag !== tagToRemove);
     setTags(updatedTags);
   };
 
