@@ -1,3 +1,12 @@
+## [2.18.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.1...v2.18.2) (2023-09-13)
+
+
+### Bug Fixes
+
+* rename icon for premium stats ([#9049](https://github.com/EddieHubCommunity/BioDrop/issues/9049)) ([01f076f](https://github.com/EddieHubCommunity/BioDrop/commit/01f076feed320a741abd8c5f2400812eeadff685))
+
+
+
 ## [2.18.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.0...v2.18.1) (2023-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * search query param when empty ([#8999](https://github.com/EddieHubCommunity/BioDrop/issues/8999)) ([3ea87d0](https://github.com/EddieHubCommunity/BioDrop/commit/3ea87d0c720db8f990a3132fc77017b80b80f0d5))
-
-
-
-## [2.17.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.0...v2.17.1) (2023-09-12)
-
-
-### Bug Fixes
-
-* map popup link in darkmode ([#9033](https://github.com/EddieHubCommunity/BioDrop/issues/9033)) ([9859f1a](https://github.com/EddieHubCommunity/BioDrop/commit/9859f1a69adad8cfbcf849103a576837888a4bc9)), closes [#8979](https://github.com/EddieHubCommunity/BioDrop/issues/8979)
 
 
 
