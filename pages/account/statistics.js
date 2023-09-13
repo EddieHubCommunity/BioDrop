@@ -3,7 +3,7 @@ import { getServerSession } from "next-auth/next";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
-import { FaMapPin, FaMousePointer } from "react-icons/fa6";
+import { FaMapPin, FaArrowPointer } from "react-icons/fa6";
 
 import ProgressBar from "@components/statistics/ProgressBar";
 import { getUserApi } from "../api/profiles/[username]";
@@ -195,7 +195,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
             {profile.stats.referers && (
               <li className="overflow-hidden rounded-xl border border-gray-200">
                 <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
-                  <FaMousePointer className="h-6 w-6 text-primary-medium" />
+                  <FaArrowPointer className="h-6 w-6 text-primary-medium" />
                   <div className="text-sm font-medium leading-6 text-primary-medium">
                     Referrers
                   </div>
