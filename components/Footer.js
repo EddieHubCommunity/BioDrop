@@ -4,9 +4,9 @@ import {
   FaLinkedin,
   FaGithub,
   FaInstagram,
-  FaTwitter,
+  FaXTwitter,
   FaYoutube,
-} from "react-icons/fa";
+} from "react-icons/fa6";
 
 import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
 import Link from "@components/Link";
@@ -60,7 +60,11 @@ export default function Footer() {
         external: true,
       },
       { name: "Resources", href: "/docs/community-resources", external: false },
-      { name: "Blog & Newsletter", href: "https://biodrop.substack.com/", external: true },
+      {
+        name: "Blog & Newsletter",
+        href: "https://biodrop.substack.com/",
+        external: true,
+      },
       { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
@@ -82,7 +86,7 @@ export default function Footer() {
         name: "Twitter",
         href: "https://twitter.com/biodrop_io/",
         external: true,
-        icon: FaTwitter,
+        icon: FaXTwitter,
       },
       {
         name: "Instagram",
