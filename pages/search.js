@@ -105,10 +105,13 @@ export default function Search({
       setUsers(randUsers);
       //Removing the not found field when the input field is empty
       setNotFound();
-      return;
-    }
-
-    if (inputValue.length < 2) {
+      router.replace(
+        {
+          pathname: "/search",
+        },
+        undefined,
+        { shallow: true }
+      );
       return;
     }
 
