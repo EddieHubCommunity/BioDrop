@@ -1,3 +1,12 @@
+# [2.21.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.1...v2.21.0) (2023-09-13)
+
+
+### Features
+
+* admin stats of premium users ([#9061](https://github.com/EddieHubCommunity/BioDrop/issues/9061)) ([64650ed](https://github.com/EddieHubCommunity/BioDrop/commit/64650ed028f63e8171422d619d83d38d912f099f))
+
+
+
 ## [2.20.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.0...v2.20.1) (2023-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * qr code layout in small screens ([#9044](https://github.com/EddieHubCommunity/BioDrop/issues/9044)) ([d6a8872](https://github.com/EddieHubCommunity/BioDrop/commit/d6a8872ade43c19a0887e06cdaaccbdce96a5d75))
-
-
-
-## [2.18.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.1...v2.18.2) (2023-09-13)
-
-
-### Bug Fixes
-
-* rename icon for premium stats ([#9049](https://github.com/EddieHubCommunity/BioDrop/issues/9049)) ([01f076f](https://github.com/EddieHubCommunity/BioDrop/commit/01f076feed320a741abd8c5f2400812eeadff685))
 
 
 
