@@ -3,7 +3,6 @@ import { CheckIcon, MinusIcon } from "@heroicons/react/20/solid";
 import { authOptions } from "./api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
-import { clientEnv } from "@config/schemas/clientSchema";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { classNames } from "@services/utils/classNames";
@@ -21,11 +20,11 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { user, clientEnv },
+    props: { user },
   };
 }
 
-export default function Premium({ user, clientEnv }) {
+export default function Premium({ user }) {
   const tiers = [
     {
       name: "Free",
@@ -49,7 +48,7 @@ export default function Premium({ user, clientEnv }) {
         },
         action: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
-            return "/api/stripe"; //return clientEnv.STRIPE_MANAGE_PLAN_URL;
+            return "/api/stripe";
           }
           if (user.isLoggedIn && user.accountType === "free") {
             return "/pricing";
@@ -75,7 +74,7 @@ export default function Premium({ user, clientEnv }) {
       description:
         "Customise your Profile further to reach a greater audience.",
       mostPopular: true,
-      badge: "30 day FREE trial (NO credit card required)",
+      badge: "Free 30 day trial (NO credit card required)",
       button: {
         label: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
@@ -90,7 +89,7 @@ export default function Premium({ user, clientEnv }) {
         },
         action: () => {
           if (user.isLoggedIn && user.accountType === "premium") {
-            return clientEnv.STRIPE_MANAGE_PLAN_URL;
+            return "/api/stripe";
           }
           if (user.isLoggedIn && user.accountType === "free") {
             return "/api/stripe";
@@ -253,7 +252,7 @@ export default function Premium({ user, clientEnv }) {
           tiers: { Free: true, Premium: true },
         },
         {
-          name: "Total Daily Link Clicks",
+          name: "Total Daily Link Clicks (coming soon)",
           description:
             "Analytics on the total number of clicks for each individual link in your Profile per day over the last 30 days",
           tiers: { Free: false, Premium: true },
@@ -296,10 +295,19 @@ export default function Premium({ user, clientEnv }) {
     },
   ];
 
-  const badge = (text) => (
-    <span className="inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-primary-medium dark:text-primary-low ring-1 ring-inset ring-green-500 shadow-xl shadow-green-500/50 mb-4">
+  const badge = (
+    text,
+    classnames1 = "shadow-xl shadow-green-500/50",
+    classnames2 = "animate-ping"
+  ) => (
+    <span
+      className={classNames(
+        "inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-primary-medium dark:text-primary-low ring-1 ring-inset ring-green-500 mb-4",
+        classnames1
+      )}
+    >
       <svg
-        className="h-1.5 w-1.5 fill-green-500 animate-ping"
+        className={classNames("h-1.5 w-1.5 fill-green-500", classnames2)}
         viewBox="0 0 6 6"
         aria-hidden="true"
       >
@@ -312,8 +320,8 @@ export default function Premium({ user, clientEnv }) {
   return (
     <>
       <PageHead
-        title="LinkFree Premium Features Pricing"
-        description="LinkFree is 100% Open Source and FREE, but we will have some paid Premium features in the future"
+        title="BioDrop Premium Features Pricing"
+        description="BioDrop is 100% Open Source and FREE, but we will have some paid Premium features in the future"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Pricing</h1>
@@ -333,15 +341,13 @@ export default function Premium({ user, clientEnv }) {
                   "p-8"
                 )}
               >
-                <div className="flex justify-between">
-                  <h3
-                    id={tier.id}
-                    className="text-sm font-semibold leading-6 text-gray-900"
-                  >
-                    {tier.name}
-                  </h3>
-                  {tier.badge && badge(tier.badge)}
-                </div>
+                <h3
+                  id={tier.id}
+                  className="text-sm font-semibold leading-6 text-gray-900"
+                >
+                  {tier.name}
+                </h3>
+                {tier.badge && badge(tier.badge)}
                 <p className="mt-2 flex items-baseline gap-x-1 text-gray-900 mb-2">
                   <span className="text-4xl font-bold text-primary-medium dark:text-primary-low">
                     {tier.priceMonthly}

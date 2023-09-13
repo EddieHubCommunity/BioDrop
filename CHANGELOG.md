@@ -1,3 +1,30 @@
+## [2.20.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.0...v2.20.1) (2023-09-13)
+
+
+### Bug Fixes
+
+* upgrade the BioDrop CLI ([#9058](https://github.com/EddieHubCommunity/BioDrop/issues/9058)) ([0386250](https://github.com/EddieHubCommunity/BioDrop/commit/038625036c7d1fa25822c7b97c4ae07291bc17e6))
+
+
+
+# [2.20.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.19.0...v2.20.0) (2023-09-13)
+
+
+### Features
+
+* premium ([#8944](https://github.com/EddieHubCommunity/BioDrop/issues/8944)) ([e590229](https://github.com/EddieHubCommunity/BioDrop/commit/e590229bae347ec971eb624fa243713f9c3fe1fc))
+
+
+
+# [2.19.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.3...v2.19.0) (2023-09-13)
+
+
+### Features
+
+* tags input ([#8954](https://github.com/EddieHubCommunity/BioDrop/issues/8954)) ([be0f7ab](https://github.com/EddieHubCommunity/BioDrop/commit/be0f7ab58ec1bb15a213b7e6c87fc72ecfe1a66d))
+
+
+
 ## [2.18.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.2...v2.18.3) (2023-09-13)
 
 
@@ -13,33 +40,6 @@
 ### Bug Fixes
 
 * rename icon for premium stats ([#9049](https://github.com/EddieHubCommunity/BioDrop/issues/9049)) ([01f076f](https://github.com/EddieHubCommunity/BioDrop/commit/01f076feed320a741abd8c5f2400812eeadff685))
-
-
-
-## [2.18.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.0...v2.18.1) (2023-09-13)
-
-
-### Bug Fixes
-
-* update react-icons + migrate to Font Awesome 6 ([#8995](https://github.com/EddieHubCommunity/BioDrop/issues/8995)) ([5395e63](https://github.com/EddieHubCommunity/BioDrop/commit/5395e63eb03d1baba42df7d897e51e3a013f7165))
-
-
-
-# [2.18.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.3...v2.18.0) (2023-09-13)
-
-
-### Features
-
-* repo delete confirmation dialog ([#8960](https://github.com/EddieHubCommunity/BioDrop/issues/8960)) ([6648073](https://github.com/EddieHubCommunity/BioDrop/commit/6648073a0b2c7da846b38d976fda392638f33f51))
-
-
-
-## [2.17.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.2...v2.17.3) (2023-09-12)
-
-
-### Bug Fixes
-
-* link icon optional ([#8953](https://github.com/EddieHubCommunity/BioDrop/issues/8953)) ([b0fee54](https://github.com/EddieHubCommunity/BioDrop/commit/b0fee54a4cef6b829658b93b9e09a446e2dce45c))
 
 
 
