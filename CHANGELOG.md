@@ -1,3 +1,12 @@
+# [2.20.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.19.0...v2.20.0) (2023-09-13)
+
+
+### Features
+
+* premium ([#8944](https://github.com/EddieHubCommunity/BioDrop/issues/8944)) ([e590229](https://github.com/EddieHubCommunity/BioDrop/commit/e590229bae347ec971eb624fa243713f9c3fe1fc))
+
+
+
 # [2.19.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.3...v2.19.0) (2023-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update react-icons + migrate to Font Awesome 6 ([#8995](https://github.com/EddieHubCommunity/BioDrop/issues/8995)) ([5395e63](https://github.com/EddieHubCommunity/BioDrop/commit/5395e63eb03d1baba42df7d897e51e3a013f7165))
-
-
-
-# [2.18.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.3...v2.18.0) (2023-09-13)
-
-
-### Features
-
-* repo delete confirmation dialog ([#8960](https://github.com/EddieHubCommunity/BioDrop/issues/8960)) ([6648073](https://github.com/EddieHubCommunity/BioDrop/commit/6648073a0b2c7da846b38d976fda392638f33f51))
 
 
 
