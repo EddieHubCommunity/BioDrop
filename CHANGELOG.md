@@ -1,3 +1,12 @@
+# [2.19.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.3...v2.19.0) (2023-09-13)
+
+
+### Features
+
+* tags input ([#8954](https://github.com/EddieHubCommunity/BioDrop/issues/8954)) ([be0f7ab](https://github.com/EddieHubCommunity/BioDrop/commit/be0f7ab58ec1bb15a213b7e6c87fc72ecfe1a66d))
+
+
+
 ## [2.18.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.2...v2.18.3) (2023-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * repo delete confirmation dialog ([#8960](https://github.com/EddieHubCommunity/BioDrop/issues/8960)) ([6648073](https://github.com/EddieHubCommunity/BioDrop/commit/6648073a0b2c7da846b38d976fda392638f33f51))
-
-
-
-## [2.17.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.2...v2.17.3) (2023-09-12)
-
-
-### Bug Fixes
-
-* link icon optional ([#8953](https://github.com/EddieHubCommunity/BioDrop/issues/8953)) ([b0fee54](https://github.com/EddieHubCommunity/BioDrop/commit/b0fee54a4cef6b829658b93b9e09a446e2dce45c))
 
 
 
