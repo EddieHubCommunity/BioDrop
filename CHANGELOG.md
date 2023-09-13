@@ -1,3 +1,12 @@
+## [2.20.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.0...v2.20.1) (2023-09-13)
+
+
+### Bug Fixes
+
+* upgrade the BioDrop CLI ([#9058](https://github.com/EddieHubCommunity/BioDrop/issues/9058)) ([0386250](https://github.com/EddieHubCommunity/BioDrop/commit/038625036c7d1fa25822c7b97c4ae07291bc17e6))
+
+
+
 # [2.20.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.19.0...v2.20.0) (2023-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * rename icon for premium stats ([#9049](https://github.com/EddieHubCommunity/BioDrop/issues/9049)) ([01f076f](https://github.com/EddieHubCommunity/BioDrop/commit/01f076feed320a741abd8c5f2400812eeadff685))
-
-
-
-## [2.18.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.0...v2.18.1) (2023-09-13)
-
-
-### Bug Fixes
-
-* update react-icons + migrate to Font Awesome 6 ([#8995](https://github.com/EddieHubCommunity/BioDrop/issues/8995)) ([5395e63](https://github.com/EddieHubCommunity/BioDrop/commit/5395e63eb03d1baba42df7d897e51e3a013f7165))
 
 
 
