@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { RiCodeSSlashFill, RiEdit2Fill, RiFeedbackLine } from "react-icons/ri";
 
 const className =
-  "hover:bg-primary-low group hover:text-secondary-high dark:hover:text-secondary-high flex w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium";
+  "hover:bg-slate-200 duration-300 group hover:text-secondary-high dark:hover:text-secondary-high flex w-full text-left rounded-md p-2 gap-x-3 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium";
 
 const iconClass = "h-5 w-5 self-center";
 
