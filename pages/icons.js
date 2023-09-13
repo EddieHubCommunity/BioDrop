@@ -1,5 +1,5 @@
 import { useState } from "react";
-import * as FaIcons from "react-icons/fa";
+import * as FaIcons from "react-icons/fa6";
 import * as SiIcons from "react-icons/si";
 
 import Alert from "@components/Alert";
