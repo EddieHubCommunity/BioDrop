@@ -12,6 +12,7 @@ import Alert from "@components/Alert";
 import { getSettingsApi } from "pages/api/account/manage/settings";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
+import Link from "@components/Link";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -36,14 +37,22 @@ export async function getServerSideProps(context) {
 
   return {
     props: {
+      username,
       settings,
       accountType: session.accountType,
       BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
+      PREMIUM_SUPPORT_URL: clientEnv.NEXT_PUBLIC_PREMIUM_SUPPORT_URL,
     },
   };
 }
 
-export default function ManageSettings({ settings, accountType, BASE_URL }) {
+export default function ManageSettings({
+  username,
+  settings,
+  accountType,
+  BASE_URL,
+  PREMIUM_SUPPORT_URL,
+}) {
   const router = useRouter();
   const { success } = router.query;
   const [showNotification, setShowNotification] = useState(false);
@@ -51,6 +60,9 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
   const [hideFooter, setHideFooter] = useState(settings.hideFooter || false);
 
   const toggle = async (setting) => {
+    if (accountType !== "premium") {
+      return;
+    }
     const res = await fetch(`${BASE_URL}/api/account/manage/settings`, {
       method: "PATCH",
       headers: {
@@ -71,7 +83,7 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
     <>
       <PageHead
         title="Manage Profile settings"
-        description="Here you can manage your LinkFree Proile settings."
+        description="Here you can manage your BioDrop Proile settings."
       />
 
       <Page>
@@ -81,9 +93,7 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
             message={"Event Created/Updated Successfully"}
           />
         )}
-
         <Navigation />
-
         <Notification
           show={showNotification}
           type="success"
@@ -91,14 +101,12 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
           message="Premium updated"
           additionalMessage="Your Profile Premium settings have been updated."
         />
-
         {accountType !== "premium" && (
           <Alert
             type="warning"
             message="These are Premium features. Please upgrade your account for these to take effect on your public Profile."
           />
         )}
-
         <form>
           <fieldset>
             <legend className="sr-only">Premium features</legend>
@@ -118,14 +126,14 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
                     <div className="flex items-center gap-x-3">
                       <Toggle
                         text1="Hide Navbar on your Profile"
-                        enabled={hideNavbar}
+                        enabled={accountType === "premium" && hideNavbar}
                         setEnabled={() => toggle("hideNavbar")}
                       />
                     </div>
                     <div className="flex items-center gap-x-3">
                       <Toggle
                         text1="Hide Footer on your Profile"
-                        enabled={hideFooter}
+                        enabled={accountType === "premium" && hideFooter}
                         setEnabled={() => toggle("hideFooter")}
                       />
                     </div>
@@ -135,6 +143,14 @@ export default function ManageSettings({ settings, accountType, BASE_URL }) {
             </div>
           </fieldset>
         </form>
+        {accountType === "premium" && (
+          <p>
+            For help with your Premium account settings:{" "}
+            <Link href={`${PREMIUM_SUPPORT_URL} (${username})`} target="_blank">
+              Contact Support
+            </Link>
+          </p>
+        )}
       </Page>
     </>
   );

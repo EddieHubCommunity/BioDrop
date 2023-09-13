@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
 
-const defaultIcons = 4;
+const defaultIcons = 5;
 
 test("Icon search has title", async ({ page }) => {
   await page.goto("/icons");

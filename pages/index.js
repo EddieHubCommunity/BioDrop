@@ -167,6 +167,15 @@ export default function Home({
         "https://user-images.githubusercontent.com/624760/263394464-1f60752c-00d2-4e41-bf74-fe598b14e9fa.png",
       imageAlt: "BioDrop screenshot of Repo Page",
     },
+    {
+      premium: true,
+      name: "Your Profile Source and Country Statistics",
+      description:
+        "More in depth statistics about your Profile, including the source of the views and the country of the views.",
+      imageSrc:
+        "https://github.com/EddieHubCommunity/BioDrop/assets/624760/f662fa12-49db-4e69-9862-9bf9b4652420",
+      imageAlt: "BioDrop screenshot of Source and Country statistics Page",
+    },
   ];
 
   const testimonials = [
@@ -334,6 +343,11 @@ export default function Home({
                   <p className="mt-2 text-sm sm:text-lg text-primary-low/70">
                     {feature.description}
                   </p>
+                  {feature.premium && (
+                    <p className="mt-2 text-xs sm:text-sm text-primary-low/50 italic">
+                      (Premium feature)
+                    </p>
+                  )}
                 </div>
                 <div
                   className={classNames(
