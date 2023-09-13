@@ -6,6 +6,11 @@
     { "icon": "FaGithub", "url": "https://github.com/MaorBemdoo" },
     { "icon": "FaYoutube", "url": "https://youtube.com/BemdooMaor" }
   ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "React"
+  ],
   "links": [
     {
       "name": "Follow me on Github",
