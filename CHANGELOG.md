@@ -1,3 +1,12 @@
+# [2.18.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.3...v2.18.0) (2023-09-13)
+
+
+### Features
+
+* repo delete confirmation dialog ([#8960](https://github.com/EddieHubCommunity/BioDrop/issues/8960)) ([6648073](https://github.com/EddieHubCommunity/BioDrop/commit/6648073a0b2c7da846b38d976fda392638f33f51))
+
+
+
 ## [2.17.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.2...v2.17.3) (2023-09-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * highlight profile status ([#9027](https://github.com/EddieHubCommunity/BioDrop/issues/9027)) ([ad65552](https://github.com/EddieHubCommunity/BioDrop/commit/ad65552fd450e6837c4ddc8b708491e477cb6719))
-
-
-
-# [2.16.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.10...v2.16.0) (2023-09-11)
-
-
-### Features
-
-* hide fake info ([#9017](https://github.com/EddieHubCommunity/BioDrop/issues/9017)) ([7ac42aa](https://github.com/EddieHubCommunity/BioDrop/commit/7ac42aaf6d9fe2535ac7f53cb4c4340dc910ff60))
 
 
 
