@@ -1,5 +1,5 @@
 import { IconContext } from "react-icons";
-import { FaMicrophoneAlt } from "react-icons/fa";
+import { FaMicrophoneLines } from "react-icons/fa6";
 import { TbCoin, TbCoinOff } from "react-icons/tb";
 import {
   MdOutlineOnlinePrediction,
@@ -27,7 +27,7 @@ export default function EventKey({ categorizedEvents, onToggleEventType }) {
       title: "CFP open",
       description: "You can submit a talk to this conference",
       key: "cfpOpen",
-      icon: FaMicrophoneAlt,
+      icon: FaMicrophoneLines,
     },
     {
       title: "In person",

@@ -8,7 +8,7 @@ import Link from "@components/Link";
 import { useTheme } from "next-themes";
 import { classNames } from "@services/utils/classNames";
 
-import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
 import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";

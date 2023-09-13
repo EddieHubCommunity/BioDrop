@@ -3,7 +3,7 @@ import { getServerSession } from "next-auth/next";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
-import { FaMapPin, FaMousePointer } from "react-icons/fa";
+import { FaMapPin, FaMousePointer } from "react-icons/fa6";
 
 import ProgressBar from "@components/statistics/ProgressBar";
 import { getUserApi } from "../api/profiles/[username]";
