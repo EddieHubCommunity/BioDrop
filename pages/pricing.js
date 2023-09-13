@@ -320,8 +320,8 @@ export default function Premium({ user }) {
   return (
     <>
       <PageHead
-        title="LinkFree Premium Features Pricing"
-        description="LinkFree is 100% Open Source and FREE, but we will have some paid Premium features in the future"
+        title="BioDrop Premium Features Pricing"
+        description="BioDrop is 100% Open Source and FREE, but we will have some paid Premium features in the future"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Pricing</h1>

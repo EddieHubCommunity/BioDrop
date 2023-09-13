@@ -87,7 +87,7 @@ export const authOptions = {
   events: {
     async signIn({ profile: githubProfile }) {
       await connectMongo();
-      // associate LinkFree profile to LinkFree account
+      // associate BioDrop profile to account
       const account = await getAccountByProviderAccountId(githubProfile.id);
       const user = await User.findOne({ _id: account.userId });
 

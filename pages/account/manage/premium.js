@@ -83,7 +83,7 @@ export default function ManageSettings({
     <>
       <PageHead
         title="Manage Profile settings"
-        description="Here you can manage your LinkFree Proile settings."
+        description="Here you can manage your BioDrop Proile settings."
       />
 
       <Page>
