@@ -1,45 +1,45 @@
-## [2.9.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.9.0...v2.9.1) (2023-08-31)
+## [2.18.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.2...v2.18.3) (2023-09-13)
 
 
 ### Bug Fixes
 
-* link manage status ([#8387](https://github.com/EddieHubCommunity/BioDrop/issues/8387)) ([1d1a371](https://github.com/EddieHubCommunity/BioDrop/commit/1d1a37146c4ebe56b203385572428527e980a028))
+* qr code layout in small screens ([#9044](https://github.com/EddieHubCommunity/BioDrop/issues/9044)) ([d6a8872](https://github.com/EddieHubCommunity/BioDrop/commit/d6a8872ade43c19a0887e06cdaaccbdce96a5d75))
 
 
 
-# [2.9.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.2...v2.9.0) (2023-08-30)
+## [2.18.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.1...v2.18.2) (2023-09-13)
+
+
+### Bug Fixes
+
+* rename icon for premium stats ([#9049](https://github.com/EddieHubCommunity/BioDrop/issues/9049)) ([01f076f](https://github.com/EddieHubCommunity/BioDrop/commit/01f076feed320a741abd8c5f2400812eeadff685))
+
+
+
+## [2.18.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.0...v2.18.1) (2023-09-13)
+
+
+### Bug Fixes
+
+* update react-icons + migrate to Font Awesome 6 ([#8995](https://github.com/EddieHubCommunity/BioDrop/issues/8995)) ([5395e63](https://github.com/EddieHubCommunity/BioDrop/commit/5395e63eb03d1baba42df7d897e51e3a013f7165))
+
+
+
+# [2.18.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.3...v2.18.0) (2023-09-13)
 
 
 ### Features
 
-* admin filter profiles ([#8874](https://github.com/EddieHubCommunity/BioDrop/issues/8874)) ([fc1444e](https://github.com/EddieHubCommunity/BioDrop/commit/fc1444e327d5538d8e860fb11ea774b739a6a5e1))
+* repo delete confirmation dialog ([#8960](https://github.com/EddieHubCommunity/BioDrop/issues/8960)) ([6648073](https://github.com/EddieHubCommunity/BioDrop/commit/6648073a0b2c7da846b38d976fda392638f33f51))
 
 
 
-## [2.8.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.1...v2.8.2) (2023-08-30)
-
-
-### Bug Fixes
-
-* overflow issue in repos section ([#8870](https://github.com/EddieHubCommunity/BioDrop/issues/8870)) ([694bb37](https://github.com/EddieHubCommunity/BioDrop/commit/694bb37fb6c9377c19cf8102fa586389b30f07d2))
-
-
-
-## [2.8.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.8.0...v2.8.1) (2023-08-30)
+## [2.17.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.17.2...v2.17.3) (2023-09-12)
 
 
 ### Bug Fixes
 
-* curl command to follow redirects ([#8868](https://github.com/EddieHubCommunity/BioDrop/issues/8868)) ([3241ebb](https://github.com/EddieHubCommunity/BioDrop/commit/3241ebbbee286e0fd12ba602b6ba561012670910))
-
-
-
-# [2.8.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.7.0...v2.8.0) (2023-08-30)
-
-
-### Features
-
-* persistent search ([#8743](https://github.com/EddieHubCommunity/BioDrop/issues/8743)) ([e7ffd6a](https://github.com/EddieHubCommunity/BioDrop/commit/e7ffd6af4e28c31a63b4efe1acfe424bdd643641))
+* link icon optional ([#8953](https://github.com/EddieHubCommunity/BioDrop/issues/8953)) ([b0fee54](https://github.com/EddieHubCommunity/BioDrop/commit/b0fee54a4cef6b829658b93b9e09a446e2dce45c))
 
 
 

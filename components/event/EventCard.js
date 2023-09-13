@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaMicrophoneAlt, FaMapPin, FaExternalLinkAlt } from "react-icons/fa";
+import { FaMicrophoneLines, FaMapPin, FaUpRightFromSquare } from "react-icons/fa6";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -44,7 +44,7 @@ export default function EventCard({ manage, event, usernames }) {
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
-          {event.date.cfpOpen && <FaMicrophoneAlt title="CFP is open" />}
+          {event.date.cfpOpen && <FaMicrophoneLines title="CFP is open" />}
           {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
           {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
         </div>
@@ -62,7 +62,7 @@ export default function EventCard({ manage, event, usernames }) {
                       target="_blank"
                       aria-label={`Visit event ${event.name}`}
                     >
-                      <FaExternalLinkAlt />
+                      <FaUpRightFromSquare />
                     </Link>
                   )}
                 </div>

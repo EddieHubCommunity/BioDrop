@@ -1,9 +1,10 @@
 import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import { Profile, Stats, ProfileStats } from "@models/index";
+import { Profile, Stats, ProfileStats, User } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
 import { checkGitHubRepo } from "@services/github/getRepo";
@@ -52,6 +53,16 @@ export async function getUserApi(req, res, username, options = {}) {
       $match: { username },
     },
     {
+      $set: {
+        milestones: {
+          $sortArray: {
+            input: "$milestones",
+            sortBy: { date: -1 },
+          },
+        },
+      },
+    },
+    {
       $addFields: {
         testimonials: {
           $filter: {
@@ -83,8 +94,8 @@ export async function getUserApi(req, res, username, options = {}) {
       },
     },
   ]);
-
   getProfile = getProfile[0];
+
   getProfile = {
     ...getProfile,
     links: getProfile.links
@@ -100,6 +111,22 @@ export async function getUserApi(req, res, username, options = {}) {
         icon: link.icon,
       })),
   };
+
+  let getUser = {};
+  if (getProfile.user) {
+    getUser = await User.findOne({ _id: new ObjectId(getProfile.user) });
+
+    getProfile = {
+      ...getProfile,
+      accountType: getUser.type || "free",
+    };
+  } else {
+    getProfile = {
+      ...getProfile,
+      accountType: "free",
+    };
+  }
+  delete getProfile.user;
 
   if (getProfile.events) {
     let dateEvents = [];

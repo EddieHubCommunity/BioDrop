@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { FaListUl, FaMicrophoneAlt } from "react-icons/fa";
+import { FaListUl, FaMicrophoneLines } from "react-icons/fa6";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 import { TbCoin, TbCoinOff } from "react-icons/tb";
 
@@ -41,7 +41,7 @@ export default function Events({ events }) {
       title: "CFP open",
       description: "You can submit a talk to this conference",
       key: "cfpOpen",
-      icon: FaMicrophoneAlt,
+      icon: FaMicrophoneLines,
       total: categorizedEvents.cfpOpen.length,
     },
     {

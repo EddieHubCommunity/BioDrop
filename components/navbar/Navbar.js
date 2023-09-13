@@ -8,7 +8,7 @@ import Link from "@components/Link";
 import { useTheme } from "next-themes";
 import { classNames } from "@services/utils/classNames";
 
-import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
 import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
@@ -96,27 +96,33 @@ export default function Navbar() {
       name: "Discover",
       url: "/discover",
     },
+    // {
+    //   name: "Pricing",
+    //   url: "/pricing",
+    // },
   ];
 
   const authControls = () => (
     <>
       {!session && (
-        <NavLink
-          item={{ name: "Login / Sign up", url: "/login" }}
-          setIsOpen={setIsOpen}
-          onClick={(e) => {
-            e.preventDefault();
-            signIn();
-          }}
-        />
+        <>
+          <NavLink
+            item={{ name: "Login", url: "/login" }}
+            setIsOpen={setIsOpen}
+            onClick={(e) => {
+              e.preventDefault();
+              signIn();
+            }}
+          />
+          <NavLink
+            item={{ name: "Sign up", url: "/pricing" }}
+            setIsOpen={setIsOpen}
+          />
+        </>
       )}
 
       {session && (
         <>
-          <NavLink
-            item={{ name: "Profile", url: `/${session.username}` }}
-            setIsOpen={setIsOpen}
-          />
           <NavLink
             item={{ name: "Account", url: "/account/statistics" }}
             setIsOpen={setIsOpen}
@@ -133,7 +139,14 @@ export default function Navbar() {
 
   return (
     <header className="min-h-full" ref={navConRef}>
-      <nav className="relative top-0 bg-primary-high">
+      <nav
+        className={classNames(
+          "relative top-0 bg-primary-high dark:bg-primary-medium",
+          session &&
+            session.accountType === "premium" &&
+            "border-b-2 border-tertiary-medium"
+        )}
+      >
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">

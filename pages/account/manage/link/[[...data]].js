@@ -75,7 +75,16 @@ export default function ManageLink({ BASE_URL, username, link }) {
     e.preventDefault();
 
     let method = "POST";
-    let putLink = { group, name, url, icon, isEnabled, isPinned, animation };
+    let selectedIcon = icon !== "" ? icon : "FaGlobe";
+    let putLink = {
+      group,
+      name,
+      url,
+      icon: selectedIcon,
+      isEnabled,
+      isPinned,
+      animation,
+    };
 
     let alert = "created";
     let apiUrl = `${BASE_URL}/api/account/manage/link`;
