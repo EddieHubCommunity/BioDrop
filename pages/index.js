@@ -20,7 +20,7 @@ import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
-import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa";
+import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -199,6 +199,10 @@ export default function Home({
     <>
       <PageHead />
 
+      {alerts.map((alert, index) => (
+        <Alert key={index} type={alert.type} message={alert.message} />
+      ))}
+
       <div className="bg-primary-low dark:bg-dark-2">
         <div className="px-6 py-12 sm:px-6 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
@@ -240,10 +244,6 @@ export default function Home({
       </div>
 
       <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark-2 mb-8 p-8 drop-shadow-md">
-        {alerts.map((alert, index) => (
-          <Alert key={index} type={alert.type} message={alert.message} />
-        ))}
-
         <BasicCards
           data={[
             {
