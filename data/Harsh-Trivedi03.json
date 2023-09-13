@@ -12,7 +12,7 @@
       "url": "https://www.linkedin.com/in/harsh-trivedi03/",
       "icon": "FaLinkedin"
     },
-     {
+    {
       "name": "Follow me on GitHub",
       "url": "https://github.com/Harsh-Trivedi03",
       "icon": "FaGithub"
@@ -22,5 +22,5 @@
       "url": "https://www.youtube.com/@feelthecode/playlists",
       "icon": "FaYoutube"
     }
- ]
+  ]
 }
