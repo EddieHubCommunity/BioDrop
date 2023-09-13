@@ -85,10 +85,6 @@ export default function Navbar() {
       url: "/events",
     },
     {
-      name: "Map",
-      url: "/map",
-    },
-    {
       name: "Repos",
       url: "/repos",
     },
@@ -96,10 +92,10 @@ export default function Navbar() {
       name: "Discover",
       url: "/discover",
     },
-    // {
-    //   name: "Pricing",
-    //   url: "/pricing",
-    // },
+    {
+      name: "Pricing",
+      url: "/pricing",
+    },
   ];
 
   const authControls = () => (
