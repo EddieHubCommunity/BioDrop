@@ -13,7 +13,13 @@ export default function Icons() {
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
 
-  const popularIcons = ["FaGithub", "FaTwitter", "FaLinkedin", "FaGit"];
+  const popularIcons = [
+    "FaGithub",
+    "FaTwitter",
+    "FaLinkedin",
+    "FaGit",
+    "FaXTwitter",
+  ];
   const icons = {};
 
   Object.keys(FaIcons).forEach((key) => {
