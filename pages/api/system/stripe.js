@@ -264,11 +264,22 @@ export async function webhookHandler(req, res) {
     case "customer.subscription.resumed":
     case "invoice.paid":
     case "invoice.payment_succeeded":
-      // successful payment
-      await User.findOneAndUpdate(
-        { stripeCustomerId: event.data.object.customer },
-        { type: "premium" }
-      );
+      {
+        const update = { type: "premium" };
+        // check if they already had a trial
+        const user = await User.findOne({
+          stripeCustomerId: event.data.object.customer,
+        });
+        if (!user.premiumTrialStartDate) {
+          update.premiumTrialStartDate = new Date();
+        }
+
+        // successful payment
+        await User.findOneAndUpdate(
+          { stripeCustomerId: event.data.object.customer },
+          update
+        );
+      }
       break;
     case "payment_intent.payment_failed":
     case "customer.subscription.deleted":
@@ -280,11 +291,13 @@ export async function webhookHandler(req, res) {
     case "customer.subscription.paused":
     case "invoice.payment_failed":
     case "subscription_schedule.released":
-      // failed payment
-      await User.findOneAndUpdate(
-        { stripeCustomerId: event.data.object.customer },
-        { type: "free" }
-      );
+      {
+        // failed payment
+        await User.findOneAndUpdate(
+          { stripeCustomerId: event.data.object.customer },
+          { type: "free" }
+        );
+      }
       break;
     default:
       logger.error(`Unhandled event type ${event.type}`);

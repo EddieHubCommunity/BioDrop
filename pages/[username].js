@@ -1,5 +1,5 @@
 import { IconContext } from "react-icons";
-import { FaRegComments } from "react-icons/fa";
+import { FaRegComments } from "react-icons/fa6";
 import { remark } from "remark";
 import strip from "strip-markdown";
 import requestIp from "request-ip";
