@@ -2,7 +2,6 @@ import { IconContext } from "react-icons";
 import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
 import va from "@vercel/analytics";
-
 import config from "@config/app.json";
 import { clientEnv } from "@config/schemas/clientSchema";
 import { getTodayStats } from "./api/statistics/today";
