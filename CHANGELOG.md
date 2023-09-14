@@ -1,3 +1,12 @@
+# [2.22.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.21.0...v2.22.0) (2023-09-14)
+
+
+### Features
+
+* color picker for events ([#8998](https://github.com/EddieHubCommunity/BioDrop/issues/8998)) ([be95fad](https://github.com/EddieHubCommunity/BioDrop/commit/be95fad56e760a2c472f11c78944eebb35d7b5ff))
+
+
+
 # [2.21.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.1...v2.21.0) (2023-09-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * tags input ([#8954](https://github.com/EddieHubCommunity/BioDrop/issues/8954)) ([be0f7ab](https://github.com/EddieHubCommunity/BioDrop/commit/be0f7ab58ec1bb15a213b7e6c87fc72ecfe1a66d))
-
-
-
-## [2.18.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.2...v2.18.3) (2023-09-13)
-
-
-### Bug Fixes
-
-* qr code layout in small screens ([#9044](https://github.com/EddieHubCommunity/BioDrop/issues/9044)) ([d6a8872](https://github.com/EddieHubCommunity/BioDrop/commit/d6a8872ade43c19a0887e06cdaaccbdce96a5d75))
 
 
 
