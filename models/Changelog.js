@@ -2,7 +2,7 @@ import mongoose from "mongoose";
  
 const ChangelogSchema = new mongoose.Schema(
   {
-    userId: String,
+    userId: mongoose.Schema.Types.ObjectId,
     docId: mongoose.Schema.Types.ObjectId,
     collectionName: String,
     changesBefore: mongoose.Schema.Types.Mixed,
