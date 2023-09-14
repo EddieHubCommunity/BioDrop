@@ -5,7 +5,10 @@ import { ObjectId } from "bson";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { LinkStats, Profile, Link } from "@models/index";
+import { getAccountByProviderAccountId } from "../../account";
 import logChange from "@models/middlewares/logChange";
+
+let userId;
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -18,6 +21,15 @@ export default async function handler(req, res) {
     return res.status(400).json({
       error: "Invalid request: GET or PUT or POST or DELETE required",
     });
+  }
+
+  try {
+    const account = await getAccountByProviderAccountId(session.user.id);
+    if (account) {
+      userId = account._id
+    }
+  } catch (error) {
+    logger.error(error, `Changelog - failed to get account for username: ${username}`);
   }
 
   const { data } = req.query;
@@ -108,7 +120,7 @@ export async function addLinkApi(username, data) {
 
   // Add to Changelog
   logChange({
-    username, 
+    userId, 
     collection: "links", 
     changesBefore: null, 
     changesAfter: getLink
@@ -167,10 +179,10 @@ export async function updateLinkApi(username, id, data) {
 
   // Add to Changelog
   logChange({
-    username, 
+    userId,
     collection: "links",
     changesBefore: beforeUpdate,
-    changesAfter: getLink
+    changesAfter: await getLinkApi(username, id)
   });
 
   return JSON.parse(JSON.stringify(getLink));

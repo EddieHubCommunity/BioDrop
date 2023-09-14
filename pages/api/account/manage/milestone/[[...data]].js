@@ -7,7 +7,10 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Milestone } from "@models/Profile/Milestone";
+import { getAccountByProviderAccountId } from "../../account";
 import logChange from "@models/middlewares/logChange";
+
+let userId;
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -20,6 +23,15 @@ export default async function handler(req, res) {
     return res
       .status(400)
       .json({ error: "Invalid request: GET or PUT or DELETE required" });
+  }
+
+  try {
+    const account = await getAccountByProviderAccountId(session.user.id);
+    if (account) {
+      userId = account._id
+    }
+  } catch (error) {
+    logger.error(error, `Changelog - failed to get account for username: ${username}`);
   }
 
   const { data } = req.query;
@@ -123,10 +135,10 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
 
   // Add to Changelog
   logChange({
-    username,
+    userId,
     collection: "milestones",
     changesBefore: beforeUpdate,
-    changesAfter: getMilestone
+    changesAfter: await getMilestoneApi(username, id)
   });
 
   return JSON.parse(JSON.stringify(getMilestone));
@@ -207,7 +219,7 @@ export async function addMilestoneApi(username, addMilestone) {
 
   // Add to Changelog
   logChange({
-    username,
+    userId,
     collection: "milestones",
     changesBefore: null,
     changesAfter: getMilestone

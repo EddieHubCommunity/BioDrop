@@ -7,7 +7,10 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Event } from "@models/Profile/Event";
+import { getAccountByProviderAccountId } from "../../account";
 import logChange from "@models/middlewares/logChange";
+
+let userId;
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -20,6 +23,15 @@ export default async function handler(req, res) {
     return res
       .status(400)
       .json({ error: "Invalid request: GET or PUT or DELETE required" });
+  }
+
+  try {
+    const account = await getAccountByProviderAccountId(session.user.id);
+    if (account) {
+      userId = account._id
+    }
+  } catch (error) {
+    logger.error(error, `Changelog - failed to get account for username: ${username}`);
   }
 
   const { data } = req.query;
@@ -121,10 +133,10 @@ export async function updateEventApi(username, id, updateEvent) {
   
   // Add to Changelog
   logChange({
-    username, 
+    userId, 
     collection: "events", 
     changesBefore: beforeUpdate, 
-    changesAfter: getEvent
+    changesAfter: await getEventApi(username, id)
   });
 
   return JSON.parse(JSON.stringify(getEvent));
@@ -200,7 +212,7 @@ export async function addEventApi(username, addEvent) {
 
   // Add to Changelog
   logChange({
-    username, 
+    userId, 
     collection: "events", 
     changesBefore: null, 
     changesAfter: getEvent

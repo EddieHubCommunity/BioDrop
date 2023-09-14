@@ -8,7 +8,10 @@ import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Repo } from "@models/Profile/Repo";
 import getGitHubRepo from "@services/github/getRepo";
+import { getAccountByProviderAccountId } from "../../account";
 import logChange from "@models/middlewares/logChange";
+
+let userId;
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -23,6 +26,16 @@ export default async function handler(req, res) {
   }
 
   const username = session.username;
+
+  try {
+    const account = await getAccountByProviderAccountId(session.user.id);
+    if (account) {
+      userId = account._id
+    }
+  } catch (error) {
+    logger.error(error, `Changelog - failed to get account for username: ${username}`);
+  }
+
   const { data } = req.query;
   let repo = {};
   if (req.method === "GET") {
@@ -76,8 +89,6 @@ export async function getRepoApi(username, id) {
 export async function addRepoApi(username, addRepo) {
   await connectMongo();
   const log = logger.child({ username });
-
-  const beforeUpdate = await getRepoApi(username, id);
 
   let getRepo = {};
 
@@ -157,10 +168,10 @@ export async function addRepoApi(username, addRepo) {
 
   // Add to Changelog
   logChange({
-    username,
+    userId,
     collection: "repos",
-    changesBefore: beforeUpdate,
-    changesAfter: getRepo
+    changesBefore: null,
+    changesAfter: await getRepoApi(username, id)
   });
 
   return JSON.parse(JSON.stringify(getRepo));
@@ -199,6 +210,8 @@ export async function deleteRepoApi(username, id) {
 export async function updateRepoApi(username, id, githubData) {
   await connectMongo();
   const log = logger.child({ username });
+  
+  const beforeUpdate = await getRepoApi(username, id);
 
   let getRepo = {};
   try {
@@ -244,10 +257,10 @@ export async function updateRepoApi(username, id, githubData) {
 
   // Add to Changelog
   logChange({
-    username,
+    userId,
     collection: "repos",
-    changesBefore: null,
-    changesAfter: getRepo
+    changesBefore: beforeUpdate,
+    changesAfter: await getRepoApi(username, id)
   });
 
   return JSON.parse(JSON.stringify(getRepo));

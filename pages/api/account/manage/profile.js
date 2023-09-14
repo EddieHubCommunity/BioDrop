@@ -114,10 +114,10 @@ export async function updateProfileApi(username, data, providerAccountId) {
 
   // Add to Changelog
   logChange({
-    username,
+    userId: getProfile?._id,
     collection: "profiles",
     changesBefore: beforeUpdate,
-    changesAfter: getProfile
+    changesAfter: await getProfileApi(username)
   });
 
   return JSON.parse(JSON.stringify(getProfile));
