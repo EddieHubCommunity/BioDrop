@@ -22,7 +22,7 @@ export default async function logChange({ userId, collection, changesBefore, cha
     diff,
   };
 
-  if (changesBefore !== changesAfter) {
+  if (changesBefore !== changesAfter && JSON.stringify(diff) !== "{}") {
     await Changelog.create({ ...change });
     logger.info(change);
   } else {
@@ -39,5 +39,7 @@ function getChangesDiff(chngB, chngA) {
     }
   }
 
-  return diff;
+  const { updatedAt, ...cleanedDiff } = diff;
+
+  return cleanedDiff;
 }
