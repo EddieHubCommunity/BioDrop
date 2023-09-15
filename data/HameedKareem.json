@@ -1,0 +1,27 @@
+{
+  "name": "Hameed Kareem",
+  "bio": "DevOps Engineer | Open-Source Ethusiast | Technical Writer | ",
+  "links": [
+ 
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hameed__kareem",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/abdulhameed-abdulkareem123",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/maxton4life",
+      "icon": "FaGithub"
+    }
+    {
+    "name": "I write here",
+      "url": "https://hashnode.com/@hameedkareem",
+    },
+    
+  ]
+}
