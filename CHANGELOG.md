@@ -1,3 +1,12 @@
+## [2.22.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.0...v2.22.1) (2023-09-15)
+
+
+### Bug Fixes
+
+* update dependencies ([#9070](https://github.com/EddieHubCommunity/BioDrop/issues/9070)) ([abc7bdd](https://github.com/EddieHubCommunity/BioDrop/commit/abc7bdd8329c9511243df4999d667d15c1c8df04))
+
+
+
 # [2.22.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.21.0...v2.22.0) (2023-09-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * premium ([#8944](https://github.com/EddieHubCommunity/BioDrop/issues/8944)) ([e590229](https://github.com/EddieHubCommunity/BioDrop/commit/e590229bae347ec971eb624fa243713f9c3fe1fc))
-
-
-
-# [2.19.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.18.3...v2.19.0) (2023-09-13)
-
-
-### Features
-
-* tags input ([#8954](https://github.com/EddieHubCommunity/BioDrop/issues/8954)) ([be0f7ab](https://github.com/EddieHubCommunity/BioDrop/commit/be0f7ab58ec1bb15a213b7e6c87fc72ecfe1a66d))
 
 
 
