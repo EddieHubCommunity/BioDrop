@@ -4,7 +4,7 @@ import {
   FaLinkedin,
   FaGithub,
   FaInstagram,
-  FaTwitter,
+  FaXTwitter,
   FaYoutube,
 } from "react-icons/fa6";
 
@@ -82,7 +82,7 @@ export default function Footer() {
         name: "Twitter",
         href: "https://twitter.com/biodrop_io/",
         external: true,
-        icon: FaTwitter,
+        icon: FaXTwitter,
       },
       {
         name: "Instagram",
