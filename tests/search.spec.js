@@ -89,7 +89,7 @@ test("find the profile after providing concise name", async ({page}) => {
   await page.goto("/");
 
   // 2. look for and click on the search element   
-  const searchLink = page.locator("ul.ml-10.flex.items-baseline.space-x-4 li:first-child a[aria-label='Search'][href='/search']");
+  const searchLink = page.locator("nav ul:first-child > li:first-child > a[href='/search']");
   await searchLink.click();  
   
   // 3. find the input field and type the whole name  
