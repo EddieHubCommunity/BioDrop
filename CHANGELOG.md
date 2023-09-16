@@ -1,3 +1,12 @@
+## [2.22.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.1...v2.22.2) (2023-09-16)
+
+
+### Bug Fixes
+
+* twitter icon in footer ([#9075](https://github.com/EddieHubCommunity/BioDrop/issues/9075)) ([aa2cdaa](https://github.com/EddieHubCommunity/BioDrop/commit/aa2cdaaa490ec95bfd89fa583675e38bd08f42b3))
+
+
+
 ## [2.22.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.0...v2.22.1) (2023-09-15)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * upgrade the BioDrop CLI ([#9058](https://github.com/EddieHubCommunity/BioDrop/issues/9058)) ([0386250](https://github.com/EddieHubCommunity/BioDrop/commit/038625036c7d1fa25822c7b97c4ae07291bc17e6))
-
-
-
-# [2.20.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.19.0...v2.20.0) (2023-09-13)
-
-
-### Features
-
-* premium ([#8944](https://github.com/EddieHubCommunity/BioDrop/issues/8944)) ([e590229](https://github.com/EddieHubCommunity/BioDrop/commit/e590229bae347ec971eb624fa243713f9c3fe1fc))
 
 
 
