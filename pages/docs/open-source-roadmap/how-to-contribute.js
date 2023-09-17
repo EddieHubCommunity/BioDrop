@@ -36,6 +36,33 @@ export default function DocsHowToContribute() {
           button and type in a new branch name. This will create a new branch
           from the main branch.
         </p>
+
+        <h2 className="mt-16 text-2xl font-bold tracking-tight text-primary-high dark:text-primary-low">
+          Make changes
+        </h2>
+        <p>
+          Find the file you want to make changes to and edit the file. Then
+          commit the changes to your new branch. You can add multiple commits to
+          this branch if required.
+        </p>
+
+        <h2 className="mt-16 text-2xl font-bold tracking-tight text-primary-high dark:text-primary-low">
+          Pull Request
+        </h2>
+        <p>
+          Create a pull request from your new branch in your fork to the main
+          branch in the original repo (aka upstream). You might need to click
+          on: compare across forks.
+        </p>
+
+        <h2 className="mt-16 text-2xl font-bold tracking-tight text-primary-high dark:text-primary-low">
+          After review
+        </h2>
+        <p>
+          If you receieve feedback where you need to make changes, you can add
+          additional commits to your branch in your fork, GitHub automatically
+          add them to your open pull request.
+        </p>
       </Page>
     </>
   );
