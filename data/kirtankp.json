@@ -4,12 +4,19 @@
   "tags": [
     "Open Source",
     "Javascript",
-    "ReactJS",
-    "NodeJS",
     "Typescript",
+    "NodeJS",
+    "ReactJS",
+    "NextJS",
     "Java"
   ],
   "links": [
+    {
+      "group": "Projects",
+      "name": "Help Desk",
+      "url": "https://help-desk-ockzj4k2f-kirtankp.vercel.app/",
+      "icon": "FaLink"
+    },
     {
       "group": "Projects",
       "name": "Lift Simulator",
