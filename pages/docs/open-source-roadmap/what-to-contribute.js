@@ -73,11 +73,11 @@ export default function DocsContribute() {
             />
             <span>
               <strong className="font-semibold">Scripts:</strong> Most projects
-              have scripts, for example in a nodejs project, there is a
-              "scripts" section in the package file. Many of these should be
-              automated and will provide a lot of value to the project. For
-              example lint, test, build etc. This can be achieved with a GitHub
-              Action which is a few lines of yaml config.
+              have scripts, for example in a nodejs project, there is a scripts
+              section in the package file. Many of these should be automated and
+              will provide a lot of value to the project. For example lint,
+              test, build etc. This can be achieved with a GitHub Action which
+              is a few lines of yaml config.
             </span>
           </li>
           <li className="flex gap-x-3">

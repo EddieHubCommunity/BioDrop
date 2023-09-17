@@ -36,8 +36,8 @@ export default function DocsChecks() {
           their closed Pull Requests.
         </p>
         <p>
-          You can find the closed Pull Requests by going to the "Pull Request"
-          tab along the top, then clicking on the closed" button. The list will
+          You can find the closed Pull Requests by going to the Pull Request tab
+          along the top, then clicking on the closed button. The list will
           contain merged (accepted) and closed (reject) Pull Requests. The Pull
           Requests with the red icon have been closed and reject, click on some
           of those and read the reasons why, are they friendly?

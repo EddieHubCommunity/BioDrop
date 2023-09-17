@@ -22,15 +22,15 @@ export default function DocsWhere() {
           GitHub Issue labels and topics
         </h2>
         <p>
-          You can search GitHub Issues for "good first issue" or for
-          repositories by topics.
+          You can search GitHub Issues for good first issue or for repositories
+          by topics.
         </p>
 
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-primary-high dark:text-primary-low">
           GitHub Advanced search
         </h2>
         <p>
-          You can use GitHub's Advanced search and filter repositories by
+          You can use GitHub Advanced search and filter repositories by
           language, recent activity and more.
         </p>
 

@@ -1,5 +1,3 @@
-import { PaperClipIcon } from "@heroicons/react/20/solid";
-
 export default function DataList({ title, subtitle, data }) {
   return (
     <div>
@@ -14,7 +12,10 @@ export default function DataList({ title, subtitle, data }) {
       <div className="mt-6 border-t border-gray-100">
         <dl className="divide-y divide-gray-100">
           {data.map((row) => (
-            <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+            <div
+              className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0"
+              key={row.name}
+            >
               <dt className="text-sm font-medium leading-6 text-primary-high dark:text-primary-low">
                 {row.name}
               </dt>

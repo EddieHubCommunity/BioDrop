@@ -1,7 +1,6 @@
 import Head from "next/head";
 
 import Page from "@components/Page";
-import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
 export default function DocsNext() {
   return (

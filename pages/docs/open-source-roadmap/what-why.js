@@ -84,7 +84,7 @@ export default function DocsWhy() {
               <strong className="font-semibold text-primary-high dark:text-primary-low">
                 Build a portfolio:
               </strong>{" "}
-              Don't talk about how great your work is, show them with Open
+              Do not talk about how great your work is, show them with Open
               Source. People can see your work and how you work.
             </span>
           </li>
