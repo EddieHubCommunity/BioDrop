@@ -1,45 +1,45 @@
-## [1.170.10](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.9...v1.170.10) (2023-08-09)
+## [2.22.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.1...v2.22.2) (2023-09-16)
 
 
 ### Bug Fixes
 
-* style on className to use function  ([#8476](https://github.com/EddieHubCommunity/LinkFree/issues/8476)) ([335b07c](https://github.com/EddieHubCommunity/LinkFree/commit/335b07c43bc6adb736774838100a55d6fa331f52))
+* twitter icon in footer ([#9075](https://github.com/EddieHubCommunity/BioDrop/issues/9075)) ([aa2cdaa](https://github.com/EddieHubCommunity/BioDrop/commit/aa2cdaaa490ec95bfd89fa583675e38bd08f42b3))
 
 
 
-## [1.170.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.8...v1.170.9) (2023-08-08)
-
-
-### Bug Fixes
-
-* focus for copy button ([#8509](https://github.com/EddieHubCommunity/LinkFree/issues/8509)) ([fff90f0](https://github.com/EddieHubCommunity/LinkFree/commit/fff90f0899541cd57cf8b5db740b6deadd3f607e))
-
-
-
-## [1.170.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.7...v1.170.8) (2023-08-08)
+## [2.22.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.0...v2.22.1) (2023-09-15)
 
 
 ### Bug Fixes
 
-* edit icon on manage pages mobile nav issue  ([#8535](https://github.com/EddieHubCommunity/LinkFree/issues/8535)) ([c2c07c2](https://github.com/EddieHubCommunity/LinkFree/commit/c2c07c20c8cfea13597e2085a92b113741616c24))
+* update dependencies ([#9070](https://github.com/EddieHubCommunity/BioDrop/issues/9070)) ([abc7bdd](https://github.com/EddieHubCommunity/BioDrop/commit/abc7bdd8329c9511243df4999d667d15c1c8df04))
 
 
 
-## [1.170.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.6...v1.170.7) (2023-08-08)
+# [2.22.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.21.0...v2.22.0) (2023-09-14)
+
+
+### Features
+
+* color picker for events ([#8998](https://github.com/EddieHubCommunity/BioDrop/issues/8998)) ([be95fad](https://github.com/EddieHubCommunity/BioDrop/commit/be95fad56e760a2c472f11c78944eebb35d7b5ff))
+
+
+
+# [2.21.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.1...v2.21.0) (2023-09-13)
+
+
+### Features
+
+* admin stats of premium users ([#9061](https://github.com/EddieHubCommunity/BioDrop/issues/9061)) ([64650ed](https://github.com/EddieHubCommunity/BioDrop/commit/64650ed028f63e8171422d619d83d38d912f099f))
+
+
+
+## [2.20.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.0...v2.20.1) (2023-09-13)
 
 
 ### Bug Fixes
 
-* playground button visibility ([#8568](https://github.com/EddieHubCommunity/LinkFree/issues/8568)) ([1b3b7c2](https://github.com/EddieHubCommunity/LinkFree/commit/1b3b7c2cd1023e5e8d48dfa93078b4765036709c))
-
-
-
-## [1.170.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.5...v1.170.6) (2023-08-08)
-
-
-### Bug Fixes
-
-* qr code form link width ([#8566](https://github.com/EddieHubCommunity/LinkFree/issues/8566)) ([c77ef56](https://github.com/EddieHubCommunity/LinkFree/commit/c77ef56fe9f27e58278d80f6197faca1450fc46c))
+* upgrade the BioDrop CLI ([#9058](https://github.com/EddieHubCommunity/BioDrop/issues/9058)) ([0386250](https://github.com/EddieHubCommunity/BioDrop/commit/038625036c7d1fa25822c7b97c4ae07291bc17e6))
 
 
 

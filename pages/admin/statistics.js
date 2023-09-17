@@ -9,6 +9,7 @@ import PageHead from "@components/PageHead";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { getStatsApi } from "pages/api/admin/stats";
 import Navigation from "@components/admin/Navigation";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -55,13 +56,14 @@ export default function Statistics({ stats }) {
     { id: 2, name: "Profiles using JSON", value: stats.profilesUsingJson },
     { id: 3, name: "Profiles using forms", value: stats.profilesUsingForms },
     { id: 4, name: "Profiles not enabled", value: stats.totalProfilesDisabled },
+    { id: 5, name: "Premium Profiles", value: stats.totalPremiumProfiles },
   ];
 
   return (
     <>
       <PageHead
-        title="LinkFree admin over"
-        description="Overview for LinkFree admins"
+        title={PROJECT_NAME + " admin over"}
+        description={`Overview for ${PROJECT_NAME} admins`}
       />
       <Page>
         <Navigation />

@@ -16,6 +16,7 @@ import UserLink from "@components/user/UserLink";
 import { ReactSortable } from "react-sortablejs";
 import Notification from "@components/Notification";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -45,11 +46,27 @@ export async function getServerSideProps(context) {
 
 export default function ManageLinks({ BASE_URL, username, links }) {
   const router = useRouter();
-  const { success } = router.query;
   const [reorder, setReorder] = useState(false);
   const [showNotification, setShowNotification] = useState(false);
   const [linkList, setLinkList] = useState(links || []);
   const [linkListPrevious, setLinkListPrevious] = useState(links || []);
+
+  const { alert } = router.query;
+
+  const alerts = {
+    deleted: {
+      type: "success",
+      message: "Link Deleted Successfully",
+    },
+    created: {
+      type: "success",
+      message: "Link Created Successfully",
+    },
+    updated: {
+      type: "success",
+      message: "Link Updated Successfully",
+    },
+  };
 
   const saveOrder = async () => {
     const res = await fetch(`${BASE_URL}/api/account/manage/links`, {
@@ -70,13 +87,14 @@ export default function ManageLinks({ BASE_URL, username, links }) {
     <>
       <PageHead
         title="Manage Links"
-        description="Here you can manage your LinkFree links"
+        description={`Here you can manage your ${PROJECT_NAME} links`}
       />
 
       <Page>
-        {success && (
-          <Alert type="success" message="Link Created/Updated Successfully" />
+        {alert && (
+          <Alert type={alerts[alert].type} message={alerts[alert].message} />
         )}
+
         <Navigation />
 
         <Notification
@@ -93,7 +111,7 @@ export default function ManageLinks({ BASE_URL, username, links }) {
             Add Link
           </Button>
 
-          {!reorder && (
+          {linkList.length !== 0 && !reorder && (
             <Button onClick={() => setReorder(true)}>
               <ArrowPathIcon className="h-5 w-5 mr-2" />
               REORDER

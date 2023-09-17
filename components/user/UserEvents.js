@@ -51,7 +51,15 @@ export default function UserEvents({
     if (eventType === "all") {
       return events;
     }
-    return events.filter((event) => filterByEventType(event, eventType));
+    let filteredEvents = events.filter((event) =>
+      filterByEventType(event, eventType)
+    );
+    if (eventType === "future" && filteredEvents.length === 0) {
+      filteredEvents = events.filter((event) =>
+        filterByEventType(event, "all")
+      );
+    }
+    return filteredEvents;
   };
   const eventsToShow = getFilteredEvents();
   const filteredEventOptions = eventOptions.filter((option) => {
@@ -69,20 +77,19 @@ export default function UserEvents({
       {eventsToShow.length === 0 && !manage && (
         <Alert type="info" message="No Events found" />
       )}
-  
-      {!manage && (
-        <Select
-          name="event-type"
-          value={eventType}
-          label="Select an event type"
-          onChange={handleEventTypeChange}
-          options={filteredEventOptions.map((option) => ({
-            label: option.name,
-            value: option.value,
-          }))}
-          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
-        />
-      )}
+
+      <Select
+        name="event-type"
+        value={eventType}
+        label="Select an event type"
+        onChange={handleEventTypeChange}
+        options={filteredEventOptions.map((option) => ({
+          label: option.name,
+          value: option.value,
+        }))}
+        className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+      />
+
       {eventsToShow.length > 0 && (
         <ul role="list" className="mt-4">
           {eventsToShow.map((event, index) => (

@@ -12,6 +12,10 @@ const ProfileSchema = new Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Account",
     },
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
     source: {
       type: String,
       required: true,
@@ -30,6 +34,14 @@ const ProfileSchema = new Schema(
     isEnabled: {
       type: Boolean,
       default: true,
+    },
+    isShadowBanned: {
+      type: Boolean,
+      default: false,
+    },
+    isStatsPublic: {
+      type: Boolean,
+      default: false,
     },
     username: {
       type: String,
@@ -62,6 +74,16 @@ const ProfileSchema = new Schema(
     views: {
       type: Number,
       default: 0,
+    },
+    stats: {
+      referers: {
+        type: Map,
+        of: Number,
+      },
+      countries: {
+        type: Map,
+        of: Number,
+      },
     },
     links: {
       default: [],
@@ -105,6 +127,16 @@ const ProfileSchema = new Schema(
     events: {
       type: [EventSchema],
       default: [],
+    },
+    settings: {
+      hideNavbar: {
+        type: Boolean,
+        default: false,
+      },
+      hideFooter: {
+        type: Boolean,
+        default: false,
+      },
     },
   },
   { timestamps: true }

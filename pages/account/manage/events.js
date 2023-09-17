@@ -11,6 +11,7 @@ import Button from "@components/Button";
 import UserEvents from "@components/user/UserEvents";
 import { useRouter } from "next/router";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -40,30 +41,40 @@ export async function getServerSideProps(context) {
 
 export default function ManageEvents({ events }) {
   const router = useRouter();
-  const { success } = router.query;
+  const { alert } = router.query;
+
+  const alerts = {
+    deleted: {
+      type: "success",
+      message: "Event Deleted Successfully",
+    },
+    created: {
+      type: "success",
+      message: "Event Created Successfully",
+    },
+    updated: {
+      type: "success",
+      message: "Event Updated Successfully",
+    },
+  };
 
   return (
     <>
       <PageHead
         title="Manage Events"
-        description="Here you can manage your LinkFree events"
+        description={`Here you can manage your ${PROJECT_NAME} events`}
       />
 
       <Page>
-        {success && (
-          <Alert
-            type="success"
-            message={"Event Created/Updated Successfully"}
-          />
+        {alert && (
+          <Alert type={alerts[alert].type} message={alerts[alert].message} />
         )}
-
         <Navigation />
         <Button href="/account/manage/event">
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Event
         </Button>
-
-        <UserEvents events={events} manage={true} filter="all" />
+        <UserEvents events={events} manage={true} />
       </Page>
     </>
   );

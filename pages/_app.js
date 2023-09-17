@@ -1,6 +1,6 @@
 import { SessionProvider } from "next-auth/react";
 import { ThemeProvider } from "next-themes";
-import { useRouter } from "next/router"
+import { useRouter } from "next/router";
 import { Analytics } from "@vercel/analytics/react";
 
 import "../styles/globals.css";
@@ -22,7 +22,8 @@ export default function MyApp({
           <>
             <Component {...pageProps} key={router.asPath} />
             <Analytics />
-          </>
+          </>,
+          pageProps.settings
         )}
       </SessionProvider>
     </ThemeProvider>

@@ -1,17 +1,17 @@
 import { useEffect, useState } from "react";
-import { FaMicrophoneAlt, FaMapPin, FaExternalLinkAlt } from "react-icons/fa";
+import { FaMicrophoneLines, FaMapPin, FaUpRightFromSquare } from "react-icons/fa6";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
   MdOutlineArrowRightAlt,
 } from "react-icons/md";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
 import Edit from "@components/account/manage/Edit";
 import dateFormat from "@services/utils/dateFormat";
+import Markdown from "@components/Markdown";
 
 export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
@@ -44,7 +44,7 @@ export default function EventCard({ manage, event, usernames }) {
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
-          {event.date.cfpOpen && <FaMicrophoneAlt title="CFP is open" />}
+          {event.date.cfpOpen && <FaMicrophoneLines title="CFP is open" />}
           {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
           {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
         </div>
@@ -62,15 +62,14 @@ export default function EventCard({ manage, event, usernames }) {
                       target="_blank"
                       aria-label={`Visit event ${event.name}`}
                     >
-                      <FaExternalLinkAlt />
+                      <FaUpRightFromSquare />
                     </Link>
                   )}
                 </div>
-                {event.userStatus && (
+                {event.isSpeaking && (
                   <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
-                    {event.userStatus}
-                    {event.userStatus == "speaking" && " at "} this event
-                    {event.userStatus == "speaking" && event?.speakingTopic && (
+                    {"Speaking at "} this event
+                    {event?.speakingTopic && (
                       <>
                         {" "}
                         on <b>{event.speakingTopic}</b>
@@ -84,9 +83,9 @@ export default function EventCard({ manage, event, usernames }) {
                 <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
                 <span>{endTime}</span>
               </p>
-              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
+              <Markdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
-              </ReactMarkdown>
+              </Markdown>
               <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
                 <div className="flex gap-2 flex-wrap">
                   {(event.isVirtual ||
