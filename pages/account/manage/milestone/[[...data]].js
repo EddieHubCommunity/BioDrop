@@ -221,7 +221,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       onChange={(e) => setDate(e.target.value)}
                       value={date}
                       required
-                      min="1950-01-01"
+                      min="1970-01-01"
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
