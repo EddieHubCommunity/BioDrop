@@ -1,0 +1,26 @@
+{
+    "name": "Syed Usman Ahmad",
+    "bio": "Developer Advocate at **Grafana Labs** | Community [Contributer](https://community.grafana.com/u/usman.ahmad/summary) | Technical Writer | Public Speaker",
+    "socials": [
+        {
+            "icon": "FaLinkedin",
+            "url": "https://www.linkedin.com/in/syed-usman-ahmad-b1415515/"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/usmangt"
+        },
+        {
+            "icon": "FaMedium",
+            "url": "https://medium.com/@syed_usman_ahmed"
+        },
+        {
+            "icon": "FaYoutube",
+            "url": "https://www.youtube.com/@freelinuxtutorials"
+        },
+        {
+            "icon": "FaGrafana",
+            "url": "https://community.grafana.com/u/usman.ahmad/summary"
+        }
+    ]
+}
