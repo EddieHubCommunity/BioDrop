@@ -14,6 +14,7 @@ import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
 import UserRepos from "@components/user/UserRepos";
 import { PROJECT_NAME } from "@constants/index";
+import ConfirmDialog from "@components/ConfirmDialog";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -45,6 +46,8 @@ export async function getServerSideProps(context) {
 }
 
 export default function ManageRepos({ BASE_URL, repos }) {
+  const [selectedRepoId, setSelectedRepoId] = useState(null);
+  const [open, setOpen] = useState(false);
   const [showNotification, setShowNotification] = useState({
     show: false,
     type: "",
@@ -85,6 +88,11 @@ export default function ManageRepos({ BASE_URL, repos }) {
       message: "Repo added",
       additionalMessage: "Your repository has been added successfully",
     });
+  };
+
+  const confirmDelete = (id) => {
+    setSelectedRepoId(id);
+    setOpen(true);
   };
 
   const handleDelete = async (id) => {
@@ -151,8 +159,19 @@ export default function ManageRepos({ BASE_URL, repos }) {
           </Button>
         </form>
 
-        <UserRepos repos={repoList} manage={true} handleDelete={handleDelete} />
+        <UserRepos
+          repos={repoList}
+          manage={true}
+          confirmDelete={confirmDelete}
+        />
       </Page>
+      <ConfirmDialog
+        open={open}
+        action={() => handleDelete(selectedRepoId)}
+        setOpen={setOpen}
+        title="Delete repo"
+        description="Are you sure?"
+      />
     </>
   );
 }

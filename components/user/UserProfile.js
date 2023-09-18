@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { FaShare } from "react-icons/fa";
+import { FaShare } from "react-icons/fa6";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
 import { useRouter } from "next/router";

@@ -1,45 +1,45 @@
-## [2.15.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.2...v2.15.3) (2023-09-07)
+## [2.22.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.2...v2.22.3) (2023-09-18)
 
 
 ### Bug Fixes
 
-* delete link ([#8971](https://github.com/EddieHubCommunity/BioDrop/issues/8971)) ([2866419](https://github.com/EddieHubCommunity/BioDrop/commit/2866419dd19b438801b3baecb3f001aed0e1c279))
+* mobile-friendly profile tags input ([#9076](https://github.com/EddieHubCommunity/BioDrop/issues/9076)) ([c14a747](https://github.com/EddieHubCommunity/BioDrop/commit/c14a747b2acd6850320e30c38a8970593db94dc9))
 
 
 
-## [2.15.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.1...v2.15.2) (2023-09-05)
-
-
-### Bug Fixes
-
-* milestones order ([#8925](https://github.com/EddieHubCommunity/BioDrop/issues/8925)) ([4deb4f8](https://github.com/EddieHubCommunity/BioDrop/commit/4deb4f8cef7d8ceb4b70a03816e0fa2f88a2f649))
-
-
-
-## [2.15.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.0...v2.15.1) (2023-09-05)
+## [2.22.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.1...v2.22.2) (2023-09-16)
 
 
 ### Bug Fixes
 
-* create label component ([#8919](https://github.com/EddieHubCommunity/BioDrop/issues/8919)) ([3031e61](https://github.com/EddieHubCommunity/BioDrop/commit/3031e61ff8058255b21b804aa4c402fa0df1db8f))
+* twitter icon in footer ([#9075](https://github.com/EddieHubCommunity/BioDrop/issues/9075)) ([aa2cdaa](https://github.com/EddieHubCommunity/BioDrop/commit/aa2cdaaa490ec95bfd89fa583675e38bd08f42b3))
 
 
 
-# [2.15.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.14.0...v2.15.0) (2023-09-04)
+## [2.22.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.0...v2.22.1) (2023-09-15)
+
+
+### Bug Fixes
+
+* update dependencies ([#9070](https://github.com/EddieHubCommunity/BioDrop/issues/9070)) ([abc7bdd](https://github.com/EddieHubCommunity/BioDrop/commit/abc7bdd8329c9511243df4999d667d15c1c8df04))
+
+
+
+# [2.22.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.21.0...v2.22.0) (2023-09-14)
 
 
 ### Features
 
-* premium with stripe integration ([#8647](https://github.com/EddieHubCommunity/BioDrop/issues/8647)) ([36e2a88](https://github.com/EddieHubCommunity/BioDrop/commit/36e2a882f2155a769070e3acf49ffe58091b78e6)), closes [#8909](https://github.com/EddieHubCommunity/BioDrop/issues/8909)
+* color picker for events ([#8998](https://github.com/EddieHubCommunity/BioDrop/issues/8998)) ([be95fad](https://github.com/EddieHubCommunity/BioDrop/commit/be95fad56e760a2c472f11c78944eebb35d7b5ff))
 
 
 
-# [2.14.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.13.0...v2.14.0) (2023-09-04)
+# [2.21.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.1...v2.21.0) (2023-09-13)
 
 
 ### Features
 
-* user profile picture on manage testimonials ([#8938](https://github.com/EddieHubCommunity/BioDrop/issues/8938)) ([3bbb1b9](https://github.com/EddieHubCommunity/BioDrop/commit/3bbb1b9c76d81921c41e3bf5238f1b5f27c4b553))
+* admin stats of premium users ([#9061](https://github.com/EddieHubCommunity/BioDrop/issues/9061)) ([64650ed](https://github.com/EddieHubCommunity/BioDrop/commit/64650ed028f63e8171422d619d83d38d912f099f))
 
 
 

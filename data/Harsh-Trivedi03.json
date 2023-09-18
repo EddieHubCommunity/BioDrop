@@ -1,0 +1,26 @@
+{
+  "name": "Harsh Trivedi",
+  "bio": "Open Source Enthusiast, Always Open for community contributions & Collaboration ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/harshh_trivedi?t=8_I0mTZawfyWBPcjdhbXeA&s=09",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/harsh-trivedi03/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Harsh-Trivedi03",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/@feelthecode/playlists",
+      "icon": "FaYoutube"
+    }
+  ]
+}
