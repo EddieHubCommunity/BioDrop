@@ -84,12 +84,22 @@ test("After search click profile", async ({ page }) => {
   await expect(profileHeaderText).toContain("Eddie Jaoude"); 
 });
 
-test.fixme(
-  "find the profile after providing concise name",
-  async () => {
-    // 1. click on search profile
-    // 2. type the whole name
-    // 3. Display the profile if the name is correct
+test("find the profile after providing concise name", async ({page}) => {
+  // 1. Start from the homepage
+  await page.goto("/");
+
+  // 2. look for and click on the search element   
+  const searchLink = page.locator("nav ul:first-child > li:first-child > a[href='/search']");
+  await searchLink.click();  
+  
+  // 3. find the input field and type the whole name  
+  const input = page.locator("[name='keyword']");
+  await input.fill("eddiejaoude");
+  
+  // 4. select and click on the profile by matching name string
+  const profileHeader = page.locator("h3:has-text('eddiejaoude')");
+  const profileHeaderText = await profileHeader.innerText();
+  await expect(profileHeaderText).toContain("eddiejaoude");
   }
 );
 

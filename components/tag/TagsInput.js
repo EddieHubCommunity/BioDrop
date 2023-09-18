@@ -13,15 +13,14 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
     const { comma } = keyCode;
-    if (e.keyCode !== comma) {
-      return;
+    if (e.keyCode === comma || inputValue.endsWith(",")) {
+      const newTag = inputValue.trim().replace(/,/g, "");
+      if (!newTag) {
+        return;
+      }
+      onTagAdd(newTag);
+      inputRef.current.value = "";
     }
-    const newTag = inputValue.trim().replace(/,/g, "");
-    if (!newTag) {
-      return;
-    }
-    onTagAdd(newTag);
-    inputRef.current.value = "";
   };
 
   const handleKeyDown = (e) => {
