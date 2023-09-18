@@ -17,36 +17,11 @@ import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
 import { PROJECT_NAME } from "@constants/index";
-import { useState } from "react";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
   { ssr: false }
 );
-
-const ExpandingUrl = ({url}) => {
-  const [isExpanded, setIsExpanded] = useState(false);
-
-  return (
-    url.length > 40?(
-    <>
-      {url.substring(0, 40) + (isExpanded === false ? (" ...") : (""))}
-        
-      {isExpanded && (
-          url.substring(40, url.length)
-      )}
-
-      <div onClick={() => setIsExpanded(prev => !prev)} className="hover:cursor-pointer text-primary-low-high">
-        {isExpanded === false ? ("click to expand") : ("click to collapse")}
-      </div>
-  
-    </>
-    ):(
-      url
-    )
-  )
-    
-}
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -296,9 +271,9 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
           <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
             {data.links &&
               data.links.individual.map((link) => (
-                <tr key={link.url} className="">
-                  <td className="whitespace-wrap-pre break-words max-sm:max-w-[200px] max-w-lg bg-dark py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low">
-                    <ExpandingUrl url={link.url} />
+                <tr key={link.url}>
+                  <td className=" truncate break-words max-sm:max-w-[200px] max-w-lg bg-dark py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low">
+                    {link.url}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(link.clicks)}
