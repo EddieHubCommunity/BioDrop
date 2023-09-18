@@ -157,7 +157,7 @@ export default function Search({
     }, 500);
 
     return () => clearTimeout(timer);
-  }, [inputValue]);
+  }, [inputValue, randUsers, BASE_URL, keyword, router]);
 
   useEffect(() => {
     const onKeyDownHandler = (e) => {
