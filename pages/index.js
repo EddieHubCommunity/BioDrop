@@ -245,6 +245,7 @@ export default function Home({
                 width="600"
                 height="600"
                 alt="BioDrop demo image"
+                priority={true}
               />
             </div>
           </div>
