@@ -51,11 +51,15 @@ export default function UserEvents({
     if (eventType === "all") {
       return events;
     }
-    let filteredEvents = events.filter((event) => filterByEventType(event, eventType));
+    let filteredEvents = events.filter((event) =>
+      filterByEventType(event, eventType)
+    );
     if (eventType === "future" && filteredEvents.length === 0) {
-      filteredEvents = events.filter((event) => filterByEventType(event, 'all'))
+      filteredEvents = events.filter((event) =>
+        filterByEventType(event, "all")
+      );
     }
-    return filteredEvents
+    return filteredEvents;
   };
   const eventsToShow = getFilteredEvents();
   const filteredEventOptions = eventOptions.filter((option) => {
