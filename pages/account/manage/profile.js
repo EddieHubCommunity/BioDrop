@@ -21,6 +21,7 @@ import Notification from "@components/Notification";
 import { PROJECT_NAME } from "@constants/index";
 import Textarea from "@components/form/Textarea";
 import Toggle from "@components/form/Toggle";
+import TagsInput from "@components/tag/TagsInput";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -82,6 +83,15 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       label: l,
     };
   });
+
+  const handleTagAdd = (newTag) => {
+    setTags((prevState) => [...prevState, newTag]);
+  };
+
+  const handleTagRemove = (tagToRemove) => {
+    const updatedTags = tags.filter((tag) => tag !== tagToRemove);
+    setTags(updatedTags);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -225,14 +235,13 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
-                      <Input
-                        name="tags"
-                        label="Tags"
-                        value={tags}
-                        onChange={(e) => setTags(e.target.value.split(","))}
+                      <TagsInput
+                        onTagAdd={handleTagAdd}
+                        onTagRemove={handleTagRemove}
+                        tags={tags}
                       />
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        Separate tags with commas (no space required).
+                        Separate tags with commas.
                       </p>
                     </div>
                   </div>

@@ -1,13 +1,9 @@
+import Label from "./Label";
+
 export default function Textarea({ name, value, label, ...restProps }) {
   return (
     <div>
-      <label
-        htmlFor={name}
-        className="block text-sm font-medium leading-6 text-primary-high dark:text-primary-low"
-      >
-        {label}
-      </label>
-      <div className="mt-2">
+     <Label htmlFor={name}>{label}</Label>
         <textarea
           rows={4}
           name={name}
@@ -16,7 +12,6 @@ export default function Textarea({ name, value, label, ...restProps }) {
           defaultValue={value}
           {...restProps}
         />
-      </div>
     </div>
   );
 }

@@ -23,7 +23,14 @@ export async function getProfiles(options = {}) {
     : ["username", "name", "bio", "tags", "location", "-_id"];
   try {
     profiles = await Profile.find(
-      { name: { $exists: true }, isEnabled: true },
+      {
+        name: { $exists: true },
+        isEnabled: true,
+        $or: [
+          { isShadowBanned: { $exists: false } },
+          { isShadowBanned: { $eq: false } },
+        ],
+      },
       fields
     );
   } catch (e) {

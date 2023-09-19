@@ -90,7 +90,7 @@ export default function Roadmap() {
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Roadmap</h1>
 
-        <div className="bg-white dark:bg-dark pb-12">
+        <div className="bg-white dark:bg-dark-2 pb-12">
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="isolate mx-auto mt-16 grid max-w-md grid-cols-1 gap-y-8 sm:mt-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               {releases.map((phase, phaseIdx) => (
@@ -129,7 +129,7 @@ export default function Roadmap() {
                     </p>
                     <ul
                       role="list"
-                      className="mt-8 space-y-3 text-sm leading-6 text-primary-medium dark:text-primary-low-medium  "
+                      className="mt-8 space-y-3 text-sm leading-6 text-primary-medium dark:text-primary-low-medium"
                     >
                       {phase.features.map((feature) => (
                         <li key={feature} className="flex gap-x-3">

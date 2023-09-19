@@ -1,4 +1,4 @@
-import { classNames } from "@services/utils/classNames";
+import Label from "./Label";
 
 export default function Select({
   value,
@@ -12,12 +12,7 @@ export default function Select({
   return (
     <div>
       {label && (
-        <label
-          htmlFor={name}
-          className={classNames("dark:text-white hidden md:block", className)}
-        >
-          {label}
-        </label>
+        <Label htmlFor={name} className={className}>{label}</Label>
       )}
       <select
         id={name}
