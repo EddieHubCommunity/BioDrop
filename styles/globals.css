@@ -22,6 +22,16 @@ code.language-unknown::after {
   content: "";
 }
 
+html.dark .light-only {
+  display: none;
+}
+
+html:not(.dark) .dark-only {
+  display: none;
+}
+
+
+
 @layer base {
   body {
     @apply dark:bg-primary-high dark:text-white bg-white text-black;
