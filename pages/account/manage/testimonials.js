@@ -167,7 +167,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                         </p>
                       </div>
                       <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-medium-low dark:text-primary-low-high">
-                        <div className="flex items-center">
+                        <div className="flex">
                           <div className="w-12">
                             <FallbackImage
                               width={100}
