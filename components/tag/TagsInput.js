@@ -26,7 +26,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
   const handleKeyDown = (e) => {
     const inputValue = inputRef.current.value;
     const { backspace } = keyCode;
-    if (e.keyCode === backspace && !inputValue) {
+    if (e.keyCode === backspace && !inputValue && tags.length>0) {
       const removedTag = tags.pop();
       onTagRemove(removedTag);
       inputRef.current.value = removedTag;
