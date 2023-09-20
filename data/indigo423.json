@@ -172,6 +172,14 @@
       "date": "June 2015",
       "color": "#6f89e9",
       "description": "Changed from a freelancer to full-time engagement with OpenNMS"
+    },
+    {
+      "title": "Published: Mehr Durchblick im Netzwerk mit OpenNMS Horizon und Flows",
+      "icon": "FaLink",
+      "date": "May 2023",
+      "color": "#ff4157",
+      "description": "Published an article in german Linux-Magazin about NetFlow protocols with OpenNMS",
+      "url": "https://www.linux-magazin.de/ausgaben/2023/05/opennms/"
     }
   ]
 }
