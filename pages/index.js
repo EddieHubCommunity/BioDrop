@@ -296,7 +296,7 @@ export default function Home({
                 data-kt-value="oxibVr4Q0NlF"
                 data-kt-owner="nkmvj7Xr"
               ></div>
-              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF"></Script>
+              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF" strategy="lazyOnload" />
             </div>
           </div>
         </div>
