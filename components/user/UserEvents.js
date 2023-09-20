@@ -74,21 +74,23 @@ export default function UserEvents({
 
   return (
     <>
-      {eventsToShow.length === 0 && !manage && (
+      {eventsToShow.length === 0 && manage && (
         <Alert type="info" message="No Events found" />
       )}
 
-      <Select
-        name="event-type"
-        value={eventType}
-        label="Select an event type"
-        onChange={handleEventTypeChange}
-        options={filteredEventOptions.map((option) => ({
-          label: option.name,
-          value: option.value,
-        }))}
-        className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
-      />
+      {eventsToShow.length > 0 && manage && (
+        <Select
+          name="event-type"
+          value={eventType}
+          label="Select an event type"
+          onChange={handleEventTypeChange}
+          options={filteredEventOptions.map((option) => ({
+            label: option.name,
+            value: option.value,
+          }))}
+          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+        />
+      )}
 
       {eventsToShow.length > 0 && (
         <ul role="list" className="mt-4">
