@@ -5,14 +5,14 @@ import Input from "../form/Input";
 export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
   const inputRef = useRef(null);
 
-  const keyCode = {
+  //key code
+  const { comma, backspace } = {
     comma: 188,
     backspace: 8,
   };
 
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
-    const { comma } = keyCode;
     if (e.keyCode === comma || inputValue.endsWith(",")) {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
@@ -24,7 +24,6 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
   };
 
   const handleKeyDown = (e) => {
-    const { backspace } = keyCode;
     if (
       e.keyCode === backspace &&
       inputRef.current?.value === "" &&
