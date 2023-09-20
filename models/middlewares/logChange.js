@@ -26,7 +26,7 @@ export default async function logChange({ userId, collection, changesBefore, cha
     await Changelog.create({ ...change });
     logger.info(`Changelog added for: "${collection}" for user id ${userId}`);
   } else {
-    logger.info(`No changes occured in: ${collection}`);
+    logger.info(`No changelog for: "${collection}" by user id ${userId}`);
   }
 }
 
