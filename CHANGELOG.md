@@ -1,3 +1,12 @@
+## [2.22.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.5...v2.22.6) (2023-09-21)
+
+
+### Bug Fixes
+
+* avatar size testimonials ([#9110](https://github.com/EddieHubCommunity/BioDrop/issues/9110)) ([c2c6bfc](https://github.com/EddieHubCommunity/BioDrop/commit/c2c6bfc47ddde1ee374e84a21e2f9bde10bea1f4)), closes [#8947](https://github.com/EddieHubCommunity/BioDrop/issues/8947)
+
+
+
 ## [2.22.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.4...v2.22.5) (2023-09-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * twitter icon in footer ([#9075](https://github.com/EddieHubCommunity/BioDrop/issues/9075)) ([aa2cdaa](https://github.com/EddieHubCommunity/BioDrop/commit/aa2cdaaa490ec95bfd89fa583675e38bd08f42b3))
-
-
-
-## [2.22.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.0...v2.22.1) (2023-09-15)
-
-
-### Bug Fixes
-
-* update dependencies ([#9070](https://github.com/EddieHubCommunity/BioDrop/issues/9070)) ([abc7bdd](https://github.com/EddieHubCommunity/BioDrop/commit/abc7bdd8329c9511243df4999d667d15c1c8df04))
 
 
 
