@@ -24,6 +24,7 @@ export default async function handler(req, res) {
 
 export async function getUserApi(req, res, username, options = {}) {
   await connectMongo();
+  const today = new Date();
   let isOwner = false;
   const session = await getServerSession(req, res, authOptions);
   if (session && session.username === username) {
@@ -42,10 +43,24 @@ export async function getUserApi(req, res, username, options = {}) {
     };
   }
 
-  await getLocation(username, getProfile);
-  if (getProfile.repos?.length > 0) {
-    await checkGitHubRepo(username, getProfile.repos);
+  let ipLookupProm;
+  if (options.ip) {
+    try {
+      ipLookupProm = fetch(
+        `https://api.iplocation.net/?ip=${options.ip}`
+      );
+    } catch (e) {
+      log.error(e, `failed to get country for ip: ${options.ip}`);
+    }
   }
+
+  let checks = [];
+
+  checks.push(getLocation(username, getProfile));
+  if (getProfile.repos?.length > 0) {
+    checks.push(checkGitHubRepo(username, getProfile.repos));
+  }
+  await Promise.allSettled(checks);
 
   const log = logger.child({ username });
   getProfile = await Profile.aggregate([
@@ -130,7 +145,7 @@ export async function getUserApi(req, res, username, options = {}) {
 
   if (getProfile.events) {
     let dateEvents = [];
-    const today = new Date();
+    
     getProfile.events.map((event) => {
       let cleanEvent = JSON.parse(JSON.stringify(event));
       try {
@@ -161,7 +176,7 @@ export async function getUserApi(req, res, username, options = {}) {
   }
 
   let updates = [];
-  const date = new Date();
+  const date = today;
   date.setHours(1, 0, 0, 0);
 
   if (!isOwner) {
@@ -191,9 +206,7 @@ export async function getUserApi(req, res, username, options = {}) {
     }
     if (options.ip) {
       try {
-        const ipLookupRes = await fetch(
-          `https://api.iplocation.net/?ip=${options.ip}`
-        );
+        const ipLookupRes = await ipLookupProm;
         const ipLookup = await ipLookupRes.json();
         increment[`stats.countries.${ipLookup.country_code2}`] = 1;
       } catch (e) {
