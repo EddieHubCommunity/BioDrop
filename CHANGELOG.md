@@ -1,3 +1,12 @@
+## [2.22.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.7...v2.22.8) (2023-09-22)
+
+
+### Bug Fixes
+
+* remove some stats info from home page ([#9079](https://github.com/EddieHubCommunity/BioDrop/issues/9079)) ([486c514](https://github.com/EddieHubCommunity/BioDrop/commit/486c514c3762099db875d707917468e4f6661830))
+
+
+
 ## [2.22.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.6...v2.22.7) (2023-09-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * homepage hero image priority ([#9104](https://github.com/EddieHubCommunity/BioDrop/issues/9104)) ([cc99fdb](https://github.com/EddieHubCommunity/BioDrop/commit/cc99fdb1677ebd2395c52b68e311ec34cf05d769))
-
-
-
-## [2.22.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.2...v2.22.3) (2023-09-18)
-
-
-### Bug Fixes
-
-* mobile-friendly profile tags input ([#9076](https://github.com/EddieHubCommunity/BioDrop/issues/9076)) ([c14a747](https://github.com/EddieHubCommunity/BioDrop/commit/c14a747b2acd6850320e30c38a8970593db94dc9))
 
 
 
