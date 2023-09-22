@@ -44,31 +44,33 @@ To do this, you need a GitHub account. If you do not have one yet, you can creat
 
 4. Click on Fork
 
-![create a new fork](https://user-images.githubusercontent.com/51131670/210128263-0716b260-5922-4db3-933d-f7e992b668a9.png)
+![create a new fork](https://user-images.githubusercontent.com/34659530/266606626-c4191acf-e86e-4375-a0a6-4b0bbd5afc30.png)
+
+![create a new fork](https://user-images.githubusercontent.com/34659530/269885058-6ddcae2c-d067-4c24-8462-b6db79ce2659.png)
 
 5. Accept the default fork creating a copy of the BioDrop project in your account - this will take you to the forked repo
 
-![BioDrop form](https://user-images.githubusercontent.com/82668196/208292178-92daccad-293d-407a-9d8d-0a86b63d6bd7.png)
+![BioDrop form](https://user-images.githubusercontent.com/34659530/269885676-d2be4b89-6f19-40db-b673-943b23ab9519.png)
 
 6. Click add file and select "create new file"
 
-![Create new file](https://user-images.githubusercontent.com/51131670/210201815-9c56ca28-19e8-4ef9-9934-6014d5262624.png)
+![Create new file](https://user-images.githubusercontent.com/34659530/269888417-3562f866-2c76-4da8-98bf-cc6112b8d3de.png)
 
 7. In the file path at the top, add `data/` followed by your GitHub username, exactly as it appears including capitalisation, and then append `.json` to it.
 
-For example for username **"SaraJaoude"**:
+For example for username **"ChiragThakur"**:
 
-> - _**Correct**_: `BioDrop/data/SaraJaoude.json` (including capitalisation in filename)
-> - _**Incorrect**_: `BioDrop/data/sarajaoude.json` (filename capitalisation does not match username capitalisation)
+> - _**Correct**_: `BioDrop/data/ChiragThakur.json` (including capitalisation in filename)
+> - _**Incorrect**_: `BioDrop/data/chiragthakur.json` (filename capitalisation does not match username capitalisation)
 
-![create json file](https://user-images.githubusercontent.com/82668196/208292180-e0caee14-5eb3-42f1-9035-dabae4ce84f6.png)
+![create json file](https://user-images.githubusercontent.com/34659530/269888445-8b6895b3-f570-4c50-b736-b8235163aa4d.png)
 
 8. For the file contents use the json structure below:
 
 <ClipboardCopy>
 ```js
 {
-  "name": "Sara Jaoude",
+  "name": "Chirag Thakur",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado"
 }
 ```
@@ -84,12 +86,12 @@ For example for username **"SaraJaoude"**:
 <ClipboardCopy>
 ```js
 {
-  "name": "Sara Jaoude",
+  "name": "Chirag Thakur",
   "bio": "Lawyer turned **Digital Nomad**. Travel enthusiast Yoga & Peloton aficionado",
   "links": [
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/SaraJaoude",
+      "url": "https://twitter.com/CHIRAGTHAKUR95",
       "icon": "FaTwitter"
     }
   ]
@@ -105,7 +107,7 @@ _note: do not have duplicate links (url)_
 | url   | string | Full url to the resource                                                                                                                                              |
 | icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons](https://biodrop.io/icons) |
 
-![propose new file](https://user-images.githubusercontent.com/82668196/244908686-6f5727c7-b7a1-414b-8ec0-372e8fc287e8.png)
+![propose new file](https://user-images.githubusercontent.com/34659530/269891349-815771e1-6548-485d-9032-697f98265d63.png)
 
 To add more links, add another object inside the links collection. For example:
 
@@ -114,19 +116,19 @@ To add more links, add another object inside the links collection. For example:
   "links": [
     {
       "name": "Follow me on Twitter",
-      "url": "https://twitter.com/SaraJaoude",
+      "url": "https://twitter.com/CHIRAGTHAKUR95",
       "icon": "FaTwitter"
     },
     {
       "name": "Follow me on Instagram",
-      "url": "https://www.instagram.com/eddieandsaraexplore/",
+      "url": "https://www.instagram.com/chiragthakur9/",
       "icon": "FaInstagram"
     }
   ]
 ```
 </ClipboardCopy>
 
-10. Scroll to the bottom and commit new file by adding the commit message that starts `data: ` followed by your GitHub username (for example `data: SaraJaoude`)
+10. Scroll to the bottom and commit new file by adding the commit message that starts `data: ` followed by your GitHub username (for example `data: ChiragThakur`)
 
 You can skip `optional extended message`
 
@@ -144,7 +146,7 @@ You can skip `optional extended message`
 11. Click `create new branch` and you can use the default name provided
 12. Then, click `Propose new file`
 
-![propose new file](https://user-images.githubusercontent.com/94740455/227761922-50d8484d-7c60-49a2-8347-941de2252c64.png)
+![propose new file](https://user-images.githubusercontent.com/34659530/269893941-338a9991-8023-4b99-b7a7-aa9c29bae9a8.png)
 
 <Alert
   type="warning"
@@ -165,7 +167,7 @@ You can skip `optional extended message`
 
 The first dropdown for the `base` repository (destination) should be set to `EddieHubCommunity/BioDrop` not your username `your-username/BioDrop`.
 
-![compare across forks](https://user-images.githubusercontent.com/79744258/213963791-7234e636-fef2-4ed9-9eb3-eacef04b0239.jpeg)
+![compare across forks](https://user-images.githubusercontent.com/34659530/269904006-12c06eb3-8fcb-420d-ac09-93a4dd50d1be.png)
 
 14. Click `Create pull request`
 15. The description will be filled with a template, please fill in the appropriate sections
