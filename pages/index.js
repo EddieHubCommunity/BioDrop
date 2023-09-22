@@ -258,19 +258,16 @@ export default function Home({
             {
               name: "Active Users",
               current: total.active,
-              total: total.users,
               delta: today.users,
             },
             {
               name: "Profile Views",
               current: total.views,
-              total: total.views - today.views,
               delta: today.views,
             },
             {
               name: "Links Clicked",
               current: total.clicks,
-              total: total.clicks - today.clicks,
               delta: today.clicks,
             },
           ]}
