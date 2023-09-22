@@ -22,9 +22,6 @@ code.language-unknown::after {
   content: "";
 }
 
-
-
-
 @layer base {
   body {
     @apply dark:bg-primary-high dark:text-white bg-white text-black;
