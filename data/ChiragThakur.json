@@ -1,0 +1,31 @@
+{
+  "name": "Chirag Thakur",
+  "bio": "Software Engineer turned **Digital Nomad**. Travel enthusiast FreeLancer & Open Source Contributor",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/CHIRAGTHAKUR95"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chiragthakur09"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/CHIRAGTHAKUR95",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/chiragthakur9/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/chirag-thakur09/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
