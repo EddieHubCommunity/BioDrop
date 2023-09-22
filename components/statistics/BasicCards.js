@@ -18,6 +18,13 @@ export default function BasicCards({ data }) {
               <dd className="mt-1 flex items-baseline justify-between sm:block lg:flex">
                 <div className="flex items-baseline text-2xl font-semibold text-secondary-medium dark:text-secondary-low">
                   {abbreviateNumber(item.current)}
+                  {item.total && (
+                    <span className="ml-2 text-sm font-medium text-primary-medium dark:text-primary-low-medium">
+                      <span title={item.total}>
+                        from {abbreviateNumber(item.total)}
+                      </span>
+                    </span>
+                  )}
                 </div>
                 {item.delta && (
                   <div className="bg-green-100 text-green-800 inline-flex items-baseline px-2.5 py-0.5 rounded-full text-sm font-medium md:mt-2 lg:mt-0">
