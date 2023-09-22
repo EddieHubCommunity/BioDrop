@@ -1,45 +1,45 @@
-## [2.22.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.0...v2.22.1) (2023-09-15)
+## [2.22.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.6...v2.22.7) (2023-09-21)
 
 
 ### Bug Fixes
 
-* update dependencies ([#9070](https://github.com/EddieHubCommunity/BioDrop/issues/9070)) ([abc7bdd](https://github.com/EddieHubCommunity/BioDrop/commit/abc7bdd8329c9511243df4999d667d15c1c8df04))
+* backspace key handling with no tags ([#9120](https://github.com/EddieHubCommunity/BioDrop/issues/9120)) ([9448f99](https://github.com/EddieHubCommunity/BioDrop/commit/9448f99117919019f9a1bb5ae24c67ce091c41b3))
 
 
 
-# [2.22.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.21.0...v2.22.0) (2023-09-14)
-
-
-### Features
-
-* color picker for events ([#8998](https://github.com/EddieHubCommunity/BioDrop/issues/8998)) ([be95fad](https://github.com/EddieHubCommunity/BioDrop/commit/be95fad56e760a2c472f11c78944eebb35d7b5ff))
-
-
-
-# [2.21.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.1...v2.21.0) (2023-09-13)
-
-
-### Features
-
-* admin stats of premium users ([#9061](https://github.com/EddieHubCommunity/BioDrop/issues/9061)) ([64650ed](https://github.com/EddieHubCommunity/BioDrop/commit/64650ed028f63e8171422d619d83d38d912f099f))
-
-
-
-## [2.20.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.20.0...v2.20.1) (2023-09-13)
+## [2.22.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.5...v2.22.6) (2023-09-21)
 
 
 ### Bug Fixes
 
-* upgrade the BioDrop CLI ([#9058](https://github.com/EddieHubCommunity/BioDrop/issues/9058)) ([0386250](https://github.com/EddieHubCommunity/BioDrop/commit/038625036c7d1fa25822c7b97c4ae07291bc17e6))
+* avatar size testimonials ([#9110](https://github.com/EddieHubCommunity/BioDrop/issues/9110)) ([c2c6bfc](https://github.com/EddieHubCommunity/BioDrop/commit/c2c6bfc47ddde1ee374e84a21e2f9bde10bea1f4)), closes [#8947](https://github.com/EddieHubCommunity/BioDrop/issues/8947)
 
 
 
-# [2.20.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.19.0...v2.20.0) (2023-09-13)
+## [2.22.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.4...v2.22.5) (2023-09-21)
 
 
-### Features
+### Bug Fixes
 
-* premium ([#8944](https://github.com/EddieHubCommunity/BioDrop/issues/8944)) ([e590229](https://github.com/EddieHubCommunity/BioDrop/commit/e590229bae347ec971eb624fa243713f9c3fe1fc))
+* delay video script loading for performance ([#9113](https://github.com/EddieHubCommunity/BioDrop/issues/9113)) ([1d355b8](https://github.com/EddieHubCommunity/BioDrop/commit/1d355b8782eb530fd46ef792fff445a42db3b277))
+
+
+
+## [2.22.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.3...v2.22.4) (2023-09-19)
+
+
+### Bug Fixes
+
+* homepage hero image priority ([#9104](https://github.com/EddieHubCommunity/BioDrop/issues/9104)) ([cc99fdb](https://github.com/EddieHubCommunity/BioDrop/commit/cc99fdb1677ebd2395c52b68e311ec34cf05d769))
+
+
+
+## [2.22.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.2...v2.22.3) (2023-09-18)
+
+
+### Bug Fixes
+
+* mobile-friendly profile tags input ([#9076](https://github.com/EddieHubCommunity/BioDrop/issues/9076)) ([c14a747](https://github.com/EddieHubCommunity/BioDrop/commit/c14a747b2acd6850320e30c38a8970593db94dc9))
 
 
 

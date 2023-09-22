@@ -245,6 +245,7 @@ export default function Home({
                 width="600"
                 height="600"
                 alt="BioDrop demo image"
+                priority={true}
               />
             </div>
           </div>
@@ -292,7 +293,7 @@ export default function Home({
                 data-kt-value="oxibVr4Q0NlF"
                 data-kt-owner="nkmvj7Xr"
               ></div>
-              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF"></Script>
+              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF" strategy="lazyOnload" />
             </div>
           </div>
         </div>
