@@ -5,6 +5,7 @@ const ChangelogSchema = new mongoose.Schema(
     userId: mongoose.Schema.Types.ObjectId,
     docId: mongoose.Schema.Types.ObjectId,
     collectionName: String,
+    operation: String,
     changesBefore: mongoose.Schema.Types.Mixed,
     changesAfter: mongoose.Schema.Types.Mixed,
     diff: mongoose.Schema.Types.Mixed,

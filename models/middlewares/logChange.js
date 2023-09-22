@@ -2,14 +2,17 @@ import logger from "@config/logger";
 import { Changelog } from "@models/index";
 
 export default async function logChange({ userId, collection, changesBefore, changesAfter }) {
+  let operation;
   let diff;
 
   const collectionName = collection;
   const docId = changesAfter._id || changesBefore._id;
 
   if (changesBefore && changesAfter) {
+    operation = "UPDATE";
     diff = getChangesDiff(changesBefore, changesAfter);
   } else {
+    operation = changesAfter ? "CREATE" : "DELETE";
     diff = changesAfter;
   }
 
@@ -17,6 +20,7 @@ export default async function logChange({ userId, collection, changesBefore, cha
     userId,
     docId,
     collectionName,
+    operation,
     changesBefore,
     changesAfter,
     diff,
