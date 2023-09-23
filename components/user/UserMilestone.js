@@ -7,24 +7,18 @@ import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import Markdown from "@components/Markdown";
 
-const dateFormatOptions = {
-  "dd/MM/yyyy": {
-    day: "numeric",
-    month: "numeric",
-    year: "numeric",
-  },
-  "January/dd/yyyy": {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  },
-  "Jan/dd/yyyy": {
-    day: "numeric",
-    month: "short",
-    year: "numeric",
-  },
-};
-
+function formatDate(day, month, year, dateFormatStyle) {
+  switch (dateFormatStyle) {
+    case "dd/MM/yyyy":
+      return `${day}/${month}/${year}`;
+    case "month/year":
+      return `${month}/${year}`;
+    case "year":
+      return `${year}`;
+    default:
+      return `${day}/${month}/${year}`;
+  }
+}
 export default function UserMilestone({
   milestone,
   dateFormatStyle,
@@ -34,15 +28,12 @@ export default function UserMilestone({
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
-    const parse = Date.parse(milestone.date);
-    if (!isNaN(parse)) {
-      setDate(
-        new Date(parse).toLocaleDateString(
-          undefined,
-          dateFormatOptions[dateFormatStyle]
-        )
-      );
-    }
+    const milestoneDate = new Date(milestone.date);
+    const day = milestoneDate.getDate();
+    const month = milestoneDate.getMonth() + 1;
+    const year = milestoneDate.getFullYear();
+    const formattedDate = formatDate(day, month, year, dateFormatStyle);
+    setDate(formattedDate);
   }, [milestone.date, dateFormatStyle]);
 
   const DisplayIcon = getIcon(milestone.icon);
