@@ -5,7 +5,7 @@ import Link from "./Link";
 
 export default function Testimonials({ data }) {
   return (
-    <div className="bg-white dark:bg-dark pb-24 pt-10">
+    <div className="bg-white dark:bg-dark-2 pb-24 pt-10">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-xl text-center">
           <h2 className="font-semibold text-secondary-high dark:text-secondary-low text-3xl">

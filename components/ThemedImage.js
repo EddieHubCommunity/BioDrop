@@ -1,11 +1,14 @@
 import Image from "next/image";
-import { useTheme } from "next-themes";
 
-export default function ThemedImage({ lightImg, darkImg, alt, ...rest }) {
-  const { systemTheme, theme } = useTheme();
-  const currentTheme = theme === "system" ? systemTheme : theme;
 
-  const imgSrc = currentTheme === "dark" ? darkImg : lightImg;
+export default function ThemedImage({ lightImg, darkImg, alt, className, ...rest }) {
+  const light = className ? `light-only ${className}` : 'light-only';
+  const dark = className ? `dark-only ${className}` : 'dark-only';
 
-  return <Image src={imgSrc} alt={alt} {...rest} />;
+  return (
+    <>
+      <Image {...rest} src={lightImg} alt={alt} className={light} />
+      <Image {...rest} src={darkImg} alt={alt} className={dark} />
+    </>
+  )
 }

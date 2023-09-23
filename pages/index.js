@@ -2,7 +2,6 @@ import { IconContext } from "react-icons";
 import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
 import va from "@vercel/analytics";
-
 import config from "@config/app.json";
 import { clientEnv } from "@config/schemas/clientSchema";
 import { getTodayStats } from "./api/statistics/today";
@@ -20,7 +19,7 @@ import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
-import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa";
+import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -167,6 +166,15 @@ export default function Home({
         "https://user-images.githubusercontent.com/624760/263394464-1f60752c-00d2-4e41-bf74-fe598b14e9fa.png",
       imageAlt: "BioDrop screenshot of Repo Page",
     },
+    {
+      premium: true,
+      name: "Your Profile Source and Country Statistics",
+      description:
+        "More in depth statistics about your Profile, including the source of the views and the country of the views.",
+      imageSrc:
+        "https://github.com/EddieHubCommunity/BioDrop/assets/624760/f662fa12-49db-4e69-9862-9bf9b4652420",
+      imageAlt: "BioDrop screenshot of Source and Country statistics Page",
+    },
   ];
 
   const testimonials = [
@@ -199,7 +207,11 @@ export default function Home({
     <>
       <PageHead />
 
-      <div className="bg-primary-low dark:bg-dark">
+      {alerts.map((alert, index) => (
+        <Alert key={index} type={alert.type} message={alert.message} />
+      ))}
+
+      <div className="bg-primary-low dark:bg-dark-2">
         <div className="px-6 py-12 sm:px-6 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-medium dark:text-primary-low sm:text-4xl">
@@ -233,42 +245,36 @@ export default function Home({
                 width="600"
                 height="600"
                 alt="BioDrop demo image"
+                priority={true}
               />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark mb-8 p-8 drop-shadow-md">
-        {alerts.map((alert, index) => (
-          <Alert key={index} type={alert.type} message={alert.message} />
-        ))}
-
+      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark-2 mb-8 p-8 drop-shadow-md">
         <BasicCards
           data={[
             {
               name: "Active Users",
               current: total.active,
-              total: total.users,
               delta: today.users,
             },
             {
               name: "Profile Views",
               current: total.views,
-              total: total.views - today.views,
               delta: today.views,
             },
             {
               name: "Links Clicked",
               current: total.clicks,
-              total: total.clicks - today.clicks,
               delta: today.clicks,
             },
           ]}
         />
       </div>
 
-      <div className="bg-primary-low dark:bg-dark">
+      <div className="bg-primary-low dark:bg-dark-2">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-lg bg-primary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20 flex">
@@ -287,7 +293,7 @@ export default function Home({
                 data-kt-value="oxibVr4Q0NlF"
                 data-kt-owner="nkmvj7Xr"
               ></div>
-              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF"></Script>
+              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF" strategy="lazyOnload" />
             </div>
           </div>
         </div>
@@ -302,7 +308,7 @@ export default function Home({
         button2Text="Example"
       />
 
-      <div className="bg-primary-high dark:bg-black" id="section-features">
+      <div className="bg-primary-high dark:bg-dark-2" id="section-features">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
@@ -334,6 +340,11 @@ export default function Home({
                   <p className="mt-2 text-sm sm:text-lg text-primary-low/70">
                     {feature.description}
                   </p>
+                  {feature.premium && (
+                    <p className="mt-2 text-xs sm:text-sm text-primary-low/50 italic">
+                      (Premium feature)
+                    </p>
+                  )}
                 </div>
                 <div
                   className={classNames(

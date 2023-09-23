@@ -1,0 +1,38 @@
+{
+  "name": "Ayandare Samuel",
+  "bio": "Software Engineer && Backend Developer",
+  "tags": [
+    "Open Source",
+    "Web Development",
+    "Software Engineering",
+    "Backend",
+    "Node Js"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Sxamoecode?s=09"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sxamoecode"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Sxamoecode",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's collaborate on Github",
+      "url": "https://github.com/Sxamoecode",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/ayandare-samuel-09315522b",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

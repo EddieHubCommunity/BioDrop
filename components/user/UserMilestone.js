@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaUpRightFromSquare } from "react-icons/fa6";
 import { classNames } from "@services/utils/classNames";
 
 import getIcon from "@components/Icon";
@@ -67,7 +67,7 @@ export default function UserMilestone({
                   aria-label="Milestone Related Link"
                   target="_blank"
                 >
-                  <FaExternalLinkAlt />
+                  <FaUpRightFromSquare />
                 </Link>
               )}
             </p>
