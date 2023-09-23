@@ -1,3 +1,12 @@
+## [2.22.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.8...v2.22.9) (2023-09-23)
+
+
+### Bug Fixes
+
+* improve profile async data gathering ([#9131](https://github.com/EddieHubCommunity/BioDrop/issues/9131)) ([98f9fc9](https://github.com/EddieHubCommunity/BioDrop/commit/98f9fc9d18eeace76e59302e3430e63de3fe1770))
+
+
+
 ## [2.22.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.7...v2.22.8) (2023-09-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * delay video script loading for performance ([#9113](https://github.com/EddieHubCommunity/BioDrop/issues/9113)) ([1d355b8](https://github.com/EddieHubCommunity/BioDrop/commit/1d355b8782eb530fd46ef792fff445a42db3b277))
-
-
-
-## [2.22.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.3...v2.22.4) (2023-09-19)
-
-
-### Bug Fixes
-
-* homepage hero image priority ([#9104](https://github.com/EddieHubCommunity/BioDrop/issues/9104)) ([cc99fdb](https://github.com/EddieHubCommunity/BioDrop/commit/cc99fdb1677ebd2395c52b68e311ec34cf05d769))
 
 
 
