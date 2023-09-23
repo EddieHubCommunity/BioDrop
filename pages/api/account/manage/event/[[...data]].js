@@ -129,7 +129,6 @@ export async function updateEventApi(username, id, updateEvent) {
     log.error(e, error);
     return { error };
   }
-
   
   // Add to Changelog
   logChange({
@@ -145,6 +144,8 @@ export async function updateEventApi(username, id, updateEvent) {
 export async function deleteEventApi(username, id) {
   await connectMongo();
   const log = logger.child({ username });
+
+  const beforeDelete = await getEventApi(username, id);
 
   try {
     await Profile.findOneAndUpdate(
@@ -168,6 +169,14 @@ export async function deleteEventApi(username, id) {
     log.error(e, error);
     return { error };
   }
+
+  // Add to Changelog
+  logChange({
+    userId, 
+    collection: "events", 
+    changesBefore: beforeDelete, 
+    changesAfter: null
+  });
 
   return JSON.parse(JSON.stringify({}));
 }

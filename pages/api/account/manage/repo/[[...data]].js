@@ -181,6 +181,8 @@ export async function deleteRepoApi(username, id) {
   await connectMongo();
   const log = logger.child({ username });
 
+  const beforeDelete = await getRepoApi(username, id);
+
   try {
     await Profile.findOneAndUpdate(
       {
@@ -203,6 +205,14 @@ export async function deleteRepoApi(username, id) {
     log.error(e, error);
     return { error };
   }
+
+  // Add to Changelog
+  logChange({
+    userId,
+    collection: "repos",
+    changesBefore: beforeDelete,
+    changesAfter: null
+  });
 
   return JSON.parse(JSON.stringify({}));
 }

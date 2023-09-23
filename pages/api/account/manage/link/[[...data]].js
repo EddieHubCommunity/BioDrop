@@ -249,5 +249,13 @@ export async function deleteLinkApi(username, id) {
     return { error };
   }
 
+  // Add to Changelog
+  logChange({
+    userId,
+    collection: "links",
+    changesBefore: getLink,
+    changesAfter: null
+  });
+
   return JSON.parse(JSON.stringify({}));
 }
