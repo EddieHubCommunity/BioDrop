@@ -72,7 +72,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   }, [isSpeaking]);
 
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
-  const [color, setColor] = useState(event.color || "");
+  const [color, setColor] = useState("");
 
   const formatLocalDate = (inputDate) => {
     const d = new Date(inputDate);
