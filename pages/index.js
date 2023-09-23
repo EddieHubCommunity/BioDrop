@@ -258,19 +258,16 @@ export default function Home({
             {
               name: "Active Users",
               current: total.active,
-              total: total.users,
               delta: today.users,
             },
             {
               name: "Profile Views",
               current: total.views,
-              total: total.views - today.views,
               delta: today.views,
             },
             {
               name: "Links Clicked",
               current: total.clicks,
-              total: total.clicks - today.clicks,
               delta: today.clicks,
             },
           ]}
@@ -296,7 +293,7 @@ export default function Home({
                 data-kt-value="oxibVr4Q0NlF"
                 data-kt-owner="nkmvj7Xr"
               ></div>
-              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF"></Script>
+              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF" strategy="lazyOnload" />
             </div>
           </div>
         </div>
