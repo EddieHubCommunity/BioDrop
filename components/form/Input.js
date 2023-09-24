@@ -41,7 +41,9 @@ const Input = forwardRef(
 
     return (
       <>
-        {label && <Label htmlFor={name}>{label}</Label>}
+        {label && (
+          <Label htmlFor={name}>{label}</Label>
+        )}
 
         <input
           ref={ref}
