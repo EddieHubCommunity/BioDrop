@@ -102,7 +102,7 @@ export default function EventCard({ manage, event, usernames }) {
                   </span>
                 </div>
                 {event.price?.startingFrom > 0 && (
-                  <div>${event.price?.startingFrom}</div>
+                  <div className="ml-auto mr-[-35px]" >${event.price?.startingFrom}</div>
                 )}
               </div>
             </div>
