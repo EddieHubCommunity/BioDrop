@@ -7,9 +7,9 @@ import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import Markdown from "@components/Markdown";
 
-function formatDate(day, month, year, dateFormatStyle) {
-  switch (dateFormatStyle) {
-    case "dd/MM/yyyy":
+function formatDate(day, month, year, dateFormat) {
+  switch (dateFormat) {
+    case "dd/mm/yyyy":
       return `${day}/${month}/${year}`;
     case "month/year":
       return `${month}/${year}`;
@@ -19,12 +19,7 @@ function formatDate(day, month, year, dateFormatStyle) {
       return `${day}/${month}/${year}`;
   }
 }
-export default function UserMilestone({
-  milestone,
-  dateFormatStyle,
-  isGoal,
-  manage,
-}) {
+export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
@@ -32,9 +27,9 @@ export default function UserMilestone({
     const day = milestoneDate.getDate();
     const month = milestoneDate.getMonth() + 1;
     const year = milestoneDate.getFullYear();
-    const formattedDate = formatDate(day, month, year, dateFormatStyle);
+    const formattedDate = formatDate(day, month, year, milestone.dateFormat);
     setDate(formattedDate);
-  }, [milestone.date, dateFormatStyle]);
+  }, [milestone, milestone.dateFormat]);
 
   const DisplayIcon = getIcon(milestone.icon);
   const item = (milestone, isGoal) => {
@@ -54,7 +49,7 @@ export default function UserMilestone({
             <h3
               className={classNames(
                 isGoal && "opacity-70",
-                "text-sm font-medium"
+                "text-sm font-medium",
               )}
             >
               <span>{milestone.title}</span>

@@ -11,6 +11,10 @@ const MilestoneSchema = new Schema({
     type: Date,
     required: true,
   },
+  dateFormat: {
+    type: String,
+    default: "dd/mm/yyyy",
+  },
   isGoal: Boolean,
   title: {
     type: String,
