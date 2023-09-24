@@ -18,8 +18,8 @@ export default async function handler(req, res) {
   }
   await connectMongo();
 
-  // 1. get all profiles from db
-  const profiles = await Profile.find({ username: "eddiejaoude" });
+  // 1. get all profiles from db that use forms
+  const profiles = await Profile.find({ source: "database" });
 
   // 2. get all testimonials from json files
   profiles.map(async (profile) => {
