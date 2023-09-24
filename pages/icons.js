@@ -1,5 +1,5 @@
 import { useState } from "react";
-import * as FaIcons from "react-icons/fa";
+import * as FaIcons from "react-icons/fa6";
 import * as SiIcons from "react-icons/si";
 
 import Alert from "@components/Alert";
@@ -13,7 +13,13 @@ export default function Icons() {
   const [notFound, setNotFound] = useState();
   const [threeOrMore, setThreeOrMore] = useState();
 
-  const popularIcons = ["FaGithub", "FaTwitter", "FaLinkedin", "FaGit"];
+  const popularIcons = [
+    "FaGithub",
+    "FaTwitter",
+    "FaLinkedin",
+    "FaGit",
+    "FaXTwitter",
+  ];
   const icons = {};
 
   Object.keys(FaIcons).forEach((key) => {

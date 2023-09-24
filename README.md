@@ -1,4 +1,4 @@
-[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop) 
+[![Open in Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop) 
 ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Fbio-drop-biodrop-io%2Fuptime.json) 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/BioDrop)](https://github.com/EddieHubCommunity/BioDrop/releases) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/BioDrop) 
@@ -56,7 +56,7 @@ Read more in the official documentation - https://biodrop.io/docs/environments/g
 
 In the cloud-free development environment which will have all the dependencies you need (for example MongoDB).
 
-You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop/)
+[![Open BioDrop in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop)
 
 Read more in the official documentation - https://biodrop.io/docs/environments/gitpod
 

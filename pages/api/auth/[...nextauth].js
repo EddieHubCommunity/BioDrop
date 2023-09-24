@@ -65,8 +65,9 @@ export const authOptions = {
     async session({ session, token }) {
       await connectMongo();
       // Send properties to the client, like an access_token and user id from a provider.
+      // note: `sub` is the user id
       session.accessToken = token.accessToken;
-      session.user.id = token.id;
+      session.user.id = token.sub;
       session.username = token.username;
       const user = await User.findOne({ _id: token.sub });
       if (user) {
@@ -86,7 +87,7 @@ export const authOptions = {
   events: {
     async signIn({ profile: githubProfile }) {
       await connectMongo();
-      // associate LinkFree profile to LinkFree account
+      // associate BioDrop profile to account
       const account = await getAccountByProviderAccountId(githubProfile.id);
       const user = await User.findOne({ _id: account.userId });
 

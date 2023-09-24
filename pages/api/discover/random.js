@@ -43,7 +43,9 @@ export async function getRandomProfileApi() {
     return JSON.parse(JSON.stringify(profile ? profile[0] : {}));
   } catch (error) {
     if (serverEnv.NODE_ENV === "development") {
-      logger.warn("Users not loaded. Please visit /api/system/reload?secret=development");
+      logger.warn(
+        "Users not loaded. Please visit /api/system/reload?secret=development"
+      );
       return {};
     }
     logger.error(error, "Error fetching user profiles");
