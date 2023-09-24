@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import { FaShare } from "react-icons/fa6";
-import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
 import { useRouter } from "next/router";
 
@@ -15,6 +14,7 @@ import ClipboardCopy from "@components/ClipboardCopy";
 import { socials } from "@config/socials";
 import Markdown from "@components/Markdown";
 import BasicCards from "@components/statistics/BasicCards";
+import dynamic from "next/dynamic";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -22,13 +22,17 @@ function UserProfile({ BASE_URL, data }) {
   const router = useRouter();
   const fallbackImageSize = 120;
 
+  const QRStyledCanvas = dynamic(() => import("../QRStyledCanvas"), {
+    ssr: false,
+  });
+
   //Declared Ref object for QR
   const qrRef = useRef(null);
 
   //qrRef.current is pointing to the DOM node and firstChild to its canvas
   const downloadQR = () =>
     qrRef.current.firstChild.toBlob((blob) =>
-      saveAs(blob, `biodrop-${data.username}.png`)
+      saveAs(blob, `biodrop-${data.username}.png`),
     );
 
   return (
@@ -132,10 +136,24 @@ function UserProfile({ BASE_URL, data }) {
           <div>
             <div className="flex justify-center my-4" ref={qrRef}>
               {qrShow && (
-                <QRCodeCanvas
+                <QRStyledCanvas
                   className="border border-white"
                   value={`${BASE_URL}/${data.username}`}
-                  size={fallbackImageSize * 2}
+                  image={"/logo192.png"}
+                  height={fallbackImageSize * 2}
+                  width={fallbackImageSize * 2}
+                  parentRef={qrRef}
+                  dotsOptions={{
+                    color: "#ee626b",
+                    type: "rounded",
+                  }}
+                  backgroundOptions={{
+                    color: "#e9ebee",
+                  }}
+                  imageOptions={{
+                    crossOrigin: "anonymous",
+                    margin: 20,
+                  }}
                 />
               )}
             </div>
@@ -156,7 +174,7 @@ function UserProfile({ BASE_URL, data }) {
                     href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
                       includeText
                         ? `&text=${encodeURIComponent(
-                            `Check out ${data.name}'s profile on BioDrop.io`
+                            `Check out ${data.name}'s profile on BioDrop.io`,
                           )}`
                         : ""
                     }`}
