@@ -336,11 +336,11 @@ export default function ManageEvent({ BASE_URL, event }) {
 
                 <div className="mt-6 flex items-center justify-end gap-x-6">
                   {event._id && (
-                    <Button type="button" onClick={() => setOpen(true)}>
+                    <Button type="button" onClick={() => setOpen(true)} style={{marginBottom: '1.5rem'}}>
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} style={{marginBottom: '1.5rem'}}>
                     SAVE
                   </Button>
                 </div>
