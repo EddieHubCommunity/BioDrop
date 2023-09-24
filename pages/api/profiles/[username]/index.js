@@ -1,9 +1,10 @@
 import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import { Profile, Stats, ProfileStats } from "@models/index";
+import { Profile, Stats, ProfileStats, User } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
 import { checkGitHubRepo } from "@services/github/getRepo";
@@ -21,8 +22,9 @@ export default async function handler(req, res) {
   return res.status(status).json(profile);
 }
 
-export async function getUserApi(req, res, username) {
+export async function getUserApi(req, res, username, options = {}) {
   await connectMongo();
+  const today = new Date();
   let isOwner = false;
   const session = await getServerSession(req, res, authOptions);
   if (session && session.username === username) {
@@ -41,15 +43,39 @@ export async function getUserApi(req, res, username) {
     };
   }
 
-  await getLocation(username, getProfile);
-  if (getProfile.repos?.length > 0) {
-    await checkGitHubRepo(username, getProfile.repos);
+  let ipLookupProm;
+  if (options.ip) {
+    try {
+      ipLookupProm = fetch(
+        `https://api.iplocation.net/?ip=${options.ip}`
+      );
+    } catch (e) {
+      log.error(e, `failed to get country for ip: ${options.ip}`);
+    }
   }
+
+  let checks = [];
+
+  checks.push(getLocation(username, getProfile));
+  if (getProfile.repos?.length > 0) {
+    checks.push(checkGitHubRepo(username, getProfile.repos));
+  }
+  await Promise.allSettled(checks);
 
   const log = logger.child({ username });
   getProfile = await Profile.aggregate([
     {
       $match: { username },
+    },
+    {
+      $set: {
+        milestones: {
+          $sortArray: {
+            input: "$milestones",
+            sortBy: { date: -1 },
+          },
+        },
+      },
     },
     {
       $addFields: {
@@ -83,8 +109,8 @@ export async function getUserApi(req, res, username) {
       },
     },
   ]);
-
   getProfile = getProfile[0];
+
   getProfile = {
     ...getProfile,
     links: getProfile.links
@@ -101,9 +127,25 @@ export async function getUserApi(req, res, username) {
       })),
   };
 
+  let getUser = {};
+  if (getProfile.user) {
+    getUser = await User.findOne({ _id: new ObjectId(getProfile.user) });
+
+    getProfile = {
+      ...getProfile,
+      accountType: getUser.type || "free",
+    };
+  } else {
+    getProfile = {
+      ...getProfile,
+      accountType: "free",
+    };
+  }
+  delete getProfile.user;
+
   if (getProfile.events) {
     let dateEvents = [];
-    const today = new Date();
+    
     getProfile.events.map((event) => {
       let cleanEvent = JSON.parse(JSON.stringify(event));
       try {
@@ -134,7 +176,7 @@ export async function getUserApi(req, res, username) {
   }
 
   let updates = [];
-  const date = new Date();
+  const date = today;
   date.setHours(1, 0, 0, 0);
 
   if (!isOwner) {
@@ -157,6 +199,22 @@ export async function getUserApi(req, res, username) {
       })()
     );
 
+    let increment = { views: 1 };
+    if (options.referer) {
+      const referer = new URL(options.referer);
+      increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
+    }
+    if (options.ip) {
+      try {
+        const ipLookupRes = await ipLookupProm;
+        const ipLookup = await ipLookupRes.json();
+        increment[`stats.countries.${ipLookup.country_code2}`] = 1;
+      } catch (e) {
+        increment[`stats.countries.-`] = 1;
+        log.error(e, `failed to get country for ip: ${options.ip}`);
+      }
+    }
+
     updates.push(
       (async () => {
         try {
@@ -165,7 +223,7 @@ export async function getUserApi(req, res, username) {
               username,
             },
             {
-              $inc: { views: 1 },
+              $inc: increment,
             },
             { timestamps: false }
           );
@@ -188,7 +246,7 @@ export async function getUserApi(req, res, username) {
               date,
             },
             {
-              $inc: { views: 1 },
+              $inc: increment,
             },
             { upsert: true }
           );

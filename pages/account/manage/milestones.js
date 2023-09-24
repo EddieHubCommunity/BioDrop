@@ -11,6 +11,7 @@ import { getMilestonesApi } from "pages/api/account/manage/milestones";
 import Button from "@components/Button";
 import UserMilestones from "@components/user/UserMilestones";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -43,21 +44,33 @@ export async function getServerSideProps(context) {
 
 export default function ManageMilestones({ milestones }) {
   const router = useRouter();
-  const { success } = router.query;
+  const { alert } = router.query;
+
+  const alerts = {
+    deleted: {
+      type: "success",
+      message: "Milestone Deleted Successfully",
+    },
+    created: {
+      type: "success",
+      message: "Milestone Created Successfully",
+    },
+    updated: {
+      type: "success",
+      message: "Milestone Updated Successfully",
+    },
+  };
 
   return (
     <>
       <PageHead
         title="Manage Milestones"
-        description="Here you can manage your LinkFree milestones"
+        description={`Here you can manage your ${PROJECT_NAME} milestones`}
       />
 
       <Page>
-        {success && (
-          <Alert
-            type="success"
-            message="Milestone Created/Updated Successfully"
-          />
+        {alert && (
+          <Alert type={alerts[alert].type} message={alerts[alert].message} />
         )}
 
         <Navigation />

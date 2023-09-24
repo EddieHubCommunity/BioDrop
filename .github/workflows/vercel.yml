@@ -16,7 +16,7 @@ on:
 
 jobs:
   deploy:
-    if: github.repository == 'EddieHubCommunity/LinkFree'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -49,4 +49,4 @@ jobs:
               - 'data/**'
       - name: load json files
         if: steps.changes.outputs.data == 'true'
-        run: curl -f https://linkfree.io/api/system/reload?secret=${{ secrets.LINKFREE_API_SECRET }}
+        run: curl -L -f https://biodrop.io/api/system/reload?secret=${{ secrets.BIODROP_API_SECRET }}

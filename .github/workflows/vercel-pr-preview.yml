@@ -6,7 +6,7 @@ env:
 on:
   workflow_dispatch:
   pull_request:
-    branches-ignore:    
+    branches-ignore:
       - revert-logger
     paths:
       - "**.js"
@@ -38,4 +38,4 @@ jobs:
     needs: deploy
     steps:
       - name: load json files
-        run: curl -f ${{ needs.deploy.outputs.url }}/api/system/reload?secret=${{ secrets.LINKFREE_API_SECRET_PREVIEW }}
+        run: curl -L -f ${{ needs.deploy.outputs.url }}/api/system/reload?secret=${{ secrets.BIODROP_API_SECRET_PREVIEW }}

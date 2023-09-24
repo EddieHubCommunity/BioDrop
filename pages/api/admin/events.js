@@ -32,11 +32,10 @@ export async function getEvents() {
   let events = [];
   try {
     events = await Profile.aggregate([
-      { $project: { username: 1, events: 1, isEnabled: 1 } },
+      { $project: { username: 1, events: 1, isEnabled: 1, isShadowBanned: 1 } },
       { $unwind: "$events" },
       {
         $match: {
-          isEnabled: true,
           "events.date.start": { $gt: new Date() },
           "events.date.end": { $gt: new Date() },
         },
@@ -52,6 +51,7 @@ export async function getEvents() {
   events = events.map((event) => ({
     ...event.events,
     username: event.username,
+    isShadowBanned: event.isShadowBanned,
   }));
 
   return JSON.parse(JSON.stringify(events));

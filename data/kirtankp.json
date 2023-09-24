@@ -4,12 +4,19 @@
   "tags": [
     "Open Source",
     "Javascript",
-    "ReactJS",
-    "NodeJS",
     "Typescript",
+    "NodeJS",
+    "ReactJS",
+    "NextJS",
     "Java"
   ],
   "links": [
+    {
+      "group": "Projects",
+      "name": "Help Desk",
+      "url": "https://help-desk-ockzj4k2f-kirtankp.vercel.app/",
+      "icon": "FaLink"
+    },
     {
       "group": "Projects",
       "name": "Lift Simulator",
@@ -18,14 +25,20 @@
     },
     {
       "group": "Projects",
-      "name": "Landing Page Using ReactJS",
-      "url": "https://lustrous-pavlova-7875d9.netlify.app/",
+      "name": "News",
+      "url": "https://64d3a5aa765d6c74ad77a50f--flourishing-concha-24375f.netlify.app/",
       "icon": "FaLink"
     },
     {
       "group": "Projects",
       "name": "Dynamic Todo Application",
       "url": "https://todo-app-df29.onrender.com/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Landing Page Using ReactJS",
+      "url": "https://lustrous-pavlova-7875d9.netlify.app/",
       "icon": "FaLink"
     },
     {
@@ -38,7 +51,7 @@
       "group": "Primary Socials",
       "name": "Twitter",
       "url": "https://twitter.com/kirtan__kp/",
-      "icon": "FaTwitter"
+      "icon": "FaXTwitter"
     },
     {
       "group": "Socials",
@@ -55,7 +68,7 @@
   ],
   "socials": [
     {
-      "icon": "FaTwitter",
+      "icon": "FaXTwitter",
       "url": "https://twitter.com/kirtan__kp/"
     },
     {

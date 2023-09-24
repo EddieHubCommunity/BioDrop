@@ -3,9 +3,9 @@ import Link from "@components/Link";
 
 ## MongoDB Atlas for Local Development
 
-To work on LinkFree locally, you'll need to set up a database for storing your data. MongoDB Atlas is a fully managed cloud database service that offers a free tier suitable for local development.
+To work on BioDrop locally, you'll need to set up a database for storing your data. MongoDB Atlas is a fully managed cloud database service that offers a free tier suitable for local development.
 
-Follow the step-by-step instructions below to create your MongoDB Atlas account and set up the connection for LinkFree local development.
+Follow the step-by-step instructions below to create your MongoDB Atlas account and set up the connection for BioDrop local development.
 
 ### Create Your MongoDB Atlas Account
 
@@ -41,13 +41,13 @@ Follow the step-by-step instructions below to create your MongoDB Atlas account 
 
 ![image](https://user-images.githubusercontent.com/7236196/236709974-5e8a1c36-2edb-4a56-bc0d-7ab3c9bd4019.png)
 
-3. Find the connection string and use this connection string for the variable `LINKFREE_MONGO_CONNECTION_STRING` in your local `.env` file.
+3. Find the connection string and use this connection string for the variable `BioDrop_MONGO_CONNECTION_STRING` in your local `.env` file.
 
 ![image](https://user-images.githubusercontent.com/7236196/236710064-058d05ce-e451-43c7-93ba-c9689f894b7e.png)
 
 Remember to replace password in the connection string with the password you set up for your database user.
 
-That's it! You have successfully set up a MongoDB Atlas database and it's now ready for use in your LinkFree local development environment.
+That's it! You have successfully set up a MongoDB Atlas database and it's now ready for use in your BioDrop local development environment.
 
 export default ({ children }) => (
   <DocsLayout

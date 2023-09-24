@@ -5,7 +5,7 @@ import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import StarIcon from "@heroicons/react/20/solid/StarIcon";
 import dateFormat from "@services/utils/dateFormat";
 
-export default function UserRepos({ manage = false, handleDelete, repos }) {
+export default function UserRepos({ manage = false, confirmDelete, repos }) {
   const item = (repo) => (
     <div className="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-primary-low dark:hover:bg-primary-medium transition-all duration-100 sm:px-6 lg:px-8">
       <div className="flex gap-x-4">
@@ -26,7 +26,7 @@ export default function UserRepos({ manage = false, handleDelete, repos }) {
               ({dateFormat({ format: "long", date: repo.dates.pushedAt })})
             </span>
           </p>
-          <p className="mt-1 flex text-xs leading-5 text-primary-medium-low ">
+          <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low">
             {repo.description}
           </p>
         </div>
@@ -50,7 +50,11 @@ export default function UserRepos({ manage = false, handleDelete, repos }) {
   );
 
   const manageDelete = (repo) => (
-    <Delete action={handleDelete} id={repo._id} label={repo.name}>
+    <Delete
+      action={() => confirmDelete(repo._id)}
+      id={repo._id}
+      label={repo.name}
+    >
       {item(repo)}
     </Delete>
   );

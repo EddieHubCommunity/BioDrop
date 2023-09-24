@@ -62,11 +62,12 @@ test.fixme("Link navigates", async () => {
 test("redirect to search when tag clicked", async ({ page }) => {
   await page.goto("/_test-profile-user-6");
   await page.getByRole("button", { name: "Open Source" }).first().click();
+  await page.waitForLoadState("networkidle");
   await expect(page).toHaveURL("search?keyword=open%20source");
 });
 
 test.describe("accessibility tests (light)", () => {
-  test.use({ colorScheme: 'light' });
+  test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests (_test-profile-user-6) (light)", async ({
     page,
@@ -90,7 +91,7 @@ test.describe("accessibility tests (light)", () => {
 });
 
 test.describe("accessibility tests (dark)", () => {
-  test.use({ colorScheme: 'dark' });
+  test.use({ colorScheme: "dark" });
 
   test("should pass axe wcag accessibility tests (_test-profile-user-6) (dark)", async ({
     page,

@@ -39,6 +39,7 @@ test("Footer link goes to GitHub", async ({ page }) => {
   const getFooter = page.getByText("Powered by EddieHub");
 
   await getFooter.click();
+  await page.waitForLoadState("networkidle");
 
   await expect(page).toHaveURL(/github/);
 });

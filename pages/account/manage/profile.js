@@ -18,6 +18,10 @@ import Input from "@components/form/Input";
 import Select from "@components/form/Select";
 import Button from "@components/Button";
 import Notification from "@components/Notification";
+import { PROJECT_NAME } from "@constants/index";
+import Textarea from "@components/form/Textarea";
+import Toggle from "@components/form/Toggle";
+import TagsInput from "@components/tag/TagsInput";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -66,11 +70,28 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   });
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name || "Your name");
+  const [isStatsPublic, setIsStatsPublic] = useState(
+    profile.isStatsPublic ? true : false
+  );
   const [bio, setBio] = useState(
     profile.bio || "Have a look at my links below..."
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
-  const layouts = config.layouts;
+  const layouts = config.layouts.map((l) => {
+    return {
+      value: l,
+      label: l,
+    };
+  });
+
+  const handleTagAdd = (newTag) => {
+    setTags((prevState) => [...prevState, newTag]);
+  };
+
+  const handleTagRemove = (tagToRemove) => {
+    const updatedTags = tags.filter((tag) => tag !== tagToRemove);
+    setTags(updatedTags);
+  };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -79,7 +100,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, bio, tags, layout }),
+      body: JSON.stringify({ name, bio, tags, layout, isStatsPublic }),
     });
     const update = await res.json();
 
@@ -107,7 +128,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     <>
       <PageHead
         title="Manage Profile"
-        description="Here you can manage your LinkFree profile"
+        description={`Here you can manage your ${PROJECT_NAME} profile`}
       />
 
       <Page>
@@ -176,7 +197,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                       <div className="mt-1">
                         <Select
                           name="layout"
-                          label="Layout"
+                          label="Profile Layout"
                           value={layout}
                           options={layouts}
                           onChange={(e) => setLayout(e.target.value)}
@@ -199,7 +220,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
-                      <Input
+                      <Textarea
                         name="bio"
                         label="Bio"
                         value={bio}
@@ -214,16 +235,23 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
-                      <Input
-                        name="tags"
-                        label="Tags"
-                        value={tags}
-                        onChange={(e) => setTags(e.target.value.split(","))}
+                      <TagsInput
+                        onTagAdd={handleTagAdd}
+                        onTagRemove={handleTagRemove}
+                        tags={tags}
                       />
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        Separate tags with commas (no space required).
+                        Separate tags with commas.
                       </p>
                     </div>
+                  </div>
+                  <div className="mt-3">
+                    <Toggle
+                      text1="Enable?"
+                      text2="hide/show profile view and rank"
+                      enabled={isStatsPublic}
+                      setEnabled={setIsStatsPublic}
+                    />
                   </div>
                 </section>
 

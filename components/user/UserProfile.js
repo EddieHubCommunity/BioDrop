@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
-import ReactMarkdown from "react-markdown";
-import { FaShare } from "react-icons/fa";
+import { FaShare } from "react-icons/fa6";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
 import { useRouter } from "next/router";
@@ -14,9 +13,12 @@ import Button from "@components/Button";
 import Modal from "@components/Modal";
 import ClipboardCopy from "@components/ClipboardCopy";
 import { socials } from "@config/socials";
+import Markdown from "@components/Markdown";
+import BasicCards from "@components/statistics/BasicCards";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
+  const [premiumShow, setPremiumShow] = useState(false);
   const router = useRouter();
   const fallbackImageSize = 120;
 
@@ -26,13 +28,8 @@ function UserProfile({ BASE_URL, data }) {
   //qrRef.current is pointing to the DOM node and firstChild to its canvas
   const downloadQR = () =>
     qrRef.current.firstChild.toBlob((blob) =>
-      saveAs(blob, `linkfree-${data.username}.png`)
+      saveAs(blob, `biodrop-${data.username}.png`)
     );
-
-  // Custom component for rendering links within ReactMarkdown
-  const LinkRenderer = ({ href, children }) => (
-    <Link href={href}>{children}</Link>
-  );
 
   return (
     <>
@@ -48,14 +45,14 @@ function UserProfile({ BASE_URL, data }) {
             alt={`Profile picture of ${data.name}`}
             width={fallbackImageSize}
             height={fallbackImageSize}
-            fallback={data.name}
+            fallback={data.username}
             priority
             className="rounded-full object-contain"
           />
         </Badge>
 
         <div className="flex flex-col self-center gap-3">
-          <h1 className="text-3xl font-bold">{data.name}</h1>
+          <h1 className="flex text-3xl font-bold gap-1">{data.name}</h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
             {data.socials?.map((social) => (
               <UserSocial
@@ -69,12 +66,20 @@ function UserProfile({ BASE_URL, data }) {
         </div>
       </div>
       <div className="flex justify-center my-4 text-center">
-        <ReactMarkdown components={{ a: LinkRenderer }}>
-          {data.bio}
-        </ReactMarkdown>
+        <Markdown>{data.bio}</Markdown>
       </div>
       {!qrShow && (
         <div className="flex flex-wrap justify-center">
+          {data.accountType === "premium" && (
+            <Tag
+              name="Premium"
+              key="tag-premium"
+              selected={true}
+              onClick={() =>
+                qrShow ? setPremiumShow(false) : setPremiumShow(true)
+              }
+            />
+          )}
           {data.tags?.length > 0 &&
             data.tags.map((tag, index) => {
               const trimmedTag = tag.trim();
@@ -92,6 +97,33 @@ function UserProfile({ BASE_URL, data }) {
               );
             })}
         </div>
+      )}
+
+      <Modal
+        show={premiumShow}
+        setShow={setPremiumShow}
+        modalStyles="w-fit m-auto"
+      >
+        Premium user badge. You can get this badge by upgrading to Premium.
+      </Modal>
+
+      {data.isStatsPublic && (
+        <BasicCards
+          data={[
+            {
+              name: "Rank",
+              current: data.profileStats?.profile?.rank,
+            },
+            {
+              name: "Total Profile Views",
+              current: data.profileStats?.profile?.total || 0,
+            },
+            {
+              name: "Profile Views on last 30 days",
+              current: data.profileStats?.profile?.monthly || 0,
+            },
+          ]}
+        />
       )}
 
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
@@ -124,7 +156,7 @@ function UserProfile({ BASE_URL, data }) {
                     href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
                       includeText
                         ? `&text=${encodeURIComponent(
-                            `Check out ${data.name}'s profile on LinkFree.io`
+                            `Check out ${data.name}'s profile on BioDrop.io`
                           )}`
                         : ""
                     }`}
@@ -135,7 +167,7 @@ function UserProfile({ BASE_URL, data }) {
                   </Link>
                 ))}
               </div>
-              <div className="w-full flex items-center justify-center">
+              <div className=" flex items-center justify-center w-full overflow-hidden">
                 <ClipboardCopy>
                   <p className="dark:text-gray-300 border p-3 rounded-md">
                     {`${BASE_URL}/${data.username}`}

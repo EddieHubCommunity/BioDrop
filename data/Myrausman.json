@@ -1,0 +1,42 @@
+{
+  "name": "Maira Usman",
+  "bio": "Web Dev, Hardware DEsign and Developement , Open-Source Enthusiast, Third Year Undergrad (Software Eng.)",
+  "tags": [
+    "Open Source",
+    "RISCV",
+    "Python",
+    "Data Analyst",
+    "Web Dev",
+    "Django"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Myrausman"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Myra_5703"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Myra_5703",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Linkedin: Connect with me",
+      "url": "https://www.linkedin.com/in/maira-usman-/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Myrausman",
+      "icon": "FaGithub"
+    }
+  ]
+}

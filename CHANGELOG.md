@@ -1,45 +1,45 @@
-## [1.170.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.4...v1.170.5) (2023-08-07)
+## [2.22.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.8...v2.22.9) (2023-09-23)
 
 
 ### Bug Fixes
 
-* select and storybook cleanup ([#8555](https://github.com/EddieHubCommunity/LinkFree/issues/8555)) ([b2a861e](https://github.com/EddieHubCommunity/LinkFree/commit/b2a861e75285e03ce116f32f48729c8db079a0eb))
+* improve profile async data gathering ([#9131](https://github.com/EddieHubCommunity/BioDrop/issues/9131)) ([98f9fc9](https://github.com/EddieHubCommunity/BioDrop/commit/98f9fc9d18eeace76e59302e3430e63de3fe1770))
 
 
 
-## [1.170.4](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.3...v1.170.4) (2023-08-07)
-
-
-### Bug Fixes
-
-* remove submodule ([#8549](https://github.com/EddieHubCommunity/LinkFree/issues/8549)) ([288fbd9](https://github.com/EddieHubCommunity/LinkFree/commit/288fbd97eb22412955a51b0e2d184e2091daff12))
-
-
-
-## [1.170.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.2...v1.170.3) (2023-08-07)
+## [2.22.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.7...v2.22.8) (2023-09-22)
 
 
 ### Bug Fixes
 
-* sidenav active page highlighted ([#8308](https://github.com/EddieHubCommunity/LinkFree/issues/8308)) ([80fe021](https://github.com/EddieHubCommunity/LinkFree/commit/80fe02128e95ccc252bc3e45a8ba531729311979))
+* remove some stats info from home page ([#9079](https://github.com/EddieHubCommunity/BioDrop/issues/9079)) ([486c514](https://github.com/EddieHubCommunity/BioDrop/commit/486c514c3762099db875d707917468e4f6661830))
 
 
 
-## [1.170.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.1...v1.170.2) (2023-08-07)
-
-
-### Bug Fixes
-
-* increased top margin on alert box [#8210](https://github.com/EddieHubCommunity/LinkFree/issues/8210) ([#8286](https://github.com/EddieHubCommunity/LinkFree/issues/8286)) ([dfa4e49](https://github.com/EddieHubCommunity/LinkFree/commit/dfa4e491ad67bb3e9cf4f9da4548a144c6e78fc7))
-
-
-
-## [1.170.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.170.0...v1.170.1) (2023-08-07)
+## [2.22.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.6...v2.22.7) (2023-09-21)
 
 
 ### Bug Fixes
 
-* edit milestone icon overlaps milestone icon ([#8506](https://github.com/EddieHubCommunity/LinkFree/issues/8506)) ([935aee7](https://github.com/EddieHubCommunity/LinkFree/commit/935aee7cf2b4d21c89e4e699778d46f9a1e0a37d))
+* backspace key handling with no tags ([#9120](https://github.com/EddieHubCommunity/BioDrop/issues/9120)) ([9448f99](https://github.com/EddieHubCommunity/BioDrop/commit/9448f99117919019f9a1bb5ae24c67ce091c41b3))
+
+
+
+## [2.22.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.5...v2.22.6) (2023-09-21)
+
+
+### Bug Fixes
+
+* avatar size testimonials ([#9110](https://github.com/EddieHubCommunity/BioDrop/issues/9110)) ([c2c6bfc](https://github.com/EddieHubCommunity/BioDrop/commit/c2c6bfc47ddde1ee374e84a21e2f9bde10bea1f4)), closes [#8947](https://github.com/EddieHubCommunity/BioDrop/issues/8947)
+
+
+
+## [2.22.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.4...v2.22.5) (2023-09-21)
+
+
+### Bug Fixes
+
+* delay video script loading for performance ([#9113](https://github.com/EddieHubCommunity/BioDrop/issues/9113)) ([1d355b8](https://github.com/EddieHubCommunity/BioDrop/commit/1d355b8782eb530fd46ef792fff445a42db3b277))
 
 
 
