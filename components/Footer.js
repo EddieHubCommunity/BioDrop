@@ -21,6 +21,11 @@ export default function Footer() {
       { name: "Events", href: "/events", external: false },
       { name: "Map", href: "/map", external: false },
       { name: "Login", href: "/auth/signin", external: false },
+      {
+        name: "Open Souce Roadmap",
+        href: "/docs/open-source-roadmap",
+        external: false,
+      },
     ],
     support: [
       { name: "Documentation", href: "/docs", external: false },
@@ -60,7 +65,11 @@ export default function Footer() {
         external: true,
       },
       { name: "Resources", href: "/docs/community-resources", external: false },
-      { name: "Blog & Newsletter", href: "https://biodrop.substack.com/", external: true },
+      {
+        name: "Blog & Newsletter",
+        href: "https://biodrop.substack.com/",
+        external: true,
+      },
       { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
