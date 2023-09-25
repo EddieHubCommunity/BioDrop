@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     req.query.secret !== serverEnv.BIODROP_API_SECRET
   ) {
     logger.error(
-      `attempt to load profile json but security check failed: "${req.query.secret}"`
+      `attempt to load profile json but security check failed: "${req.query.secret}"`,
     );
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
@@ -20,6 +20,9 @@ export default async function handler(req, res) {
 
   // 1. get all profiles from db that use forms
   const profiles = await Profile.find({ source: "database" });
+  logger.info(
+    `"${profiles.length}" profiles loaded from DB to check for new testimonials`,
+  );
 
   // 2. get all testimonials from json files
   profiles.map(async (profile) => {
@@ -27,7 +30,7 @@ export default async function handler(req, res) {
       process.cwd(),
       "data",
       profile.username,
-      "testimonials"
+      "testimonials",
     );
 
     // load testimonials
@@ -38,29 +41,37 @@ export default async function handler(req, res) {
         .flatMap((testimonialFile) => {
           // skip if testimonial from user exists
           const username = testimonialFile.split(".")[0];
-          if (
-            profile.testimonials.find(
-              (testimonial) => testimonial.username === username
-            )
-          ) {
+          if (profile.testimonials.find((t) => t.username === username)) {
             return [];
           }
+
+          logger.info(
+            `new testimonial "${username}" for "${profile.username}" found`,
+          );
 
           // return new testimonial only
           return {
             ...JSON.parse(
               fs.readFileSync(
                 path.join(filePathTestimonials, testimonialFile),
-                "utf8"
-              )
+                "utf8",
+              ),
             ),
             username,
             isPinned: false,
           };
         });
     } catch (e) {
-      //error will happen on user with no (new) testimonials
+      // error will happen on user with no testimonials folder
+      logger.error(
+        e,
+        `no testimonials for "${profile.username}" found "${filePathTestimonials}"`,
+      );
     }
+
+    logger.info(
+      `found "${newTestimonials.length}" new testimonials for "${profile.username}"`,
+    );
 
     // 3. save new testimonials to db in relevant profiles
     newTestimonials.map(async (newTestimonial) => {
@@ -72,13 +83,13 @@ export default async function handler(req, res) {
           {
             $push: { testimonials: { ...newTestimonial } },
           },
-          { upsert: true }
+          { upsert: true },
         );
         logger.info(
-          `updating testimonial ${newTestimonial.username} for profile ${profile.username}`
+          `adding testimonial by "${newTestimonial.username}" for profile "${profile.username}"`,
         );
       } catch (e) {
-        const error = `failed to update testimonial for username: ${profile.username}`;
+        const error = `failed to update testimonial for username "${profile.username}"`;
         logger.error(e, error);
         return { error };
       }
