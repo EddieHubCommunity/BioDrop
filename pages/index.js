@@ -232,7 +232,7 @@ export default function Home({
                 <FaDollarSign /> Free Tier Forever
               </div>
             </div>
-            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 mx-24">
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:mx-24">
               <Button href="/docs" primary={true}>
                 Get started
               </Button>
