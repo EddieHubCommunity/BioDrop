@@ -1,3 +1,12 @@
+## [2.22.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.9...v2.22.10) (2023-09-25)
+
+
+### Bug Fixes
+
+* accessibility issues on profile page and navbar ([#9161](https://github.com/EddieHubCommunity/BioDrop/issues/9161)) ([b16b350](https://github.com/EddieHubCommunity/BioDrop/commit/b16b3506eaace334ee329de71420f545cdd72ce5))
+
+
+
 ## [2.22.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.8...v2.22.9) (2023-09-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * avatar size testimonials ([#9110](https://github.com/EddieHubCommunity/BioDrop/issues/9110)) ([c2c6bfc](https://github.com/EddieHubCommunity/BioDrop/commit/c2c6bfc47ddde1ee374e84a21e2f9bde10bea1f4)), closes [#8947](https://github.com/EddieHubCommunity/BioDrop/issues/8947)
-
-
-
-## [2.22.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.4...v2.22.5) (2023-09-21)
-
-
-### Bug Fixes
-
-* delay video script loading for performance ([#9113](https://github.com/EddieHubCommunity/BioDrop/issues/9113)) ([1d355b8](https://github.com/EddieHubCommunity/BioDrop/commit/1d355b8782eb530fd46ef792fff445a42db3b277))
 
 
 
