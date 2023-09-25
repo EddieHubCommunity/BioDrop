@@ -80,6 +80,28 @@ export default function ManageLinks({ BASE_URL, username, links }) {
     setLinkListPrevious(updatedLinks);
     setShowNotification(true);
     setReorder(false);
+    const newSocial=updatedLinks.map((data)=>({
+    "_id": data._id,
+    "url": data.url,
+    "icon": data.icon
+    }))
+
+    const profileRes = await fetch(`${BASE_URL}/api/profiles/${username}`);
+    const userProfiles = profileRes.json();
+
+    const updateUserProfile = userProfiles.map((profie)=>{
+      return{
+        ...profie,
+        socials: newSocial
+      }
+    })
+    const updateProfileRes = await fetch(`${BASE_URL}/api/profiles/${username}`,{
+      method: "PUT",
+      headers: {
+        "Content-Type" : "application/json"
+      },
+      body: JSON.stringify(updateUserProfile),
+    });
   };
 
   return (
