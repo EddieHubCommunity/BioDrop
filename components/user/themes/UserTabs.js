@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 
 import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
@@ -6,14 +7,39 @@ import UserMilestones from "../UserMilestones";
 import UserTestimonials from "../UserTestimonials";
 import Tabs from "../../Tabs";
 import UserRepos from "../UserRepos";
+import { useRouter } from "next/router";
 
 export default function UserTabs({ data, BASE_URL }) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const currentTab = searchParams.get("tabs") || "links";
   const defaultTabs = [
-    { name: "My Links", href: "#", current: true, url: "links" },
-    { name: "Milestones", href: "#", current: false, url: "milestones" },
-    { name: "Testimonials", href: "#", current: false, url: "testimonials" },
-    { name: "Events", href: "#", current: false, url: "events" },
-    { name: "Repos", href: "#", current: false, url: "repos" },
+    {
+      name: "My Links",
+      href: "links",
+      current: currentTab === "links" ? true : false,
+    },
+    {
+      name: "Milestones",
+      href: "milestones",
+      current: currentTab === "milestones" ? true : false,
+    },
+    {
+      name: "Testimonials",
+      href: "testimonials",
+      current: currentTab === "testimonials" ? true : false,
+    },
+    {
+      name: "Events",
+      href: "events",
+      current: currentTab === "events" ? true : false,
+    },
+    {
+      name: "Repos",
+      href: "repos",
+      current: currentTab === "repos" ? true : false,
+    },
   ];
 
   let displayTabs = defaultTabs.flatMap((tab) => {
@@ -46,48 +72,20 @@ export default function UserTabs({ data, BASE_URL }) {
   });
   const [tabs, setTabs] = useState(displayTabs);
   const changeTab = (e, value) => {
-    e.preventDefault();    
+    e.preventDefault();
     setTabs(
       tabs.map((tab) => {
         if (tab.name === e.target?.value || tab.name === value) {
-          addTabsToURL(tab.url);
+          router.push({ pathname, query: { tabs: tab.href } }, undefined, {
+            scroll: false,
+          });
           return { ...tab, current: true };
         } else {
           return { ...tab, current: false };
         }
-      })
+      }),
     );
   };
-
-  useEffect(() => {
-    const selectedTab = tabs.map((tab) =>
-        (tab.url === getTabsURL() ) ?
-          { ...tab, current: true }
-          :
-          { ...tab, current: false }
-        
-      )
-    
-      setTabs(selectedTab)
-  }, [])
-
-  function addTabsToURL(url) {
-    if (typeof window === 'undefined') return 
-    const newUrl = `?tabs=${url}`
-    window.history.replaceState({ ...window.history.state, as: newUrl, url: newUrl }, '', newUrl);
-  }
-
-  function getTabsURL() {
-    if (typeof window === 'undefined') return
-      const urlParams = new URLSearchParams(window.location.search);
-      let tabs = urlParams.get('tabs');
-      if (!tabs) {    
-        const tab = 'links'
-        addTabsToURL(tab)  
-        tabs = tab
-      }
-      return tabs
-  }
 
   return (
     <>
