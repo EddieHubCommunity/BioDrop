@@ -74,27 +74,30 @@ export default async function handler(req, res) {
     );
 
     // 3. save new testimonials to db in relevant profiles
-    newTestimonials.map(async (newTestimonial) => {
-      try {
-        await Profile.findOneAndUpdate(
-          {
-            username: profile.username,
-          },
-          {
-            $push: { testimonials: { ...newTestimonial } },
-          },
-          { upsert: true },
-        );
-        logger.info(
-          `adding testimonial by "${newTestimonial.username}" for profile "${profile.username}"`,
-        );
-      } catch (e) {
-        const error = `failed to update testimonial for username "${profile.username}"`;
-        logger.error(e, error);
-        return { error };
-      }
-    });
-
-    return res.status(200).json({ profiles: profiles.length });
+    await Promise.all(
+      newTestimonials.map(async (newTestimonial) => {
+        try {
+          await Profile.findOneAndUpdate(
+            {
+              username: profile.username,
+            },
+            {
+              $push: { testimonials: { ...newTestimonial } },
+            },
+            { upsert: true },
+          );
+          logger.info(
+            `added testimonial by "${newTestimonial.username}" for profile "${profile.username}"`,
+          );
+        } catch (e) {
+          logger.error(
+            e,
+            `failed to update testimonial for username "${profile.username}"`,
+          );
+        }
+      }),
+    );
   });
+
+  return res.status(200).json({ profiles: profiles.length });
 }
