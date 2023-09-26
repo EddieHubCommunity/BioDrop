@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
@@ -9,11 +9,11 @@ import UserRepos from "../UserRepos";
 
 export default function UserTabs({ data, BASE_URL }) {
   const defaultTabs = [
-    { name: "My Links", href: "#", current: true },
-    { name: "Milestones", href: "#", current: false },
-    { name: "Testimonials", href: "#", current: false },
-    { name: "Events", href: "#", current: false },
-    { name: "Repos", href: "#", current: false },
+    { name: "My Links", href: "#", current: true, url: "links" },
+    { name: "Milestones", href: "#", current: false, url: "milestones" },
+    { name: "Testimonials", href: "#", current: false, url: "testimonials" },
+    { name: "Events", href: "#", current: false, url: "events" },
+    { name: "Repos", href: "#", current: false, url: "repos" },
   ];
 
   let displayTabs = defaultTabs.flatMap((tab) => {
@@ -46,15 +46,48 @@ export default function UserTabs({ data, BASE_URL }) {
   });
   const [tabs, setTabs] = useState(displayTabs);
   const changeTab = (e, value) => {
-    e.preventDefault();
+    e.preventDefault();    
     setTabs(
-      tabs.map((tab) =>
-        tab.name === e.target?.value || tab.name === value
-          ? { ...tab, current: true }
-          : { ...tab, current: false }
-      )
+      tabs.map((tab) => {
+        if (tab.name === e.target?.value || tab.name === value) {
+          addTabsToURL(tab.url);
+          return { ...tab, current: true };
+        } else {
+          return { ...tab, current: false };
+        }
+      })
     );
   };
+
+  useEffect(() => {
+    const selectedTab = tabs.map((tab) =>
+        (tab.url === getTabsURL() ) ?
+          { ...tab, current: true }
+          :
+          { ...tab, current: false }
+        
+      )
+    
+      setTabs(selectedTab)
+  }, [])
+
+  function addTabsToURL(url) {
+    if (typeof window === 'undefined') return 
+    const newUrl = `?tabs=${url}`
+    window.history.replaceState({ ...window.history.state, as: newUrl, url: newUrl }, '', newUrl);
+  }
+
+  function getTabsURL() {
+    if (typeof window === 'undefined') return
+      const urlParams = new URLSearchParams(window.location.search);
+      let tabs = urlParams.get('tabs');
+      if (!tabs) {    
+        const tab = 'links'
+        addTabsToURL(tab)  
+        tabs = tab
+      }
+      return tabs
+  }
 
   return (
     <>
