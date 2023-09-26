@@ -89,7 +89,10 @@ export const navigation = [
         href: "/docs/environments/environment-variables",
       },
       { name: "MongoDB Atlas", href: "/docs/environments/local-with-atlas" },
-      { name: "Debugging in VS Code", href: "/docs/environments/debugging-in-vscode" },
+      {
+        name: "Debugging in VS Code",
+        href: "/docs/environments/debugging-in-vscode",
+      },
       { name: "Reviewers", href: "/docs/contributing/reviewers" },
       { name: "Storybook", href: "/docs/contributing/storybook" },
       { name: "Playwright", href: "/docs/contributing/automated-tests" },
@@ -101,6 +104,7 @@ export const navigation = [
     name: "Other",
     // icon: ChartPieIcon,
     children: [
+      { name: "Open Source Roadmap", href: "/docs/open-source-roadmap" },
       { name: "Profile Tips", href: "/docs/profile-tips" },
       { name: "Full Profile JSON example", href: "/docs/full-profile-example" },
       { name: "Map Information", href: "/docs/map" },
