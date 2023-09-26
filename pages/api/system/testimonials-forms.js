@@ -17,6 +17,8 @@ export default async function handler(req, res) {
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
   await connectMongo();
+  let totalNewTestimonials = 0;
+  let newTestimonialsByProfile = [];
 
   // 1. get all profiles from db that use forms
   const profiles = await Profile.find({ source: "database" });
@@ -73,6 +75,15 @@ export default async function handler(req, res) {
       `found "${newTestimonials.length}" new testimonials for "${profile.username}"`,
     );
 
+    if (newTestimonials.length === 0) {
+      return;
+    }
+
+    totalNewTestimonials += newTestimonials.length;
+    newTestimonialsByProfile.push({
+      [profile.username]: newTestimonials.length,
+    });
+
     // 3. save new testimonials to db in relevant profiles
     await Promise.all(
       newTestimonials.map(async (newTestimonial) => {
@@ -99,5 +110,9 @@ export default async function handler(req, res) {
     );
   });
 
-  return res.status(200).json({ profiles: profiles.length });
+  return res.status(200).json({
+    profiles: profiles.length,
+    totalNewTestimonials,
+    newTestimonialsByProfile,
+  });
 }
