@@ -73,7 +73,8 @@ export default function UserTabs({ data, BASE_URL }) {
 
   function addTabsToURL(url) {
     if (typeof window === 'undefined') return 
-    window.history.pushState({}, '', `?tabs=${url}`);
+    const newUrl = `?tabs=${url}`
+    window.history.replaceState({ ...window.history.state, as: newUrl, url: newUrl }, '', newUrl);
   }
 
   function getTabsURL() {
