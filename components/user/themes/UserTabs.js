@@ -13,7 +13,7 @@ export default function UserTabs({ data, BASE_URL }) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const currentTab = searchParams.get("tabs") || "links";
+  const currentTab = searchParams.get("tab") || "links";
   const defaultTabs = [
     {
       name: "My Links",
@@ -76,7 +76,7 @@ export default function UserTabs({ data, BASE_URL }) {
     setTabs(
       tabs.map((tab) => {
         if (tab.name === e.target?.value || tab.name === value) {
-          router.push({ pathname, query: { tabs: tab.href } }, undefined, {
+          router.push({ pathname, query: { tab: tab.href } }, undefined, {
             scroll: false,
           });
           return { ...tab, current: true };
