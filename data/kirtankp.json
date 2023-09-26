@@ -13,6 +13,12 @@
   "links": [
     {
       "group": "Projects",
+      "name": "Photo Gallery",
+      "url": "https://photo-gallery-kirtankp.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
       "name": "Help Desk",
       "url": "https://help-desk-ockzj4k2f-kirtankp.vercel.app/",
       "icon": "FaLink"
