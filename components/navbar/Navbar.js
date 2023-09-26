@@ -8,7 +8,7 @@ import Link from "@components/Link";
 import { useTheme } from "next-themes";
 import { classNames } from "@services/utils/classNames";
 
-import { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
 import MoonIcon from "@heroicons/react/20/solid/MoonIcon";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
@@ -85,10 +85,6 @@ export default function Navbar() {
       url: "/events",
     },
     {
-      name: "Map",
-      url: "/map",
-    },
-    {
       name: "Repos",
       url: "/repos",
     },
@@ -96,10 +92,10 @@ export default function Navbar() {
       name: "Discover",
       url: "/discover",
     },
-    // {
-    //   name: "Pricing",
-    //   url: "/pricing",
-    // },
+    {
+      name: "Pricing",
+      url: "/pricing",
+    },
   ];
 
   const authControls = () => (
@@ -151,7 +147,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <Link href="/">
+                <Link href="/" aria-label="BioDrop Home">
                   <LogoWide onClick={() => setIsOpen(false)} width={128} />
                 </Link>
               </div>

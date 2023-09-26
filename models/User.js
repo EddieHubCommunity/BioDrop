@@ -15,6 +15,9 @@ const UserSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
+    premiumTrialStartDate: {
+      type: Date,
+    },
     name: {
       type: String,
       trim: true,

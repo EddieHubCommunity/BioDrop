@@ -1,45 +1,45 @@
-## [2.15.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.8...v2.15.9) (2023-09-08)
+## [2.22.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.11...v2.22.12) (2023-09-26)
 
 
 ### Bug Fixes
 
-* search result card zoom on hover ([#8993](https://github.com/EddieHubCommunity/BioDrop/issues/8993)) ([b08ebc8](https://github.com/EddieHubCommunity/BioDrop/commit/b08ebc87e8b97ee355fdbdc08eb5d37f9e82c2ef))
+* improved testimonial importing output ([#9166](https://github.com/EddieHubCommunity/BioDrop/issues/9166)) ([341b3ab](https://github.com/EddieHubCommunity/BioDrop/commit/341b3abf29332c5d21b3c5fb12403ccf8801ad54))
 
 
 
-## [2.15.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.7...v2.15.8) (2023-09-08)
-
-
-### Bug Fixes
-
-* remove decode links as id is used ([#8991](https://github.com/EddieHubCommunity/BioDrop/issues/8991)) ([237b19c](https://github.com/EddieHubCommunity/BioDrop/commit/237b19cb7ba7e5720a12fe81760a73196a53ff95))
-
-
-
-## [2.15.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.6...v2.15.7) (2023-09-08)
+## [2.22.11](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.10...v2.22.11) (2023-09-26)
 
 
 ### Bug Fixes
 
-* all events ([#8921](https://github.com/EddieHubCommunity/BioDrop/issues/8921)) ([64b73e2](https://github.com/EddieHubCommunity/BioDrop/commit/64b73e2475334839891a1a5e90f59d38b4471131))
+* testimonials for profiles using forms ([#9156](https://github.com/EddieHubCommunity/BioDrop/issues/9156)) ([1f9dc14](https://github.com/EddieHubCommunity/BioDrop/commit/1f9dc14d3547b78003e6e70c34e9eefc48d6e19f))
 
 
 
-## [2.15.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.5...v2.15.6) (2023-09-08)
-
-
-### Bug Fixes
-
-* glow animation for links ([#8854](https://github.com/EddieHubCommunity/BioDrop/issues/8854)) ([638d454](https://github.com/EddieHubCommunity/BioDrop/commit/638d454fd57bdf742238f1d7a0ba59393f972472))
-
-
-
-## [2.15.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.15.4...v2.15.5) (2023-09-08)
+## [2.22.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.9...v2.22.10) (2023-09-25)
 
 
 ### Bug Fixes
 
-* improved dark mode background ([#8945](https://github.com/EddieHubCommunity/BioDrop/issues/8945)) ([f8bfca8](https://github.com/EddieHubCommunity/BioDrop/commit/f8bfca8b2ac6911650e7e921f9796520ecc2fab4))
+* accessibility issues on profile page and navbar ([#9161](https://github.com/EddieHubCommunity/BioDrop/issues/9161)) ([b16b350](https://github.com/EddieHubCommunity/BioDrop/commit/b16b3506eaace334ee329de71420f545cdd72ce5))
+
+
+
+## [2.22.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.8...v2.22.9) (2023-09-23)
+
+
+### Bug Fixes
+
+* improve profile async data gathering ([#9131](https://github.com/EddieHubCommunity/BioDrop/issues/9131)) ([98f9fc9](https://github.com/EddieHubCommunity/BioDrop/commit/98f9fc9d18eeace76e59302e3430e63de3fe1770))
+
+
+
+## [2.22.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.7...v2.22.8) (2023-09-22)
+
+
+### Bug Fixes
+
+* remove some stats info from home page ([#9079](https://github.com/EddieHubCommunity/BioDrop/issues/9079)) ([486c514](https://github.com/EddieHubCommunity/BioDrop/commit/486c514c3762099db875d707917468e4f6661830))
 
 
 
