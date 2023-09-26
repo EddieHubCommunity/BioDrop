@@ -55,7 +55,7 @@ export default function UserTabs({ data, BASE_URL }) {
         } else {
           return { ...tab, current: false };
         }
-      )
+      })
     );
   };
 
