@@ -199,7 +199,7 @@ export default function ManageEvent({ BASE_URL, event }) {
 
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <form
-            className="space-y-8 divide-y divide-primary-low-medium/30"
+            className="space-y-8 divide-y divide-primary-low-medium/30 lg:mb-0 mb-4"
             onSubmit={handleSubmit}
           >
             <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
