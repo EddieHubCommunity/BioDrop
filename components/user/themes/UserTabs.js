@@ -53,7 +53,7 @@ export default function UserTabs({ data, BASE_URL }) {
           addTabsToURL(tab.url);
           return { ...tab, current: true };
         } else {
-          return { ...tab, current: false }}
+          return { ...tab, current: false };
         }
       )
     );
