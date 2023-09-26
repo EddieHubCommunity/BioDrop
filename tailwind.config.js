@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         dark: "#000000",
-        "dark-2": '#121212',
+        "dark-2": "#121212",
         primary: {
           // blue
           low: "#f6f7f8",
@@ -40,6 +40,13 @@ module.exports = {
   corePlugins: {
     aspectRatio: false,
   },
+
+  variants: {
+    extend: {
+      animation: ["motion-safe, motion-reduce"],
+    },
+  },
+
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
