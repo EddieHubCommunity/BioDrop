@@ -9,11 +9,11 @@ import UserRepos from "../UserRepos";
 
 export default function UserTabs({ data, BASE_URL }) {
   const defaultTabs = [
-    { name: "My Links", href: "#", current: true, url: 'links'},
-    { name: "Milestones", href: "#", current: false, url: 'milestones' },
-    { name: "Testimonials", href: "#", current: false, url: 'testimonials' },
-    { name: "Events", href: "#", current: false, url: 'events' },
-    { name: "Repos", href: "#", current: false, url: 'repos' },
+    { name: "My Links", href: "#", current: true, url: "links" },
+    { name: "Milestones", href: "#", current: false, url: "milestones" },
+    { name: "Testimonials", href: "#", current: false, url: "testimonials" },
+    { name: "Events", href: "#", current: false, url: "events" },
+    { name: "Repos", href: "#", current: false, url: "repos" },
   ];
 
   let displayTabs = defaultTabs.flatMap((tab) => {
