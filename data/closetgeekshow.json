@@ -1,0 +1,234 @@
+{
+"props": {
+    "pageProps": {
+    "data": {
+        "_id": "6513373a300a568178507ae7",
+        "username": "closetgeekshow",
+        "bio": "**Socials:** [Twitter](https://twitter.com/closetgeekshow) [Mastodon](https://c.im/@closetgeekshow) [LinkedIn](https://linkedin.com/in/brentmorris)",
+        "createdAt": "2023-09-26T19:55:38.327Z",
+        "events": [],
+        "isEnabled": true,
+        "isShadowBanned": false,
+        "isStatsPublic": false,
+        "layout": "inline",
+        "links": [
+        {
+            "_id": "651337ef57187af01c0767ac",
+            "username": "closetgeekshow",
+            "group": "My Content",
+            "name": "Blog",
+            "url": "https://closetgeekshow.ca/",
+            "icon": "FaPencil",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 0
+        },
+        {
+            "_id": "65133af6423515f3326074d0",
+            "username": "closetgeekshow",
+            "group": "My Content",
+            "name": "Youtube (Gamedev Videos)",
+            "url": "https://www.youtube.com/channel/UCkU-zVva3sE5wh49FT-k4Bg",
+            "icon": "FaYoutube",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 1
+        },
+        {
+            "_id": "6513383657187af01c0767b6",
+            "username": "closetgeekshow",
+            "group": "Repos",
+            "name": "AxureCopySitemap",
+            "url": "https://github.com/closetgeekshow/AxureCopySitemap",
+            "icon": "FaSitemap",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 2
+        },
+        {
+            "_id": "6513386f57187af01c0767c0",
+            "username": "closetgeekshow",
+            "group": "Repos",
+            "name": "ChatGPT Experiments",
+            "url": "https://github.com/closetgeekshow/GPTPromptExperiments",
+            "icon": "FaRobot",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 3
+        },
+        {
+            "_id": "651339451343e2c3271a32f4",
+            "username": "closetgeekshow",
+            "group": "Gamedev Demos",
+            "name": "Jelly Hunters",
+            "url": "https://closetgeekshow.itch.io/jelly-hunters",
+            "icon": "FaUnity",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 4
+        },
+        {
+            "_id": "651338aa57187af01c0767c8",
+            "username": "closetgeekshow",
+            "group": "Gamedev Demos",
+            "name": "Alien Environment",
+            "url": "https://closetgeekshow.itch.io/alien-environment",
+            "icon": "FaUnity",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 5
+        },
+        {
+            "_id": "651338e057187af01c0767d2",
+            "username": "closetgeekshow",
+            "group": "Gamedev Demos",
+            "name": "SimplestFPS",
+            "url": "https://closetgeekshow.itch.io/simplest-fps",
+            "icon": "FaUnity",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 6
+        },
+        {
+            "_id": "6513390957187af01c0767de",
+            "username": "closetgeekshow",
+            "group": "Gamedev Demos",
+            "name": "Cyberpunk Noodle Stand",
+            "url": "https://closetgeekshow.itch.io/cyberpunk-city-fps",
+            "icon": "FaUnity",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 7
+        },
+        {
+            "_id": "651339d21343e2c3271a3347",
+            "username": "closetgeekshow",
+            "group": "Gamedev Demos",
+            "name": "Zombie Waves",
+            "url": "https://closetgeekshow.itch.io/zombie-waves",
+            "icon": "FaUnity",
+            "isEnabled": true,
+            "isPinned": false,
+            "profile": "6513373a300a568178507ae7",
+            "animation": "none",
+            "order": 8
+        }
+        ],
+        "milestones": [],
+        "name": "Brent Morris",
+        "repos": [
+        {
+            "url": "https://github.com/closetgeekshow/AxureCopySitemap",
+            "name": "AxureCopySitemap",
+            "fullname": "AxureCopySitemap",
+            "owner": "closetgeekshow",
+            "description": "Copies the Axure sitemap in a format you can easily paste into Excel ",
+            "stats": {
+            "forks": 0,
+            "stars": 0,
+            "issues": 0,
+            "subscribers": 1,
+            "watchers": 0
+            },
+            "topics": [
+            "axure",
+            "axure-cloud",
+            "axure-preview",
+            "excel-export"
+            ],
+            "dates": {
+            "createdAt": "2023-06-09T22:32:53.000Z",
+            "updatedAt": "2023-09-13T15:55:25.000Z",
+            "pushedAt": "2023-06-12T22:08:47.000Z"
+            },
+            "updatedAt": "2023-09-26T20:06:09.619Z",
+            "_id": "651339b11343e2c3271a332a"
+        },
+        {
+            "url": "https://github.com/closetgeekshow/GPTPromptExperiments",
+            "name": "GPTPromptExperiments",
+            "fullname": "GPTPromptExperiments",
+            "owner": "closetgeekshow",
+            "description": "a collection of prompts I've tried for various purposes",
+            "stats": {
+            "forks": 0,
+            "stars": 0,
+            "issues": 0,
+            "subscribers": 2,
+            "watchers": 0
+            },
+            "topics": [],
+            "dates": {
+            "createdAt": "2023-06-16T18:07:36.000Z",
+            "updatedAt": "2023-06-16T18:07:37.000Z",
+            "pushedAt": "2023-09-01T20:52:22.000Z"
+            },
+            "updatedAt": "2023-09-26T20:06:15.098Z",
+            "_id": "651339b71343e2c3271a3337"
+        }
+        ],
+        "settings": { "hideFooter": false, "hideNavbar": false },
+        "source": "database",
+        "tags": [
+        "UX",
+        "Information Architecture",
+        "Interaction Design",
+        "IXD",
+        "IA",
+        "User Experience",
+        "Gamedev",
+        "Unity",
+        "React",
+        "Open Source"
+        ],
+        "testimonials": [],
+        "updatedAt": "2023-09-26T20:11:34.351Z",
+        "views": 14,
+        "location": {
+        "provided": "unknown",
+        "name": "unknown",
+        "lat": 0,
+        "lon": 0,
+        "updatedAt": "2023-09-26T19:56:55.132Z"
+        },
+        "stats": { "countries": { "GB": 14 } },
+        "socials": [],
+        "accountType": "free",
+        "cleanBio": "Socials: Twitter Mastodon LinkedIn\n"
+    },
+    "settings": {
+        "hideFooter": false,
+        "hideNavbar": false,
+        "type": "free"
+    },
+    "BASE_URL": "https://www.biodrop.io"
+    },
+    "__N_SSP": true
+},
+"page": "/[username]",
+"query": { "username": "closetgeekshow" },
+"buildId": "x2CvE00fuY7Xps-5-OyA2",
+"isFallback": false,
+"dynamicIds": [70231],
+"gssp": true,
+"locale": "en",
+"locales": ["en"],
+"defaultLocale": "en",
+"scriptLoader": []
+}
