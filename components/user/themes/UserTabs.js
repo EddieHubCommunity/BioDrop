@@ -48,10 +48,10 @@ export default function UserTabs({ data, BASE_URL }) {
   const changeTab = (e, value) => {
     e.preventDefault();    
     setTabs(
-      tabs.map((tab) =>{
-        if (tab.name === e.target?.value || tab.name === value){
-        addTabsToURL(tab.url)
-          return { ...tab, current: true }
+      tabs.map((tab) => {
+        if (tab.name === e.target?.value || tab.name === value) {
+          addTabsToURL(tab.url);
+          return { ...tab, current: true };
         } else {
           return { ...tab, current: false }}
         }
