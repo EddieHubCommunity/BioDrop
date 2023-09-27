@@ -1,0 +1,21 @@
+{
+  "name": "Habeeb Kareem",
+  "bio": "Aspiring Pentester | IT graduate | Open-Source Enthusiast",
+  "links": [
+     {
+      "name": "Follow me on Github",
+      "url": "https://github.com/bL34cHig0",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itskhabib",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/ha-bib",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
