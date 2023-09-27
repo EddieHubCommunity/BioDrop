@@ -1,3 +1,12 @@
+## [2.23.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.0...v2.23.1) (2023-09-27)
+
+
+### Bug Fixes
+
+* hide testimonials, tags, stats on mobile ([#9178](https://github.com/EddieHubCommunity/BioDrop/issues/9178)) ([92aa62f](https://github.com/EddieHubCommunity/BioDrop/commit/92aa62fefa6abd7067bc6978c704a3888db27d14)), closes [#9154](https://github.com/EddieHubCommunity/BioDrop/issues/9154)
+
+
+
 # [2.23.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.12...v2.23.0) (2023-09-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * accessibility issues on profile page and navbar ([#9161](https://github.com/EddieHubCommunity/BioDrop/issues/9161)) ([b16b350](https://github.com/EddieHubCommunity/BioDrop/commit/b16b3506eaace334ee329de71420f545cdd72ce5))
-
-
-
-## [2.22.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.8...v2.22.9) (2023-09-23)
-
-
-### Bug Fixes
-
-* improve profile async data gathering ([#9131](https://github.com/EddieHubCommunity/BioDrop/issues/9131)) ([98f9fc9](https://github.com/EddieHubCommunity/BioDrop/commit/98f9fc9d18eeace76e59302e3430e63de3fe1770))
 
 
 
