@@ -108,7 +108,7 @@ function UserProfile({ BASE_URL, data }) {
       </Modal>
 
       {data.isStatsPublic && (
-        <div className="hidden md:flex flex-col">
+        <div className="hidden md:block">
           <BasicCards
             data={[
               {
