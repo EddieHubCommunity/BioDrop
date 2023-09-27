@@ -28,7 +28,7 @@ export default function Tabs({ tabs, setTabs }) {
                   tab.current
                     ? "border-tertiary-medium "
                     : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
-                  `justify-center text-base group flex border-b-2 py-4 font-medium grow`
+                  `justify-center text-base group flex border-b-2 py-4 font-medium grow`,
                 )}
                 aria-current={tab.current ? "page" : undefined}
               >
