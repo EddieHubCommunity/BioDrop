@@ -9,7 +9,7 @@ import Page from "@components/Page";
 import Navigation from "@components/account/manage/Navigation";
 import { getMilestonesApi } from "pages/api/account/manage/milestones";
 import Button from "@components/Button";
-import UserMilestones from "@components/user/UserMilestones";
+import ProfileMilestones from "@components/profile/ProfileMilestones";
 import Alert from "@components/Alert";
 import { PROJECT_NAME } from "@constants/index";
 
@@ -80,7 +80,7 @@ export default function ManageMilestones({ milestones }) {
           Add Milestone
         </Button>
 
-        <UserMilestones milestones={milestones} manage={true} />
+        <ProfileMilestones milestones={milestones} manage={true} />
       </Page>
     </>
   );

@@ -15,7 +15,7 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
-import UserMini from "@components/user/UserMini";
+import ProfileMini from "@components/profile/ProfileMini";
 import { PROJECT_NAME } from "@constants/index";
 
 const DynamicChart = dynamic(
@@ -142,7 +142,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
           <Alert type="info" message={alerts[router.query.alert]} />
         )}
 
-        <UserMini
+        <ProfileMini
           BASE_URL={BASE_URL}
           username={profile.username}
           name={profile.name}

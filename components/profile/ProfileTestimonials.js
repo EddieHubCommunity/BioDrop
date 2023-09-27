@@ -3,7 +3,7 @@ import Alert from "@components/Alert";
 import FallbackImage from "@components/FallbackImage";
 import Markdown from "@components/Markdown";
 
-export default function UserTestimonials({ testimonials, BASE_URL }) {
+export default function ProfileTestimonials({ testimonials, BASE_URL }) {
   return (
     <>
       {!testimonials?.length && (

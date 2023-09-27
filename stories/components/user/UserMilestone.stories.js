@@ -1,7 +1,7 @@
-import UserMilestone from "@components/user/UserMilestone";
+import ProfileMilestone from "@components/profile/ProfileMilestone";
 
 export default {
-  component: UserMilestone,
+  component: ProfileMilestone,
   decorators: [
     (Story) => (
       <ul role="list">

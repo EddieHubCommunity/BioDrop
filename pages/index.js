@@ -14,7 +14,7 @@ import BasicCards from "@components/statistics/BasicCards";
 import Testimonials from "@components/Testimonials";
 import Alert from "@components/Alert";
 import CallToAction from "@components/CallToAction";
-import UserMini from "@components/user/UserMini";
+import ProfileMini from "@components/profile/ProfileMini";
 import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
@@ -371,7 +371,7 @@ export default function Home({
       </div>
 
       {randomProfile.username && (
-        <UserMini
+        <ProfileMini
           BASE_URL={BASE_URL}
           text="Follow..."
           username={randomProfile.username}

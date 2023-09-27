@@ -11,7 +11,7 @@ import Button from "@components/Button";
 import Navigation from "@components/account/manage/Navigation";
 import { getMilestoneApi } from "pages/api/account/manage/milestone/[[...data]]";
 import Input from "@components/form/Input";
-import UserMilestone from "@components/user/UserMilestone";
+import ProfileMilestone from "@components/profile/ProfileMilestone";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
@@ -262,7 +262,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
             </div>
           </form>
           <div>
-            <UserMilestone
+            <ProfileMilestone
               milestone={{ title, description, url, icon, date, isGoal }}
               isGoal={isGoal}
             />

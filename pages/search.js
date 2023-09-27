@@ -1,6 +1,6 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
-import UserHorizontal from "@components/user/UserHorizontal";
+import ProfileHorizontal from "@components/profile/ProfileHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
@@ -252,14 +252,14 @@ export default function Search({
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} input={inputValue} />
+                <ProfileHorizontal profile={user} input={inputValue} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} input={inputValue} />
+                <ProfileHorizontal profile={user} input={inputValue} />
               </li>
             ))}
         </ul>

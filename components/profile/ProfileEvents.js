@@ -3,7 +3,7 @@ import EventCard from "@components/event/EventCard";
 import Alert from "@components/Alert";
 import Select from "@components/form/Select";
 
-export default function UserEvents({
+export default function ProfileEvents({
   manage = false,
   events,
   filter = "future",

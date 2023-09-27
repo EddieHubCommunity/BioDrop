@@ -5,7 +5,7 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { getProfiles } from "./api/discover/profiles";
 
-import UserHorizontal from "@components/user/UserHorizontal";
+import ProfileHorizontal from "@components/profile/ProfileHorizontal";
 
 export async function getServerSideProps() {
   let profiles = [];
@@ -38,7 +38,7 @@ export default function Discover({ profiles }) {
         >
           {profiles.map((profile) => (
             <li key={profile.username}>
-              <UserHorizontal profile={profile} />
+              <ProfileHorizontal profile={profile} />
             </li>
           ))}
         </ul>

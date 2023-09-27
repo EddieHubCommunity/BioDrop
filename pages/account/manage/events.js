@@ -8,7 +8,7 @@ import Page from "@components/Page";
 import Navigation from "@components/account/manage/Navigation";
 import { getEventsApi } from "pages/api/account/manage/events";
 import Button from "@components/Button";
-import UserEvents from "@components/user/UserEvents";
+import ProfileEvents from "@components/profile/ProfileEvents";
 import { useRouter } from "next/router";
 import Alert from "@components/Alert";
 import { PROJECT_NAME } from "@constants/index";
@@ -74,7 +74,7 @@ export default function ManageEvents({ events }) {
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Event
         </Button>
-        <UserEvents events={events} manage={true} />
+        <ProfileEvents events={events} manage={true} />
       </Page>
     </>
   );

@@ -1,8 +1,8 @@
-import UserTestimonials from "@components/user/UserTestimonials";
+import ProfileTestimonials from "@components/profile/ProfileTestimonials";
 import profile from "./profile.json";
 
 export default {
-  component: UserTestimonials,
+  component: ProfileTestimonials,
 };
 
 export const Basic = {

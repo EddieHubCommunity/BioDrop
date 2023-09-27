@@ -1,7 +1,7 @@
-import UserLink from "@components/user/UserLink";
+import ProfileLink from "@components/profile/ProfileLink";
 
 export default {
-  component: UserLink,
+  component: ProfileLink,
 };
 
 export const Basic = {

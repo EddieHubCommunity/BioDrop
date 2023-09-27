@@ -1,14 +1,14 @@
-import UserEvents from "../UserEvents";
-import UserLinks from "../UserLinks";
-import UserMilestones from "../UserMilestones";
-import UserRepos from "../UserRepos";
-import UserTestimonials from "../UserTestimonials";
+import ProfileEvents from "../ProfileEvents";
+import ProfileLinks from "../ProfileLinks";
+import ProfileMilestones from "../ProfileMilestones";
+import ProfileRepos from "../ProfileRepos";
+import ProfileTestimonials from "../ProfileTestimonials";
 
-export default function UserInline({ data, BASE_URL }) {
+export default function ProfileInline({ data, BASE_URL }) {
   return (
     <>
       {data.links?.length > 0 && (
-        <UserLinks
+        <ProfileLinks
           links={data.links}
           username={data.username}
           BASE_URL={BASE_URL}
@@ -19,7 +19,7 @@ export default function UserInline({ data, BASE_URL }) {
           <h2 className="mt-12 text-2xl font-medium leading-6 dark:text-primary-low text-primary-high">
             Repos
           </h2>
-          <UserRepos repos={data.repos} />
+          <ProfileRepos repos={data.repos} />
         </>
       )}
       {data.milestones?.length > 0 && (
@@ -27,7 +27,7 @@ export default function UserInline({ data, BASE_URL }) {
           <h2 className="mt-12 text-2xl font-medium leading-6 dark:text-primary-low text-primary-high">
             Milestones
           </h2>
-          <UserMilestones milestones={data.milestones} />
+          <ProfileMilestones milestones={data.milestones} />
         </>
       )}
       {data.testimonials?.length > 0 && (
@@ -35,7 +35,7 @@ export default function UserInline({ data, BASE_URL }) {
           <h2 className="mt-12 text-2xl font-medium leading-6 dark:text-primary-low text-primary-high">
             Testimonials
           </h2>
-          <UserTestimonials
+          <ProfileTestimonials
             testimonials={data.testimonials}
             BASE_URL={BASE_URL}
           />
@@ -46,7 +46,7 @@ export default function UserInline({ data, BASE_URL }) {
           <h2 className="mt-12 text-2xl font-medium leading-6 dark:text-primary-low text-primary-high">
             Events
           </h2>
-          <UserEvents events={data.events} />
+          <ProfileEvents events={data.events} />
         </>
       )}
     </>

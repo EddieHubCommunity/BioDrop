@@ -5,7 +5,7 @@ import Link from "@components/Link";
 import { BASE_WEBSITE_URL } from "@constants/index";
 import Markdown from "@components/Markdown";
 
-export default function UserMarker({ user }) {
+export default function ProfileMarker({ user }) {
   return (
     <Marker
       icon={L.icon({

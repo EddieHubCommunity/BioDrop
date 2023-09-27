@@ -5,7 +5,7 @@ import { saveAs } from "file-saver";
 import { useRouter } from "next/router";
 
 import FallbackImage from "@components/FallbackImage";
-import UserSocial from "./UserSocials";
+import ProfileSocial from "./ProfileSocial";
 import Tag from "@components/tag/Tag";
 import Link from "@components/Link";
 import Badge from "@components/Badge";
@@ -55,7 +55,7 @@ function UserProfile({ BASE_URL, data }) {
           <h1 className="flex text-3xl font-bold gap-1">{data.name}</h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
             {data.socials?.map((social) => (
-              <UserSocial
+              <ProfileSocial
                 social={social}
                 key={social._id}
                 BASE_URL={BASE_URL}

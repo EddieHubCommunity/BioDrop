@@ -1,8 +1,8 @@
-import User from "../../../components/user/UserPage";
+import Profile from "../../../components/profile/ProfilePage";
 import profile from "./profile.json";
 
 export default {
-  component: User,
+  component: Profile,
   decorators: [
     (Story) => (
       <div style={{ paddingBottom: "2rem" }}>

@@ -20,7 +20,7 @@ const getIconAnimation = new Map([
   [animations.iconGlow, styles.glow],
 ]);
 
-export default function UserLink({
+export default function ProfileLink({
   BASE_URL,
   link,
   username,

@@ -12,7 +12,7 @@ import Page from "@components/Page";
 import Navigation from "@components/account/manage/Navigation";
 import { getLinksApi } from "pages/api/account/manage/links";
 import Button from "@components/Button";
-import UserLink from "@components/user/UserLink";
+import ProfileLink from "@components/profile/ProfileLink";
 import { ReactSortable } from "react-sortablejs";
 import Notification from "@components/Notification";
 import Alert from "@components/Alert";
@@ -146,7 +146,7 @@ export default function ManageLinks({ BASE_URL, username, links }) {
         >
           {linkList.length &&
             linkList.map((link) => (
-              <UserLink
+              <ProfileLink
                 BASE_URL={BASE_URL}
                 key={link._id}
                 link={link}

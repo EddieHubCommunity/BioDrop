@@ -12,7 +12,7 @@ import Input from "@components/form/Input";
 import { useState } from "react";
 import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
-import UserRepos from "@components/user/UserRepos";
+import ProfileRepos from "@components/profile/ProfileRepos";
 import { PROJECT_NAME } from "@constants/index";
 import ConfirmDialog from "@components/ConfirmDialog";
 
@@ -159,7 +159,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
           </Button>
         </form>
 
-        <UserRepos
+        <ProfileRepos
           repos={repoList}
           manage={true}
           confirmDelete={confirmDelete}

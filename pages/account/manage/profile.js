@@ -13,7 +13,7 @@ import Page from "@components/Page";
 import Alert from "@components/Alert";
 import Navigation from "@components/account/manage/Navigation";
 import { getUserApi } from "pages/api/profiles/[username]";
-import UserProfile from "@components/user/UserProfile";
+import UserProfile from "@components/profile/UserProfile";
 import Input from "@components/form/Input";
 import Select from "@components/form/Select";
 import Button from "@components/Button";

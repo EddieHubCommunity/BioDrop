@@ -3,7 +3,7 @@ import FallbackImage from "@components/FallbackImage";
 import Markdown from "@components/Markdown";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 
-export default function UserMini({
+export default function ProfileMini({
   BASE_URL,
   username,
   name,

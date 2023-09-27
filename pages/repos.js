@@ -3,7 +3,7 @@ import { getRepos } from "./api/repos";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Select from "@components/form/Select";
-import UserRepos from "@components/user/UserRepos";
+import ProfileRepos from "@components/profile/ProfileRepos";
 import { PROJECT_NAME } from "@constants/index";
 import { useRouter } from "next/router";
 
@@ -61,7 +61,7 @@ export default function Repos({ repos }) {
             className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
           />
         </div>
-        <UserRepos repos={repos} />
+        <ProfileRepos repos={repos} />
       </Page>
     </>
   );

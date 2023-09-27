@@ -2,7 +2,7 @@ import { useState } from "react";
 import L from "leaflet";
 import { Marker, useMap } from "react-leaflet";
 import useSupercluster from "use-supercluster";
-import UserMarker from "./UserMarker";
+import ProfileMarker from "./ProfileMarker";
 import styles from "./Clusters.module.css";
 
 export default function Clusters({users}) {
@@ -92,7 +92,7 @@ export default function Clusters({users}) {
 
           // we have a single point to render
           return (
-            <UserMarker user={cluster} key={username} />
+            <ProfileMarker user={cluster} key={username} />
           );
         })}
     </>

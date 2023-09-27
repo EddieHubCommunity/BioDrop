@@ -4,7 +4,7 @@ import Page from "@components/Page";
 import Button from "@components/Button";
 import Modal from "@components/Modal";
 import Input from "@components/form/Input";
-import UserPage from "@components/user/UserPage";
+import ProfilePage from "@components/profile/ProfilePage";
 import Notification from "@components/Notification";
 import { clientEnv } from "@config/schemas/clientSchema";
 import {
@@ -210,7 +210,7 @@ export default function Playground({ BASE_URL }) {
           show={previewModalState}
           setShow={setPreviewModalState}
         >
-          <UserPage data={previewModalData} BASE_URL={BASE_URL} />
+          <ProfilePage data={previewModalData} BASE_URL={BASE_URL} />
         </Modal>
       </Page>
     </>

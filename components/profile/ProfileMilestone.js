@@ -7,7 +7,7 @@ import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import Markdown from "@components/Markdown";
 
-export default function UserMilestone({ milestone, isGoal, manage }) {
+export default function ProfileMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {

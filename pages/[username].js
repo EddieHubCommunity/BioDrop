@@ -11,7 +11,7 @@ import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
-import UserPage from "@components/user/UserPage";
+import ProfilePage from "@components/profile/ProfilePage";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
 import { getStats } from "./api/account/statistics";
 
@@ -77,7 +77,7 @@ export default function User({ data, BASE_URL }) {
       />
 
       <Page>
-        <UserPage data={data} BASE_URL={BASE_URL} />
+        <UserProfilePagePage data={data} BASE_URL={BASE_URL} />
       </Page>
 
       <Link

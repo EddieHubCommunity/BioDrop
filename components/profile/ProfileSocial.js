@@ -1,7 +1,7 @@
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
 
-function UserSocial({ BASE_URL, username, social }) {
+function ProfileSocial({ BASE_URL, username, social }) {
   const DisplayIcon = getIcon(social.icon);
 
   return (
@@ -16,4 +16,4 @@ function UserSocial({ BASE_URL, username, social }) {
   );
 }
 
-export default UserSocial;
+export default ProfileSocial;

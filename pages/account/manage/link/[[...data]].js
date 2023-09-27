@@ -11,7 +11,7 @@ import Button from "@components/Button";
 import Navigation from "@components/account/manage/Navigation";
 import { getLinkApi } from "pages/api/account/manage/link/[[...data]]";
 import Input from "@components/form/Input";
-import UserLink from "@components/user/UserLink";
+import ProfileLink from "@components/profile/ProfileLink";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
@@ -287,7 +287,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                 {group}
               </h3>
             )}
-            <UserLink
+            <ProfileLink
               BASE_URL={BASE_URL}
               link={{ name, url, icon, animation }}
               username={username}

@@ -1,7 +1,7 @@
-import UserLink from "./UserLink";
+import ProfileLink from "./ProfileLink";
 import Alert from "@components/Alert";
 
-export default function UserLinks({ BASE_URL, links, username }) {
+export default function ProfileLinks({ BASE_URL, links, username }) {
   const defaultBucket = "Others";
   const buckets = links?.reduce((acc, obj) => {
     const group = obj.group || defaultBucket;
@@ -34,7 +34,7 @@ export default function UserLinks({ BASE_URL, links, username }) {
                 </div>
               )}
               {Object.values(buckets[name]).map((link) => (
-                <UserLink
+                <ProfileLink
                   BASE_URL={BASE_URL}
                   key={link._id}
                   link={link}

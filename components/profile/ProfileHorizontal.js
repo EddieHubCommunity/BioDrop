@@ -4,7 +4,7 @@ import TagSimple from "@components/tag/TagSimple";
 import { searchTagNameInInput } from "@services/utils/search/tags";
 import Markdown from "@components/Markdown";
 
-export default function UserHorizontal({ profile, input }) {
+export default function ProfileHorizontal({ profile, input }) {
   return (
     <Link
       href={`/${profile.username}`}

@@ -1,15 +1,15 @@
 import { useState } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 
-import UserEvents from "../UserEvents";
-import UserLinks from "../UserLinks";
-import UserMilestones from "../UserMilestones";
-import UserTestimonials from "../UserTestimonials";
+import ProfileEvents from "../ProfileEvents";
+import ProfileLinks from "../ProfileLinks";
+import ProfileMilestones from "../ProfileMilestones";
+import ProfileTestimonials from "../ProfileTestimonials";
 import Tabs from "../../Tabs";
-import UserRepos from "../UserRepos";
+import ProfileRepos from "../ProfileRepos";
 import { useRouter } from "next/router";
 
-export default function UserTabs({ data, BASE_URL }) {
+export default function ProfileTabs({ data, BASE_URL }) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -92,7 +92,7 @@ export default function UserTabs({ data, BASE_URL }) {
       <Tabs tabs={tabs} setTabs={changeTab} />
 
       {tabs.find((tab) => tab.name === "My Links")?.current && (
-        <UserLinks
+        <ProfileLinks
           links={data.links}
           username={data.username}
           BASE_URL={BASE_URL}
@@ -100,22 +100,22 @@ export default function UserTabs({ data, BASE_URL }) {
       )}
 
       {tabs.find((tab) => tab.name === "Milestones")?.current && (
-        <UserMilestones milestones={data.milestones} />
+        <ProfileMilestones milestones={data.milestones} />
       )}
 
       {tabs.find((tab) => tab.name === "Testimonials")?.current && (
-        <UserTestimonials
+        <ProfileTestimonials
           testimonials={data.testimonials}
           BASE_URL={BASE_URL}
         />
       )}
 
       {tabs.find((tab) => tab.name === "Events")?.current && (
-        <UserEvents events={data.events} />
+        <ProfileEvents events={data.events} />
       )}
 
       {tabs.find((tab) => tab.name === "Repos")?.current && (
-        <UserRepos repos={data.repos} />
+        <ProfileRepos repos={data.repos} />
       )}
     </>
   );
