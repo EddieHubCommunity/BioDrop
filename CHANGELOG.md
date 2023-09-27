@@ -1,3 +1,12 @@
+# [2.23.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.12...v2.23.0) (2023-09-27)
+
+
+### Features
+
+* tabs to url for deep nesting ([#9174](https://github.com/EddieHubCommunity/BioDrop/issues/9174)) ([7f28f65](https://github.com/EddieHubCommunity/BioDrop/commit/7f28f65f60b6831eb06a23d65740a32c4d73687a)), closes [#9007](https://github.com/EddieHubCommunity/BioDrop/issues/9007)
+
+
+
 ## [2.22.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.11...v2.22.12) (2023-09-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improve profile async data gathering ([#9131](https://github.com/EddieHubCommunity/BioDrop/issues/9131)) ([98f9fc9](https://github.com/EddieHubCommunity/BioDrop/commit/98f9fc9d18eeace76e59302e3430e63de3fe1770))
-
-
-
-## [2.22.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.7...v2.22.8) (2023-09-22)
-
-
-### Bug Fixes
-
-* remove some stats info from home page ([#9079](https://github.com/EddieHubCommunity/BioDrop/issues/9079)) ([486c514](https://github.com/EddieHubCommunity/BioDrop/commit/486c514c3762099db875d707917468e4f6661830))
 
 
 
