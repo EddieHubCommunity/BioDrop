@@ -26,7 +26,7 @@ export async function getServerSideProps(context) {
   if (status !== 200) {
     logger.error(
       profile.error,
-      `profile loading failed for username: ${username}`
+      `profile loading failed for username: ${username}`,
     );
 
     return {
