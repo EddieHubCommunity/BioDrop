@@ -1,3 +1,13 @@
+## [2.23.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.1...v2.23.2) (2023-09-28)
+
+
+### Bug Fixes
+
+* no events warning to manage event page ([#9112](https://github.com/EddieHubCommunity/BioDrop/issues/9112)) ([be77dce](https://github.com/EddieHubCommunity/BioDrop/commit/be77dce74fde33c53f02f8948dd1ccd7aa68b4d2))
+* price on events ([#9157](https://github.com/EddieHubCommunity/BioDrop/issues/9157)) ([d98f008](https://github.com/EddieHubCommunity/BioDrop/commit/d98f00861193d6b5caef94983bae1cabcd877468))
+
+
+
 ## [2.23.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.0...v2.23.1) (2023-09-27)
 
 
@@ -31,15 +41,6 @@
 ### Bug Fixes
 
 * testimonials for profiles using forms ([#9156](https://github.com/EddieHubCommunity/BioDrop/issues/9156)) ([1f9dc14](https://github.com/EddieHubCommunity/BioDrop/commit/1f9dc14d3547b78003e6e70c34e9eefc48d6e19f))
-
-
-
-## [2.22.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.9...v2.22.10) (2023-09-25)
-
-
-### Bug Fixes
-
-* accessibility issues on profile page and navbar ([#9161](https://github.com/EddieHubCommunity/BioDrop/issues/9161)) ([b16b350](https://github.com/EddieHubCommunity/BioDrop/commit/b16b3506eaace334ee329de71420f545cdd72ce5))
 
 
 
