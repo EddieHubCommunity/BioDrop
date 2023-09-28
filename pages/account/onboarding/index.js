@@ -18,6 +18,7 @@ import { PROJECT_NAME } from "@constants/index";
 import Card from "@components/Card";
 import Button from "@components/Button";
 import Navigation from "@components/account/manage/Navigation";
+import ProgressBar from "@components/statistics/ProgressBar";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -43,37 +44,60 @@ export async function getServerSideProps(context) {
     profile.name = session.user.name;
   }
 
+  let profileSections = [
+    "links",
+    "milestones",
+    "tags",
+    "socials",
+    "testimonials",
+    "events",
+    "repos",
+  ];
+  let progress = {
+    percentage: 0,
+    missing: [],
+  };
+
+  progress.missing = profileSections.filter(
+    (property) => !profile[property]?.length,
+  );
+  progress.percentage = (
+    ((profileSections.length - progress.missing.length) /
+      profileSections.length) *
+    100
+  ).toFixed(0);
+
   return {
-    props: { profile },
+    props: { profile, progress },
   };
 }
 
-export default function Onboarding({ profile }) {
+export default function Onboarding({ profile, progress }) {
   const cards = [
     {
       icon: FaPersonBurst,
       title: "Profile",
-      description: "Manage your profile and personal information",
+      description: "Start and Edit your Profile",
       button: {
         name: "Profile",
         href: "/account/manage/profile",
       },
-      isEdit: true,
+      isEdit: profile.bio,
     },
     {
       icon: FaLink,
       title: "Links",
-      description: "Help people find you on other platforms",
+      description: "List your social media and other links",
       button: {
         name: "Link",
-        href: "/account/manage/link",
+        href: "/account/manage/links",
       },
       isEdit: profile.links && profile.links.length > 0,
     },
     {
       icon: FaGithub,
       title: "Repos",
-      description: "Display your favourite repos",
+      description: "Your favourite GitHub Repos",
       button: {
         name: "Repo",
         href: "/account/manage/repos",
@@ -83,7 +107,7 @@ export default function Onboarding({ profile }) {
     {
       icon: FaMicroblog,
       title: "Testimonials",
-      description: "Display your favourite testinomials",
+      description: "Your favourite Testinomials",
       button: {
         name: "Testimonials",
         href: "/account/manage/testimonials",
@@ -93,7 +117,7 @@ export default function Onboarding({ profile }) {
     {
       icon: FaTent,
       title: "Events",
-      description: "Display the events you are attending",
+      description: "Events you are attending or speaking at",
       button: {
         name: "Event",
         href: "/account/manage/events",
@@ -103,10 +127,10 @@ export default function Onboarding({ profile }) {
     {
       icon: FaCertificate,
       title: "Milestones",
-      description: "Display your achievements and future goals",
+      description: "Your achievements and future goals",
       button: {
         name: "Milestone",
-        href: "/account/manage/milestone",
+        href: "/account/manage/milestones",
       },
       isEdit: profile.milestones && profile.milestones.length > 0,
     },
@@ -120,13 +144,32 @@ export default function Onboarding({ profile }) {
 
       <Page>
         <Navigation />
-        <div className="flex mb-8">
+        <div className="flex flex-col mb-8 md:flex-row">
           <h1 className="mb-4 text-4xl font-bold grow">
-            Manage Profile Overview
+            Create &amp; Manage Your Profile
           </h1>
-          <Button href={`/${profile.username}`} className="gap-4">
+          <Button
+            href={`/${profile.username}`}
+            className={"gap-4"}
+            disable={!cards[0].isEdit}
+          >
             <FaArrowUpRightFromSquare className="w-4 h-4" /> View Profile
           </Button>
+        </div>
+
+        <div className="w-full border p-4 my-6 dark:border-primary-medium">
+          <span className="flex flex-row flex-wrap justify-between">
+            <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
+              Profile Completion: {progress.percentage}%
+            </span>
+            {progress.missing.length > 0 && (
+              <span className="text-primary-medium-low">
+                (add missing sections below: {progress.missing.join(", ")})
+              </span>
+            )}
+          </span>
+
+          <ProgressBar progress={progress} />
         </div>
 
         <ul
