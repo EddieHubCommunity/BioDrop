@@ -17,6 +17,7 @@ import { getUserApi } from "pages/api/profiles/[username]";
 import { PROJECT_NAME } from "@constants/index";
 import Card from "@components/Card";
 import Button from "@components/Button";
+import Navigation from "@components/account/manage/Navigation";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -118,6 +119,7 @@ export default function Onboarding({ profile }) {
       />
 
       <Page>
+        <Navigation />
         <div className="flex mb-8">
           <h1 className="mb-4 text-4xl font-bold grow">
             Manage Profile Overview
