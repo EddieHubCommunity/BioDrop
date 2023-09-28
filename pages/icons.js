@@ -82,7 +82,7 @@ export default function Icons() {
               <li key={index}>
                 <IconCard iconName={iconName} />
               </li>
-            )
+            ),
           )}
         </ul>
       </Page>

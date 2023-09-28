@@ -52,11 +52,11 @@ export default function UserEvents({
       return events;
     }
     let filteredEvents = events.filter((event) =>
-      filterByEventType(event, eventType)
+      filterByEventType(event, eventType),
     );
     if (eventType === "future" && filteredEvents.length === 0) {
       filteredEvents = events.filter((event) =>
-        filterByEventType(event, "all")
+        filterByEventType(event, "all"),
       );
     }
     return filteredEvents;
@@ -67,7 +67,7 @@ export default function UserEvents({
       return true;
     }
     const filterEvents = events.filter((event) =>
-      filterByEventType(event, option.value)
+      filterByEventType(event, option.value),
     );
     return filterEvents.length > 0;
   });

@@ -29,7 +29,7 @@ export default async function handler(req, res) {
 
 export async function getAccountByProviderAccountId(
   providerAccountId,
-  provider = "github"
+  provider = "github",
 ) {
   await connectMongo();
 
@@ -38,7 +38,7 @@ export async function getAccountByProviderAccountId(
     account = await Account.findOne({ provider, providerAccountId });
     if (!account) {
       logger.info(
-        `Account not found for providerAccountId: ${providerAccountId}`
+        `Account not found for providerAccountId: ${providerAccountId}`,
       );
     }
   } catch (e) {
@@ -54,12 +54,12 @@ export async function associateProfileWithAccount(account, newProfileId) {
 
   try {
     const existingProfile = account.profiles.find((profile) =>
-      profile.equals(newProfileId)
+      profile.equals(newProfileId),
     );
 
     if (existingProfile) {
       logger.info(
-        `Profile already exists in the account. Skipping addition of profile: ${newProfileId}`
+        `Profile already exists in the account. Skipping addition of profile: ${newProfileId}`,
       );
       return account;
     }

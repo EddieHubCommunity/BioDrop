@@ -233,7 +233,7 @@ export default function DocsIndex() {
                                     <svg
                                       className={classNames(
                                         tag.color,
-                                        "h-1.5 w-1.5"
+                                        "h-1.5 w-1.5",
                                       )}
                                       viewBox="0 0 6 6"
                                       aria-hidden="true"
