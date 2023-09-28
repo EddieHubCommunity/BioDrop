@@ -40,20 +40,23 @@
         {
             "title": "Became a Technical Writer volunteer for CYSED",
             "date": "9/10/2023",
+            "icon": "SiHappycow",
             "description": "Published two cyber security articles for CYSED's cyber security awarness campaign #NACSAM23",
             "url": "https://cysed.org/blog/"
         },
         {
             "title": "Started my first open source project",
             "date": "9/6/2023",
+            "icon": "FaFaceGrinStars",
             "description": "This project is a curated list of cyber security resources for like minded offensive security enthusiasts and professionals",
             "url": "https://github.com/bL34cHig0/Pentest-Resources-Cheat-Sheets"
         },
         {
             "title": "Started my first volunteering gig",
             "date": "7/10/2023",
+            "icon": "FaStar",
             "description": "Worked on the notification service for Fehris; an online bookstore",
-            "url": "https://github.com/bL34cHig0/Pentest-Resources-Cheat-Sheets"
+            "url": "https://fehris.com/"
         }
     ]
 }
