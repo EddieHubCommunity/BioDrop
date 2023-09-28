@@ -1,12 +1,16 @@
 {
-  "version": "2.23.3",
+  "version": "2.23.4",
   "alerts": [
     {
       "type": "info",
       "message": "The 'Font Awesome' library has been updated to v6. Some icons have been renamed or changed appearance. Check https://www.biodrop.io/icons for all available icons and update your Profile Links from the Manage Profile section."
     }
   ],
-  "layouts": ["classic", "inline", "column-2"],
+  "layouts": [
+    "classic",
+    "inline",
+    "column-2"
+  ],
   "animations": {
     "none": "No Animation",
     "pulse": "Pulse",
