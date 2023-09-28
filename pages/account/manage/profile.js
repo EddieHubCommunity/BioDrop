@@ -71,10 +71,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [name, setName] = useState(profile.name || "Your name");
   const [isStatsPublic, setIsStatsPublic] = useState(
-    profile.isStatsPublic ? true : false
+    profile.isStatsPublic ? true : false,
   );
   const [bio, setBio] = useState(
-    profile.bio || "Have a look at my links below..."
+    profile.bio || "Have a look at my links below...",
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
   const layouts = config.layouts.map((l) => {
@@ -110,7 +110,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
         type: "error",
         message: "Profile update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }

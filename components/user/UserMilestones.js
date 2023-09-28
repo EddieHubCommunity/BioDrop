@@ -3,7 +3,7 @@ import Alert from "@components/Alert";
 
 export default function UserMilestones({ milestones, manage = false }) {
   const historicMilestones = milestones.filter(
-    (milestone) => !milestone.isGoal
+    (milestone) => !milestone.isGoal,
   );
 
   const futureMilestones = milestones.filter((milestone) => milestone.isGoal);

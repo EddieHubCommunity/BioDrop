@@ -1,9 +1,9 @@
 {
   "name": "Hameed Kareem",
   "bio": "A Self-Thought DevOps Engineer Who is Passionate in Delivering Software Products in high velocity by Designing Solutions that helps businesses grows.",
-    "tags": ["Linux", "Python", "CI/CD","Docker", "Kubernetes"],
+  "tags": ["Linux", "Python", "CI/CD", "Docker", "Kubernetes"],
 
-   "socials": [
+  "socials": [
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/hameed__kareem"
@@ -40,6 +40,3 @@
     }
   ]
 }
-  
-
-  

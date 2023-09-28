@@ -96,7 +96,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         type: "error",
         message: "Milestone update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
@@ -112,7 +112,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
     const update = await res.json();
 

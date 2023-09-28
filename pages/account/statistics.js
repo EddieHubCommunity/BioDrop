@@ -20,7 +20,7 @@ import { PROJECT_NAME } from "@constants/index";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
-  { ssr: false }
+  { ssr: false },
 );
 
 export async function getServerSideProps(context) {
@@ -41,7 +41,7 @@ export async function getServerSideProps(context) {
   if (status !== 200) {
     logger.error(
       profile.error,
-      `profile loading failed for username: ${username}`
+      `profile loading failed for username: ${username}`,
     );
 
     return {
@@ -72,7 +72,7 @@ export async function getServerSideProps(context) {
   }
 
   progress.missing = profileSections.filter(
-    (property) => !profile[property]?.length
+    (property) => !profile[property]?.length,
   );
   progress.percentage = (
     ((profileSections.length - progress.missing.length) /
@@ -81,7 +81,7 @@ export async function getServerSideProps(context) {
   ).toFixed(0);
 
   data.links.individual = data.links.individual.filter((link) =>
-    profile.links.some((pLink) => pLink.url === link.url)
+    profile.links.some((pLink) => pLink.url === link.url),
   );
 
   const totalClicks = data.links.individual.reduce((acc, link) => {

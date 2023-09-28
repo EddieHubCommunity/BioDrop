@@ -52,12 +52,12 @@ export default async function handler(req, res) {
     ...subscription,
   });
   logger.info(
-    `Created stripe session "${stripeSession.id}" for username: "${session.username}}"`
+    `Created stripe session "${stripeSession.id}" for username: "${session.username}}"`,
   );
 
   if (!stripeSession.url) {
     logger.error(
-      `Failed creating stripe session for username: "${session.username}}"`
+      `Failed creating stripe session for username: "${session.username}}"`,
     );
     return res.status(500).json({
       error: "Could not create Stripe checkout session",
