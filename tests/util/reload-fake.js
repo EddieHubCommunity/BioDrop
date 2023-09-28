@@ -25,13 +25,13 @@ const fs = require("fs");
 
   fs.copyFileSync(
     `data/eddiejaoude/testimonials/FrancescoXX.json`,
-    `data/${fullProfile}/testimonials/FrancescoXX.json`
+    `data/${fullProfile}/testimonials/FrancescoXX.json`,
   );
 
   // testimonials exists in profile but not in json file
   fs.copyFileSync(
     `data/eddiejaoude/testimonials/loftwah.json`,
-    `data/${fullProfile}/testimonials/unknown.json`
+    `data/${fullProfile}/testimonials/unknown.json`,
   );
 
   // events exists in profile and json file
@@ -39,12 +39,12 @@ const fs = require("fs");
 
   fs.copyFileSync(
     `data/eddiejaoude/events/2022-12-10-talk.json`,
-    `data/${fullProfile}/events/2022-12-10-talk.json`
+    `data/${fullProfile}/events/2022-12-10-talk.json`,
   );
 
   // 2. hit / run api end point to load profiles
   const request = await fetch(
-    "http://localhost:3000/api/system/reload?secret=development"
+    "http://localhost:3000/api/system/reload?secret=development",
   );
   const res = await request.json();
   console.log(res);
@@ -60,7 +60,7 @@ const fs = require("fs");
 // TODO: check local user api vs production api
 async function checkUsers() {
   const userLocal = await fetch(
-    `http://localhost:3000/api/profiles/eddiejaoude`
+    `http://localhost:3000/api/profiles/eddiejaoude`,
   );
   const userLocalRes = await userLocal.json();
   const userProd = await fetch(`https:/biodrop.io/api/profiles/eddiejaoude`);
@@ -70,7 +70,7 @@ async function checkUsers() {
     console.log(
       `User ${userLocalRes.username}: link count does not match expected`,
       userLocalRes.links.length,
-      userProdRes.links.length
+      userProdRes.links.length,
     );
   }
 }

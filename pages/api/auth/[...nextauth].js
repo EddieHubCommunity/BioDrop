@@ -46,7 +46,7 @@ export const authOptions = {
             following: githubProfile.following,
           },
         },
-        { upsert: true }
+        { upsert: true },
       );
       return true;
     },
@@ -101,7 +101,7 @@ export const authOptions = {
         },
         {
           new: true,
-        }
+        },
       );
       if (profile) {
         await associateProfileWithAccount(account, profile._id);
@@ -122,7 +122,7 @@ export const authOptions = {
 
         await User.findOneAndUpdate(
           { _id: new ObjectId(account.userId) },
-          { stripeCustomerId: customer.id, type: "free" }
+          { stripeCustomerId: customer.id, type: "free" },
         );
       }
     },

@@ -145,7 +145,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         type: "error",
         message: "Event add/update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
@@ -161,7 +161,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
     const update = await res.json();
 

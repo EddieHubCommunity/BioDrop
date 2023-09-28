@@ -44,7 +44,7 @@ export async function getRandomProfileApi() {
   } catch (error) {
     if (serverEnv.NODE_ENV === "development") {
       logger.warn(
-        "Users not loaded. Please visit /api/system/reload?secret=development"
+        "Users not loaded. Please visit /api/system/reload?secret=development",
       );
       return {};
     }

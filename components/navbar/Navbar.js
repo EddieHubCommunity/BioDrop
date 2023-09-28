@@ -140,7 +140,7 @@ export default function Navbar() {
           "relative top-0 bg-primary-high dark:bg-primary-medium",
           session &&
             session.accountType === "premium" &&
-            "border-b-2 border-tertiary-medium"
+            "border-b-2 border-tertiary-medium",
         )}
       >
         <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
@@ -233,7 +233,7 @@ export default function Navbar() {
             isOpen
               ? "transform translate-y-0 opacity-100"
               : "transform -translate-y-96 opacity-0",
-            "md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full"
+            "md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full",
           )}
           id="mobile-menu"
         >
