@@ -65,7 +65,7 @@ export async function webhookHandler(req, res) {
     event = stripe.webhooks.constructEvent(
       buf.toString(),
       sig,
-      serverEnv.STRIPE_WEBHOOK_SECRET
+      serverEnv.STRIPE_WEBHOOK_SECRET,
     );
   } catch (e) {
     logger.error(e, "Webhook Secret failed");
@@ -277,7 +277,7 @@ export async function webhookHandler(req, res) {
         // successful payment
         await User.findOneAndUpdate(
           { stripeCustomerId: event.data.object.customer },
-          update
+          update,
         );
       }
       break;
@@ -295,7 +295,7 @@ export async function webhookHandler(req, res) {
         // failed payment
         await User.findOneAndUpdate(
           { stripeCustomerId: event.data.object.customer },
-          { type: "free" }
+          { type: "free" },
         );
       }
       break;

@@ -1,45 +1,47 @@
-## [2.22.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.8...v2.22.9) (2023-09-23)
+## [2.23.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.23.4) (2023-09-28)
 
 
 ### Bug Fixes
 
-* improve profile async data gathering ([#9131](https://github.com/EddieHubCommunity/BioDrop/issues/9131)) ([98f9fc9](https://github.com/EddieHubCommunity/BioDrop/commit/98f9fc9d18eeace76e59302e3430e63de3fe1770))
+* prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
+* squash merge release details ([#9193](https://github.com/EddieHubCommunity/BioDrop/issues/9193)) ([9169cf9](https://github.com/EddieHubCommunity/BioDrop/commit/9169cf97e40c8d477175091c10c8adf6985562de))
 
 
 
-## [2.22.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.7...v2.22.8) (2023-09-22)
-
-
-### Bug Fixes
-
-* remove some stats info from home page ([#9079](https://github.com/EddieHubCommunity/BioDrop/issues/9079)) ([486c514](https://github.com/EddieHubCommunity/BioDrop/commit/486c514c3762099db875d707917468e4f6661830))
-
-
-
-## [2.22.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.6...v2.22.7) (2023-09-21)
+## [2.23.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.1...v2.23.2) (2023-09-28)
 
 
 ### Bug Fixes
 
-* backspace key handling with no tags ([#9120](https://github.com/EddieHubCommunity/BioDrop/issues/9120)) ([9448f99](https://github.com/EddieHubCommunity/BioDrop/commit/9448f99117919019f9a1bb5ae24c67ce091c41b3))
+* no events warning to manage event page ([#9112](https://github.com/EddieHubCommunity/BioDrop/issues/9112)) ([be77dce](https://github.com/EddieHubCommunity/BioDrop/commit/be77dce74fde33c53f02f8948dd1ccd7aa68b4d2))
+* price on events ([#9157](https://github.com/EddieHubCommunity/BioDrop/issues/9157)) ([d98f008](https://github.com/EddieHubCommunity/BioDrop/commit/d98f00861193d6b5caef94983bae1cabcd877468))
 
 
 
-## [2.22.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.5...v2.22.6) (2023-09-21)
-
-
-### Bug Fixes
-
-* avatar size testimonials ([#9110](https://github.com/EddieHubCommunity/BioDrop/issues/9110)) ([c2c6bfc](https://github.com/EddieHubCommunity/BioDrop/commit/c2c6bfc47ddde1ee374e84a21e2f9bde10bea1f4)), closes [#8947](https://github.com/EddieHubCommunity/BioDrop/issues/8947)
-
-
-
-## [2.22.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.4...v2.22.5) (2023-09-21)
+## [2.23.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.0...v2.23.1) (2023-09-27)
 
 
 ### Bug Fixes
 
-* delay video script loading for performance ([#9113](https://github.com/EddieHubCommunity/BioDrop/issues/9113)) ([1d355b8](https://github.com/EddieHubCommunity/BioDrop/commit/1d355b8782eb530fd46ef792fff445a42db3b277))
+* hide testimonials, tags, stats on mobile ([#9178](https://github.com/EddieHubCommunity/BioDrop/issues/9178)) ([92aa62f](https://github.com/EddieHubCommunity/BioDrop/commit/92aa62fefa6abd7067bc6978c704a3888db27d14)), closes [#9154](https://github.com/EddieHubCommunity/BioDrop/issues/9154)
+
+
+
+# [2.23.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.12...v2.23.0) (2023-09-27)
+
+
+### Features
+
+* tabs to url for deep nesting ([#9174](https://github.com/EddieHubCommunity/BioDrop/issues/9174)) ([7f28f65](https://github.com/EddieHubCommunity/BioDrop/commit/7f28f65f60b6831eb06a23d65740a32c4d73687a)), closes [#9007](https://github.com/EddieHubCommunity/BioDrop/issues/9007)
+
+
+
+## [2.22.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.11...v2.22.12) (2023-09-26)
+
+
+### Bug Fixes
+
+* improved testimonial importing output ([#9166](https://github.com/EddieHubCommunity/BioDrop/issues/9166)) ([341b3ab](https://github.com/EddieHubCommunity/BioDrop/commit/341b3abf29332c5d21b3c5fb12403ccf8801ad54))
 
 
 
