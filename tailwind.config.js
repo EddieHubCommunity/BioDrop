@@ -41,12 +41,6 @@ module.exports = {
     aspectRatio: false,
   },
 
-  variants: {
-    extend: {
-      animation: ["motion-safe, motion-reduce"],
-    },
-  },
-
   plugins: [
     require("@tailwindcss/typography"),
     require("@tailwindcss/forms"),
