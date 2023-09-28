@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { FaShare } from "react-icons/fa6";
-import { QRCodeCanvas } from "qrcode.react";
+import { useQRCode } from "next-qrcode";
 import { saveAs } from "file-saver";
 import { useRouter } from "next/router";
 
@@ -24,6 +24,8 @@ function UserProfile({ BASE_URL, data }) {
 
   //Declared Ref object for QR
   const qrRef = useRef(null);
+
+  const { Canvas } = useQRCode();
 
   //qrRef.current is pointing to the DOM node and firstChild to its canvas
   const downloadQR = () =>
@@ -132,10 +134,21 @@ function UserProfile({ BASE_URL, data }) {
           <div>
             <div className="flex justify-center my-4" ref={qrRef}>
               {qrShow && (
-                <QRCodeCanvas
+                <Canvas
+                  text={`${BASE_URL}/${data.username}`}
                   className="border border-white"
-                  value={`${BASE_URL}/${data.username}`}
-                  size={fallbackImageSize * 2}
+                  logo={{
+                    src: `${BASE_URL}/logo192.png`,
+                    options: { width: 50 },
+                  }}
+                  options={{
+                    margin: 1,
+                    width: fallbackImageSize * 2,
+                    color: {
+                      dark: "#122640",
+                      light: "#f2f7ff",
+                    },
+                  }}
                 />
               )}
             </div>
@@ -156,7 +169,7 @@ function UserProfile({ BASE_URL, data }) {
                     href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
                       includeText
                         ? `&text=${encodeURIComponent(
-                            `Check out ${data.name}'s profile on BioDrop.io`
+                            `Check out ${data.name}'s profile on BioDrop.io`,
                           )}`
                         : ""
                     }`}
