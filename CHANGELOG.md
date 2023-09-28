@@ -1,3 +1,12 @@
+## [2.23.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.23.3) (2023-09-28)
+
+
+### Bug Fixes
+
+* squash merge release details ([#9193](https://github.com/EddieHubCommunity/BioDrop/issues/9193)) ([9169cf9](https://github.com/EddieHubCommunity/BioDrop/commit/9169cf97e40c8d477175091c10c8adf6985562de))
+
+
+
 ## [2.23.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.1...v2.23.2) (2023-09-28)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * improved testimonial importing output ([#9166](https://github.com/EddieHubCommunity/BioDrop/issues/9166)) ([341b3ab](https://github.com/EddieHubCommunity/BioDrop/commit/341b3abf29332c5d21b3c5fb12403ccf8801ad54))
-
-
-
-## [2.22.11](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.10...v2.22.11) (2023-09-26)
-
-
-### Bug Fixes
-
-* testimonials for profiles using forms ([#9156](https://github.com/EddieHubCommunity/BioDrop/issues/9156)) ([1f9dc14](https://github.com/EddieHubCommunity/BioDrop/commit/1f9dc14d3547b78003e6e70c34e9eefc48d6e19f))
 
 
 
