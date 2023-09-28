@@ -1,8 +1,9 @@
-## [2.23.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.23.3) (2023-09-28)
+## [2.23.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.23.4) (2023-09-28)
 
 
 ### Bug Fixes
 
+* prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
 * squash merge release details ([#9193](https://github.com/EddieHubCommunity/BioDrop/issues/9193)) ([9169cf9](https://github.com/EddieHubCommunity/BioDrop/commit/9169cf97e40c8d477175091c10c8adf6985562de))
 
 
