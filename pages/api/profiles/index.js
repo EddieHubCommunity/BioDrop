@@ -31,7 +31,7 @@ export async function getProfiles(options = {}) {
           { isShadowBanned: { $eq: false } },
         ],
       },
-      fields
+      fields,
     );
   } catch (e) {
     logger.error(e, "failed loading profiles");

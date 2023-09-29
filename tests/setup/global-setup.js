@@ -34,7 +34,7 @@ module.exports = async () => {
           t_files.map((file) => {
             fs.copyFileSync(
               `${inPath}/testimonials/${file}`,
-              `${outPath}/testimonials/${file}`
+              `${outPath}/testimonials/${file}`,
             );
           });
         }
@@ -44,7 +44,7 @@ module.exports = async () => {
           e_files.map((file) => {
             fs.copyFileSync(
               `${inPath}/events/${file}`,
-              `${outPath}/events/${file}`
+              `${outPath}/events/${file}`,
             );
           });
         }
@@ -64,7 +64,7 @@ module.exports = async () => {
 
   try {
     const response = await fetch(
-      `${clientEnv.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`
+      `${clientEnv.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`,
     );
     if (response.status !== 200) {
       throw new Error(`Test data not loaded into database`);

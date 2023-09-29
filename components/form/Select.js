@@ -12,7 +12,9 @@ export default function Select({
   return (
     <div>
       {label && (
-        <Label htmlFor={name} className={className}>{label}</Label>
+        <Label htmlFor={name} className={className}>
+          {label}
+        </Label>
       )}
       <select
         id={name}

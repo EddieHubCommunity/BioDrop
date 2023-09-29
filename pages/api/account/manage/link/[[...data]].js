@@ -71,7 +71,7 @@ export async function addLinkApi(username, data) {
   if (errors) {
     log.error(
       errors,
-      `validation failed to add link for username: ${username}`
+      `validation failed to add link for username: ${username}`,
     );
     return { error: errors.errors };
   }
@@ -92,7 +92,7 @@ export async function addLinkApi(username, data) {
           profile: new ObjectId(profile._id),
         },
       ],
-      { new: true }
+      { new: true },
     );
 
     log.info(`link ${data.url} created for username: ${username}`);
@@ -103,7 +103,7 @@ export async function addLinkApi(username, data) {
         $set: { source: "database" },
         $push: { links: new ObjectId(getLink[0]._id) },
       },
-      { upsert: true }
+      { upsert: true },
     );
   } catch (e) {
     log.error(e, `failed to add link ${data.url} for username: ${username}`);
@@ -130,7 +130,7 @@ export async function updateLinkApi(username, id, data) {
   if (errors) {
     log.error(
       errors,
-      `validation failed to update link for username: ${username}`
+      `validation failed to update link for username: ${username}`,
     );
     return { error: errors.errors };
   }
@@ -150,7 +150,7 @@ export async function updateLinkApi(username, id, data) {
         isPinned: data.isPinned,
         animation: data.animation,
       },
-      { upsert: true }
+      { upsert: true },
     );
 
     await Profile.findOneAndUpdate(
@@ -158,7 +158,7 @@ export async function updateLinkApi(username, id, data) {
       {
         $set: { source: "database" },
       },
-      { upsert: true }
+      { upsert: true },
     );
     log.info(`link ${data.url} updated for username: ${username}`);
   } catch (e) {
@@ -185,7 +185,7 @@ export async function deleteLinkApi(username, id) {
   } catch (e) {
     log.error(
       e,
-      `failed to delete link stats for username ${username} and url ${getLink.url}`
+      `failed to delete link stats for username ${username} and url ${getLink.url}`,
     );
     return { error: e.errors };
   }
@@ -201,7 +201,7 @@ export async function deleteLinkApi(username, id) {
           links: id,
         },
       },
-      { new: true }
+      { new: true },
     );
   } catch (e) {
     const error = `failed to delete link from profile for username: ${username}`;
