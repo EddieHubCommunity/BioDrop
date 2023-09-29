@@ -51,7 +51,7 @@ export const authOptions = {
       return true;
     },
     async redirect({ baseUrl }) {
-      return `${baseUrl}/account/statistics`;
+      return `${baseUrl}/account/onboarding`;
     },
     async jwt({ token, account, profile }) {
       // Persist the OAuth access_token and or the user id to the token right after signin

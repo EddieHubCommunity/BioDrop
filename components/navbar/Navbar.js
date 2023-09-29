@@ -120,7 +120,7 @@ export default function Navbar() {
       {session && (
         <>
           <NavLink
-            item={{ name: "Account", url: "/account/statistics" }}
+            item={{ name: "Account", url: "/account/onboarding" }}
             setIsOpen={setIsOpen}
           />
           <NavLink

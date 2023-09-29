@@ -247,8 +247,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                   </div>
                   <div className="mt-3">
                     <Toggle
-                      text1="Enable?"
-                      text2="hide/show profile view and rank"
+                      text1="Make Profile Statistics public?"
                       enabled={isStatsPublic}
                       setEnabled={setIsStatsPublic}
                     />

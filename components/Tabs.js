@@ -8,7 +8,7 @@ export default function Tabs({ tabs, setTabs }) {
         {tabs.length > 1 && (
           <Select
             name="tabs"
-            value={tabs.find((tab) => tab.current).name}
+            value={tabs.find((tab) => tab.current)?.name}
             label="Select a tab"
             onChange={setTabs}
             className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
