@@ -5,6 +5,7 @@ export default function Button({
   primary = false,
   disable,
   className,
+  overrideClassNames = false,
   children,
   ...restProps
 }) {
@@ -20,7 +21,9 @@ export default function Button({
 
   const link = (
     <Link
-      className={classNames(defaultClassName, className)}
+      className={
+        overrideClassNames ? className : classNames(defaultClassName, className)
+      }
       prefetch={false}
       {...restProps}
     >
@@ -30,7 +33,9 @@ export default function Button({
 
   const button = (
     <button
-      className={classNames(defaultClassName, className)}
+      className={
+        overrideClassNames ? className : classNames(defaultClassName, className)
+      }
       disabled={disable}
       {...restProps}
     >
