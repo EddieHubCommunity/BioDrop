@@ -1,10 +1,15 @@
-## [2.23.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.23.4) (2023-09-28)
+# [2.24.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.24.0) (2023-09-29)
 
 
 ### Bug Fixes
 
 * prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
 * squash merge release details ([#9193](https://github.com/EddieHubCommunity/BioDrop/issues/9193)) ([9169cf9](https://github.com/EddieHubCommunity/BioDrop/commit/9169cf97e40c8d477175091c10c8adf6985562de))
+
+
+### Features
+
+* onboarding landing page ([#9162](https://github.com/EddieHubCommunity/BioDrop/issues/9162)) ([d5330f2](https://github.com/EddieHubCommunity/BioDrop/commit/d5330f20bb8fc0e035793f6e18a98e3db1588522))
 
 
 
