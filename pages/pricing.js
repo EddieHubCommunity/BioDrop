@@ -298,12 +298,12 @@ export default function Premium({ user }) {
   const badge = (
     text,
     classnames1 = "shadow-xl shadow-green-500/50",
-    classnames2 = "animate-ping"
+    classnames2 = "animate-ping",
   ) => (
     <span
       className={classNames(
         "inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-primary-medium dark:text-primary-low ring-1 ring-inset ring-green-500 mb-4",
-        classnames1
+        classnames1,
       )}
     >
       <svg
@@ -338,7 +338,7 @@ export default function Premium({ user }) {
                   tier.mostPopular
                     ? "rounded-xl bg-gray-400/5 ring-1 ring-inset ring-gray-200"
                     : "",
-                  "p-8"
+                  "p-8",
                 )}
               >
                 <h3
@@ -393,7 +393,7 @@ export default function Premium({ user }) {
                                 ) : null}
                               </span>
                             </li>
-                          ) : null
+                          ) : null,
                         )}
                       </ul>
                     </li>
@@ -480,7 +480,7 @@ export default function Premium({ user }) {
                           colSpan={4}
                           className={classNames(
                             sectionIdx === 0 ? "pt-8" : "pt-16",
-                            "pb-4 font-semibold leading-6 text-gray-900"
+                            "pb-4 font-semibold leading-6 text-gray-900",
                           )}
                         >
                           {section.name}

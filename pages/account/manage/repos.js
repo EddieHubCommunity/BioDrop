@@ -36,7 +36,7 @@ export async function getServerSideProps(context) {
   } catch (e) {
     logger.error(
       e,
-      `profile loading failed milestones for username: ${username}`
+      `profile loading failed milestones for username: ${username}`,
     );
   }
 

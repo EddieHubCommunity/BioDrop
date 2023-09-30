@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
-import { FaMicrophoneLines, FaMapPin, FaUpRightFromSquare } from "react-icons/fa6";
+import {
+  FaMicrophoneLines,
+  FaMapPin,
+  FaUpRightFromSquare,
+} from "react-icons/fa6";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -22,10 +26,10 @@ export default function EventCard({ manage, event, usernames }) {
   useEffect(() => {
     try {
       setStartTime(
-        dateFormat({ locale: "local", format: "long", date: event.date.start })
+        dateFormat({ locale: "local", format: "long", date: event.date.start }),
       );
       setEndTime(
-        dateFormat({ locale: "local", format: "long", date: event.date.end })
+        dateFormat({ locale: "local", format: "long", date: event.date.end }),
       );
     } catch (e) {
       setStartTime(event.date.start);
@@ -101,12 +105,9 @@ export default function EventCard({ manage, event, usernames }) {
                       Object.values(event.location).join(", ")}
                   </span>
                 </div>
-                {event.price?.startingFrom > 0 && (
-                  <div>${event.price?.startingFrom}</div>
-                )}
               </div>
             </div>
-            <div className="isolate flex -space-x-1 ">
+            <div className="isolate flex space-x-1 ">
               {usernames &&
                 usernames.map((username) => {
                   return (
@@ -129,6 +130,11 @@ export default function EventCard({ manage, event, usernames }) {
                 })}
             </div>
           </div>
+          {event.price?.startingFrom > 0 && (
+            <div className="flex justify-end items-center">
+              <div>${event.price?.startingFrom}</div>
+            </div>
+          )}
         </div>
       </div>
     </div>

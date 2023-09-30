@@ -4,12 +4,25 @@
   "tags": [
     "Open Source",
     "Javascript",
-    "ReactJS",
-    "NodeJS",
     "Typescript",
+    "NodeJS",
+    "ReactJS",
+    "NextJS",
     "Java"
   ],
   "links": [
+    {
+      "group": "Projects",
+      "name": "Photo Gallery",
+      "url": "https://photo-gallery-kirtankp.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Help Desk",
+      "url": "https://help-desk-ockzj4k2f-kirtankp.vercel.app/",
+      "icon": "FaLink"
+    },
     {
       "group": "Projects",
       "name": "Lift Simulator",
@@ -44,7 +57,7 @@
       "group": "Primary Socials",
       "name": "Twitter",
       "url": "https://twitter.com/kirtan__kp/",
-      "icon": "FaTwitter"
+      "icon": "FaXTwitter"
     },
     {
       "group": "Socials",
@@ -61,7 +74,7 @@
   ],
   "socials": [
     {
-      "icon": "FaTwitter",
+      "icon": "FaXTwitter",
       "url": "https://twitter.com/kirtan__kp/"
     },
     {
