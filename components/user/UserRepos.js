@@ -30,9 +30,11 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
           <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low">
             {repo.description}
           </p>
-          <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
-            Added by {repo.usernames.join(", ")}
-          </p>
+          {repo.usernames && (
+            <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
+              Added by {repo.usernames.join(", ")}
+            </p>
+          )}
         </div>
       </div>
       <div className="flex items-center gap-x-4">
