@@ -35,6 +35,10 @@ export default function Repos({ repos }) {
       label: "forks",
       value: "forks",
     },
+    {
+      label: "favourites",
+      value: "count",
+    },
   ];
 
   return (
@@ -49,7 +53,7 @@ export default function Repos({ repos }) {
         <div className=" flex justify-end">
           <Select
             name="event-type"
-            value={router.query.sortBy || "pushed-date"}
+            value={router.query.sortBy || "count"}
             label="Sort by"
             onChange={(e) =>
               router.push(`/repos?sortBy=${e.currentTarget.value}`)
