@@ -7,10 +7,7 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Milestone } from "@models/Profile/Milestone";
-import { getAccountByProviderAccountId } from "../../account";
 import logChange from "@models/middlewares/logChange";
-
-let userId;
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -25,28 +22,21 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET or PUT or DELETE required" });
   }
 
-  try {
-    const account = await getAccountByProviderAccountId(session.user.id);
-    if (account) {
-      userId = account._id
-    }
-  } catch (error) {
-    logger.error(error, `Changelog - failed to get account for username: ${username}`);
-  }
-
   const { data } = req.query;
+  const context = { req, res };
+
   let milestone = {};
   if (req.method === "GET") {
     milestone = await getMilestoneApi(username, data[0]);
   }
   if (req.method === "DELETE") {
-    milestone = await deleteMilestoneApi(username, data[0]);
+    milestone = await deleteMilestoneApi(context, username, data[0]);
   }
   if (req.method === "PUT") {
     if (data?.length && data[0]) {
-      milestone = await updateMilestoneApi(username, data[0], req.body);
+      milestone = await updateMilestoneApi(context, username, data[0], req.body);
     } else {
-      milestone = await addMilestoneApi(username, req.body);
+      milestone = await addMilestoneApi(context, username, req.body);
     }
   }
 
@@ -88,7 +78,7 @@ export async function getMilestoneApi(username, id) {
   return JSON.parse(JSON.stringify(getMilestone[0]));
 }
 
-export async function updateMilestoneApi(username, id, updateMilestone) {
+export async function updateMilestoneApi(context, username, id, updateMilestone) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -134,9 +124,8 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
   }
 
   // Add to Changelog
-  logChange({
-    userId,
-    collection: "milestones",
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "milestones",
     changesBefore: beforeUpdate,
     changesAfter: await getMilestoneApi(username, id)
   });
@@ -144,7 +133,7 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
   return JSON.parse(JSON.stringify(getMilestone));
 }
 
-export async function deleteMilestoneApi(username, id) {
+export async function deleteMilestoneApi(context, username, id) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -174,9 +163,8 @@ export async function deleteMilestoneApi(username, id) {
   }
 
   // Add to Changelog
-  logChange({
-    userId,
-    collection: "milestones",
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "milestones",
     changesBefore: beforeDelete,
     changesAfter: null
   });
@@ -184,7 +172,7 @@ export async function deleteMilestoneApi(username, id) {
   return JSON.parse(JSON.stringify({}));
 }
 
-export async function addMilestoneApi(username, addMilestone) {
+export async function addMilestoneApi(context, username, addMilestone) {
   await connectMongo();
   const log = logger.child({ username });
   let getMilestone = {};
@@ -228,9 +216,8 @@ export async function addMilestoneApi(username, addMilestone) {
   }
 
   // Add to Changelog
-  logChange({
-    userId,
-    collection: "milestones",
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "milestones",
     changesBefore: null,
     changesAfter: getMilestone
   });

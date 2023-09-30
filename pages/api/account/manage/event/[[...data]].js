@@ -7,10 +7,7 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Event } from "@models/Profile/Event";
-import { getAccountByProviderAccountId } from "../../account";
 import logChange from "@models/middlewares/logChange";
-
-let userId;
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -25,28 +22,21 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET or PUT or DELETE required" });
   }
 
-  try {
-    const account = await getAccountByProviderAccountId(session.user.id);
-    if (account) {
-      userId = account._id
-    }
-  } catch (error) {
-    logger.error(error, `Changelog - failed to get account for username: ${username}`);
-  }
-
   const { data } = req.query;
+  const context = { req, res };
+
   let event = {};
   if (req.method === "GET") {
     event = await getEventApi(username, data[0]);
   }
   if (req.method === "DELETE") {
-    event = await deleteEventApi(username, data[0]);
+    event = await deleteEventApi(context, username, data[0]);
   }
   if (req.method === "PUT") {
     if (data?.length && data[0]) {
-      event = await updateEventApi(username, data[0], req.body);
+      event = await updateEventApi(context, username, data[0], req.body);
     } else {
-      event = await addEventApi(username, req.body);
+      event = await addEventApi(context, username, req.body);
     }
   }
 
@@ -88,7 +78,7 @@ export async function getEventApi(username, id) {
   return JSON.parse(JSON.stringify(getEvent[0]));
 }
 
-export async function updateEventApi(username, id, updateEvent) {
+export async function updateEventApi(context, username, id, updateEvent) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -131,9 +121,8 @@ export async function updateEventApi(username, id, updateEvent) {
   }
   
   // Add to Changelog
-  logChange({
-    userId, 
-    collection: "events", 
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "events", 
     changesBefore: beforeUpdate, 
     changesAfter: await getEventApi(username, id)
   });
@@ -141,7 +130,7 @@ export async function updateEventApi(username, id, updateEvent) {
   return JSON.parse(JSON.stringify(getEvent));
 }
 
-export async function deleteEventApi(username, id) {
+export async function deleteEventApi(context, username, id) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -171,9 +160,8 @@ export async function deleteEventApi(username, id) {
   }
 
   // Add to Changelog
-  logChange({
-    userId, 
-    collection: "events", 
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "events", 
     changesBefore: beforeDelete, 
     changesAfter: null
   });
@@ -181,7 +169,7 @@ export async function deleteEventApi(username, id) {
   return JSON.parse(JSON.stringify({}));
 }
 
-export async function addEventApi(username, addEvent) {
+export async function addEventApi(context, username, addEvent) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -220,9 +208,8 @@ export async function addEventApi(username, addEvent) {
   }
 
   // Add to Changelog
-  logChange({
-    userId, 
-    collection: "events", 
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "events", 
     changesBefore: null, 
     changesAfter: getEvent
   });

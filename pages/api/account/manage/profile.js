@@ -24,12 +24,14 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET or PUT required" });
   }
 
+  const context = { req, res };
+
   let profile = {};
   if (req.method === "GET") {
     profile = await getProfileApi(username);
   }
   if (req.method === "PUT") {
-    profile = await updateProfileApi(username, req.body, session.user.id);
+    profile = await updateProfileApi(context, username, req.body, session.user.id);
   }
 
   if (profile.error) {
@@ -52,7 +54,7 @@ export async function getProfileApi(username) {
   return JSON.parse(JSON.stringify(getProfile));
 }
 
-export async function updateProfileApi(username, data, providerAccountId) {
+export async function updateProfileApi(context, username, data, providerAccountId) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -113,9 +115,8 @@ export async function updateProfileApi(username, data, providerAccountId) {
   }
 
   // Add to Changelog
-  logChange({
-    userId: getProfile?._id,
-    collection: "profiles",
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "profiles",
     changesBefore: beforeUpdate,
     changesAfter: await getProfileApi(username)
   });

@@ -8,10 +8,7 @@ import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Repo } from "@models/Profile/Repo";
 import getGitHubRepo from "@services/github/getRepo";
-import { getAccountByProviderAccountId } from "../../account";
 import logChange from "@models/middlewares/logChange";
-
-let userId;
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -27,25 +24,18 @@ export default async function handler(req, res) {
 
   const username = session.username;
 
-  try {
-    const account = await getAccountByProviderAccountId(session.user.id);
-    if (account) {
-      userId = account._id
-    }
-  } catch (error) {
-    logger.error(error, `Changelog - failed to get account for username: ${username}`);
-  }
-
   const { data } = req.query;
+  const context = { req, res };
+
   let repo = {};
   if (req.method === "GET") {
     repo = await getRepoApi(username, data[0]);
   }
   if (req.method === "POST") {
-    repo = await addRepoApi(username, req.body);
+    repo = await addRepoApi(context, username, req.body);
   }
   if (req.method === "DELETE") {
-    repo = await deleteRepoApi(username, data[0]);
+    repo = await deleteRepoApi(context, username, data[0]);
   }
 
   if (repo.error) {
@@ -86,7 +76,7 @@ export async function getRepoApi(username, id) {
   return JSON.parse(JSON.stringify(getRepo[0]));
 }
 
-export async function addRepoApi(username, addRepo) {
+export async function addRepoApi(context, username, addRepo) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -167,9 +157,8 @@ export async function addRepoApi(username, addRepo) {
   }
 
   // Add to Changelog
-  logChange({
-    userId,
-    collection: "repos",
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "repos",
     changesBefore: null,
     changesAfter: await getRepoApi(username, id)
   });
@@ -177,7 +166,7 @@ export async function addRepoApi(username, addRepo) {
   return JSON.parse(JSON.stringify(getRepo));
 }
 
-export async function deleteRepoApi(username, id) {
+export async function deleteRepoApi(context, username, id) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -207,9 +196,8 @@ export async function deleteRepoApi(username, id) {
   }
 
   // Add to Changelog
-  logChange({
-    userId,
-    collection: "repos",
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "repos",
     changesBefore: beforeDelete,
     changesAfter: null
   });
@@ -217,7 +205,7 @@ export async function deleteRepoApi(username, id) {
   return JSON.parse(JSON.stringify({}));
 }
 
-export async function updateRepoApi(username, id, githubData) {
+export async function updateRepoApi(context, username, id, githubData) {
   await connectMongo();
   const log = logger.child({ username });
   
@@ -266,9 +254,8 @@ export async function updateRepoApi(username, id, githubData) {
   }
 
   // Add to Changelog
-  logChange({
-    userId,
-    collection: "repos",
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "repos",
     changesBefore: beforeUpdate,
     changesAfter: await getRepoApi(username, id)
   });
