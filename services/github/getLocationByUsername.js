@@ -10,31 +10,33 @@ export default async function getLocationByUsername(username) {
   };
 
   let github;
-  const ghAuth = serverEnv.GITHUB_API_TOKEN ? {
-    headers: {
-      Authorization: `bearer ${serverEnv.GITHUB_API_TOKEN}` 
-    }
-  } : {};
+  const ghAuth = serverEnv.GITHUB_API_TOKEN
+    ? {
+        headers: {
+          Authorization: `bearer ${serverEnv.GITHUB_API_TOKEN}`,
+        },
+      }
+    : {};
   try {
-    const data = await fetch(`https://api.github.com/users/${username}`, ghAuth);
+    const data = await fetch(
+      `https://api.github.com/users/${username}`,
+      ghAuth,
+    );
     github = await data.json();
     logger.info(
-      `github info fetched for username: ${username} and received location ${github.location}`
+      `github info fetched for username: ${username} and received location ${github.location}`,
     );
   } catch (e) {
     logger.error(`location info from github failed for username ${username}`);
     return location;
   }
 
-  if (
-    !github.location ||
-    github.location.toLowerCase() === "remote"
-  ) {
+  if (!github.location || github.location.toLowerCase() === "remote") {
     return location;
   }
 
   const url = `https://nominatim.openstreetmap.org/?addressdetails=1&q=${encodeURIComponent(
-    github.location
+    github.location,
   )}&format=json&limit=1`;
 
   try {
@@ -48,13 +50,13 @@ export default async function getLocationByUsername(username) {
     };
   } catch {
     logger.error(
-      `location info from open street map failed for username ${username}`
+      `location info from open street map failed for username ${username}`,
     );
     return { ...location, provided: github.location };
   }
 
   logger.info(
-    `location info fetched for username ${username} with ${location.provided} and received ${location.name}`
+    `location info fetched for username ${username} with ${location.provided} and received ${location.name}`,
   );
 
   return location;

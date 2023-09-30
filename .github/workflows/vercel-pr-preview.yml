@@ -39,3 +39,5 @@ jobs:
     steps:
       - name: load json files
         run: curl -L -f ${{ needs.deploy.outputs.url }}/api/system/reload?secret=${{ secrets.BIODROP_API_SECRET_PREVIEW }}
+      - name: load testimonial files
+        run: curl -L -f ${{ needs.deploy.outputs.url }}/api/system/testimonials-forms?secret=${{ secrets.BIODROP_API_SECRET_PREVIEW }}

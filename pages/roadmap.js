@@ -102,7 +102,7 @@ export default function Roadmap() {
                     phaseIdx === releases.length - 1
                       ? "lg:rounded-l-none lg:border-l-0"
                       : "",
-                    "flex flex-col justify-between rounded-3xl bg-white dark:bg-primary-medium p-8 border-primary-low-medium dark:border-primary-medium-low border  xl:p-10"
+                    "flex flex-col justify-between rounded-3xl bg-white dark:bg-primary-medium p-8 border-primary-low-medium dark:border-primary-medium-low border  xl:p-10",
                   )}
                 >
                   <div>
@@ -113,7 +113,7 @@ export default function Roadmap() {
                           phase.mostPopular
                             ? "text-secondary-medium"
                             : "text-primary-high",
-                          "text-lg font-semibold leading-8"
+                          "text-lg font-semibold leading-8",
                         )}
                       >
                         {phase.name}
@@ -147,7 +147,7 @@ export default function Roadmap() {
                       phase.mostPopular
                         ? "bg-secondary-medium  text-primary-low shadow-sm hover:bg-secondary-medium-low"
                         : "text-secondary-medium dark:text-secondary-low border border-secondary-medium dark:border-primary-low dark:hover:border-secondary-low hover:border-secondary-low",
-                      "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
+                      "mt-8 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium",
                     )}
                   >
                     {phase.actionText}

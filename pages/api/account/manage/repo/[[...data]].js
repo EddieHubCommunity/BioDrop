@@ -84,7 +84,9 @@ export async function addRepoApi(username, addRepo) {
     return { error: e.errors };
   }
 
-  const repoUrl = addRepo.url.endsWith("/") ? addRepo.url.slice(0, -1) : addRepo.url;
+  const repoUrl = addRepo.url.endsWith("/")
+    ? addRepo.url.slice(0, -1)
+    : addRepo.url;
 
   const profile = await Profile.findOne({ username });
   if (profile.repos?.find((repo) => repo.url === repoUrl)) {
@@ -142,7 +144,7 @@ export async function addRepoApi(username, addRepo) {
           },
         },
       },
-      { new: true }
+      { new: true },
     );
     getRepo = await getRepoApi(username, id);
   } catch (e) {
@@ -173,7 +175,7 @@ export async function deleteRepoApi(username, id) {
           },
         },
       },
-      { new: true }
+      { new: true },
     );
   } catch (e) {
     const error = `failed to delete repo for username: ${username}`;
@@ -221,7 +223,7 @@ export async function updateRepoApi(username, id, githubData) {
           },
         },
       },
-      { new: true }
+      { new: true },
     );
     getRepo = await getRepoApi(username, id);
   } catch (e) {

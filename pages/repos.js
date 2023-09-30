@@ -8,7 +8,7 @@ import { PROJECT_NAME } from "@constants/index";
 import { useRouter } from "next/router";
 
 export async function getServerSideProps({ query }) {
-  const sortBy = query.sortBy || "pushed-date";
+  const sortBy = query.sortBy || "favourites";
   const repos = await getRepos(sortBy);
 
   return {
@@ -35,6 +35,10 @@ export default function Repos({ repos }) {
       label: "forks",
       value: "forks",
     },
+    {
+      label: "favourites",
+      value: "favourites",
+    },
   ];
 
   return (
@@ -49,7 +53,7 @@ export default function Repos({ repos }) {
         <div className=" flex justify-end">
           <Select
             name="event-type"
-            value={router.query.sortBy || "pushed-date"}
+            value={router.query.sortBy || "favourites"}
             label="Sort by"
             onChange={(e) =>
               router.push(`/repos?sortBy=${e.currentTarget.value}`)
