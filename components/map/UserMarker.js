@@ -20,7 +20,10 @@ export default function UserMarker({ user }) {
       <Popup>
         <div className="flex flex-col gap-[5px]">
           <h1 className="font-[600]">
-            <Link href={`${BASE_WEBSITE_URL}${user.properties.username}`}>
+            <Link
+              href={`${BASE_WEBSITE_URL}${user.properties.username}`}
+              className="text-primary-medium underline decoration-dotted hover:underline hover:decoration-solid break-all"
+            >
               {user.properties.name}
             </Link>
           </h1>

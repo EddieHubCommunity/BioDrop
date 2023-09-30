@@ -67,7 +67,7 @@ const AccountSchema = new mongoose.Schema(
       following: Number,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 module.exports =

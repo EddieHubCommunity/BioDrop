@@ -21,7 +21,7 @@ async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
       slug: keyword,
-    }).toString()}`
+    }).toString()}`,
   );
 
   const searchData = await res.json();
@@ -82,7 +82,7 @@ export default function Search({
   const [notFound, setNotFound] = useState();
   const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
   const [inputValue, setInputValue] = useState(
-    username || keyword || userSearchParam || ""
+    username || keyword || userSearchParam || "",
   );
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -105,10 +105,13 @@ export default function Search({
       setUsers(randUsers);
       //Removing the not found field when the input field is empty
       setNotFound();
-      return;
-    }
-
-    if (inputValue.length < 2) {
+      router.replace(
+        {
+          pathname: "/search",
+        },
+        undefined,
+        { shallow: true },
+      );
       return;
     }
 
@@ -125,7 +128,7 @@ export default function Search({
         const res = await fetch(
           `${BASE_URL}/api/search?${new URLSearchParams({
             slug: value,
-          }).toString()}`
+          }).toString()}`,
         );
         const data = await res.json();
         if (data.error) {
@@ -148,7 +151,7 @@ export default function Search({
           query: { userSearchParam: inputValue },
         },
         undefined,
-        { shallow: true }
+        { shallow: true },
       );
       fetchUsers(inputValue);
     }, 500);
@@ -182,7 +185,7 @@ export default function Search({
     if (cleanedInput.length) {
       if (searchTagNameInInput(inputValue, keyword)) {
         return setInputValue(
-          items.filter((item) => item.trim() !== keyword).join(", ")
+          items.filter((item) => item.trim() !== keyword).join(", "),
         );
       }
 
