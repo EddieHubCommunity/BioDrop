@@ -1,11 +1,11 @@
 import logger from "@config/logger";
 import { Changelog } from "@models/index";
 
-export default async function logChange({ userId, collection, changesBefore, changesAfter }) {
+export default async function logChange(session, { model, changesBefore, changesAfter }) {
+  let userId = session.user.id;
   let operation;
   let diff;
 
-  const collectionName = collection;
   const docId = changesAfter._id || changesBefore._id;
 
   if (changesBefore && changesAfter) {
@@ -19,7 +19,7 @@ export default async function logChange({ userId, collection, changesBefore, cha
   const change = {
     userId,
     docId,
-    collectionName,
+    model,
     operation,
     changesBefore,
     changesAfter,
@@ -28,9 +28,9 @@ export default async function logChange({ userId, collection, changesBefore, cha
 
   if (changesBefore !== changesAfter && JSON.stringify(diff) !== "{}") {
     await Changelog.create({ ...change });
-    logger.info(`Changelog added for: "${collection}" for user id ${userId}`);
+    logger.info(`Changelog added for: "${model}" for user id ${userId}`);
   } else {
-    logger.info(`No changelog for: "${collection}" by user id ${userId}`);
+    logger.info(`No changelog for: "${model}" by user id ${userId}`);
   }
 }
 
