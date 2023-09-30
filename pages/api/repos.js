@@ -15,10 +15,10 @@ export default async function handler(req, res) {
 
 export async function getRepos(sortBy) {
   const sortOptions = {
-    "created-date": "repos.dates.createdAt",
-    "pushed-date": "repos.dates.pushedAt",
-    stars: "repos.stats.stars",
-    forks: "repos.stats.forks",
+    "created-date": "dates.createdAt",
+    "pushed-date": "dates.pushedAt",
+    stars: "stats.stars",
+    forks: "stats.forks",
     favourites: "count",
   };
   await connectMongo();

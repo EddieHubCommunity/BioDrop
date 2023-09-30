@@ -8,7 +8,7 @@ import { PROJECT_NAME } from "@constants/index";
 import { useRouter } from "next/router";
 
 export async function getServerSideProps({ query }) {
-  const sortBy = query.sortBy || "pushed-date";
+  const sortBy = query.sortBy || "count";
   const repos = await getRepos(sortBy);
 
   return {
@@ -37,7 +37,7 @@ export default function Repos({ repos }) {
     },
     {
       label: "favourites",
-      value: "count",
+      value: "favourites",
     },
   ];
 
