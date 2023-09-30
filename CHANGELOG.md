@@ -1,4 +1,4 @@
-# [2.27.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.27.0) (2023-09-30)
+# [2.28.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.28.0) (2023-09-30)
 
 
 ### Bug Fixes
@@ -12,6 +12,7 @@
 
 ### Features
 
+* dedup repos page ([#9210](https://github.com/EddieHubCommunity/BioDrop/issues/9210)) ([50f63cf](https://github.com/EddieHubCommunity/BioDrop/commit/50f63cf51ef49fc501c69e5e420f35c6ba751d35))
 * onboarding landing page ([#9162](https://github.com/EddieHubCommunity/BioDrop/issues/9162)) ([d5330f2](https://github.com/EddieHubCommunity/BioDrop/commit/d5330f20bb8fc0e035793f6e18a98e3db1588522))
 
 
