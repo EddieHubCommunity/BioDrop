@@ -6,7 +6,7 @@ export default async function logChange(session, { model, changesBefore, changes
   let operation;
   let diff;
 
-  const docId = changesAfter._id || changesBefore._id;
+  const docId = changesAfter ? changesAfter._id : changesBefore._id;
 
   if (changesBefore && changesAfter) {
     operation = "UPDATE";
