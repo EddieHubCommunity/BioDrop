@@ -65,7 +65,7 @@ export async function updateSettingsApi(username, data) {
       {
         upsert: true,
         new: true,
-      }
+      },
     );
     log.info(`profile premium settings updated for username: ${username}`);
   } catch (e) {

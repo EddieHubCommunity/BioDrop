@@ -111,7 +111,7 @@ export async function updateEventApi(context, username, id, updateEvent) {
           "events.$": { ...updateEvent, _id: new ObjectId(id) },
         },
       },
-      { upsert: true }
+      { upsert: true },
     );
     getEvent = await getEventApi(username, id);
   } catch (e) {
@@ -151,7 +151,7 @@ export async function deleteEventApi(context, username, id) {
           },
         },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     );
   } catch (e) {
     const error = `failed to delete event for username: ${username}`;
@@ -198,7 +198,7 @@ export async function addEventApi(context, username, addEvent) {
       {
         $push: { events: { ...addEvent, _id: id } },
       },
-      { upsert: true }
+      { upsert: true },
     );
     getEvent = await getEventApi(username, id);
   } catch (e) {

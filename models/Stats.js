@@ -36,7 +36,7 @@ const StatsSchema = new mongoose.Schema(
       index: true,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 module.exports = mongoose.models.Stats || mongoose.model("Stats", StatsSchema);

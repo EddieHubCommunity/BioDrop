@@ -97,7 +97,7 @@ export async function updateMilestoneApi(context, username, id, updateMilestone)
   } catch (e) {
     log.error(
       e,
-      `validation failed to update milestone for username: ${username}`
+      `validation failed to update milestone for username: ${username}`,
     );
     return { error: e.errors };
   }
@@ -114,7 +114,7 @@ export async function updateMilestoneApi(context, username, id, updateMilestone)
           "milestones.$": updateMilestone,
         },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     );
     getMilestone = await getMilestoneApi(username, id);
   } catch (e) {
@@ -154,7 +154,7 @@ export async function deleteMilestoneApi(context, username, id) {
           },
         },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     );
   } catch (e) {
     const error = `failed to delete milestone for username: ${username}`;
@@ -188,7 +188,7 @@ export async function addMilestoneApi(context, username, addMilestone) {
   } catch (e) {
     log.error(
       e,
-      `validation failed to add milestone for username: ${username}`
+      `validation failed to add milestone for username: ${username}`,
     );
     return { error: e.errors };
   }
@@ -206,7 +206,7 @@ export async function addMilestoneApi(context, username, addMilestone) {
         },
         $push: { milestones: { ...addMilestone, _id: id } },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     );
     getMilestone = await getMilestoneApi(username, id);
   } catch (e) {

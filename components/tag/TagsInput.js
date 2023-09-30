@@ -46,15 +46,11 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
         className="inline-block text-center"
         onClick={() => onTagRemove(tag)}
       >
-        <span className="absolute h-px w-px whitespace-nowrap overflow-hidden">
-          remove {tag} tag
-        </span>
-        <span aria-hidden="true">
-          <XMarkIcon
-            className="w-4 h-4 hover:text-tertiary-medium"
-            title={`Remove ${tag}`}
-          />
-        </span>
+        <XMarkIcon
+          aria-label={`remove ${tag} tag`}
+          aria-hidden="false"
+          className="w-4 h-4 hover:text-tertiary-medium"
+        />
       </button>
     </li>
   ));

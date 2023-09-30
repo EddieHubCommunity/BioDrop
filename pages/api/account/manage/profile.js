@@ -110,7 +110,7 @@ export async function updateProfileApi(context, username, data, providerAccountI
   } catch (e) {
     log.error(
       e,
-      `failed to associate profile to account for username: ${username}`
+      `failed to associate profile to account for username: ${username}`,
     );
   }
 

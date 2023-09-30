@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
 
 import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
@@ -6,14 +7,39 @@ import UserMilestones from "../UserMilestones";
 import UserTestimonials from "../UserTestimonials";
 import Tabs from "../../Tabs";
 import UserRepos from "../UserRepos";
+import { useRouter } from "next/router";
 
 export default function UserTabs({ data, BASE_URL }) {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+  const currentTab = searchParams.get("tab") || "links";
   const defaultTabs = [
-    { name: "My Links", href: "#", current: true },
-    { name: "Milestones", href: "#", current: false },
-    { name: "Testimonials", href: "#", current: false },
-    { name: "Events", href: "#", current: false },
-    { name: "Repos", href: "#", current: false },
+    {
+      name: "My Links",
+      href: "links",
+      current: currentTab === "links" ? true : false,
+    },
+    {
+      name: "Milestones",
+      href: "milestones",
+      current: currentTab === "milestones" ? true : false,
+    },
+    {
+      name: "Testimonials",
+      href: "testimonials",
+      current: currentTab === "testimonials" ? true : false,
+    },
+    {
+      name: "Events",
+      href: "events",
+      current: currentTab === "events" ? true : false,
+    },
+    {
+      name: "Repos",
+      href: "repos",
+      current: currentTab === "repos" ? true : false,
+    },
   ];
 
   let displayTabs = defaultTabs.flatMap((tab) => {
@@ -48,11 +74,16 @@ export default function UserTabs({ data, BASE_URL }) {
   const changeTab = (e, value) => {
     e.preventDefault();
     setTabs(
-      tabs.map((tab) =>
-        tab.name === e.target?.value || tab.name === value
-          ? { ...tab, current: true }
-          : { ...tab, current: false }
-      )
+      tabs.map((tab) => {
+        if (tab.name === e.target?.value || tab.name === value) {
+          router.push({ pathname, query: { tab: tab.href } }, undefined, {
+            scroll: false,
+          });
+          return { ...tab, current: true };
+        } else {
+          return { ...tab, current: false };
+        }
+      }),
     );
   };
 

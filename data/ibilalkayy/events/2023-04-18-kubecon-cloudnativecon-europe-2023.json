@@ -5,8 +5,8 @@
   "name": "KubeCon + CloudNativeCon Europe 2023",
   "description": "Attending this KubeCon was an enriching experience for me in which I learned about the latest innovations in Kubernetes.",
   "date": {
-      "start": "Apr, 18, 2023",
-      "end": "Apr, 21, 2023"
+    "start": "Apr, 18, 2023",
+    "end": "Apr, 21, 2023"
   },
   "url": "https://kubecon-cloudnativecon-europe.com/"
 }

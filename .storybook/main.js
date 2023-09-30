@@ -11,7 +11,7 @@ const config = {
     "@tomfreudenberg/next-auth-mock/storybook",
     "storybook-dark-mode",
     {
-      name: '@storybook/addon-docs',
+      name: "@storybook/addon-docs",
       options: {
         mdxPluginOptions: {
           mdxCompileOptions: {
@@ -32,4 +32,4 @@ const config = {
   }),
 };
 
-export default config
+export default config;
