@@ -30,7 +30,7 @@ test("Tabs change correctly", async ({ page }) => {
   await expect(page.locator("h3").first()).toHaveText(/Top Teacher Award/);
 });
 
-test("Tabs have deep linking", async ({ page }) => {
+test("Tabs have deep linking test milestone", async ({ page }) => {
   const username = "_test-profile-user-6";
   await page.goto(`/${username}?tab=milestones`);
   await expect(page.getByRole("link", { name: /Milestones/ })).toHaveAttribute(
@@ -38,6 +38,17 @@ test("Tabs have deep linking", async ({ page }) => {
     /border-tertiary-medium/,
   );
   await expect(page.locator("h3").first()).toHaveText(/Top Teacher Award/);
+});
+
+test("Tabs have deep linking test repos", async ({ page }) => {
+  const username = "_test-profile-user-6";
+  await page.goto(`/${username}?tab=repos`);
+  await expect(
+    page.locator("main").getByRole("link", { name: /Repos/ }),
+  ).toHaveAttribute("class", /border-tertiary-medium/);
+  await expect(
+    page.getByRole("link", { name: "EddieHubCommunity/BioDrop" }),
+  ).toHaveText(/EddieHubCommunity\/BioDrop/);
 });
 
 test("Profile views increase", async ({ page }) => {
