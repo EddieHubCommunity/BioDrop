@@ -1,4 +1,4 @@
-# [2.26.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.26.0) (2023-09-29)
+# [2.27.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.27.0) (2023-09-30)
 
 
 ### Bug Fixes
@@ -6,6 +6,7 @@
 * accessibility on tags input ([#9181](https://github.com/EddieHubCommunity/BioDrop/issues/9181)) ([57c9a9f](https://github.com/EddieHubCommunity/BioDrop/commit/57c9a9f38fcb95b3a140a68e2ab789b8185daab6))
 * button override classes ([#9203](https://github.com/EddieHubCommunity/BioDrop/issues/9203)) ([00a1255](https://github.com/EddieHubCommunity/BioDrop/commit/00a1255100fb1ba3c95218448878435065fb4a61))
 * prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
+* removed optional zod schema from name & bio ([#9205](https://github.com/EddieHubCommunity/BioDrop/issues/9205)) ([ed71dc2](https://github.com/EddieHubCommunity/BioDrop/commit/ed71dc2feeb0e04e51739cfe908e75cb47c003e9))
 * squash merge release details ([#9193](https://github.com/EddieHubCommunity/BioDrop/issues/9193)) ([9169cf9](https://github.com/EddieHubCommunity/BioDrop/commit/9169cf97e40c8d477175091c10c8adf6985562de))
 
 
