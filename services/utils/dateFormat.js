@@ -1,4 +1,9 @@
-export default function dateFormat({ format = "long", date, locale = "en-GB", UTCLocal = false }) {
+export default function dateFormat({
+  format = "long",
+  date,
+  locale = "en-GB",
+  UTCLocal = false,
+}) {
   let dateTimeStyle;
   let formatLocale = locale;
   let formatDate = date;
@@ -21,9 +26,11 @@ export default function dateFormat({ format = "long", date, locale = "en-GB", UT
   if (UTCLocal) {
     dateTimeStyle = {
       ...dateTimeStyle,
-      timeZone: 'UTC'
-    }
+      timeZone: "UTC",
+    };
   }
 
-  return new Intl.DateTimeFormat(formatLocale, dateTimeStyle).format(new Date(formatDate));
+  return new Intl.DateTimeFormat(formatLocale, dateTimeStyle).format(
+    new Date(formatDate),
+  );
 }

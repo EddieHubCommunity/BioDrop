@@ -35,7 +35,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
             <h3
               className={classNames(
                 isGoal && "opacity-70",
-                "text-sm font-medium"
+                "text-sm font-medium",
               )}
             >
               <span>{milestone.title}</span>

@@ -39,7 +39,7 @@ export async function checkGitHubRepo(username, repos) {
   repos.map(async (repo) => {
     let updatedAt = new Date(repo.updatedAt);
     const expireOn = new Date(repo.updatedAt).setDate(
-      updatedAt.getDate() + cacheDays
+      updatedAt.getDate() + cacheDays,
     );
 
     if (expireOn > now.getTime()) {

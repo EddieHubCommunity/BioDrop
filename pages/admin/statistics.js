@@ -56,6 +56,7 @@ export default function Statistics({ stats }) {
     { id: 2, name: "Profiles using JSON", value: stats.profilesUsingJson },
     { id: 3, name: "Profiles using forms", value: stats.profilesUsingForms },
     { id: 4, name: "Profiles not enabled", value: stats.totalProfilesDisabled },
+    { id: 5, name: "Premium Profiles", value: stats.totalPremiumProfiles },
   ];
 
   return (

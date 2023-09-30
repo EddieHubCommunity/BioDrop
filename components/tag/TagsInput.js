@@ -5,29 +5,30 @@ import Input from "../form/Input";
 export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
   const inputRef = useRef(null);
 
-  const keyCode = {
+  //key code
+  const { comma, backspace } = {
     comma: 188,
     backspace: 8,
   };
 
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
-    const { comma } = keyCode;
-    if (e.keyCode !== comma) {
-      return;
+    if (e.keyCode === comma || inputValue.endsWith(",")) {
+      const newTag = inputValue.trim().replace(/,/g, "");
+      if (!newTag) {
+        return;
+      }
+      onTagAdd(newTag);
+      inputRef.current.value = "";
     }
-    const newTag = inputValue.trim().replace(/,/g, "");
-    if (!newTag) {
-      return;
-    }
-    onTagAdd(newTag);
-    inputRef.current.value = "";
   };
 
   const handleKeyDown = (e) => {
-    const inputValue = inputRef.current.value;
-    const { backspace } = keyCode;
-    if (e.keyCode === backspace && !inputValue) {
+    if (
+      e.keyCode === backspace &&
+      inputRef.current?.value === "" &&
+      tags.length > 0
+    ) {
       const removedTag = tags.pop();
       onTagRemove(removedTag);
       inputRef.current.value = removedTag;
@@ -45,15 +46,11 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
         className="inline-block text-center"
         onClick={() => onTagRemove(tag)}
       >
-        <span className="absolute h-px w-px whitespace-nowrap overflow-hidden">
-          remove {tag} tag
-        </span>
-        <span aria-hidden="true">
-          <XMarkIcon
-            className="w-4 h-4 hover:text-tertiary-medium"
-            title={`Remove ${tag}`}
-          />
-        </span>
+        <XMarkIcon
+          aria-label={`remove ${tag} tag`}
+          aria-hidden="false"
+          className="w-4 h-4 hover:text-tertiary-medium"
+        />
       </button>
     </li>
   ));

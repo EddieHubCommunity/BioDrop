@@ -12,6 +12,19 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Deep nesting to Profile tabs",
+      description: "Now you can share links to specific tabs on your profile",
+      type: "addition",
+      date: "2023-09-26",
+    },
+    {
+      title: "Premium features",
+      description:
+        "Customise your Profile further and get more detailed statistics with BioDrop Premium",
+      type: "addition",
+      date: "2023-09-08",
+    },
+    {
       title: "Project rename",
       description:
         "Renamed from LinkFree to BioDrop - all existing links will redirect",
@@ -155,7 +168,7 @@ export default function Changelog() {
                       <p
                         className={classNames(
                           colors[change.type],
-                          "inline-flex rounded-full px-2 text-xs font-semibold leading-5"
+                          "inline-flex rounded-full px-2 text-xs font-semibold leading-5",
                         )}
                       >
                         {change.type}
