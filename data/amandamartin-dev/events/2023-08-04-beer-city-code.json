@@ -1,17 +1,17 @@
 {
-    "isVirtual": false,
-    "isInPerson": true,
-    "userStatus": "speaking",
-    "speakingTopic": "Low Code Development",
-    "color": "#D4942B",
-    "name": "Beer City Code",
-    "description": "A software conference for software developers of all types.",
-    "date":{  
+  "isVirtual": false,
+  "isInPerson": true,
+  "userStatus": "speaking",
+  "speakingTopic": "Low Code Development",
+  "color": "#D4942B",
+  "name": "Beer City Code",
+  "description": "A software conference for software developers of all types.",
+  "date": {
     "start": "2023-08-04T08:00:00.000-08:00",
-      "end": "2023-08-05T15:30:00.000-08:00"
-    },
-    "url": "https://www.beercitycode.com/",
-    "location": {
+    "end": "2023-08-05T15:30:00.000-08:00"
+  },
+  "url": "https://www.beercitycode.com/",
+  "location": {
     "road": "Burton St SE",
     "city": "Grand Rapids",
     "state": "Michigan",

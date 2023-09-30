@@ -57,7 +57,7 @@ const LinkSchema = new mongoose.Schema(
       max: 32,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 LinkSchema.index({ username: 1, url: 1 });

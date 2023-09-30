@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
 import { FaMapPin, FaArrowPointer } from "react-icons/fa6";
 
-import ProgressBar from "@components/statistics/ProgressBar";
 import { getUserApi } from "../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
 import { getStats } from "../api/account/statistics";
@@ -20,7 +19,7 @@ import { PROJECT_NAME } from "@constants/index";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
-  { ssr: false }
+  { ssr: false },
 );
 
 export async function getServerSideProps(context) {
@@ -41,7 +40,7 @@ export async function getServerSideProps(context) {
   if (status !== 200) {
     logger.error(
       profile.error,
-      `profile loading failed for username: ${username}`
+      `profile loading failed for username: ${username}`,
     );
 
     return {
@@ -53,17 +52,6 @@ export async function getServerSideProps(context) {
   }
 
   let data = {};
-  let profileSections = [
-    "links",
-    "milestones",
-    "tags",
-    "socials",
-    "testimonials",
-  ];
-  let progress = {
-    percentage: 0,
-    missing: [],
-  };
 
   try {
     data = await getStats(username);
@@ -71,17 +59,8 @@ export async function getServerSideProps(context) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
-  progress.missing = profileSections.filter(
-    (property) => !profile[property]?.length
-  );
-  progress.percentage = (
-    ((profileSections.length - progress.missing.length) /
-      profileSections.length) *
-    100
-  ).toFixed(0);
-
   data.links.individual = data.links.individual.filter((link) =>
-    profile.links.some((pLink) => pLink.url === link.url)
+    profile.links.some((pLink) => pLink.url === link.url),
   );
 
   const totalClicks = data.links.individual.reduce((acc, link) => {
@@ -100,13 +79,12 @@ export async function getServerSideProps(context) {
     props: {
       data,
       profile,
-      progress,
       BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
     },
   };
 }
 
-export default function Statistics({ data, profile, progress, BASE_URL }) {
+export default function Statistics({ data, profile, BASE_URL }) {
   const router = useRouter();
   const alerts = {
     premium: "You are now a premium user!",
@@ -152,22 +130,6 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
           clicks={data.links.clicks}
           rank={data.profile.rank}
         />
-
-        <div className="w-full border p-4 my-6 dark:border-primary-medium">
-          <span className="flex flex-row flex-wrap justify-between">
-            <span className="text-lg font-medium text-primary-medium dark:text-primary-low">
-              Profile Completion: {progress.percentage}%
-            </span>
-            {progress.missing.length > 0 && (
-              <span className="text-primary-medium-low">
-                (missing sections in your profile are:{" "}
-                {progress.missing.join(", ")})
-              </span>
-            )}
-          </span>
-
-          <ProgressBar progress={progress} />
-        </div>
 
         {!data.links && (
           <Alert type="warning" message="You don't have a profile yet." />
