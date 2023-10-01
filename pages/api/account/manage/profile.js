@@ -116,7 +116,7 @@ export async function updateProfileApi(context, username, data, providerAccountI
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "profiles",
+    model: "Profile",
     changesBefore: beforeUpdate,
     changesAfter: await getProfileApi(username)
   });
