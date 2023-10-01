@@ -8,11 +8,5 @@
       "schedule": "0 0 * * *"
     }
   ],
-  "installCommand": "npm ci --omit=dev",
-  "functions": {
-    "/api/system/*": {
-      "memory": 3008,
-      "maxDuration": 60
-    }
-  }
+  "installCommand": "npm ci --omit=dev"
 }
