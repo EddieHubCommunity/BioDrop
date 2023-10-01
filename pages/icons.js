@@ -19,6 +19,21 @@ export default function Icons() {
     "FaLinkedin",
     "FaGit",
     "FaXTwitter",
+    "FaInstagram",
+    "SiHashnode",
+    "FaLink",
+    "FaYoutube",
+    "FaGlobe",
+    "FaDev",
+    "FaDiscord",
+    "FaMedium",
+    "SiMedium",
+    "FaFacebook",
+    "FaGithubAlt",
+    "SiLinkedin",
+    "SiLeetcode",
+    "FaDollarSign",
+    "FaMastodon",
   ];
   const icons = {};
 
