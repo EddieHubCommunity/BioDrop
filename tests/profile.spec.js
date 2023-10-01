@@ -85,11 +85,21 @@ test("Profile not found redirects to search page with error message", async ({
   );
 });
 
-test.fixme("Link navigates", async () => {
+test("Link navigates", async ({ page }) => {
+  const popupPromise = page.waitForEvent("popup");
+  const username = "_test-profile-user-6";
+  const endpoint = `/${username}`;
+
   // 1. navigate to profile
-  // 2. get a link and href
-  // 3. click the link
-  // 4. get the current url and should match href
+  await page.goto(endpoint);
+
+  // 2. click one of the links
+  await page.getByRole("link", { name: "Twitter: Follow me" }).click();
+
+  // 3. check that the link navigated
+  const popup = await popupPromise;
+  await popup.waitForLoadState();
+  await expect(popup).toHaveURL("https://twitter.com/eddiejaoude");
 });
 
 test("redirect to search when tag clicked", async ({ page }) => {
