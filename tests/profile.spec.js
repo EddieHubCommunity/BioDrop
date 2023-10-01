@@ -99,7 +99,6 @@ test("Link navigates", async ({ page }) => {
   // 3. check that the link navigated
   const popup = await popupPromise;
   await popup.waitForLoadState();
-  console.log(await popup.title());
   await expect(popup).toHaveURL("https://twitter.com/eddiejaoude");
 });
 
