@@ -7,7 +7,6 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { getProfiles } from "../api/admin/profiles";
 
-import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import Image from "next/image";
@@ -21,17 +20,6 @@ export async function getServerSideProps(context) {
     return {
       redirect: {
         destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
-  const username = session.username;
-
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return {
-      redirect: {
-        destination: "/404",
         permanent: false,
       },
     };
