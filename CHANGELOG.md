@@ -1,4 +1,4 @@
-# [2.34.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.34.0) (2023-10-01)
+# [2.35.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.35.0) (2023-10-01)
 
 
 ### Bug Fixes
