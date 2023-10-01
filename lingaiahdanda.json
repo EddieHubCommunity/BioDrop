@@ -1,0 +1,22 @@
+{
+  "name": "Lingaiah Danda",
+  "bio": "A Passionate Software Developer",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/lingaiahdanda",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://www.github.com/lingaiahdanda",
+      "icon": "FaGithub"
+    }
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/d.l.chowdary",
+      "icon": "FaInstagram"
+    }
+  ]
+
+}
