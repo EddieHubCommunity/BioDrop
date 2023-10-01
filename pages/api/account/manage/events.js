@@ -48,6 +48,7 @@ export async function getEventsApi(username) {
         $sort: { date: 1 },
       },
     ]);
+    // console.log('api get events',getEvents)
   } catch (e) {
     log.error(e, `failed to get events for username: ${username}`);
   }

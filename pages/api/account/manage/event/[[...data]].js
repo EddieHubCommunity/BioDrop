@@ -88,6 +88,7 @@ export async function updateEventApi(username, id, updateEvent) {
       "url",
       "date",
       "color",
+      "tags"
     ]);
   } catch (e) {
     log.error(e, `validation failed to update event for username: ${username}`);
@@ -161,6 +162,7 @@ export async function addEventApi(username, addEvent) {
       "url",
       "date",
       "color",
+      "tags"
     ]);
   } catch (e) {
     log.error(e, `validation failed to add event for username: ${username}`);
@@ -180,6 +182,8 @@ export async function addEventApi(username, addEvent) {
       { upsert: true },
     );
     getEvent = await getEventApi(username, id);
+    console.log({...addEvent})
+    console.log('api get event', getEvent)
   } catch (e) {
     const error = `failed to update event for username: ${username}`;
     log.error(e, error);
