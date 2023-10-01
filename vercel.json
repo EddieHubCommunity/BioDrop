@@ -8,5 +8,11 @@
       "schedule": "0 0 * * *"
     }
   ],
-  "installCommand": "npm ci --omit=dev"
+  "installCommand": "npm ci --omit=dev",
+  "functions": {
+    "api/system/reload.js": {
+      "memory": 3008,
+      "maxDuration": 60
+    }
+  }
 }
