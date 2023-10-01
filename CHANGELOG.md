@@ -1,4 +1,4 @@
-# [2.38.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.38.0) (2023-10-01)
+# [2.39.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.39.0) (2023-10-01)
 
 
 ### Bug Fixes
@@ -7,6 +7,7 @@
 * button override classes ([#9203](https://github.com/EddieHubCommunity/BioDrop/issues/9203)) ([00a1255](https://github.com/EddieHubCommunity/BioDrop/commit/00a1255100fb1ba3c95218448878435065fb4a61))
 * default issue template dropdown to no ([#9234](https://github.com/EddieHubCommunity/BioDrop/issues/9234)) ([60142b2](https://github.com/EddieHubCommunity/BioDrop/commit/60142b23d0e5ad754bdbeb2b434d9e3447bf47d9))
 * display more default icons [#8421](https://github.com/EddieHubCommunity/BioDrop/issues/8421) ([#9068](https://github.com/EddieHubCommunity/BioDrop/issues/9068)) ([5794d38](https://github.com/EddieHubCommunity/BioDrop/commit/5794d38b7aafd75321d932e450e9b289a11f60de)), closes [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) [#8684](https://github.com/EddieHubCommunity/BioDrop/issues/8684)
+* hacktoberfest ignore label for profiles ([#9237](https://github.com/EddieHubCommunity/BioDrop/issues/9237)) ([5e43023](https://github.com/EddieHubCommunity/BioDrop/commit/5e430239011f975e733578e7adad1b2911ff0f69))
 * max func duration ([#9224](https://github.com/EddieHubCommunity/BioDrop/issues/9224)) ([a9e717b](https://github.com/EddieHubCommunity/BioDrop/commit/a9e717b5707f5ebae1d3cc9b7807ba724d8889a1))
 * max func duration move to file ([#9226](https://github.com/EddieHubCommunity/BioDrop/issues/9226)) ([530aeba](https://github.com/EddieHubCommunity/BioDrop/commit/530aeba72ee442d5acb667176f31304fc6cd316d))
 * min date for milestone  ([#9060](https://github.com/EddieHubCommunity/BioDrop/issues/9060)) ([f7e5c65](https://github.com/EddieHubCommunity/BioDrop/commit/f7e5c65f934f7a93870cf8d0412688ddc2c85402))
