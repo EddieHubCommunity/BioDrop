@@ -25,7 +25,7 @@ Here is an example of a BioDrop Profile https://biodrop.io/eddiejaoude
 
 All other Pull Requests will count towards Hacktoberfest.
 
-If you are a new contributor to this project, have a look out for issues that have the `hacktoberfest` label.
+If you are a new contributor to this project, have a look out for issues that have the [Hacktoberfest](https://github.com/EddieHubCommunity/BioDrop/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest) label.
 
 ## Tech Stack
 
