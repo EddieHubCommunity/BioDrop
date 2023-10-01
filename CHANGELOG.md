@@ -1,4 +1,4 @@
-# [2.36.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.36.0) (2023-10-01)
+# [2.37.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.37.0) (2023-10-01)
 
 
 ### Bug Fixes
@@ -8,6 +8,7 @@
 * display more default icons [#8421](https://github.com/EddieHubCommunity/BioDrop/issues/8421) ([#9068](https://github.com/EddieHubCommunity/BioDrop/issues/9068)) ([5794d38](https://github.com/EddieHubCommunity/BioDrop/commit/5794d38b7aafd75321d932e450e9b289a11f60de)), closes [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) [#8684](https://github.com/EddieHubCommunity/BioDrop/issues/8684)
 * max func duration ([#9224](https://github.com/EddieHubCommunity/BioDrop/issues/9224)) ([a9e717b](https://github.com/EddieHubCommunity/BioDrop/commit/a9e717b5707f5ebae1d3cc9b7807ba724d8889a1))
 * max func duration move to file ([#9226](https://github.com/EddieHubCommunity/BioDrop/issues/9226)) ([530aeba](https://github.com/EddieHubCommunity/BioDrop/commit/530aeba72ee442d5acb667176f31304fc6cd316d))
+* min date for milestone  ([#9060](https://github.com/EddieHubCommunity/BioDrop/issues/9060)) ([f7e5c65](https://github.com/EddieHubCommunity/BioDrop/commit/f7e5c65f934f7a93870cf8d0412688ddc2c85402))
 * prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
 * removed optional zod schema from name & bio ([#9205](https://github.com/EddieHubCommunity/BioDrop/issues/9205)) ([ed71dc2](https://github.com/EddieHubCommunity/BioDrop/commit/ed71dc2feeb0e04e51739cfe908e75cb47c003e9))
 * repo dedup ([#9212](https://github.com/EddieHubCommunity/BioDrop/issues/9212)) ([647d861](https://github.com/EddieHubCommunity/BioDrop/commit/647d86100ea71577d35678921f75a376c58ff80f))
