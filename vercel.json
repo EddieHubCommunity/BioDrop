@@ -10,7 +10,7 @@
   ],
   "installCommand": "npm ci --omit=dev",
   "functions": {
-    "api/system/reload.js": {
+    "/api/system/*": {
       "memory": 3008,
       "maxDuration": 60
     }
