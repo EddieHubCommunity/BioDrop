@@ -17,6 +17,16 @@ Here is an example of a BioDrop Profile https://biodrop.io/eddiejaoude
 
 ![Example profile and statistics page on BioDrop with light and dark mode](https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png)
 
+## Hacktoberfest
+
+> [!IMPORTANT]  
+> Creating/Changing/Deleting your JSON Profile do **not** count towards hacktoberfest and will automatically be marked with the label `invalid` so that Hacktoberfest ignores your Pull Request
+> But this does not effect your Pull Request being accepted and merged into BioDrop
+
+All other Pull Requests will count towards Hacktoberfest.
+
+If you are a new contributor to this project, have a look out for issues that have the `hacktoberfest` label.
+
 ## Tech Stack
 
 BioDrop is built using the following technologies:

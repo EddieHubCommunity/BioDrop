@@ -1,6 +1,9 @@
 "✍ chore: profile":
   - "data/**"
 
+"invalid":
+  - "data/**"
+
 tests:
   - "tests/**"
 

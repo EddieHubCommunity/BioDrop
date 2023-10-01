@@ -23,8 +23,9 @@ body:
       label: Do you want to work on this issue?
       multiple: false
       options:
-        - "Yes"
         - "No"
+        - "Yes"
+      default: 0
     validations:
       required: false
   - type: textarea
