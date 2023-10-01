@@ -1,7 +1,6 @@
 {
-  "version": "2.41.0",
-  "alerts": [
-  ],
+  "version": "2.42.0",
+  "alerts": [],
   "layouts": [
     "classic",
     "inline",
