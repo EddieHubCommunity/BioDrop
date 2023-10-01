@@ -125,7 +125,7 @@ export async function updateMilestoneApi(context, username, id, updateMilestone)
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "milestones",
+    model: "Milestone",
     changesBefore: beforeUpdate,
     changesAfter: await getMilestoneApi(username, id)
   });
@@ -164,7 +164,7 @@ export async function deleteMilestoneApi(context, username, id) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "milestones",
+    model: "Milestone",
     changesBefore: beforeDelete,
     changesAfter: null
   });
@@ -217,7 +217,7 @@ export async function addMilestoneApi(context, username, addMilestone) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "milestones",
+    model: "Milestone",
     changesBefore: null,
     changesAfter: getMilestone
   });

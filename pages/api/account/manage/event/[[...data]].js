@@ -122,7 +122,7 @@ export async function updateEventApi(context, username, id, updateEvent) {
   
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "events", 
+    model: "Event", 
     changesBefore: beforeUpdate, 
     changesAfter: await getEventApi(username, id)
   });
@@ -161,7 +161,7 @@ export async function deleteEventApi(context, username, id) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "events", 
+    model: "Event", 
     changesBefore: beforeDelete, 
     changesAfter: null
   });
@@ -209,7 +209,7 @@ export async function addEventApi(context, username, addEvent) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "events", 
+    model: "Event", 
     changesBefore: null, 
     changesAfter: getEvent
   });

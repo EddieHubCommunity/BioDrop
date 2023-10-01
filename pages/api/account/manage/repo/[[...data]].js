@@ -160,7 +160,7 @@ export async function addRepoApi(context, username, addRepo) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "repos",
+    model: "Repo",
     changesBefore: null,
     changesAfter: await getRepoApi(username, id)
   });
@@ -199,7 +199,7 @@ export async function deleteRepoApi(context, username, id) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "repos",
+    model: "Repo",
     changesBefore: beforeDelete,
     changesAfter: null
   });
@@ -257,7 +257,7 @@ export async function updateRepoApi(context, username, id, githubData) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "repos",
+    model: "Repo",
     changesBefore: beforeUpdate,
     changesAfter: await getRepoApi(username, id)
   });

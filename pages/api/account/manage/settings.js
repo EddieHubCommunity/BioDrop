@@ -79,7 +79,7 @@ export async function updateSettingsApi(context, username, data) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "profiles",
+    model: "Profile",
     changesBefore: beforeUpdate, 
     changesAfter:  await getSettingsApi(username)
   });

@@ -115,7 +115,7 @@ export async function addLinkApi(context, username, data) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "links", 
+    model: "Link", 
     changesBefore: null, 
     changesAfter: getLink
   });
@@ -179,7 +179,7 @@ export async function updateLinkApi(context, username, id, data) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "links",
+    model: "Link",
     changesBefore: beforeUpdate,
     changesAfter: await getLinkApi(username, id)
   });
@@ -238,7 +238,7 @@ export async function deleteLinkApi(context, username, id) {
 
   // Add to Changelog
   logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "links",
+    model: "Link",
     changesBefore: getLink,
     changesAfter: null
   });
