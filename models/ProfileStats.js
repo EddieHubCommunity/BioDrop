@@ -30,7 +30,7 @@ const profileStatsSchema = new mongoose.Schema(
       ref: "Profile",
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 profileStatsSchema.index({ username: 1, date: 1 });

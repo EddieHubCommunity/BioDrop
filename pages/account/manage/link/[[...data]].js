@@ -68,14 +68,23 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
   const [animation, setAnimation] = useState(
-    link.animation || Object.keys(config.animations)[0]
+    link.animation || Object.keys(config.animations)[0],
   );
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     let method = "POST";
-    let putLink = { group, name, url, icon, isEnabled, isPinned, animation };
+    let selectedIcon = icon !== "" ? icon : "FaGlobe";
+    let putLink = {
+      group,
+      name,
+      url,
+      icon: selectedIcon,
+      isEnabled,
+      isPinned,
+      animation,
+    };
 
     let alert = "created";
     let apiUrl = `${BASE_URL}/api/account/manage/link`;
@@ -101,7 +110,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
         type: "error",
         message: "Link add/update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }

@@ -8,8 +8,18 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
 }
 
 a {
@@ -20,6 +30,14 @@ a {
 code.language-unknown::before,
 code.language-unknown::after {
   content: "";
+}
+
+html.dark .light-only {
+  display: none;
+}
+
+html:not(.dark) .dark-only {
+  display: none;
 }
 
 @layer base {

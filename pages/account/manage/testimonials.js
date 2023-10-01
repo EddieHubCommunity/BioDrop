@@ -53,7 +53,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
   const [showNotification, setShowNotification] = useState(false);
   const [testimonialList, setTestimonialList] = useState(testimonials || []);
   const [testimonialListPrevious, setTestimonialListPrevious] = useState(
-    testimonials || []
+    testimonials || [],
   );
 
   const toggle = async (_id) => {
@@ -155,7 +155,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                   key={testimonial._id}
                   className={classNames(
                     reorder && "animate-pulse",
-                    "flex items-center justify-between gap-x-6 py-5"
+                    "flex items-center justify-between gap-x-6 py-5",
                   )}
                 >
                   <div className="flex gap-2 items-start">
@@ -167,15 +167,17 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                         </p>
                       </div>
                       <div className="mt-1 flex items-center gap-x-2 text-xs leading-5 text-primary-medium-low dark:text-primary-low-high">
-                        <div className="w-12">
-                          <FallbackImage
-                            width={100}
-                            height={100}
-                            src={`https://github.com/${testimonial.username}.png`}
-                            fallback={testimonial.username}
-                            alt={testimonial.username}
-                            className="rounded-full bg-primary-low"
-                          />
+                        <div className="flex">
+                          <div className="w-12">
+                            <FallbackImage
+                              width={100}
+                              height={100}
+                              src={`https://github.com/${testimonial.username}.png`}
+                              fallback={testimonial.username}
+                              alt={testimonial.username}
+                              className="rounded-full bg-primary-low"
+                            />
+                          </div>
                         </div>
                         <p className="whitespace-normal">
                           {testimonial.description}

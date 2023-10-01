@@ -15,6 +15,9 @@ const UserSchema = new mongoose.Schema(
       type: String,
       trim: true,
     },
+    premiumTrialStartDate: {
+      type: Date,
+    },
     name: {
       type: String,
       trim: true,
@@ -32,7 +35,7 @@ const UserSchema = new mongoose.Schema(
       trim: true,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 module.exports = mongoose.models.User || mongoose.model("User", UserSchema);

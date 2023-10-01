@@ -145,7 +145,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         type: "error",
         message: "Event add/update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
@@ -161,7 +161,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
     const update = await res.json();
 
@@ -323,6 +323,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="color"
                       name="color"
                       label="Color"
                       onChange={(e) => setColor(e.target.value)}

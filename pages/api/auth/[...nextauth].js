@@ -46,12 +46,12 @@ export const authOptions = {
             following: githubProfile.following,
           },
         },
-        { upsert: true }
+        { upsert: true },
       );
       return true;
     },
     async redirect({ baseUrl }) {
-      return `${baseUrl}/account/statistics`;
+      return `${baseUrl}/account/onboarding`;
     },
     async jwt({ token, account, profile }) {
       // Persist the OAuth access_token and or the user id to the token right after signin
@@ -65,8 +65,9 @@ export const authOptions = {
     async session({ session, token }) {
       await connectMongo();
       // Send properties to the client, like an access_token and user id from a provider.
+      // note: `sub` is the user id
       session.accessToken = token.accessToken;
-      session.user.id = token.id;
+      session.user.id = token.sub;
       session.username = token.username;
       const user = await User.findOne({ _id: token.sub });
       if (user) {
@@ -86,7 +87,7 @@ export const authOptions = {
   events: {
     async signIn({ profile: githubProfile }) {
       await connectMongo();
-      // associate LinkFree profile to LinkFree account
+      // associate BioDrop profile to account
       const account = await getAccountByProviderAccountId(githubProfile.id);
       const user = await User.findOne({ _id: account.userId });
 
@@ -100,7 +101,7 @@ export const authOptions = {
         },
         {
           new: true,
-        }
+        },
       );
       if (profile) {
         await associateProfileWithAccount(account, profile._id);
@@ -121,7 +122,7 @@ export const authOptions = {
 
         await User.findOneAndUpdate(
           { _id: new ObjectId(account.userId) },
-          { stripeCustomerId: customer.id, type: "free" }
+          { stripeCustomerId: customer.id, type: "free" },
         );
       }
     },
