@@ -1,0 +1,16 @@
+{
+  "name": "Alexander Clemens",
+  "bio": "Software Engineer | Open Source Maintainer | Colombia 🇨🇴",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/alexanderclemens/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/XanderRubio",
+      "icon": "FaGitHub"
+    }
+  ]
+}

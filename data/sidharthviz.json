@@ -1,9 +1,7 @@
 {
   "name": "Siddharth Verma",
-  "type": "personal",
   "bio": "Full stack Dev | Tech Blogger | DevOps | Travel enthusiast",
   "tags": ["DevOps", "technical writer", "Kubernetes"],
-
   "links": [
     {
       "name": "Portfolio",

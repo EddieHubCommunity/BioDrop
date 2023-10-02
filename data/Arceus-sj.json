@@ -1,8 +1,6 @@
 {
   "name": "Shantanu Jana",
-  "type": "personal",
   "bio": "Open Source Enthusiast | An Explorer 👨‍🚀 | TechGeektion  | UnderGrad Nerd 👨🏻‍💻",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -13,12 +11,18 @@
     "Developer"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/cypherJana" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/cypherJana"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/Shantanu-Jana/"
     },
-    { "icon": "FaGithub", "url": "https://github.com/Arceus-sj" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Arceus-sj"
+    },
     {
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/it.s_just_shan/"

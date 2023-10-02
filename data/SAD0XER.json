@@ -1,63 +1,56 @@
 {
-  "name": "SARVESH DEVRUKHAKAR",
-  "type": "personal",
-  "bio": "**Student** | **Technology Enthusiast** | **Open Source Contributor**",
+  "name": "SARVESH ASHOK DEVRUKHAKAR",
+  "bio": "**Student** | **Open Source** | **Freelance**",
   "tags": [
+    "Open Source",
+    "Git",
+    "GitHub",
+    "Graphic Design",
     "C",
     "C++",
     "JAVA",
     "Python",
     "Django",
-    "Git",
-    "GitHub",
-    "Vercel",
-    "Open Source"
+    "Vercel"
   ],
   "socials": [
     {
-      "icon": "FaLinkedin",
+      "icon": "FaLinkedinIn",
       "url": "https://www.linkedin.com/in/sadcoder"
     },
     {
-      "icon": "FaGithub",
+      "icon": "SiGithub",
       "url": "https://github.com/SAD0XER"
     },
     {
-      "icon": "SiSololearn",
-      "url": "https://www.sololearn.com/profile/18241219"
-    },
-    {
-      "icon": "FaTelegram",
-      "url": "https://t.me/SAD0XER"
-    },
-    {
-      "icon": "FaDiscord",
-      "url": "https://discord.com/users/1068163198051696750"
+      "icon": "SiFiverr",
+      "url": "https://www.fiverr.com/paracoder"
     }
   ],
   "links": [
     {
-      "group": "Primary Socials",
-      "name": "Let's Connect on LinkedIn",
+      "name": "Connect With Me On LinkedIn",
       "url": "https://www.linkedin.com/in/sadcoder",
-      "icon": "FaLinkedin"
+      "icon": "FaLinkedinIn"
     },
     {
-      "group": "Primary Socials",
-      "name": "Collaborate on GitHub",
+      "name": "Let's Collaborate and Contribute on GitHub",
       "url": "https://github.com/SAD0XER",
-      "icon": "FaGithub"
+      "icon": "SiGithub"
     },
     {
-      "group": "Secondary Socials",
-      "name": "Join Our Telegram Group",
+      "name": "Join Me On Discord",
+      "url": "https://discord.com/users/1068163198051696750",
+      "icon": "SiDiscord"
+    },
+    {
+      "name": "Join My Telegram Channel",
       "url": "https://t.me/PARA_C0DER",
-      "icon": "SiTelegram"
+      "icon": "FaTelegramPlane"
     },
     {
-      "group": "Secondary Socials",
-      "name": "Let's Learn Something",
-      "url": "https://www.sololearn.com/profile/18241219https://t.me/PARA_C0DER",
+      "name": "Let's Learn Something New On SoloLearn",
+      "url": "https://www.sololearn.com/profile/18241219",
       "icon": "SiSololearn"
     }
   ]

@@ -6,10 +6,19 @@ on:
       - tests/**
       - components/**
       - config/**
+      - tailwind.config.js
+      - package.json
+      - next.config.mjs
+      - models/**
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    services:
+      mongo:
+        image: mongo
+        ports:
+          - 27017:27017
     strategy:
       matrix:
         step: [lint, build]
@@ -35,8 +44,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        shardIndex: [1, 2, 3]
-        shardTotal: [3]
+        shardIndex: [1, 2, 3, 4, 5]
+        shardTotal: [5]
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3

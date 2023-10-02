@@ -1,6 +1,5 @@
 {
   "name": "Rohiit Yaddav",
-  "type": "personal",
   "bio": "**TechOps Engineer** | **DevOps** | **Open Source** | **GitHub** Star",
   "tags": [
     "Open Source",
@@ -15,9 +14,18 @@
     "GCP"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/RohitYJ" },
-    { "icon": "FaGithub", "url": "https://github.com/rohit190183107010" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/rohityj" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/RohitYJ"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rohit190183107010"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rohityj"
+    }
   ],
   "links": [
     {
@@ -36,7 +44,6 @@
       "icon": "FaTwitter"
     }
   ],
-
   "milestones": [
     {
       "title": "Postman API Fundamentals Student Expert",
@@ -48,7 +55,6 @@
     },
     {
       "title": "AWS Cloud Practitioner Essentials ",
-
       "date": "Nov 2022",
       "icon": "FaAWS",
       "color": "red",

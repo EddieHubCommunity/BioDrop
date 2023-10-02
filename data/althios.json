@@ -1,0 +1,11 @@
+{
+  "name": "Ivan Avila",
+  "bio": "unemployed but smart enough to create apple 2",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/althios",
+      "icon": "FaGithub"
+    }
+  ]
+}

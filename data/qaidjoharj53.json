@@ -1,0 +1,27 @@
+{
+  "name": "Qaidjohar Jukker",
+  "bio": "BTech CSE student at TINJRIT'22",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/qaidjoharj53",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/qaidjoharj53",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/qaidjoharjukker53",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/QaidjoharJ53",
+      "icon": "FaTwitter"
+    }
+  ],
+  "testimonials": ["qaidjoharj53"]
+}

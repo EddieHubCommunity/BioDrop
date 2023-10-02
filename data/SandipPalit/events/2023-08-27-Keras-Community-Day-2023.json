@@ -1,0 +1,16 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Keras Community Day 2023",
+  "description": "Keras Community Day will be the ultimate gathering for ML enthusiasts and professionals. Prepare to immerse yourself in a day filled with captivating talks and networking opportunities.",
+  "date": {
+    "start": "2023-08-27T11:00:00.000+05:30",
+    "end": "2023-08-27T17:00:00.000+05:30"
+  },
+  "url": "https://www.linkedin.com/feed/update/urn:li:activity:7094912719371276288",
+  "location": {
+    "city": "Kolkata",
+    "country": "India"
+  }
+}

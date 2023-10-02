@@ -7,8 +7,9 @@ export default function Link({ children, className, rel, ...restProps }) {
       className={
         className
           ? className
-          : "text-blue-600 underline decoration-dotted dark:text-blue-500 hover:underline hover:decoration-solid"
+          : "text-primary-medium dark:text-primary-low underline decoration-dotted hover:underline hover:decoration-solid break-all"
       }
+      prefetch={false}
       {...restProps}
     >
       {children}

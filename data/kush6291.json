@@ -1,0 +1,14 @@
+{
+  "name": "Kushagra Chavan (Test)",
+  "bio": "I am a DevOps Engineer",
+  "links": [
+    {
+      "name": "Follow me on twitter",
+      "url": "https://twitter.com/Kush6291"
+    },
+    {
+      "name": "Follow me on github",
+      "url": "https://github.com/kush6291"
+    }
+  ]
+}

@@ -1,17 +1,21 @@
 {
   "name": "Pratyush Pahari",
-  "type": "personal",
   "bio": "**Open Source** Enthusiast | Tech Explorer | CSE Student ",
   "tags": ["Open Source", "Community", "DSA", "Python", "Web Development"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/PahariPratyush" },
-    { "icon": "FaGithub", "url": "https://github.com/PRATYUSHPAHARI" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/PahariPratyush"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/PRATYUSHPAHARI"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/pratyush-pahari-4141ab212/"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

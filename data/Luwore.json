@@ -1,0 +1,26 @@
+{
+  "name": "Lukas Reith",
+  "bio": "ComputerScience Student | Open Source & CyberSecurity Enthusiast",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/lukas-reith-830b97170",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Luwore",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Mastrodon",
+      "url": "https://infosec.exchange/@luwore",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Personal Website",
+      "url": "https://lukasreith.de",
+      "icon": "FaExternalLinkAlt"
+    }
+  ]
+}

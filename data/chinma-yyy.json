@@ -1,12 +1,20 @@
 {
   "name": "Chinmay Shewale",
-  "type": "personal",
   "bio": "Backend Engineer | Learning DevOps | Exploring Open Source",
   "tags": ["DevOps", "Node.js", "MongoDB", "Express.js"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/chinma_yyy" },
-    { "icon": "FaGithub", "url": "https://github.com/chinma-yyy" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/chinma_yyy" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/chinma_yyy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chinma-yyy"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/chinma_yyy"
+    },
     {
       "icon": "FaLinkedIn",
       "url": "https://www.linkedin.com/in/chinmay-shewale-097624249/"

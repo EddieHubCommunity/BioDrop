@@ -1,10 +1,15 @@
 {
   "name": "Wes MacDonald",
-  "type": "personal",
   "bio": "Developer | Microbiologist | Coffee Nerd | Mixologist | Gardener",
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/wrmacdonald" },
-    { "icon": "FaMastodon", "url": "https://hachyderm.io/@wrmacdonald#" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/wrmacdonald"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://hachyderm.io/@wrmacdonald#"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/wes-macdonald-2016/"

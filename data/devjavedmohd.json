@@ -1,6 +1,5 @@
 {
   "name": "Mohd Javed",
-  "type": "personal",
   "bio": "UI/UX Front End Developer | Open Source",
   "tags": [
     "Open Source",
@@ -12,7 +11,13 @@
     "Cloud"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/devjavedmohd" },
-    { "icon": "FaGithub", "url": "https://github.com/devjavedmohd" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/devjavedmohd"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/devjavedmohd"
+    }
   ]
 }

@@ -1,13 +1,20 @@
 {
   "name": "Raj Kishor Shaw",
-  "type": "personal",
   "bio": " Web Developer | Open Source & communities | Blogger ",
-
   "tags": ["Open Source", "Javascript", "Developer", "Blogs"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/RajKishorShaw17" },
-    { "icon": "FaGithub", "url": "https://github.com/rkshaw20" },
-    { "icon": "website", "url": "https://rajkishor20.netlify.app/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/RajKishorShaw17"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rkshaw20"
+    },
+    {
+      "icon": "website",
+      "url": "https://rajkishor20.netlify.app/"
+    }
   ],
   "links": [
     {

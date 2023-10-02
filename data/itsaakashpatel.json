@@ -1,0 +1,30 @@
+{
+  "name": "Aakash Patel",
+  "bio": "A full stack developer and SEO enthusiast from India 🇮🇳",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/itsaakashpatel",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itsaakashpatel",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedln",
+      "url": "https://www.linkedin.com/in/itsaakashpatel/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "tags": ["Javascript, React Js, Node Js, Next Js"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/itsaakashpatel" },
+    { "icon": "FaGithub", "url": "https://github.com/itsaakashpatel" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/itsaakashpatel/"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Onyekwelu Uzochukwu",
+  "bio": "React Developer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Felix_Uzoch",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/onyekwelu-felix-42b66a187",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Uzo-Felix",
+      "icon": "FaGithub"
+    }
+  ]
+}

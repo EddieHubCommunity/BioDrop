@@ -1,0 +1,121 @@
+{
+  "name": "Vivek Sati",
+  "bio": " **Open Source** | DevOps Engineer Intern",
+  "tags": ["Open Source", "DevOps", "AWS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Vivek__twts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Viveksati5143"
+    },
+    {
+      "icon": "SiLinkedin",
+      "url": "https://www.linkedin.com/in/vivek-sati"
+    }
+  ],
+  "testimonials": ["akshitagupta15june"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Vivek__twts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/vivek-sati",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Viveksati5143",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@viveksati",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on DEV.to",
+      "url": "https://dev.to/viveksati",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Check me out on Quine",
+      "url": "https://quine.sh/user/vivekquine",
+      "icon": "SiLinear"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Top 20 contributor JWOC'23",
+      "date": "March 2023",
+      "icon": "SiTarget",
+      "color": "grey",
+      "description": "Ranked among the top 20 contributors",
+      "url": "https://leaderboard.jwoc.tech/"
+    },
+    {
+      "title": "Favourite mentee JWOC'23",
+      "date": "March 2023",
+      "icon": "FaRegGrinHearts",
+      "color": "red",
+      "description": "Elected for one of the most favourite mentee by the project mentors",
+      "url": "https://www.linkedin.com/posts/jwoc_favoritescpp-activity-7045610832977616897-aYuP?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "Remote DevOps Internship",
+      "date": "July 2023",
+      "icon": "FaHeartbeat",
+      "color": "red",
+      "description": "Started my first Remote DevOps Internship in a startup.",
+      "url": "https://twitter.com/Vivek__twts/status/1678303627616702464?s=20"
+    },
+    {
+      "title": "Top 100 contributor GSSoC'23",
+      "date": "August 2023",
+      "icon": "SiTarget",
+      "color": "grey",
+      "description": "Ranked 69 among the 1557 active contributors from different countries",
+      "url": "https://gssoc.girlscript.tech/leaderboard"
+    },
+    {
+      "isGoal": true,
+      "title": "Became Kubernetes and Kubernetes SIGs GitHub Org. member",
+      "date": "2023",
+      "icon": "SiKubernetes",
+      "color": "lightblue",
+      "description": "Became Kubernetes and Kubernetes SIGs org member by actively contributing to projects on both orgs",
+      "url": "https://github.com/kubernetes-sigs"
+    },
+    {
+      "isGoal": true,
+      "title": "Become AWS Certified Solutions Architect - Associate",
+      "date": "2023",
+      "icon": "FaAmazon",
+      "color": "black",
+      "description": "I want to become AWS Certified Solutions Architect by the end of this year which will be a efficient way of demonstrating my skills",
+      "url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
+    },
+    {
+      "isGoal": true,
+      "title": "Become a AWS Community Builder",
+      "date": "2024",
+      "icon": "FaAws",
+      "color": "black",
+      "description": "Giving back to the community I want to become a AWS Community Builder",
+      "url": "https://aws.amazon.com/developer/community/community-builders/"
+    },
+    {
+      "isGoal": true,
+      "title": "Become a Remote DevOps Engineer",
+      "date": "2024",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to become a full time Remote DevOps Engineer for an Open Source company with good work culture"
+    }
+  ]
+}

@@ -1,6 +1,5 @@
 {
   "name": "Tim DeHof",
-  "type": "personal",
   "bio": "Frontend Developer | Full Stack Developer | Mechanical Engineer | Blogger",
   "tags": [
     "Open Source",
@@ -56,6 +55,16 @@
       "name": "Blog - I write about my journey of software development",
       "url": "https://blog.timdehof.dev/",
       "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Entered my First Hackathon",
+      "date": "June 2023",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "submitted a project to my first hackathon",
+      "url": "https://hashnode.com/edit/clis7d51k000709kz58cncls9"
     }
   ]
 }

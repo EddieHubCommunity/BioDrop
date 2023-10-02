@@ -1,6 +1,5 @@
 {
   "name": "Steve Dsouza",
-  "type": "personal",
   "bio": "Software Developer | Web Developer",
   "tags": [
     "Open Source",
@@ -9,10 +8,15 @@
     "nextjs",
     "Web-Development"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/stevenovak123" },
-    { "icon": "FaGithub", "url": "https://github.com/stevenovak123" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/stevenovak123"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/stevenovak123"
+    }
   ],
   "links": [
     {

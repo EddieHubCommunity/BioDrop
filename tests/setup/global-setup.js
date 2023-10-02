@@ -1,13 +1,18 @@
-import { chromium } from "@playwright/test";
 import fs from "fs";
+import { clientEnv } from "@config/schemas/clientSchema";
 
 const { USERS } = require("./test-users.js");
-import icons from "../../config/icons.json";
-import logger from "../../config/logger";
+
+import icons from "@config/icons.json";
+import logger from "@config/logger";
+import getGitHubRepo from "@services/github/getRepo.js";
+import { Profile } from "@models/index.js";
+import connectMongo from "@config/mongo.js";
+
 const links = Object.keys(icons).map((icon, index) => {
   return {
     name: `Link ${index} - ${icon} icon`,
-    url: "https://github.com/EddieHubCommunity/LinkFree",
+    url: "https://github.com/EddieHubCommunity/BioDrop",
     icon: icon,
   };
 });
@@ -19,32 +24,34 @@ const wcagUser = {
   links: links,
 };
 
-const user = (username) => {
-  return {
-    name: username.toUpperCase(),
-    type: "personal",
-    bio: `Bio for ${username}`,
-    links: [
-      {
-        name: "Link 1",
-        url: "http://eddiejaoude.io",
-        icon: "FaBad-Icon",
-      },
-      {
-        name: "Link 2",
-        url: "http://eddiehub.org",
-        icon: "link",
-      },
-    ],
-  };
-};
-
-module.exports = async (config) => {
+module.exports = async () => {
   USERS.forEach((username) => {
-    const data = user(username);
-
     try {
-      fs.writeFileSync(`./data/${username}.json`, JSON.stringify(data));
+      const inPath = `./tests/data/${username}`;
+      const outPath = `./data/${username}`;
+      fs.copyFileSync(`${inPath}.json`, `${outPath}.json`);
+      if (fs.existsSync(`${inPath}`)) {
+        if (fs.existsSync(`${inPath}/testimonials`)) {
+          fs.mkdirSync(`${outPath}/testimonials`, { recursive: true });
+          const t_files = fs.readdirSync(`${inPath}/testimonials`);
+          t_files.map((file) => {
+            fs.copyFileSync(
+              `${inPath}/testimonials/${file}`,
+              `${outPath}/testimonials/${file}`,
+            );
+          });
+        }
+        if (fs.existsSync(`${inPath}/events`)) {
+          fs.mkdirSync(`${outPath}/events`, { recursive: true });
+          const e_files = fs.readdirSync(`${inPath}/events`);
+          e_files.map((file) => {
+            fs.copyFileSync(
+              `${inPath}/events/${file}`,
+              `${outPath}/events/${file}`,
+            );
+          });
+        }
+      }
     } catch (e) {
       logger.error(e);
       throw new Error(`Test data "${username}" not created`);
@@ -57,4 +64,68 @@ module.exports = async (config) => {
     logger.error(e);
     throw new Error(`Test data "_test-wcag-user" not created`);
   }
+
+  try {
+    const response = await fetch(
+      `${clientEnv.NEXT_PUBLIC_BASE_URL}/api/system/reload?secret=development`,
+    );
+    if (response.status !== 200) {
+      throw new Error(`Test data not loaded into database`);
+    }
+  } catch (e) {
+    logger.error(e);
+    throw new Error(`Test data not loaded into database`);
+  }
+
+  // for user "_test-profile-user-6" we need to add a repo
+  // this is because the repo is not in the json data
+  await connectMongo();
+  let githubData = {};
+  const repoUrl = "https://github.com/EddieHubCommunity/BioDrop";
+  try {
+    githubData = await getGitHubRepo(repoUrl);
+  } catch (e) {
+    const error = `failed to get data for repo: ${repoUrl}`;
+    logger.error(e, error);
+    return { error };
+  }
+
+  if (githubData.error) {
+    return logger.error(e, error);
+  }
+
+  await Profile.findOneAndUpdate(
+    {
+      username: "_test-profile-user-6",
+    },
+    {
+      $set: {
+        source: "database",
+      },
+      $push: {
+        repos: {
+          url: githubData.url,
+          fullname: githubData.name,
+          name: githubData.name,
+          owner: githubData.owner.login,
+          description: githubData.description,
+          topics: githubData.topics,
+          stats: {
+            issues: githubData.open_issues_count,
+            stars: githubData.stargazers_count,
+            forks: githubData.forks_count,
+            watchers: githubData.watchers_count,
+            subscribers: githubData.subscribers_count,
+          },
+          dates: {
+            createdAt: githubData.created_at,
+            updatedAt: githubData.updated_at,
+            pushedAt: githubData.pushed_at,
+          },
+          updatedAt: new Date(),
+        },
+      },
+    },
+    { new: true },
+  );
 };
