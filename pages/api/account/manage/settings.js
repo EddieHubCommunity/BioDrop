@@ -4,6 +4,7 @@ import { getServerSession } from "next-auth/next";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -19,12 +20,14 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET or PUT required" });
   }
 
+  const context = { req, res };
+
   let profile = {};
   if (req.method === "GET") {
     profile = await getSettingsApi(username);
   }
   if (req.method === "PATCH") {
-    profile = await updateSettingsApi(username, req.body);
+    profile = await updateSettingsApi(context, username, req.body);
   }
 
   if (profile.error) {
@@ -47,9 +50,11 @@ export async function getSettingsApi(username) {
   return JSON.parse(JSON.stringify(getProfile.settings));
 }
 
-export async function updateSettingsApi(username, data) {
+export async function updateSettingsApi(context, username, data) {
   await connectMongo();
   const log = logger.child({ username });
+
+  const beforeUpdate = await getSettingsApi(username);
 
   let getProfile = {};
   try {
@@ -71,6 +76,13 @@ export async function updateSettingsApi(username, data) {
   } catch (e) {
     log.error(e, `failed to updated profile premium for username: ${username}`);
   }
+
+  // Add to Changelog
+  logChange(await getServerSession(context.req, context.res, authOptions), {
+    model: "Profile",
+    changesBefore: beforeUpdate, 
+    changesAfter:  await getSettingsApi(username)
+  });
 
   return JSON.parse(JSON.stringify(getProfile.settings));
 }
