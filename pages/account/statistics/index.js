@@ -1,13 +1,13 @@
-import { authOptions } from "../api/auth/[...nextauth]";
+import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
 import { FaMapPin, FaArrowPointer } from "react-icons/fa6";
 
-import { getUserApi } from "../api/profiles/[username]";
+import { getUserApi } from "../../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
-import { getStats } from "../api/account/statistics";
+import { getStats } from "../../api/account/statistics";
 import logger from "@config/logger";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
@@ -16,9 +16,10 @@ import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
 import { PROJECT_NAME } from "@constants/index";
+import Link from "@components/Link";
 
 const DynamicChart = dynamic(
-  () => import("../../components/statistics/StatsChart"),
+  () => import("../../../components/statistics/StatsChart"),
   { ssr: false },
 );
 
@@ -235,7 +236,9 @@ export default function Statistics({ data, profile, BASE_URL }) {
               data.links.individual.map((link) => (
                 <tr key={link.url}>
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
-                    {link.url}
+                    <Link href={`/account/statistics/link/${link._id}`}>
+                      {link.url}
+                    </Link>
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(link.clicks)}
