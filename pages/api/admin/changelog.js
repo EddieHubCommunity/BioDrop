@@ -47,6 +47,6 @@ export async function getChangelogs() {
     logger.error(e, "Failed to load changelogs");
     logs = [];
   }
-  console.log(logs[0]);
+
   return JSON.parse(JSON.stringify(logs));
 }
