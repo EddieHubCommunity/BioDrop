@@ -1,11 +1,13 @@
 import Navbar from "@components/navbar/Navbar";
 import Footer from "@components/Footer";
 import SkipLink from "@components/SkipLink";
+import Alert from "./Alert";
 
 export default function MultiLayout({ settings, children }) {
   return (
     <>
       <SkipLink />
+      <Alert />
       <div className="flex flex-col min-h-screen">
         {(!settings ||
           settings.type === "free" ||
