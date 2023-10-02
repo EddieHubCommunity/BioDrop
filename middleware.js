@@ -17,7 +17,7 @@ export async function middleware(req) {
 
   const username = session.username;
   if (!process.env.ADMIN_USERS.includes(username)) {
-    if (reqPathName.startsWith("/api")) {
+    if (reqPathName.startsWith("/api/admin")) {
       return NextResponse.json({}, { status: 401 });
     }
     return NextResponse.redirect(new URL("/404", req.url));
