@@ -9,7 +9,7 @@ export async function middleware(req) {
   const reqPathName = req.nextUrl.pathname;
 
   if (!session) {
-    if (reqPathName.startsWith("/api")) {
+    if (reqPathName.startsWith("/api/admin")) {
       return NextResponse.json({}, { status: 401 });
     }
     return NextResponse.redirect(new URL("/auth/signin", req.url));
@@ -22,7 +22,6 @@ export async function middleware(req) {
     }
     return NextResponse.redirect(new URL("/404", req.url));
   }
-  req.cookies.set("usernames", username);
 }
 
 export const config = {
