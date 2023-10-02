@@ -1,0 +1,23 @@
+{
+  "name": "Test User Name 4",
+  "bio": "Test user bio 4",
+
+  "tags": ["test user 4 tag 1", "test user 4 tag 2"],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "FaTwitter"
+    }
+  ]
+}

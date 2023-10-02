@@ -1,0 +1,21 @@
+{
+  "name": "Ravi Raj",
+  "bio": "Seasoned Java Application Architect and Microservice Professional with a decade of experience in system designing, implementing, testing, and delivering complex back-end,microservice, and web applications using a variety of programming languages and technologies. Currently, I am associated with Ericsson as a Solution Architect.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/raviraj_92",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ravi-shankar-raj/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/raviraj-github",
+      "icon": "FaGithub"
+    }
+  ]
+}

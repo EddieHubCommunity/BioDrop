@@ -1,0 +1,26 @@
+{
+  "name": "Arjun Aravind",
+  "bio": "Ethical Hacker, Cybersecurity Enthusiast and new to Full Stack Devolopment",
+  "socials": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/arjun-aravind",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/aravindarjun/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Cyberd0m",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_.a_r_ju_n._/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

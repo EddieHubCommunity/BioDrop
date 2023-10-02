@@ -1,8 +1,6 @@
 {
   "name": "Mirza Baig",
-  "type": "personal",
   "bio": "Open Source **DevRel** enthusiast | **Devops** enthusiast | **Travel** enthusaist",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,8 +10,14 @@
     "DevRel"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AmaanMiirza" },
-    { "icon": "FaGithub", "url": "https://github.com/I-MirzaBaig" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AmaanMiirza"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/I-MirzaBaig"
+    }
   ],
   "links": [
     {

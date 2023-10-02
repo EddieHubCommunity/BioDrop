@@ -1,22 +1,6 @@
 {
   "name": "Oloja Muyiwa",
-  "type": "personal",
-
-  "bio": "Software Developer and Linux Enthusiasts",
-
-  "tags": [
-    "Javascript",
-    "React",
-    "PHP",
-    "Laravel",
-    "Vue",
-    "MySQL",
-    "Linux",
-    "C"
-  ],
-
   "bio": "Software Developer and Linux Enthusiats",
-
   "tags": [
     "Javascript",
     "React",
@@ -28,11 +12,26 @@
     "C"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/iRedeploy__" },
-    { "icon": "FaGithub", "url": "https://github.com/OlojaMuyiwa" },
-    { "icon": "FaLinkedln", "url": "https://t.co/oXKU6HHuuu" },
-    { "icon": "FaFacebook", "url": "https://t.co/FLbTvMuQ5i" },
-    { "icon": "FaInstagram", "url": "https://t.co/FLbTvMuQ5i" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iRedeploy__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/OlojaMuyiwa"
+    },
+    {
+      "icon": "FaLinkedln",
+      "url": "https://t.co/oXKU6HHuuu"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://t.co/FLbTvMuQ5i"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://t.co/FLbTvMuQ5i"
+    }
   ],
   "links": [
     {

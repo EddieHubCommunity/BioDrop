@@ -1,0 +1,11 @@
+{
+  "name": "Niko Ajani",
+  "bio": "Civil Engineer turned Full Stack Developer",
+  "links": [
+    {
+      "name": "Add me on Linkedin",
+      "url": "www.linkedin.com/in/niko-ajani",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

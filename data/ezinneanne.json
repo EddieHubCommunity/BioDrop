@@ -1,8 +1,6 @@
 {
   "name": "Ezinne Anne Emilia",
-  "type": "personal",
   "bio": "Software engineer(Html, Css, Vanilla Javascript, python, Django, Vuejs, Nodejs), writer(technical, fiction), open source contributor",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -36,7 +34,6 @@
     },
     {
       "title": "Started Open Source Contribution",
-
       "date": "April 2022",
       "icon": "FaGithub",
       "color": "green",

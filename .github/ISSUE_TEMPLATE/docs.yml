@@ -1,7 +1,7 @@
 name: 📄 Documentation issue
 description: Found an issue in the documentation? You can use this one!
 title: "[DOCS] <description>"
-labels: ["📄 aspect: text","🚦 status: awaiting triage"]
+labels: ["📄 aspect: text", "🚦 status: awaiting triage"]
 body:
   - type: textarea
     id: description
@@ -15,6 +15,16 @@ body:
     attributes:
       label: Screenshots
       description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: dropdown
+    id: assignee
+    attributes:
+      label: Do you want to work on this issue?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
     validations:
       required: false
   - type: textarea

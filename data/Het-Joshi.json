@@ -1,7 +1,7 @@
 {
   "name": "Het Joshi",
-  "type": "personal",
-  "bio": "**Student | FOSS Evangelist| Developer**.",
+  "bio": "**Student | FOSS Evangelist| Developer | Hacker**.",
+  "tags": ["Student", "Open Source", "GitHub", "Linux", "CyberSecurity"],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -10,7 +10,7 @@
     },
     {
       "name": "My Blog",
-      "url": "https://het-joshi.github.io/blog/",
+      "url": "https://het-joshi.github.io/",
       "icon": "SiBloglovin"
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/hetjoshi/",
+      "url": "https://www.linkedin.com/in/hetjoshi/",
       "icon": "FaLinkedin"
     },
     {

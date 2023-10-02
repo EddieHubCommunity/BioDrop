@@ -1,7 +1,7 @@
+import { serverEnv } from "@config/schemas/serverSchema";
 import connectMongo from "@config/mongo";
-import logger from "@config/logger";
 import Profile from "@models/Profile";
-import findAllBasic from "@services/profiles/findAllBasic";
+import logger from "@config/logger";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -10,22 +10,45 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  await connectMongo();
-
-  let profiles = [];
+  let profile = {};
   try {
-    profiles = await Profile.aggregate([{ $sample: { size: 5 } }]);
-  } catch (e) {
-    logger.error(e, "failed to load profiles");
+    profile = await getRandomProfileApi();
+
+    res.status(200).json(profile);
+  } catch (error) {
+    logger.error(error, "Error fetching user profiles");
+    res.status(500).json({ error: "Failed to fetch user profiles" });
+  }
+}
+
+export async function getRandomProfileApi() {
+  await connectMongo();
+  if (!serverEnv.RANDOM_USERS) {
+    return {};
   }
 
-  if (profiles.length === 0) {
-    return res.status(404).json([]);
+  const usernames = serverEnv.RANDOM_USERS.split(",");
+
+  if (usernames.length === 0) {
+    return {};
   }
 
-  const fullRandomProfiles = await findAllBasic(
-    profiles.map((profile) => profile.username)
-  );
+  try {
+    const profile = await Profile.aggregate([
+      { $match: { username: { $in: usernames } } },
+      { $sample: { size: 1 } },
+      { $project: { username: 1, bio: 1, name: 1 } },
+    ]).exec();
 
-  res.status(200).json(fullRandomProfiles);
+    return JSON.parse(JSON.stringify(profile ? profile[0] : {}));
+  } catch (error) {
+    if (serverEnv.NODE_ENV === "development") {
+      logger.warn(
+        "Users not loaded. Please visit /api/system/reload?secret=development",
+      );
+      return {};
+    }
+    logger.error(error, "Error fetching user profiles");
+    return { error: "Failed to fetch user profiles" };
+  }
 }

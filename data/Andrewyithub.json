@@ -1,0 +1,26 @@
+{
+  "name": "Andrew Y",
+  "bio": "Full Stack and Open Source. Travel & Fitness enthusiast. ✌️",
+  "links": [
+    {
+      "name": "Find me on Github",
+      "url": "https://github.com/Andrewyithub",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/a_ydev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on Linkedin",
+      "url": "https://www.linkedin.com/in/andrewydev/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://andrewy.me",
+      "icon": "FaNewspaper"
+    }
+  ]
+}

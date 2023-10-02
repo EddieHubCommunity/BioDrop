@@ -1,6 +1,5 @@
 {
   "name": "Aravind Raveendran",
-  "type": "personal",
   "bio": "Test Automation Engineer |DevOps Enthusiast|Stock market enthusiast|Swing Trader|Learning Derviative Trading",
   "tags": [
     "Open Source",
@@ -11,10 +10,15 @@
     "Docker",
     "QA Automation"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AravindRaveend6" },
-    { "icon": "FaGithub", "url": "https://github.com/aravindraveendran7" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AravindRaveend6"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/aravindraveendran7"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/aravind-raveendran700"

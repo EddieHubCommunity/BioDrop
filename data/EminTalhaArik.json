@@ -1,13 +1,20 @@
 {
   "name": "Emin Arık",
-  "type": "personal",
   "bio": "Business Analyst | Software Developer | **Full Time Learner**",
-
   "tags": ["Entrepreneurship", "Analysis", "Python", "Django"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/talheminn" },
-    { "icon": "FaGithub", "url": "https://github.com/EminTalhaArik" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/emin-talha-arik/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/talheminn"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/EminTalhaArik"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/emin-talha-arik/"
+    }
   ],
   "links": [
     {

@@ -1,0 +1,69 @@
+{
+  "name": "Om Prashant Londhe",
+  "bio": "Full stack developer | Frontend developer | Backend developer",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "Typescript",
+    "NextJS",
+    "React",
+    "ReactJS",
+    "Python"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/omlondhe3"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/omlondhe"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/omlondhe"
+    }
+  ],
+  "testimonials": [],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "https://omlondhe.vercel.app",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/omlondhe03",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about Open Source",
+      "url": "https://youtube.com/omlondhe",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/omlondhe",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/omlondhe",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "YouTube Shorts: My brother Luffy",
+      "url": "https://youtube.com/luffylondhe",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": []
+}

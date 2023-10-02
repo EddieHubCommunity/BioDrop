@@ -1,0 +1,26 @@
+{
+  "name": "Ananya Nagar",
+  "bio": "Backend Developer | Open Source Enthusiast | Uplifting the Community",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Nagar_Ananya",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/AnanyaNagar",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ananya-nagar-986070190/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Read my blogs!",
+      "url": "https://medium.com/@ananyanagar32",
+      "icon": "SiMedium"
+    }
+  ]
+}

@@ -1,16 +1,16 @@
 name: Format
 on:
   workflow_dispatch:
-  #Run every day at midnight UTC
+  #Runs at 01:01 UTC
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "1 1 * * *"
 
 concurrency:
   group: "main-branch"
 
 jobs:
   format:
-    if: github.repository == 'EddieHubCommunity/LinkFree'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
     name: Format Files
     steps:
@@ -24,7 +24,7 @@ jobs:
       - run: npm ci
 
       - name: Prettier
-        run: npx prettier --write data/*.json
+        run: npx prettier --write data/**/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

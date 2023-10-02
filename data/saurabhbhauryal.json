@@ -1,8 +1,6 @@
 {
   "name": "Saurabh Bhauryal",
-  "type": "personal",
   "bio": "Learning Frontend Development ",
-
   "socials": [
     {
       "icon": "FaTwitter",
@@ -13,7 +11,6 @@
       "url": "https://github.com/saurabhbhauryal"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -25,7 +22,6 @@
       "url": "https://twitter.com/sauravcodes",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/saurabhbhauryal",

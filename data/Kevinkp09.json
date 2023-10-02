@@ -1,6 +1,5 @@
 {
   "name": "Kevin Patel",
-  "type": "personal",
   "bio": "Open source enthusiast & Web Developer",
   "tags": [
     "Open Source",
@@ -10,7 +9,6 @@
     "NodeJS",
     "DevOps"
   ],
-
   "links": [
     {
       "name": "Lets connect on Twitter",

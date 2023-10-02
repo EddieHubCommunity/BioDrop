@@ -1,0 +1,37 @@
+{
+  "name": "Mohd Wamid",
+  "bio": "Aspiring Full Stack Developer.",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Mohd-Wamid",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/mohdwamid",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohd-wamid-ba6a2a251",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100004495575740",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "My leetcode Account",
+      "url": "http://leetcode.com/Mohd_Wamid",
+      "icon": "SiLeetcode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "I Starting learning React",
+      "date": "July 2023"
+    }
+  ]
+}

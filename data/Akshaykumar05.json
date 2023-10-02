@@ -1,12 +1,16 @@
 {
   "name": "Akshay Kumar",
-  "type": "personal",
   "bio": "Aspiring DevOps Engineer|| Founder **GrowInCommunity**|| Open Source enthusiast || Cloud Computing || Tech Blogger",
-
   "tags": ["Open Source", "Cloud computing", "Devrel", "DevOps"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/akshayktwt" },
-    { "icon": "FaGithub", "url": "https://github.com/akshaykumar05" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/akshayktwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/akshaykumar05"
+    }
   ],
   "links": [
     {
@@ -24,7 +28,6 @@
       "url": "https://twitter.com/GrowInComm",
       "icon": "FaLink"
     },
-
     {
       "name": "Follow me on LinkedIn",
       "url": "https://linkedin.com/in/akshayktwt/",

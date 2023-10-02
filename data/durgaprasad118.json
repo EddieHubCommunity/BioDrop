@@ -1,11 +1,19 @@
 {
   "name": "Achana Naga Durga Prasad",
-  "type": "personal",
   "bio": "**Frontend Developer**",
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/durga_prasad08" },
-    { "icon": "FaGithub", "url": "https://github.com/durgaprasad118" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/dp1108/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/durga_prasad08"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/durgaprasad118"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/dp1108/"
+    }
   ],
   "tags": [
     "React Js",

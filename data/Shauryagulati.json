@@ -1,10 +1,7 @@
 {
   "name": "Shaurya Gulati",
-  "type": "public",
   "bio": "Open Source Enthusiast | Content Creator | DSA | Web Development | Machine Learning | Data Science ",
-
   "tags": ["Open Source", "Web Development", "DSA", "Data Science"],
-
   "socials": [
     {
       "icon": "FaGithub",
@@ -19,7 +16,6 @@
       "url": "https://twitter.com/i_shauryagulati"
     }
   ],
-
   "links": [
     {
       "name": "GitHub - Follow me on GitHub",

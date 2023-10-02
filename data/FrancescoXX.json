@@ -1,18 +1,16 @@
 {
   "name": "Francesco Ciulla",
-  "type": "personal",
   "bio": "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
-
   "links": [
-    {
-      "name": "Newsletter",
-      "url": "https://substack.com/profile/11407185-francesco-ciulla",
-      "icon": "SiMaildotru"
-    },
     {
       "name": "YouTube",
       "url": "https://www.youtube.com/c/FrancescoCiulla",
       "icon": "SiYoutube"
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/francescoxx",
+      "icon": "FaDev"
     },
     {
       "name": "Discord Community",
@@ -23,6 +21,11 @@
       "name": "Twitter",
       "url": "https://twitter.com/FrancescoCiull4",
       "icon": "SiTwitter"
+    },
+    {
+      "name": "Newsletter",
+      "url": "https://substack.com/profile/11407185-francesco-ciulla",
+      "icon": "SiMaildotru"
     },
     {
       "name": "GitHub Profile",
@@ -55,11 +58,6 @@
       "icon": "SiGumtree"
     },
     {
-      "name": "Dev.to",
-      "url": "https://dev.to/francescoxx",
-      "icon": "FaDev"
-    },
-    {
       "name": "GitHub Sponsor",
       "url": "https://github.com/sponsors/FrancescoXX",
       "icon": "FaHeart"
@@ -68,6 +66,11 @@
   "tags": [
     "Open Source",
     "Javascript",
+    "Typescript",
+    "React",
+    "ReactJS",
+    "Java",
+    "Python",
     "NextJS",
     "DevOps",
     "Node.js",
@@ -88,10 +91,18 @@
     "MsAkiNom"
   ],
   "socials": [
-    { "icon": "SiYoutube", "url": "https://www.youtube.com/@francescociulla" },
-    { "icon": "SiDiscord", "url": "https://discord.com/invite/ns5x8bTz25" },
-    { "icon": "SiTwitter", "url": "https://twitter.com/FrancescoCiull4" },
-    { "icon": "SiGithub", "url": "https://github.com/FrancescoXX" }
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@francescociulla"
+    },
+    {
+      "icon": "SiDiscord",
+      "url": "https://discord.com/invite/ns5x8bTz25"
+    },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/FrancescoCiull4"
+    }
   ],
   "milestones": [
     {

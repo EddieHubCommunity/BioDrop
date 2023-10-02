@@ -1,0 +1,21 @@
+{
+  "name": "Parth Malaviya",
+  "bio": "An Information Technology Nerd🤓. Tea and Chess anytimme.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/malaviya_parth",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/parth-malaviya-9ba2621b4/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on Github",
+      "url": "https://github.com/malaviya-parth",
+      "icon": "FaGithub"
+    }
+  ]
+}

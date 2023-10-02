@@ -1,8 +1,6 @@
 {
   "name": "Simran Sharma",
-  "type": "personal",
   "bio": "Web Developer | Graphic Designer | ML Enthusiast | Open Source Contributor",
-
   "tags": ["mongodb", "expressjs", "reactjs", "nodejs", "Python"],
   "links": [
     {

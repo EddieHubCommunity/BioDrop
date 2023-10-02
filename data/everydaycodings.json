@@ -1,8 +1,6 @@
 {
   "name": "Kumar Saksham(Everydaycodings)",
-  "type": "personal",
   "bio": "Freelance Python Developer | **Aspiring Machine Learning Engineer**| Medium Writer",
-
   "tags": [
     "Python Developer",
     "Machine Learning Engineer",
@@ -14,7 +12,10 @@
       "icon": "FaLinkdin",
       "url": "https://www.linkedin.com/in/kumar-saksham1891"
     },
-    { "icon": "FaGithub", "url": "https://github.com/everydaycodings" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/everydaycodings"
+    }
   ],
   "links": [
     {

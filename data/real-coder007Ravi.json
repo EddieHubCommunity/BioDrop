@@ -1,0 +1,36 @@
+{
+  "name": "Ravi Kumar Gupta",
+  "bio": "A Technology Enthusiast who loves Problem Solving and Web development in general.",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ravi-kumar-gupta-0887991b1/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ravi246383gupta",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/real-coder007Ravi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LeetCode",
+      "url": "https://leetcode.com/ravi246383gupta/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Follow me on Codestudio",
+      "url": "https://www.codingninjas.com/codestudio/profile/Ravi_102a",
+      "icon": "SiCodingninjas"
+    },
+    {
+      "name": "Follow me on HackerRank",
+      "url": "https://www.hackerrank.com/ravi246383gupta?hr_r=1",
+      "icon": "FaHackerrank"
+    }
+  ]
+}
