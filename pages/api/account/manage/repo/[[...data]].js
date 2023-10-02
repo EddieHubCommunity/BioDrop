@@ -159,11 +159,18 @@ export async function addRepoApi(context, username, addRepo) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Repo",
-    changesBefore: null,
-    changesAfter: await getRepoApi(username, id)
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Repo",
+      changesBefore: null,
+      changesAfter: await getRepoApi(username, id),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Repo changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getRepo));
 }
@@ -198,11 +205,18 @@ export async function deleteRepoApi(context, username, id) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Repo",
-    changesBefore: beforeDelete,
-    changesAfter: null
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Repo",
+      changesBefore: beforeDelete,
+      changesAfter: null,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Repo changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify({}));
 }
@@ -210,7 +224,7 @@ export async function deleteRepoApi(context, username, id) {
 export async function updateRepoApi(context, username, id, githubData) {
   await connectMongo();
   const log = logger.child({ username });
-  
+
   const beforeUpdate = await getRepoApi(username, id);
 
   let getRepo = {};
@@ -256,11 +270,18 @@ export async function updateRepoApi(context, username, id, githubData) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Repo",
-    changesBefore: beforeUpdate,
-    changesAfter: await getRepoApi(username, id)
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Repo",
+      changesBefore: beforeUpdate,
+      changesAfter: await getRepoApi(username, id),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Repo changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getRepo));
 }

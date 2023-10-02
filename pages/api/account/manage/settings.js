@@ -78,11 +78,18 @@ export async function updateSettingsApi(context, username, data) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Profile",
-    changesBefore: beforeUpdate, 
-    changesAfter:  await getSettingsApi(username)
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Profile",
+      changesBefore: beforeUpdate,
+      changesAfter: await getSettingsApi(username),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Settings changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getProfile.settings));
 }

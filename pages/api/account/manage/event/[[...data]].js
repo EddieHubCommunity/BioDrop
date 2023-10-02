@@ -119,13 +119,20 @@ export async function updateEventApi(context, username, id, updateEvent) {
     log.error(e, error);
     return { error };
   }
-  
+
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Event", 
-    changesBefore: beforeUpdate, 
-    changesAfter: await getEventApi(username, id)
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Event",
+      changesBefore: beforeUpdate,
+      changesAfter: await getEventApi(username, id),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Event changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getEvent));
 }
@@ -160,11 +167,18 @@ export async function deleteEventApi(context, username, id) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Event", 
-    changesBefore: beforeDelete, 
-    changesAfter: null
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Event",
+      changesBefore: beforeDelete,
+      changesAfter: null,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Event changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify({}));
 }
@@ -208,11 +222,18 @@ export async function addEventApi(context, username, addEvent) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Event", 
-    changesBefore: null, 
-    changesAfter: getEvent
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Event",
+      changesBefore: null,
+      changesAfter: getEvent,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Event changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getEvent));
 }
