@@ -31,7 +31,12 @@ export default async function handler(req, res) {
     profile = await getProfileApi(username);
   }
   if (req.method === "PUT") {
-    profile = await updateProfileApi(context, username, req.body, session.user.id);
+    profile = await updateProfileApi(
+      context,
+      username,
+      req.body,
+      session.user.id,
+    );
   }
 
   if (profile.error) {
@@ -54,7 +59,12 @@ export async function getProfileApi(username) {
   return JSON.parse(JSON.stringify(getProfile));
 }
 
-export async function updateProfileApi(context, username, data, providerAccountId) {
+export async function updateProfileApi(
+  context,
+  username,
+  data,
+  providerAccountId,
+) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -115,11 +125,18 @@ export async function updateProfileApi(context, username, data, providerAccountI
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Profile",
-    changesBefore: beforeUpdate,
-    changesAfter: await getProfileApi(username)
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Profile",
+      changesBefore: beforeUpdate,
+      changesAfter: await getProfileApi(username),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Profile changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getProfile));
 }

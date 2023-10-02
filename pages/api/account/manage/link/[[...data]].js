@@ -114,11 +114,18 @@ export async function addLinkApi(context, username, data) {
   getLink = await getLinkApi(username, getLink[0]._id);
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Link", 
-    changesBefore: null, 
-    changesAfter: getLink
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Link",
+      changesBefore: null,
+      changesAfter: getLink,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Link changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getLink));
 }
@@ -178,11 +185,18 @@ export async function updateLinkApi(context, username, id, data) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Link",
-    changesBefore: beforeUpdate,
-    changesAfter: await getLinkApi(username, id)
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Link",
+      changesBefore: beforeUpdate,
+      changesAfter: await getLinkApi(username, id),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Link changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getLink));
 }
@@ -237,11 +251,18 @@ export async function deleteLinkApi(context, username, id) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Link",
-    changesBefore: getLink,
-    changesAfter: null
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Link",
+      changesBefore: getLink,
+      changesAfter: null,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Link changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify({}));
 }

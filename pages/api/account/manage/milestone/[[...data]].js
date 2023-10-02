@@ -34,7 +34,12 @@ export default async function handler(req, res) {
   }
   if (req.method === "PUT") {
     if (data?.length && data[0]) {
-      milestone = await updateMilestoneApi(context, username, data[0], req.body);
+      milestone = await updateMilestoneApi(
+        context,
+        username,
+        data[0],
+        req.body,
+      );
     } else {
       milestone = await addMilestoneApi(context, username, req.body);
     }
@@ -78,7 +83,12 @@ export async function getMilestoneApi(username, id) {
   return JSON.parse(JSON.stringify(getMilestone[0]));
 }
 
-export async function updateMilestoneApi(context, username, id, updateMilestone) {
+export async function updateMilestoneApi(
+  context,
+  username,
+  id,
+  updateMilestone,
+) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -124,11 +134,18 @@ export async function updateMilestoneApi(context, username, id, updateMilestone)
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Milestone",
-    changesBefore: beforeUpdate,
-    changesAfter: await getMilestoneApi(username, id)
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Milestone",
+      changesBefore: beforeUpdate,
+      changesAfter: await getMilestoneApi(username, id),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Milestone changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getMilestone));
 }
@@ -163,11 +180,18 @@ export async function deleteMilestoneApi(context, username, id) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Milestone",
-    changesBefore: beforeDelete,
-    changesAfter: null
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Milestone",
+      changesBefore: beforeDelete,
+      changesAfter: null,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Milestone changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify({}));
 }
@@ -216,11 +240,18 @@ export async function addMilestoneApi(context, username, addMilestone) {
   }
 
   // Add to Changelog
-  logChange(await getServerSession(context.req, context.res, authOptions), {
-    model: "Milestone",
-    changesBefore: null,
-    changesAfter: getMilestone
-  });
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Milestone",
+      changesBefore: null,
+      changesAfter: getMilestone,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Milestone changes in changelog for username: ${username}`,
+    );
+  }
 
   return JSON.parse(JSON.stringify(getMilestone));
 }
