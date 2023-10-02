@@ -1,4 +1,4 @@
-# [2.46.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.46.0) (2023-10-02)
+# [2.47.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.47.0) (2023-10-02)
 
 
 ### Bug Fixes
@@ -18,6 +18,7 @@
 * repo usernames ([#9214](https://github.com/EddieHubCommunity/BioDrop/issues/9214)) ([264e957](https://github.com/EddieHubCommunity/BioDrop/commit/264e957508b273b36eb6bce6dd99965480a6f4f2))
 * space between buttons and event card on mobile ([#9119](https://github.com/EddieHubCommunity/BioDrop/issues/9119)) ([#9158](https://github.com/EddieHubCommunity/BioDrop/issues/9158)) ([e315a84](https://github.com/EddieHubCommunity/BioDrop/commit/e315a84b617ca7bc3235d73958943666ae2c4fbb))
 * squash merge release details ([#9193](https://github.com/EddieHubCommunity/BioDrop/issues/9193)) ([9169cf9](https://github.com/EddieHubCommunity/BioDrop/commit/9169cf97e40c8d477175091c10c8adf6985562de))
+* stripe integration landing page ([#9265](https://github.com/EddieHubCommunity/BioDrop/issues/9265)) ([ba3f91c](https://github.com/EddieHubCommunity/BioDrop/commit/ba3f91c3915d8297dcaae754d2f698846777bdfa))
 * test to check repo tab ([#9217](https://github.com/EddieHubCommunity/BioDrop/issues/9217)) ([852ce32](https://github.com/EddieHubCommunity/BioDrop/commit/852ce329161ae15408400d9c0330621bdb8cf6ad))
 
 
