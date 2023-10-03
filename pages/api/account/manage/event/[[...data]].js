@@ -182,8 +182,6 @@ export async function addEventApi(username, addEvent) {
       { upsert: true },
     );
     getEvent = await getEventApi(username, id);
-    console.log({...addEvent})
-    console.log('api get event', getEvent)
   } catch (e) {
     const error = `failed to update event for username: ${username}`;
     log.error(e, error);

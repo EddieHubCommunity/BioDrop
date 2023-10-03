@@ -43,7 +43,6 @@ export default function ManageEvents({ events }) {
   const router = useRouter();
   const { alert } = router.query;
 
-  console.log('event on display', events)
   const alerts = {
     deleted: {
       type: "success",

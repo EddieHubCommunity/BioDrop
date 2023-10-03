@@ -38,8 +38,6 @@ export default function EventCard({ manage, event, usernames }) {
     }
   }, [event.date]);
 
-  console.log(event)
-
   const item = (event) => (
     <div
       className="py-4 border-l-[3px] border-t border-secondary-medium dark:border-primary-low mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out grow"
@@ -109,19 +107,6 @@ export default function EventCard({ manage, event, usernames }) {
                   </span>
                 </div>
               </div>
-
-              {
-                event.tags?.length > 0 && event.tags.map((tag, index) => {
-                  const trimmedTag = tag.trim()
-                  if(!trimmedTag){
-                    return null
-                  }
-
-                  return (
-                    <Tag name={trimmedTag} key={index}/>
-                  )
-                })
-              }
             </div>
             <div className="isolate flex space-x-1 ">
               {usernames &&
@@ -153,6 +138,15 @@ export default function EventCard({ manage, event, usernames }) {
           )}
         </div>
       </div>
+      {event.tags?.length > 0 &&
+        event.tags.map((tag, index) => {
+          const trimmedTag = tag.trim();
+          if (!trimmedTag) {
+            return null;
+          }
+
+          return <Tag name={trimmedTag} key={index} />;
+        })}
     </div>
   );
 
