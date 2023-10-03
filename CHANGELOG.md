@@ -1,4 +1,4 @@
-# [2.41.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.41.0) (2023-10-01)
+# [2.48.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.48.0) (2023-10-02)
 
 
 ### Bug Fixes
@@ -12,17 +12,24 @@
 * max func duration move to file ([#9226](https://github.com/EddieHubCommunity/BioDrop/issues/9226)) ([530aeba](https://github.com/EddieHubCommunity/BioDrop/commit/530aeba72ee442d5acb667176f31304fc6cd316d))
 * min date for milestone  ([#9060](https://github.com/EddieHubCommunity/BioDrop/issues/9060)) ([f7e5c65](https://github.com/EddieHubCommunity/BioDrop/commit/f7e5c65f934f7a93870cf8d0412688ddc2c85402))
 * prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
+* remove app alert for new icons ([#9253](https://github.com/EddieHubCommunity/BioDrop/issues/9253)) ([82e17bb](https://github.com/EddieHubCommunity/BioDrop/commit/82e17bb4d049d1fa42a655814621b88a740ff969))
 * removed optional zod schema from name & bio ([#9205](https://github.com/EddieHubCommunity/BioDrop/issues/9205)) ([ed71dc2](https://github.com/EddieHubCommunity/BioDrop/commit/ed71dc2feeb0e04e51739cfe908e75cb47c003e9))
 * repo dedup ([#9212](https://github.com/EddieHubCommunity/BioDrop/issues/9212)) ([647d861](https://github.com/EddieHubCommunity/BioDrop/commit/647d86100ea71577d35678921f75a376c58ff80f))
 * repo usernames ([#9214](https://github.com/EddieHubCommunity/BioDrop/issues/9214)) ([264e957](https://github.com/EddieHubCommunity/BioDrop/commit/264e957508b273b36eb6bce6dd99965480a6f4f2))
+* space between buttons and event card on mobile ([#9119](https://github.com/EddieHubCommunity/BioDrop/issues/9119)) ([#9158](https://github.com/EddieHubCommunity/BioDrop/issues/9158)) ([e315a84](https://github.com/EddieHubCommunity/BioDrop/commit/e315a84b617ca7bc3235d73958943666ae2c4fbb))
 * squash merge release details ([#9193](https://github.com/EddieHubCommunity/BioDrop/issues/9193)) ([9169cf9](https://github.com/EddieHubCommunity/BioDrop/commit/9169cf97e40c8d477175091c10c8adf6985562de))
+* stripe integration landing page ([#9265](https://github.com/EddieHubCommunity/BioDrop/issues/9265)) ([ba3f91c](https://github.com/EddieHubCommunity/BioDrop/commit/ba3f91c3915d8297dcaae754d2f698846777bdfa))
 * test to check repo tab ([#9217](https://github.com/EddieHubCommunity/BioDrop/issues/9217)) ([852ce32](https://github.com/EddieHubCommunity/BioDrop/commit/852ce329161ae15408400d9c0330621bdb8cf6ad))
 
 
 ### Features
 
+* admin stats for changelog ([#9267](https://github.com/EddieHubCommunity/BioDrop/issues/9267)) ([2661446](https://github.com/EddieHubCommunity/BioDrop/commit/266144605759eff1d9f1344d658cde11c6a4944b))
+* admin view changelog ([#9263](https://github.com/EddieHubCommunity/BioDrop/issues/9263)) ([2023e99](https://github.com/EddieHubCommunity/BioDrop/commit/2023e99667991933b2b69dea3d71d57321f232da))
+* alert to star out github repo ([#9259](https://github.com/EddieHubCommunity/BioDrop/issues/9259)) ([4d39f59](https://github.com/EddieHubCommunity/BioDrop/commit/4d39f590e4b390ca856c9fb77355a39f6b393233))
 * dedup repos page ([#9210](https://github.com/EddieHubCommunity/BioDrop/issues/9210)) ([50f63cf](https://github.com/EddieHubCommunity/BioDrop/commit/50f63cf51ef49fc501c69e5e420f35c6ba751d35))
 * increase execution time for loading json files ([#9142](https://github.com/EddieHubCommunity/BioDrop/issues/9142)) ([b4d8c4b](https://github.com/EddieHubCommunity/BioDrop/commit/b4d8c4b1a97dbaad206ca0b62c286aa4186cf795))
+* log profile updates from manage forms ([#8605](https://github.com/EddieHubCommunity/BioDrop/issues/8605)) ([4b46169](https://github.com/EddieHubCommunity/BioDrop/commit/4b4616955fff1ae226b4526320c8f680a1d47a5c))
 * onboarding landing page ([#9162](https://github.com/EddieHubCommunity/BioDrop/issues/9162)) ([d5330f2](https://github.com/EddieHubCommunity/BioDrop/commit/d5330f20bb8fc0e035793f6e18a98e3db1588522))
 
 
