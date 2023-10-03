@@ -1,4 +1,4 @@
-import { authOptions } from "../auth/[...nextauth]";
+import { authOptions } from "../../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
@@ -19,12 +19,12 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const data = await getStats(session.username);
+  const data = await getStatsForLink(session.username);
 
   res.status(200).json(data);
 }
 
-export async function getStats(username, numberOfDays = 30) {
+export async function getStatsForLink(username, numberOfDays = 30) {
   await connectMongo();
 
   // This calculates the start date by subtracting the specified number of days from the current date.

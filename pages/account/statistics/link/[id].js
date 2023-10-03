@@ -1,20 +1,20 @@
-import { authOptions } from "../../api/auth/[...nextauth]";
+import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
 
-import { getUserApi } from "../../api/profiles/[username]";
+import { getUserApi } from "../../../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
-import { getStats } from "../../api/account/statistics";
 import logger from "@config/logger";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Navigation from "@components/account/manage/Navigation";
 import { PROJECT_NAME } from "@constants/index";
+import { getStatsForLink } from "pages/api/account/statistics/link/[id]";
 
 const DynamicChart = dynamic(
-  () => import("../../../components/statistics/StatsChart"),
+  () => import("../../../../components/statistics/StatsChart"),
   { ssr: false },
 );
 
@@ -26,6 +26,15 @@ export async function getServerSideProps(context) {
     return {
       redirect: {
         destination: "/auth/signin",
+        permanent: false,
+      },
+    };
+  }
+
+  if (session.accountType !== "premium") {
+    return {
+      redirect: {
+        destination: "/account/onboarding",
         permanent: false,
       },
     };
@@ -50,7 +59,7 @@ export async function getServerSideProps(context) {
   let data = {};
 
   try {
-    data = await getStats(username);
+    data = await getStatsForLink(username);
   } catch (e) {
     logger.error(e, "ERROR get user's account statistics");
   }
