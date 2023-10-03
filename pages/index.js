@@ -17,7 +17,7 @@ import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
 import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
-import { BASE_GITHUB_PROJECT_URL, BASE_WEBSITE_URL, PROJECT_NAME } from "@constants/index";
+import {  BASE_WEBSITE_URL, PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
 import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
 
