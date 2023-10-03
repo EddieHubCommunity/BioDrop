@@ -7,7 +7,6 @@ import logger from "@config/logger";
 import { Profile, Stats, ProfileStats, User } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
-// import { checkGitHubRepo } from "@services/github/getRepo";
 import dateFormat from "@services/utils/dateFormat";
 
 export default async function handler(req, res) {
@@ -55,9 +54,6 @@ export async function getUserApi(req, res, username, options = {}) {
   let checks = [];
 
   checks.push(getLocation(username, getProfile));
-  if (getProfile.repos?.length > 0) {
-    // checks.push(checkGitHubRepo(username, getProfile.repos));
-  }
   await Promise.allSettled(checks);
 
   const log = logger.child({ username });
