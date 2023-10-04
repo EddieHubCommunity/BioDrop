@@ -90,7 +90,7 @@ export default function DocsIndex() {
       },
       icon: ArrowUpRightIcon,
       comment:
-        "It doesn't stop there! You can review other people's changes and become a maintainer.",
+        "It doesn't stop there! You can become a maintainer. Have a close friend that's been raving to you about a project they are building? Consider asking them if you can help them maintain it. Present ways you can help maintain the project and when your available to do other duties.  If you want to build your own open source project, consider asking yourself the three W's: What am I building? Who is my audience? Why am I building this project?",
     },
     // {
     //   id: 2,
