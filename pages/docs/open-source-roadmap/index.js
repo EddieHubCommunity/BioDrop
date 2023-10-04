@@ -16,6 +16,9 @@ import {
 import Page from "@components/Page";
 import Link from "@components/Link";
 import { classNames } from "@services/utils/classNames";
+import SideNav from "@components/navbar/SideNav";
+import { navigation } from "@components/layouts/DocsLayout";
+import BreadCrumb from "@components/BreadCrumb";
 
 export default function DocsIndex() {
   const roadmap = [
@@ -131,132 +134,138 @@ export default function DocsIndex() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Open Source Roadmap</h1>
+        <BreadCrumb section="Extra" name="Open Source Roadmap" />
+        <div className="flex flex-grow flex-col sm:flex-row">
+          <SideNav navigation={navigation} />
+          <div className="mt-12 ml-8">
+            <h1 className="text-4xl mb-6 font-bold">Open Source Roadmap</h1>
 
-        <div className="flow-root">
-          <ul role="list" className="-mb-8">
-            {roadmap.map((roadmapItem, roadmapItemIdx) => (
-              <li key={roadmapItemIdx}>
-                <div className="relative pb-8">
-                  {roadmapItemIdx !== roadmap.length - 1 ? (
-                    <span
-                      className="absolute left-5 top-5 -ml-px h-full w-0.5 bg-white dark:bg-dark-2"
-                      aria-hidden="true"
-                    />
-                  ) : null}
-                  <div className="relative flex items-start space-x-3">
-                    {roadmapItem.type === "comment" ? (
-                      <>
-                        <div>
-                          <div className="relative px-1">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white">
-                              <roadmapItem.icon
-                                className="h-5 w-5 text-tertiary-medium"
-                                aria-hidden="true"
-                              />
+            <div className="flow-root">
+              <ul role="list" className="-mb-8">
+                {roadmap.map((roadmapItem, roadmapItemIdx) => (
+                  <li key={roadmapItemIdx}>
+                    <div className="relative pb-8">
+                      {roadmapItemIdx !== roadmap.length - 1 ? (
+                        <span
+                          className="absolute left-5 top-5 -ml-px h-full w-0.5 bg-white dark:bg-dark-2"
+                          aria-hidden="true"
+                        />
+                      ) : null}
+                      <div className="relative flex items-start space-x-3">
+                        {roadmapItem.type === "comment" ? (
+                          <>
+                            <div>
+                              <div className="relative px-1">
+                                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white">
+                                  <roadmapItem.icon
+                                    className="h-5 w-5 text-tertiary-medium"
+                                    aria-hidden="true"
+                                  />
+                                </div>
+                              </div>
                             </div>
-                          </div>
-                        </div>
-                        <div className="min-w-0 flex-1">
-                          <div>
-                            <div className="text-sm">
-                              <a
-                                href={roadmapItem.action.href}
-                                className="font-medium text-primary-high dark:text-primary-low"
-                              >
-                                {roadmapItem.action.name}
-                              </a>
-                            </div>
-                            <p className="mt-0.5 text-sm text-primary-high dark:text-primary-low">
-                              Step {roadmapItemIdx + 1}
-                            </p>
-                          </div>
-                          <div className="mt-2 text-sm text-primary-high dark:text-primary-low">
-                            <p>{roadmapItem.comment}</p>
-                          </div>
-                        </div>
-                      </>
-                    ) : roadmapItem.type === "assignment" ? (
-                      <>
-                        <div>
-                          <div className="relative px-1">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white">
-                              <UserCircleIcon
-                                className="h-5 w-5 text-gray-500"
-                                aria-hidden="true"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="min-w-0 flex-1 py-1.5">
-                          <div className="text-sm text-primary-high dark:text-primary-low">
-                            <Link href={roadmapItem.action.href}>
-                              {roadmapItem.action.name}
-                            </Link>{" "}
-                            assigned{" "}
-                            <Link href={roadmapItem.assigned.href}>
-                              {roadmapItem.assigned.name}
-                            </Link>{" "}
-                            <span className="whitespace-nowrap">
-                              Step {roadmapItemIdx + 1}
-                            </span>
-                          </div>
-                        </div>
-                      </>
-                    ) : roadmapItem.type === "tags" ? (
-                      <>
-                        <div>
-                          <div className="relative px-1">
-                            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white">
-                              <TagIcon
-                                className="h-5 w-5 text-gray-500"
-                                aria-hidden="true"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                        <div className="min-w-0 flex-1 py-0">
-                          <div className="text-sm leading-8 text-gray-500">
-                            <span className="mr-0.5">
-                              <Link href={roadmapItem.action.href}>
-                                {roadmapItem.action.name}
-                              </Link>{" "}
-                              added tags
-                            </span>{" "}
-                            <span className="mr-0.5">
-                              {roadmapItem.tags.map((tag) => (
-                                <Fragment key={tag.name}>
-                                  <Link
-                                    href={tag.href}
-                                    className="inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-medium text-primary-high dark:text-primary-low ring-1 ring-inset ring-gray-200"
+                            <div className="min-w-0 flex-1">
+                              <div>
+                                <div className="text-sm">
+                                  <a
+                                    href={roadmapItem.action.href}
+                                    className="font-medium text-primary-high dark:text-primary-low"
                                   >
-                                    <svg
-                                      className={classNames(
-                                        tag.color,
-                                        "h-1.5 w-1.5",
-                                      )}
-                                      viewBox="0 0 6 6"
-                                      aria-hidden="true"
-                                    >
-                                      <circle cx={3} cy={3} r={3} />
-                                    </svg>
-                                    {tag.name}
+                                    {roadmapItem.action.name}
+                                  </a>
+                                </div>
+                                <p className="mt-0.5 text-sm text-primary-high dark:text-primary-low">
+                                  Step {roadmapItemIdx + 1}
+                                </p>
+                              </div>
+                              <div className="mt-2 text-sm text-primary-high dark:text-primary-low">
+                                <p>{roadmapItem.comment}</p>
+                              </div>
+                            </div>
+                          </>
+                        ) : roadmapItem.type === "assignment" ? (
+                          <>
+                            <div>
+                              <div className="relative px-1">
+                                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white">
+                                  <UserCircleIcon
+                                    className="h-5 w-5 text-gray-500"
+                                    aria-hidden="true"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="min-w-0 flex-1 py-1.5">
+                              <div className="text-sm text-primary-high dark:text-primary-low">
+                                <Link href={roadmapItem.action.href}>
+                                  {roadmapItem.action.name}
+                                </Link>{" "}
+                                assigned{" "}
+                                <Link href={roadmapItem.assigned.href}>
+                                  {roadmapItem.assigned.name}
+                                </Link>{" "}
+                                <span className="whitespace-nowrap">
+                                  Step {roadmapItemIdx + 1}
+                                </span>
+                              </div>
+                            </div>
+                          </>
+                        ) : roadmapItem.type === "tags" ? (
+                          <>
+                            <div>
+                              <div className="relative px-1">
+                                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-gray-100 ring-8 ring-white">
+                                  <TagIcon
+                                    className="h-5 w-5 text-gray-500"
+                                    aria-hidden="true"
+                                  />
+                                </div>
+                              </div>
+                            </div>
+                            <div className="min-w-0 flex-1 py-0">
+                              <div className="text-sm leading-8 text-gray-500">
+                                <span className="mr-0.5">
+                                  <Link href={roadmapItem.action.href}>
+                                    {roadmapItem.action.name}
                                   </Link>{" "}
-                                </Fragment>
-                              ))}
-                            </span>
-                            <span className="whitespace-nowrap">
-                              Step {roadmapItemIdx + 1}
-                            </span>
-                          </div>
-                        </div>
-                      </>
-                    ) : null}
-                  </div>
-                </div>
-              </li>
-            ))}
-          </ul>
+                                  added tags
+                                </span>{" "}
+                                <span className="mr-0.5">
+                                  {roadmapItem.tags.map((tag) => (
+                                    <Fragment key={tag.name}>
+                                      <Link
+                                        href={tag.href}
+                                        className="inline-flex items-center gap-x-1.5 rounded-full px-2 py-1 text-xs font-medium text-primary-high dark:text-primary-low ring-1 ring-inset ring-gray-200"
+                                      >
+                                        <svg
+                                          className={classNames(
+                                            tag.color,
+                                            "h-1.5 w-1.5",
+                                          )}
+                                          viewBox="0 0 6 6"
+                                          aria-hidden="true"
+                                        >
+                                          <circle cx={3} cy={3} r={3} />
+                                        </svg>
+                                        {tag.name}
+                                      </Link>{" "}
+                                    </Fragment>
+                                  ))}
+                                </span>
+                                <span className="whitespace-nowrap">
+                                  Step {roadmapItemIdx + 1}
+                                </span>
+                              </div>
+                            </div>
+                          </>
+                        ) : null}
+                      </div>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </Page>
     </>
