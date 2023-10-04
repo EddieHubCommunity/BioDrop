@@ -83,7 +83,6 @@ export default function Events({ events }) {
       />
 
       <Page>
-        <div className="flex flex-row items-center">
           <h1 className="text-4xl mb-4 font-bold ">Community Events</h1>
         </div>
         <EventTabs
