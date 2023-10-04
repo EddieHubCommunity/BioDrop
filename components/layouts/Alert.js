@@ -9,9 +9,9 @@ export default function Alert() {
           target="_blank"
           className="hover:text-primary-low text-tertiary-medium flex items-center gap-x-1"
         >
-          Support us by giving our
+          Support by Starring our
           <FaGithub aria-label="GitHub" />
-          GitHub Repo a Star!
+          GitHub Repo!
           <span aria-hidden="true">&rarr;</span>
         </a>
       </p>
