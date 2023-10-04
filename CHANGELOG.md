@@ -1,4 +1,4 @@
-# [2.52.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.52.0) (2023-10-04)
+# [2.53.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.53.0) (2023-10-04)
 
 
 ### Bug Fixes
@@ -11,6 +11,7 @@
 * max func duration ([#9224](https://github.com/EddieHubCommunity/BioDrop/issues/9224)) ([a9e717b](https://github.com/EddieHubCommunity/BioDrop/commit/a9e717b5707f5ebae1d3cc9b7807ba724d8889a1))
 * max func duration move to file ([#9226](https://github.com/EddieHubCommunity/BioDrop/issues/9226)) ([530aeba](https://github.com/EddieHubCommunity/BioDrop/commit/530aeba72ee442d5acb667176f31304fc6cd316d))
 * min date for milestone  ([#9060](https://github.com/EddieHubCommunity/BioDrop/issues/9060)) ([f7e5c65](https://github.com/EddieHubCommunity/BioDrop/commit/f7e5c65f934f7a93870cf8d0412688ddc2c85402))
+* mobile star banner styling ([#9322](https://github.com/EddieHubCommunity/BioDrop/issues/9322)) ([49d11fd](https://github.com/EddieHubCommunity/BioDrop/commit/49d11fdf7dae0caf88b2b13c3f0167748b655183))
 * prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
 * profile repos + update cache ([#9288](https://github.com/EddieHubCommunity/BioDrop/issues/9288)) ([0e66901](https://github.com/EddieHubCommunity/BioDrop/commit/0e66901b79e58843a3071d9a2386ef0bfb2de8a9))
 * remove app alert for new icons ([#9253](https://github.com/EddieHubCommunity/BioDrop/issues/9253)) ([82e17bb](https://github.com/EddieHubCommunity/BioDrop/commit/82e17bb4d049d1fa42a655814621b88a740ff969))
