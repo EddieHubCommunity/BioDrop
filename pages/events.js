@@ -84,7 +84,6 @@ export default function Events({ events }) {
 
       <Page>
           <h1 className="text-4xl mb-4 font-bold ">Community Events</h1>
-        </div>
         <EventTabs
           tabs={tabFilters}
           eventType={eventType}
