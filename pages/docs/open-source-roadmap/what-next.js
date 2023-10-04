@@ -17,7 +17,7 @@ export default function DocsNext() {
         <h1 className="text-4xl mb-4 font-bold">
           Open Source Roadmap: What next?
         </h1>
-        <p>draft</p>
+        <p>It doesn't stop there! You can become a maintainer.</p>
       </Page>
     </>
   );
