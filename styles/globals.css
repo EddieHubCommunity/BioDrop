@@ -63,6 +63,36 @@ html:not(.dark) .dark-only {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .animate-spin {
+    animation: spin 5s linear infinite;
+  }
+
+  .animate-bounce {
+    animation: bounce 2s ease infinite;
+  }
+
+  .animate-rotate {
+    animation: rotate 10s linear infinite;
+  }
+
+  .animate-fade {
+    animation: fade 5s ease infinite alternate;
+  }
+
+  .animate-scale {
+    animation: scale 2s ease infinite alternate;
+  }
+
+  .animate-ping {
+    animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+
+  .animate-pulse {
+    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
