@@ -4,6 +4,7 @@ import Delete from "@components/account/manage/Delete";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import StarIcon from "@heroicons/react/20/solid/StarIcon";
 import PencilIcon from "@heroicons/react/20/solid/PencilIcon";
+import ExclamationCircleIcon from "@heroicons/react/20/solid/ExclamationCircleIcon";
 import dateFormat from "@services/utils/dateFormat";
 
 export default function UserRepos({ manage = false, confirmDelete, repos }) {
@@ -52,6 +53,13 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
               aria-hidden="true"
             />
             {repo.stats.forks}
+          </p>
+          <p className="inline-flex gap-2 p-3 items-center content-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-red-800 ring-1 ring-inset ring-red-600/20">
+            <ExclamationCircleIcon
+              className="h-4 w-4 flex-none text-primary-low-medium"
+              aria-hidden="true"
+            />
+            {repo.stats.issues}
           </p>
         </div>
         <ChevronRightIcon
