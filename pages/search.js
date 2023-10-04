@@ -1,120 +1,177 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
-
-import UserCard from "@components/user/UserCard";
+import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/profiles";
-import config from "@config/app.json";
+import { getProfiles } from "./api/profiles";
+import Pagination from "@components/Pagination";
+import {
+  cleanSearchInput,
+  searchTagNameInInput,
+} from "@services/utils/search/tags";
+import { PROJECT_NAME } from "@constants/index";
 
-export async function getStaticProps() {
-  const pageConfig = config.isr.searchPage; // Fetch the specific configuration for this page
-  let data = {
-    users: [],
-    tags: [],
-  };
-  try {
-    data.users = await getUsers();
-  } catch (e) {
-    logger.error(e, "ERROR search users");
+async function fetchUsersByKeyword(keyword) {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
+      slug: keyword,
+    }).toString()}`,
+  );
+
+  const searchData = await res.json();
+  return searchData.users || [];
+}
+
+async function fetchRandomUsers() {
+  const users = await getProfiles();
+
+  if (users.length > 9) {
+    return users.sort(() => 0.5 - Math.random()).slice(0, 9);
   }
 
+  return users;
+}
+
+async function fetchTags() {
   try {
-    data.tags = await getTags();
+    return await getTags();
   } catch (e) {
     logger.error(e, "ERROR loading tags");
+    return [];
+  }
+}
+
+export async function getServerSideProps(context) {
+  const { keyword } = context.query;
+
+  let serverProps = {
+    tags: [],
+    filteredUsers: [],
+    randUsers: [],
+  };
+
+  try {
+    if (keyword) {
+      serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
+    } else {
+      serverProps.randUsers = await fetchRandomUsers();
+    }
+  } catch (e) {
+    logger.error(e, "ERROR fetching users");
   }
 
-  if (data.users.length > 5) {
-    data.randUsers = data.users.sort(() => 0.5 - Math.random()).slice(0, 5);
-  } else {
-    data.randUsers = data.users;
-  }
+  serverProps.tags = await fetchTags();
 
   return {
-    props: { data },
-    revalidate: pageConfig.revalidateSeconds,
+    props: { data: serverProps, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Search({ data: { users, tags, randUsers } }) {
+export default function Search({
+  data: { tags, randUsers, filteredUsers },
+  BASE_URL,
+}) {
   const router = useRouter();
-  const { username, keyword } = router.query;
+  const { username, keyword, userSearchParam } = router.query;
   const [notFound, setNotFound] = useState();
-  const [filteredUsers, setFilteredUsers] = useState(randUsers);
-  const [inputValue, setInputValue] = useState(username || keyword || "");
-  let results = [];
+  const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
+  const [inputValue, setInputValue] = useState(
+    username || keyword || userSearchParam || "",
+  );
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const searchInputRef = useRef(null);
+
   useEffect(() => {
     if (username) {
-      setNotFound(username);
+      setNotFound(`${username} not found`);
     }
   }, [username]);
+  useEffect(() => {
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
+  }, []);
 
   useEffect(() => {
     if (!inputValue) {
       //Setting the users as null when the input field is empty
-      setFilteredUsers(randUsers);
+      setUsers(randUsers);
       //Removing the not found field when the input field is empty
       setNotFound();
+      router.replace(
+        {
+          pathname: "/search",
+        },
+        undefined,
+        { shallow: true },
+      );
       return;
     }
 
-    if (inputValue.length < 2) {
+    // checks if there is no keyword between 2 commas and removes the second comma and also checks if the input starts with comma and removes it.
+    setInputValue(inputValue.replace(/,(\s*),/g, ",").replace(/^,/, ""));
+
+    // If the inputValue has not changed and is the same as the keyword passed from the server
+    if (keyword && inputValue === keyword) {
       return;
+    }
+
+    async function fetchUsers(value) {
+      try {
+        const res = await fetch(
+          `${BASE_URL}/api/search?${new URLSearchParams({
+            slug: value,
+          }).toString()}`,
+        );
+        const data = await res.json();
+        if (data.error) {
+          throw new Error(`${value} not found`);
+        }
+
+        setNotFound();
+        setUsers(data.users.sort(() => Math.random() - 0.5));
+        setCurrentPage(1);
+      } catch (err) {
+        setNotFound(err.message);
+        setUsers([]);
+      }
     }
 
     const timer = setTimeout(() => {
-      filterData(inputValue);
+      router.replace(
+        {
+          pathname: "/search",
+          query: { userSearchParam: inputValue },
+        },
+        undefined,
+        { shallow: true },
+      );
+      fetchUsers(inputValue);
     }, 500);
 
     return () => clearTimeout(timer);
   }, [inputValue]);
 
-  const filterData = (value) => {
-    const cleanedInput = cleanSearchInput(value);
-    const terms = cleanedInput.split(",");
+  useEffect(() => {
+    const onKeyDownHandler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDownHandler);
 
-    results = users.filter((user) => {
-      const nameLower = user.name.toLowerCase();
-      const usernameLower = user.username.toLowerCase();
-      const userTagsString = user.tags.join(", ").toLowerCase();
-      const userLocationString = user.location ? user.location.provided.toLowerCase() : "";
-
-      // check if all search terms/keywords are matching with the the uses
-      const isUserMatched = terms.every((term) => {
-        const cleanedTerm = term.trim();
-
-        if (!cleanedInput) {
-          return false;
-        }
-
-        return (
-          usernameLower.includes(cleanedTerm) ||
-          nameLower.includes(cleanedTerm) ||
-          userTagsString.includes(cleanedTerm) ||
-          userLocationString.includes(cleanedTerm)
-        );
-      });
-
-      return isUserMatched;
-    });
-
-    if (!results.length) {
-      setNotFound(value);
-    }
-
-    if (results.length) {
-      setNotFound();
-    }
-
-    setFilteredUsers(results.sort(() => Math.random() - 0.5));
-  };
+    return () => {
+      document.removeEventListener("keydown", onKeyDownHandler);
+    };
+  }, []);
 
   const search = (keyword) => {
     const cleanedInput = cleanSearchInput(inputValue);
@@ -123,51 +180,41 @@ export default function Search({ data: { users, tags, randUsers } }) {
       return setInputValue(keyword);
     }
 
-    const items = cleanedInput.split(",");
+    const items = cleanedInput.split(", ");
 
     if (cleanedInput.length) {
       if (searchTagNameInInput(inputValue, keyword)) {
         return setInputValue(
-          items.filter((item) => item.trim() !== keyword).join(",")
+          items.filter((item) => item.trim() !== keyword).join(", "),
         );
       }
 
-      return setInputValue([...items, keyword].join(","));
+      return setInputValue([...items, keyword].join(", "));
     }
 
     setInputValue(keyword);
   };
 
-  // removes leading/trailing whitespaces and extra spaces and converted to lowercase
-  const cleanSearchInput = (searchInput) => {
-    return searchInput
-      .trim()
-      .replace(/\s{2,}/g, " ")
-      .toLowerCase();
-  };
+  const usersPerPage = 20;
+  const indexOfLastUser = currentPage * usersPerPage;
+  const indexOfFirstUser = indexOfLastUser - usersPerPage;
+  const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
 
-  const searchTagNameInInput = (searchInput, tagName) => {
-    const tags = cleanSearchInput(searchInput).split(",");
-
-    for (let tag of tags) {
-      if (tag.trim() === tagName.toLowerCase()) {
-        return true;
-      }
-    }
-
-    return false;
-  };
+  const paginate = useCallback((pageNumber) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo({ top: 150, behavior: "smooth" });
+  }, []);
 
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title={`${PROJECT_NAME} Search Users`}
+        description={`Search ${PROJECT_NAME} user directory by name, tags, skills, languages`}
       />
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Search</h1>
+        <h1 className="mb-4 text-4xl font-bold">Search</h1>
 
-        <div className="flex flex-wrap justify-center space-x-3 mb-4">
+        <div className="flex flex-wrap justify-center mb-4 space-x-3">
           {tags &&
             tags
               .slice(0, 10)
@@ -183,27 +230,50 @@ export default function Search({ data: { users, tags, randUsers } }) {
         </div>
 
         <Badge
-          content={filteredUsers.length}
-          display={!!filteredUsers}
+          content={users.length}
+          display={!!users}
           className="w-full"
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
           <Input
-            placeholder="Search user by name or tags; eg: open source,reactjs"
+            ref={searchInputRef}
+            placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
             name="keyword"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
           />
         </Badge>
 
-        {notFound && <Alert type="error" message={`${notFound} not found`} />}
-        <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
-          {filteredUsers.map((user) => (
-            <li key={user.username}>
-              <UserCard profile={user} />
-            </li>
-          ))}
+        {notFound && <Alert type="error" message={notFound} />}
+        <ul
+          role="list"
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          {users.length < usersPerPage &&
+            users.map((user) => (
+              <li key={user.username}>
+                <UserHorizontal profile={user} input={inputValue} />
+              </li>
+            ))}
+
+          {users.length > usersPerPage &&
+            visibleUsers.map((user) => (
+              <li key={user.username}>
+                <UserHorizontal profile={user} input={inputValue} />
+              </li>
+            ))}
         </ul>
+
+        {users.length > usersPerPage && (
+          <Pagination
+            currentPage={currentPage}
+            data={users}
+            perPage={usersPerPage}
+            paginate={paginate}
+            startIndex={indexOfFirstUser}
+            endIndex={indexOfLastUser}
+          />
+        )}
       </Page>
     </>
   );

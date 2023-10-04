@@ -1,0 +1,45 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
+
+## Testimonials - with Forms
+
+Show off the great feedback you have received.
+
+This guide helps you manage Testimonials you have received where you already have a Profile (created with JSON or through Forms).
+
+## Add a Testimonial to your Profile
+
+1. Go to the [BioDrop homepage](https://biodrop.io/)
+
+2. Click on `Log in`
+
+![BioDrop Homepage](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/ce980ed7-ad4d-42c0-886c-447a2e2ab936)
+
+3. You will be taken to your Profile's Statistics page
+
+Click on `Testimonials`
+
+![BioDrop Profile](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/6ea75170-adf2-4e2d-a9b1-90b1cce2c98d)
+
+4. This will take you to the Testimonials page
+
+All testimonials you have received will appear on this page
+
+You can decide whether you want a particular testimonial to appear on your Profile by turning on the toggle
+
+![BioDrop Add Testimonial page](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/301920f0-c9b5-403a-80db-d1eaccf190b7)
+
+5. Your milestone will then be shown in your Profile on your custom URL (BioDrop.io/eddiejaoude)
+
+Note: if you wish to give a testimonial to another user then refer to the Docs for [Testimonials - with JSON](/docs/how-to-guides/testimonials-json)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);

@@ -1,0 +1,16 @@
+{
+  "name": "Sipho Cetywayo",
+  "bio": "I am a full-stack QA Engineer, transitioning to full-stack web development",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SiphoCetywayo",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on Github",
+      "url": "https://github.com/SiphoCetywayo",
+      "icon": "FaGithubalt"
+    }
+  ]
+}

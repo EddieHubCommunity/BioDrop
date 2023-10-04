@@ -4,8 +4,8 @@
   "tags": ["Open Source", "DevOps", "Golang", "Kubernetes", "Docker", "DevRel"],
   "socials": [
     {
-      "icon": "SiYoutube",
-      "url": "https://www.youtube.com/@saarthakmaini1819"
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/saartwts"
     },
     {
       "icon": "FaGithub",
@@ -16,15 +16,20 @@
       "url": "https://saarthakmaini.hashnode.dev/"
     },
     {
-      "icon": "FaTwitter",
-      "url": "https://twitter.com/saartwts"
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@saarthakmaini1819"
     }
   ],
   "links": [
     {
-      "name": "YouTube: Checkout my DevOps Videos",
-      "url": "https://www.youtube.com/@saarthakmaini1819",
-      "icon": "SiYoutube"
+      "name": "Twitter: Let's Connect!",
+      "url": "https://twitter.com/saartwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Connect with me",
+      "url": "https://www.linkedin.com/in/saarthak-maini-74849222a/",
+      "icon": "FaLinkedin"
     },
     {
       "name": "GitHub: Checkout my Projects And Open Source Contributions",
@@ -37,14 +42,9 @@
       "icon": "SiHashnode"
     },
     {
-      "name": "Twitter: Follow me",
-      "url": "https://twitter.com/saartwts",
-      "icon": "FaTwitter"
-    },
-    {
-      "name": "LinkedIn: Connect with me",
-      "url": "https://www.linkedin.com/in/saarthak-maini-74849222a/",
-      "icon": "FaLinkedin"
+      "name": "YouTube: Checkout my Technical Videos",
+      "url": "https://www.youtube.com/@saarthakmaini1819",
+      "icon": "SiYoutube"
     }
   ],
   "testimonials": ["Sajiyah-Salat"]

@@ -1,18 +1,65 @@
-import mongoose from "mongoose";
+import mongoose, { Schema } from "mongoose";
 
-const ProfileSchema = new mongoose.Schema(
+import { MilestoneSchema } from "./Profile/Milestone";
+import { EventSchema } from "./Profile/Event";
+import { RepoSchema } from "./Profile/Repo";
+
+import config from "@config/app.json";
+
+const ProfileSchema = new Schema(
   {
-    source: String,
+    account: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Account",
+    },
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
+    source: {
+      type: String,
+      required: true,
+      enum: {
+        values: ["file", "database"],
+        message: "{VALUE} is not a supported data source",
+      },
+    },
+    layout: {
+      type: String,
+      enum: {
+        values: config.layouts,
+        message: "{VALUE} is not a supported profile layout",
+      },
+    },
     isEnabled: {
       type: Boolean,
       default: true,
     },
+    isShadowBanned: {
+      type: Boolean,
+      default: false,
+    },
+    isStatsPublic: {
+      type: Boolean,
+      default: false,
+    },
     username: {
       type: String,
-      index: true,
+      required: true,
+      unique: true,
     },
-    name: String,
-    bio: String,
+    name: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 32,
+    },
+    bio: {
+      type: String,
+      required: true,
+      min: 2,
+      max: 256,
+    },
     tags: {
       type: [String],
       default: [],
@@ -28,51 +75,71 @@ const ProfileSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    stats: {
+      referers: {
+        type: Map,
+        of: Number,
+      },
+      countries: {
+        type: Map,
+        of: Number,
+      },
+    },
     links: {
       default: [],
-      type: [{ type: mongoose.Schema.Types.ObjectId, ref: "Link" }],
+      type: [{ type: Schema.Types.ObjectId, ref: "Link" }],
     },
-    milestones: [
-      {
-        url: String,
-        date: String,
-        isGoal: Boolean,
-        title: String,
-        icon: String,
-        description: String,
-        color: String,
-        order: Number,
-      },
-    ],
+    milestones: {
+      type: [MilestoneSchema],
+      default: [],
+    },
+    repos: {
+      type: [RepoSchema],
+      default: [],
+    },
     testimonials: [
       {
-        username: String,
-        title: String,
-        description: String,
-        date: String,
-        order: Number,
+        username: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 256,
+        },
+        title: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 256,
+        },
+        description: {
+          type: String,
+          required: true,
+          min: 2,
+          max: 512,
+        },
+        date: {
+          type: Date,
+          required: true,
+        },
         isPinned: Boolean,
       },
     ],
-    events: [
-      {
-        isVirtual: Boolean,
-        color: String,
-        name: String,
-        description: String,
-        date: {
-          start: Date,
-          end: Date,
-        },
-        url: String,
-        order: Number,
-        price: {
-          startingFrom: Number,
-        },
+    events: {
+      type: [EventSchema],
+      default: [],
+    },
+    settings: {
+      hideNavbar: {
+        type: Boolean,
+        default: false,
       },
-    ],
+      hideFooter: {
+        type: Boolean,
+        default: false,
+      },
+    },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 module.exports =

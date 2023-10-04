@@ -1,0 +1,16 @@
+{
+  "name": "Prasansha Paudel",
+  "bio": "Senior CS Undergraduate at University of Louisiana Monroe",
+  "links": [
+    {
+      "name": "Checkout my GitHub Repositories",
+      "url": "https://github.com/paudelpr1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/prasansha-paudel-59b572190/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

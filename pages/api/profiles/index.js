@@ -9,11 +9,11 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const profiles = await getUsers();
+  const profiles = await getProfiles();
 
   res.status(200).json(profiles);
 }
-export async function getUsers(options = {}) {
+export async function getProfiles(options = {}) {
   await connectMongo();
 
   let profiles = [];
@@ -23,8 +23,15 @@ export async function getUsers(options = {}) {
     : ["username", "name", "bio", "tags", "location", "-_id"];
   try {
     profiles = await Profile.find(
-      { name: { $exists: true }, isEnabled: true },
-      fields
+      {
+        name: { $exists: true },
+        isEnabled: true,
+        $or: [
+          { isShadowBanned: { $exists: false } },
+          { isShadowBanned: { $eq: false } },
+        ],
+      },
+      fields,
     );
   } catch (e) {
     logger.error(e, "failed loading profiles");

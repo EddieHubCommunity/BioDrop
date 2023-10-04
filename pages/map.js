@@ -2,14 +2,15 @@ import { useState } from "react";
 import dynamic from "next/dynamic";
 
 import logger from "@config/logger";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Badge from "@components/Badge";
 import { getTags } from "./api/discover/tags";
-import { getUsers } from "./api/profiles";
+import { getProfiles } from "./api/profiles";
 import config from "@config/app.json";
+import { PROJECT_NAME } from "@constants/index";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
@@ -23,7 +24,7 @@ export async function getStaticProps() {
     tags: [],
   };
   try {
-    data.users = await getUsers();
+    data.users = await getProfiles();
   } catch (e) {
     logger.error(e, "ERROR search users");
   }
@@ -34,12 +35,12 @@ export async function getStaticProps() {
       user.location.provided &&
       user.location.provided !== "unknown" &&
       user.location.name !== "unknown" &&
-      user.location.provided.toLowerCase() !== "remote"
+      user.location.provided.toLowerCase() !== "remote",
   );
 
   // Apply offset equally to 4 quadrants arround point
   const adjustCoords = (coords, offset, offset2, index) => {
-    switch (index % 4 ) {
+    switch (index % 4) {
       case 0:
         return [coords[0] + offset, coords[1] + offset2];
       case 1:
@@ -49,7 +50,7 @@ export async function getStaticProps() {
       default:
         return [coords[0] + offset, coords[1] - offset2];
     }
-  }
+  };
 
   data.users = data.users.map((user, index) => {
     const offset = Math.random() * 0.02; // ~2.2km
@@ -62,21 +63,18 @@ export async function getStaticProps() {
         username: user.username,
         name: user.name,
         location: user.location.provided,
-        bio: user.bio || ''
+        bio: user.bio || "",
       },
       geometry: {
         type: "Point",
-        coordinates:adjustCoords(
-          [
-            parseFloat(user.location.lon),
-            parseFloat(user.location.lat)
-          ],
+        coordinates: adjustCoords(
+          [parseFloat(user.location.lon), parseFloat(user.location.lat)],
           offset,
           offset2,
-          index
-        )
-      }
-    }
+          index,
+        ),
+      },
+    };
   });
 
   try {
@@ -146,7 +144,7 @@ export default function Map({ data }) {
           as="image"
           key={`${i}${j}`}
           href={`https://b.tile.openstreetmap.org/2/${i}/${j}.png`}
-        />
+        />,
       );
     }
   }
@@ -154,17 +152,17 @@ export default function Map({ data }) {
   return (
     <>
       <PageHead
-        title="LinkFree Users Around The World"
-        description="This map shows all the locations of LinkFree users based on the location provided in their GitHub profiles."
+        title={PROJECT_NAME + " Users Around The World"}
+        description={`This map shows all the locations of ${PROJECT_NAME} users based on the location provided in their GitHub profiles.`}
       >
         {links}
       </PageHead>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">
-          LinkFree Users Around The World
+          {PROJECT_NAME} Users Around The World
         </h1>
         <p className="py-5">
-          This map shows locations of Linkfree users based on the location
+          This map shows locations of {PROJECT_NAME} users based on the location
           listed in their GitHub profile. New data points are added each time a
           profile is visited.
         </p>
@@ -174,12 +172,15 @@ export default function Map({ data }) {
             content={
               filteredUsers.length > 0 ? filteredUsers.length : users.length
             }
+            badgeClassName={"translate-x-3 -translate-y-3"}
           >
             <Button
               onClick={resetFilter}
               primary={true}
               disable={selectedTags.size == 0 ? true : false}
-            >Clear/Reset Filters</Button>
+            >
+              Clear/Reset Filters
+            </Button>
           </Badge>
           {tags &&
             tags
@@ -194,7 +195,7 @@ export default function Map({ data }) {
                 />
               ))}
         </div>
-        <div className="h-screen">
+        <div style={{ height: "min(96vw, 100vh)" }}>
           <DynamicMap
             users={filteredUsers.length > 0 ? filteredUsers : users}
           />

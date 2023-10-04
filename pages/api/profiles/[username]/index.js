@@ -1,12 +1,13 @@
 import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import { Profile, Stats, ProfileStats } from "@models/index";
+import { Profile, Stats, ProfileStats, User } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
-import { clientEnv } from "@config/schemas/clientSchema";
+import dateFormat from "@services/utils/dateFormat";
 
 export default async function handler(req, res) {
   const username = req.query.username;
@@ -20,8 +21,9 @@ export default async function handler(req, res) {
   return res.status(status).json(profile);
 }
 
-export async function getUserApi(req, res, username) {
+export async function getUserApi(req, res, username, options = {}) {
   await connectMongo();
+  const today = new Date();
   let isOwner = false;
   const session = await getServerSession(req, res, authOptions);
   if (session && session.username === username) {
@@ -40,163 +42,240 @@ export async function getUserApi(req, res, username) {
     };
   }
 
-  await getLocation(username, getProfile);
+  let ipLookupProm;
+  if (options.ip) {
+    try {
+      ipLookupProm = fetch(`https://api.iplocation.net/?ip=${options.ip}`);
+    } catch (e) {
+      log.error(e, `failed to get country for ip: ${options.ip}`);
+    }
+  }
+
+  let checks = [];
+
+  checks.push(getLocation(username, getProfile));
+  await Promise.allSettled(checks);
 
   const log = logger.child({ username });
-  getProfile = await Profile.findOne(
-    { username },
-    "-__v -views -source"
-  ).populate({
-    path: "links",
-    select: "-__v -clicks -profile",
-    options: { sort: { order: 1 } },
-  });
+  getProfile = await Profile.aggregate([
+    {
+      $match: { username },
+    },
+    {
+      $set: {
+        milestones: {
+          $sortArray: {
+            input: "$milestones",
+            sortBy: { date: -1 },
+          },
+        },
+      },
+    },
+    {
+      $addFields: {
+        testimonials: {
+          $filter: {
+            input: "$testimonials",
+            as: "testimonial",
+            cond: {
+              $eq: ["$$testimonial.isPinned", true],
+            },
+          },
+        },
+      },
+    },
+    {
+      $lookup: {
+        from: "links",
+        localField: "links",
+        foreignField: "_id",
+        as: "links",
+      },
+    },
+    {
+      $project: {
+        __v: 0,
+        "links.__v": 0,
+        "links.clicks": 0,
+        "links.createdAt": 0,
+        "links.updatedAt": 0,
+        "testimonials.isPinned": 0,
+      },
+    },
+  ]);
+  getProfile = getProfile[0];
 
   getProfile = {
-    ...getProfile._doc,
-    links: getProfile._doc.links
+    ...getProfile,
+    links: getProfile.links
       .filter((link) => link.isEnabled)
-      .map((link) => ({
-        _id: link._id,
-        group: link.group,
-        name: link.name,
-        url: link.url,
-        icon: link.icon,
-        order: link.order,
-      })),
-    socials: getProfile._doc.links
+      .sort(
+        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE),
+      ),
+    socials: getProfile.links
       .filter((link) => link.isPinned)
       .map((link) => ({
         _id: link._id,
         url: link.url,
         icon: link.icon,
       })),
-    testimonials: getProfile._doc.testimonials.map((testimonial) => ({
-      _id: testimonial._id,
-      isPinned: testimonial.isPinned,
-      username: testimonial.username,
-      title: testimonial.title,
-      description: testimonial.description,
-      date: testimonial.date,
-      url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/${testimonial.username}`,
-      order: testimonial.order,
-    })),
   };
 
-  let dateEvents = [];
-  const today = new Date();
-  for (const event of getProfile.events) {
-    let cleanEvent = JSON.parse(JSON.stringify(event));
-    const dateTimeStyle = {
-      dateStyle: "full",
-      timeStyle: "long",
-    };
-    try {
-      const start = new Date(event.date.start);
-      const end = new Date(event.date.end);
-      cleanEvent.date.startFmt = new Intl.DateTimeFormat(
-        "en-GB",
-        dateTimeStyle
-      ).format(start);
-      cleanEvent.date.endFmt = new Intl.DateTimeFormat(
-        "en-GB",
-        dateTimeStyle
-      ).format(end);
+  let getUser = {};
+  if (getProfile.user) {
+    getUser = await User.findOne({ _id: new ObjectId(getProfile.user) });
 
-      cleanEvent.date.cfpOpen =
-        event.date.cfpClose && new Date(event.date.cfpClose) > today;
-      cleanEvent.date.future = start > today;
-      cleanEvent.date.ongoing = start < today && end > today;
-      dateEvents.push(cleanEvent);
-    } catch (e) {
-      logger.error(e, `ERROR event date for: "${event.name}"`);
-    }
+    getProfile = {
+      ...getProfile,
+      accountType: getUser.type || "free",
+    };
+  } else {
+    getProfile = {
+      ...getProfile,
+      accountType: "free",
+    };
+  }
+  delete getProfile.user;
+
+  if (getProfile.events) {
+    let dateEvents = [];
+
+    getProfile.events.map((event) => {
+      let cleanEvent = JSON.parse(JSON.stringify(event));
+      try {
+        const start = new Date(event.date.start);
+        const end = new Date(event.date.end);
+        cleanEvent.date.startFmt = dateFormat({
+          format: "long",
+          date: event.date.start,
+        });
+        cleanEvent.date.endFmt = dateFormat({
+          format: "long",
+          date: event.date.end,
+        });
+
+        cleanEvent.date.cfpOpen =
+          event.date.cfpClose && new Date(event.date.cfpClose) > today;
+        cleanEvent.date.future = start > today;
+        cleanEvent.date.ongoing = start < today && end > today;
+        dateEvents.push(cleanEvent);
+      } catch (e) {
+        logger.error(e, `ERROR event date for: "${event.name}"`);
+      }
+    });
+
+    getProfile.events = dateEvents;
+  } else {
+    getProfile.events = [];
   }
 
-  getProfile.events = dateEvents;
-
   let updates = [];
-  const date = new Date();
+  const date = today;
   date.setHours(1, 0, 0, 0);
 
   if (!isOwner) {
-    updates.push((async () => {
+    updates.push(
+      (async () => {
+        try {
+          await Stats.updateOne(
+            {
+              date,
+            },
+            {
+              $inc: { users: 1 },
+            },
+            { upsert: true },
+          );
+          log.info(`app profile stats incremented for username: ${username}`);
+        } catch (e) {
+          log.error(e, `app profile stats failed for ${username}`);
+        }
+      })(),
+    );
+
+    let increment = { views: 1 };
+    if (options.referer) {
+      const referer = new URL(options.referer);
+      increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
+    }
+    if (options.ip) {
+      try {
+        const ipLookupRes = await ipLookupProm;
+        const ipLookup = await ipLookupRes.json();
+        increment[`stats.countries.${ipLookup.country_code2}`] = 1;
+      } catch (e) {
+        increment[`stats.countries.-`] = 1;
+        log.error(e, `failed to get country for ip: ${options.ip}`);
+      }
+    }
+
+    updates.push(
+      (async () => {
+        try {
+          await Profile.updateOne(
+            {
+              username,
+            },
+            {
+              $inc: increment,
+            },
+            { timestamps: false },
+          );
+          log.info(`stats incremented for username: ${username}`);
+        } catch (e) {
+          log.error(
+            e,
+            `failed to increment profile stats for username: ${username}`,
+          );
+        }
+      })(),
+    );
+
+    updates.push(
+      (async () => {
+        try {
+          await ProfileStats.updateOne(
+            {
+              username: username,
+              date,
+            },
+            {
+              $inc: increment,
+            },
+            { upsert: true },
+          );
+          log.info(`profile daily stats incremented for username: ${username}`);
+        } catch (e) {
+          log.error(
+            e,
+            "failed to increment profile stats for username: ${username}",
+          );
+        }
+      })(),
+    );
+  }
+
+  updates.push(
+    (async () => {
       try {
         await Stats.updateOne(
           {
             date,
           },
           {
-            $inc: { users: 1 },
-          },
-          { upsert: true }
-        );
-        log.info(`app profile stats incremented for username: ${username}`);
-      } catch (e) {
-        log.error(e, `app profile stats failed for ${username}`);
-      }
-    })());
-
-    updates.push((async () => {
-      try {
-        await Profile.updateOne(
-          {
-            username,
-          },
-          {
             $inc: { views: 1 },
-          }
+          },
+          { upsert: true },
         );
-        log.info(`stats incremented for username: ${username}`);
+        log.info(`app daily stats incremented for username: ${username}`);
       } catch (e) {
         log.error(
           e,
-          `failed to increment profile stats for username: ${username}`
+          `failed incrementing platform stats for username: ${username}`,
         );
       }
-    })());
-
-    updates.push((async () => {
-      try {
-        await ProfileStats.updateOne(
-          {
-            username: username,
-            date,
-          },
-          {
-            $inc: { views: 1 },
-          },
-          { upsert: true }
-        );
-        log.info(`profile daily stats incremented for username: ${username}`);
-      } catch (e) {
-        log.error(
-          e,
-          "failed to increment profile stats for username: ${username}"
-        );
-      }
-    })());
-  }
-
-  updates.push((async () => {
-    try {
-      await Stats.updateOne(
-        {
-          date,
-        },
-        {
-          $inc: { views: 1 },
-        },
-        { upsert: true }
-      );
-      log.info(`app daily stats incremented for username: ${username}`);
-    } catch (e) {
-      log.error(
-        e,
-        `failed incrementing platform stats for username: ${username}`
-      );
-    }
-  })());
+    })(),
+  );
 
   await Promise.allSettled(updates);
 
@@ -204,6 +283,6 @@ export async function getUserApi(req, res, username) {
     JSON.stringify({
       status: 200,
       profile: getProfile,
-    })
+    }),
   );
 }

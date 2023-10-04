@@ -1,0 +1,21 @@
+{
+  "name": "Osho Iseoluwa",
+  "bio": "A Full-Stack Engineer {MERN} enthusiast, with 1+ year experience in building beautiful, technical, and innovative projects.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/OshoIseoluwa",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://linkedin.com/in/iseoluwa-osho",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my github account",
+      "url": "https://github.com/theCephas",
+      "icon": "FaGithub"
+    }
+  ]
+}

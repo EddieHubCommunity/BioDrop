@@ -11,6 +11,16 @@ const profileStatsSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    stats: {
+      referers: {
+        type: Map,
+        of: Number,
+      },
+      countries: {
+        type: Map,
+        of: Number,
+      },
+    },
     date: {
       type: Date,
       default: new Date(),
@@ -20,7 +30,7 @@ const profileStatsSchema = new mongoose.Schema(
       ref: "Profile",
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 profileStatsSchema.index({ username: 1, date: 1 });

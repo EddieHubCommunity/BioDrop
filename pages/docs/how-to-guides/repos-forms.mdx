@@ -1,0 +1,43 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
+
+## GitHub Repos - with Forms
+
+Showcase your Open Source projects by adding the GitHub Repo to your Profile.
+
+## Add a GitHub Repo
+
+1. Go to the [BioDrop homepage](https://biodrop.io/)
+
+2. Click on `Log in`
+
+![BioDrop Homepage](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/ce980ed7-ad4d-42c0-886c-447a2e2ab936)
+
+3. You will be taken to your Profile's Statistics page
+
+Click on `Repos`
+
+![BioDrop Profile](https://github.com/EddieHubCommunity/BioDrop/assets/624760/59e998c6-f757-4678-b973-1213b86dbd62)
+
+4. This will take you to the Repos page
+
+Enter your GitHub Repo URL and then click `Add Repo`
+
+![BioDrop Add Repo](https://github.com/EddieHubCommunity/BioDrop/assets/624760/26d11652-4085-4b02-80d7-81bd1cb6517c)
+
+Note: If you already have GitHub Repos in your Profile these will shown here.
+
+5. Your GitHub Repo will then be shown in your Profile on your custom URL (BioDrop.io/eddiejaoude) and also the global Repo page
+
+![Global Repo page](https://github.com/EddieHubCommunity/BioDrop/assets/624760/f7135feb-56ba-4d62-9ed4-a6cedb4e0d39)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);

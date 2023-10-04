@@ -1,0 +1,27 @@
+{
+  "name": "Bemdoo Maor",
+  "bio": "15 year old passionate Full-stack developer | Student | Open source lover",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/BemdooMaor" },
+    { "icon": "FaGithub", "url": "https://github.com/MaorBemdoo" },
+    { "icon": "FaYoutube", "url": "https://youtube.com/BemdooMaor" }
+  ],
+  "tags": ["Open Source", "Javascript", "React"],
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://twitter.com/MaorBemdoo",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BemdooMaor",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/bemdoo-maor-449698279",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

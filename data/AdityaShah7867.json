@@ -1,0 +1,24 @@
+{
+  "name": "ADITYA SHAH",
+  "bio": "Full Stack Developer | Javascript | REACT | TailwindCSS | FRONTEND DEVELOPER ",
+  "tags": [
+    "Javascript",
+    "MERN",
+    "REACT",
+    "TailwindCSS",
+    "Open Source",
+    "MongoDB"
+  ],
+  "links": [
+    {
+      "name": "Let's collaborate on some amazing project",
+      "url": "https://github.com/AdityaShah7867",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn for some achievement bragging!",
+      "url": "www.linkedin.com/in/aditya-shah-a10494263",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

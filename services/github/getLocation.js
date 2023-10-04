@@ -17,12 +17,13 @@ async function saveLocation(username) {
           lon: location.lon,
           updatedAt: new Date(),
         },
-      }
+      },
+      { timestamps: false },
     );
   } catch (e) {
     logger.error(
       e,
-      `failed to update profile location for username: ${username}`
+      `failed to update profile location for username: ${username}`,
     );
   }
 }
@@ -40,7 +41,7 @@ export default async function getLocation(username, getProfile) {
   let updatedAt = now.setDate(now.getDate() - cacheDays);
   updatedAt = new Date(getProfile.location.updatedAt);
   const expireOn = new Date(getProfile.location.updatedAt).setDate(
-    updatedAt.getDate() + cacheDays
+    updatedAt.getDate() + cacheDays,
   );
 
   if (expireOn > now.getTime()) {

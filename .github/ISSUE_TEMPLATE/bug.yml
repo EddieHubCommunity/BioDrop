@@ -1,6 +1,7 @@
 name: 🐛 Bug
 description: Report an issue to help improve the project.
-labels: ["🛠 goal: fix","🚦 status: awaiting triage"]
+title: "[BUG] <description>"
+labels: ["🛠 goal: fix", "🚦 status: awaiting triage"]
 body:
   - type: textarea
     id: description
@@ -14,6 +15,16 @@ body:
     attributes:
       label: Screenshots
       description: Please add screenshots if applicable
+    validations:
+      required: false
+  - type: dropdown
+    id: assignee
+    attributes:
+      label: Do you want to work on this issue?
+      multiple: false
+      options:
+        - "Yes"
+        - "No"
     validations:
       required: false
   - type: textarea

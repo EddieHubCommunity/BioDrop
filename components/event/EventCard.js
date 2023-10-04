@@ -1,40 +1,46 @@
 import { useEffect, useState } from "react";
-import { FaMicrophoneAlt, FaMapPin } from "react-icons/fa";
+import {
+  FaMicrophoneLines,
+  FaMapPin,
+  FaUpRightFromSquare,
+} from "react-icons/fa6";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
   MdOutlineArrowRightAlt,
 } from "react-icons/md";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { TbCoin, TbCoinOff } from "react-icons/tb";
 
 import Link from "@components/Link";
 import FallbackImage from "@components/FallbackImage";
+import Edit from "@components/account/manage/Edit";
+import dateFormat from "@services/utils/dateFormat";
+import Markdown from "@components/Markdown";
 
-export default function EventCard({ event, usernames }) {
+export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
-  const [startTime, setStartTime] = useState(event.date.startFmt)
-  const [endTime, setEndTime] = useState(event.date.endFmt)
-  
-  useEffect((() => {
-    const dateTimeStyle = {
-      dateStyle: "full",
-      timeStyle: "long",
-    };
-    setStartTime( new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-      new Date(event.date.start)
-    ));
-    setEndTime( new Intl.DateTimeFormat("en-GB", dateTimeStyle).format(
-      new Date(event.date.end)
-    ));
-  }),[event.date])
 
-  return (
-    <li
-      className="py-4 border-l-3 mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out"
-      style={{
-        borderColor: event.color,
-      }}
+  const [startTime, setStartTime] = useState(event.date.start);
+  const [endTime, setEndTime] = useState(event.date.end);
+
+  useEffect(() => {
+    try {
+      setStartTime(
+        dateFormat({ locale: "local", format: "long", date: event.date.start }),
+      );
+      setEndTime(
+        dateFormat({ locale: "local", format: "long", date: event.date.end }),
+      );
+    } catch (e) {
+      setStartTime(event.date.start);
+      setEndTime(event.date.end);
+    }
+  }, [event.date]);
+
+  const item = (event) => (
+    <div
+      className="py-4 border-l-[3px] border-t border-secondary-medium dark:border-primary-low mb-4 pl-2 rounded-lg shadow-lg transition duration-350 dark:bg-primary-medium hover:scale-[.99] hover:shadow-sm duration-500 ease-in-out grow"
+      style={event.color ? { borderColor: event.color } : null}
     >
       <div className="flex space-x-3">
         <div className="flex flex-col place-content-center">
@@ -42,28 +48,32 @@ export default function EventCard({ event, usernames }) {
             <MdOutlineOnlinePrediction title="Virtual event" />
           )}
           {event.isInPerson && <MdOutlinePeople title="In person event" />}
-          {event.date.cfpOpen && <FaMicrophoneAlt title="CFP is open" />}
+          {event.date.cfpOpen && <FaMicrophoneLines title="CFP is open" />}
           {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
           {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
         </div>
         <div className="flex-1 space-y-1 p-4">
           <div className="flex items-center justify-between">
-            <Link
-              href={event.url}
-              key={event.url}
-              target="_blank"
-              rel="noreferrer"
-              className="text-decoration-line:none"
-            >
+            <div>
               <div className="flex justify-between">
-                <p className="text-lg lg:text-xl tracking-wide font-medium capitalize">
-                  {event.name}
-                </p>
-                {event.userStatus && (
+                <div className="flex items-center gap-2">
+                  <span className="text-lg lg:text-xl tracking-wide font-medium capitalize">
+                    {event.name}
+                  </span>
+                  {event.url && (
+                    <Link
+                      href={event.url}
+                      target="_blank"
+                      aria-label={`Visit event ${event.name}`}
+                    >
+                      <FaUpRightFromSquare />
+                    </Link>
+                  )}
+                </div>
+                {event.isSpeaking && (
                   <div className="text-primary-medium-low dark:text-primary-low-medium italic hidden lg:block">
-                    {event.userStatus}
-                    {event.userStatus == "speaking" && " at "} this event
-                    {event.userStatus == "speaking" && event?.speakingTopic && (
+                    {"Speaking at "} this event
+                    {event?.speakingTopic && (
                       <>
                         {" "}
                         on <b>{event.speakingTopic}</b>
@@ -73,60 +83,75 @@ export default function EventCard({ event, usernames }) {
                 )}
               </div>
               <p className="text-sm text-primary-high dark:text-primary-low flex flex-col lg:flex-row gap-2">
-                <span>
-                  {startTime}
-                </span>
+                <span>{startTime}</span>
                 <MdOutlineArrowRightAlt className="self-center hidden lg:block" />
-                <span>
-                  {endTime}
-                </span>
+                <span>{endTime}</span>
               </p>
-              <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
+              <Markdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
-              </ReactMarkdown>
-              <p className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex gap-2 flex-wrap">
-                {(event.isVirtual || (event.isInPerson && event.location)) && (
-                  <FaMapPin />
-                )}
-                <span>
-                  {event.isVirtual && "Remote"}
-                  {event.isVirtual &&
-                    event.isInPerson &&
-                    event.location &&
-                    " AND in "}
-                  {event.isInPerson &&
-                    event.location &&
-                    Object.values(event.location).join(", ")}
-                </span>
-              </p>
-            </Link>
-            <div className="isolate flex -space-x-1 ">
-              {
-                usernames && (
-                  usernames.map((user) => {
-                    return (
-                      <Link
-                        href={`/${user}`}
-                        key={user}
-                        className=" hidden lg:block h-10 w-10  "
-                      >
-                        <FallbackImage
-                          src={`https://github.com/${user}.png`}
-                          alt={`Profile picture of ${user}`}
-                          width={fallbackImageSize}
-                          height={fallbackImageSize}
-                          fallback={user}
-                          className="relative z-30 inline-block  rounded-full ring-2 ring-white"
-                        />
-                      </Link>
-                    )
-                  })
-                )
-              }
+              </Markdown>
+              <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
+                <div className="flex gap-2 flex-wrap">
+                  {(event.isVirtual ||
+                    (event.isInPerson && event.location)) && <FaMapPin />}
+                  <span>
+                    {event.isVirtual && "Remote"}
+                    {event.isVirtual &&
+                      event.isInPerson &&
+                      event.location &&
+                      " AND in "}
+                    {event.isInPerson &&
+                      event.location &&
+                      Object.values(event.location).join(", ")}
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div className="isolate flex space-x-1 ">
+              {usernames &&
+                usernames.map((username) => {
+                  return (
+                    <Link
+                      href={`/${username}`}
+                      key={username}
+                      aria-label={`Visit user ${username}`}
+                      className="hidden lg:block h-10 w-10"
+                    >
+                      <FallbackImage
+                        src={`https://github.com/${username}.png`}
+                        alt={`Profile picture of ${username}`}
+                        width={fallbackImageSize}
+                        height={fallbackImageSize}
+                        fallback={username}
+                        className="relative z-30 inline-block rounded-full ring-2 ring-white"
+                      />
+                    </Link>
+                  );
+                })}
             </div>
           </div>
+          {event.price?.startingFrom > 0 && (
+            <div className="flex justify-end items-center">
+              <div>${event.price?.startingFrom}</div>
+            </div>
+          )}
         </div>
       </div>
+    </div>
+  );
+
+  const edit = (event) => (
+    <Edit
+      href={`/account/manage/event/${event._id}`}
+      label={`${event.name} Event`}
+    >
+      {item(event)}
+    </Edit>
+  );
+
+  return (
+    <li className="flex flex-row gap-8 w-full">
+      {manage ? edit(event) : item(event)}
     </li>
   );
 }

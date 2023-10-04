@@ -1,0 +1,47 @@
+{
+  "name": "Ssaava Ema",
+  "bio": "👨‍💻 Software engineer. React Dev🌐 | JavaScript Enthusiast 🚀. One code line at a time ✍️.  Love twitter tech community 🙌.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ssava_ema",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Ssaava",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ssava/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "I write blogs here",
+      "url": "https://ssava.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "vite",
+    "VSCode",
+    "React",
+    "Node js",
+    "GitHub",
+    "GitHub Actions"
+  ],
+  "milestones": [
+    {
+      "title": "Crossed 50 Followers on Twitter",
+      "date": "July 27, 2023",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Started focusing on my Twitter account and growing connections and honing my skills",
+      "url": "https://twitter.com/ssava_ema"
+    }
+  ]
+}
