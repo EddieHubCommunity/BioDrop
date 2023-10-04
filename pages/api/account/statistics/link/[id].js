@@ -3,7 +3,7 @@ import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import { Profile, ProfileStats, Link, LinkStats } from "@models/index";
+import { Link, LinkStats } from "@models/index";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -19,12 +19,16 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  const data = await getStatsForLink(session.username);
+  if (session.accountType !== "premium") {
+    res.status(401).json({ message: "You must have a Premium account." });
+  }
+
+  const data = await getStatsForLink(session.username, id);
 
   res.status(200).json(data);
 }
 
-export async function getStatsForLink(username, numberOfDays = 30) {
+export async function getStatsForLink(username, id, numberOfDays = 30) {
   await connectMongo();
 
   // This calculates the start date by subtracting the specified number of days from the current date.
@@ -32,94 +36,19 @@ export async function getStatsForLink(username, numberOfDays = 30) {
   const startDate = new Date();
   startDate.setDate(startDate.getDate() - numberOfDays);
 
-  let profileData = {};
+  let link = [];
   try {
-    const rankedProfiles = await Profile.aggregate([
-      {
-        $setWindowFields: {
-          sortBy: { views: -1 },
-          output: {
-            rank: {
-              $rank: {},
-            },
-          },
-        },
-      },
-      {
-        $match: {
-          username: username,
-        },
-      },
-    ]);
-
-    profileData = rankedProfiles[0];
+    link = Link.find({ _id: id, username: username });
   } catch (e) {
-    logger.error(e, "failed to load profile");
+    logger.error(e, `failed to load link for id: ${id}`);
   }
 
-  let profileViews = [];
+  let stats = [];
   try {
-    profileViews = await ProfileStats.find({
-      username,
-      date: { $gte: startDate },
-    }).sort({ date: "asc" });
+    stats = LinkStats.find({ link: id, date: { $gte: startDate } });
   } catch (e) {
-    logger.error(e, "failed to load stats");
+    logger.error(e, "failed to load stats for link");
   }
-
-  let totalViews = 0;
-  const dailyStats = profileViews.map((item) => {
-    totalViews += item.views;
-    return {
-      views: item.views,
-      date: item.date,
-    };
-  });
-
-  let linkClicks = [];
-  try {
-    linkClicks = await Link.find({ username }).sort({ clicks: -1 });
-  } catch (e) {
-    logger.error(e, "failed to load stats");
-  }
-
-  let dailyClicks = [];
-  try {
-    dailyClicks = await LinkStats.find({ username }).sort({
-      date: "asc",
-    });
-  } catch (e) {
-    logger.error(e, `failed to load url stats for ${username}`);
-  }
-
-  let totalClicks = 0;
-  const linkDailyStats = linkClicks.map((item) => {
-    totalClicks += item.clicks;
-    return {
-      _id: item._id,
-      url: item.url,
-      clicks: item.clicks,
-      daily: dailyClicks
-        .filter((link) => link.url === item.url)
-        .map((stat) => ({
-          clicks: stat.clicks,
-          date: stat.date,
-        })),
-    };
-  });
-
-  const data = {
-    profile: {
-      total: profileData.views,
-      monthly: totalViews,
-      daily: dailyStats,
-      rank: profileData.rank,
-    },
-    links: {
-      clicks: totalClicks,
-      individual: linkDailyStats,
-    },
-  };
 
   return JSON.parse(JSON.stringify(data));
 }

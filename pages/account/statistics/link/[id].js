@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
 
 import { getUserApi } from "../../../api/profiles/[username]";
-import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
@@ -64,49 +63,15 @@ export async function getServerSideProps(context) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
-  data.links.individual = data.links.individual.filter((link) =>
-    profile.links.some((pLink) => pLink.url === link.url),
-  );
-
-  const totalClicks = data.links.individual.reduce((acc, link) => {
-    return acc + link.clicks;
-  }, 0);
-  data.links.clicks = totalClicks;
-
-  data.profile.daily = data.profile.daily.map((day) => {
-    return {
-      views: day.views,
-      date: day.date,
-    };
-  });
-
   return {
     props: {
       data,
       profile,
-      BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
     },
   };
 }
 
 export default function Statistics({ data }) {
-  const router = useRouter();
-
-  const { data: session } = useSession();
-  if (typeof window !== "undefined" && window.localStorage) {
-    if (router.query.alert) {
-      localStorage.removeItem("premium-intent");
-    }
-    if (
-      session &&
-      session.accountType !== "premium" &&
-      localStorage.getItem("premium-intent")
-    ) {
-      localStorage.removeItem("premium-intent");
-      router.push("/api/stripe");
-    }
-  }
-
   return (
     <>
       <PageHead
