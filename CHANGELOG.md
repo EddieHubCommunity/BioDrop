@@ -1,4 +1,4 @@
-# [2.56.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.56.0) (2023-10-04)
+# [2.57.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.57.0) (2023-10-04)
 
 
 ### Bug Fixes
@@ -15,6 +15,7 @@
 * mobile star banner styling ([#9322](https://github.com/EddieHubCommunity/BioDrop/issues/9322)) ([49d11fd](https://github.com/EddieHubCommunity/BioDrop/commit/49d11fdf7dae0caf88b2b13c3f0167748b655183))
 * prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
 * profile repos + update cache ([#9288](https://github.com/EddieHubCommunity/BioDrop/issues/9288)) ([0e66901](https://github.com/EddieHubCommunity/BioDrop/commit/0e66901b79e58843a3071d9a2386ef0bfb2de8a9))
+* reduce motion for accessibility setting ([#9347](https://github.com/EddieHubCommunity/BioDrop/issues/9347)) ([c856e64](https://github.com/EddieHubCommunity/BioDrop/commit/c856e6481abb06c69325ed7b9a92ff3e2948731b)), closes [#9172](https://github.com/EddieHubCommunity/BioDrop/issues/9172)
 * remove app alert for new icons ([#9253](https://github.com/EddieHubCommunity/BioDrop/issues/9253)) ([82e17bb](https://github.com/EddieHubCommunity/BioDrop/commit/82e17bb4d049d1fa42a655814621b88a740ff969))
 * remove github cache update ([#9278](https://github.com/EddieHubCommunity/BioDrop/issues/9278)) ([bbcba54](https://github.com/EddieHubCommunity/BioDrop/commit/bbcba5479fae282be866ba417c39a3aa154cb764))
 * removed optional zod schema from name & bio ([#9205](https://github.com/EddieHubCommunity/BioDrop/issues/9205)) ([ed71dc2](https://github.com/EddieHubCommunity/BioDrop/commit/ed71dc2feeb0e04e51739cfe908e75cb47c003e9))
