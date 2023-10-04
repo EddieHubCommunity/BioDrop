@@ -17,4 +17,3 @@ export const searchTagNameInInput = (searchInput, tagName) => {
 
   return false;
 };
-

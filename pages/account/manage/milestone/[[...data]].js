@@ -96,7 +96,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         type: "error",
         message: "Milestone update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
@@ -112,7 +112,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
     const update = await res.json();
 
@@ -221,6 +221,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       onChange={(e) => setDate(e.target.value)}
                       value={date}
                       required
+                      min="1970-01-01"
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>

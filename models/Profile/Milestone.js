@@ -10,6 +10,7 @@ const MilestoneSchema = new Schema({
   date: {
     type: Date,
     required: true,
+    min: '1970-01-01'
   },
   isGoal: Boolean,
   title: {

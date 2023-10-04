@@ -46,12 +46,12 @@ export const authOptions = {
             following: githubProfile.following,
           },
         },
-        { upsert: true }
+        { upsert: true },
       );
       return true;
     },
     async redirect({ baseUrl }) {
-      return `${baseUrl}/account/statistics`;
+      return `${baseUrl}/account/onboarding`;
     },
     async jwt({ token, account, profile }) {
       // Persist the OAuth access_token and or the user id to the token right after signin
@@ -101,7 +101,7 @@ export const authOptions = {
         },
         {
           new: true,
-        }
+        },
       );
       if (profile) {
         await associateProfileWithAccount(account, profile._id);
@@ -122,7 +122,7 @@ export const authOptions = {
 
         await User.findOneAndUpdate(
           { _id: new ObjectId(account.userId) },
-          { stripeCustomerId: customer.id, type: "free" }
+          { stripeCustomerId: customer.id, type: "free" },
         );
       }
     },

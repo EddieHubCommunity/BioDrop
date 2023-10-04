@@ -1,20 +1,23 @@
-'✍ chore: profile':
-  - 'data/**'
+"✍ chore: profile":
+  - "data/**"
+
+"invalid":
+  - "data/**"
 
 tests:
-  - 'tests/**'
+  - "tests/**"
 
 storybook:
-  - 'stories/**'
+  - "stories/**"
 
 dependencies:
-  - 'package.*'
+  - "package.*"
 
-'CI/CD':
-  - '.github/**'
+"CI/CD":
+  - ".github/**"
 
-'📖 docs':
-  - 'pages/docs/**'
+"📖 docs":
+  - "pages/docs/**"
 
-'models':
-  - 'models/**'
+"models":
+  - "models/**"

@@ -1,0 +1,26 @@
+{
+  "name": "Judge-Paul Ogebe",
+  "bio": "Frontend Developer focused on creating unique web experiences.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/jadge_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/judge-paul-ogebe",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/judge-paul",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my articles on Hashnode",
+      "url": "https://hashnode.com/@jadge",
+      "icon": "FaHashnode"
+    }
+  ]
+}

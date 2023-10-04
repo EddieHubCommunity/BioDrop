@@ -1,0 +1,26 @@
+{
+  "name": "Amit Nalawade",
+  "bio": "Passionate Front-End Developer Creating Experiences",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AmitNal84430636",
+      "icon": "FaXTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/amit_0804/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/amit0804-tech",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/amit-nalawade-28b039205/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

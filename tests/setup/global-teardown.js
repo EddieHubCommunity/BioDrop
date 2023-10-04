@@ -10,7 +10,7 @@ dotenv.config();
 module.exports = async () => {
   // remove test file data
   USERS.forEach((username) => {
-    fs.unlinkSync(`./data/${username}.json`)
+    fs.unlinkSync(`./data/${username}.json`);
     if (fs.existsSync(`./data/${username}`)) {
       fs.rmSync(`./data/${username}`, { recursive: true, force: true });
     }
@@ -28,6 +28,6 @@ module.exports = async () => {
     testUsers.map(async (user) => {
       await Profile.deleteOne({ username: user.username });
       await Link.deleteMany({ username: user.username });
-    })
+    }),
   );
 };

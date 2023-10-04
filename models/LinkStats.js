@@ -28,7 +28,7 @@ const linkStatsSchema = new mongoose.Schema(
       ref: "Profile",
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 linkStatsSchema.index({ username: 1, date: 1 });

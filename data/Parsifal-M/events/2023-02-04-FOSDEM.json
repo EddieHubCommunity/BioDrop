@@ -1,13 +1,13 @@
 {
-    "userStatus": "attending",
-    "isVirtual": true,
-    "isInPerson": true,
-    "color": "purple",
-    "name": "FOSDEM 2023",
-    "description": "Free and Open source Software Developers' European Meeting is a non-commercial, volunteer-organized European event centered on free and open-source software development. It is aimed at developers and anyone interested in the free and open-source software movement.",
-    "date": {
-      "start": "2022-02-04T16:00:00.000+00:00",
-      "end": "2022-02-05T17:00:00.000+00:00"
-    },
-    "url": "https://fosdem.org/2023/"
+  "userStatus": "attending",
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "purple",
+  "name": "FOSDEM 2023",
+  "description": "Free and Open source Software Developers' European Meeting is a non-commercial, volunteer-organized European event centered on free and open-source software development. It is aimed at developers and anyone interested in the free and open-source software movement.",
+  "date": {
+    "start": "2022-02-04T16:00:00.000+00:00",
+    "end": "2022-02-05T17:00:00.000+00:00"
+  },
+  "url": "https://fosdem.org/2023/"
 }
