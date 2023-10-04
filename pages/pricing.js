@@ -298,7 +298,7 @@ export default function Premium({ user }) {
   const badge = (
     text,
     classnames1 = "shadow-xl shadow-green-500/50",
-    classnames2 = "animate-ping",
+    classnames2 = "motion-safe:animate-ping",
   ) => (
     <span
       className={classNames(

@@ -63,7 +63,7 @@ html:not(.dark) .dark-only {
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
+@media (prefers-reduced-motion: no-preference) {
   .animate-spin {
     animation: spin 5s linear infinite;
   }
