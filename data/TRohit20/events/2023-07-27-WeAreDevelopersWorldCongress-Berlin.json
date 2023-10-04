@@ -1,13 +1,13 @@
 {
-    "isVirtual": false,
-    "isInPerson": true,
-    "color": "red",
-    "name": "WeAreDevelopers World Congress 2023",
-    "description": "Every year, we are dedicated to bringing together software developers and tech decision-makers from all around the globe to discuss and learn about the latest trends and innovations shaping our world.",
-    "date": {
-      "start": "2023-07-27",
-      "end": "2023-07-28",
-      "cfpClose": "2023-03-06"
-    },
-    "url": "https://sessionize.com/wearedevelopers-worldcongress23/"
-  }
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "red",
+  "name": "WeAreDevelopers World Congress 2023",
+  "description": "Every year, we are dedicated to bringing together software developers and tech decision-makers from all around the globe to discuss and learn about the latest trends and innovations shaping our world.",
+  "date": {
+    "start": "2023-07-27",
+    "end": "2023-07-28",
+    "cfpClose": "2023-03-06"
+  },
+  "url": "https://sessionize.com/wearedevelopers-worldcongress23/"
+}

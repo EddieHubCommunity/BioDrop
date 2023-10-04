@@ -27,7 +27,7 @@ export async function getProfiles() {
           { isShadowBanned: { $eq: false } },
         ],
       },
-      ["_id", "bio", "name", "username", "avatar", "tags", "updatedAt"]
+      ["_id", "bio", "name", "username", "avatar", "tags", "updatedAt"],
     )
       .sort({ updatedAt: -1 })
       .limit(9);
