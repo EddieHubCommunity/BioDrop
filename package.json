@@ -94,7 +94,7 @@
     "eslint": "^8.45.0",
     "eslint-config-next": "^13.4.12",
     "eslint-plugin-storybook": "^0.6.13",
-    "postcss": "^8.4.27",
+    "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "storybook": "^7.2.1",
     "storybook-dark-mode": "^3.0.1"
