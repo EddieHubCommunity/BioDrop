@@ -1,4 +1,4 @@
-# [2.54.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.54.0) (2023-10-04)
+# [2.55.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.55.0) (2023-10-04)
 
 
 ### Bug Fixes
@@ -6,6 +6,7 @@
 * accessibility on tags input ([#9181](https://github.com/EddieHubCommunity/BioDrop/issues/9181)) ([57c9a9f](https://github.com/EddieHubCommunity/BioDrop/commit/57c9a9f38fcb95b3a140a68e2ab789b8185daab6))
 * button override classes ([#9203](https://github.com/EddieHubCommunity/BioDrop/issues/9203)) ([00a1255](https://github.com/EddieHubCommunity/BioDrop/commit/00a1255100fb1ba3c95218448878435065fb4a61))
 * default issue template dropdown to no ([#9234](https://github.com/EddieHubCommunity/BioDrop/issues/9234)) ([60142b2](https://github.com/EddieHubCommunity/BioDrop/commit/60142b23d0e5ad754bdbeb2b434d9e3447bf47d9))
+* **deps:** bump zod from 3.22.2 to 3.22.3 ([#9318](https://github.com/EddieHubCommunity/BioDrop/issues/9318)) ([1dfecdb](https://github.com/EddieHubCommunity/BioDrop/commit/1dfecdb3d8bccc6f2a027d37b4a33d94bc414ad6))
 * display more default icons [#8421](https://github.com/EddieHubCommunity/BioDrop/issues/8421) ([#9068](https://github.com/EddieHubCommunity/BioDrop/issues/9068)) ([5794d38](https://github.com/EddieHubCommunity/BioDrop/commit/5794d38b7aafd75321d932e450e9b289a11f60de)), closes [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) [#8684](https://github.com/EddieHubCommunity/BioDrop/issues/8684)
 * hacktoberfest ignore label for profiles ([#9237](https://github.com/EddieHubCommunity/BioDrop/issues/9237)) ([5e43023](https://github.com/EddieHubCommunity/BioDrop/commit/5e430239011f975e733578e7adad1b2911ff0f69))
 * max func duration ([#9224](https://github.com/EddieHubCommunity/BioDrop/issues/9224)) ([a9e717b](https://github.com/EddieHubCommunity/BioDrop/commit/a9e717b5707f5ebae1d3cc9b7807ba724d8889a1))
