@@ -7,6 +7,10 @@ import logger from "@config/logger";
 import Profile from "@models/Profile";
 import Link from "@models/Link";
 
+export const config = {
+  maxDuration: 60,
+};
+
 export default async function handler(req, res) {
   if (
     req.method !== "GET" ||

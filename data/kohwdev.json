@@ -1,0 +1,27 @@
+{
+    "name": "Woon Koh",
+    "bio": "Mobile device tester turned into Web Developer",
+    "tags": [
+        "Software Engineer",
+        "Web Developer",
+        "QA",
+        "Open to work"
+    ],
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/woonkoh1",
+            "icon": "FaXTwitter"
+        },
+        {
+            "name": "Check out my work",
+            "url": "https://github.com/kohwdev",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "Hire me",
+            "url": "https://www.linkedin.com/in/woon-koh-b1a748b4/",
+            "icon": "SiLinkedin"
+        }
+    ]
+}
