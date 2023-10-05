@@ -6,28 +6,16 @@ import getIcon from "@components/Icon";
 import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import Markdown from "@components/Markdown";
+import { shortenDate } from "@services/utils/dateFormat";
 
-function formatDate(day, month, year, dateFormat) {
-  switch (dateFormat) {
-    case "dd/mm/yyyy":
-      return `${day}/${month}/${year}`;
-    case "month/year":
-      return `${month}/${year}`;
-    case "year":
-      return `${year}`;
-    default:
-      return `${day}/${month}/${year}`;
-  }
-}
 export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
-    const milestoneDate = new Date(milestone.date);
-    const day = milestoneDate.getDate();
-    const month = milestoneDate.getMonth() + 1;
-    const year = milestoneDate.getFullYear();
-    const formattedDate = formatDate(day, month, year, milestone.dateFormat);
+    const formattedDate = shortenDate({
+      date: milestone.date,
+      formatStyle: milestone.dateFormat,
+    });
     setDate(formattedDate);
   }, [milestone, milestone.dateFormat]);
 
