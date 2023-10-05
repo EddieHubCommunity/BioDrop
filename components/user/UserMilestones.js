@@ -7,7 +7,6 @@ export default function UserMilestones({ milestones, manage = false }) {
   );
 
   const futureMilestones = milestones.filter((milestone) => milestone.isGoal);
-
   return (
     <>
       {!milestones?.length && (
