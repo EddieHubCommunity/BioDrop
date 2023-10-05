@@ -1,4 +1,4 @@
-# [2.57.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.57.0) (2023-10-04)
+# [2.58.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.58.0) (2023-10-05)
 
 
 ### Bug Fixes
@@ -26,6 +26,7 @@
 * star our repo text ([#9325](https://github.com/EddieHubCommunity/BioDrop/issues/9325)) ([f346332](https://github.com/EddieHubCommunity/BioDrop/commit/f3463321e3e011c1098ab5aa46d743e76a7fd585))
 * stripe integration landing page ([#9265](https://github.com/EddieHubCommunity/BioDrop/issues/9265)) ([ba3f91c](https://github.com/EddieHubCommunity/BioDrop/commit/ba3f91c3915d8297dcaae754d2f698846777bdfa))
 * test to check repo tab ([#9217](https://github.com/EddieHubCommunity/BioDrop/issues/9217)) ([852ce32](https://github.com/EddieHubCommunity/BioDrop/commit/852ce329161ae15408400d9c0330621bdb8cf6ad))
+* update dependencies ([#9343](https://github.com/EddieHubCommunity/BioDrop/issues/9343)) ([9c2bf15](https://github.com/EddieHubCommunity/BioDrop/commit/9c2bf15fcdefd135889c203828b11fe3aa6b4035))
 
 
 ### Features
