@@ -339,7 +339,7 @@ export async function webhookHandler(req, res) {
             stripeCustomerId: event.data.object.customer,
           });
           logger.info(
-            `Found user "${user.email}" by stripeCustomerId: ${event.data.object.customer}`,
+            `Found user "${userBefore.email}" by stripeCustomerId: ${event.data.object.customer}`,
           );
         } catch (e) {
           logger.error(
