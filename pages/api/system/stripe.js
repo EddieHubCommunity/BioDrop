@@ -281,7 +281,7 @@ export async function webhookHandler(req, res) {
           }
 
           logger.info(
-            `Found user "${user.username}" by stripeCustomerId: ${event.data.object.customer}`,
+            `Found user "${user.email}" by stripeCustomerId: ${event.data.object.customer}`,
           );
         } catch (e) {
           logger.error(
@@ -300,13 +300,13 @@ export async function webhookHandler(req, res) {
           );
         } catch (e) {
           logger.error(
-            `Failed to upgrade user "${user.username}" by stripeCustomerId: ${event.data.object.customer}`,
+            `Failed to upgrade user "${user.email}" by stripeCustomerId: ${event.data.object.customer}`,
           );
           return res.status(500).json({ received: false });
         }
 
         logger.info(
-          `Upgraded user "${user.username}" by stripeCustomerId: ${
+          `Upgraded user "${user.email}" by stripeCustomerId: ${
             event.data.object.customer
           } to ${update.premiumTrialStartDate ? "trial" : "premium"}}`,
         );
