@@ -338,6 +338,9 @@ export async function webhookHandler(req, res) {
           userBefore = await User.findOne({
             stripeCustomerId: event.data.object.customer,
           });
+          logger.info(
+            `Found user "${userBefore.email}" by stripeCustomerId: ${event.data.object.customer}`,
+          );
         } catch (e) {
           logger.error(
             e,
@@ -351,6 +354,10 @@ export async function webhookHandler(req, res) {
             { stripeCustomerId: event.data.object.customer },
             { type: "free" },
             { new: true },
+          );
+
+          logger.info(
+            `Downgrading user "${user.email}" by stripeCustomerId: ${event.data.object.customer}`,
           );
         } catch (e) {
           logger.error(
