@@ -1,4 +1,4 @@
-# [2.58.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.58.0) (2023-10-05)
+# [2.59.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.59.0) (2023-10-05)
 
 
 ### Bug Fixes
@@ -37,6 +37,7 @@
 * dedup repos page ([#9210](https://github.com/EddieHubCommunity/BioDrop/issues/9210)) ([50f63cf](https://github.com/EddieHubCommunity/BioDrop/commit/50f63cf51ef49fc501c69e5e420f35c6ba751d35))
 * increase execution time for loading json files ([#9142](https://github.com/EddieHubCommunity/BioDrop/issues/9142)) ([b4d8c4b](https://github.com/EddieHubCommunity/BioDrop/commit/b4d8c4b1a97dbaad206ca0b62c286aa4186cf795))
 * log profile updates from manage forms ([#8605](https://github.com/EddieHubCommunity/BioDrop/issues/8605)) ([4b46169](https://github.com/EddieHubCommunity/BioDrop/commit/4b4616955fff1ae226b4526320c8f680a1d47a5c))
+* logchange on free/premium ([#9358](https://github.com/EddieHubCommunity/BioDrop/issues/9358)) ([18c1ee6](https://github.com/EddieHubCommunity/BioDrop/commit/18c1ee6d11059d3b8d2cb2bbcbb1874b57a753ef))
 * onboarding landing page ([#9162](https://github.com/EddieHubCommunity/BioDrop/issues/9162)) ([d5330f2](https://github.com/EddieHubCommunity/BioDrop/commit/d5330f20bb8fc0e035793f6e18a98e3db1588522))
 * removing help badge on events page ([#9287](https://github.com/EddieHubCommunity/BioDrop/issues/9287)) ([e30a718](https://github.com/EddieHubCommunity/BioDrop/commit/e30a71838ccbb499c8a44b65e55e2a4654c948c0))
 * repo to show open issues ([#9310](https://github.com/EddieHubCommunity/BioDrop/issues/9310)) ([ed06459](https://github.com/EddieHubCommunity/BioDrop/commit/ed0645971e6db651eb4e0c34565643dcc8e7ae8a))
