@@ -16,6 +16,9 @@ const ProfileSchema = new Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",
     },
+    pronoun: {
+      type: String,
+    },
     source: {
       type: String,
       required: true,

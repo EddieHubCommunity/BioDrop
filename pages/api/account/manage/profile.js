@@ -52,10 +52,11 @@ export async function getProfileApi(username) {
   let getProfile = await Profile.findOne({ username });
 
   if (!getProfile) {
-    log.info(`peofile not found for username: ${username}`);
+    log.info(`profile not found for username: ${username}`);
     return { error: "Profile not found." };
   }
 
+  console.log({ getProfile });
   return JSON.parse(JSON.stringify(getProfile));
 }
 
@@ -78,6 +79,7 @@ export async function updateProfileApi(
     name: data.name,
     isStatsPublic: data.isStatsPublic,
     bio: data.bio,
+    pronoun: data.pronoun,
     tags: data.tags
       .filter((tag) => Boolean(tag.trim()))
       .map((tag) => tag.trim()),
@@ -116,6 +118,7 @@ export async function updateProfileApi(
 
   // associate profile to account
   try {
+    console.log('getProfile', getProfile._id, account);
     await associateProfileWithAccount(account, getProfile._id);
   } catch (e) {
     log.error(

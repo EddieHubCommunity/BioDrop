@@ -6,6 +6,28 @@
     "inline",
     "column-2"
   ],
+  "pronouns": [
+    {
+      "label": "Don't specify",
+      "value": "Don't specify"
+    },
+    {
+      "label": "they/them",
+      "value": "they/them"
+    },
+    {
+      "label": "she/her",
+      "value": "she/her"
+    },
+    {
+      "label": "he/him",
+      "value": "he/him"
+    },
+    {
+      "label": "Custom",
+      "value": ""
+    }
+  ],
   "animations": {
     "none": "No Animation",
     "pulse": "Pulse",

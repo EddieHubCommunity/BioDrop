@@ -52,6 +52,7 @@ export async function getAccountByProviderAccountId(
 export async function associateProfileWithAccount(account, newProfileId) {
   await connectMongo();
 
+  console.log({ account, newProfileId });
   try {
     const existingProfile = account.profiles.find((profile) =>
       profile.equals(newProfileId),
