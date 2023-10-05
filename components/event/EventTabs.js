@@ -34,7 +34,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
                   tab.key === eventType
                     ? "border-tertiary-medium"
                     : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
-                  "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2 cursor-pointer"
+                  "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2 cursor-pointer",
                 )}
                 aria-current={tab.key === eventType ? "page" : undefined}
               >

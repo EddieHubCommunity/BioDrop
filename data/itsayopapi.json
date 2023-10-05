@@ -1,0 +1,21 @@
+{
+  "name":"Ayomide Hassan",
+  "bio": "Frontend Software Engineer",
+   "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itsayopapi",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/the.african_gorilla/",
+      "icon": "FaInstagram"
+    }, 
+      {
+      "name": "Follow me on Github",
+      "url": "https://www.github.com/itsayopapi",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

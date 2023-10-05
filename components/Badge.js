@@ -42,7 +42,7 @@ export default function Badge({
         disable
           ? "text-primary-medium bg-primary-low"
           : "text-black bg-tertiary-medium",
-        `absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 p-2 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold rounded-full z-10 ${css} ${badgeClassName}`
+        `absolute inline-block rotate-0 skew-x-0 skew-y-0 scale-x-100 scale-y-100 p-2 text-xs leading-none text-center whitespace-nowrap align-baseline font-bold rounded-full z-10 ${css} ${badgeClassName}`,
       )}
       onClick={() => (onClick ? onClick() : null)}
     >
@@ -59,7 +59,7 @@ export default function Badge({
     <div
       className={classNames(
         className ? className : "w-fit",
-        "inline-flex relative"
+        "inline-flex relative",
       )}
     >
       {children}

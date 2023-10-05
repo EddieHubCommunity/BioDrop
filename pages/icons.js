@@ -19,6 +19,21 @@ export default function Icons() {
     "FaLinkedin",
     "FaGit",
     "FaXTwitter",
+    "FaInstagram",
+    "SiHashnode",
+    "FaLink",
+    "FaYoutube",
+    "FaGlobe",
+    "FaDev",
+    "FaDiscord",
+    "FaMedium",
+    "SiMedium",
+    "FaFacebook",
+    "FaGithubAlt",
+    "SiLinkedin",
+    "SiLeetcode",
+    "FaDollarSign",
+    "FaMastodon",
   ];
   const icons = {};
 
@@ -82,7 +97,7 @@ export default function Icons() {
               <li key={index}>
                 <IconCard iconName={iconName} />
               </li>
-            )
+            ),
           )}
         </ul>
       </Page>

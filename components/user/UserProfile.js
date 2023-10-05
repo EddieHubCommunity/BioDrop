@@ -32,7 +32,7 @@ function UserProfile({ BASE_URL, data }) {
   //qrRef.current is pointing to the DOM node and firstChild to its canvas
   const downloadQR = () =>
     qrRef.current.firstChild.toBlob((blob) =>
-      saveAs(blob, `biodrop-${data.username}.png`)
+      saveAs(blob, `biodrop-${data.username}.png`),
     );
 
   return (
@@ -73,7 +73,7 @@ function UserProfile({ BASE_URL, data }) {
         <Markdown>{data.bio}</Markdown>
       </div>
       {!qrShow && (
-        <div className="flex flex-wrap justify-center">
+        <div className="hidden md:flex flex-wrap justify-center">
           {data.accountType === "premium" && (
             <Tag
               name="Premium"
@@ -112,22 +112,24 @@ function UserProfile({ BASE_URL, data }) {
       </Modal>
 
       {data.isStatsPublic && (
-        <BasicCards
-          data={[
-            {
-              name: "Rank",
-              current: data.profileStats?.profile?.rank,
-            },
-            {
-              name: "Total Profile Views",
-              current: data.profileStats?.profile?.total || 0,
-            },
-            {
-              name: "Profile Views on last 30 days",
-              current: data.profileStats?.profile?.monthly || 0,
-            },
-          ]}
-        />
+        <div className="hidden md:block">
+          <BasicCards
+            data={[
+              {
+                name: "Rank",
+                current: data.profileStats?.profile?.rank,
+              },
+              {
+                name: "Total Profile Views",
+                current: data.profileStats?.profile?.total || 0,
+              },
+              {
+                name: "Profile Views on last 30 days",
+                current: data.profileStats?.profile?.monthly || 0,
+              },
+            ]}
+          />
+        </div>
       )}
 
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
@@ -174,7 +176,7 @@ function UserProfile({ BASE_URL, data }) {
                     href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
                       includeText
                         ? `&text=${encodeURIComponent(
-                            `Check out ${data.name}'s profile on BioDrop.io`
+                            `Check out ${data.name}'s profile on BioDrop.io`,
                           )}`
                         : ""
                     }`}

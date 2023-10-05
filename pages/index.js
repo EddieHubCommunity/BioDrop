@@ -293,7 +293,10 @@ export default function Home({
                 data-kt-value="oxibVr4Q0NlF"
                 data-kt-owner="nkmvj7Xr"
               ></div>
-              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF" strategy="lazyOnload" />
+              <Script
+                src="https://app.kartra.com/video/oxibVr4Q0NlF"
+                strategy="lazyOnload"
+              />
             </div>
           </div>
         </div>
@@ -331,7 +334,7 @@ export default function Home({
                     featureIdx % 2 === 0
                       ? "lg:col-start-1"
                       : "lg:col-start-8 xl:col-start-9",
-                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
+                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4",
                   )}
                 >
                   <h3 className="text-lg sm:text-2xl font-bold text-primary-low">
@@ -351,7 +354,7 @@ export default function Home({
                     featureIdx % 2 === 0
                       ? "lg:col-start-6 xl:col-start-5"
                       : "lg:col-start-1",
-                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
+                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8",
                   )}
                 >
                   <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">

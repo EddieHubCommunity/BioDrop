@@ -1,0 +1,11 @@
+{
+  "name": "Njoli Patrick",
+  "bio": "Software Engineer intrested in building complex systems",
+   "links": [
+    {
+      "name": "Follow me on X",
+      "url": "https://x.com/njolipatrick",
+      "icon": "FaTwitter"
+    }
+  ]
+}

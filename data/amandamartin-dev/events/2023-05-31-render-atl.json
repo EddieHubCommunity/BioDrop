@@ -1,13 +1,13 @@
 {
-    "isVirtual": false,
-    "isInPerson": true,
-    "userStatus": "attending",
-    "color": "#f788df",
-    "name": "RenderATL",
-    "description": "80+ speakers, 3000+ attendees, & 3 floors, over three days. Code, Culture, & Connecting. This is a tech conference. This is RenderATL.",
-    "date":{  
+  "isVirtual": false,
+  "isInPerson": true,
+  "userStatus": "attending",
+  "color": "#f788df",
+  "name": "RenderATL",
+  "description": "80+ speakers, 3000+ attendees, & 3 floors, over three days. Code, Culture, & Connecting. This is a tech conference. This is RenderATL.",
+  "date": {
     "start": "2023-05-31T08:00:00.000-08:00",
-      "end": "2023-06-02T15:30:00.000-08:00"
-    },
-    "url": "https://www.renderatl.com/"
+    "end": "2023-06-02T15:30:00.000-08:00"
+  },
+  "url": "https://www.renderatl.com/"
 }
