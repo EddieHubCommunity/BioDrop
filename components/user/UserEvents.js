@@ -52,11 +52,11 @@ export default function UserEvents({
       return events;
     }
     let filteredEvents = events.filter((event) =>
-      filterByEventType(event, eventType)
+      filterByEventType(event, eventType),
     );
     if (eventType === "future" && filteredEvents.length === 0) {
       filteredEvents = events.filter((event) =>
-        filterByEventType(event, "all")
+        filterByEventType(event, "all"),
       );
     }
     return filteredEvents;
@@ -67,28 +67,30 @@ export default function UserEvents({
       return true;
     }
     const filterEvents = events.filter((event) =>
-      filterByEventType(event, option.value)
+      filterByEventType(event, option.value),
     );
     return filterEvents.length > 0;
   });
 
   return (
     <>
-      {eventsToShow.length === 0 && !manage && (
+      {eventsToShow.length === 0 && (
         <Alert type="info" message="No Events found" />
       )}
 
-      <Select
-        name="event-type"
-        value={eventType}
-        label="Select an event type"
-        onChange={handleEventTypeChange}
-        options={filteredEventOptions.map((option) => ({
-          label: option.name,
-          value: option.value,
-        }))}
-        className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
-      />
+      {eventsToShow.length > 0 && (
+        <Select
+          name="event-type"
+          value={eventType}
+          label="Select an event type"
+          onChange={handleEventTypeChange}
+          options={filteredEventOptions.map((option) => ({
+            label: option.name,
+            value: option.value,
+          }))}
+          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+        />
+      )}
 
       {eventsToShow.length > 0 && (
         <ul role="list" className="mt-4">

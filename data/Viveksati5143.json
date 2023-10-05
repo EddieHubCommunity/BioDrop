@@ -1,6 +1,6 @@
 {
   "name": "Vivek Sati",
-  "bio": " **Open Source** | DevOps Intern @Incloudo ",
+  "bio": " **Open Source** | DevOps Engineer Intern",
   "tags": ["Open Source", "DevOps", "AWS"],
   "socials": [
     {
@@ -16,6 +16,7 @@
       "url": "https://www.linkedin.com/in/vivek-sati"
     }
   ],
+  "testimonials": ["akshitagupta15june"],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -36,6 +37,11 @@
       "name": "Follow me on Hashnode",
       "url": "https://hashnode.com/@viveksati",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on DEV.to",
+      "url": "https://dev.to/viveksati",
+      "icon": "FaDev"
     },
     {
       "name": "Check me out on Quine",

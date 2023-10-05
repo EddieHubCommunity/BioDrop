@@ -50,4 +50,5 @@ export function shortenDate({ date, formatStyle }) {
     default:
       return `${day}/${month}/${year}`;
   }
+
 }

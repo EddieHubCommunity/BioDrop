@@ -45,19 +45,19 @@ export default async function handler(req, res) {
     ],
     mode: "subscription",
     customer: session.stripeCustomerId,
-    success_url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/account/statistics?alert=premium`,
-    cancel_url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/account/statistics?alert=cancel`,
+    success_url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/account/onboarding?alert=premium`,
+    cancel_url: `${clientEnv.NEXT_PUBLIC_BASE_URL}/account/onboarding?alert=cancel`,
     payment_method_collection: "if_required",
     allow_promotion_codes: true,
     ...subscription,
   });
   logger.info(
-    `Created stripe session "${stripeSession.id}" for username: "${session.username}}"`
+    `Created stripe session "${stripeSession.id}" for username: "${session.username}}"`,
   );
 
   if (!stripeSession.url) {
     logger.error(
-      `Failed creating stripe session for username: "${session.username}}"`
+      `Failed creating stripe session for username: "${session.username}}"`,
     );
     return res.status(500).json({
       error: "Could not create Stripe checkout session",
