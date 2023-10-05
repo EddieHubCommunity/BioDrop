@@ -1,0 +1,21 @@
+{
+  "name": "Rossana Ventrella",
+  "bio": "Junior Software Developer | Career Switcher | Women in Tech | Calisthenics enthusiast",
+ "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rossana87",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on Linkedin",
+      "url": "https://www.linkedin.com/in/rossana-ventrella/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my portfolio",
+      "url": "https://www.rossanaventrella.com/",
+      "icon": "FaGlobe"
+    }
+  ]
+}
