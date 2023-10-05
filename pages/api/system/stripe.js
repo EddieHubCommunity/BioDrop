@@ -302,6 +302,7 @@ export async function webhookHandler(req, res) {
           logger.error(
             `Failed to upgrade user "${user.username}" by stripeCustomerId: ${event.data.object.customer}`,
           );
+          return res.status(500).json({ received: false });
         }
 
         logger.info(
@@ -356,6 +357,7 @@ export async function webhookHandler(req, res) {
             e,
             `Cannot downgrade user with stripeCustomerId: ${event.data.object.customer}`,
           );
+          return res.status(500).json({ received: false });
         }
 
         logChange(
