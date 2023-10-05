@@ -252,9 +252,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="Select format"
                       value={dateFormat}
                       options={options}
-                      onChange={(e) => {
-                        setdateFormat(e.target.value);
-                      }}
+                      onChange={(e) => setdateFormat(e.target.value)}
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
