@@ -1,8 +1,6 @@
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import dynamic from "next/dynamic";
-import { useRouter } from "next/router";
-import { useSession } from "next-auth/react";
 
 import { getUserApi } from "../../../api/profiles/[username]";
 import logger from "@config/logger";
@@ -11,6 +9,7 @@ import PageHead from "@components/PageHead";
 import Navigation from "@components/account/manage/Navigation";
 import { PROJECT_NAME } from "@constants/index";
 import { getStatsForLink } from "pages/api/account/statistics/link/[id]";
+import Alert from "@components/Alert";
 
 const DynamicChart = dynamic(
   () => import("../../../../components/statistics/StatsChart"),
@@ -56,9 +55,8 @@ export async function getServerSideProps(context) {
   }
 
   let data = {};
-
   try {
-    data = await getStatsForLink(username);
+    data = await getStatsForLink(username, context.query.id);
   } catch (e) {
     logger.error(e, "ERROR get user's account statistics");
   }
@@ -82,17 +80,21 @@ export default function Statistics({ data }) {
       <Page>
         <Navigation />
 
-        {data.profile.daily.length > 0 && (
+        {data.stats.length === 0 && (
+          <Alert type="info" message={`No data for "${data.url}"`} />
+        )}
+
+        {data.stats.length > 0 && (
           <div className="border mb-6 dark:border-primary-medium">
             <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
               <h3 className="text-lg font-medium leading-6 text-primary-high">
-                Profile views
+                Link clicks for {data.url}
               </h3>
               <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
-                Number of Profile visits per day.
+                Number of link clicks per day for the last 30 days.
               </p>
             </div>
-            <DynamicChart data={data.profile.daily} />
+            <DynamicChart data={data.stats} dataKey="clicks" />
           </div>
         )}
       </Page>

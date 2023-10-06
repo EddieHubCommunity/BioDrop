@@ -143,7 +143,7 @@ export default function Statistics({ data, profile, BASE_URL }) {
                 Profile views
               </h3>
               <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
-                Number of Profile visits per day.
+                Number of Profile visits per day for the last 30 days
               </p>
             </div>
             <DynamicChart data={data.profile.daily} />
