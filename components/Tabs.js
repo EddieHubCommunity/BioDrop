@@ -1,16 +1,16 @@
-import Link from "@components/Link";
 import Select from "@components/form/Select";
 import { classNames } from "@services/utils/classNames";
-export default function Tabs({ tabs, setTabs }) {
+
+export default function Tabs({ tabs, setTabs, selectedTab }) {
   return (
     <div>
       <div className="sm:hidden">
         {tabs.length > 1 && (
           <Select
             name="tabs"
-            value={tabs.find((tab) => tab.current)?.name}
+            value={tabs.find((tab) => tab === selectedTab.name)}
             label="Select a tab"
-            onChange={setTabs}
+            onChange={(e) => setTabs(e, e.target.value)}
             className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
             options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
           />
@@ -20,17 +20,16 @@ export default function Tabs({ tabs, setTabs }) {
         <div className="border-b border-primary-medium-low">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
-              <Link
+              <button
                 key={tab.name}
-                href={tab.href}
-                onClick={(e) => setTabs(e, tab.name)}
+                onClick={(e) => setTabs(e, tab)}
                 className={classNames(
                   tab.current
                     ? "border-tertiary-medium "
                     : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
                   `justify-center text-base group flex border-b-2 py-4 font-medium grow`,
                 )}
-                aria-current={tab.current ? "page" : undefined}
+                aria-current={selectedTab ? "page" : undefined}
               >
                 {tab.icon && (
                   <tab.icon
@@ -38,8 +37,8 @@ export default function Tabs({ tabs, setTabs }) {
                     aria-hidden="true"
                   />
                 )}
-                {tab.name} {tab.total && `(${tab.total})`}
-              </Link>
+                {tab.name} {tab.total ? `(${tab.total})` : ""}
+              </button>
             ))}
           </nav>
         </div>
