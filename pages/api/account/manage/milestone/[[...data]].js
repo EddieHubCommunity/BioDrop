@@ -103,6 +103,7 @@ export async function updateMilestoneApi(
       "title",
       "icon",
       "description",
+      "dateFormat",
     ]);
   } catch (e) {
     log.error(
@@ -208,6 +209,7 @@ export async function addMilestoneApi(context, username, addMilestone) {
       "title",
       "icon",
       "description",
+      "dateFormat",
     ]);
   } catch (e) {
     log.error(

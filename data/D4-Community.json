@@ -4,6 +4,10 @@
   "tags": ["Open Source", "Community", "Content creation"],
   "socials": [
     {
+      "icon": "FaWhatsapp",
+      "url": "https://chat.whatsapp.com/Khwy3LEyjdX4Kx8VJ1MXmW"
+    },
+    {
       "icon": "FaTwitter",
       "url": "https://twitter.com/D4Community"
     },

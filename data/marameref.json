@@ -1,0 +1,37 @@
+{
+  "name": "Amarachi Omereife",
+  "bio": "Seasoned Software Engineer and Azure Cloud Engineer **Proud Techie**. Health & Wellness Enthusiast",
+  "socials": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/marameref",
+      "icon": "marameref"
+    },
+
+    {
+      "name": "Follow me on linkedin",
+      "url": "https://www.linkedin.com/in/amarachi-crystal-omereife-416a081a1/",
+      "icon": "Amarachi Crystal Omereife"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/marameref",
+      "icon": "marameref"
+    } 
+  ],
+
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/marameref",
+      "icon": "marameref"
+    },
+
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@marameref",
+      "icon": "Amara Crystal Omereife"
+    }
+]
+}
+
