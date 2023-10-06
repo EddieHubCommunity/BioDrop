@@ -1,50 +1,61 @@
 {
   "name": "Jugaad",
   "bio": "Hello World, I'm a **tech** oriented **graphics designer**.",
-  "tags": ["Open Source", "Adobe Creative Suite", "HTML", "CSS"],
+  "tags": [
+    "Open Source",
+    "Adobe Creative Suite",
+    "HTML",
+    "CSS"
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
-      "url": "https://dub.sh/pqTJjgG"
+      "url": "https://www.linkedin.com/in/jugaad/"
     },
     {
       "icon": "FaInstagram",
-      "url": "https://dub.sh/FDrlE9P"
+      "url": "https://www.instagram.com/jugaaaadd/"
     },
     {
       "icon": "FaGithub",
-      "url": "https://dub.sh/31Ll6HO"
+      "url": "https://github.com/jugaaadd"
     }
   ],
   "links": [
     {
       "group": "Design Portfolio",
       "name": "Behance - My creative world.",
-      "url": "https://dub.sh/YM45cld",
+      "url": "https://www.behance.net/Jugaad",
       "icon": "FaBehance"
     },
     {
       "group": "Digital Store",
       "name": "Gumroad - Passive project in free time.",
-      "url": "https://dub.sh/K0sIKGT",
+      "url": "https://jugaadd.gumroad.com/",
       "icon": "SiGumroad"
+    },
+    {
+      "group": "Tech Writer",
+      "name": "Medium - Your tech writer",
+      "url": "https://medium.com/@jugaaadd",
+      "icon": "FaMedium"
     },
     {
       "group": "Socials",
       "name": "Instagram - Your privacy guide, tech news, finance & much more.",
-      "url": "https://dub.sh/FDrlE9P",
+      "url": "https://www.instagram.com/jugaaaadd/",
       "icon": "FaInstagram"
     },
     {
       "group": "Socials",
       "name": "LinkedIn - Let's connect.",
-      "url": "https://dub.sh/pqTJjgG",
+      "url": "https://www.linkedin.com/in/jugaad/",
       "icon": "FaLinkedin"
     },
     {
       "group": "Tech Universe",
       "name": "Github - Where world create softwares.",
-      "url": "https://dub.sh/31Ll6HO",
+      "url": "https://github.com/jugaaadd",
       "icon": "FaGithub"
     }
   ]
