@@ -1,0 +1,16 @@
+{
+  "name": "Yana Gorina",
+  "bio": "Software Engineer",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yana-gorina/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/YanaGorina-alt/",
+      "icon": "FaGithub"
+    }
+  ]
+}
