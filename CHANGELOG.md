@@ -1,4 +1,4 @@
-# [2.63.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.63.0) (2023-10-06)
+# [2.64.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.64.0) (2023-10-06)
 
 
 ### Bug Fixes
@@ -14,6 +14,7 @@
 * max func duration move to file ([#9226](https://github.com/EddieHubCommunity/BioDrop/issues/9226)) ([530aeba](https://github.com/EddieHubCommunity/BioDrop/commit/530aeba72ee442d5acb667176f31304fc6cd316d))
 * min date for milestone  ([#9060](https://github.com/EddieHubCommunity/BioDrop/issues/9060)) ([f7e5c65](https://github.com/EddieHubCommunity/BioDrop/commit/f7e5c65f934f7a93870cf8d0412688ddc2c85402))
 * mobile star banner styling ([#9322](https://github.com/EddieHubCommunity/BioDrop/issues/9322)) ([49d11fd](https://github.com/EddieHubCommunity/BioDrop/commit/49d11fdf7dae0caf88b2b13c3f0167748b655183))
+* os roadmap page side nav ([#9298](https://github.com/EddieHubCommunity/BioDrop/issues/9298)) ([#9342](https://github.com/EddieHubCommunity/BioDrop/issues/9342)) ([5a526d0](https://github.com/EddieHubCommunity/BioDrop/commit/5a526d0deff560728b617f732c54ea9adac4deb3))
 * prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
 * profile repos + update cache ([#9288](https://github.com/EddieHubCommunity/BioDrop/issues/9288)) ([0e66901](https://github.com/EddieHubCommunity/BioDrop/commit/0e66901b79e58843a3071d9a2386ef0bfb2de8a9))
 * reduce motion for accessibility setting ([#9347](https://github.com/EddieHubCommunity/BioDrop/issues/9347)) ([c856e64](https://github.com/EddieHubCommunity/BioDrop/commit/c856e6481abb06c69325ed7b9a92ff3e2948731b)), closes [#9172](https://github.com/EddieHubCommunity/BioDrop/issues/9172)
