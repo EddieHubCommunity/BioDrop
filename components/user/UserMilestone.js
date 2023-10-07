@@ -6,16 +6,18 @@ import getIcon from "@components/Icon";
 import Link from "@components/Link";
 import Edit from "@components/account/manage/Edit";
 import Markdown from "@components/Markdown";
+import { shortenDate } from "@services/utils/dateFormat";
 
 export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
-    const parse = Date.parse(milestone.date);
-    if (!isNaN(parse)) {
-      setDate(new Date(parse).toLocaleDateString());
-    }
-  }, [milestone.date]);
+    const formattedDate = shortenDate({
+      date: milestone.date,
+      formatStyle: milestone.dateFormat,
+    });
+    setDate(formattedDate);
+  }, [milestone, milestone.dateFormat]);
 
   const DisplayIcon = getIcon(milestone.icon);
   const item = (milestone, isGoal) => {

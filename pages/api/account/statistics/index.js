@@ -1,4 +1,4 @@
-import { authOptions } from "../auth/[...nextauth]";
+import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";

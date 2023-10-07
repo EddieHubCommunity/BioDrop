@@ -9,14 +9,14 @@ import Bulb from "@components/Bulb";
 const animations = config.animations;
 
 const getLinkAnimation = new Map([
-  [animations.pulse, "group animate-pulse"],
-  [animations.bounce, "animate-bounce opacity-75"],
+  [animations.pulse, "group motion-safe:animate-pulse"],
+  [animations.bounce, "motion-safe:animate-bounce opacity-75"],
   [animations.glow, `bg-white ${styles.glow}`],
   [animations.wiggle, styles.wiggle],
 ]);
 
 const getIconAnimation = new Map([
-  [animations.ping, "animate-ping absolute opacity-75"],
+  [animations.ping, "motion-safe:animate-ping absolute opacity-75"],
   [animations.iconGlow, styles.glow],
 ]);
 
