@@ -154,7 +154,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                 <li
                   key={testimonial._id}
                   className={classNames(
-                    reorder && "animate-pulse",
+                    reorder && "motion-safe:animate-pulse",
                     "flex items-center justify-between gap-x-6 py-5",
                   )}
                 >

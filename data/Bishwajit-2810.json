@@ -1,0 +1,29 @@
+{
+  "name": "Bishwajit Chakraborty",
+  "bio": "Open Source Enthusiest | A **Learner** | Community ",
+  "tags": [
+    "Open Source",
+    "C++",
+    "Java",
+    "Dart",
+    "Flutter",
+    "DevOps"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/Bishwajit_2810" },
+    { "icon": "FaGithub", "url": "https://github.com/Bishwajit-2810" }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Bishwajit_2810",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/bishwajit-chakraborty/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

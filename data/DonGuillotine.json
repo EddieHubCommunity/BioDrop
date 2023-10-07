@@ -1,0 +1,21 @@
+{
+  "name": "Donald Nwokoro",
+  "bio": "I'm a software engineer specializing in backend development, always eager to find ways to increase the efficiency and scalability of backend systems.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_donGuillotine",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "linkedin.com/in/donald-nwokoro/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/DonGuillotine",
+      "icon": "FaGithub"
+    }
+  ]
+}

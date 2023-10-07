@@ -45,28 +45,35 @@ export default async function handler(req, res) {
 }
 
 export async function getRepoApi(username, id) {
+  console.log(username, id);
   await connectMongo();
   const log = logger.child({ username });
-  const getRepo = await Profile.aggregate([
-    {
-      $match: {
-        username,
+
+  let getRepo = {};
+  try {
+    getRepo = await Profile.aggregate([
+      {
+        $match: {
+          username,
+        },
       },
-    },
-    {
-      $unwind: "$repos",
-    },
-    {
-      $match: {
-        "repos._id": new ObjectId(id),
+      {
+        $unwind: "$repos",
       },
-    },
-    {
-      $replaceRoot: {
-        newRoot: "$repos",
+      {
+        $match: {
+          "repos._id": new ObjectId(id),
+        },
       },
-    },
-  ]);
+      {
+        $replaceRoot: {
+          newRoot: "$repos",
+        },
+      },
+    ]);
+  } catch (e) {
+    log.error(e, `error finding repo for user: ${username}`);
+  }
 
   if (!getRepo) {
     log.info(`repo not found for username: ${username}`);
@@ -151,7 +158,7 @@ export async function addRepoApi(context, username, addRepo) {
       },
       { new: true },
     );
-    getRepo = await getRepoApi(username, id);
+    getRepo = await getRepoApi(username, id.toString());
   } catch (e) {
     const error = `failed to add repo for username: ${username}`;
     log.error(e, error);
@@ -163,7 +170,7 @@ export async function addRepoApi(context, username, addRepo) {
     logChange(await getServerSession(context.req, context.res, authOptions), {
       model: "Repo",
       changesBefore: null,
-      changesAfter: await getRepoApi(username, id),
+      changesAfter: getRepo,
     });
   } catch (e) {
     log.error(
@@ -221,13 +228,10 @@ export async function deleteRepoApi(context, username, id) {
   return JSON.parse(JSON.stringify({}));
 }
 
-export async function updateRepoApi(context, username, id, githubData) {
+export async function updateRepoApi(username, id, githubData) {
   await connectMongo();
   const log = logger.child({ username });
 
-  const beforeUpdate = await getRepoApi(username, id);
-
-  let getRepo = {};
   try {
     await Profile.findOneAndUpdate(
       {
@@ -238,6 +242,7 @@ export async function updateRepoApi(context, username, id, githubData) {
         $set: {
           source: "database",
           "repos.$": {
+            _id: new ObjectId(id),
             url: githubData.html_url,
             fullname: githubData.name,
             name: githubData.name,
@@ -262,24 +267,19 @@ export async function updateRepoApi(context, username, id, githubData) {
       },
       { new: true },
     );
-    getRepo = await getRepoApi(username, id);
   } catch (e) {
-    const error = `failed to add repo for username: ${username}`;
+    const error = `failed to update repo ${githubData.html_url} for username: ${username}`;
     log.error(e, error);
     return { error };
   }
 
-  // Add to Changelog
+  let getRepo = {};
   try {
-    logChange(await getServerSession(context.req, context.res, authOptions), {
-      model: "Repo",
-      changesBefore: beforeUpdate,
-      changesAfter: await getRepoApi(username, id),
-    });
+    getRepo = await getRepoApi(username, id);
   } catch (e) {
     log.error(
       e,
-      `failed to record Repo changes in changelog for username: ${username}`,
+      `failed to get repo ${githubData.html_url} for username: ${username}`,
     );
   }
 
