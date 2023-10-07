@@ -1,10 +1,11 @@
-# [2.68.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.68.0) (2023-10-07)
+# [2.69.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.69.0) (2023-10-07)
 
 
 ### Bug Fixes
 
 * accessibility on tags input ([#9181](https://github.com/EddieHubCommunity/BioDrop/issues/9181)) ([57c9a9f](https://github.com/EddieHubCommunity/BioDrop/commit/57c9a9f38fcb95b3a140a68e2ab789b8185daab6))
 * button override classes ([#9203](https://github.com/EddieHubCommunity/BioDrop/issues/9203)) ([00a1255](https://github.com/EddieHubCommunity/BioDrop/commit/00a1255100fb1ba3c95218448878435065fb4a61))
+* changelog and version bump ([#9391](https://github.com/EddieHubCommunity/BioDrop/issues/9391)) ([260215b](https://github.com/EddieHubCommunity/BioDrop/commit/260215b4ea396b2e323df2896e196f6f16470191))
 * default issue template dropdown to no ([#9234](https://github.com/EddieHubCommunity/BioDrop/issues/9234)) ([60142b2](https://github.com/EddieHubCommunity/BioDrop/commit/60142b23d0e5ad754bdbeb2b434d9e3447bf47d9))
 * **deps:** bump zod from 3.22.2 to 3.22.3 ([#9318](https://github.com/EddieHubCommunity/BioDrop/issues/9318)) ([1dfecdb](https://github.com/EddieHubCommunity/BioDrop/commit/1dfecdb3d8bccc6f2a027d37b4a33d94bc414ad6))
 * disable the reorder button for single link ([#9262](https://github.com/EddieHubCommunity/BioDrop/issues/9262)) ([acdd74a](https://github.com/EddieHubCommunity/BioDrop/commit/acdd74a4e95959c407f1438eb1ef0de2f75e38dd))
