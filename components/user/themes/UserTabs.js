@@ -1,4 +1,3 @@
-import { useSearchParams } from "next/navigation";
 import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
 import UserMilestones from "../UserMilestones";
@@ -46,9 +45,9 @@ export default function UserTabs({ data, BASE_URL }) {
       component: <UserRepos repos={data.repos} />,
     },
   ];
-  const searchParams = useSearchParams();
-  const currentTab = searchParams.get("tab") || "links";
+
   const router = useRouter();
+  const currentTab = router.query.tab || "links";
 
   const selectedTab = tabs.find((tab) => tab.href === currentTab) || tabs[0];
 

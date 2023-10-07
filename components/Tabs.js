@@ -8,7 +8,7 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
         {tabs.length > 1 && (
           <Select
             name="tabs"
-            value={selectedTab.name}
+            value={selectedTab?.name}
             label="Select a tab"
             onChange={(e) =>
               setTabs(tabs.find((tab) => tab.name === e.currentTarget.value))
@@ -27,7 +27,7 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
                 key={tab.name}
                 onClick={() => setTabs(tab)}
                 className={classNames(
-                  selectedTab.name === tab.name
+                  selectedTab?.name === tab.name
                     ? "border-tertiary-medium "
                     : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
                   `justify-center text-base group flex border-b-2 py-4 font-medium grow`,
