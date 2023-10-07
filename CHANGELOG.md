@@ -1,3 +1,12 @@
+## [2.69.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.0...v2.69.1) (2023-10-07)
+
+
+### Bug Fixes
+
+* community resources page responsive ([#9247](https://github.com/EddieHubCommunity/BioDrop/issues/9247)) ([a7073ff](https://github.com/EddieHubCommunity/BioDrop/commit/a7073ff98ac085ad0da77df6ab156de519b48dcf))
+
+
+
 # [2.69.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.69.0) (2023-10-07)
 
 
@@ -79,15 +88,6 @@
 ### Features
 
 * tabs to url for deep nesting ([#9174](https://github.com/EddieHubCommunity/BioDrop/issues/9174)) ([7f28f65](https://github.com/EddieHubCommunity/BioDrop/commit/7f28f65f60b6831eb06a23d65740a32c4d73687a)), closes [#9007](https://github.com/EddieHubCommunity/BioDrop/issues/9007)
-
-
-
-## [2.22.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.11...v2.22.12) (2023-09-26)
-
-
-### Bug Fixes
-
-* improved testimonial importing output ([#9166](https://github.com/EddieHubCommunity/BioDrop/issues/9166)) ([341b3ab](https://github.com/EddieHubCommunity/BioDrop/commit/341b3abf29332c5d21b3c5fb12403ccf8801ad54))
 
 
 
