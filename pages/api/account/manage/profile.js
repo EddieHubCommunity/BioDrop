@@ -56,7 +56,6 @@ export async function getProfileApi(username) {
     return { error: "Profile not found." };
   }
 
-  console.log({ getProfile });
   return JSON.parse(JSON.stringify(getProfile));
 }
 
@@ -118,7 +117,6 @@ export async function updateProfileApi(
 
   // associate profile to account
   try {
-    console.log('getProfile', getProfile._id, account);
     await associateProfileWithAccount(account, getProfile._id);
   } catch (e) {
     log.error(

@@ -45,7 +45,6 @@ export default async function handler(req, res) {
 }
 
 export async function getRepoApi(username, id) {
-  console.log(username, id);
   await connectMongo();
   const log = logger.child({ username });
 

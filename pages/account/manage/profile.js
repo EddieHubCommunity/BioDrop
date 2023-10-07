@@ -70,9 +70,6 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   });
   const [layout, setLayout] = useState(profile.layout || "classic");
   const [pronoun, setPronoun] = useState(profile.pronoun || "Don't specify");
-  const [showCustomPronounInput, setShowCustomPronounInput] = useState(
-      profile.pronoun === "Custom"
-  );
   const [name, setName] = useState(profile.name || "Your name");
   const [isStatsPublic, setIsStatsPublic] = useState(
     profile.isStatsPublic ? true : false,
@@ -99,19 +96,6 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     setTags(updatedTags);
   };
 
-  const handleSetPronoun = (value) => {
-    const selectedPronoun = pronouns.find((pronoun) => pronoun.value === value);
-    setPronoun(selectedPronoun);
-    setShowCustomPronounInput(selectedPronoun.label === "Custom");
-  }
-
-  const addCustomPronoun = (customPronoun) => {
-    setPronoun((prev) => ({
-      value: customPronoun,
-      label: prev.label,
-    }));
-  }
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
@@ -119,7 +103,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ pronoun: pronoun.value, name, bio, tags, layout, isStatsPublic }),
+      body: JSON.stringify({ name, bio, tags, layout, pronoun, isStatsPublic }),
     });
     const update = await res.json();
 
@@ -244,19 +228,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                             label="Pronouns"
                             value={pronoun}
                             options={pronouns}
-                            onChange={(e) => handleSetPronoun(e.target.value)}
+                            onChange={(e) => setPronoun(e.target.value)}
                         />
                       </div>
-                      {showCustomPronounInput &&
-                          <div className="mt-1">
-                            <Input
-                                name="pronoun"
-                                placeholder="Pronouns"
-                                value={pronoun.value}
-                                onChange={(e) => addCustomPronoun(e.target.value)}
-                            />
-                          </div>
-                      }
                     </div>
                     <div className="col-span-3 sm:col-span-4">
                       <Textarea
