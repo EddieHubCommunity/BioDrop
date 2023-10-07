@@ -1,3 +1,12 @@
+## [2.69.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.1...v2.69.2) (2023-10-07)
+
+
+### Bug Fixes
+
+* help link to faq ([#9401](https://github.com/EddieHubCommunity/BioDrop/issues/9401)) ([7e43831](https://github.com/EddieHubCommunity/BioDrop/commit/7e43831d9eb2f4b359b7c6ab9301c1391e908a46))
+
+
+
 ## [2.69.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.0...v2.69.1) (2023-10-07)
 
 
@@ -79,15 +88,6 @@
 ### Bug Fixes
 
 * hide testimonials, tags, stats on mobile ([#9178](https://github.com/EddieHubCommunity/BioDrop/issues/9178)) ([92aa62f](https://github.com/EddieHubCommunity/BioDrop/commit/92aa62fefa6abd7067bc6978c704a3888db27d14)), closes [#9154](https://github.com/EddieHubCommunity/BioDrop/issues/9154)
-
-
-
-# [2.23.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.12...v2.23.0) (2023-09-27)
-
-
-### Features
-
-* tabs to url for deep nesting ([#9174](https://github.com/EddieHubCommunity/BioDrop/issues/9174)) ([7f28f65](https://github.com/EddieHubCommunity/BioDrop/commit/7f28f65f60b6831eb06a23d65740a32c4d73687a)), closes [#9007](https://github.com/EddieHubCommunity/BioDrop/issues/9007)
 
 
 
