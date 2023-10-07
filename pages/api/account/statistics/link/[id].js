@@ -50,7 +50,10 @@ export async function getStatsForLink(username, id, numberOfDays = 30) {
 
   let stats = [];
   try {
-    stats = await LinkStats.find({ link: link._id }, "date clicks");
+    stats = await LinkStats.find(
+      { link: link._id, date: { $gte: startDate } },
+      "date clicks",
+    ).sort({ date: "asc" });
   } catch (e) {
     const error = `failed to load stats for link id: ${id}`;
     logger.error(e, error);
