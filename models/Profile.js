@@ -18,6 +18,10 @@ const ProfileSchema = new Schema(
     },
     pronoun: {
       type: String,
+      enum: {
+        values: config.pronouns.map((pronoun) => pronoun.value),
+        message: "{VALUE} is not a supported profile layout",
+      },
     },
     source: {
       type: String,

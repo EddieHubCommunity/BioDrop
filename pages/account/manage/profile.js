@@ -69,7 +69,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     additionalMessage: "",
   });
   const [layout, setLayout] = useState(profile.layout || "classic");
-  const [pronoun, setPronoun] = useState(profile.pronoun || "Don't specify");
+  const [pronoun, setPronoun] = useState(profile.pronoun || "");
   const [name, setName] = useState(profile.name || "Your name");
   const [isStatsPublic, setIsStatsPublic] = useState(
     profile.isStatsPublic ? true : false,
