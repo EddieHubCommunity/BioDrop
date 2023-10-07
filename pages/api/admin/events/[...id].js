@@ -48,7 +48,7 @@ export async function updateEventApi(id, data) {
         $set: {
           "events.$.isEnabled": data.isEnabled,
         },
-      }
+      },
     );
   } catch (e) {
     logger.error(e, `failed to update event for event: ${id} by admin`);

@@ -21,9 +21,19 @@
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/jfmartinz/"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/profile.php?id=61550922350882"
     }
   ],
   "links": [
+    {
+      "group": "Join our community",
+      "name": "DevLounge",
+      "url": "https://discord.gg/4hVUVucEvV",
+      "icon": "FaDiscord"
+    },
     {
       "group": "Socials",
       "name": "Follow My Coding Journey",
@@ -42,6 +52,13 @@
       "url": "https://www.linkedin.com/in/jfmartinz/",
       "icon": "FaLinkedin"
     },
+    {
+      "group": "Socials",
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61550922350882",
+      "icon": "FaFacebook"
+    },
+
     {
       "group": "Coding Challenges",
       "name": "Codewars",
@@ -76,7 +93,7 @@
       "date": "August 10 2023",
       "icon": "FaMedal",
       "color": "purple",
-      "description": "Achieved 182nd place on the GSSoC23 leaderboard out of 1557 active participants. Contributed significantly to open-source projects and demonstrated dedication."
+      "description": "Achieved 182nd place on the GSSoC23 leaderboard out of 1600+ active participants. Contributed significantly to open-source projects and demonstrated dedication."
     }
   ]
 }

@@ -51,7 +51,15 @@ export default function UserEvents({
     if (eventType === "all") {
       return events;
     }
-    return events.filter((event) => filterByEventType(event, eventType));
+    let filteredEvents = events.filter((event) =>
+      filterByEventType(event, eventType),
+    );
+    if (eventType === "future" && filteredEvents.length === 0) {
+      filteredEvents = events.filter((event) =>
+        filterByEventType(event, "all"),
+      );
+    }
+    return filteredEvents;
   };
   const eventsToShow = getFilteredEvents();
   const filteredEventOptions = eventOptions.filter((option) => {
@@ -59,18 +67,18 @@ export default function UserEvents({
       return true;
     }
     const filterEvents = events.filter((event) =>
-      filterByEventType(event, option.value)
+      filterByEventType(event, option.value),
     );
     return filterEvents.length > 0;
   });
 
   return (
     <>
-      {eventsToShow.length === 0 && !manage && (
+      {eventsToShow.length === 0 && (
         <Alert type="info" message="No Events found" />
       )}
-  
-      {!manage && (
+
+      {eventsToShow.length > 0 && (
         <Select
           name="event-type"
           value={eventType}
@@ -83,6 +91,7 @@ export default function UserEvents({
           className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
         />
       )}
+
       {eventsToShow.length > 0 && (
         <ul role="list" className="mt-4">
           {eventsToShow.map((event, index) => (

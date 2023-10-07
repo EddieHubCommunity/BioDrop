@@ -69,14 +69,12 @@ export default function ManageEvents({ events }) {
         {alert && (
           <Alert type={alerts[alert].type} message={alerts[alert].message} />
         )}
-
         <Navigation />
         <Button href="/account/manage/event">
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Event
         </Button>
-
-        <UserEvents events={events} manage={true} filter="all" />
+        <UserEvents events={events} manage={true} />
       </Page>
     </>
   );

@@ -1,12 +1,15 @@
 {
   "name": "Satish Sutar",
-  "bio": "Cloud Engineer. Cross-platform DevOps Engineer. Travel enthusiast Yoga & Tech aficionado",
+  "bio": "Cloud Engineer | Cross-platform DevOps Engineer | MLOps Enthusiast | Travel enthusiast | Yoga & Tech aficionado",
   "tags": [
     "DevOps",
     "Cloud",
+    "SRE",
     "Open Source",
-    "Technical Content Writer",
-    "Blogging"
+    "Service Mesh",
+    "Platform Engineering",
+    "Python",
+    "Go"
   ],
   "socials": [
     {

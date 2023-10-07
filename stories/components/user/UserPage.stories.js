@@ -17,6 +17,6 @@ export const Basic = {
     data: {
       ...profile,
     },
-    BASE_URL: "https://biodrop.eddiehub.io",
+    BASE_URL: "https://biodrop.io",
   },
 };

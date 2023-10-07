@@ -26,7 +26,7 @@ Contribution to the map or any other part of the BioDrop is detailed in the <Lin
 
 In the current implementation, the location information of a user is only updated when they visit their specific profile page. Therefore, during local development, no user has their location information in the database, leading to the map page not displaying any user markers.
 
-To display user markers on the map page during local development, you can run the automated tests. The automated tests will visit some user profiles and create location information in the database. This will allow the user markers to appear on the map. For more information on how to execute the automated tests, please refer to the [Automated Tests Doc](https://biodrop.eddiehub.io/docs/contributing/automated-tests). Alternatively, you can manually visit multiple user profiles to populate the database with location information.
+To display user markers on the map page during local development, you can run the automated tests. The automated tests will visit some user profiles and create location information in the database. This will allow the user markers to appear on the map. For more information on how to execute the automated tests, please refer to the [Automated Tests Doc](https://biodrop.io/docs/contributing/automated-tests). Alternatively, you can manually visit multiple user profiles to populate the database with location information.
 
 You can find the relevant code that retrieves the location information for each user in the [`getLocation.js`](https://github.com/EddieHubCommunity/BioDrop/blob/main/services/profiles/getLocation.js) file in the `services/profiles` directory.
 

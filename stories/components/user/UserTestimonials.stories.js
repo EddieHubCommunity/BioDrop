@@ -8,6 +8,6 @@ export default {
 export const Basic = {
   args: {
     testimonials: profile.testimonials,
-    BASE_URL: "https://biodrop.eddiehub.io",
+    BASE_URL: "https://biodrop.io",
   },
 };

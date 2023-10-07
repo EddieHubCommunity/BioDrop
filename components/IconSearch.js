@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { Combobox } from "@headlessui/react";
-import * as FaIcons from "react-icons/fa";
+import * as FaIcons from "react-icons/fa6";
 import * as SiIcons from "react-icons/si";
 import getIcon from "./Icon";
+import Label from "./form/Label";
 
 function IconSearch({ selectedIcon, handleSelectedIcon }) {
   const [query, setQuery] = useState("");
@@ -21,9 +22,7 @@ function IconSearch({ selectedIcon, handleSelectedIcon }) {
 
   return (
     <Combobox value={selectedIcon} onChange={handleSelectedIcon}>
-      <label htmlFor={"search-icon"} className="mt-4 mb-3">
-        Icon
-      </label>
+      <Label htmlFor="search-icon">Icon</Label>
       <Combobox.Input
         name="search-icon"
         onChange={(event) => setQuery(event.target.value)}

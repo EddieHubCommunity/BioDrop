@@ -1,7 +1,12 @@
 {
   "name": "Jugaad",
   "bio": "Hello World, I'm a **tech** oriented **graphics designer**.",
-  "tags": ["Open Source", "Adobe Creative Suite", "HTML", "CSS"],
+  "tags": [
+    "Open Source",
+    "Adobe Creative Suite",
+    "HTML",
+    "CSS"
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
@@ -28,6 +33,12 @@
       "name": "Gumroad - Passive project in free time.",
       "url": "https://jugaadd.gumroad.com/",
       "icon": "SiGumroad"
+    },
+    {
+      "group": "Tech Writer",
+      "name": "Medium - Your tech writer",
+      "url": "https://medium.com/@jugaaadd",
+      "icon": "FaMedium"
     },
     {
       "group": "Socials",

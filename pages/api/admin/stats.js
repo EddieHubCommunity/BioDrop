@@ -5,7 +5,7 @@ import { serverEnv } from "@config/schemas/serverSchema";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 
-import { Profile } from "@models/index";
+import { Changelog, Profile, User } from "@models/index";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -65,6 +65,22 @@ export async function getStatsApi() {
     logger.error(e, "failed to load isEnabled false profiles");
   }
 
+  let totalPremiumProfiles = 0;
+  try {
+    totalPremiumProfiles = await User.countDocuments({
+      type: "premium",
+    });
+  } catch (e) {
+    logger.error(e, "failed to load totalPremiumProfiles profiles");
+  }
+
+  let totalChangelogs = 0;
+  try {
+    totalChangelogs = await Changelog.countDocuments({});
+  } catch (e) {
+    logger.error(e, "failed to load totalChangelogs");
+  }
+
   return {
     statusCode: 200,
     stats: {
@@ -72,6 +88,8 @@ export async function getStatsApi() {
       profilesUsingJson: totalProfilesUsingJson || 0,
       profilesUsingForms: totalProfilesUsingForms || 0,
       totalProfilesDisabled: totalProfilesDisabled || 0,
+      totalPremiumProfiles: totalPremiumProfiles || 0,
+      totalChangelogs: totalChangelogs || 0,
     },
   };
 }

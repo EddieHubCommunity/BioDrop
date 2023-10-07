@@ -33,7 +33,7 @@ export default async function handler(req, res) {
   }
 
   if (session && session.username === username) {
-    return res.status(200).redirect(decodeURIComponent(link.url));
+    return res.status(200).redirect(link.url);
   }
 
   const date = new Date();
@@ -47,12 +47,12 @@ export default async function handler(req, res) {
       {
         $inc: { clicks: 1 },
       },
-      { upsert: true }
+      { upsert: true },
     );
   } catch (e) {
     logger.error(
       e,
-      `failed incrementing ${date} platform stats for ${username}`
+      `failed incrementing ${date} platform stats for ${username}`,
     );
   }
 
@@ -66,7 +66,7 @@ export default async function handler(req, res) {
       {
         $inc: { clicks: 1 },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     );
   } catch (e) {
     logger.error(e, `failed incrementing link stats for ${date}`);
@@ -77,14 +77,14 @@ export default async function handler(req, res) {
       { _id },
       {
         $inc: { clicks: 1 },
-      }
+      },
     );
   } catch (e) {
     logger.error(
       e,
-      `failed incrementing link: ${link.url} for username ${username}`
+      `failed incrementing link: ${link.url} for username ${username}`,
     );
   }
 
-  return res.status(201).redirect(decodeURIComponent(link.url));
+  return res.status(201).redirect(link.url);
 }

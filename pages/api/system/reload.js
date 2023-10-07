@@ -7,13 +7,17 @@ import logger from "@config/logger";
 import Profile from "@models/Profile";
 import Link from "@models/Link";
 
+export const config = {
+  maxDuration: 60,
+};
+
 export default async function handler(req, res) {
   if (
     req.method !== "GET" ||
     req.query.secret !== serverEnv.BIODROP_API_SECRET
   ) {
     logger.error(
-      `attempt to load profile json but security check failed: "${req.query.secret}"`
+      `attempt to load profile json but security check failed: "${req.query.secret}"`,
     );
     return res.status(401).json({ error: "ONLY system calls allowed" });
   }
@@ -22,7 +26,7 @@ export default async function handler(req, res) {
   // 1. load all profiles
   const basicProfiles = findAllBasic();
   const fullProfiles = basicProfiles.map((profile) =>
-    findOneByUsernameFull(profile)
+    findOneByUsernameFull(profile),
   );
 
   // 2. save basic profiles to database
@@ -48,8 +52,8 @@ export default async function handler(req, res) {
             (testimonial) =>
               !currentProfile.testimonials.some(
                 (currentTestimonial) =>
-                  currentTestimonial.username === testimonial.username
-              )
+                  currentTestimonial.username === testimonial.username,
+              ),
           );
 
           if (!newTestimonials || newTestimonials.length === 0) {
@@ -70,15 +74,15 @@ export default async function handler(req, res) {
                     isPinned: false,
                   })),
                 ],
-              }
+              },
             );
             logger.info(
-              `Updated profile "${profile.username}" with testimonials only ${newTestimonials.length}`
+              `Updated profile "${profile.username}" with testimonials only ${newTestimonials.length}`,
             );
           } catch (e) {
             logger.error(
               e,
-              `failed to update testimonials for ${profile.username}`
+              `failed to update testimonials for ${profile.username}`,
             );
           }
         }
@@ -94,7 +98,7 @@ export default async function handler(req, res) {
           bio: profile.bio,
           tags: profile.tags,
         },
-        { upsert: true, new: true }
+        { upsert: true, new: true },
       );
 
       if (currentProfile.links || profile.links || profile.socials) {
@@ -115,9 +119,9 @@ export default async function handler(req, res) {
                     profile: currentProfile._id,
                     order: position,
                   },
-                  { upsert: true, new: true }
+                  { upsert: true, new: true },
                 );
-              })
+              }),
             );
           } catch (e) {
             logger.error(e, `failed to update links for ${profile.username}`);
@@ -143,15 +147,15 @@ export default async function handler(req, res) {
                     isPinned: true,
                     profile: currentProfile._id,
                   },
-                  { upsert: true, new: true }
+                  { upsert: true, new: true },
                 );
-              })
+              }),
             );
           }
         } catch (e) {
           logger.error(
             e,
-            `failed to update profile socials for ${profile.username}`
+            `failed to update profile socials for ${profile.username}`,
           );
         }
 
@@ -160,11 +164,11 @@ export default async function handler(req, res) {
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              links: (
-                await Link.find({ username: profile.username })
-              ).map((link) => link._id),
+              links: (await Link.find({ username: profile.username })).map(
+                (link) => link._id,
+              ),
             },
-            { upsert: true, new: true }
+            { upsert: true, new: true },
           );
         }
 
@@ -178,14 +182,14 @@ export default async function handler(req, res) {
         await Promise.all(
           currentProfile.links
             .filter(
-              (link) => !jsonFileLinks.map((l) => l.url).includes(link.url)
+              (link) => !jsonFileLinks.map((l) => l.url).includes(link.url),
             )
             .map(async (link) => {
               await Link.findOneAndUpdate(
                 { _id: link._id },
-                { isEnabled: false, isPinned: false }
+                { isEnabled: false, isPinned: false },
               );
-            })
+            }),
         );
       }
 
@@ -215,7 +219,7 @@ export default async function handler(req, res) {
             { username: profile.username },
             {
               milestones,
-            }
+            },
           );
         }
       } catch (e) {
@@ -235,13 +239,13 @@ export default async function handler(req, res) {
                 description: testimonials.description,
                 isPinned: testimonials.isPinned || false,
               })),
-            }
+            },
           );
         }
       } catch (e) {
         logger.error(
           e,
-          `failed to update testimonials for ${profile.username}`
+          `failed to update testimonials for ${profile.username}`,
         );
       }
 
@@ -261,17 +265,19 @@ export default async function handler(req, res) {
                   end: event.date.end,
                 },
                 url: event.url,
-                isSpeaking: event.userStatus && event.userStatus.toLowerCase() == "speaking",
+                isSpeaking:
+                  event.userStatus &&
+                  event.userStatus.toLowerCase() == "speaking",
                 speakingTopic: event.speakingTopic,
                 price: event.price,
               })),
-            }
+            },
           );
         }
       } catch (e) {
         logger.error(e, `failed to update events for ${profile.username}`);
       }
-    })
+    }),
   );
 
   // all "file" profiles not in json files should be disabled
@@ -284,12 +290,12 @@ export default async function handler(req, res) {
         disabledProfiles.push(profile.username);
         return await Profile.findOneAndUpdate(
           { username: profile.username },
-          { isEnabled: false }
+          { isEnabled: false },
         );
       }
 
       return;
-    })
+    }),
   );
 
   return res.status(200).json({
@@ -342,7 +348,7 @@ function findOneByUsernameFull(data) {
     process.cwd(),
     "data",
     username,
-    "testimonials"
+    "testimonials",
   );
   // Map all testimonial files to an array of objects with new db schema
   try {
@@ -354,8 +360,8 @@ function findOneByUsernameFull(data) {
           ...JSON.parse(
             fs.readFileSync(
               path.join(filePathTestimonials, testimonialFile),
-              "utf8"
-            )
+              "utf8",
+            ),
           ),
           username: username,
           isPinned: !!data.testimonials.includes(username),
@@ -379,7 +385,7 @@ function findOneByUsernameFull(data) {
     try {
       const event = {
         ...JSON.parse(
-          fs.readFileSync(path.join(filePathEvents, filename), "utf8")
+          fs.readFileSync(path.join(filePathEvents, filename), "utf8"),
         ),
         username,
       };
@@ -402,7 +408,7 @@ function findOneByUsernameFull(data) {
         isPinned: data.socials.find((social) => social.url === link.url)
           ? true
           : false,
-      })
+      }),
     );
     data.links = links;
   }

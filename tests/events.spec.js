@@ -10,6 +10,7 @@ test("Click on events profile in navbar navigates to events page", async ({
     .getByRole("navigation")
     .getByRole("link", { name: "Events" })
     .click();
+  await page.waitForLoadState("networkidle");
   await expect(page).toHaveURL(/\/events/);
 });
 

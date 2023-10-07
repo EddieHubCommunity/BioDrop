@@ -23,19 +23,42 @@ export default async function handler(req, res) {
     return res.status(401).json({});
   }
 
-  const profiles = await getProfiles();
+  const { filter } = req.query;
+  const profiles = await getProfiles(filter);
 
   res.status(200).json(profiles);
 }
-export async function getProfiles() {
+export async function getProfiles(filter = "recently updated") {
   await connectMongo();
 
   let profiles = [];
-  try {
-    profiles = await Profile.find({}).sort({ updatedAt: -1 }).limit(10);
-  } catch (e) {
-    logger.error(e, "failed loading profiles");
-    return profiles;
+  if (filter === "recently updated") {
+    try {
+      profiles = await Profile.find({}).sort({ updatedAt: -1 }).limit(20);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
+  }
+
+  if (filter === "by rank") {
+    try {
+      profiles = await Profile.aggregate([
+        {
+          $setWindowFields: {
+            sortBy: { views: -1 },
+            output: {
+              rank: {
+                $rank: {},
+              },
+            },
+          },
+        },
+      ]).limit(20);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
   }
 
   return JSON.parse(JSON.stringify(profiles));

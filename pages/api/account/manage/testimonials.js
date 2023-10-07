@@ -89,7 +89,7 @@ export async function updateTestimonialPinnedApi(username, data) {
           source: "database",
           "testimonials.$.isPinned": data.isPinned,
         },
-      }
+      },
     );
   } catch (e) {
     log.error(e, `failed to update testimonial for username: ${username}`);
@@ -112,7 +112,7 @@ export async function updateTestimonialOrderApi(username, data) {
           source: "database",
           testimonials: data,
         },
-      }
+      },
     );
   } catch (e) {
     log.error(e, `failed to update testimonial for username: ${username}`);
