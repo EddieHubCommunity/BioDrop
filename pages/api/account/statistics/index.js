@@ -67,14 +67,30 @@ export async function getStats(username, numberOfDays = 30) {
     logger.error(e, "failed to load stats");
   }
 
+  // let totalViews = 0;
+  // const dailyStats = profileViews.map((item) => {
+  //   totalViews += item.views;
+  //   return {
+  //     views: item.views,
+  //     date: item.date,
+  //   };
+  // });
+
   let totalViews = 0;
-  const dailyStats = profileViews.map((item) => {
-    totalViews += item.views;
-    return {
-      views: item.views,
-      date: item.date,
-    };
-  });
+  let dailyStats = [];
+  for (let day = 0; day < numberOfDays; day++) {
+    const date = new Date();
+    date.setDate(date.getDate() - numberOfDays + day);
+    const result = profileViews.find(
+      (result) => result.date.toDateString() === date.toDateString(),
+    );
+    if (result) {
+      totalViews += result.views;
+      dailyStats.push(result);
+    } else {
+      dailyStats.push({ date, views: 0 });
+    }
+  }
 
   let linkClicks = [];
   try {

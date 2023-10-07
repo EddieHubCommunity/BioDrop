@@ -69,7 +69,6 @@ export async function getStatsForLink(username, id, numberOfDays = 30) {
     );
     stats.push(result ? result : { date, clicks: 0 });
   }
-  console.log(stats);
 
   return JSON.parse(
     JSON.stringify({ url: link.url, total: link.clicks, stats }),
