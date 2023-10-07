@@ -10,7 +10,7 @@ import Link from "@models/Link";
 export default async function handler(req, res) {
   if (
     req.method !== "GET" ||
-    req.query.secret !== serverEnv.LINKFREE_API_SECRET
+    req.query.secret !== serverEnv.BIODROP_API_SECRET
   ) {
     logger.error(
       `attempt to load profile json but security check failed: "${req.query.secret}"`
@@ -194,11 +194,11 @@ export default async function handler(req, res) {
         if (profile.milestones) {
           const milestones = profile.milestones.map((milestone) => {
             let date = {};
-            const convert = new Date(milestone.date)
+            const convert = new Date(milestone.date);
             if (convert.toString() !== "Invalid Date") {
               date = {
-                date: convert
-              }
+                date: convert,
+              };
             }
 
             return {
@@ -207,14 +207,14 @@ export default async function handler(req, res) {
               title: milestone.title,
               icon: milestone.icon,
               description: milestone.description,
-              ...date
-            }
+              ...date,
+            };
           });
 
           await Profile.findOneAndUpdate(
             { username: profile.username },
             {
-              milestones
+              milestones,
             }
           );
         }
@@ -261,6 +261,8 @@ export default async function handler(req, res) {
                   end: event.date.end,
                 },
                 url: event.url,
+                isSpeaking: event.userStatus && event.userStatus.toLowerCase() == "speaking",
+                speakingTopic: event.speakingTopic,
                 price: event.price,
               })),
             }

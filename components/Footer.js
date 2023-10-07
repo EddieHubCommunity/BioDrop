@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import FaLinkedin from "@components/icons/FaLinkedin";
 import FaGithub from "@components/icons/FaGithub";
 import FaYoutube from "@components/icons/FaYoutube";
@@ -9,6 +7,12 @@ import RocketLaunchIcon from "@heroicons/react/20/solid/RocketLaunchIcon";
 import Button from "./Button";
 import Link from "@components/Link";
 import app from "@config/app.json";
+import {
+  BASE_GITHUB_PROJECT_URL,
+  BASE_GITHUB_URL,
+  PROJECT_NAME,
+} from "@constants/index";
+import LogoWide from "@public/logos/LogoWide";
 
 export default function Footer() {
   const navigation = {
@@ -34,7 +38,7 @@ export default function Footer() {
       { name: "Json Playground", href: "/playground", external: false },
       {
         name: "Contributing Guide",
-        href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/CONTRIBUTING.md",
+        href: BASE_GITHUB_PROJECT_URL + "/blob/main/CONTRIBUTING.md",
         external: true,
       },
       { name: "Road map", href: "/roadmap", external: false },
@@ -42,7 +46,7 @@ export default function Footer() {
     community: [
       {
         name: "EddieHub GitHub Org",
-        href: "https://github.com/EddieHubCommunity",
+        href: BASE_GITHUB_URL,
         external: true,
       },
       {
@@ -53,7 +57,7 @@ export default function Footer() {
       { name: "Resources", href: "/docs/community-resources", external: false },
       {
         name: "Contributors",
-        href: "https://github.com/EddieHubCommunity/LinkFree/graphs/contributors",
+        href: BASE_GITHUB_PROJECT_URL + "/graphs/contributors",
         external: true,
       },
       { name: `v${app.version}`, href: "/roadmap", external: false },
@@ -61,21 +65,21 @@ export default function Footer() {
     legal: [
       {
         name: "License",
-        href: "https://github.com/EddieHubCommunity/LinkFree/blob/main/LICENSE",
+        href: BASE_GITHUB_PROJECT_URL + "/blob/main/LICENSE",
         external: true,
       },
-      { name: "Terms", href: "/terms", external: false },
+      { name: "Terms", href: "/docs/terms", external: false },
     ],
     social: [
       {
         name: "LinkedIn",
-        href: "https://www.linkedin.com/company/linkfree.eddiehub/",
+        href: "https://www.linkedin.com/company/biodrop.eddiehub/",
         external: true,
         icon: FaLinkedin,
       },
       {
         name: "GitHub",
-        href: "https://github.com/EddieHubCommunity/LinkFree",
+        href: BASE_GITHUB_PROJECT_URL,
         external: true,
         icon: FaGithub,
       },
@@ -95,12 +99,7 @@ export default function Footer() {
       </h2>
       <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <Image
-            width={100}
-            height={100}
-            src="/logo512.png"
-            alt="LinkFree logo"
-          />
+          <LogoWide width={300} />
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
@@ -186,7 +185,8 @@ export default function Footer() {
               Subscribe to learn more about future Premium Paid Features
             </h3>
             <p className="mt-2 text-sm leading-6 text-primary-low-high">
-              LinkFree will always be 100% Open Source and have a free tier.
+              {PROJECT_NAME} will always be 100% Open Source and have a free
+              tier.
             </p>
           </div>
           <Button primary={true} href="/premium">
@@ -214,7 +214,7 @@ export default function Footer() {
             ))}
           </div>
           <Link
-            href="https://github.com/EddieHubCommunity/LinkFree"
+            href={BASE_GITHUB_PROJECT_URL}
             className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
           >
             <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />

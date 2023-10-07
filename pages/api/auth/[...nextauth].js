@@ -72,7 +72,7 @@ export const authOptions = {
   },
   events: {
     async signIn({ profile: githubProfile }) {
-      // associate LinkFree profile to LinkFree account
+      // associate BioDrop profile to BioDrop account
       const account = await getAccountByProviderAccountId(githubProfile.id);
       const profile = await Profile.findOne({
         username: githubProfile.username,

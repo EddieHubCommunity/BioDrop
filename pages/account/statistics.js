@@ -14,6 +14,7 @@ import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
 import dateFormat from "@services/utils/dateFormat";
+import { PROJECT_NAME } from "@constants/index";
 
 const DynamicChart = dynamic(
   () => import("../../components/statistics/StatsChart"),
@@ -126,7 +127,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
   return (
     <>
       <PageHead
-        title="LinkFree Statistics"
+        title={PROJECT_NAME + " Statistics"}
         description="Private statistics for your account"
       />
 
@@ -151,7 +152,7 @@ export default function Statistics({ data, profile, progress, BASE_URL }) {
             {progress.missing.length > 0 && (
               <span className="text-primary-medium-low">
                 (missing sections in your profile are:{" "}
-                {progress.missing.join(",")})
+                {progress.missing.join(", ")})
               </span>
             )}
           </span>

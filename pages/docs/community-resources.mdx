@@ -1,7 +1,13 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import Link from "@components/Link";
+import ClipboardCopy from "@components/ClipboardCopy.js";
+import data from "@config/community-resources.json";
 
 ## Community Resources
+
+#### To add community resources, please follow the steps below:
+
+1. Put the json as shown in the example in the `config/community-resources.json` file.
 
 These are from pairing sessions or creating content for example github repos, blogs, videos, livestreams etc (not Twitter).
 
@@ -9,37 +15,78 @@ These are from pairing sessions or creating content for example github repos, bl
 
 PAIRING on Discord
 
+<ClipboardCopy>
+```json
+{
+  "username": "stevenovak123",
+  "name": "Steve Dsouza",
+  "contribution": "Pair programmed on Discord",
+  "date": "2022/10/22",
+  "resource": {
+    "name": "#2060",
+    "url": "https://github.com/EddieHubCommunity/BioDrop/pull/2060"
+  }
+}
 ```
-| [Steve Dsouza](https://github.com/stevenovak123) | Pair programmed on Discord | 2022/10/22 | [#2060](https://github.com/EddieHubCommunity/LinkFree/pull/2060) |
-```
+</ClipboardCopy>
 
 YouTube (or blog)
 
+<ClipboardCopy>
+```json
+{
+  "username": "eddiejaoude",
+  "name": "Eddie Jaoude",
+  "contribution": "YouTube",
+  "date": "2022/10/22",
+  "resource": {
+    "name": "Contributing Open Source",
+    "url": "https://www.youtube.com/watch?v=8B_JWf7pG20"
+  }
+}
 ```
-| [Eddie Jaoude](https://github.com/eddiejaoude) | YouTube | 2022/10/22 | [Contributing Open Source](https://www.youtube.com/watch?v=8B_JWf7pG20) |
-```
+</ClipboardCopy>
 
 ## Contributions
 
-| CONTRIBUTOR                                                   | CONTRIBUTION               | DATE (YYYY/MM/DD) | RESOURCE LINK (PR, Blog, Video)                                                                                                                                         |
-| :------------------------------------------------------------ | :------------------------- | :---------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Christine Belzie](https://github.com/CBID2)                  | Pair programmed on Discord | 2022/10/29        | [#2060](https://github.com/EddieHubCommunity/LinkFree/pull/2060)                                                                                                        |
-| [Jaynarayan vaishnav](https://github.com/jaynarayan-vaishnav) | Pair programmed on Discord | 2022/10/31        | [#2079](https://github.com/EddieHubCommunity/LinkFree/pull/2080)                                                                                                        |
-| [Bilal Khan](https://github.com/ibilalkayy)                   | YouTube                    | 2023/01/18        | [Submitting My First PR with Dean - LinkFree Account Creation for Beginners](https://www.youtube.com/watch?v=I8wNateK3hM)                                               |
-| [Bilal Khan](https://github.com/ibilalkayy)                   | Blog                       | 2023/01/21        | [How to create a LinkFree account? [Part 1]](https://ibilalkayy.hashnode.dev/how-to-create-a-linkfree-account-part-1)                                                   |
-| [Ananya Nayak](https://github.com/Ananya2001-an)              | Blog                       | 2023/02/05        | [Ananya in Open Source Wonderland](https://ananyacodes.hashnode.dev/ananya-in-open-source-wonderland)                                                                   |
-| [Rohit](https://github.com/TRohit20)                          | Blog                       | 2023/03/01        | [Beyond Code: How Anyone Can Contribute to Open-Source Projects](https://rohitlogs.com/beyond-code-how-anyone-can-contribute-to-open-source-projects)                   |
-| [Madhu Saini](https://github.com/MadhuSaini22)                | Blog                       | 2023/03/12        | [Beyond Code: A Beginner's Guide to Open Source](https://madhusaini22.hashnode.dev/a-beginners-guide-to-open-source)                                                    |
-| [Amanda Martin](https://github.com/amandamartin-dev)          | Livestream                 | 2023/03/16        | [Combining the roles of Developer Advocate and Open Source Ambassador](https://stack-stream.com/v/combining-the-roles-of-developer-advocate-and-open-source-ambassador) |
-| [Ananya Nayak](https://github.com/Ananya2001-an)              | Blog                       | 2023/03/28        | [How to understand a big codebase???](https://ananyacodes.hashnode.dev/how-to-understand-a-big-codebase)                                                                |
-| [Dean Lofts](https://github.com/loftwah) | Blog | 2023/07/11 | [Maximising Your Job Prospects in Tech with LinkFree](https://loftwah.medium.com/maximising-your-job-prospects-in-tech-with-linkfree-2fea408301cc) |
+<table>
+  <thead>
+    <tr>
+      <th>CONTRIBUTOR</th>
+      <th>CONTRIBUTION</th>
+      <th>DATE (YYYY/MM/DD)</th>
+      <th>RESOURCE LINK (PR, Blog, Video)</th>
+    </tr>
+  </thead>
+  <tbody>
+    {data.map((item, index) => {
+      return (
+        <tr key={item.username + item.name + index}>
+          <td>
+            <a href={`https://github.com/${item.username}`}>{item.name}</a>
+          </td>
+          <td>{item.contribution}</td>
+          <td>{item.date}</td>
+          <td>
+            <a href={item.resource.url}>
+              {item.resource.name ? item.resource.name : item.resource.url}
+            </a>
+          </td>
+        </tr>
+      );
+    })}
+  </tbody>
+</table>
 
-export default ({ children }) => (
-  <DocsLayout
-    title="LinkFree Contributors Changelog"
-    section="Getting started"
-    name="Community Resources"
-  >
-    {children}
-  </DocsLayout>
-);
+export default ({ children }) => {
+  data.sort((a, b) => new Date(b.date) - new Date(a.date));
+  return (
+    <DocsLayout
+      title="BioDrop Contributors Changelog"
+      section="Getting started"
+      name="Community Resources"
+    >
+      {children}
+    </DocsLayout>
+  );
+};

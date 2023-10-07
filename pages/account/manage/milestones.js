@@ -11,6 +11,7 @@ import { getMilestonesApi } from "pages/api/account/manage/milestones";
 import Button from "@components/Button";
 import UserMilestones from "@components/user/UserMilestones";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -64,7 +65,7 @@ export default function ManageMilestones({ milestones }) {
     <>
       <PageHead
         title="Manage Milestones"
-        description="Here you can manage your LinkFree milestones"
+        description={`Here you can manage your ${PROJECT_NAME} milestones`}
       />
 
       <Page>

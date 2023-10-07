@@ -22,7 +22,7 @@ export function EventTabs({ tabs, eventType, setEventType }) {
           options={tabs.map((tab) => ({ label: tab.title, value: tab.title }))}
         />
       </div>
-      <div className="hidden sm:block">
+      <div className="hidden sm:block mb-4">
         <div className="border-b border-primary-low">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
@@ -32,8 +32,8 @@ export function EventTabs({ tabs, eventType, setEventType }) {
                 onClick={(e) => changeTab(e, tab.key)}
                 className={classNames(
                   tab.key === eventType
-                    ? "border-secondary-high dark:border-secondary-low text-secondary-high dark:text-secondary-low"
-                    : "border-transparent text-primary-medium dark:text-primary-low-high dark:hover:text-primary-low-high hover:text-primary-medium hover:border-primary-medium-low",
+                    ? "border-tertiary-medium"
+                    : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
                   "w-1/4 py-4 px-1 text-center border-b-2 font-medium text-sm flex justify-center items-center gap-2 cursor-pointer"
                 )}
                 aria-current={tab.key === eventType ? "page" : undefined}

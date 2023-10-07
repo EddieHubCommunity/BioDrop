@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'EddieHubCommunity/LinkFree'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
     services:
       mongo:
@@ -26,7 +26,7 @@ jobs:
         run: npm run build
 
   push_to_registry:
-    if: github.repository == 'EddieHubCommunity/LinkFree'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     name: Push Docker image to GitHub Packages
     needs: build
     permissions:
@@ -48,9 +48,9 @@ jobs:
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
       - name: Copy Environment Variables
-        run:  cp .env.example /tmp/.env
+        run: cp .env.example /tmp/.env
       - name: Add Mongo Connection String
-        run: echo "LINKFREE_MONGO_CONNECTION_STRING=${{ secrets.LINKFREE_MONGO_CONNECTION_STRING }}" >> /tmp/.env
+        run: echo "BIODROP_MONGO_CONNECTION_STRING=${{ secrets.BIODROP_MONGO_CONNECTION_STRING }}" >> /tmp/.env
       - name: Build and push to GHCR
         uses: docker/build-push-action@v3
         with:
@@ -62,5 +62,5 @@ jobs:
           secret-files: "MONGO=/tmp/.env"
           build-args: "github_token=${{ secrets.GITHUB_TOKEN }}"
           tags: |
-            ghcr.io/eddiehubcommunity/linkfree:${{ steps.package-version.outputs.current-version}}
-            ghcr.io/eddiehubcommunity/linkfree:latest
+            ghcr.io/eddiehubcommunity/biodrop:${{ steps.package-version.outputs.current-version}}
+            ghcr.io/eddiehubcommunity/biodrop:latest

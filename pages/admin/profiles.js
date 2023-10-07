@@ -12,6 +12,7 @@ import Navigation from "@components/admin/Navigation";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import Image from "next/image";
 import Link from "@components/Link";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -53,8 +54,8 @@ export default function Users({ profiles }) {
   return (
     <>
       <PageHead
-        title="LinkFree admin users"
-        description="Overview for LinkFree admins"
+        title={`${PROJECT_NAME} admin users`}
+        description={`Overview for ${PROJECT_NAME}ins`}
       />
       <Page>
         <Navigation />

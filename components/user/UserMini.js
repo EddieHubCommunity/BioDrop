@@ -47,7 +47,7 @@ export default function UserMini({
           </div>
           <div className="mt-5 flex justify-center sm:mt-0">
             <Button href={`${BASE_URL}/${username}`} primary={true}>
-              VIEW PROFILE
+              View Profile
             </Button>
           </div>
         </div>

@@ -6,6 +6,7 @@ import CheckIcon from "@heroicons/react/24/outline/CheckIcon";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Premium() {
   const router = useRouter();
@@ -42,8 +43,8 @@ export default function Premium() {
   return (
     <>
       <PageHead
-        title="LinkFree Premium Features"
-        description="LinkFree is 100% Open Source and FREE, but we will have some paid Premium features in the future"
+        title={`${PROJECT_NAME} Premium Features`}
+        description={`${PROJECT_NAME} is 100% Open Source and FREE, but we will have some paid Premium features in the future`}
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Premium</h1>

@@ -8,7 +8,7 @@ export default function MultiLayout({ children }) {
       <SkipLink />
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main id="main" className="flex-1">
+        <main id="main" className="flex-1 dark:bg-dark">
           {children}
         </main>
         <Footer />

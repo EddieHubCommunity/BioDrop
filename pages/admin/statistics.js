@@ -9,6 +9,7 @@ import PageHead from "@components/PageHead";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { getStatsApi } from "pages/api/admin/stats";
 import Navigation from "@components/admin/Navigation";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -60,8 +61,8 @@ export default function Statistics({ stats }) {
   return (
     <>
       <PageHead
-        title="LinkFree admin over"
-        description="Overview for LinkFree admins"
+        title={PROJECT_NAME + " admin over"}
+        description={`Overview for ${PROJECT_NAME} admins`}
       />
       <Page>
         <Navigation />

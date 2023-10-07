@@ -26,7 +26,7 @@ function UserProfile({ BASE_URL, data }) {
   //qrRef.current is pointing to the DOM node and firstChild to its canvas
   const downloadQR = () =>
     qrRef.current.firstChild.toBlob((blob) =>
-      saveAs(blob, `linkfree-${data.username}.png`)
+      saveAs(blob, `biodrop-${data.username}.png`)
     );
 
   return (
@@ -117,7 +117,7 @@ function UserProfile({ BASE_URL, data }) {
                     href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
                       includeText
                         ? `&text=${encodeURIComponent(
-                            `Check out ${data.name}'s profile on LinkFree.io`
+                            `Check out ${data.name}'s profile on BioDrop.io`
                           )}`
                         : ""
                     }`}

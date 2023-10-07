@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   changelog:
-    if: github.repository == 'EddieHubCommunity/LinkFree'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
 
     steps:

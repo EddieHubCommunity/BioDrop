@@ -7,6 +7,7 @@ import Script from "next/script";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Newsletter() {
   const router = useRouter();
@@ -15,8 +16,8 @@ export default function Newsletter() {
   return (
     <>
       <PageHead
-        title="LinkFree News Letter"
-        description="Keep up to date with the latest LinkFree news"
+        title={PROJECT_NAME + " News Letter"}
+        description={`Keep up to date with the latest ${PROJECT_NAME} news`}
       />
       <Page>
         {newsletter && (

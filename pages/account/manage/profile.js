@@ -18,6 +18,7 @@ import Input from "@components/form/Input";
 import Select from "@components/form/Select";
 import Button from "@components/Button";
 import Notification from "@components/Notification";
+import { PROJECT_NAME } from "@constants/index";
 import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
@@ -71,11 +72,11 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     profile.bio || "Have a look at my links below..."
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
-  const layouts = config.layouts.map(l => {
+  const layouts = config.layouts.map((l) => {
     return {
       value: l,
-      label: l
-    }
+      label: l,
+    };
   });
 
   const handleSubmit = async (e) => {
@@ -113,7 +114,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     <>
       <PageHead
         title="Manage Profile"
-        description="Here you can manage your LinkFree profile"
+        description={`Here you can manage your ${PROJECT_NAME} profile`}
       />
 
       <Page>

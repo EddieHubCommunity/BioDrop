@@ -3,13 +3,14 @@ import Image from "next/image";
 import Button from "@components/Button";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Page404() {
   return (
     <>
       <PageHead
-        title="LinkFree page not found"
-        description="LinkFree page not found 404"
+        title={`${PROJECT_NAME} page not found`}
+        description={`${PROJECT_NAME} page not found 404`}
       />
       <Page>
         <div className="grid min-h-full place-items-center px-6 py-24 sm:py-32 lg:px-8">

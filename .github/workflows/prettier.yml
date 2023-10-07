@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   format:
-    if: github.repository == 'EddieHubCommunity/LinkFree'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
     name: Format Files
     steps:

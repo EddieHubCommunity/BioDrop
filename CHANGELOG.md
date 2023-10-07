@@ -1,45 +1,45 @@
-## [1.178.3](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.2...v1.178.3) (2023-08-22)
+## [1.178.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.8...v1.178.9) (2023-08-25)
 
 
 ### Bug Fixes
 
-* event test ([#8708](https://github.com/EddieHubCommunity/LinkFree/issues/8708)) ([597d880](https://github.com/EddieHubCommunity/LinkFree/commit/597d8800cda3c3ac95aba0ead57102ae3d3f5b26))
+* event speaker status and speaker title ([#8006](https://github.com/EddieHubCommunity/LinkFree/issues/8006)) ([56203b7](https://github.com/EddieHubCommunity/LinkFree/commit/56203b71d5224bbf1b2a6f6d919513c4d8726de1))
 
 
 
-## [1.178.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.1...v1.178.2) (2023-08-22)
-
-
-### Bug Fixes
-
-* label for models updates ([#8683](https://github.com/EddieHubCommunity/LinkFree/issues/8683)) ([4884c1f](https://github.com/EddieHubCommunity/LinkFree/commit/4884c1f4bca9999a0be5da54a1acfaadce9fe16a))
-
-
-
-## [1.178.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.0...v1.178.1) (2023-08-21)
+## [1.178.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.7...v1.178.8) (2023-08-23)
 
 
 ### Bug Fixes
 
-* stop keydown event propagation on input ([#8685](https://github.com/EddieHubCommunity/LinkFree/issues/8685)) ([3470121](https://github.com/EddieHubCommunity/LinkFree/commit/347012180d7ad5d328bdbc6d75a713a283460fa6))
+* docs side nav for mobiles ([#8177](https://github.com/EddieHubCommunity/LinkFree/issues/8177)) ([3ab0b01](https://github.com/EddieHubCommunity/LinkFree/commit/3ab0b01ab9db601059bcef47bb5feebf9eca9237))
 
 
 
-# [1.178.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.2...v1.178.0) (2023-08-20)
-
-
-### Features
-
-* search icons in manage forms  ([#8698](https://github.com/EddieHubCommunity/LinkFree/issues/8698)) ([e4e98d4](https://github.com/EddieHubCommunity/LinkFree/commit/e4e98d44f3ceca06af259ba569a98b205e0e9315))
-
-
-
-## [1.177.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.177.1...v1.177.2) (2023-08-19)
+## [1.178.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.6...v1.178.7) (2023-08-22)
 
 
 ### Bug Fixes
 
-* search automated test ([#8706](https://github.com/EddieHubCommunity/LinkFree/issues/8706)) ([6f9a258](https://github.com/EddieHubCommunity/LinkFree/commit/6f9a258ebda5a5b0a29d82d0388842e399a189f7))
+* community resources to config array ([#8577](https://github.com/EddieHubCommunity/LinkFree/issues/8577)) ([ae545e8](https://github.com/EddieHubCommunity/LinkFree/commit/ae545e8a58a2547656a6cd2c029232e9d9e4f0f1))
+
+
+
+## [1.178.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.5...v1.178.6) (2023-08-22)
+
+
+### Bug Fixes
+
+* spacing between add repo form and repo list ([#8694](https://github.com/EddieHubCommunity/LinkFree/issues/8694)) ([9cc0624](https://github.com/EddieHubCommunity/LinkFree/commit/9cc0624c3a2bed5ebadd6e4bbdce4864f210678f))
+
+
+
+## [1.178.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.178.4...v1.178.5) (2023-08-22)
+
+
+### Bug Fixes
+
+* notification removed after set time ([#8607](https://github.com/EddieHubCommunity/LinkFree/issues/8607)) ([a74cd9e](https://github.com/EddieHubCommunity/LinkFree/commit/a74cd9e95fede2e554344575b6572b93b218b4a8))
 
 
 

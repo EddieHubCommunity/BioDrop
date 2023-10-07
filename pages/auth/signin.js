@@ -7,6 +7,7 @@ import { authOptions } from "pages/api/auth/[...nextauth]";
 import { BsGithub } from "react-icons/bs";
 import Button from "@components/Button";
 import Link from "@components/Link";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -30,7 +31,7 @@ export default function SignIn() {
             height={100}
             className="mx-auto h-64 w-auto"
             src="/logo512.png"
-            alt="LinkFree logo"
+            alt={`${PROJECT_NAME} logo`}
           />
         </Link>
         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-primary-medium flex flex-col">
