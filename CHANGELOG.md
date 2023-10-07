@@ -1,4 +1,4 @@
-# [2.66.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.66.0) (2023-10-07)
+# [2.67.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.67.0) (2023-10-07)
 
 
 ### Bug Fixes
@@ -10,6 +10,7 @@
 * display more default icons [#8421](https://github.com/EddieHubCommunity/BioDrop/issues/8421) ([#9068](https://github.com/EddieHubCommunity/BioDrop/issues/9068)) ([5794d38](https://github.com/EddieHubCommunity/BioDrop/commit/5794d38b7aafd75321d932e450e9b289a11f60de)), closes [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) [#8684](https://github.com/EddieHubCommunity/BioDrop/issues/8684)
 * docs layout ([#9339](https://github.com/EddieHubCommunity/BioDrop/issues/9339)) ([b846965](https://github.com/EddieHubCommunity/BioDrop/commit/b8469658dcc742edbce49b87357d263207ee33a7))
 * hacktoberfest ignore label for profiles ([#9237](https://github.com/EddieHubCommunity/BioDrop/issues/9237)) ([5e43023](https://github.com/EddieHubCommunity/BioDrop/commit/5e430239011f975e733578e7adad1b2911ff0f69))
+* help now redirect to docs/faqs ([#9303](https://github.com/EddieHubCommunity/BioDrop/issues/9303)) ([e4079d9](https://github.com/EddieHubCommunity/BioDrop/commit/e4079d991e99fb1575eeb7d39df5a7309b3f05b6))
 * limit daily stats click to 30d ([#9386](https://github.com/EddieHubCommunity/BioDrop/issues/9386)) ([5a16092](https://github.com/EddieHubCommunity/BioDrop/commit/5a1609219f3f9c357fc3d36be284f553988999df))
 * max func duration ([#9224](https://github.com/EddieHubCommunity/BioDrop/issues/9224)) ([a9e717b](https://github.com/EddieHubCommunity/BioDrop/commit/a9e717b5707f5ebae1d3cc9b7807ba724d8889a1))
 * max func duration move to file ([#9226](https://github.com/EddieHubCommunity/BioDrop/issues/9226)) ([530aeba](https://github.com/EddieHubCommunity/BioDrop/commit/530aeba72ee442d5acb667176f31304fc6cd316d))
