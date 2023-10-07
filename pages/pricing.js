@@ -252,7 +252,7 @@ export default function Premium({ user }) {
           tiers: { Free: true, Premium: true },
         },
         {
-          name: "Total Daily Link Clicks (coming soon)",
+          name: "Total Daily Link Clicks",
           description:
             "Analytics on the total number of clicks for each individual link in your Profile per day over the last 30 days",
           tiers: { Free: false, Premium: true },
