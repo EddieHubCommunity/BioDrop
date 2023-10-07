@@ -13,6 +13,7 @@ import PageHead from "@components/PageHead";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
+import dateFormat from "@services/utils/dateFormat";
 import { PROJECT_NAME } from "@constants/index";
 
 const DynamicChart = dynamic(
@@ -67,6 +68,40 @@ export async function getServerSideProps(context) {
     logger.error(e, "ERROR get user's account statistics");
   }
 
+  const dailyStatsMap = new Map();
+  const currentDate = new Date();
+  const last30Days = [];
+
+  const totalClicks = data.links.individual.reduce((acc, link) => {
+    return acc + link.clicks;
+  }, 0);
+  data.links.clicks = totalClicks;
+
+  // Loop through daily stats data and populate dailyStatsMap
+  data.profile.daily.forEach(stat => {
+    dailyStatsMap.set(
+      dateFormat({ format: "short", date: new Date(stat.date) }),
+      stat.value
+    );
+  });
+
+  // Populate last30Days array
+  for (let index = 0; index < 30; index++) {
+    const date = new Date(currentDate);
+    date.setDate(currentDate.getDate() - index);
+    const formattedDate = dateFormat({ format: "short", date: date });
+    last30Days.unshift(formattedDate);
+
+    if (!dailyStatsMap.has(formattedDate)) {
+      dailyStatsMap.set(formattedDate, { views: 0 });
+    }
+  }
+
+  const last30DaysStats = last30Days.map(date => ({
+    views: dailyStatsMap.get(date).views || 0,
+    date: date,
+  }));
+
   progress.missing = profileSections.filter(
     (property) => !profile[property]?.length
   );
@@ -76,21 +111,7 @@ export async function getServerSideProps(context) {
     100
   ).toFixed(0);
 
-  data.links.individual = data.links.individual.filter((link) =>
-    profile.links.some((pLink) => pLink.url === link.url)
-  );
-
-  const totalClicks = data.links.individual.reduce((acc, link) => {
-    return acc + link.clicks;
-  }, 0);
-  data.links.clicks = totalClicks;
-
-  data.profile.daily = data.profile.daily.slice(-30).map((day) => {
-    return {
-      views: day.views,
-      date: day.date,
-    };
-  });
+  data.profile.daily = last30DaysStats;
 
   return {
     props: {
