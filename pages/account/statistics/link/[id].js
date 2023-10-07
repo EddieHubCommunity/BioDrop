@@ -91,7 +91,8 @@ export default function Statistics({ data }) {
                 Link clicks for {data.url}
               </h3>
               <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
-                Number of link clicks per day for the last 30 days.
+                Number of link clicks per day for the last 30 days (total:{" "}
+                {data.total})
               </p>
             </div>
             <DynamicChart data={data.stats} dataKey="clicks" />
