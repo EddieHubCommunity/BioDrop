@@ -67,15 +67,6 @@ export async function getStats(username, numberOfDays = 30) {
     logger.error(e, "failed to load stats");
   }
 
-  // let totalViews = 0;
-  // const dailyStats = profileViews.map((item) => {
-  //   totalViews += item.views;
-  //   return {
-  //     views: item.views,
-  //     date: item.date,
-  //   };
-  // });
-
   let totalViews = 0;
   let dailyStats = [];
   for (let day = 0; day < numberOfDays; day++) {
