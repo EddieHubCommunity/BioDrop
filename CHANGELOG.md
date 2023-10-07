@@ -1,4 +1,4 @@
-# [2.64.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.64.0) (2023-10-06)
+# [2.65.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.65.0) (2023-10-07)
 
 
 ### Bug Fixes
@@ -38,6 +38,7 @@
 * admin stats for changelog ([#9267](https://github.com/EddieHubCommunity/BioDrop/issues/9267)) ([2661446](https://github.com/EddieHubCommunity/BioDrop/commit/266144605759eff1d9f1344d658cde11c6a4944b))
 * admin view changelog ([#9263](https://github.com/EddieHubCommunity/BioDrop/issues/9263)) ([2023e99](https://github.com/EddieHubCommunity/BioDrop/commit/2023e99667991933b2b69dea3d71d57321f232da))
 * alert to star out github repo ([#9259](https://github.com/EddieHubCommunity/BioDrop/issues/9259)) ([4d39f59](https://github.com/EddieHubCommunity/BioDrop/commit/4d39f590e4b390ca856c9fb77355a39f6b393233))
+* daily links stats ([#9379](https://github.com/EddieHubCommunity/BioDrop/issues/9379)) ([3b412d4](https://github.com/EddieHubCommunity/BioDrop/commit/3b412d4d8cb1a92e771323c670966dec14c0546a))
 * dedup repos page ([#9210](https://github.com/EddieHubCommunity/BioDrop/issues/9210)) ([50f63cf](https://github.com/EddieHubCommunity/BioDrop/commit/50f63cf51ef49fc501c69e5e420f35c6ba751d35))
 * increase execution time for loading json files ([#9142](https://github.com/EddieHubCommunity/BioDrop/issues/9142)) ([b4d8c4b](https://github.com/EddieHubCommunity/BioDrop/commit/b4d8c4b1a97dbaad206ca0b62c286aa4186cf795))
 * log profile updates from manage forms ([#8605](https://github.com/EddieHubCommunity/BioDrop/issues/8605)) ([4b46169](https://github.com/EddieHubCommunity/BioDrop/commit/4b4616955fff1ae226b4526320c8f680a1d47a5c))
