@@ -21,8 +21,10 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
               <button
+                type="button"
+                aria-label={tab.name}
                 key={tab.name}
-                onClick={(e) => setTabs(e, tab)}
+                onClick={() => setTabs(tab)}
                 className={classNames(
                   tab.current
                     ? "border-tertiary-medium "

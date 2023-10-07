@@ -1,4 +1,4 @@
-import { usePathname, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
 import UserMilestones from "../UserMilestones";
@@ -49,13 +49,11 @@ export default function UserTabs({ data, BASE_URL }) {
   const searchParams = useSearchParams();
   const currentTab = searchParams.get("tab") || "links";
   const router = useRouter();
-  const pathname = usePathname();
 
   const selectedTab = tabs.find((tab) => tab.href === currentTab) || tabs[0];
 
-  const changeTab = (e, tab) => {
-    e.preventDefault();
-    router.push({ pathname, query: { tab: tab.href } }, undefined, {
+  const changeTab = (tab) => {
+    router.push(`/${data.username}?tab=${tab.href}`, undefined, {
       scroll: false,
       shallow: true,
     });
