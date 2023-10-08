@@ -18,7 +18,7 @@ function formatDate(value) {
   });
 }
 
-export default function StatsChart({ data, dataKey = "views" }) {
+export default function BarGraph({ data, dataKey = "views" }) {
   return (
     <div className="w-full h-80">
       <ResponsiveContainer height="100%">
