@@ -17,7 +17,7 @@ export default function SideNav({ navigation }) {
             <li key={item.name} className="my-2">
               {!item.children ? (
                 <Link
-                  to={item.href}
+                  href={item.href}
                   className={classNames(
                     item.href == pathname &&
                       "bg-slate-200 dark:bg-primary-low !text-secondary-high",
