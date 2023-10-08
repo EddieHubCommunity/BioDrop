@@ -1,3 +1,12 @@
+## [2.69.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.2...v2.69.3) (2023-10-08)
+
+
+### Bug Fixes
+
+* displaying all dates on graph ([#8580](https://github.com/EddieHubCommunity/BioDrop/issues/8580)) ([#9395](https://github.com/EddieHubCommunity/BioDrop/issues/9395)) ([1ddbdcb](https://github.com/EddieHubCommunity/BioDrop/commit/1ddbdcb2b0512e9fce2b109df3cc9e6924675a52)), closes [#8569](https://github.com/EddieHubCommunity/BioDrop/issues/8569) [#8569](https://github.com/EddieHubCommunity/BioDrop/issues/8569)
+
+
+
 ## [2.69.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.1...v2.69.2) (2023-10-07)
 
 
@@ -79,15 +88,6 @@
 
 * no events warning to manage event page ([#9112](https://github.com/EddieHubCommunity/BioDrop/issues/9112)) ([be77dce](https://github.com/EddieHubCommunity/BioDrop/commit/be77dce74fde33c53f02f8948dd1ccd7aa68b4d2))
 * price on events ([#9157](https://github.com/EddieHubCommunity/BioDrop/issues/9157)) ([d98f008](https://github.com/EddieHubCommunity/BioDrop/commit/d98f00861193d6b5caef94983bae1cabcd877468))
-
-
-
-## [2.23.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.0...v2.23.1) (2023-09-27)
-
-
-### Bug Fixes
-
-* hide testimonials, tags, stats on mobile ([#9178](https://github.com/EddieHubCommunity/BioDrop/issues/9178)) ([92aa62f](https://github.com/EddieHubCommunity/BioDrop/commit/92aa62fefa6abd7067bc6978c704a3888db27d14)), closes [#9154](https://github.com/EddieHubCommunity/BioDrop/issues/9154)
 
 
 
