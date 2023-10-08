@@ -3,7 +3,7 @@ import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import EditOnGitHub from "@components/EditOnGithub";
 import { useRouter } from "next/router";
 import { classNames } from "@services/utils/classNames";
-import {Link} from react-router-dom;
+import Link from "@components/Link";
 export default function SideNav({ navigation }) {
   const { pathname } = useRouter();
   return (
