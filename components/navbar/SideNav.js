@@ -3,7 +3,7 @@ import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import EditOnGitHub from "@components/EditOnGithub";
 import { useRouter } from "next/router";
 import { classNames } from "@services/utils/classNames";
-
+import {Link} from react-router-dom;
 export default function SideNav({ navigation }) {
   const { pathname } = useRouter();
   return (
@@ -16,8 +16,8 @@ export default function SideNav({ navigation }) {
           {navigation.map((item) => (
             <li key={item.name} className="my-2">
               {!item.children ? (
-                <a
-                  href={item.href}
+                <Link
+                  to={item.href}
                   className={classNames(
                     item.href == pathname &&
                       "bg-slate-200 dark:bg-primary-low !text-secondary-high",
@@ -29,7 +29,7 @@ export default function SideNav({ navigation }) {
                     aria-hidden="true"
                   /> */}
                   {item.name}
-                </a>
+                </Link>
               ) : (
                 <Disclosure as="div">
                   {({ open }) => (
