@@ -115,124 +115,133 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-primary-high" aria-labelledby="footer-heading">
-      <h2 id="footer-heading" className="sr-only">
-        Footer
-      </h2>
-      <div className="mx-auto max-w-7xl px-6 pb-16 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <LogoWide width={300} />
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Solutions
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.solutions.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
-                        target={item.external ? "_blank" : "_self"}
-                        onClick={() => va.track(`footer`, { link: item.name })}
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+      <footer className="bg-primary-high" aria-labelledby="footer-heading">
+        <h2 id="footer-heading" className="sr-only">
+          Footer
+        </h2>
+        <div className="mx-auto max-w-7xl px-6 pb-4 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+          <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+            <LogoWide width={300} />
+            <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+              <div className="md:grid md:grid-cols-2 md:gap-8">
+                <div>
+                  <h3 className="text-sm font-semibold leading-6 text-white">
+                    Solutions
+                  </h3>
+                  <ul role="list" className="mt-6 space-y-4">
+                    {navigation.solutions.map((item) => (
+                        <li key={item.name}>
+                          <Link
+                              href={item.href}
+                              className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                              target={item.external ? "_blank" : "_self"}
+                              onClick={() => va.track(`footer`, { link: item.name })}
+                          >
+                            {item.name}
+                          </Link>
+                        </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="mt-10 md:mt-0">
+                  <h3 className="text-sm font-semibold leading-6 text-white">
+                    Support
+                  </h3>
+                  <ul role="list" className="mt-6 space-y-4">
+                    {navigation.support.map((item) => (
+                        <li key={item.name}>
+                          <Link
+                              href={item.href}
+                              className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                              target={item.external ? "_blank" : "_self"}
+                              onClick={() => va.track(`footer`, { link: item.name })}
+                          >
+                            {item.name}
+                          </Link>
+                        </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Support
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.support.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
-                        target={item.external ? "_blank" : "_self"}
-                        onClick={() => va.track(`footer`, { link: item.name })}
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div>
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Community
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.community.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
-                        target={item.external ? "_blank" : "_self"}
-                        onClick={() => va.track(`footer`, { link: item.name })}
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-white">
-                  Legal
-                </h3>
-                <ul role="list" className="mt-6 space-y-4">
-                  {navigation.legal.map((item) => (
-                    <li key={item.name}>
-                      <Link
-                        href={item.href}
-                        className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
-                        target={item.external ? "_blank" : "_self"}
-                        onClick={() => va.track(`footer`, { link: item.name })}
-                      >
-                        {item.name}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+              <div className="md:grid md:grid-cols-2 md:gap-8">
+                <div>
+                  <h3 className="text-sm font-semibold leading-6 text-white">
+                    Community
+                  </h3>
+                  <ul role="list" className="mt-6 space-y-4">
+                    {navigation.community.map((item) => (
+                        <li key={item.name}>
+                          <Link
+                              href={item.href}
+                              className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                              target={item.external ? "_blank" : "_self"}
+                              onClick={() => va.track(`footer`, { link: item.name })}
+                          >
+                            {item.name}
+                          </Link>
+                        </li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="mt-10 md:mt-0">
+                  <h3 className="text-sm font-semibold leading-6 text-white">
+                    Legal
+                  </h3>
+                  <ul role="list" className="mt-6 space-y-4">
+                    {navigation.legal.map((item) => (
+                        <li key={item.name}>
+                          <Link
+                              href={item.href}
+                              className="text-sm leading-6 text-primary-low hover:text-primary-low-high"
+                              target={item.external ? "_blank" : "_self"}
+                              onClick={() => va.track(`footer`, { link: item.name })}
+                          >
+                            {item.name}
+                          </Link>
+                        </li>
+                    ))}
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
-          <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
-            <p className=" text-xs leading-5 text-primary-low-high  md:mt-0">
-              100% Open Source on GitHub
-            </p>
-            {navigation.social.map((item) => (
+          <div className="md:flex md:flex-row-reverse md:justify-evenly border-t pb-2 mt-2 border-white/10 ">
+            <div className=" mt-4   pb-0 flex  flex-row   items-center justify-center">
+
+              {navigation.social.map((item) => (
+                  <Link
+                      key={item.name}
+                      href={item.href}
+                      className="text-primary-low-high hover:text-primary-low mr-6"
+                      target={item.external ? "_blank" : "_self"}
+                      onClick={() => va.track(`socials`, { link: item.name })}
+                  >
+                    <span className="sr-only">{item.name}</span>
+                    <item.icon className="h-6 w-6" aria-hidden="true" />
+                  </Link>
+              ))}
+            </div>
+
+            <div className="mt-3 mr-3   flex flex-col    items-center justify-between">
+              <div className="flex pb-2 md:pb-0 items-center justify-center space-x-6 md:order-2">
+                <p className=" text-xs leading-5 text-primary-low-high   md:mt-0">
+                  100% Open Source on GitHub
+                </p>
+
+              </div>
               <Link
-                key={item.name}
-                href={item.href}
-                className="text-primary-low-high hover:text-primary-low"
-                target={item.external ? "_blank" : "_self"}
-                onClick={() => va.track(`socials`, { link: item.name })}
+                  href={BASE_GITHUB_PROJECT_URL}
+                  className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
+                  onClick={() => va.track(`footer`, { link: "powered by EddieHub" })}
               >
-                <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6" aria-hidden="true" />
+                <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
+                Powered by EddieHub
               </Link>
-            ))}
+            </div>
+
           </div>
-          <Link
-            href={BASE_GITHUB_PROJECT_URL}
-            className=" text-primary-low-high hover:text-primary-low flex justify-center space-x-6 md:order-1 gap-2"
-            onClick={() => va.track(`footer`, { link: "powered by EddieHub" })}
-          >
-            <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
-            Powered by EddieHub
-          </Link>
         </div>
-      </div>
-    </footer>
+
+      </footer>
   );
 }
