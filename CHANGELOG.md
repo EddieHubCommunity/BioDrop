@@ -1,3 +1,12 @@
+## [2.69.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.3...v2.69.4) (2023-10-08)
+
+
+### Bug Fixes
+
+* improve faq title ([#9415](https://github.com/EddieHubCommunity/BioDrop/issues/9415)) ([c875454](https://github.com/EddieHubCommunity/BioDrop/commit/c87545479cf7e593647b534ca44fd04c1f6f6e0a))
+
+
+
 ## [2.69.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.2...v2.69.3) (2023-10-08)
 
 
@@ -78,16 +87,6 @@
 * onboarding landing page ([#9162](https://github.com/EddieHubCommunity/BioDrop/issues/9162)) ([d5330f2](https://github.com/EddieHubCommunity/BioDrop/commit/d5330f20bb8fc0e035793f6e18a98e3db1588522))
 * removing help badge on events page ([#9287](https://github.com/EddieHubCommunity/BioDrop/issues/9287)) ([e30a718](https://github.com/EddieHubCommunity/BioDrop/commit/e30a71838ccbb499c8a44b65e55e2a4654c948c0))
 * repo to show open issues ([#9310](https://github.com/EddieHubCommunity/BioDrop/issues/9310)) ([ed06459](https://github.com/EddieHubCommunity/BioDrop/commit/ed0645971e6db651eb4e0c34565643dcc8e7ae8a))
-
-
-
-## [2.23.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.1...v2.23.2) (2023-09-28)
-
-
-### Bug Fixes
-
-* no events warning to manage event page ([#9112](https://github.com/EddieHubCommunity/BioDrop/issues/9112)) ([be77dce](https://github.com/EddieHubCommunity/BioDrop/commit/be77dce74fde33c53f02f8948dd1ccd7aa68b4d2))
-* price on events ([#9157](https://github.com/EddieHubCommunity/BioDrop/issues/9157)) ([d98f008](https://github.com/EddieHubCommunity/BioDrop/commit/d98f00861193d6b5caef94983bae1cabcd877468))
 
 
 
