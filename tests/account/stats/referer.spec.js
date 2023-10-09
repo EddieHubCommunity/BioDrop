@@ -9,33 +9,31 @@ const premiumUser = {
   type: "premium",
 };
 
-test("Guest user cannot access premium locations stats", async ({
-  browser,
-}) => {
+test("Guest user cannot access premium referers stats", async ({ browser }) => {
   const context = await logout(browser);
   const page = await context.newPage();
-  await page.goto("/account/statistics/locations");
+  await page.goto("/account/statistics/referers");
   await expect(page).toHaveURL("/auth/signin");
 });
 
-test("Logged in free user cannot access premium locations stats", async ({
+test("Logged in free user cannot access premium referers stats", async ({
   browser,
 }) => {
   const context = await login(browser);
   const page = await context.newPage();
-  await page.goto("/account/statistics/locations");
+  await page.goto("/account/statistics/referers");
   await page.waitForLoadState("networkidle");
   await expect(page).toHaveURL(/account\/onboarding/);
 });
 
-test("Logged in premium user can access premium locations stats", async ({
+test("Logged in premium user can access premium referers stats", async ({
   browser,
 }) => {
   const context = await login(browser, premiumUser);
   const page = await context.newPage();
-  await page.goto("/account/statistics/locations");
+  await page.goto("/account/statistics/referers");
   await page.waitForLoadState("networkidle");
-  await expect(page).toHaveURL("/account/statistics/locations");
+  await expect(page).toHaveURL("/account/statistics/referers");
 });
 
 test.describe("accessibility tests (light)", () => {
@@ -44,7 +42,7 @@ test.describe("accessibility tests (light)", () => {
   test("should pass axe wcag accessibility tests", async ({ browser }) => {
     const context = await login(browser);
     const page = await context.newPage();
-    await page.goto("/account/statistics/locations");
+    await page.goto("/account/statistics/referers");
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();
@@ -60,7 +58,7 @@ test.describe("accessibility tests (dark)", () => {
   }) => {
     const context = await login(browser);
     const page = await context.newPage();
-    await page.goto("/account/statistics/locations");
+    await page.goto("/account/statistics/referers");
     const accessibilityScanResults = await new AxeBuilder({ page })
       .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
       .analyze();

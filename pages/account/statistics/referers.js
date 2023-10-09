@@ -55,11 +55,11 @@ export async function getServerSideProps(context) {
   }
 
   let stats = [];
-  if (profile.stats?.countries) {
-    stats = Object.keys(profile.stats.countries)
-      .map((country) => ({
-        country,
-        value: profile.stats.countries[country],
+  if (profile.stats?.referers) {
+    stats = Object.keys(profile.stats.referers)
+      .map((referer) => ({
+        referer,
+        value: profile.stats.referers[referer],
       }))
       .sort((a, b) => b.value - a.value);
   }
@@ -85,7 +85,7 @@ export default function Locations({ stats }) {
         {!stats.length && (
           <Alert
             type="warning"
-            message="You don't have any country stats yet."
+            message="You don't have any referers stats yet."
           />
         )}
 
@@ -98,7 +98,7 @@ export default function Locations({ stats }) {
                 scope="col"
                 className="py-3.5 pl-4 pr-3 text-left text-sm font-semibold text-primary-high dark:text-primary-low sm:pl-6"
               >
-                Location
+                Referers
               </th>
               <th
                 scope="col"
@@ -111,9 +111,9 @@ export default function Locations({ stats }) {
           <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
             {stats &&
               stats.map((item) => (
-                <tr key={item.country}>
+                <tr key={item.referer}>
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
-                    {item.country}
+                    {item.referer}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(item.value)}
