@@ -63,7 +63,7 @@ export default function DocsIndex() {
       },
       icon: InformationCircleIcon,
       comment:
-        "All projects need improvements, this is where you can get involved. Read the contributing guide as this is probably the 2nd most important file in the repo, right after the README.",
+        "There are projects that need to be improved; therefore, you may begin by identifying the good first issues or by creating an issue if you discover a bug. Prior to beginning your work, read the contributing guidelines right after the README file.",
     },
     {
       type: "comment",
