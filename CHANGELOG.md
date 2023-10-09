@@ -1,3 +1,12 @@
+## [2.70.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.0...v2.70.1) (2023-10-09)
+
+
+### Bug Fixes
+
+* url display in referrers page ([#9424](https://github.com/EddieHubCommunity/BioDrop/issues/9424)) ([2adcef2](https://github.com/EddieHubCommunity/BioDrop/commit/2adcef2b99dac9fd082c95e70cd547bf8a4781f7))
+
+
+
 # [2.70.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.4...v2.70.0) (2023-10-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * help link to faq ([#9401](https://github.com/EddieHubCommunity/BioDrop/issues/9401)) ([7e43831](https://github.com/EddieHubCommunity/BioDrop/commit/7e43831d9eb2f4b359b7c6ab9301c1391e908a46))
-
-
-
-## [2.69.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.0...v2.69.1) (2023-10-07)
-
-
-### Bug Fixes
-
-* community resources page responsive ([#9247](https://github.com/EddieHubCommunity/BioDrop/issues/9247)) ([a7073ff](https://github.com/EddieHubCommunity/BioDrop/commit/a7073ff98ac085ad0da77df6ab156de519b48dcf))
 
 
 
