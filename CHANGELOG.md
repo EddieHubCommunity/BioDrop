@@ -1,3 +1,12 @@
+## [2.70.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.1...v2.70.2) (2023-10-09)
+
+
+### Bug Fixes
+
+* improvement to docs ([#9426](https://github.com/EddieHubCommunity/BioDrop/issues/9426)) ([4f775a4](https://github.com/EddieHubCommunity/BioDrop/commit/4f775a4bb2adf68a2a97c50a07ad06dd0c20cc02))
+
+
+
 ## [2.70.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.0...v2.70.1) (2023-10-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * displaying all dates on graph ([#8580](https://github.com/EddieHubCommunity/BioDrop/issues/8580)) ([#9395](https://github.com/EddieHubCommunity/BioDrop/issues/9395)) ([1ddbdcb](https://github.com/EddieHubCommunity/BioDrop/commit/1ddbdcb2b0512e9fce2b109df3cc9e6924675a52)), closes [#8569](https://github.com/EddieHubCommunity/BioDrop/issues/8569) [#8569](https://github.com/EddieHubCommunity/BioDrop/issues/8569)
-
-
-
-## [2.69.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.1...v2.69.2) (2023-10-07)
-
-
-### Bug Fixes
-
-* help link to faq ([#9401](https://github.com/EddieHubCommunity/BioDrop/issues/9401)) ([7e43831](https://github.com/EddieHubCommunity/BioDrop/commit/7e43831d9eb2f4b359b7c6ab9301c1391e908a46))
 
 
 
