@@ -66,7 +66,7 @@ export async function updateSettingsApi(context, username, data) {
   try {
     getProfile = await Profile.findOneAndUpdate(
       { username },
-      { source: "database", settings: data },
+      { source: "database", settings: { ...beforeUpdate, ...data } },
       {
         upsert: true,
         new: true,
