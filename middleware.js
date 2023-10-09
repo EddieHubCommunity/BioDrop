@@ -1,9 +1,11 @@
 import { NextResponse } from "next/server";
 
 export const config = {
-  matcher: ["/:username"],
+  matcher: ["/"],
 };
 
+// logging
+// no http requests (use db?)
 export async function middleware(request) {
   const hostname = request.headers.get("host");
 
@@ -19,7 +21,6 @@ export async function middleware(request) {
     },
   );
   const profile = await res.json();
-  console.log(profile);
 
   if (
     profile.username &&
