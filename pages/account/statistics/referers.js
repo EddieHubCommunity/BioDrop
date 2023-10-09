@@ -113,7 +113,7 @@ export default function Locations({ stats }) {
               stats.map((item) => (
                 <tr key={item.referer}>
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
-                    {item.referer}
+                    {item.referer.replaceAll("|", ".")}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(item.value)}
