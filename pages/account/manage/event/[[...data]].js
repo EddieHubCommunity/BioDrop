@@ -16,6 +16,7 @@ import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import ConfirmDialog from "@components/ConfirmDialog";
 import dateFormat from "@services/utils/dateFormat";
+import { PROJECT_NAME } from "@constants/index";
 import Textarea from "@components/form/Textarea";
 
 export async function getServerSideProps(context) {
@@ -56,11 +57,20 @@ export default function ManageEvent({ BASE_URL, event }) {
     additionalMessage: "",
   });
   const [isVirtual, setIsVirtual] = useState(event.isVirtual ? true : false);
+  const [isSpeaking, setIsSpeaking] = useState(event.isSpeaking ? true : false);
   const [name, setName] = useState(event.name || "");
   const [description, setDescription] = useState(event.description || "");
   const [url, setUrl] = useState(event.url || "");
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
+  const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
+
+  useEffect(() => {
+    if (!isSpeaking) {
+      setspeakingTopic("");
+    }
+  }, [isSpeaking]);
+
   const [price, setPrice] = useState(event.price?.startingFrom || 0);
   const [color, setColor] = useState(event.color || "");
 
@@ -110,6 +120,8 @@ export default function ManageEvent({ BASE_URL, event }) {
       date: { start: submitDate(startDate), end: submitDate(endDate) },
       isVirtual,
       price: { startingFrom: price },
+      isSpeaking,
+      speakingTopic,
       color,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
@@ -133,7 +145,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         type: "error",
         message: "Event add/update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
@@ -149,7 +161,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
     const update = await res.json();
 
@@ -169,7 +181,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     <>
       <PageHead
         title="Manage Event"
-        description="Here you can manage your LinkFree event"
+        description={`Here you can manage your ${PROJECT_NAME} event`}
       />
 
       <Page>
@@ -217,6 +229,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Textarea
                       name="description"
+                      label="Description"
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
                       placeholder="Description of the event from their website"
@@ -264,6 +277,30 @@ export default function ManageEvent({ BASE_URL, event }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Toggle
+                      text1="Are you speaking?"
+                      enabled={isSpeaking}
+                      setEnabled={setIsSpeaking}
+                    />
+                  </div>
+                  {isSpeaking && (
+                    <div className="mt-1 sm:col-span-2 sm:mt-0">
+                      <Input
+                        type="text"
+                        name="topic"
+                        label="What topic are you speaking on ?"
+                        placeholder="Your speaking topic"
+                        onChange={(e) => setspeakingTopic(e.target.value)}
+                        value={speakingTopic}
+                        required
+                        maxLength="256"
+                      />
+                      <p className="text-sm text-primary-low-medium">
+                        For example: <i>The future of AI</i>
+                      </p>
+                    </div>
+                  )}
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
                       type="number"
                       min="0"
@@ -286,6 +323,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      type="color"
                       name="color"
                       label="Color"
                       onChange={(e) => setColor(e.target.value)}
@@ -309,7 +347,7 @@ export default function ManageEvent({ BASE_URL, event }) {
               </div>
             </div>
           </form>
-          <div>
+          <div className="mt-6 md:mt-0">
             <EventCard
               event={{
                 name,
@@ -317,6 +355,8 @@ export default function ManageEvent({ BASE_URL, event }) {
                 url,
                 date: { start: startDate, end: endDate },
                 isVirtual,
+                isSpeaking,
+                speakingTopic,
                 price: { startingFrom: price },
                 color,
               }}

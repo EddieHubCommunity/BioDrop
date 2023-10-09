@@ -16,6 +16,7 @@ import UserLink from "@components/user/UserLink";
 import { ReactSortable } from "react-sortablejs";
 import Notification from "@components/Notification";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -86,7 +87,7 @@ export default function ManageLinks({ BASE_URL, username, links }) {
     <>
       <PageHead
         title="Manage Links"
-        description="Here you can manage your LinkFree links"
+        description={`Here you can manage your ${PROJECT_NAME} links`}
       />
 
       <Page>
@@ -110,8 +111,8 @@ export default function ManageLinks({ BASE_URL, username, links }) {
             Add Link
           </Button>
 
-          {linkList.length !== 0 && !reorder && (
-            <Button onClick={() => setReorder(true)}>
+          {!reorder && (
+            <Button onClick={() => setReorder(true)} disable={linkList.length < 2}>
               <ArrowPathIcon className="h-5 w-5 mr-2" />
               REORDER
             </Button>

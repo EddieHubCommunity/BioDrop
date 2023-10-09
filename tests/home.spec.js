@@ -4,7 +4,7 @@ import AxeBuilder from "@axe-core/playwright";
 
 test("homepage has title", async ({ page }) => {
   await page.goto("/");
-  await expect(page).toHaveTitle(/LinkFree/);
+  await expect(page).toHaveTitle(/BioDrop/);
 });
 
 test("homepage has example link", async ({ page }) => {
@@ -21,12 +21,13 @@ test("Footer link goes to GitHub", async ({ page }) => {
   const getFooter = page.getByText("Powered by EddieHub");
 
   await getFooter.click();
+  await page.waitForLoadState("networkidle");
 
   await expect(page).toHaveURL(/github/);
 });
 
 test.describe("accessibility tests (light)", () => {
-  test.use({ colorScheme: 'light' });
+  test.use({ colorScheme: "light" });
 
   test("should pass axe wcag accessibility tests (light)", async ({ page }) => {
     await page.goto("/");
@@ -38,7 +39,7 @@ test.describe("accessibility tests (light)", () => {
 });
 
 test.describe("accessibility tests (dark)", () => {
-  test.use({ colorScheme: 'dark' });
+  test.use({ colorScheme: "dark" });
 
   test("should pass axe wcag accessibility tests (dark)", async ({ page }) => {
     await page.goto("/");
@@ -48,4 +49,3 @@ test.describe("accessibility tests (dark)", () => {
     expect(accessibilityScanResults.violations).toEqual([]);
   });
 });
-

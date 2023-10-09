@@ -1,12 +1,12 @@
 {
-    "isVirtual": true,
-    "isInPerson": true,
-    "color": "blue",
-    "name": "Flutter Forward 2023",
-    "description": "Attended the Flutter Forward 2023 livestream where Flutter 3.7.0 was launched and major updates regarding Flutter and Dart were announced.",
-    "date": {
-        "start": "2023-01-25T20:00:00.000+00:00",
-        "end": "2023-01-25T22:30:00.000+00:00"
-    },
-    "url": "https://www.youtube.com/watch?v=zKQYGKAe5W8"
+  "isVirtual": true,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Flutter Forward 2023",
+  "description": "Attended the Flutter Forward 2023 livestream where Flutter 3.7.0 was launched and major updates regarding Flutter and Dart were announced.",
+  "date": {
+    "start": "2023-01-25T20:00:00.000+00:00",
+    "end": "2023-01-25T22:30:00.000+00:00"
+  },
+  "url": "https://www.youtube.com/watch?v=zKQYGKAe5W8"
 }

@@ -11,6 +11,7 @@ import Button from "@components/Button";
 import UserEvents from "@components/user/UserEvents";
 import { useRouter } from "next/router";
 import Alert from "@components/Alert";
+import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -61,21 +62,19 @@ export default function ManageEvents({ events }) {
     <>
       <PageHead
         title="Manage Events"
-        description="Here you can manage your LinkFree events"
+        description={`Here you can manage your ${PROJECT_NAME} events`}
       />
 
       <Page>
         {alert && (
           <Alert type={alerts[alert].type} message={alerts[alert].message} />
         )}
-
         <Navigation />
         <Button href="/account/manage/event">
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Event
         </Button>
-
-        <UserEvents events={events} manage={true} filter="all" />
+        <UserEvents events={events} manage={true} />
       </Page>
     </>
   );

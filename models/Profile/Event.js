@@ -34,6 +34,11 @@ const EventSchema = new Schema({
   price: {
     startingFrom: Number,
   },
+  isSpeaking: Boolean,
+  speakingTopic: {
+    type: String,
+    max: 256,
+  },
   color: {
     type: String,
     min: 2,

@@ -1,45 +1,45 @@
-## [1.175.2](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.1...v1.175.2) (2023-08-16)
+## [2.70.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.1...v2.70.2) (2023-10-09)
 
 
 ### Bug Fixes
 
-* dark mode display issue for bio label ([#8669](https://github.com/EddieHubCommunity/LinkFree/issues/8669)) ([85cbf2f](https://github.com/EddieHubCommunity/LinkFree/commit/85cbf2f2934811225034b2d76b42e00b9d541b4b))
+* improvement to docs ([#9426](https://github.com/EddieHubCommunity/BioDrop/issues/9426)) ([4f775a4](https://github.com/EddieHubCommunity/BioDrop/commit/4f775a4bb2adf68a2a97c50a07ad06dd0c20cc02))
 
 
 
-## [1.175.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.175.0...v1.175.1) (2023-08-16)
+## [2.70.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.0...v2.70.1) (2023-10-09)
 
 
 ### Bug Fixes
 
-* profile layout select ([#8668](https://github.com/EddieHubCommunity/LinkFree/issues/8668)) ([3287346](https://github.com/EddieHubCommunity/LinkFree/commit/3287346eb161c82b2f92e95fb7bf635e4631e9b4))
+* url display in referrers page ([#9424](https://github.com/EddieHubCommunity/BioDrop/issues/9424)) ([2adcef2](https://github.com/EddieHubCommunity/BioDrop/commit/2adcef2b99dac9fd082c95e70cd547bf8a4781f7))
 
 
 
-# [1.175.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.1...v1.175.0) (2023-08-16)
+# [2.70.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.4...v2.70.0) (2023-10-09)
 
 
 ### Features
 
-* tag highlighting in profile card on search ([#8419](https://github.com/EddieHubCommunity/LinkFree/issues/8419)) ([f33a265](https://github.com/EddieHubCommunity/LinkFree/commit/f33a2650453cf13d6e39c666c8a799685ba620f9))
+* location and referrers stats details ([#9410](https://github.com/EddieHubCommunity/BioDrop/issues/9410)) ([51b63d7](https://github.com/EddieHubCommunity/BioDrop/commit/51b63d7c3140257fda6f90664088bf4b17354cad))
 
 
 
-## [1.174.1](https://github.com/EddieHubCommunity/LinkFree/compare/v1.174.0...v1.174.1) (2023-08-15)
+## [2.69.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.3...v2.69.4) (2023-10-08)
 
 
 ### Bug Fixes
 
-* homepage repo feature ([#8657](https://github.com/EddieHubCommunity/LinkFree/issues/8657)) ([18fa723](https://github.com/EddieHubCommunity/LinkFree/commit/18fa72392c0e17f724e6a176fa1e226f1c273221))
+* improve faq title ([#9415](https://github.com/EddieHubCommunity/BioDrop/issues/9415)) ([c875454](https://github.com/EddieHubCommunity/BioDrop/commit/c87545479cf7e593647b534ca44fd04c1f6f6e0a))
 
 
 
-# [1.174.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.173.5...v1.174.0) (2023-08-15)
+## [2.69.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.2...v2.69.3) (2023-10-08)
 
 
-### Features
+### Bug Fixes
 
-* store profile referrer ([#8654](https://github.com/EddieHubCommunity/LinkFree/issues/8654)) ([f0643ac](https://github.com/EddieHubCommunity/LinkFree/commit/f0643ac445457b72c51d1d50a8feea6674fa8e59))
+* displaying all dates on graph ([#8580](https://github.com/EddieHubCommunity/BioDrop/issues/8580)) ([#9395](https://github.com/EddieHubCommunity/BioDrop/issues/9395)) ([1ddbdcb](https://github.com/EddieHubCommunity/BioDrop/commit/1ddbdcb2b0512e9fce2b109df3cc9e6924675a52)), closes [#8569](https://github.com/EddieHubCommunity/BioDrop/issues/8569) [#8569](https://github.com/EddieHubCommunity/BioDrop/issues/8569)
 
 
 

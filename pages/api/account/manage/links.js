@@ -59,7 +59,7 @@ export async function updateLinksOrderApi(username, data) {
         },
         {
           order: idx,
-        }
+        },
       );
     } catch (e) {
       log.error(e, `failed to update link order for username: ${username}`);

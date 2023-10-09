@@ -12,6 +12,7 @@ export default function UserMini({
   monthly,
   total,
   clicks,
+  rank,
 }) {
   return (
     <div className="overflow-hidden bg-white shadow dark:shadow-none dark:border-primary-low-medium border ">
@@ -47,13 +48,21 @@ export default function UserMini({
           </div>
           <div className="mt-5 flex justify-center sm:mt-0">
             <Button href={`${BASE_URL}/${username}`} primary={true}>
-              VIEW PROFILE
+              View Profile
             </Button>
           </div>
         </div>
       </div>
-      {monthly && total && clicks && (
-        <div className="grid grid-cols-1 divide-y divide-primary-low-medium/30 dark:divide-primary-low-medium border-t border-primary-low-medium/30 dark:border-primary-low-medium bg-primary-low dark:bg-primary-medium sm:grid-cols-3 sm:divide-x sm:divide-y-0">
+      {!!monthly && !!total && !!clicks && !!rank && (
+        <div className="grid grid-cols-1 divide-y divide-primary-low-medium/30 dark:divide-primary-low-medium border-t border-primary-low-medium/30 dark:border-primary-low-medium bg-primary-low dark:bg-primary-medium sm:grid-cols-4 sm:divide-x sm:divide-y-0">
+          <div className="px-6 py-5 text-center text-sm font-medium">
+            <span className="text-primary-medium dark:text-primary-low-medium">
+              Rank
+            </span>{" "}
+            <span className="text-primary-high dark:text-primary-low">
+              {rank}
+            </span>
+          </div>
           <div className="px-6 py-5 text-center text-sm font-medium">
             <span className="text-primary-high dark:text-primary-low">
               {abbreviateNumber(monthly)}

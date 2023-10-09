@@ -1,6 +1,6 @@
 {
   "name": "Vivek Sati",
-  "bio": " **Open Source** | DevOps Intern @Incloudo ",
+  "bio": " **Open Source** | DevOps Engineer Intern",
   "tags": ["Open Source", "DevOps", "AWS"],
   "socials": [
     {
@@ -16,6 +16,7 @@
       "url": "https://www.linkedin.com/in/vivek-sati"
     }
   ],
+  "testimonials": ["akshitagupta15june"],
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -36,6 +37,11 @@
       "name": "Follow me on Hashnode",
       "url": "https://hashnode.com/@viveksati",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on DEV.to",
+      "url": "https://dev.to/viveksati",
+      "icon": "FaDev"
     },
     {
       "name": "Check me out on Quine",
@@ -67,6 +73,14 @@
       "color": "red",
       "description": "Started my first Remote DevOps Internship in a startup.",
       "url": "https://twitter.com/Vivek__twts/status/1678303627616702464?s=20"
+    },
+    {
+      "title": "Top 100 contributor GSSoC'23",
+      "date": "August 2023",
+      "icon": "SiTarget",
+      "color": "grey",
+      "description": "Ranked 69 among the 1557 active contributors from different countries",
+      "url": "https://gssoc.girlscript.tech/leaderboard"
     },
     {
       "isGoal": true,

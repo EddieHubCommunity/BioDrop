@@ -16,6 +16,10 @@ const profileStatsSchema = new mongoose.Schema(
         type: Map,
         of: Number,
       },
+      countries: {
+        type: Map,
+        of: Number,
+      },
     },
     date: {
       type: Date,
@@ -26,7 +30,7 @@ const profileStatsSchema = new mongoose.Schema(
       ref: "Profile",
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 profileStatsSchema.index({ username: 1, date: 1 });

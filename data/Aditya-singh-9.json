@@ -1,0 +1,31 @@
+{
+  "name": "Aditya Singh",
+  "bio": "Open Source",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ArkSingh48922",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aditya-singh-533363271/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Aditya-singh-9",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/adityasinh.__/?igshid=ZDc4ODBmNjlmNQ%3D%3D",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "hashnode",
+      "url": "https://hashnode.com/@singh262",
+      "icon": "Fahashnode"
+    }
+  ]
+}

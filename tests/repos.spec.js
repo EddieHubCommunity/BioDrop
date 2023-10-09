@@ -8,6 +8,7 @@ test("Click on repos in navbar navigates to repo page", async ({ page }) => {
     .getByRole("navigation")
     .getByRole("link", { name: "Repos" })
     .click();
+  await page.waitForLoadState("networkidle");
   await expect(page).toHaveURL("/repos");
 });
 

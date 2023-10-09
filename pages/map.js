@@ -10,6 +10,7 @@ import Badge from "@components/Badge";
 import { getTags } from "./api/discover/tags";
 import { getProfiles } from "./api/profiles";
 import config from "@config/app.json";
+import { PROJECT_NAME } from "@constants/index";
 
 //this is required as leaflet is not compatible with SSR
 const DynamicMap = dynamic(() => import("../components/map/Map"), {
@@ -34,7 +35,7 @@ export async function getStaticProps() {
       user.location.provided &&
       user.location.provided !== "unknown" &&
       user.location.name !== "unknown" &&
-      user.location.provided.toLowerCase() !== "remote"
+      user.location.provided.toLowerCase() !== "remote",
   );
 
   // Apply offset equally to 4 quadrants arround point
@@ -70,7 +71,7 @@ export async function getStaticProps() {
           [parseFloat(user.location.lon), parseFloat(user.location.lat)],
           offset,
           offset2,
-          index
+          index,
         ),
       },
     };
@@ -143,7 +144,7 @@ export default function Map({ data }) {
           as="image"
           key={`${i}${j}`}
           href={`https://b.tile.openstreetmap.org/2/${i}/${j}.png`}
-        />
+        />,
       );
     }
   }
@@ -151,17 +152,17 @@ export default function Map({ data }) {
   return (
     <>
       <PageHead
-        title="LinkFree Users Around The World"
-        description="This map shows all the locations of LinkFree users based on the location provided in their GitHub profiles."
+        title={PROJECT_NAME + " Users Around The World"}
+        description={`This map shows all the locations of ${PROJECT_NAME} users based on the location provided in their GitHub profiles.`}
       >
         {links}
       </PageHead>
       <Page>
         <h1 className="text-4xl mb-4 font-bold">
-          LinkFree Users Around The World
+          {PROJECT_NAME} Users Around The World
         </h1>
         <p className="py-5">
-          This map shows locations of Linkfree users based on the location
+          This map shows locations of {PROJECT_NAME} users based on the location
           listed in their GitHub profile. New data points are added each time a
           profile is visited.
         </p>
@@ -194,7 +195,7 @@ export default function Map({ data }) {
                 />
               ))}
         </div>
-        <div className="h-screen">
+        <div style={{ height: "min(96vw, 100vh)" }}>
           <DynamicMap
             users={filteredUsers.length > 0 ? filteredUsers : users}
           />

@@ -1,6 +1,6 @@
 name: 🏆 Testimonial
 title: New Testimonial
-description: Make a testimonial for the LinkFree user
+description: Make a testimonial for the BioDrop user
 labels: ["testimonial"]
 body:
   - type: input
