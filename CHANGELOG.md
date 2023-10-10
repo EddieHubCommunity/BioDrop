@@ -1,3 +1,12 @@
+# [2.72.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.71.0...v2.72.0) (2023-10-10)
+
+
+### Features
+
+* display pronoun ([#9438](https://github.com/EddieHubCommunity/BioDrop/issues/9438)) ([c4d8fd6](https://github.com/EddieHubCommunity/BioDrop/commit/c4d8fd63e1c998586ba8b973a3bc59648bb538a9))
+
+
+
 # [2.71.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.2...v2.71.0) (2023-10-10)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * location and referrers stats details ([#9410](https://github.com/EddieHubCommunity/BioDrop/issues/9410)) ([51b63d7](https://github.com/EddieHubCommunity/BioDrop/commit/51b63d7c3140257fda6f90664088bf4b17354cad))
-
-
-
-## [2.69.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.3...v2.69.4) (2023-10-08)
-
-
-### Bug Fixes
-
-* improve faq title ([#9415](https://github.com/EddieHubCommunity/BioDrop/issues/9415)) ([c875454](https://github.com/EddieHubCommunity/BioDrop/commit/c87545479cf7e593647b534ca44fd04c1f6f6e0a))
 
 
 
