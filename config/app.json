@@ -1,5 +1,5 @@
 {
-  "version": "2.70.2",
+  "version": "2.71.0",
   "alerts": [],
   "layouts": [
     "classic",
@@ -7,33 +7,114 @@
     "column-2"
   ],
   "pronouns": [
-    { "label": "Don't specify", "value": "" },
-    { "label": "they/them", "value": "they/them" },
-    { "label": "she/her", "value": "she/her" },
-    { "label": "he/him", "value": "he/him" },
-    { "label": "they/them/themselves", "value": "they/them/themselves" },
-    { "label": "it/its", "value": "it/its" },
-    { "label": "one/one's", "value": "one/one's" },
-    { "label": "ae/aer", "value": "ae/aer" },
-    { "label": "ey/em", "value": "ey/em" },
-    { "label": "fae/faer", "value": "fae/faer" },
-    { "label": "xe/xem", "value": "xe/xem" },
-    { "label": "ze/hir", "value": "ze/hir" },
-    { "label": "ze/zir", "value": "ze/zir" },
-    { "label": "co/cos", "value": "co/cos" },
-    { "label": "e/em/eir", "value": "e/em/eir" },
-    { "label": "e/em/es", "value": "e/em/es" },
-    { "label": "hu/hum", "value": "hu/hum" },
-    { "label": "ne/nem", "value": "ne/nem" },
-    { "label": "ne/nir", "value": "ne/nir" },
-    { "label": "per/per", "value": "per/per" },
-    { "label": "s/he/hir", "value": "s/he/hir" },
-    { "label": "thon/thons", "value": "thon/thons" },
-    { "label": "ve/ver", "value": "ve/ver" },
-    { "label": "vi/vir", "value": "vi/vir" },
-    { "label": "vi/vim", "value": "vi/vim" },
-    { "label": "zhe/zher", "value": "zhe/zher" },
-    { "label": "ki/kin", "value": "ki/kin" }
+    {
+      "label": "Don't specify",
+      "value": ""
+    },
+    {
+      "label": "they/them",
+      "value": "they/them"
+    },
+    {
+      "label": "she/her",
+      "value": "she/her"
+    },
+    {
+      "label": "he/him",
+      "value": "he/him"
+    },
+    {
+      "label": "they/them/themselves",
+      "value": "they/them/themselves"
+    },
+    {
+      "label": "it/its",
+      "value": "it/its"
+    },
+    {
+      "label": "one/one's",
+      "value": "one/one's"
+    },
+    {
+      "label": "ae/aer",
+      "value": "ae/aer"
+    },
+    {
+      "label": "ey/em",
+      "value": "ey/em"
+    },
+    {
+      "label": "fae/faer",
+      "value": "fae/faer"
+    },
+    {
+      "label": "xe/xem",
+      "value": "xe/xem"
+    },
+    {
+      "label": "ze/hir",
+      "value": "ze/hir"
+    },
+    {
+      "label": "ze/zir",
+      "value": "ze/zir"
+    },
+    {
+      "label": "co/cos",
+      "value": "co/cos"
+    },
+    {
+      "label": "e/em/eir",
+      "value": "e/em/eir"
+    },
+    {
+      "label": "e/em/es",
+      "value": "e/em/es"
+    },
+    {
+      "label": "hu/hum",
+      "value": "hu/hum"
+    },
+    {
+      "label": "ne/nem",
+      "value": "ne/nem"
+    },
+    {
+      "label": "ne/nir",
+      "value": "ne/nir"
+    },
+    {
+      "label": "per/per",
+      "value": "per/per"
+    },
+    {
+      "label": "s/he/hir",
+      "value": "s/he/hir"
+    },
+    {
+      "label": "thon/thons",
+      "value": "thon/thons"
+    },
+    {
+      "label": "ve/ver",
+      "value": "ve/ver"
+    },
+    {
+      "label": "vi/vir",
+      "value": "vi/vir"
+    },
+    {
+      "label": "vi/vim",
+      "value": "vi/vim"
+    },
+    {
+      "label": "zhe/zher",
+      "value": "zhe/zher"
+    },
+    {
+      "label": "ki/kin",
+      "value": "ki/kin"
+    }
   ],
   "animations": {
     "none": "No Animation",
