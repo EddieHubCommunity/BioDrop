@@ -18,7 +18,7 @@ import { PROJECT_NAME } from "@constants/index";
 import Link from "@components/Link";
 
 const DynamicChart = dynamic(
-  () => import("../../../components/statistics/StatsChart"),
+  () => import("../../../components/statistics/BarGraph"),
   { ssr: false },
 );
 
