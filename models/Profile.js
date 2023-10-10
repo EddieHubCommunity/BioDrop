@@ -147,6 +147,8 @@ const ProfileSchema = new Schema(
       domain: {
         type: String,
         unique: true,
+        get: (v) => v.replaceAll("|", "."),
+        set: (v) => v.replaceAll(".", "|"),
         validator: function (v) {
           return /^((?!-)[A-Za-z0-9-]{1, 63}(?<!-)\\.)+[A-Za-z]{2, 6}$/.test(v);
         },
@@ -154,7 +156,7 @@ const ProfileSchema = new Schema(
       },
     },
   },
-  { timestamps: true },
+  { timestamps: true, toJSON: { getters: true } },
 );
 
 module.exports =

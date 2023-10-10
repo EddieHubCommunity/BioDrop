@@ -52,7 +52,7 @@ export async function getDomainApi(domain) {
     profile = profile[0];
     return {
       username: profile.username,
-      settings: { domain: profile.settings?.domain.replace("|", ".") },
+      settings: { domain: profile.settings?.domain.replaceAll("|", ".") }, // TODO: use getter/setter instead
       user: { type: profile.user[0].type },
     };
   }

@@ -63,10 +63,12 @@ export async function updateSettingsApi(context, username, data) {
     return { error: e.errors };
   }
 
+  const update = { ...beforeUpdate, ...data };
+  update.domain = update.domain.replaceAll(".", "|"); // TODO: use getter/setter instead
   try {
     getProfile = await Profile.findOneAndUpdate(
       { username },
-      { source: "database", settings: { ...beforeUpdate, ...data } },
+      { source: "database", settings: update },
       {
         upsert: true,
         new: true,
