@@ -224,11 +224,11 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                     <div className="col-span-3 sm:col-span-4">
                       <div className="mt-1">
                         <Select
-                            name="pronoun"
-                            label="Pronouns"
-                            value={pronoun}
-                            options={pronouns}
-                            onChange={(e) => setPronoun(e.target.value)}
+                          name="pronoun"
+                          label="Pronouns"
+                          value={pronoun}
+                          options={pronouns}
+                          onChange={(e) => setPronoun(e.target.value)}
                         />
                       </div>
                     </div>
