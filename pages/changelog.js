@@ -12,6 +12,20 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Profile pronouns",
+      description:
+        "If you prefer you can add pronouns to your profile, this will appear next to your name",
+      type: "addition",
+      date: "2023-10-10",
+    },
+    {
+      title: "More details for Referrer and Location stats",
+      description:
+        "The Referrer and Location stats now have dedicated pages for more details",
+      type: "addition",
+      date: "2023-10-05",
+    },
+    {
       title: "Deep nesting to Profile tabs",
       description: "Now you can share links to specific tabs on your profile",
       type: "addition",
