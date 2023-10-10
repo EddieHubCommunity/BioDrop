@@ -1,3 +1,12 @@
+## [2.72.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.0...v2.72.1) (2023-10-10)
+
+
+### Bug Fixes
+
+* latest features added to changelog ([#9439](https://github.com/EddieHubCommunity/BioDrop/issues/9439)) ([df0adc4](https://github.com/EddieHubCommunity/BioDrop/commit/df0adc44b80b366180c109b54fa9e41cacaedc7f))
+
+
+
 # [2.72.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.71.0...v2.72.0) (2023-10-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * url display in referrers page ([#9424](https://github.com/EddieHubCommunity/BioDrop/issues/9424)) ([2adcef2](https://github.com/EddieHubCommunity/BioDrop/commit/2adcef2b99dac9fd082c95e70cd547bf8a4781f7))
-
-
-
-# [2.70.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.4...v2.70.0) (2023-10-09)
-
-
-### Features
-
-* location and referrers stats details ([#9410](https://github.com/EddieHubCommunity/BioDrop/issues/9410)) ([51b63d7](https://github.com/EddieHubCommunity/BioDrop/commit/51b63d7c3140257fda6f90664088bf4b17354cad))
 
 
 
