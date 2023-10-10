@@ -206,7 +206,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
-          <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2 flex-wrap">
+          <div className="flex pb-4 md:pb-0 items-center justify-center gap-x-6 md:order-2 flex-wrap">
             <p className=" text-xs leading-5 text-primary-low-high  md:mt-0 whitespace-nowrap">
               100% Open Source on GitHub
             </p>
