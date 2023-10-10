@@ -1,3 +1,4 @@
+import { classNames } from "@services/utils/classNames";
 import Label from "./Label";
 
 export default function Select({
@@ -20,9 +21,10 @@ export default function Select({
         id={name}
         defaultValue={value}
         onChange={onChange}
-        className={`mt-2 text-primary-high dark:bg-primary-high dark:text-white border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full sm:text-sm sm:leading-6 ${
-          restProps.className || ""
-        }`}
+        className={classNames(
+          "text-primary-high dark:bg-primary-high dark:text-white border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full sm:text-sm sm:leading-6",
+          className,
+        )}
         {...restProps}
       >
         {options.map((option) => (
