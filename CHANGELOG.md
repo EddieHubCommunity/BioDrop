@@ -1,3 +1,12 @@
+# [2.71.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.2...v2.71.0) (2023-10-10)
+
+
+### Features
+
+* pronoun field for profile ([#9396](https://github.com/EddieHubCommunity/BioDrop/issues/9396)) ([d55494f](https://github.com/EddieHubCommunity/BioDrop/commit/d55494f7be754e1ae3fbd03726e32085aa6dc450)), closes [#8618](https://github.com/EddieHubCommunity/BioDrop/issues/8618)
+
+
+
 ## [2.70.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.1...v2.70.2) (2023-10-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improve faq title ([#9415](https://github.com/EddieHubCommunity/BioDrop/issues/9415)) ([c875454](https://github.com/EddieHubCommunity/BioDrop/commit/c87545479cf7e593647b534ca44fd04c1f6f6e0a))
-
-
-
-## [2.69.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.69.2...v2.69.3) (2023-10-08)
-
-
-### Bug Fixes
-
-* displaying all dates on graph ([#8580](https://github.com/EddieHubCommunity/BioDrop/issues/8580)) ([#9395](https://github.com/EddieHubCommunity/BioDrop/issues/9395)) ([1ddbdcb](https://github.com/EddieHubCommunity/BioDrop/commit/1ddbdcb2b0512e9fce2b109df3cc9e6924675a52)), closes [#8569](https://github.com/EddieHubCommunity/BioDrop/issues/8569) [#8569](https://github.com/EddieHubCommunity/BioDrop/issues/8569)
 
 
 
