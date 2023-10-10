@@ -63,7 +63,7 @@ export default function DocsIndex() {
       },
       icon: InformationCircleIcon,
       comment:
-        "There are projects that need to be improved; therefore, you may begin by identifying the good first issues or by creating an issue if you discover a bug. Prior to beginning your work, read the contributing guidelines right after the README file.",
+        "Code review as a way to contribute can help developers understand the codebase, share feedback that helps them increase their coding skills, catch bugs, ensure no point of failure, increase collaboration among team members, etc.",
     },
     {
       type: "comment",
