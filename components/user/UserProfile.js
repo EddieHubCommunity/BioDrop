@@ -3,6 +3,9 @@ import { FaShare } from "react-icons/fa6";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
 import { useRouter } from "next/router";
+import { toPng } from "html-to-image";
+import LogoWide from "@public/logos/LogoWide";
+import logger from "@config/logger";
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
@@ -24,13 +27,37 @@ function UserProfile({ BASE_URL, data }) {
 
   //Declared Ref object for QR
   const qrRef = useRef(null);
+  const elementRef = useRef(null);
 
   //qrRef.current is pointing to the DOM node and firstChild to its canvas
   const downloadQR = () =>
     qrRef.current.firstChild.toBlob((blob) =>
       saveAs(blob, `biodrop-${data.username}.png`),
     );
-
+    const downloadWallpaper = () => {
+      // It removes the "hidden" class to make the element visible for rendering it.
+      elementRef.current.classList.remove("hidden");
+  
+  
+      toPng(elementRef.current, {
+        cacheBust: false,
+        backgroundColor: "#122640",
+      })
+        .then((dataUrl) => {
+          const link = document.createElement("a");
+          link.download = "biodrop-wallpaper.png";
+          link.href = dataUrl;
+          link.click();
+  
+  
+          // It adds the "hidden" class back to hide the element again.
+          elementRef.current.classList.add("hidden");
+        })
+        .catch((e) => {
+          logger.error(e);
+        });
+    };
+  
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
@@ -150,6 +177,13 @@ function UserProfile({ BASE_URL, data }) {
                 </Button>
               )}
             </div>
+            <div className="w-full px-2 mx-auto flex justify-center mb-4">
+              {qrShow && (
+                <Button primary={true} onClick={downloadWallpaper}>
+                  Export as Wallpaper
+                </Button>
+              )}
+            </div>
           </div>
           {qrShow && (
             <>
@@ -180,6 +214,22 @@ function UserProfile({ BASE_URL, data }) {
               </div>
             </>
           )}
+        </div>
+        {/* Part that gets converted into the image */}
+        <div
+          ref={elementRef}
+          className="flex flex-col items-center justify-center mt-10 px-8 hidden"
+        >
+          {qrShow && (
+            <QRCodeCanvas
+              className="border border-white"
+              value={`${BASE_URL}/${data.username}`}
+              size={fallbackImageSize * 6}
+            />
+          )}
+          <div className="flex m-20">
+            <LogoWide width={512} />
+          </div>
         </div>
       </Modal>
     </>
