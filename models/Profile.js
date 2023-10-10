@@ -137,10 +137,18 @@ const ProfileSchema = new Schema(
         type: Boolean,
         default: false,
       },
+      domain: {
+        type: String,
+        unique: true,
+        validator: function (v) {
+          return /^((?!-)[A-Za-z0-9-]{1, 63}(?<!-)\\.)+[A-Za-z]{2, 6}$/.test(v);
+        },
+        message: (props) => `${props.value} is not a valid domain!`,
+      },
     },
   },
   { timestamps: true },
 );
 
 module.exports =
-  mongoose.models.Profile || mongoose.model("Profile", ProfileSchema);
+  mongoose.models?.Profile || mongoose.model("Profile", ProfileSchema);
