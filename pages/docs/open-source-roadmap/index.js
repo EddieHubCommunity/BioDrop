@@ -63,7 +63,7 @@ export default function DocsIndex() {
       },
       icon: InformationCircleIcon,
       comment:
-        "Code review as a way to contribute can help developers understand the codebase, share feedback that helps them increase their coding skills, catch bugs, ensure no point of failure, increase collaboration among team members, etc.",
+        "All projects need improvements, this is where you can get involved. Read the contributing guide as this is probably the 2nd most important file in the repo, right after the README. Code Reviews are another way to contribute as it can help developers understand the codebase, share feedback that helps them increase their coding skills, catch bugs, ensure no point of failure, increase collaboration among team members, etc.",
     },
     {
       type: "comment",
