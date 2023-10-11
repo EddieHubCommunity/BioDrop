@@ -9,6 +9,10 @@ export const config = {
 export async function middleware(request) {
   const hostname = request.headers.get("host");
 
+  if (hostname === process.env.NEXT_PUBLIC_BASE_URL) {
+    return;
+  }
+
   const res = await fetch(
     `http://localhost:3000/api/profiles/domain/${encodeURIComponent(
       hostname.replace(".", "|"),

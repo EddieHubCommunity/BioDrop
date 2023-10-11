@@ -146,7 +146,6 @@ const ProfileSchema = new Schema(
       },
       domain: {
         type: String,
-        unique: true,
         get: (v) => v.replaceAll("|", "."),
         set: (v) => v.replaceAll(".", "|"),
         validator: function (v) {
