@@ -66,7 +66,7 @@ export default function ManageSettings({
   const [hideNavbar, setHideNavbar] = useState(settings.hideNavbar || false);
   const [hideFooter, setHideFooter] = useState(settings.hideFooter || false);
   const [domain, setDomain] = useState(
-    settings.domain.replaceAll("|", ".") || "",
+    settings.domain?.replaceAll("|", ".") || "",
   ); // TODO: use getter/setter instead
   const [enableForm] = useState(accountType === "premium" ? true : false);
 
