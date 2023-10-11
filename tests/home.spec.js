@@ -49,3 +49,32 @@ test.describe("accessibility tests (dark)", () => {
     expect(accessibilityScanResults.violations).toEqual([]);
   });
 });
+
+test.describe("Data rendered correctly on home page", () => {
+  test("Total active rendered", async ({ page }) => {
+    const { stats: totalStats } = await getTotalStats();
+    const abbreviatedActive = abbreviateNumber(totalStats.active);
+    await page.goto("/");
+    const activeLocator = await page.getByText(abbreviatedActive);
+    const finalTotalActive = await activeLocator.textContent();
+    expect(finalTotalActive).toEqual(abbreviatedActive);
+  });
+
+  test("Profile views rendered", async ({ page }) => {
+    const { stats: totalStats } = await getTotalStats();
+    const abbreviatedViews = abbreviateNumber(totalStats.views);
+    await page.goto("/");
+    const viewsLocator = await page.getByText(abbreviatedViews);
+    const finalTotalViews = await viewsLocator.textContent();
+    expect(finalTotalViews).toEqual(abbreviatedViews);
+  });
+
+  test("Links clicked rendered", async ({ page }) => {
+    const { stats: totalStats } = await getTotalStats();
+    const abbreviatedClicks = abbreviateNumber(totalStats.clicks);
+    await page.goto("/");
+    const clicksLocator = await page.getByText(abbreviatedClicks);
+    const finalTotalClicks = await clicksLocator.textContent();
+    expect(finalTotalClicks).toEqual(abbreviatedClicks);
+  });
+});
