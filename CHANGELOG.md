@@ -1,3 +1,12 @@
+## [2.72.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.1...v2.72.2) (2023-10-11)
+
+
+### Bug Fixes
+
+* a tag to link component ([#9412](https://github.com/EddieHubCommunity/BioDrop/issues/9412)) ([5d98a4d](https://github.com/EddieHubCommunity/BioDrop/commit/5d98a4de68e99c511d38c03cc85c84cf6d269642))
+
+
+
 ## [2.72.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.0...v2.72.1) (2023-10-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * improvement to docs ([#9426](https://github.com/EddieHubCommunity/BioDrop/issues/9426)) ([4f775a4](https://github.com/EddieHubCommunity/BioDrop/commit/4f775a4bb2adf68a2a97c50a07ad06dd0c20cc02))
-
-
-
-## [2.70.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.0...v2.70.1) (2023-10-09)
-
-
-### Bug Fixes
-
-* url display in referrers page ([#9424](https://github.com/EddieHubCommunity/BioDrop/issues/9424)) ([2adcef2](https://github.com/EddieHubCommunity/BioDrop/commit/2adcef2b99dac9fd082c95e70cd547bf8a4781f7))
 
 
 
