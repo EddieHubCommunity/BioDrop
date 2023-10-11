@@ -1,3 +1,12 @@
+## [2.72.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.2...v2.72.3) (2023-10-11)
+
+
+### Bug Fixes
+
+* tabs on mobile no label ([#9457](https://github.com/EddieHubCommunity/BioDrop/issues/9457)) ([148b668](https://github.com/EddieHubCommunity/BioDrop/commit/148b66838203f05fac077e9013f08e399942c4d0))
+
+
+
 ## [2.72.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.1...v2.72.2) (2023-10-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * pronoun field for profile ([#9396](https://github.com/EddieHubCommunity/BioDrop/issues/9396)) ([d55494f](https://github.com/EddieHubCommunity/BioDrop/commit/d55494f7be754e1ae3fbd03726e32085aa6dc450)), closes [#8618](https://github.com/EddieHubCommunity/BioDrop/issues/8618)
-
-
-
-## [2.70.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.1...v2.70.2) (2023-10-09)
-
-
-### Bug Fixes
-
-* improvement to docs ([#9426](https://github.com/EddieHubCommunity/BioDrop/issues/9426)) ([4f775a4](https://github.com/EddieHubCommunity/BioDrop/commit/4f775a4bb2adf68a2a97c50a07ad06dd0c20cc02))
 
 
 
