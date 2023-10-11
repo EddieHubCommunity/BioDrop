@@ -1,6 +1,8 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
+import { getTotalStats } from "pages/api/statistics/totals";
+import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 
 test("homepage has title", async ({ page }) => {
   await page.goto("/");
