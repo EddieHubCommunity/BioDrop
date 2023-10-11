@@ -63,7 +63,7 @@ export default function Premium({ user }) {
           }
           return false;
         },
-        onClick: () => {},
+        onClick: () => { },
       },
     },
     {
@@ -386,7 +386,7 @@ export default function Premium({ user }) {
                               <span>
                                 {feature.name}{" "}
                                 {typeof feature.tiers[tier.name] ===
-                                "string" ? (
+                                  "string" ? (
                                   <span className="text-sm leading-6 text-gray-500">
                                     ({feature.tiers[tier.name]})
                                   </span>
@@ -412,12 +412,11 @@ export default function Premium({ user }) {
                     className="flex w-1/3 px-4"
                     aria-hidden="true"
                     style={{
-                      marginLeft: `${
-                        (tiers.findIndex((tier) => tier.mostPopular) + 1) * 33
-                      }%`,
+                      marginLeft: `${(tiers.findIndex((tier) => tier.mostPopular) + 1) * 33
+                        }%`,
                     }}
                   >
-                    <div className="w-full rounded-t-xl border-x border-t border-gray-900/10 bg-gray-400/5" />
+                    <div className="w-full rounded-xl border-x border-t border-gray-900/10 bg-gray-400/5 ring-1 ring-inset ring-gray-200" />
                   </div>
                 </div>
               ) : null}
