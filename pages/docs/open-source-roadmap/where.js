@@ -38,8 +38,8 @@ export default function DocsWhere() {
           Communities and members
         </h2>
         <p>
-          Join communities is a great way to find supportive projects. Also the
-          members themselves will have their own Open Source projects.
+          Joining communities is a great way to find supportive projects. Also
+          the members themselves will have their own Open Source projects.
         </p>
         <p>
           Come and geek out with us in the Open Source community EddieHub

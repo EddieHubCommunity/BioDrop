@@ -1,12 +1,12 @@
-import { authOptions } from "../api/auth/[...nextauth]";
+import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useSession } from "next-auth/react";
 import dynamic from "next/dynamic";
-import { FaMapPin, FaArrowPointer } from "react-icons/fa6";
+import { FaMapPin, FaArrowPointer, FaArrowRight } from "react-icons/fa6";
 
-import { getUserApi } from "../api/profiles/[username]";
+import { getUserApi } from "../../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
-import { getStats } from "../api/account/statistics";
+import { getStats } from "../../api/account/statistics";
 import logger from "@config/logger";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
@@ -15,9 +15,10 @@ import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 import Navigation from "@components/account/manage/Navigation";
 import UserMini from "@components/user/UserMini";
 import { PROJECT_NAME } from "@constants/index";
+import Link from "@components/Link";
 
 const DynamicChart = dynamic(
-  () => import("../../components/statistics/StatsChart"),
+  () => import("../../../components/statistics/StatsChart"),
   { ssr: false },
 );
 
@@ -117,7 +118,7 @@ export default function Statistics({ data, profile, BASE_URL }) {
                 Profile views
               </h3>
               <p className="mt-1 text-sm text-primary-medium dark:text-primary-medium-low">
-                Number of Profile visits per day.
+                Number of Profile visits per day for the last 30 days
               </p>
             </div>
             <DynamicChart data={data.profile.daily} />
@@ -133,9 +134,12 @@ export default function Statistics({ data, profile, BASE_URL }) {
               <li className="overflow-hidden rounded-xl border border-gray-200">
                 <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
                   <FaArrowPointer className="h-6 w-6 text-primary-medium" />
-                  <div className="text-sm font-medium leading-6 text-primary-medium">
+                  <div className="text-sm font-medium leading-6 text-primary-medium grow">
                     Referrers
                   </div>
+                  <Link href="/account/statistics/referers">
+                    <FaArrowRight className="h-6 w-6 text-primary-medium" />
+                  </Link>
                 </div>
                 <dl className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
                   {Object.entries(profile.stats.referers)
@@ -161,9 +165,12 @@ export default function Statistics({ data, profile, BASE_URL }) {
               <li className="overflow-hidden rounded-xl border border-gray-200">
                 <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
                   <FaMapPin className="h-6 w-6 text-primary-medium" />
-                  <div className="text-sm font-medium leading-6 text-primary-medium">
+                  <div className="text-sm font-medium leading-6 text-primary-medium grow">
                     Locations
                   </div>
+                  <Link href="/account/statistics/locations">
+                    <FaArrowRight className="h-6 w-6 text-primary-medium" />
+                  </Link>
                 </div>
                 <dl className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
                   {Object.entries(profile.stats.countries)
@@ -210,7 +217,14 @@ export default function Statistics({ data, profile, BASE_URL }) {
               data.links.individual.map((link) => (
                 <tr key={link.url}>
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
-                    {link.url}
+                    {session && session.accountType === "premium" && (
+                      <Link href={`/account/statistics/link/${link._id}`}>
+                        {link.url}
+                      </Link>
+                    )}
+                    {session && session.accountType === "free" && (
+                      <>{link.url}</>
+                    )}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(link.clicks)}

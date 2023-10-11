@@ -69,6 +69,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     additionalMessage: "",
   });
   const [layout, setLayout] = useState(profile.layout || "classic");
+  const [pronoun, setPronoun] = useState(profile.pronoun || "");
   const [name, setName] = useState(profile.name || "Your name");
   const [isStatsPublic, setIsStatsPublic] = useState(
     profile.isStatsPublic ? true : false,
@@ -83,6 +84,8 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       label: l,
     };
   });
+
+  const { pronouns } = config;
 
   const handleTagAdd = (newTag) => {
     setTags((prevState) => [...prevState, newTag]);
@@ -100,7 +103,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, bio, tags, layout, isStatsPublic }),
+      body: JSON.stringify({ name, bio, tags, layout, pronoun, isStatsPublic }),
     });
     const update = await res.json();
 
@@ -218,7 +221,17 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         />
                       </div>
                     </div>
-
+                    <div className="col-span-3 sm:col-span-4">
+                      <div className="mt-1">
+                        <Select
+                          name="pronoun"
+                          label="Pronouns"
+                          value={pronoun}
+                          options={pronouns}
+                          onChange={(e) => setPronoun(e.target.value)}
+                        />
+                      </div>
+                    </div>
                     <div className="col-span-3 sm:col-span-4">
                       <Textarea
                         name="bio"
