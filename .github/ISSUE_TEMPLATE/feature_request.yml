@@ -20,7 +20,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Description
+      label: Proposed Solution
       description: A clear description of the enhancement you propose. Please include relevant information and resources (for example another project's implementation of this feature).
     validations:
       required: true
