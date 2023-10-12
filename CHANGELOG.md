@@ -1,3 +1,12 @@
+## [2.72.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.4...v2.72.5) (2023-10-12)
+
+
+### Bug Fixes
+
+* issue template bug and feature ([#9467](https://github.com/EddieHubCommunity/BioDrop/issues/9467)) ([d6c901f](https://github.com/EddieHubCommunity/BioDrop/commit/d6c901ff5199138670afaad0ded75cdc24d7b1ca))
+
+
+
 ## [2.72.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.3...v2.72.4) (2023-10-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * latest features added to changelog ([#9439](https://github.com/EddieHubCommunity/BioDrop/issues/9439)) ([df0adc4](https://github.com/EddieHubCommunity/BioDrop/commit/df0adc44b80b366180c109b54fa9e41cacaedc7f))
-
-
-
-# [2.72.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.71.0...v2.72.0) (2023-10-10)
-
-
-### Features
-
-* display pronoun ([#9438](https://github.com/EddieHubCommunity/BioDrop/issues/9438)) ([c4d8fd6](https://github.com/EddieHubCommunity/BioDrop/commit/c4d8fd63e1c998586ba8b973a3bc59648bb538a9))
 
 
 
