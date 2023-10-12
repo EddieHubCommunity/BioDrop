@@ -14,7 +14,7 @@ export async function middleware(request) {
   }
 
   const res = await fetch(
-    `http://localhost:3000/api/profiles/domain/${encodeURIComponent(
+    `${hostname}/api/profiles/domain/${encodeURIComponent(
       hostname.replace(".", "|"),
     )}`,
     {
@@ -34,7 +34,7 @@ export async function middleware(request) {
   ) {
     // if match found rewrite to custom domain and display profile page
     return NextResponse.rewrite(
-      new URL(`/${profile.username}`, `http://${profile.settings.domain}`), // TODO: https
+      new URL(`/${profile.username}`, profile.settings.domain), // TODO: https
     );
   }
 }
