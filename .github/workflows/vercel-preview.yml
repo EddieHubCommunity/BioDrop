@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - premium3
+      - feat-custom-domain
 
 jobs:
   deploy:
