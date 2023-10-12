@@ -1,3 +1,12 @@
+## [2.72.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.5...v2.72.6) (2023-10-12)
+
+
+### Bug Fixes
+
+* bug issue template for environments ([#9469](https://github.com/EddieHubCommunity/BioDrop/issues/9469)) ([912057a](https://github.com/EddieHubCommunity/BioDrop/commit/912057a6cc27feeaae2c2c07713f3eec9129afed))
+
+
+
 ## [2.72.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.4...v2.72.5) (2023-10-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * a tag to link component ([#9412](https://github.com/EddieHubCommunity/BioDrop/issues/9412)) ([5d98a4d](https://github.com/EddieHubCommunity/BioDrop/commit/5d98a4de68e99c511d38c03cc85c84cf6d269642))
-
-
-
-## [2.72.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.0...v2.72.1) (2023-10-10)
-
-
-### Bug Fixes
-
-* latest features added to changelog ([#9439](https://github.com/EddieHubCommunity/BioDrop/issues/9439)) ([df0adc4](https://github.com/EddieHubCommunity/BioDrop/commit/df0adc44b80b366180c109b54fa9e41cacaedc7f))
 
 
 
