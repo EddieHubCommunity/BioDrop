@@ -11,13 +11,10 @@ body:
       options:
         - label: I have checked "open" AND "closed" issues and this is not a duplicate
           required: true
-  - type: checkboxes
-    id: environment
+  - type: input
     attributes:
       label: Where did you find this bug?
-      options:
-        - label: (dev) your local dev environment
-        - label: (prod) biodrop.io
+      description: Local dev environment or production on biodrop.io
     validations:
       required: true
   - type: input
