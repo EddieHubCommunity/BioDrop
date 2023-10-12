@@ -9,14 +9,11 @@ export const config = {
 export async function middleware(request) {
   const hostname = request.headers.get("host");
   console.log("=======", hostname, process.env.NEXT_PUBLIC_BASE_URL);
-  if (hostname === process.env.NEXT_PUBLIC_BASE_URL) {
-    return;
-  }
 
   const res = await fetch(
-    `${hostname}/api/profiles/domain/${encodeURIComponent(
-      hostname.replace(".", "|"),
-    )}`,
+    `${
+      process.env.NEXT_PUBLIC_BASE_URL
+    }/api/profiles/domain/${encodeURIComponent(hostname.replace(".", "|"))}`,
     {
       method: "GET",
       headers: {
@@ -34,7 +31,7 @@ export async function middleware(request) {
   ) {
     // if match found rewrite to custom domain and display profile page
     return NextResponse.rewrite(
-      new URL(`/${profile.username}`, profile.settings.domain), // TODO: https
+      new URL(`/${profile.username}`, `https://${profile.settings.domain}`), // TODO: https
     );
   }
 }
