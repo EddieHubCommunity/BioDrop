@@ -8,7 +8,7 @@ export const config = {
 // no http requests (use db?)
 export async function middleware(request) {
   const hostname = request.headers.get("host");
-
+  console.log("=======", hostname, process.env.NEXT_PUBLIC_BASE_URL);
   if (hostname === process.env.NEXT_PUBLIC_BASE_URL) {
     return;
   }
