@@ -13,7 +13,7 @@ export async function middleware(request) {
   const res = await fetch(
     `${
       process.env.NEXT_PUBLIC_BASE_URL
-    }/api/profiles/domain/${encodeURIComponent(hostname.replace(".", "|"))}`,
+    }/api/profiles/domain/${encodeURIComponent(hostname.replaceAll(".", "|"))}`,
     {
       method: "GET",
       headers: {
