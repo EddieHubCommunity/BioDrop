@@ -19,9 +19,11 @@ body:
       options:
         - "your local dev environment"
         - "biodrop.io"
+    validations:
+      required: true
   - type: input
     attributes:
-      label: Version of BioDrop (for example `v1.2.3`)
+      label: Version of BioDrop (for example "v1.2.3")
       description: Can be found in the lower right corner of the web interface in the footer.
     validations:
       required: true
