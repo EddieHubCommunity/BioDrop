@@ -10,19 +10,24 @@ export async function middleware(request) {
   const hostname = request.headers.get("host");
   console.log("=======", hostname, process.env.NEXT_PUBLIC_BASE_URL);
 
-  const res = await fetch(
-    `${
-      process.env.NEXT_PUBLIC_BASE_URL
-    }/api/profiles/domain/${encodeURIComponent(hostname.replaceAll(".", "|"))}`,
-    {
+  let res;
+  let profile;
+  let url = `${
+    process.env.NEXT_PUBLIC_BASE_URL
+  }/api/search/${encodeURIComponent(hostname.replaceAll(".", "|"))}`;
+  try {
+    res = await fetch(url, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
       },
-    },
-  );
-  const profile = await res.json();
-
+    });
+    profile = await res.json();
+  } catch (e) {
+    console.error(url, e);
+    return NextResponse.error(e);
+  }
+  console.log("----- PROFILE", profile);
   if (
     profile.username &&
     profile.user.type === "premium" &&
