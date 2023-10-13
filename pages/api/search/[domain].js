@@ -15,6 +15,9 @@ export default async function handler(req, res) {
 }
 
 export async function getDomainApi(domain) {
+  console.log("+++++++ API 1", domain);
+  domain = decodeURIComponent(domain).replaceAll(".", "|");
+  console.log("+++++++ API 2", domain);
   await connectMongo();
 
   let profile = {};
@@ -22,7 +25,7 @@ export async function getDomainApi(domain) {
     profile = await Profile.aggregate([
       {
         $match: {
-          "settings.domain": decodeURIComponent(domain),
+          "settings.domain": domain,
           isEnabled: true,
         },
       },
@@ -48,6 +51,7 @@ export async function getDomainApi(domain) {
     return {};
   }
 
+  console.log("+++++++ PROFILE", profile);
   if (profile.length > 0) {
     profile = profile[0];
     return {

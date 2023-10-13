@@ -14,7 +14,7 @@ export async function middleware(request) {
   let profile;
   let url = `${
     process.env.NEXT_PUBLIC_BASE_URL
-  }/api/search/${encodeURIComponent(hostname.replaceAll(".", "|"))}`;
+  }/api/search/${encodeURIComponent(hostname)}`;
   try {
     res = await fetch(url, {
       method: "GET",
@@ -34,9 +34,12 @@ export async function middleware(request) {
     profile.settings?.domain &&
     hostname === profile.settings.domain
   ) {
+    console.log("MIDDLEWARE REDIRECT");
     // if match found rewrite to custom domain and display profile page
     return NextResponse.rewrite(
       new URL(`/${profile.username}`, `https://${profile.settings.domain}`), // TODO: https
     );
   }
+
+  console.log("MIDDLEWARE NO REDIRECT");
 }
