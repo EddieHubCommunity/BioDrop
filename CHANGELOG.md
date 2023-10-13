@@ -1,3 +1,12 @@
+## [2.72.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.7...v2.72.8) (2023-10-13)
+
+
+### Bug Fixes
+
+* typos in opensource roadmap checks page ([#9476](https://github.com/EddieHubCommunity/BioDrop/issues/9476)) ([e1e7cff](https://github.com/EddieHubCommunity/BioDrop/commit/e1e7cffa7193abdc3eabca8e3392672caa0c86ab))
+
+
+
 ## [2.72.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.6...v2.72.7) (2023-10-13)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * issue templates more specific ([#9464](https://github.com/EddieHubCommunity/BioDrop/issues/9464)) ([415cba9](https://github.com/EddieHubCommunity/BioDrop/commit/415cba957336f7ef4e3fbf73e570f973799a45e1))
-
-
-
-## [2.72.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.2...v2.72.3) (2023-10-11)
-
-
-### Bug Fixes
-
-* tabs on mobile no label ([#9457](https://github.com/EddieHubCommunity/BioDrop/issues/9457)) ([148b668](https://github.com/EddieHubCommunity/BioDrop/commit/148b66838203f05fac077e9013f08e399942c4d0))
 
 
 
