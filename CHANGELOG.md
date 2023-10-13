@@ -1,3 +1,14 @@
+## [2.72.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.6...v2.72.7) (2023-10-13)
+
+
+### Bug Fixes
+
+* bug issue template environment to input ([#9472](https://github.com/EddieHubCommunity/BioDrop/issues/9472)) ([ce60754](https://github.com/EddieHubCommunity/BioDrop/commit/ce607545b4de2911a3a454cba084ac1999b89765))
+* feature issue template description label ([#9475](https://github.com/EddieHubCommunity/BioDrop/issues/9475)) ([b5b8d9e](https://github.com/EddieHubCommunity/BioDrop/commit/b5b8d9e73187f8748d4a505a3c05632e9eda2433))
+* updating links docs in forms.mdx ([#9474](https://github.com/EddieHubCommunity/BioDrop/issues/9474)) ([fd31b43](https://github.com/EddieHubCommunity/BioDrop/commit/fd31b43615fa05bdd024c869117d981b543a3689))
+
+
+
 ## [2.72.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.5...v2.72.6) (2023-10-12)
 
 
@@ -31,15 +42,6 @@
 ### Bug Fixes
 
 * tabs on mobile no label ([#9457](https://github.com/EddieHubCommunity/BioDrop/issues/9457)) ([148b668](https://github.com/EddieHubCommunity/BioDrop/commit/148b66838203f05fac077e9013f08e399942c4d0))
-
-
-
-## [2.72.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.1...v2.72.2) (2023-10-11)
-
-
-### Bug Fixes
-
-* a tag to link component ([#9412](https://github.com/EddieHubCommunity/BioDrop/issues/9412)) ([5d98a4d](https://github.com/EddieHubCommunity/BioDrop/commit/5d98a4de68e99c511d38c03cc85c84cf6d269642))
 
 
 
