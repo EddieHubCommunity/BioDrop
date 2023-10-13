@@ -1,3 +1,12 @@
+## [2.72.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.8...v2.72.9) (2023-10-13)
+
+
+### Bug Fixes
+
+* search page to default to 21 results per page ([#9481](https://github.com/EddieHubCommunity/BioDrop/issues/9481)) ([71ae49e](https://github.com/EddieHubCommunity/BioDrop/commit/71ae49eb7b8768f42fe32cc76817a8c36c34f502))
+
+
+
 ## [2.72.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.7...v2.72.8) (2023-10-13)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * issue template bug and feature ([#9467](https://github.com/EddieHubCommunity/BioDrop/issues/9467)) ([d6c901f](https://github.com/EddieHubCommunity/BioDrop/commit/d6c901ff5199138670afaad0ded75cdc24d7b1ca))
-
-
-
-## [2.72.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.3...v2.72.4) (2023-10-12)
-
-
-### Bug Fixes
-
-* issue templates more specific ([#9464](https://github.com/EddieHubCommunity/BioDrop/issues/9464)) ([415cba9](https://github.com/EddieHubCommunity/BioDrop/commit/415cba957336f7ef4e3fbf73e570f973799a45e1))
 
 
 
