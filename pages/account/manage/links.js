@@ -112,7 +112,10 @@ export default function ManageLinks({ BASE_URL, username, links }) {
           </Button>
 
           {!reorder && (
-            <Button onClick={() => setReorder(true)} disable={linkList.length < 2}>
+            <Button
+              onClick={() => setReorder(true)}
+              disabled={linkList.length < 2}
+            >
               <ArrowPathIcon className="h-5 w-5 mr-2" />
               REORDER
             </Button>
