@@ -187,8 +187,6 @@ export default function ManageSettings({
                           value={domain}
                           disabled={!enableForm}
                           onChange={(e) => setDomain(e.target.value)}
-                          minLength="2"
-                          maxLength="128"
                         />
                       </div>
                     </div>

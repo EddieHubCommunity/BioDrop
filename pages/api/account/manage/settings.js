@@ -79,6 +79,61 @@ export async function updateSettingsApi(context, username, data) {
     log.error(e, `failed to updated profile premium for username: ${username}`);
   }
 
+  if (data.domain !== getProfile.settings.domain) {
+    log.info(`profile premium settings updated for username: ${username}`);
+
+    // remove previous custom domain if exists
+    if (beforeUpdate.domain) {
+      log.info(
+        `attempting to remove existing domain "${data.domain}" for: ${username}`,
+      );
+      let domainRemoveRes;
+      try {
+        domainRemoveRes = await fetch(
+          `https://api.vercel.com/v9/projects/${process.env.PROJECT_ID_VERCEL}/domains/${data.domain}${process.env.TEAM_ID_VERCEL}`,
+          {
+            headers: {
+              Authorization: `Bearer ${process.env.VERCEL_AUTH_TOKEN}`,
+            },
+            method: "DELETE",
+          },
+        );
+        const domainRemoveJson = domainRemoveRes.json();
+        log.info(`domain removed for: ${username}`, domainRemoveJson);
+      } catch (e) {
+        log.error(
+          e,
+          `failed to remove previous custom domain for username: ${username}`,
+        );
+      }
+    }
+
+    // add new custom domain
+    if (data.domain) {
+      log.info(`attempting to add domain "${data.domain}" for: ${username}`);
+      let domainAddRes;
+      try {
+        domainAddRes = await fetch(
+          `https://api.vercel.com/v10/projects/${process.env.PROJECT_ID_VERCEL}/domains${process.env.TEAM_ID_VERCEL}`,
+          {
+            method: "POST",
+            headers: {
+              Authorization: `Bearer ${process.env.VERCEL_AUTH_TOKEN}`,
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ name: data.domain }),
+          },
+        );
+        await domainAddRes.json();
+      } catch (e) {
+        log.error(
+          e,
+          `failed to add new custom domain "${data.domain}" for username: ${username}`,
+        );
+      }
+    }
+  }
+
   // Add to Changelog
   try {
     logChange(await getServerSession(context.req, context.res, authOptions), {
