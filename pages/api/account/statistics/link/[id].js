@@ -48,11 +48,11 @@ export async function getStatsForLink(username, id, numberOfDays = 30) {
     return { error };
   }
 
-  let stats = [];
+  let results = [];
   try {
-    stats = await LinkStats.find(
+    results = await LinkStats.find(
       { link: link._id, date: { $gte: startDate } },
-      "date clicks",
+      "date clicks -_id",
     ).sort({ date: "asc" });
   } catch (e) {
     const error = `failed to load stats for link id: ${id}`;
@@ -60,5 +60,17 @@ export async function getStatsForLink(username, id, numberOfDays = 30) {
     return { error };
   }
 
-  return JSON.parse(JSON.stringify({ url: link.url, stats }));
+  let stats = [];
+  for (let day = 0; day < numberOfDays; day++) {
+    const date = new Date();
+    date.setDate(date.getDate() - numberOfDays + day);
+    const result = results.find(
+      (result) => result.date.toDateString() === date.toDateString(),
+    );
+    stats.push(result ? result : { date, clicks: 0 });
+  }
+
+  return JSON.parse(
+    JSON.stringify({ url: link.url, total: link.clicks, stats }),
+  );
 }

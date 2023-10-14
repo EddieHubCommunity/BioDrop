@@ -1,21 +1,16 @@
-import Router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 import Tabs from "@components/Tabs";
 
 export default function SubNav({ tabs }) {
   const router = useRouter();
-  tabs = tabs.map((tab) => {
-    if (router.pathname === tab.href || tab.match.includes(router.pathname)) {
-      return { ...tab, current: true };
-    }
-    return { ...tab, current: false };
-  });
+  const selectedTab = tabs.find((tab) => router.pathname === tab.href);
 
-  const changeTab = (e) => {
-    const currentTab = tabs.find((tab) => tab.name === e.target?.value);
-    if (currentTab?.href) {
-      Router.push(currentTab.href);
-    }
+  const changeTab = (tab) => {
+    router.push(tab.href, undefined, {
+      scroll: false,
+      shallow: true,
+    });
   };
 
-  return <Tabs tabs={tabs} setTabs={changeTab} />;
+  return <Tabs tabs={tabs} setTabs={changeTab} selectedTab={selectedTab} />;
 }

@@ -101,6 +101,13 @@ module.exports = async () => {
     {
       $set: {
         source: "database",
+        stats: {
+          countries: {
+            "-": 123,
+            uk: 67,
+            us: 41,
+          },
+        },
       },
       $push: {
         repos: {

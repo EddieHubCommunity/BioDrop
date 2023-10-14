@@ -1,0 +1,21 @@
+{
+    "name": "Sourav Mehra",
+    "bio": "Experienced **Full Stack Developer** and avid gamer, equally at home in the world of web development and virtual realms. Table tennis enthusiast. Working to make my left hand as skilled as my right. 🎮🏓🖥️",
+    "links": [
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/sourav-mehra",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/mehra-sourav",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "Dribbble",
+            "url": "https://dribbble.com/souravmehra",
+            "icon": "FaDribbble"
+        }
+    ]
+}

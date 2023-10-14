@@ -2,7 +2,7 @@ import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useSession } from "next-auth/react";
 import dynamic from "next/dynamic";
-import { FaMapPin, FaArrowPointer } from "react-icons/fa6";
+import { FaMapPin, FaArrowPointer, FaArrowRight } from "react-icons/fa6";
 
 import { getUserApi } from "../../api/profiles/[username]";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -134,9 +134,12 @@ export default function Statistics({ data, profile, BASE_URL }) {
               <li className="overflow-hidden rounded-xl border border-gray-200">
                 <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
                   <FaArrowPointer className="h-6 w-6 text-primary-medium" />
-                  <div className="text-sm font-medium leading-6 text-primary-medium">
+                  <div className="text-sm font-medium leading-6 text-primary-medium grow">
                     Referrers
                   </div>
+                  <Link href="/account/statistics/referers">
+                    <FaArrowRight className="h-6 w-6 text-primary-medium" />
+                  </Link>
                 </div>
                 <dl className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
                   {Object.entries(profile.stats.referers)
@@ -162,9 +165,12 @@ export default function Statistics({ data, profile, BASE_URL }) {
               <li className="overflow-hidden rounded-xl border border-gray-200">
                 <div className="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
                   <FaMapPin className="h-6 w-6 text-primary-medium" />
-                  <div className="text-sm font-medium leading-6 text-primary-medium">
+                  <div className="text-sm font-medium leading-6 text-primary-medium grow">
                     Locations
                   </div>
+                  <Link href="/account/statistics/locations">
+                    <FaArrowRight className="h-6 w-6 text-primary-medium" />
+                  </Link>
                 </div>
                 <dl className="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
                   {Object.entries(profile.stats.countries)
