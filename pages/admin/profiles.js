@@ -68,6 +68,7 @@ export default function Users({ profiles }) {
             Recently updated
           </Button>
           <Button href="/admin/profiles?filter=by rank">By Rank</Button>
+          <Button href="/admin/profiles?filter=premium">Premium</Button>
         </div>
 
         <ul role="list" className="divide-y divide-primary-low">
