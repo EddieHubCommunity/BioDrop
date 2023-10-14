@@ -1,0 +1,21 @@
+{
+    "name": "Mahendra Kshirsagar",
+    "bio": "Computer engineering student | Loves to code in python | Currently Learning backend",
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/Mahendra5495",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "Follow me on Github",
+            "url": "https://github.com/Mahendra5495",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "Connect with me on LinkedIn",
+            "url": "https://www.linkedin.com/in/mahendra5495/",
+            "icon": "FaLinkedin"
+        }
+    ]
+}

@@ -347,7 +347,7 @@ export default function ManageEvent({ BASE_URL, event }) {
               </div>
             </div>
           </form>
-          <div>
+          <div className="mt-6 md:mt-0">
             <EventCard
               event={{
                 name,

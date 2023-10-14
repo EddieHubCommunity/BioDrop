@@ -9,7 +9,6 @@ import EventCard from "@components/event/EventCard";
 import Page from "@components/Page";
 import { EventTabs } from "@components/event/EventTabs";
 import PageHead from "@components/PageHead";
-import Badge from "@components/Badge";
 import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps() {
@@ -84,16 +83,7 @@ export default function Events({ events }) {
       />
 
       <Page>
-        <div className="flex flex-row items-center">
-          <Badge
-            content="?"
-            path="/docs/how-to-guides/events-forms"
-            title="Go To Event Docs"
-            badgeClassName={"translate-x-2/4 -translate-y-1/2"}
-          >
-            <h1 className="text-4xl mb-4 font-bold ">Community Events</h1>
-          </Badge>
-        </div>
+        <h1 className="text-4xl mb-4 font-bold">Community Events</h1>
         <EventTabs
           tabs={tabFilters}
           eventType={eventType}

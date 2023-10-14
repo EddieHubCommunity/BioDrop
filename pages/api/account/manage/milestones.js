@@ -49,6 +49,5 @@ export async function getMilestonesApi(username) {
   } catch (e) {
     log.error(e, `failed to get milestones for username: ${username}`);
   }
-
   return JSON.parse(JSON.stringify(getMilestones));
 }
