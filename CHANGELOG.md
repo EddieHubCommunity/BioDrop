@@ -1,3 +1,12 @@
+# [2.73.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.10...v2.73.0) (2023-10-14)
+
+
+### Features
+
+* admin list premium users ([#9489](https://github.com/EddieHubCommunity/BioDrop/issues/9489)) ([000fbbc](https://github.com/EddieHubCommunity/BioDrop/commit/000fbbc92913a63e71fb901464b33dc87669d7a5))
+
+
+
 ## [2.72.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.9...v2.72.10) (2023-10-14)
 
 
@@ -33,15 +42,6 @@
 * bug issue template environment to input ([#9472](https://github.com/EddieHubCommunity/BioDrop/issues/9472)) ([ce60754](https://github.com/EddieHubCommunity/BioDrop/commit/ce607545b4de2911a3a454cba084ac1999b89765))
 * feature issue template description label ([#9475](https://github.com/EddieHubCommunity/BioDrop/issues/9475)) ([b5b8d9e](https://github.com/EddieHubCommunity/BioDrop/commit/b5b8d9e73187f8748d4a505a3c05632e9eda2433))
 * updating links docs in forms.mdx ([#9474](https://github.com/EddieHubCommunity/BioDrop/issues/9474)) ([fd31b43](https://github.com/EddieHubCommunity/BioDrop/commit/fd31b43615fa05bdd024c869117d981b543a3689))
-
-
-
-## [2.72.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.5...v2.72.6) (2023-10-12)
-
-
-### Bug Fixes
-
-* bug issue template for environments ([#9469](https://github.com/EddieHubCommunity/BioDrop/issues/9469)) ([912057a](https://github.com/EddieHubCommunity/BioDrop/commit/912057a6cc27feeaae2c2c07713f3eec9129afed))
 
 
 
