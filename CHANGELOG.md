@@ -1,3 +1,12 @@
+## [2.72.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.9...v2.72.10) (2023-10-14)
+
+
+### Bug Fixes
+
+* multiple re-render in profile page ([#9380](https://github.com/EddieHubCommunity/BioDrop/issues/9380)) ([9ef1fbe](https://github.com/EddieHubCommunity/BioDrop/commit/9ef1fbe7ced5b4c9f53c2d3aa84769a8c83712c0))
+
+
+
 ## [2.72.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.8...v2.72.9) (2023-10-13)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * bug issue template for environments ([#9469](https://github.com/EddieHubCommunity/BioDrop/issues/9469)) ([912057a](https://github.com/EddieHubCommunity/BioDrop/commit/912057a6cc27feeaae2c2c07713f3eec9129afed))
-
-
-
-## [2.72.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.4...v2.72.5) (2023-10-12)
-
-
-### Bug Fixes
-
-* issue template bug and feature ([#9467](https://github.com/EddieHubCommunity/BioDrop/issues/9467)) ([d6c901f](https://github.com/EddieHubCommunity/BioDrop/commit/d6c901ff5199138670afaad0ded75cdc24d7b1ca))
 
 
 
