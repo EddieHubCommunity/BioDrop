@@ -1,45 +1,45 @@
-## [2.72.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.1...v2.72.2) (2023-10-11)
-
-
-### Bug Fixes
-
-* a tag to link component ([#9412](https://github.com/EddieHubCommunity/BioDrop/issues/9412)) ([5d98a4d](https://github.com/EddieHubCommunity/BioDrop/commit/5d98a4de68e99c511d38c03cc85c84cf6d269642))
-
-
-
-## [2.72.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.0...v2.72.1) (2023-10-10)
-
-
-### Bug Fixes
-
-* latest features added to changelog ([#9439](https://github.com/EddieHubCommunity/BioDrop/issues/9439)) ([df0adc4](https://github.com/EddieHubCommunity/BioDrop/commit/df0adc44b80b366180c109b54fa9e41cacaedc7f))
-
-
-
-# [2.72.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.71.0...v2.72.0) (2023-10-10)
+# [2.74.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.73.0...v2.74.0) (2023-10-14)
 
 
 ### Features
 
-* display pronoun ([#9438](https://github.com/EddieHubCommunity/BioDrop/issues/9438)) ([c4d8fd6](https://github.com/EddieHubCommunity/BioDrop/commit/c4d8fd63e1c998586ba8b973a3bc59648bb538a9))
+* admin changelog filter user ([#9491](https://github.com/EddieHubCommunity/BioDrop/issues/9491)) ([eb864b6](https://github.com/EddieHubCommunity/BioDrop/commit/eb864b6a497f526c8b3d43cfbcbbe759acfdb869))
 
 
 
-# [2.71.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.2...v2.71.0) (2023-10-10)
+# [2.73.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.10...v2.73.0) (2023-10-14)
 
 
 ### Features
 
-* pronoun field for profile ([#9396](https://github.com/EddieHubCommunity/BioDrop/issues/9396)) ([d55494f](https://github.com/EddieHubCommunity/BioDrop/commit/d55494f7be754e1ae3fbd03726e32085aa6dc450)), closes [#8618](https://github.com/EddieHubCommunity/BioDrop/issues/8618)
+* admin list premium users ([#9489](https://github.com/EddieHubCommunity/BioDrop/issues/9489)) ([000fbbc](https://github.com/EddieHubCommunity/BioDrop/commit/000fbbc92913a63e71fb901464b33dc87669d7a5))
 
 
 
-## [2.70.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.1...v2.70.2) (2023-10-09)
+## [2.72.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.9...v2.72.10) (2023-10-14)
 
 
 ### Bug Fixes
 
-* improvement to docs ([#9426](https://github.com/EddieHubCommunity/BioDrop/issues/9426)) ([4f775a4](https://github.com/EddieHubCommunity/BioDrop/commit/4f775a4bb2adf68a2a97c50a07ad06dd0c20cc02))
+* multiple re-render in profile page ([#9380](https://github.com/EddieHubCommunity/BioDrop/issues/9380)) ([9ef1fbe](https://github.com/EddieHubCommunity/BioDrop/commit/9ef1fbe7ced5b4c9f53c2d3aa84769a8c83712c0))
+
+
+
+## [2.72.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.8...v2.72.9) (2023-10-13)
+
+
+### Bug Fixes
+
+* search page to default to 21 results per page ([#9481](https://github.com/EddieHubCommunity/BioDrop/issues/9481)) ([71ae49e](https://github.com/EddieHubCommunity/BioDrop/commit/71ae49eb7b8768f42fe32cc76817a8c36c34f502))
+
+
+
+## [2.72.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.7...v2.72.8) (2023-10-13)
+
+
+### Bug Fixes
+
+* typos in opensource roadmap checks page ([#9476](https://github.com/EddieHubCommunity/BioDrop/issues/9476)) ([e1e7cff](https://github.com/EddieHubCommunity/BioDrop/commit/e1e7cffa7193abdc3eabca8e3392672caa0c86ab))
 
 
 

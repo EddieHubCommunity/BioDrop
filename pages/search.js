@@ -195,7 +195,7 @@ export default function Search({
     setInputValue(keyword);
   };
 
-  const usersPerPage = 20;
+  const usersPerPage = 21;
   const indexOfLastUser = currentPage * usersPerPage;
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
   const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
