@@ -244,6 +244,8 @@ export default function Search({
           />
         </Badge>
 
+       {!inputValue && <h2 className="mt-10 mb-4 text-2xl font-bold">Recently updated profiles</h2>}
+
         {notFound && <Alert type="error" message={notFound} />}
         <ul
           role="list"
