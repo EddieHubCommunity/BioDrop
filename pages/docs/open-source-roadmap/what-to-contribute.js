@@ -93,6 +93,15 @@ export default function DocsContribute() {
               project.
             </span>
           </li>
+          <li className="flex gap-x-3">
+            <CheckCircleIcon
+              className="mt-1 h-5 w-5 flex-none text-tertiary-medium"
+              aria-hidden="true"
+            />
+            <span>
+              <strong className="font-semibold"> Code Reviews:</strong> Code Reviews are another way to contribute as it can help developers understand the codebase, share feedback that helps them increase their coding skills, catch bugs, ensure no point of failure, increase collaboration among team members, etc.
+            </span>
+          </li>
         </ul>
       </Page>
     </>
