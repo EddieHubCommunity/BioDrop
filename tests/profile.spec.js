@@ -21,22 +21,21 @@ test("Name appears on the page", async ({ page }) => {
 test("Tabs change correctly", async ({ page }) => {
   const username = "_test-profile-user-6";
   await page.goto(`/${username}`);
-  await expect(page.getByRole("link", { name: /My Links/ })).toHaveAttribute(
+  await expect(page.getByRole("button", { name: /My Links/ })).toHaveAttribute(
     "class",
     /border-tertiary-medium/,
   );
   await expect(page.locator("main")).not.toHaveText(/Top Teacher Award/);
-  await page.getByRole("link", { name: /Milestones/ }).click();
+  await page.getByRole("button", { name: /Milestones/ }).click();
   await expect(page.locator("h3").first()).toHaveText(/Top Teacher Award/);
 });
 
 test("Tabs have deep linking test milestone", async ({ page }) => {
   const username = "_test-profile-user-6";
   await page.goto(`/${username}?tab=milestones`);
-  await expect(page.getByRole("link", { name: /Milestones/ })).toHaveAttribute(
-    "class",
-    /border-tertiary-medium/,
-  );
+  await expect(
+    page.getByRole("button", { name: /Milestones/ }),
+  ).toHaveAttribute("class", /border-tertiary-medium/);
   await expect(page.locator("h3").first()).toHaveText(/Top Teacher Award/);
 });
 
@@ -44,7 +43,7 @@ test("Tabs have deep linking test repos", async ({ page }) => {
   const username = "_test-profile-user-6";
   await page.goto(`/${username}?tab=repos`);
   await expect(
-    page.locator("main").getByRole("link", { name: /Repos/ }),
+    page.locator("main").getByRole("button", { name: /Repos/ }),
   ).toHaveAttribute("class", /border-tertiary-medium/);
   await expect(
     page.getByRole("link", { name: "EddieHubCommunity/BioDrop" }),
