@@ -344,16 +344,16 @@ export default function ManageEvent({ BASE_URL, event }) {
                       maxLength="16"
                     />
                   </div>
-                  <div className="col-span-3 sm:col-span-4">
-                      <TagsInput
-                        onTagAdd={handleTagAdd}
-                        onTagRemove={handleTagRemove}
-                        tags={tags}
-                      />
-                      <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        Separate tags with commas.
-                      </p>
-                    </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <TagsInput
+                      onTagAdd={handleTagAdd}
+                      onTagRemove={handleTagRemove}
+                      tags={tags}
+                    />
+                    <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
+                      Separate tags with commas.
+                    </p>
+                  </div>
                 </div>
 
                 <div className="mt-6 flex items-center justify-end gap-x-6">
