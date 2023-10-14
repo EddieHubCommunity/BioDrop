@@ -62,12 +62,14 @@ export default function UserTabs({ data, BASE_URL }) {
     <>
       <Tabs
         selectedTab={selectedTab}
-        tabs={tabs.map((tab) => ({
-          name: tab.name,
-          href: tab.href,
-          current: tab.href === currentTab,
-          total: data[tab.href]?.length || 0,
-        }))}
+        tabs={tabs
+          .filter((tab) => data[tab.href] && data[tab.href].length > 0)
+          .map((tab) => ({
+            name: tab.name,
+            href: tab.href,
+            current: tab.href === currentTab,
+            total: data[tab.href]?.length || 0,
+          }))}
         setTabs={changeTab}
       />
       {selectedTab.component}
