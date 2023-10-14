@@ -215,7 +215,7 @@ export default function Premium({ user }) {
         {
           name: "Discover",
           description:
-            "See a list of all those BioDrop Profiles which have been recently updated",
+            "See a list of all those BioDrop Profiles which have been recently updated on the Search Page",
           tiers: { Free: true, Premium: true },
         },
         // {
