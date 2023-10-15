@@ -3,7 +3,7 @@ import path from "path";
 
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 import { clientEnv } from "@config/schemas/clientSchema";
 import config from "@config/app.json";
@@ -85,6 +85,8 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     };
   });
 
+  const inputRef = useRef(null);
+
   const { pronouns } = config;
 
   const handleTagAdd = (newTag) => {
@@ -98,6 +100,11 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (document.activeElement === inputRef.current) {
+      return;
+    }
+
     const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
       method: "PUT",
       headers: {
@@ -252,6 +259,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         onTagAdd={handleTagAdd}
                         onTagRemove={handleTagRemove}
                         tags={tags}
+                        inputRef={inputRef}
                       />
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                         Separate tags with commas.
