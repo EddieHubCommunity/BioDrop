@@ -65,7 +65,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
-  const [tags, setTags] = useState(event.tags ||[]);
+  const [tags, setTags] = useState(event.tags || []);
 
   useEffect(() => {
     if (!isSpeaking) {
@@ -125,7 +125,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       isSpeaking,
       speakingTopic,
       color,
-      tags
+      tags,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
@@ -180,14 +180,10 @@ export default function ManageEvent({ BASE_URL, event }) {
     return Router.push(`${BASE_URL}/account/manage/events?alert=deleted`);
   };
 
-  const handleTagAdd = (newTag) => {
+  const handleTagAdd = (newTag) =>
     setTags((prevState) => [...prevState, newTag]);
-  };
-
-  const handleTagRemove = (tagToRemove) => {
-    const updatedTags = tags.filter((tag) => tag !== tagToRemove);
-    setTags(updatedTags);
-  };
+  const handleTagRemove = (tagToRemove) =>
+    setTags(tags.filter((tag) => tag !== tagToRemove));
 
   return (
     <>
@@ -381,7 +377,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                 speakingTopic,
                 price: { startingFrom: price },
                 color,
-                tags
+                tags,
               }}
             />
           </div>
