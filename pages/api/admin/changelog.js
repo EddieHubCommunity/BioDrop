@@ -23,24 +23,36 @@ export default async function handler(req, res) {
     return res.status(401).json({});
   }
 
-  const logs = await getChangelogs();
+  const { filter } = req.query;
+  const logs = await getChangelogs(filter);
   return res.status(200).json(logs);
 }
 
-export async function getChangelogs() {
+export async function getChangelogs(filter = "recently updated") {
   await connectMongo();
+
   let logs = [];
-  try {
-    logs = await Changelog.aggregate([
-      {
-        $lookup: {
-          from: "users",
-          localField: "userId",
-          foreignField: "_id",
-          as: "user",
-        },
+  let aggregate = [
+    {
+      $lookup: {
+        from: "users",
+        localField: "userId",
+        foreignField: "_id",
+        as: "user",
       },
-    ])
+    },
+  ];
+
+  if (filter === "user") {
+    aggregate.push({
+      $match: {
+        model: "User",
+      },
+    });
+  }
+
+  try {
+    logs = await Changelog.aggregate(aggregate)
       .sort({ createdAt: -1 })
       .limit(50);
   } catch (e) {

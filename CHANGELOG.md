@@ -1,45 +1,45 @@
-## [2.72.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.5...v2.72.6) (2023-10-12)
+## [2.74.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.0...v2.74.1) (2023-10-14)
 
 
 ### Bug Fixes
 
-* bug issue template for environments ([#9469](https://github.com/EddieHubCommunity/BioDrop/issues/9469)) ([912057a](https://github.com/EddieHubCommunity/BioDrop/commit/912057a6cc27feeaae2c2c07713f3eec9129afed))
+* hide tabs with no data ([#9494](https://github.com/EddieHubCommunity/BioDrop/issues/9494)) ([3a42565](https://github.com/EddieHubCommunity/BioDrop/commit/3a4256556ba8a3928ac33a1eb9e44ff23ed434da))
 
 
 
-## [2.72.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.4...v2.72.5) (2023-10-12)
+# [2.74.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.73.0...v2.74.0) (2023-10-14)
 
 
-### Bug Fixes
+### Features
 
-* issue template bug and feature ([#9467](https://github.com/EddieHubCommunity/BioDrop/issues/9467)) ([d6c901f](https://github.com/EddieHubCommunity/BioDrop/commit/d6c901ff5199138670afaad0ded75cdc24d7b1ca))
-
-
-
-## [2.72.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.3...v2.72.4) (2023-10-12)
-
-
-### Bug Fixes
-
-* issue templates more specific ([#9464](https://github.com/EddieHubCommunity/BioDrop/issues/9464)) ([415cba9](https://github.com/EddieHubCommunity/BioDrop/commit/415cba957336f7ef4e3fbf73e570f973799a45e1))
+* admin changelog filter user ([#9491](https://github.com/EddieHubCommunity/BioDrop/issues/9491)) ([eb864b6](https://github.com/EddieHubCommunity/BioDrop/commit/eb864b6a497f526c8b3d43cfbcbbe759acfdb869))
 
 
 
-## [2.72.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.2...v2.72.3) (2023-10-11)
+# [2.73.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.10...v2.73.0) (2023-10-14)
 
 
-### Bug Fixes
+### Features
 
-* tabs on mobile no label ([#9457](https://github.com/EddieHubCommunity/BioDrop/issues/9457)) ([148b668](https://github.com/EddieHubCommunity/BioDrop/commit/148b66838203f05fac077e9013f08e399942c4d0))
+* admin list premium users ([#9489](https://github.com/EddieHubCommunity/BioDrop/issues/9489)) ([000fbbc](https://github.com/EddieHubCommunity/BioDrop/commit/000fbbc92913a63e71fb901464b33dc87669d7a5))
 
 
 
-## [2.72.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.1...v2.72.2) (2023-10-11)
+## [2.72.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.9...v2.72.10) (2023-10-14)
 
 
 ### Bug Fixes
 
-* a tag to link component ([#9412](https://github.com/EddieHubCommunity/BioDrop/issues/9412)) ([5d98a4d](https://github.com/EddieHubCommunity/BioDrop/commit/5d98a4de68e99c511d38c03cc85c84cf6d269642))
+* multiple re-render in profile page ([#9380](https://github.com/EddieHubCommunity/BioDrop/issues/9380)) ([9ef1fbe](https://github.com/EddieHubCommunity/BioDrop/commit/9ef1fbe7ced5b4c9f53c2d3aa84769a8c83712c0))
+
+
+
+## [2.72.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.8...v2.72.9) (2023-10-13)
+
+
+### Bug Fixes
+
+* search page to default to 21 results per page ([#9481](https://github.com/EddieHubCommunity/BioDrop/issues/9481)) ([71ae49e](https://github.com/EddieHubCommunity/BioDrop/commit/71ae49eb7b8768f42fe32cc76817a8c36c34f502))
 
 
 
