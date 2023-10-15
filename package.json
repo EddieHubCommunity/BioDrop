@@ -16,6 +16,7 @@
     "@tailwindcss/forms": "^0.5.6",
     "@tailwindcss/typography": "^0.5.10",
     "@vercel/analytics": "^1.0.2",
+    "@vercel/og": "^0.5.18",
     "autoprefixer": "^10.4.16",
     "dotenv": "^16.3.1",
     "file-saver": "^2.0.5",
