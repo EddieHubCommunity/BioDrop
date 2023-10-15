@@ -17,7 +17,7 @@ import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
 import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
-import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
+import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
 import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
 
@@ -394,7 +394,7 @@ export default function Home({
       />
 
       <Link
-        href={BASE_GITHUB_PROJECT_URL + "/discussions"}
+        href="/docs/faqs"
         rel="noopener noreferrer"
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"

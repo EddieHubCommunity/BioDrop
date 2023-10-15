@@ -52,7 +52,9 @@ function UserProfile({ BASE_URL, data }) {
         </Badge>
 
         <div className="flex flex-col self-center gap-3">
-          <h1 className="flex text-3xl font-bold gap-1">{data.name}</h1>
+          <h1 className="flex text-3xl font-bold gap-1">
+            {data.name} {data.pronoun && `(${data.pronoun})`}
+          </h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
             {data.socials?.map((social) => (
               <UserSocial

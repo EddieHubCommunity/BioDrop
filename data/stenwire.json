@@ -1,0 +1,16 @@
+{
+  "name": "Stephen Nwankwo",
+  "bio": "A software engineer - backend and AI/ML",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Sage_Sten",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/stephen-nwankwo-9876b4196/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

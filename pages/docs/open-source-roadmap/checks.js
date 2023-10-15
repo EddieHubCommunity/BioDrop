@@ -24,8 +24,7 @@ export default function DocsChecks() {
           Insights tab
         </h2>
         <p>
-          On the top tab, go to Insights, then down the left go to Community.
-          Check they have a code of conduct and a contributing guide.
+          On the top tab, go to Insights, then scroll down the left side to go to Community. Check if they have a code of conduct and a contributing guide.
         </p>
 
         <h2 className="mt-16 text-2xl font-bold tracking-tight text-primary-high dark:text-primary-low">
@@ -54,7 +53,7 @@ export default function DocsChecks() {
           Recommended Open Source projects
         </h2>
         <p>
-          Here are some estiablished, activity and supportive Open Source
+          Here are some established, activity and supportive Open Source
           projects you can join today.
         </p>
 
@@ -70,7 +69,7 @@ export default function DocsChecks() {
             <span>
               <strong className="font-semibold">BioDrop:</strong> This
               repository is super active and has a great community. With a
-              variety of issuses to work on, you can find something that
+              variety of issues to work on, you can find something that
               interests you.
             </span>
           </li>
