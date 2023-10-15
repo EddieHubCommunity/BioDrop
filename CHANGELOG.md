@@ -1,3 +1,21 @@
+# [2.75.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.1...v2.75.0) (2023-10-15)
+
+
+### Features
+
+* tags to events ([#9498](https://github.com/EddieHubCommunity/BioDrop/issues/9498)) ([dd94b93](https://github.com/EddieHubCommunity/BioDrop/commit/dd94b9372262b7f5087d61bb9482d468157d7f24)), closes [#9276](https://github.com/EddieHubCommunity/BioDrop/issues/9276)
+
+
+
+## [2.74.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.0...v2.74.1) (2023-10-14)
+
+
+### Bug Fixes
+
+* hide tabs with no data ([#9494](https://github.com/EddieHubCommunity/BioDrop/issues/9494)) ([3a42565](https://github.com/EddieHubCommunity/BioDrop/commit/3a4256556ba8a3928ac33a1eb9e44ff23ed434da))
+
+
+
 # [2.74.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.73.0...v2.74.0) (2023-10-14)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * multiple re-render in profile page ([#9380](https://github.com/EddieHubCommunity/BioDrop/issues/9380)) ([9ef1fbe](https://github.com/EddieHubCommunity/BioDrop/commit/9ef1fbe7ced5b4c9f53c2d3aa84769a8c83712c0))
-
-
-
-## [2.72.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.8...v2.72.9) (2023-10-13)
-
-
-### Bug Fixes
-
-* search page to default to 21 results per page ([#9481](https://github.com/EddieHubCommunity/BioDrop/issues/9481)) ([71ae49e](https://github.com/EddieHubCommunity/BioDrop/commit/71ae49eb7b8768f42fe32cc76817a8c36c34f502))
-
-
-
-## [2.72.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.7...v2.72.8) (2023-10-13)
-
-
-### Bug Fixes
-
-* typos in opensource roadmap checks page ([#9476](https://github.com/EddieHubCommunity/BioDrop/issues/9476)) ([e1e7cff](https://github.com/EddieHubCommunity/BioDrop/commit/e1e7cffa7193abdc3eabca8e3392672caa0c86ab))
 
 
 
