@@ -169,7 +169,7 @@ export default function DocsIndex() {
                                 <div className="text-sm">
                                   <a
                                     href={roadmapItem.action.href}
-                                    className="font-medium text-primary-high dark:text-primary-low hover:text-tertiary-medium"
+                                    className="font-medium text-primary-high dark:text-primary-low hover:text-tertiary-medium dark:hover:text-tertiary-medium"
                                   >
                                     {roadmapItem.action.name}
                                   </a>
