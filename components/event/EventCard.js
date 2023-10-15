@@ -16,6 +16,7 @@ import FallbackImage from "@components/FallbackImage";
 import Edit from "@components/account/manage/Edit";
 import dateFormat from "@services/utils/dateFormat";
 import Markdown from "@components/Markdown";
+import Tag from "@components/tag/Tag";
 
 export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
@@ -137,6 +138,15 @@ export default function EventCard({ manage, event, usernames }) {
           )}
         </div>
       </div>
+      {event.tags?.length > 0 &&
+        event.tags.map((tag, index) => {
+          const trimmedTag = tag.trim();
+          if (!trimmedTag) {
+            return null;
+          }
+
+          return <Tag name={trimmedTag} key={index} />;
+        })}
     </div>
   );
 
