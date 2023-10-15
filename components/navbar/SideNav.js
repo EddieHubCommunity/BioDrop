@@ -3,6 +3,7 @@ import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import EditOnGitHub from "@components/EditOnGithub";
 import { useRouter } from "next/router";
 import { classNames } from "@services/utils/classNames";
+import Link from "@components/Link";
 
 export default function SideNav({ navigation }) {
   const { pathname } = useRouter();
@@ -16,12 +17,12 @@ export default function SideNav({ navigation }) {
           {navigation.map((item) => (
             <li key={item.name} className="my-2">
               {!item.children ? (
-                <a
+                <Link
                   href={item.href}
                   className={classNames(
                     item.href == pathname &&
                       "bg-slate-200 dark:bg-primary-low !text-secondary-high",
-                    "group flex gap-x-3 rounded-md py-2 pl-3 pr-2 text-md leading-6 font-semibold text-primary-high dark:text-primary-low-medium hover:text-secondary-high dark:hover:text-secondary-high hover:bg-slate-200 dark:hover:bg-primary-low duration-200"
+                    "group flex gap-x-3 rounded-md py-2 pl-3 pr-2 text-md leading-6 font-semibold text-primary-high dark:text-primary-low-medium hover:text-secondary-high dark:hover:text-secondary-high hover:bg-slate-200 dark:hover:bg-primary-low duration-200",
                   )}
                 >
                   {/* <item.icon
@@ -29,7 +30,7 @@ export default function SideNav({ navigation }) {
                     aria-hidden="true"
                   /> */}
                   {item.name}
-                </a>
+                </Link>
               ) : (
                 <Disclosure as="div">
                   {({ open }) => (
@@ -37,10 +38,10 @@ export default function SideNav({ navigation }) {
                       <Disclosure.Button
                         className={classNames(
                           item.children?.filter(
-                            (subItem) => subItem.href == pathname
+                            (subItem) => subItem.href == pathname,
                           )?.[0]?.href == pathname &&
                             "bg-slate-200 dark:bg-primary-low !text-secondary-high",
-                          "group flex items-center w-full text-left rounded-md py-2 pl-3 pr-2 gap-x-3 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium hover:text-secondary-high dark:hover:text-secondary-high hover:bg-slate-200 dark:hover:bg-primary-low duration-200"
+                          "group flex items-center w-full text-left rounded-md py-2 pl-3 pr-2 gap-x-3 text-sm leading-6 font-semibold text-primary-high dark:text-primary-low-medium hover:text-secondary-high dark:hover:text-secondary-high hover:bg-slate-200 dark:hover:bg-primary-low duration-200",
                         )}
                       >
                         {/* <item.icon
@@ -51,7 +52,7 @@ export default function SideNav({ navigation }) {
                         <ChevronRightIcon
                           className={classNames(
                             open && "rotate-90",
-                            "ml-auto h-5 w-5 shrink-0 text-primary-low-medium group-hover:text-secondary-high"
+                            "ml-auto h-5 w-5 shrink-0 text-primary-low-medium group-hover:text-secondary-high",
                           )}
                           aria-hidden="true"
                         />
@@ -67,7 +68,7 @@ export default function SideNav({ navigation }) {
                               className={classNames(
                                 subItem.href.toLowerCase() == pathname &&
                                   "text-secondary-medium dark:!text-secondary-medium font-semibold",
-                                "block hover:font-semibold hover:text-secondary-medium dark:hover:text-secondary-medium  rounded-md my-[6px] py-[6px] pr-2 pl-4 text-sm leading-6 text-primary-high dark:text-primary-low-medium duration-200"
+                                "block hover:font-semibold hover:text-secondary-medium dark:hover:text-secondary-medium  rounded-md my-[6px] py-[6px] pr-2 pl-4 text-sm leading-6 text-primary-high dark:text-primary-low-medium duration-200",
                               )}
                             >
                               {subItem.name}

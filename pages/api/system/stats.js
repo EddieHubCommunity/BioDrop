@@ -26,7 +26,7 @@ export default async function handler(req, res) {
         formProfiles: appStats.stats.profilesUsingForms,
         disabledProfiles: appStats.stats.totalProfilesDisabled,
       },
-      { upsert: true }
+      { upsert: true },
     );
   } catch (e) {
     logger.error(e, `failed adding daily stats on ${date} platform stats`);

@@ -8,6 +8,7 @@ import {
   associateProfileWithAccount,
   getAccountByProviderAccountId,
 } from "../account";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -23,12 +24,19 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET or PUT required" });
   }
 
+  const context = { req, res };
+
   let profile = {};
   if (req.method === "GET") {
     profile = await getProfileApi(username);
   }
   if (req.method === "PUT") {
-    profile = await updateProfileApi(username, req.body, session.user.id);
+    profile = await updateProfileApi(
+      context,
+      username,
+      req.body,
+      session.user.id,
+    );
   }
 
   if (profile.error) {
@@ -44,16 +52,23 @@ export async function getProfileApi(username) {
   let getProfile = await Profile.findOne({ username });
 
   if (!getProfile) {
-    log.info(`peofile not found for username: ${username}`);
+    log.info(`profile not found for username: ${username}`);
     return { error: "Profile not found." };
   }
 
   return JSON.parse(JSON.stringify(getProfile));
 }
 
-export async function updateProfileApi(username, data, providerAccountId) {
+export async function updateProfileApi(
+  context,
+  username,
+  data,
+  providerAccountId,
+) {
   await connectMongo();
   const log = logger.child({ username });
+
+  const beforeUpdate = await getProfileApi(username);
 
   let getProfile = {};
 
@@ -63,6 +78,7 @@ export async function updateProfileApi(username, data, providerAccountId) {
     name: data.name,
     isStatsPublic: data.isStatsPublic,
     bio: data.bio,
+    pronoun: data.pronoun,
     tags: data.tags
       .filter((tag) => Boolean(tag.trim()))
       .map((tag) => tag.trim()),
@@ -105,7 +121,21 @@ export async function updateProfileApi(username, data, providerAccountId) {
   } catch (e) {
     log.error(
       e,
-      `failed to associate profile to account for username: ${username}`
+      `failed to associate profile to account for username: ${username}`,
+    );
+  }
+
+  // Add to Changelog
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Profile",
+      changesBefore: beforeUpdate,
+      changesAfter: await getProfileApi(username),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Profile changes in changelog for username: ${username}`,
     );
   }
 

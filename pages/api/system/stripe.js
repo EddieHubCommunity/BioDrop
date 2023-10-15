@@ -7,6 +7,7 @@ import stripe from "@config/stripe";
 import { serverEnv } from "@config/schemas/serverSchema";
 import logger from "@config/logger";
 import { User } from "@models/index";
+import logChange from "@models/middlewares/logChange";
 
 const cors = Cors({
   allowMethods: ["POST", "HEAD"],
@@ -65,7 +66,7 @@ export async function webhookHandler(req, res) {
     event = stripe.webhooks.constructEvent(
       buf.toString(),
       sig,
-      serverEnv.STRIPE_WEBHOOK_SECRET
+      serverEnv.STRIPE_WEBHOOK_SECRET,
     );
   } catch (e) {
     logger.error(e, "Webhook Secret failed");
@@ -266,18 +267,57 @@ export async function webhookHandler(req, res) {
     case "invoice.payment_succeeded":
       {
         const update = { type: "premium" };
+        logger.info(
+          `Attempting to upgrade stripeCustomerId: ${event.data.object.customer}`,
+        );
         // check if they already had a trial
-        const user = await User.findOne({
-          stripeCustomerId: event.data.object.customer,
-        });
-        if (!user.premiumTrialStartDate) {
-          update.premiumTrialStartDate = new Date();
+        let user = {};
+        try {
+          user = await User.findOne({
+            stripeCustomerId: event.data.object.customer,
+          });
+          if (!user.premiumTrialStartDate) {
+            update.premiumTrialStartDate = new Date();
+          }
+
+          logger.info(
+            `Found user "${user.email}" by stripeCustomerId: ${event.data.object.customer}`,
+          );
+        } catch (e) {
+          logger.error(
+            e,
+            `Cannot find user with stripeCustomerId: ${event.data.object.customer} to upgrade`,
+          );
         }
 
-        // successful payment
-        await User.findOneAndUpdate(
-          { stripeCustomerId: event.data.object.customer },
-          update
+        // successful payment upgrade account
+        let userUpdate = {};
+        try {
+          userUpdate = await User.findOneAndUpdate(
+            { stripeCustomerId: event.data.object.customer },
+            update,
+            { new: true },
+          );
+        } catch (e) {
+          logger.error(
+            `Failed to upgrade user "${user.email}" by stripeCustomerId: ${event.data.object.customer}`,
+          );
+          return res.status(500).json({ received: false });
+        }
+
+        logger.info(
+          `Upgraded user "${user.email}" by stripeCustomerId: ${
+            event.data.object.customer
+          } to ${update.premiumTrialStartDate ? "trial" : "premium"}}`,
+        );
+
+        logChange(
+          { user: { id: user._id } },
+          {
+            model: "User",
+            changesBefore: JSON.parse(JSON.stringify(user)),
+            changesAfter: JSON.parse(JSON.stringify(userUpdate)),
+          },
         );
       }
       break;
@@ -293,9 +333,47 @@ export async function webhookHandler(req, res) {
     case "subscription_schedule.released":
       {
         // failed payment
-        await User.findOneAndUpdate(
-          { stripeCustomerId: event.data.object.customer },
-          { type: "free" }
+        let userBefore = {};
+        try {
+          userBefore = await User.findOne({
+            stripeCustomerId: event.data.object.customer,
+          });
+          logger.info(
+            `Found user "${userBefore.email}" by stripeCustomerId: ${event.data.object.customer}`,
+          );
+        } catch (e) {
+          logger.error(
+            e,
+            `Cannot find user with stripeCustomerId: ${event.data.object.customer} to downgrade`,
+          );
+        }
+
+        let user = {};
+        try {
+          user = await User.findOneAndUpdate(
+            { stripeCustomerId: event.data.object.customer },
+            { type: "free" },
+            { new: true },
+          );
+
+          logger.info(
+            `Downgrading user "${user.email}" by stripeCustomerId: ${event.data.object.customer}`,
+          );
+        } catch (e) {
+          logger.error(
+            e,
+            `Cannot downgrade user with stripeCustomerId: ${event.data.object.customer}`,
+          );
+          return res.status(500).json({ received: false });
+        }
+
+        logChange(
+          { user: { id: user._id } },
+          {
+            model: "User",
+            changesBefore: JSON.parse(JSON.stringify(userBefore)),
+            changesAfter: JSON.parse(JSON.stringify(user)),
+          },
         );
       }
       break;

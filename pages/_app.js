@@ -23,7 +23,7 @@ export default function MyApp({
             <Component {...pageProps} key={router.asPath} />
             <Analytics />
           </>,
-          pageProps.settings
+          pageProps.settings,
         )}
       </SessionProvider>
     </ThemeProvider>

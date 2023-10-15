@@ -1,5 +1,5 @@
 import SubNav from "@components/navbar/SubNav";
-import { MdPerson, MdOutlineAutoGraph } from "react-icons/md";
+import { MdPerson, MdOutlineAutoGraph, MdChangeHistory } from "react-icons/md";
 
 const tabs = [
   {
@@ -21,6 +21,13 @@ const tabs = [
     href: "/admin/profiles",
     match: [],
     icon: MdPerson,
+    current: false,
+  },
+  {
+    name: "Changelog",
+    href: "/admin/changelog",
+    match: [],
+    icon: MdChangeHistory,
     current: false,
   },
 ];

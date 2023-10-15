@@ -1,7 +1,7 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 
-import { Stats } from "@models/index"
+import { Stats } from "@models/index";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {

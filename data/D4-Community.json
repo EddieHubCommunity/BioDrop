@@ -1,0 +1,61 @@
+{
+  "name": "D4 Community",
+  "bio": "For the Students! By the Students!",
+  "tags": ["Open Source", "Community", "Content creation"],
+  "socials": [
+    {
+      "icon": "FaWhatsapp",
+      "url": "https://chat.whatsapp.com/Khwy3LEyjdX4Kx8VJ1MXmW"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/D4Community"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/company/d4community"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/D4Community"
+    }
+  ],
+  "links": [
+    {
+      "group": "Connect",
+      "name": "Github: Contribute to Open-Source!",
+      "url": "https://github.com/D4Community",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Connect",
+      "name": "LinkedIn Page",
+      "url": "https://www.linkedin.com/company/d4community",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Connect",
+      "name": "Twitter Page",
+      "url": "https://twitter.com/D4Community",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Connect",
+      "name": "D4 Community Open Source Website",
+      "url": "https://d4community.netlify.app",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Connect",
+      "name": "Discord server",
+      "url": "https://discord.gg/BvBTbk43Cx",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Connect",
+      "name": "Instagram Page",
+      "url": "https://www.instagram.com/d4community/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

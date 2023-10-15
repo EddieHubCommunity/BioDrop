@@ -1,0 +1,85 @@
+{
+    "name": "Wachiiou BOURAIMA",
+    "bio": "Hello world, I'm Wachiou Bouraima (pronounced Wasiu Burahima), a web developer (python/nodeJs and some Php) with a passion for web3 and a software engineering student at African Leadership X. I'm also Community Builder. I love to share my knowledge and help others. I'm a big fan of open source and I'm learning every day to be a better developer.",
+    "links": [
+        {
+            "name": "Website",
+            "url": "https://wasscodeur.me",
+            "icon": "FaGlobe"
+        },
+        {
+            "name": "Blog",
+            "url": "https://learninghub.hashnode.dev/",
+            "icon": "FaBlog"
+        },
+        {
+            "name": "YouTube",
+            "url": "https://www.youtube.com/c/WassCodeur",
+            "icon": "FaYoutube"
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/WassCodeur",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "GitHub Profile",
+            "url": "https://github.com/WassCodeur",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/wasscoddeur/",
+            "icon": "FaInstagram"
+        },
+        {
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/in/wasscodeur/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Medium",
+            "url": "https://www.tiktok.com/@WassCodeur",
+            "icon": "FaMedium"
+        },
+        {
+            "name": "Dev.to",
+            "url": "https://dev.to/wasscodeur",
+            "icon": "FaDev"
+        }
+    ],
+    "tags": [
+        "Open Source",
+        "Python",
+        "TypeScript",
+        "Javascript",
+        "Node.js",
+        "DevRel",
+        "Flask",
+        "Mysql",
+        "SQL",
+        "MongoDB",
+        "ALX",
+        "Docker",
+        "Tublian",
+        "Let's Do Hard Things Together"
+    ],
+    "socials": [
+        {
+            "icon": "FaYoutube",
+            "url": "https://www.youtube.com/@wasscodeur"
+        },
+        {
+            "icon": "FaInstagram",
+            "url": "https://www.instagram.com/wasscodeur/"
+        },
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/wasscodeur"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/wasscodeur"
+        }
+    ]
+}

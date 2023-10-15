@@ -1,91 +1,78 @@
-import { useState } from "react";
-
 import UserEvents from "../UserEvents";
 import UserLinks from "../UserLinks";
 import UserMilestones from "../UserMilestones";
 import UserTestimonials from "../UserTestimonials";
 import Tabs from "../../Tabs";
 import UserRepos from "../UserRepos";
+import { useRouter } from "next/router";
 
 export default function UserTabs({ data, BASE_URL }) {
-  const defaultTabs = [
-    { name: "My Links", href: "#", current: true },
-    { name: "Milestones", href: "#", current: false },
-    { name: "Testimonials", href: "#", current: false },
-    { name: "Events", href: "#", current: false },
-    { name: "Repos", href: "#", current: false },
+  const tabs = [
+    {
+      name: "My Links",
+      href: "links",
+      component: (
+        <UserLinks
+          BASE_URL={BASE_URL}
+          links={data.links}
+          username={data.username}
+        />
+      ),
+    },
+    {
+      name: "Milestones",
+      href: "milestones",
+      component: <UserMilestones milestones={data.milestones} />,
+    },
+    {
+      name: "Testimonials",
+      href: "testimonials",
+      component: (
+        <UserTestimonials
+          BASE_URL={BASE_URL}
+          testimonials={data.testimonials}
+        />
+      ),
+    },
+    {
+      name: "Events",
+      href: "events",
+      component: <UserEvents events={data.events} />,
+    },
+    {
+      name: "Repos",
+      href: "repos",
+      component: <UserRepos repos={data.repos} />,
+    },
   ];
 
-  let displayTabs = defaultTabs.flatMap((tab) => {
-    if (tab.name === "Milestones") {
-      if (data.milestones && data.milestones.length) {
-        return { ...tab, total: data.milestones.length };
-      }
-      return [];
-    }
-    if (tab.name === "Testimonials") {
-      if (data.testimonials && data.testimonials.length) {
-        return { ...tab, total: data.testimonials.length };
-      }
-      return [];
-    }
-    if (tab.name === "Events") {
-      if (data.events && data.events.length) {
-        return { ...tab, total: data.events.length };
-      }
-      return [];
-    }
-    if (tab.name === "Repos") {
-      if (data.repos && data.repos.length) {
-        return { ...tab, total: data.repos.length };
-      }
-      return [];
-    }
+  const router = useRouter();
+  const currentTab = router.query.tab || "links";
 
-    return { ...tab, total: data.links?.length };
-  });
-  const [tabs, setTabs] = useState(displayTabs);
-  const changeTab = (e, value) => {
-    e.preventDefault();
-    setTabs(
-      tabs.map((tab) =>
-        tab.name === e.target?.value || tab.name === value
-          ? { ...tab, current: true }
-          : { ...tab, current: false }
-      )
-    );
+  const selectedTab = tabs.find((tab) => tab.href === currentTab) || tabs[0];
+
+  const changeTab = (tab) => {
+    router.push(`/${data.username}?tab=${tab.href}`, undefined, {
+      scroll: false,
+      shallow: true,
+    });
   };
 
   return (
     <>
-      <Tabs tabs={tabs} setTabs={changeTab} />
-
-      {tabs.find((tab) => tab.name === "My Links")?.current && (
-        <UserLinks
-          links={data.links}
-          username={data.username}
-          BASE_URL={BASE_URL}
-        />
-      )}
-
-      {tabs.find((tab) => tab.name === "Milestones")?.current && (
-        <UserMilestones milestones={data.milestones} />
-      )}
-
-      {tabs.find((tab) => tab.name === "Testimonials")?.current && (
-        <UserTestimonials
-          testimonials={data.testimonials}
-          BASE_URL={BASE_URL}
-        />
-      )}
-
-      {tabs.find((tab) => tab.name === "Events")?.current && (
-        <UserEvents events={data.events} />
-      )}
-
-      {tabs.find((tab) => tab.name === "Repos")?.current && (
-        <UserRepos repos={data.repos} />
-      )}
+      <Tabs
+        selectedTab={selectedTab}
+        tabs={tabs
+          .filter((tab) => data[tab.href] && data[tab.href].length > 0)
+          .map((tab) => ({
+            name: tab.name,
+            href: tab.href,
+            current: tab.href === currentTab,
+            total: data[tab.href]?.length || 0,
+          }))}
+        setTabs={changeTab}
+      />
+      {selectedTab.component}
     </>
   );
 }
