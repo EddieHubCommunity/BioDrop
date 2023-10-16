@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Question?
-    url: http://discord.eddiehub.org
-    about: Feel free to ask your question on our Discord channel.
+    url: https://www.biodrop.io/docs/faqs
+    about: If your question is not covered by the FAQs, please ask your question in our GitHub Discussions.

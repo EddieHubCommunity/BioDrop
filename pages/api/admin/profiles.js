@@ -41,6 +41,29 @@ export async function getProfiles(filter = "recently updated") {
     }
   }
 
+  if (filter === "premium") {
+    try {
+      profiles = await Profile.aggregate([
+        {
+          $lookup: {
+            from: "users",
+            localField: "user",
+            foreignField: "_id",
+            as: "user",
+          },
+        },
+        {
+          $match: {
+            "user.type": "premium",
+          },
+        },
+      ]).limit(20);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
+  }
+
   if (filter === "by rank") {
     try {
       profiles = await Profile.aggregate([
