@@ -166,7 +166,7 @@ export default function Navbar() {
               </div>
             </div>
             <div className="hidden md:block">
-              <div className="flex items-center gap-3">
+              <div className="flex items-center">
                 {renderThemeChanger()}
                 <Link
                   href={BASE_GITHUB_PROJECT_URL}
