@@ -1,6 +1,18 @@
 import { getToken } from "next-auth/jwt";
 import { NextResponse } from "next/server";
 
+export const config = {
+  matcher: [
+    // account management
+    "/account/:path*",
+    "/api/account/:path*",
+
+    // admin section
+    "/admin/:path*",
+    "/api/admin/:path*",
+  ],
+};
+
 export async function middleware(req) {
   const sessionRequired = ["/account", "/api/account"];
   const adminRequired = ["/admin", "/api/admin"];
@@ -43,15 +55,3 @@ export async function middleware(req) {
 
   return NextResponse.next();
 }
-
-export const config = {
-  matcher: [
-    // account management
-    "/account/:path*",
-    "/api/account/:path*",
-
-    // admin section
-    "/admin/:path*",
-    "/api/admin/:path*",
-  ],
-};

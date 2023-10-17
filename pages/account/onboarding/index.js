@@ -25,17 +25,8 @@ import Alert from "@components/Alert";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
+
   let profile = {};
   try {
     profile = (await getUserApi(context.req, context.res, username)).profile;
