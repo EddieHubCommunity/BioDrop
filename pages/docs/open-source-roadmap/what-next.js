@@ -17,7 +17,23 @@ export default function DocsNext() {
         <h1 className="text-4xl mb-4 font-bold">
           Open Source Roadmap: What next?
         </h1>
-<p>It doesn\u0027t stop there! You can become a maintainer. If you want to do this for the communities you\u0027re  in, you can do things like identifying duplicate issues or spam pull requests, aiding contributors with their pull requests, giving contributors friendly reminders about the Contributing Guide for first-time contributors. You can even take what you have learned and start your own Open Source project. The possibilities are endless.</p>
+        <h2 className="mt-16 text-2xl font-bold tracking-tight text-primary-high dark:text-primary-low">
+          Become a Maintainer
+        </h2>
+        <p>
+          If you are looking for greater involvement in an Open Source project
+          then you can work towards becoming a maintainer. In this role, asides
+          from coding contributions you will be taking be one of the stewards of
+          the project.
+        </p>
+        <p>
+          Some example tasks of what maintainers do are: ensuring the project's
+          documentation is in order (for example, the README, the Contributing
+          Guide and the Code of Conduct), creating templates which guide other
+          contributors to submit good work, moderating the project,
+          communicating with contributors as to the direction of the project as
+          well as triaging and assigning issues and reviewing pull requests.
+        </p>
       </Page>
     </>
   );
