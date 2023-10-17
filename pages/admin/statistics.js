@@ -1,5 +1,3 @@
-import { authOptions } from "../api/auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
 import { clientEnv } from "@config/schemas/clientSchema";
 
 import logger from "@config/logger";
@@ -10,23 +8,10 @@ import { getStatsApi } from "pages/api/admin/stats";
 import Navigation from "@components/admin/Navigation";
 import { PROJECT_NAME } from "@constants/index";
 
-export async function getServerSideProps(context) {
-  const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
-  const username = session.username;
-
+export async function getServerSideProps() {
   let data = {};
   try {
-    data = await getStatsApi(username);
+    data = await getStatsApi();
   } catch (e) {
     logger.error(e, "server stats failed");
   }
@@ -34,7 +19,6 @@ export async function getServerSideProps(context) {
   return {
     props: {
       stats: data.stats,
-      username,
       BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL,
     },
   };

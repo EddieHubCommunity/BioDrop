@@ -1,5 +1,3 @@
-import { authOptions } from "../api/auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
 import { clientEnv } from "@config/schemas/clientSchema";
 
 import logger from "@config/logger";
@@ -15,16 +13,6 @@ import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
 
 export async function getServerSideProps(context) {
-  const session = await getServerSession(context.req, context.res, authOptions);
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   let profiles = [];
   const { filter } = context.query;
   try {
