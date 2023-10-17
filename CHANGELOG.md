@@ -1,3 +1,12 @@
+## [2.75.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.0...v2.75.1) (2023-10-17)
+
+
+### Bug Fixes
+
+* low contrast color change onboarding ([#9497](https://github.com/EddieHubCommunity/BioDrop/issues/9497)) ([647b78b](https://github.com/EddieHubCommunity/BioDrop/commit/647b78b0a46bb0b44607009cdef8fb63a5b12ae3))
+
+
+
 # [2.75.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.1...v2.75.0) (2023-10-15)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * admin list premium users ([#9489](https://github.com/EddieHubCommunity/BioDrop/issues/9489)) ([000fbbc](https://github.com/EddieHubCommunity/BioDrop/commit/000fbbc92913a63e71fb901464b33dc87669d7a5))
-
-
-
-## [2.72.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.9...v2.72.10) (2023-10-14)
-
-
-### Bug Fixes
-
-* multiple re-render in profile page ([#9380](https://github.com/EddieHubCommunity/BioDrop/issues/9380)) ([9ef1fbe](https://github.com/EddieHubCommunity/BioDrop/commit/9ef1fbe7ced5b4c9f53c2d3aa84769a8c83712c0))
 
 
 
