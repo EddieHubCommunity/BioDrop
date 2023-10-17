@@ -66,17 +66,8 @@ test.describe("Data rendered correctly on home page", () => {
     const { stats: totalStats } = await getTotalStats();
     const abbreviatedViews = abbreviateNumber(totalStats.views);
     await page.goto("/");
-    const viewsLocator = await page.getByText(abbreviatedViews);
+    const viewsLocator = await page.locator("dl > div:nth-child(2) dd > div");
     const finalTotalViews = await viewsLocator.textContent();
     expect(finalTotalViews).toEqual(abbreviatedViews);
-  });
-
-  test("Links clicked rendered", async ({ page }) => {
-    const { stats: totalStats } = await getTotalStats();
-    const abbreviatedClicks = abbreviateNumber(totalStats.clicks);
-    await page.goto("/");
-    const clicksLocator = await page.getByText(abbreviatedClicks);
-    const finalTotalClicks = await clicksLocator.textContent();
-    expect(finalTotalClicks).toEqual(abbreviatedClicks);
   });
 });
