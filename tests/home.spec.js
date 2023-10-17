@@ -57,7 +57,7 @@ test.describe("Data rendered correctly on home page", () => {
     const { stats: totalStats } = await getTotalStats();
     const abbreviatedActive = abbreviateNumber(totalStats.active);
     await page.goto("/");
-    const activeLocator = await page.getByText(abbreviatedActive);
+    const activeLocator = await page.locator("dl > div:nth-child(1) dd div:nth-child(1)");
     const finalTotalActive = await activeLocator.textContent();
     expect(finalTotalActive).toEqual(abbreviatedActive);
   });
@@ -66,7 +66,7 @@ test.describe("Data rendered correctly on home page", () => {
     const { stats: totalStats } = await getTotalStats();
     const abbreviatedViews = abbreviateNumber(totalStats.views);
     await page.goto("/");
-    const viewsLocator = await page.locator("dl > div:nth-child(2) dd > div");
+    const viewsLocator = await page.locator("dl > div:nth-child(2) dd div:nth-child(2)");
     const finalTotalViews = await viewsLocator.textContent();
     expect(finalTotalViews).toEqual(abbreviatedViews);
   });
