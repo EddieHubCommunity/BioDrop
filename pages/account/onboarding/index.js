@@ -192,7 +192,7 @@ export default function Onboarding({ profile, progress }) {
               Profile Completion: {progress.percentage}%
             </span>
             {progress.missing.length > 0 && (
-              <span className="text-primary-medium-low">
+              <span className="text-primary-medium-low dark:text-primary-low">
                 (add missing sections below: {progress.missing.join(", ")})
               </span>
             )}
