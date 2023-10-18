@@ -93,6 +93,7 @@ export async function updateEventApi(context, username, id, updateEvent) {
       "url",
       "date",
       "color",
+      "tags"
     ]);
   } catch (e) {
     log.error(e, `validation failed to update event for username: ${username}`);
@@ -196,6 +197,7 @@ export async function addEventApi(context, username, addEvent) {
       "url",
       "date",
       "color",
+      "tags"
     ]);
   } catch (e) {
     log.error(e, `validation failed to add event for username: ${username}`);
