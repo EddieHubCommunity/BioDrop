@@ -93,7 +93,7 @@ export default function DocsIndex() {
       },
       icon: ArrowUpRightIcon,
       comment:
-        "It doesn't stop there! You can review other people's changes and become a maintainer.",
+        "It doesn't stop there! You can become a maintainer.",
     },
     // {
     //   id: 2,
