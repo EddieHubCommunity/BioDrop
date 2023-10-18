@@ -9,7 +9,7 @@ const connectMongo = async () => {
 
   if (!BIODROP_MONGO_CONNECTION_STRING) {
     throw new Error(
-      "Please define the BIODROP_MONGO_CONNECTION_STRING environment variable (if local add to .env file)"
+      "Please define the BIODROP_MONGO_CONNECTION_STRING environment variable (if local add to .env file)",
     );
   }
 
@@ -21,7 +21,7 @@ const connectMongo = async () => {
     const options = { autoIndex: true, family: 4, maxPoolSize: 10 };
     connection = await mongoose.connect(
       BIODROP_MONGO_CONNECTION_STRING,
-      options
+      options,
     );
     logger.info("DB connection successful:", connection.name);
 

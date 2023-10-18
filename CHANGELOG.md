@@ -1,45 +1,45 @@
-## [2.23.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.0...v2.23.1) (2023-09-27)
+## [2.75.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.1...v2.75.2) (2023-10-18)
 
 
 ### Bug Fixes
 
-* hide testimonials, tags, stats on mobile ([#9178](https://github.com/EddieHubCommunity/BioDrop/issues/9178)) ([92aa62f](https://github.com/EddieHubCommunity/BioDrop/commit/92aa62fefa6abd7067bc6978c704a3888db27d14)), closes [#9154](https://github.com/EddieHubCommunity/BioDrop/issues/9154)
+* special character ([#9530](https://github.com/EddieHubCommunity/BioDrop/issues/9530)) ([e96af55](https://github.com/EddieHubCommunity/BioDrop/commit/e96af5581929d10fd00cb5c834be0547966c66c8))
 
 
 
-# [2.23.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.12...v2.23.0) (2023-09-27)
+## [2.75.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.0...v2.75.1) (2023-10-17)
+
+
+### Bug Fixes
+
+* low contrast color change onboarding ([#9497](https://github.com/EddieHubCommunity/BioDrop/issues/9497)) ([647b78b](https://github.com/EddieHubCommunity/BioDrop/commit/647b78b0a46bb0b44607009cdef8fb63a5b12ae3))
+
+
+
+# [2.75.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.1...v2.75.0) (2023-10-15)
 
 
 ### Features
 
-* tabs to url for deep nesting ([#9174](https://github.com/EddieHubCommunity/BioDrop/issues/9174)) ([7f28f65](https://github.com/EddieHubCommunity/BioDrop/commit/7f28f65f60b6831eb06a23d65740a32c4d73687a)), closes [#9007](https://github.com/EddieHubCommunity/BioDrop/issues/9007)
+* tags to events ([#9498](https://github.com/EddieHubCommunity/BioDrop/issues/9498)) ([dd94b93](https://github.com/EddieHubCommunity/BioDrop/commit/dd94b9372262b7f5087d61bb9482d468157d7f24)), closes [#9276](https://github.com/EddieHubCommunity/BioDrop/issues/9276)
 
 
 
-## [2.22.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.11...v2.22.12) (2023-09-26)
-
-
-### Bug Fixes
-
-* improved testimonial importing output ([#9166](https://github.com/EddieHubCommunity/BioDrop/issues/9166)) ([341b3ab](https://github.com/EddieHubCommunity/BioDrop/commit/341b3abf29332c5d21b3c5fb12403ccf8801ad54))
-
-
-
-## [2.22.11](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.10...v2.22.11) (2023-09-26)
+## [2.74.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.0...v2.74.1) (2023-10-14)
 
 
 ### Bug Fixes
 
-* testimonials for profiles using forms ([#9156](https://github.com/EddieHubCommunity/BioDrop/issues/9156)) ([1f9dc14](https://github.com/EddieHubCommunity/BioDrop/commit/1f9dc14d3547b78003e6e70c34e9eefc48d6e19f))
+* hide tabs with no data ([#9494](https://github.com/EddieHubCommunity/BioDrop/issues/9494)) ([3a42565](https://github.com/EddieHubCommunity/BioDrop/commit/3a4256556ba8a3928ac33a1eb9e44ff23ed434da))
 
 
 
-## [2.22.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.9...v2.22.10) (2023-09-25)
+# [2.74.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.73.0...v2.74.0) (2023-10-14)
 
 
-### Bug Fixes
+### Features
 
-* accessibility issues on profile page and navbar ([#9161](https://github.com/EddieHubCommunity/BioDrop/issues/9161)) ([b16b350](https://github.com/EddieHubCommunity/BioDrop/commit/b16b3506eaace334ee329de71420f545cdd72ce5))
+* admin changelog filter user ([#9491](https://github.com/EddieHubCommunity/BioDrop/issues/9491)) ([eb864b6](https://github.com/EddieHubCommunity/BioDrop/commit/eb864b6a497f526c8b3d43cfbcbbe759acfdb869))
 
 
 

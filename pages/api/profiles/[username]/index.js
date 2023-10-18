@@ -7,7 +7,6 @@ import logger from "@config/logger";
 import { Profile, Stats, ProfileStats, User } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
-import { checkGitHubRepo } from "@services/github/getRepo";
 import dateFormat from "@services/utils/dateFormat";
 
 export default async function handler(req, res) {
@@ -46,9 +45,7 @@ export async function getUserApi(req, res, username, options = {}) {
   let ipLookupProm;
   if (options.ip) {
     try {
-      ipLookupProm = fetch(
-        `https://api.iplocation.net/?ip=${options.ip}`
-      );
+      ipLookupProm = fetch(`https://api.iplocation.net/?ip=${options.ip}`);
     } catch (e) {
       log.error(e, `failed to get country for ip: ${options.ip}`);
     }
@@ -57,9 +54,6 @@ export async function getUserApi(req, res, username, options = {}) {
   let checks = [];
 
   checks.push(getLocation(username, getProfile));
-  if (getProfile.repos?.length > 0) {
-    checks.push(checkGitHubRepo(username, getProfile.repos));
-  }
   await Promise.allSettled(checks);
 
   const log = logger.child({ username });
@@ -116,7 +110,7 @@ export async function getUserApi(req, res, username, options = {}) {
     links: getProfile.links
       .filter((link) => link.isEnabled)
       .sort(
-        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE)
+        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE),
       ),
     socials: getProfile.links
       .filter((link) => link.isPinned)
@@ -145,7 +139,7 @@ export async function getUserApi(req, res, username, options = {}) {
 
   if (getProfile.events) {
     let dateEvents = [];
-    
+
     getProfile.events.map((event) => {
       let cleanEvent = JSON.parse(JSON.stringify(event));
       try {
@@ -190,13 +184,13 @@ export async function getUserApi(req, res, username, options = {}) {
             {
               $inc: { users: 1 },
             },
-            { upsert: true }
+            { upsert: true },
           );
           log.info(`app profile stats incremented for username: ${username}`);
         } catch (e) {
           log.error(e, `app profile stats failed for ${username}`);
         }
-      })()
+      })(),
     );
 
     let increment = { views: 1 };
@@ -225,16 +219,16 @@ export async function getUserApi(req, res, username, options = {}) {
             {
               $inc: increment,
             },
-            { timestamps: false }
+            { timestamps: false },
           );
           log.info(`stats incremented for username: ${username}`);
         } catch (e) {
           log.error(
             e,
-            `failed to increment profile stats for username: ${username}`
+            `failed to increment profile stats for username: ${username}`,
           );
         }
-      })()
+      })(),
     );
 
     updates.push(
@@ -248,16 +242,16 @@ export async function getUserApi(req, res, username, options = {}) {
             {
               $inc: increment,
             },
-            { upsert: true }
+            { upsert: true },
           );
           log.info(`profile daily stats incremented for username: ${username}`);
         } catch (e) {
           log.error(
             e,
-            "failed to increment profile stats for username: ${username}"
+            "failed to increment profile stats for username: ${username}",
           );
         }
-      })()
+      })(),
     );
   }
 
@@ -271,16 +265,16 @@ export async function getUserApi(req, res, username, options = {}) {
           {
             $inc: { views: 1 },
           },
-          { upsert: true }
+          { upsert: true },
         );
         log.info(`app daily stats incremented for username: ${username}`);
       } catch (e) {
         log.error(
           e,
-          `failed incrementing platform stats for username: ${username}`
+          `failed incrementing platform stats for username: ${username}`,
         );
       }
-    })()
+    })(),
   );
 
   await Promise.allSettled(updates);
@@ -289,6 +283,6 @@ export async function getUserApi(req, res, username, options = {}) {
     JSON.stringify({
       status: 200,
       profile: getProfile,
-    })
+    }),
   );
 }

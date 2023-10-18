@@ -48,6 +48,10 @@ const EventSchema = new Schema({
     type: Boolean,
     default: true,
   },
+  tags: {
+    type: [String],
+    default: [],
+  }
 });
 
 EventSchema.pre("save", () => {

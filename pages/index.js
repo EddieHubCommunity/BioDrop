@@ -17,7 +17,7 @@ import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
 import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
-import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
+import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
 import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
 
@@ -293,7 +293,10 @@ export default function Home({
                 data-kt-value="oxibVr4Q0NlF"
                 data-kt-owner="nkmvj7Xr"
               ></div>
-              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF" strategy="lazyOnload" />
+              <Script
+                src="https://app.kartra.com/video/oxibVr4Q0NlF"
+                strategy="lazyOnload"
+              />
             </div>
           </div>
         </div>
@@ -331,7 +334,7 @@ export default function Home({
                     featureIdx % 2 === 0
                       ? "lg:col-start-1"
                       : "lg:col-start-8 xl:col-start-9",
-                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
+                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4",
                   )}
                 >
                   <h3 className="text-lg sm:text-2xl font-bold text-primary-low">
@@ -351,7 +354,7 @@ export default function Home({
                     featureIdx % 2 === 0
                       ? "lg:col-start-6 xl:col-start-5"
                       : "lg:col-start-1",
-                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
+                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8",
                   )}
                 >
                   <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
@@ -391,7 +394,7 @@ export default function Home({
       />
 
       <Link
-        href={BASE_GITHUB_PROJECT_URL + "/discussions"}
+        href="/docs/faqs"
         rel="noopener noreferrer"
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"

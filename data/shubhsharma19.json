@@ -1,12 +1,12 @@
 {
   "name": "Shubh Sharma",
-  "bio": "Self-taught | **Open Source** Advocate | Frontend Web Developer | Technical Writer | Designer | DevRel Enthusiast",
+  "bio": "Self-taught | **Front-end** Web Developer | Technical Writer | **Open Source** Advocate | UX/UI",
   "tags": [
     "Open Source",
     "Content Creation",
     "Technical Writing",
     "Blogging",
-    "Fullstack Web Development",
+    "Frontend Web Development",
     "Designing"
   ],
   "socials": [
@@ -24,7 +24,7 @@
     },
     {
       "icon": "FaInstagram",
-      "url": "https://instagram.com/code.shubh/"
+      "url": "https://instagram.com/shubhsig/"
     }
   ],
   "links": [
@@ -50,13 +50,8 @@
     },
     {
       "name": "Programming content on Instagram",
-      "url": "https://instagram.com/code.shubh",
+      "url": "https://instagram.com/shubhsig",
       "icon": "FaInstagram"
-    },
-    {
-      "name": "A Side hobby (My music)",
-      "url": "https://www.youtube.com/sikstepmusic",
-      "icon": "FaYoutube"
     },
     {
       "name": "You can support my work :)",
@@ -66,11 +61,11 @@
   ],
   "milestones": [
     {
-      "title": "Got selected as Content Manager and Graphic Designer at Virtual Tech School Community",
+      "title": "Got selected as Content Manager",
       "date": "May, 2023",
       "icon": "FaGlobe",
       "color": "red",
-      "description": "Managing the content and Designs of VTS Community",
+      "description": "Managing the content of VTS Community",
       "url": "https://twitter.com/virtechschool"
     },
     {

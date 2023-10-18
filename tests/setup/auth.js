@@ -12,7 +12,7 @@ const login = async (
     email: "test-standard-user@test.com",
     username: "_test-profile-user-6",
     type: "free",
-  }
+  },
 ) => {
   await connectMongo();
 
@@ -28,7 +28,7 @@ const login = async (
         emailVerified: null,
         type: user.type,
       },
-      { new: true, upsert: true }
+      { new: true, upsert: true },
     );
   } catch (e) {
     console.error("Test user creation failed", e);
@@ -53,7 +53,7 @@ const login = async (
         expires: new Date(date.getFullYear(), date.getMonth() + 1, 0),
         sessionToken: sessionToken,
       },
-      { new: true, upsert: true }
+      { new: true, upsert: true },
     );
   } catch (e) {
     console.log("Test session creation failed", e);
@@ -72,7 +72,7 @@ const login = async (
         token_type: "bearer",
         scope: "read:org,read:user,repo,user:email,test:all",
       },
-      { new: true, upsert: true }
+      { new: true, upsert: true },
     );
   } catch (e) {
     console.error(e, `Test Account creation failed`);

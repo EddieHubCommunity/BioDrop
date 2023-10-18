@@ -24,7 +24,7 @@ test("Logged in user can access manage premium but has alert", async ({
   await page.goto("/account/manage/premium");
   await page.waitForLoadState("networkidle");
   await expect(page.locator("div.alert-warning")).toHaveText(
-    /Please upgrade your account for these to take effect/
+    /Please upgrade your account for these to take effect/,
   );
   await expect(page).toHaveURL(/account\/manage\/premium/);
 });

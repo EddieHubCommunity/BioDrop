@@ -15,10 +15,11 @@ export default async function handler(req, res) {
 
 export async function getRepos(sortBy) {
   const sortOptions = {
-    "created-date": "repos.dates.createdAt",
-    "pushed-date": "repos.dates.pushedAt",
-    stars: "repos.stats.stars",
-    forks: "repos.stats.forks",
+    "created-date": "dates.createdAt",
+    "pushed-date": "dates.pushedAt",
+    stars: "stats.stars",
+    forks: "stats.forks",
+    favourites: "count",
   };
   await connectMongo();
   let repos = [];
@@ -47,12 +48,23 @@ export async function getRepos(sortBy) {
         },
       },
       {
-        $sort: { [sortOptions[sortBy]]: -1 },
+        $group: {
+          _id: "$repos.url",
+          usernames: { $addToSet: "$username" },
+          url: { $first: "$repos.url" },
+          name: { $first: "$repos.name" },
+          fullname: { $first: "$repos.fullname" },
+          owner: { $first: "$repos.owner" },
+          description: { $first: "$repos.description" },
+          stats: { $first: "$repos.stats" },
+          topics: { $first: "$repos.topics" },
+          dates: { $first: "$repos.dates" },
+          updatedAt: { $first: "$repos.updatedAt" },
+          count: { $sum: 1 },
+        },
       },
       {
-        $replaceRoot: {
-          newRoot: "$repos",
-        },
+        $sort: { [sortOptions[sortBy]]: -1 },
       },
     ]).exec();
   } catch (e) {

@@ -85,7 +85,7 @@ export default function Events({ events }) {
     }
 
     setEventList(
-      eventList.map((event) => (event._id === _id ? updatedEvent : event))
+      eventList.map((event) => (event._id === _id ? updatedEvent : event)),
     );
 
     return setShowNotification({

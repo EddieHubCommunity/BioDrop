@@ -41,7 +41,7 @@ export default function BasicCards({ data }) {
                 )}
               </dd>
             </div>
-          )
+          ),
       )}
     </dl>
   );

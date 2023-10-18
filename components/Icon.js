@@ -14,7 +14,7 @@ export default function getIcon(name = "FaGlobe") {
           let node = mod[name];
           if (!node) node = defaultIcon();
           return node;
-        })
+        }),
       );
       break;
     case "Si":
@@ -23,7 +23,7 @@ export default function getIcon(name = "FaGlobe") {
           let node = mod[name];
           if (!node) node = defaultIcon();
           return node;
-        })
+        }),
       );
       break;
   }

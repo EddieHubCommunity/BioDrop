@@ -1,7 +1,12 @@
 {
   "name": "Jugaad",
-  "bio": "Hello World, I'm a **tech** oriented **graphics designer**.",
-  "tags": ["Open Source", "Adobe Creative Suite", "HTML", "CSS"],
+  "bio": "Hello World, I'm a **tech** oriented **graphic designer**.",
+  "tags": [
+    "Open Source",
+    "Adobe Creative Suite",
+    "HTML",
+    "CSS"
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
@@ -12,8 +17,8 @@
       "url": "https://dub.sh/FDrlE9P"
     },
     {
-      "icon": "FaGithub",
-      "url": "https://dub.sh/31Ll6HO"
+      "icon": "FaMedium",
+      "url": "https://dub.sh/o0lQQbX"
     }
   ],
   "links": [
@@ -28,6 +33,12 @@
       "name": "Gumroad - Passive project in free time.",
       "url": "https://dub.sh/K0sIKGT",
       "icon": "SiGumroad"
+    },
+    {
+      "group": "Tech Writer",
+      "name": "Medium - Your tech writer",
+      "url": "https://dub.sh/o0lQQbX",
+      "icon": "FaMedium"
     },
     {
       "group": "Socials",

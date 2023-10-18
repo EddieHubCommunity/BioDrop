@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
 
-const defaultIcons = 5;
+const defaultIcons = 20;
 
 test("Icon search has title", async ({ page }) => {
   await page.goto("/icons");
@@ -20,7 +20,7 @@ test("Icon search works correctly", async ({ page }) => {
   await input.type("mobile");
   const results = await page.locator("main ul li").count();
 
-  await expect(results).toBeGreaterThanOrEqual(defaultIcons);
+  await expect(results).toBeGreaterThanOrEqual(7);
 });
 
 test("Icon search page has default results when no search term used", async ({
