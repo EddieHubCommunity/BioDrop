@@ -67,8 +67,9 @@ test.describe("Data rendered correctly on home page", () => {
     const { stats: totalStats } = await getTotalStats();
     const abbreviatedViews = abbreviateNumber(totalStats.views);
     await page.goto("/");
-    const viewsLocator = await page.locator("dl > div:nth-child(2) dd div:nth-child(2)");
-    const finalTotalViews = await viewsLocator.textContent();
-    expect(finalTotalViews).toEqual(abbreviatedViews);
+    const section = page.getByText("Profile Views");
+    const parent = section.locator("..");
+    const item = parent.locator("dd div:nth-child(1)");
+    await expect(item).toHaveText(abbreviatedViews);
   });
 });
