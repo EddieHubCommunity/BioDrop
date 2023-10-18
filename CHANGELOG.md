@@ -1,3 +1,12 @@
+# [2.76.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.2...v2.76.0) (2023-10-18)
+
+
+### Features
+
+* sentry integration ([#9187](https://github.com/EddieHubCommunity/BioDrop/issues/9187)) ([6226899](https://github.com/EddieHubCommunity/BioDrop/commit/6226899c2d1384666978b77908f7aa1c27892bdb))
+
+
+
 ## [2.75.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.1...v2.75.2) (2023-10-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hide tabs with no data ([#9494](https://github.com/EddieHubCommunity/BioDrop/issues/9494)) ([3a42565](https://github.com/EddieHubCommunity/BioDrop/commit/3a4256556ba8a3928ac33a1eb9e44ff23ed434da))
-
-
-
-# [2.74.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.73.0...v2.74.0) (2023-10-14)
-
-
-### Features
-
-* admin changelog filter user ([#9491](https://github.com/EddieHubCommunity/BioDrop/issues/9491)) ([eb864b6](https://github.com/EddieHubCommunity/BioDrop/commit/eb864b6a497f526c8b3d43cfbcbbe759acfdb869))
 
 
 
