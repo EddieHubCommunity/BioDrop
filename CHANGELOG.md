@@ -1,3 +1,12 @@
+## [2.75.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.1...v2.75.2) (2023-10-18)
+
+
+### Bug Fixes
+
+* special character ([#9530](https://github.com/EddieHubCommunity/BioDrop/issues/9530)) ([e96af55](https://github.com/EddieHubCommunity/BioDrop/commit/e96af5581929d10fd00cb5c834be0547966c66c8))
+
+
+
 ## [2.75.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.0...v2.75.1) (2023-10-17)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * admin changelog filter user ([#9491](https://github.com/EddieHubCommunity/BioDrop/issues/9491)) ([eb864b6](https://github.com/EddieHubCommunity/BioDrop/commit/eb864b6a497f526c8b3d43cfbcbbe759acfdb869))
-
-
-
-# [2.73.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.10...v2.73.0) (2023-10-14)
-
-
-### Features
-
-* admin list premium users ([#9489](https://github.com/EddieHubCommunity/BioDrop/issues/9489)) ([000fbbc](https://github.com/EddieHubCommunity/BioDrop/commit/000fbbc92913a63e71fb901464b33dc87669d7a5))
 
 
 

@@ -27,8 +27,7 @@ export default function DocsNext() {
           the project.
         </p>
         <p>
-          Some example tasks of what maintainers do are: ensuring the project's
-          documentation is in order (for example, the README, the Contributing
+          Some example tasks of what maintainers do are: ensuring the documentation is in order (for example, the README, the Contributing
           Guide and the Code of Conduct), creating templates which guide other
           contributors to submit good work, moderating the project,
           communicating with contributors as to the direction of the project as
