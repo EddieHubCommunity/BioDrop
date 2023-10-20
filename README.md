@@ -37,7 +37,7 @@ BioDrop is built using the following technologies:
 
 ## Quickstart
 
-You have 4 options to contribute to the repo, please pick your favourite from:
+You have 4 options to contribute to the repo, please pick your favorite  from:
 
 1. [GitHub UI (recommended for adding/editing your profile)](https://github.com/EddieHubCommunity/BioDrop#github-ui)
 2. [Gitpod](https://github.com/EddieHubCommunity/BioDrop#gitpod)
@@ -72,7 +72,7 @@ Read more in the official documentation - https://biodrop.io/docs/environments/g
 
 ### Local development
 
-This environment is fully on your computer and requires each dependency (for example MongoDB) to be installed and set up, but it gives you the most flexibility for customisation.
+This environment is fully on your computer and requires each dependency (for example MongoDB) to be installed and set up, but it gives you the most flexibility for customization.
 
 #### Prerequisites
 
@@ -114,7 +114,7 @@ This will allow you to run your favourite IDE but not have to install any depend
 
 5. Now you need to upload the data in your mongoDB instance. `localhost:3000/api/system/reload?secret=development`
 
-6. Recheck localhost:3000 to confirm data is uploaded, you should see current amount of active users.
+6. Recheck localhost:3000 to confirm data is uploaded, you should see the current amount of active users.
 
 > **Note**
 > If you wanna look at the database, you can use [MongoDB Compass](https://www.mongodb.com/products/compass) with connection string as `mongodb://localhost:27017/biodrop`
