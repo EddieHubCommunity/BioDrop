@@ -9,7 +9,7 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
-import { getProfiles } from "./api/profiles";
+import { getProfiles } from "./api/discover/profiles";
 import Pagination from "@components/Pagination";
 import {
   cleanSearchInput,
@@ -28,13 +28,8 @@ async function fetchUsersByKeyword(keyword) {
   return searchData.users || [];
 }
 
-async function fetchRandomUsers() {
+async function fetchRecentlyUpdatedUsers() {
   const users = await getProfiles();
-
-  if (users.length > 9) {
-    return users.sort(() => 0.5 - Math.random()).slice(0, 9);
-  }
-
   return users;
 }
 
@@ -53,14 +48,14 @@ export async function getServerSideProps(context) {
   let serverProps = {
     tags: [],
     filteredUsers: [],
-    randUsers: [],
+    recentlyUpdatedUsers: [],
   };
 
   try {
     if (keyword) {
       serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
     } else {
-      serverProps.randUsers = await fetchRandomUsers();
+      serverProps.recentlyUpdatedUsers = await fetchRecentlyUpdatedUsers();
     }
   } catch (e) {
     logger.error(e, "ERROR fetching users");
@@ -74,13 +69,13 @@ export async function getServerSideProps(context) {
 }
 
 export default function Search({
-  data: { tags, randUsers, filteredUsers },
+  data: { tags, recentlyUpdatedUsers, filteredUsers },
   BASE_URL,
 }) {
   const router = useRouter();
   const { username, keyword, userSearchParam } = router.query;
   const [notFound, setNotFound] = useState();
-  const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
+  const [users, setUsers] = useState(keyword ? filteredUsers : recentlyUpdatedUsers);
   const [inputValue, setInputValue] = useState(
     username || keyword || userSearchParam || "",
   );
@@ -102,7 +97,7 @@ export default function Search({
   useEffect(() => {
     if (!inputValue) {
       //Setting the users as null when the input field is empty
-      setUsers(randUsers);
+      setUsers(recentlyUpdatedUsers);
       //Removing the not found field when the input field is empty
       setNotFound();
       router.replace(
@@ -243,6 +238,8 @@ export default function Search({
             onChange={(e) => setInputValue(e.target.value)}
           />
         </Badge>
+
+       {!inputValue && <h2 className="mt-10 mb-4 text-2xl font-bold">Recently updated profiles</h2>}
 
         {notFound && <Alert type="error" message={notFound} />}
         <ul

@@ -1,0 +1,21 @@
+{
+    "name": "Yash Salunke",
+    "bio": "GSSoC'23 | Postman Student Expert | Open-Source Enthusiast | E&TC,",
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/Yashtwt12",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "Follow me on LinkedIn",
+            "url": "https://www.linkedin.com/in/yashsalunke12/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Follow me on Github",
+            "url": "https://github.com/YashSalunke12",
+            "icon": "FaGithub"
+        }
+    ]
+}
