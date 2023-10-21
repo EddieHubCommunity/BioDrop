@@ -126,7 +126,7 @@ export default function Onboarding({ profile, progress }) {
     {
       icon: FaMicroblog,
       title: "Testimonials",
-      description: "Your favourite Testinomials",
+      description: "Your favourite Testimonials",
       button: {
         name: "Testimonials",
         href: "/account/manage/testimonials",

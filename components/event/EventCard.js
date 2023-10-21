@@ -91,22 +91,6 @@ export default function EventCard({ manage, event, usernames }) {
               <Markdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
               </Markdown>
-              <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
-                <div className="flex gap-2 flex-wrap">
-                  {(event.isVirtual ||
-                    (event.isInPerson && event.location)) && <FaMapPin />}
-                  <span>
-                    {event.isVirtual && "Remote"}
-                    {event.isVirtual &&
-                      event.isInPerson &&
-                      event.location &&
-                      " AND in "}
-                    {event.isInPerson &&
-                      event.location &&
-                      Object.values(event.location).join(", ")}
-                  </span>
-                </div>
-              </div>
             </div>
             <div className="isolate flex space-x-1">
               {usernames &&
@@ -131,11 +115,34 @@ export default function EventCard({ manage, event, usernames }) {
                 })}
             </div>
           </div>
-          {event.price?.startingFrom > 0 && (
-            <div className="flex justify-end items-center">
-              <div>${event.price?.startingFrom}</div>
+          <div className="flex justify-between">
+            <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
+              <div className="flex gap-2 flex-wrap">
+                {(event.isVirtual || (event.isInPerson && event.location)) && (
+                  <FaMapPin />
+                )}
+                <span>
+                  {event.isVirtual && "Remote"}
+                  {event.isVirtual &&
+                    event.isInPerson &&
+                    event.location &&
+                    " AND in "}
+                  {event.isInPerson &&
+                    event.location &&
+                    Object.values(event.location).join(", ")}
+                </span>
+              </div>
             </div>
-          )}
+            {event.price?.startingFrom > 0 ? (
+              <div className="flex justify-end items-center">
+                <div>${event.price?.startingFrom}</div>
+              </div>
+            ) : (
+              <div className="flex justify-end items-center">
+                <div>Free</div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
       {event.tags?.length > 0 && (
