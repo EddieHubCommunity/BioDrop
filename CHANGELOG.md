@@ -1,45 +1,45 @@
-## [2.72.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.2...v2.72.3) (2023-10-11)
-
-
-### Bug Fixes
-
-* tabs on mobile no label ([#9457](https://github.com/EddieHubCommunity/BioDrop/issues/9457)) ([148b668](https://github.com/EddieHubCommunity/BioDrop/commit/148b66838203f05fac077e9013f08e399942c4d0))
-
-
-
-## [2.72.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.1...v2.72.2) (2023-10-11)
-
-
-### Bug Fixes
-
-* a tag to link component ([#9412](https://github.com/EddieHubCommunity/BioDrop/issues/9412)) ([5d98a4d](https://github.com/EddieHubCommunity/BioDrop/commit/5d98a4de68e99c511d38c03cc85c84cf6d269642))
-
-
-
-## [2.72.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.0...v2.72.1) (2023-10-10)
-
-
-### Bug Fixes
-
-* latest features added to changelog ([#9439](https://github.com/EddieHubCommunity/BioDrop/issues/9439)) ([df0adc4](https://github.com/EddieHubCommunity/BioDrop/commit/df0adc44b80b366180c109b54fa9e41cacaedc7f))
-
-
-
-# [2.72.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.71.0...v2.72.0) (2023-10-10)
+# [2.77.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.76.1...v2.77.0) (2023-10-20)
 
 
 ### Features
 
-* display pronoun ([#9438](https://github.com/EddieHubCommunity/BioDrop/issues/9438)) ([c4d8fd6](https://github.com/EddieHubCommunity/BioDrop/commit/c4d8fd63e1c998586ba8b973a3bc59648bb538a9))
+* discover to search page (fix pr 9496) ([#9545](https://github.com/EddieHubCommunity/BioDrop/issues/9545)) ([921f6d4](https://github.com/EddieHubCommunity/BioDrop/commit/921f6d46c2c636de42bd855cc4202523233c3c4e)), closes [#9496](https://github.com/EddieHubCommunity/BioDrop/issues/9496)
 
 
 
-# [2.71.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.2...v2.71.0) (2023-10-10)
+## [2.76.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.76.0...v2.76.1) (2023-10-18)
+
+
+### Bug Fixes
+
+* sentry disable cron ([#9533](https://github.com/EddieHubCommunity/BioDrop/issues/9533)) ([cff7bab](https://github.com/EddieHubCommunity/BioDrop/commit/cff7babb05b42da9350c9c40767a64110dec3b6b))
+
+
+
+# [2.76.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.2...v2.76.0) (2023-10-18)
 
 
 ### Features
 
-* pronoun field for profile ([#9396](https://github.com/EddieHubCommunity/BioDrop/issues/9396)) ([d55494f](https://github.com/EddieHubCommunity/BioDrop/commit/d55494f7be754e1ae3fbd03726e32085aa6dc450)), closes [#8618](https://github.com/EddieHubCommunity/BioDrop/issues/8618)
+* sentry integration ([#9187](https://github.com/EddieHubCommunity/BioDrop/issues/9187)) ([6226899](https://github.com/EddieHubCommunity/BioDrop/commit/6226899c2d1384666978b77908f7aa1c27892bdb))
+
+
+
+## [2.75.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.1...v2.75.2) (2023-10-18)
+
+
+### Bug Fixes
+
+* special character ([#9530](https://github.com/EddieHubCommunity/BioDrop/issues/9530)) ([e96af55](https://github.com/EddieHubCommunity/BioDrop/commit/e96af5581929d10fd00cb5c834be0547966c66c8))
+
+
+
+## [2.75.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.0...v2.75.1) (2023-10-17)
+
+
+### Bug Fixes
+
+* low contrast color change onboarding ([#9497](https://github.com/EddieHubCommunity/BioDrop/issues/9497)) ([647b78b](https://github.com/EddieHubCommunity/BioDrop/commit/647b78b0a46bb0b44607009cdef8fb63a5b12ae3))
 
 
 
