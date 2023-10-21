@@ -1,0 +1,26 @@
+{
+  "name": "Ambuj Kumar",
+  "bio": "Software Engineer at Sigma AI",
+  "links": [
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ambuj-kumar-83a5a7135",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/AmbujaAK",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/itsambuja",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/AmbujaAK",
+      "icon": "FaTwitter"
+    }
+  ]
+}
