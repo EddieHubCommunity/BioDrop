@@ -1,7 +1,7 @@
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
 
-export default function TagsInput({ tags, onTagAdd, onTagRemove, tagInputRef }) {
+export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
 
 
   //key code
@@ -12,26 +12,26 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, tagInputRef }) 
   };
 
   const handleKeyUp = (e) => {
-    const inputValue = tagInputRef.current.value;
+    const inputValue = inputRef.current.value;
     if (e.keyCode === comma || inputValue.endsWith(",") || e.keyCode === enter) {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
         return;
       }
       onTagAdd(newTag);
-      tagInputRef.current.value = "";
+      inputRef.current.value = "";
     }
   };
 
   const handleKeyDown = (e) => {
     if (
       e.keyCode === backspace &&
-      tagInputRef.current?.value === "" &&
+      inputRef.current?.value === "" &&
       tags.length > 0
     ) {
       const removedTag = tags.pop();
       onTagRemove(removedTag);
-      tagInputRef.current.value = removedTag;
+      inputRef.current.value = removedTag;
     }
   };
 
@@ -67,7 +67,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, tagInputRef }) 
           <Input
             name="tags"
             className="w-full text-sm rounded-md font-mono outline-none dark:bg-primary-high focus:ring-0 focus:border-tertiary-medium focus:outline-0 p-1 hover:border-tertiary-medium"
-            ref={tagInputRef}
+            ref={inputRef}
             type="text"
             placeholder="type tag..."
             onKeyUp={handleKeyUp}
