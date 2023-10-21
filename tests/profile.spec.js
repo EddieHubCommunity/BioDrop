@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
 import connectMongo from "@config/mongo";
-import { Profile } from "@models/index";
+import { Profile, Link } from "@models/index";
 
 test("Profile has title", async ({ page }) => {
   const username = "_test-profile-user-1";
@@ -154,4 +154,22 @@ test.describe("accessibility tests (dark)", () => {
       .analyze();
     expect(accessibilityScanResults.violations).toEqual([]);
   });
+});
+
+test("Link clicks increase", async ({page}) => {
+  await connectMongo();
+  await page.goto("/eddiejaoude");
+  
+  const startingLink = await Link.findOne({  url: "https://twitter.com/eddiejaoude" })
+
+  const previousClickCount = startingLink.clicks; 
+  console.log("previousClickCount", previousClickCount)
+
+  const profileLink = page.locator('a').filter({ hasText: 'Twitter: Follow me' })
+
+  await profileLink.click();
+  await page.waitForTimeout(1000);
+  const currentLink = await Link.findOne({ url: "https://twitter.com/eddiejaoude" })
+
+  expect(currentLink.clicks).toEqual((previousClickCount + 1));
 });
