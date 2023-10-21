@@ -1,45 +1,45 @@
-# [2.75.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.1...v2.75.0) (2023-10-15)
-
-
-### Features
-
-* tags to events ([#9498](https://github.com/EddieHubCommunity/BioDrop/issues/9498)) ([dd94b93](https://github.com/EddieHubCommunity/BioDrop/commit/dd94b9372262b7f5087d61bb9482d468157d7f24)), closes [#9276](https://github.com/EddieHubCommunity/BioDrop/issues/9276)
-
-
-
-## [2.74.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.0...v2.74.1) (2023-10-14)
+## [2.77.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.1...v2.77.2) (2023-10-21)
 
 
 ### Bug Fixes
 
-* hide tabs with no data ([#9494](https://github.com/EddieHubCommunity/BioDrop/issues/9494)) ([3a42565](https://github.com/EddieHubCommunity/BioDrop/commit/3a4256556ba8a3928ac33a1eb9e44ff23ed434da))
+* footer in smaller screens ([#9429](https://github.com/EddieHubCommunity/BioDrop/issues/9429)) ([12bd7d3](https://github.com/EddieHubCommunity/BioDrop/commit/12bd7d336f42232f9103bcf4832dfeb976d92705))
 
 
 
-# [2.74.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.73.0...v2.74.0) (2023-10-14)
-
-
-### Features
-
-* admin changelog filter user ([#9491](https://github.com/EddieHubCommunity/BioDrop/issues/9491)) ([eb864b6](https://github.com/EddieHubCommunity/BioDrop/commit/eb864b6a497f526c8b3d43cfbcbbe759acfdb869))
-
-
-
-# [2.73.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.10...v2.73.0) (2023-10-14)
-
-
-### Features
-
-* admin list premium users ([#9489](https://github.com/EddieHubCommunity/BioDrop/issues/9489)) ([000fbbc](https://github.com/EddieHubCommunity/BioDrop/commit/000fbbc92913a63e71fb901464b33dc87669d7a5))
-
-
-
-## [2.72.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.9...v2.72.10) (2023-10-14)
+## [2.77.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.0...v2.77.1) (2023-10-21)
 
 
 ### Bug Fixes
 
-* multiple re-render in profile page ([#9380](https://github.com/EddieHubCommunity/BioDrop/issues/9380)) ([9ef1fbe](https://github.com/EddieHubCommunity/BioDrop/commit/9ef1fbe7ced5b4c9f53c2d3aa84769a8c83712c0))
+* typo mistake on the onboarding screen ([#9519](https://github.com/EddieHubCommunity/BioDrop/issues/9519)) ([#9529](https://github.com/EddieHubCommunity/BioDrop/issues/9529)) ([ad612cb](https://github.com/EddieHubCommunity/BioDrop/commit/ad612cb6f5e96a2ecb448f0871680648a3c12daf))
+
+
+
+# [2.77.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.76.1...v2.77.0) (2023-10-20)
+
+
+### Features
+
+* discover to search page (fix pr 9496) ([#9545](https://github.com/EddieHubCommunity/BioDrop/issues/9545)) ([921f6d4](https://github.com/EddieHubCommunity/BioDrop/commit/921f6d46c2c636de42bd855cc4202523233c3c4e)), closes [#9496](https://github.com/EddieHubCommunity/BioDrop/issues/9496)
+
+
+
+## [2.76.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.76.0...v2.76.1) (2023-10-18)
+
+
+### Bug Fixes
+
+* sentry disable cron ([#9533](https://github.com/EddieHubCommunity/BioDrop/issues/9533)) ([cff7bab](https://github.com/EddieHubCommunity/BioDrop/commit/cff7babb05b42da9350c9c40767a64110dec3b6b))
+
+
+
+# [2.76.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.2...v2.76.0) (2023-10-18)
+
+
+### Features
+
+* sentry integration ([#9187](https://github.com/EddieHubCommunity/BioDrop/issues/9187)) ([6226899](https://github.com/EddieHubCommunity/BioDrop/commit/6226899c2d1384666978b77908f7aa1c27892bdb))
 
 
 
