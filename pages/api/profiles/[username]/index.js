@@ -164,7 +164,9 @@ export async function getUserApi(req, res, username, options = {}) {
       }
     });
 
-    getProfile.events = dateEvents;
+    getProfile.events = dateEvents.sort(
+      (a, b) => Number(new Date(a.date.start)) - Number(new Date(b.date.start)),
+    );
   } else {
     getProfile.events = [];
   }
