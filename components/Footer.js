@@ -206,22 +206,24 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
-          <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
-            <p className=" text-xs leading-5 text-primary-low-high  md:mt-0">
+          <div className="flex pb-4 md:pb-0 items-center justify-center gap-x-6 md:order-2 flex-wrap">
+            <p className=" text-xs leading-5 text-primary-low-high  md:mt-0 whitespace-nowrap">
               100% Open Source on GitHub
             </p>
-            {navigation.social.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="text-primary-low-high hover:text-primary-low"
-                target={item.external ? "_blank" : "_self"}
-                onClick={() => va.track(`socials`, { link: item.name })}
-              >
-                <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6" aria-hidden="true" />
-              </Link>
-            ))}
+            <div className="flex items-center justify-center space-x-6 py-2">
+              {navigation.social.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="text-primary-low-high hover:text-primary-low"
+                  target={item.external ? "_blank" : "_self"}
+                  onClick={() => va.track(`socials`, { link: item.name })}
+                >
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                </Link>
+              ))}
+            </div>
           </div>
           <Link
             href={BASE_GITHUB_PROJECT_URL}
