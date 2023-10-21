@@ -1,3 +1,12 @@
+## [2.77.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.0...v2.77.1) (2023-10-21)
+
+
+### Bug Fixes
+
+* typo mistake on the onboarding screen ([#9519](https://github.com/EddieHubCommunity/BioDrop/issues/9519)) ([#9529](https://github.com/EddieHubCommunity/BioDrop/issues/9529)) ([ad612cb](https://github.com/EddieHubCommunity/BioDrop/commit/ad612cb6f5e96a2ecb448f0871680648a3c12daf))
+
+
+
 # [2.77.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.76.1...v2.77.0) (2023-10-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * special character ([#9530](https://github.com/EddieHubCommunity/BioDrop/issues/9530)) ([e96af55](https://github.com/EddieHubCommunity/BioDrop/commit/e96af5581929d10fd00cb5c834be0547966c66c8))
-
-
-
-## [2.75.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.0...v2.75.1) (2023-10-17)
-
-
-### Bug Fixes
-
-* low contrast color change onboarding ([#9497](https://github.com/EddieHubCommunity/BioDrop/issues/9497)) ([647b78b](https://github.com/EddieHubCommunity/BioDrop/commit/647b78b0a46bb0b44607009cdef8fb63a5b12ae3))
 
 
 
