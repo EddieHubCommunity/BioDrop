@@ -12,11 +12,13 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
-    const formattedDate = shortenDate({
-      date: milestone.date,
-      formatStyle: milestone.dateFormat,
-    });
-    setDate(formattedDate);
+    if(milestone.date) {
+      const formattedDate = shortenDate({
+        date: milestone.date,
+        formatStyle: milestone.dateFormat,
+      });
+      setDate(formattedDate);
+    }
   }, [milestone, milestone.dateFormat]);
 
   const DisplayIcon = getIcon(milestone.icon);
