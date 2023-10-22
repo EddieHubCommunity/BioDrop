@@ -1,3 +1,12 @@
+## [2.80.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.0...v2.80.1) (2023-10-22)
+
+
+### Bug Fixes
+
+* last 30 days views ([#9578](https://github.com/EddieHubCommunity/BioDrop/issues/9578)) ([d3b5ebb](https://github.com/EddieHubCommunity/BioDrop/commit/d3b5ebba089b348326d08c33e0055f51b7838f4e))
+
+
+
 # [2.80.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.1...v2.80.0) (2023-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * admin filter profiles ([#9563](https://github.com/EddieHubCommunity/BioDrop/issues/9563)) ([72fddd0](https://github.com/EddieHubCommunity/BioDrop/commit/72fddd0616ee15d44c34bcaafb45bd07a731ed7e))
-
-
-
-## [2.77.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.2...v2.77.3) (2023-10-22)
-
-
-### Bug Fixes
-
-* events asc order on profile ([#9559](https://github.com/EddieHubCommunity/BioDrop/issues/9559)) ([8bcd140](https://github.com/EddieHubCommunity/BioDrop/commit/8bcd140908b865817ac4d0ebcf49819eb86f72d2))
 
 
 
