@@ -1,5 +1,5 @@
 import { IconContext } from "react-icons";
-import { FaRegComments } from "react-icons/fa6";
+import { FaEye, FaRegComments } from "react-icons/fa6";
 import { remark } from "remark";
 import strip from "strip-markdown";
 import requestIp from "request-ip";
@@ -13,7 +13,6 @@ import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
-import { getStats } from "./api/account/statistics";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -46,13 +45,6 @@ export async function getServerSideProps(context) {
     logger.error(e, `cannot strip markdown for: ${username}`);
     profile.cleanBio = profile.bio;
   }
-  try {
-    if (profile.isStatsPublic) {
-      profile.profileStats = await getStats(username);
-    }
-  } catch (e) {
-    logger.error(e, "ERROR get user's account statistics");
-  }
 
   return {
     props: {
@@ -79,6 +71,21 @@ export default function User({ data, BASE_URL }) {
       <Page>
         <UserPage data={data} BASE_URL={BASE_URL} />
       </Page>
+
+      {data.isStatsPublic && (
+        <div className="hidden md:block fixed bottom-5 left-5 rounded-full">
+          <div className="flex px-4 py-2 bg-tertiary-medium text-primary-low items-center gap-1 rounded-full">
+            <IconContext.Provider
+              value={{ color: "white", style: { verticalAlign: "middle" } }}
+            >
+              <FaEye />
+            </IconContext.Provider>
+            <p className="text-sm font-medium text-primary-medium">
+              {data.views}
+            </p>
+          </div>
+        </div>
+      )}
 
       <Link
         href={`${BASE_GITHUB_PROJECT_URL}/issues/new?labels=testimonial&template=testimonial.yml&title=New+Testimonial+for+${data.name}&name=${data.username}`}
