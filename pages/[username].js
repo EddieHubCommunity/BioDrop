@@ -13,6 +13,7 @@ import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
 import { BASE_GITHUB_PROJECT_URL } from "@constants/index";
+import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -81,7 +82,7 @@ export default function User({ data, BASE_URL }) {
               <FaEye />
             </IconContext.Provider>
             <p className="text-sm font-medium text-primary-medium">
-              {data.views}
+              {abbreviateNumber(data.views)}
             </p>
           </div>
         </div>
