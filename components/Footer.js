@@ -45,7 +45,7 @@ export default function Footer() {
         href: BASE_GITHUB_PROJECT_URL + "/blob/main/CONTRIBUTING.md",
         external: true,
       },
-      { name: "Road map", href: "/roadmap", external: false },
+      { name: "BioDrop Roadmap", href: "/roadmap", external: false },
     ],
     community: [
       {
