@@ -1,3 +1,12 @@
+# [2.79.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.78.0...v2.79.0) (2023-10-22)
+
+
+### Features
+
+* public stats reduce space ([#9570](https://github.com/EddieHubCommunity/BioDrop/issues/9570)) ([e31d3d1](https://github.com/EddieHubCommunity/BioDrop/commit/e31d3d130334cf09e1967e7b88fccf0262b039a7))
+
+
+
 # [2.78.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.3...v2.78.0) (2023-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typo mistake on the onboarding screen ([#9519](https://github.com/EddieHubCommunity/BioDrop/issues/9519)) ([#9529](https://github.com/EddieHubCommunity/BioDrop/issues/9529)) ([ad612cb](https://github.com/EddieHubCommunity/BioDrop/commit/ad612cb6f5e96a2ecb448f0871680648a3c12daf))
-
-
-
-# [2.77.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.76.1...v2.77.0) (2023-10-20)
-
-
-### Features
-
-* discover to search page (fix pr 9496) ([#9545](https://github.com/EddieHubCommunity/BioDrop/issues/9545)) ([921f6d4](https://github.com/EddieHubCommunity/BioDrop/commit/921f6d46c2c636de42bd855cc4202523233c3c4e)), closes [#9496](https://github.com/EddieHubCommunity/BioDrop/issues/9496)
 
 
 
