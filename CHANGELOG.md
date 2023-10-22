@@ -1,3 +1,12 @@
+## [2.80.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.1...v2.80.2) (2023-10-22)
+
+
+### Bug Fixes
+
+* typo in gitpod docs ([#9540](https://github.com/EddieHubCommunity/BioDrop/issues/9540)) ([#9568](https://github.com/EddieHubCommunity/BioDrop/issues/9568)) ([fc086d2](https://github.com/EddieHubCommunity/BioDrop/commit/fc086d277e59cd63ab2b909781df3dda34a15752))
+
+
+
 ## [2.80.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.0...v2.80.1) (2023-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * public stats reduce space ([#9570](https://github.com/EddieHubCommunity/BioDrop/issues/9570)) ([e31d3d1](https://github.com/EddieHubCommunity/BioDrop/commit/e31d3d130334cf09e1967e7b88fccf0262b039a7))
-
-
-
-# [2.78.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.3...v2.78.0) (2023-10-22)
-
-
-### Features
-
-* admin filter profiles ([#9563](https://github.com/EddieHubCommunity/BioDrop/issues/9563)) ([72fddd0](https://github.com/EddieHubCommunity/BioDrop/commit/72fddd0616ee15d44c34bcaafb45bd07a731ed7e))
 
 
 
