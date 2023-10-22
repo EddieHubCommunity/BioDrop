@@ -1,3 +1,12 @@
+# [2.78.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.3...v2.78.0) (2023-10-22)
+
+
+### Features
+
+* admin filter profiles ([#9563](https://github.com/EddieHubCommunity/BioDrop/issues/9563)) ([72fddd0](https://github.com/EddieHubCommunity/BioDrop/commit/72fddd0616ee15d44c34bcaafb45bd07a731ed7e))
+
+
+
 ## [2.77.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.2...v2.77.3) (2023-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * discover to search page (fix pr 9496) ([#9545](https://github.com/EddieHubCommunity/BioDrop/issues/9545)) ([921f6d4](https://github.com/EddieHubCommunity/BioDrop/commit/921f6d46c2c636de42bd855cc4202523233c3c4e)), closes [#9496](https://github.com/EddieHubCommunity/BioDrop/issues/9496)
-
-
-
-## [2.76.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.76.0...v2.76.1) (2023-10-18)
-
-
-### Bug Fixes
-
-* sentry disable cron ([#9533](https://github.com/EddieHubCommunity/BioDrop/issues/9533)) ([cff7bab](https://github.com/EddieHubCommunity/BioDrop/commit/cff7babb05b42da9350c9c40767a64110dec3b6b))
 
 
 

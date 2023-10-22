@@ -28,13 +28,13 @@ export default async function handler(req, res) {
 
   res.status(200).json(profiles);
 }
-export async function getProfiles(filter = "recently updated") {
+export async function getProfiles(filter = "recently updated", limit = 30) {
   await connectMongo();
 
   let profiles = [];
   if (filter === "recently updated") {
     try {
-      profiles = await Profile.find({}).sort({ updatedAt: -1 }).limit(20);
+      profiles = await Profile.find({}).sort({ updatedAt: -1 }).limit(limit);
     } catch (e) {
       logger.error(e, "failed loading profiles");
       return profiles;
@@ -57,7 +57,7 @@ export async function getProfiles(filter = "recently updated") {
             "user.type": "premium",
           },
         },
-      ]).limit(20);
+      ]).limit(limit);
     } catch (e) {
       logger.error(e, "failed loading profiles");
       return profiles;
@@ -77,7 +77,17 @@ export async function getProfiles(filter = "recently updated") {
             },
           },
         },
-      ]).limit(20);
+      ]).limit(limit);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
+  }
+  if (filter === "isShadowBanned") {
+    try {
+      profiles = await Profile.find({ isShadowBanned: true })
+        .sort({ updatedAt: -1 })
+        .limit(limit);
     } catch (e) {
       logger.error(e, "failed loading profiles");
       return profiles;
