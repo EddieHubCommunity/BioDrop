@@ -1,3 +1,12 @@
+## [2.79.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.0...v2.79.1) (2023-10-22)
+
+
+### Bug Fixes
+
+* profile views badge abbreviation ([#9572](https://github.com/EddieHubCommunity/BioDrop/issues/9572)) ([c9069b4](https://github.com/EddieHubCommunity/BioDrop/commit/c9069b43e96112b87ad0e6e389a8dc4c4d2ad647))
+
+
+
 # [2.79.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.78.0...v2.79.0) (2023-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * footer in smaller screens ([#9429](https://github.com/EddieHubCommunity/BioDrop/issues/9429)) ([12bd7d3](https://github.com/EddieHubCommunity/BioDrop/commit/12bd7d336f42232f9103bcf4832dfeb976d92705))
-
-
-
-## [2.77.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.0...v2.77.1) (2023-10-21)
-
-
-### Bug Fixes
-
-* typo mistake on the onboarding screen ([#9519](https://github.com/EddieHubCommunity/BioDrop/issues/9519)) ([#9529](https://github.com/EddieHubCommunity/BioDrop/issues/9529)) ([ad612cb](https://github.com/EddieHubCommunity/BioDrop/commit/ad612cb6f5e96a2ecb448f0871680648a3c12daf))
 
 
 
