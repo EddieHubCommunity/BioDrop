@@ -12,6 +12,10 @@
       "url": "https://github.com/J-CODE07"
     },
     {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jagan-t-839147223/"
+    },
+    {
       "icon": "SiHashnode",
       "url": "https://j-code.hashnode.dev/"
     }
@@ -28,6 +32,12 @@
       "name": "GitHub - Open Source",
       "url": "https://github.com/J-CODE07",
       "icon": "FaGithub"
+    },
+    {
+      "group": "socials",
+      "name": "LinkediIn - Let's connect!",
+      "url": "https://www.linkedin.com/in/jagan-t-839147223/",
+      "icon": "FaLinkedin"
     },
     {
       "group": "socials",

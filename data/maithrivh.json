@@ -1,0 +1,21 @@
+{
+  "name": "Maithri Hebbar",
+  "bio": "Software Engineer who wants to learn to contribute to Open Source projects. Travel enthusiast Dance & Singing aficionado",
+  "links": [
+    {
+      "name": "Follow me on Linkedln",
+      "url": "https://www.linkedin.com/in/maithri-hebbar/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/maithrivh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Maithri48174967",
+      "icon": "FaTwitter"
+    }
+  ]
+}

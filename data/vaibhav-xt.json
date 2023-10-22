@@ -1,52 +1,14 @@
 {
   "name": "Vaibhav Maurya",
-  "bio": "Frontend Developer | Web3.0 Enthusiast | Content Creator | Teaching | Open 😺 Source Contributor | Gaming",
-  "avatar": "https://github.com/vaibhav-xt.png",
-  "links": [
-    {
-      "name": "YouTube",
-      "url": "https://www.youtube.com/@vaibhav-xt",
-      "icon": "SiYoutube"
-    },
-    {
-      "name": "Discord Community",
-      "url": "https://discord.gg/hk7C3pYbMJ",
-      "icon": "SiDiscord"
-    },
-    {
-      "name": "Twitter",
-      "url": "https://twitter.com/vaibhav_txt",
-      "icon": "SiTwitter"
-    },
-    {
-      "name": "GitHub Profile",
-      "url": "https://github.com/FrancescoXX",
-      "icon": "SiGithub"
-    },
-    {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/vaibhav.web3/",
-      "icon": "SiInstagram"
-    },
-    {
-      "name": "Linkedin",
-      "url": "https://www.linkedin.com/in/vaibhavmaurya09/",
-      "icon": "SiLinkedin"
-    },
-    {
-      "name": "GitHub",
-      "url": "https://github.com/vaibhav-xt",
-      "icon": "FaGithub"
-    }
-  ],
+  "bio": "Web Developer 🌟 Open Source 🚀 | Freelance | Tech Blog @Hashnode📝 | Postman Student Expert 🌱 | Crafting digital dreams meticulously. Let's connect",
   "tags": [
     "Open Source",
     "Javascript",
+    "Typescript",
     "NextJS",
     "ReactJs",
     "Node.js",
-    "Python",
-    "Blockchain"
+    "Python"
   ],
   "socials": [
     {
@@ -54,8 +16,8 @@
       "url": "https://www.youtube.com/@vaibhav-xt"
     },
     {
-      "icon": "SiDiscord",
-      "url": "https://www.youtube.com/@vaibhav-xt"
+      "url": "https://www.linkedin.com/in/vaibhavmaurya09/",
+      "icon": "SiLinkedin"
     },
     {
       "icon": "SiTwitter",
@@ -63,6 +25,112 @@
     },
     {
       "icon": "SiGithub",
+      "url": "https://github.com/vaibhav-xt"
+    },
+    {
+      "icon": "FaHashnode",
+      "url": "https://vibhuu.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Upwork",
+      "url": "https://www.upwork.com/freelancers/~010b7012fd66dfa43a",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Business",
+      "name": "Portfolio",
+      "url": "https://portfolio-73d07.web.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/vaibhavmaurya09/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub Profile",
+      "url": "https://github.com/vaibhav-xt",
+      "icon": "SiGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@vaibhav-xt",
+      "icon": "SiYoutube"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Discord Community",
+      "url": "https://discord.gg/hk7C3pYbMJ",
+      "icon": "SiDiscord"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter",
+      "url": "https://twitter.com/vaibhav_txt",
+      "icon": "SiTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Hactoberfest",
+      "date": "Octoberfest 2022",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Started Open Source Journey",
+      "url": "https://holopin.io/@vaibhav_xt"
+    },
+    {
+      "title": "Started YouTube",
+      "date": "February 2023",
+      "icon": "FaYoutube",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://youtube.com/@vaibhav-xt"
+    },
+    {
+      "title": "Blogging Challenge",
+      "data": "June 2023",
+      "icon": "FaHashnode",
+      "color": "blue",
+      "description": "Top contributor of Hashnode Blogging Challenge",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7080862231030112257/"
+    },
+    {
+      "title": "Completed React-Chatbot-Kit Series",
+      "data": "May 2023",
+      "icon": "FaYoutube",
+      "color": "gray",
+      "description": "Completed my first of React-Chatbot-Kit Library. Helping to serveral folks and getting positive feedback.",
+      "url": "https://youtube.com/playlist?list=PLKo2z2zw7XLLTzkLoMGrfgW_2aG1pw88G&si=PSZzLZmYIBks_NzX"
+    },
+    {
+      "title": "GirlScript Summer of Code",
+      "date": " May 2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Contributed to Open Source Project.",
+      "url": "https://github.com/vaibhav-xt"
+    },
+    {
+      "title": "Postman Student Expert",
+      "date": " Auguest 2023",
+      "icon": "SiPostman",
+      "color": "purple",
+      "description": "Postman Student Experts are proficient in the essential skills involved in building and testing API requests in Postman.",
+      "url": "https://api.badgr.io/public/assertions/5P6KfRMeRAqVQY6M7feoxA?identity__email=vibhu.astute%40gmail.com"
+    },
+    {
+      "title": "Member at Layer5",
+      "date": "June 2023",
+      "icon": "FaGithub",
+      "color": "gold",
+      "description": "Contributed to many project such as Meshery, Layer5, Mesher.io",
       "url": "https://github.com/vaibhav-xt"
     }
   ]

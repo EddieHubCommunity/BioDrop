@@ -1,45 +1,45 @@
-# [1.169.0](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.8...v1.169.0) (2023-08-04)
+# [2.80.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.1...v2.80.0) (2023-10-22)
 
 
 ### Features
 
-* delete repo from profile ([#8485](https://github.com/EddieHubCommunity/LinkFree/issues/8485)) ([0802f67](https://github.com/EddieHubCommunity/LinkFree/commit/0802f674a47a92380d96eca11d8ef703c62745c2))
+* create profile button ([#9574](https://github.com/EddieHubCommunity/BioDrop/issues/9574)) ([ef96775](https://github.com/EddieHubCommunity/BioDrop/commit/ef967759145341cb68eb2059ee66de19f13fbd99))
 
 
 
-## [1.168.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.7...v1.168.8) (2023-08-03)
-
-
-### Bug Fixes
-
-* heroicons import on admin section ([#8487](https://github.com/EddieHubCommunity/LinkFree/issues/8487)) ([1d1e21c](https://github.com/EddieHubCommunity/LinkFree/commit/1d1e21c9388778a7d8be9b45c07fb81505db3918))
-
-
-
-## [1.168.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.6...v1.168.7) (2023-08-03)
+## [2.79.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.0...v2.79.1) (2023-10-22)
 
 
 ### Bug Fixes
 
-* milestone link icon and date [#8098](https://github.com/EddieHubCommunity/LinkFree/issues/8098) ([#8420](https://github.com/EddieHubCommunity/LinkFree/issues/8420)) ([21c9717](https://github.com/EddieHubCommunity/LinkFree/commit/21c9717861542833a2fc6d7a2131937573918266))
+* profile views badge abbreviation ([#9572](https://github.com/EddieHubCommunity/BioDrop/issues/9572)) ([c9069b4](https://github.com/EddieHubCommunity/BioDrop/commit/c9069b43e96112b87ad0e6e389a8dc4c4d2ad647))
 
 
 
-## [1.168.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.5...v1.168.6) (2023-08-03)
+# [2.79.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.78.0...v2.79.0) (2023-10-22)
+
+
+### Features
+
+* public stats reduce space ([#9570](https://github.com/EddieHubCommunity/BioDrop/issues/9570)) ([e31d3d1](https://github.com/EddieHubCommunity/BioDrop/commit/e31d3d130334cf09e1967e7b88fccf0262b039a7))
+
+
+
+# [2.78.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.3...v2.78.0) (2023-10-22)
+
+
+### Features
+
+* admin filter profiles ([#9563](https://github.com/EddieHubCommunity/BioDrop/issues/9563)) ([72fddd0](https://github.com/EddieHubCommunity/BioDrop/commit/72fddd0616ee15d44c34bcaafb45bd07a731ed7e))
+
+
+
+## [2.77.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.2...v2.77.3) (2023-10-22)
 
 
 ### Bug Fixes
 
-* db connection ([#8477](https://github.com/EddieHubCommunity/LinkFree/issues/8477)) ([a1af174](https://github.com/EddieHubCommunity/LinkFree/commit/a1af174bbe8866f1121b073dc91d8d0556479de2))
-
-
-
-## [1.168.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.168.4...v1.168.5) (2023-08-03)
-
-
-### Bug Fixes
-
-* changelog latest features ([#8473](https://github.com/EddieHubCommunity/LinkFree/issues/8473)) ([2a43b3a](https://github.com/EddieHubCommunity/LinkFree/commit/2a43b3ac3b7c6dee0ac1a88d2f0919784954192c))
+* events asc order on profile ([#9559](https://github.com/EddieHubCommunity/BioDrop/issues/9559)) ([8bcd140](https://github.com/EddieHubCommunity/BioDrop/commit/8bcd140908b865817ac4d0ebcf49819eb86f72d2))
 
 
 

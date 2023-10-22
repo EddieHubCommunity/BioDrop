@@ -10,7 +10,7 @@ concurrency:
 
 jobs:
   format:
-    if: github.repository == 'EddieHubCommunity/LinkFree'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
     name: Format Files
     steps:
@@ -24,7 +24,7 @@ jobs:
       - run: npm ci
 
       - name: Prettier
-        run: npx prettier --write data/*.json
+        run: npx prettier --write data/**/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

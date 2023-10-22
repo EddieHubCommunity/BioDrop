@@ -35,11 +35,11 @@ export default function Modal({
               leaveFrom="opacity-100 translate-y-0 sm:scale-100"
               leaveTo="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
             >
-              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white dark:bg-primary-high text-left shadow-xl transition-all m-16 sm:w-full sm:max-w-4xl max-h-screen overflow-y-auto">
+              <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white dark:bg-primary-high text-left shadow-xl transition-all sm:m-16 mb-32 sm:mb-0 sm:w-full sm:max-w-4xl max-h-screen overflow-y-auto">
                 <div className="absolute right-0 top-0 hidden pr-4 pt-4 sm:block">
                   <button
                     type="button"
-                    className="rounded-md bg-white dark:bg-primary-high text-primary-low-medium hover:text-primary-low-medium focus:outline-none focus:ring-2 focus:ring-secondary-medium-low focus:ring-offset-2"
+                    className="rounded-md bg-white dark:bg-primary-high text-primary-low-medium hover:text-primary-low-medium focus:outline-none hover:ring-2 hover:ring-secondary-medium-low hover:ring-offset-2"
                     onClick={() => setShow(false)}
                   >
                     <span className="sr-only">Close</span>

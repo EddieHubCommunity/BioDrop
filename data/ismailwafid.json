@@ -1,0 +1,16 @@
+{
+  "name": "Ismail Wafid",
+  "bio": "I am a front-end developer with an ambition to continue learning.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/WafidIsmail",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ismailwafid",
+      "icon": "FaGithub"
+    }
+  ]
+}

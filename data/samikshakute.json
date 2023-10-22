@@ -1,16 +1,48 @@
 {
   "name": "Samiksha Kute",
-  "bio": "I am Samiksha Kute currently pursuing my B.E. in Computer Science from SITS Pune. I am a passionate learner wishing to explore open source.",
+  "bio": "Hello, I am Samiksha Kute. I am a passionate learner wishing to explore open source.",
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/samikshakute",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub",
       "url": "https://github.com/samikshakute",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/samikshakute",
-      "icon": "FaTwitter"
+      "group": "Socials",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/samikshakute",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog",
+      "url": "https://samikshakute.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/samikshakute"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/samikshakute"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/samikshakute"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://samikshakute.github.io"
     }
   ]
 }

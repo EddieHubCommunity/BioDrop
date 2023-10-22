@@ -16,7 +16,7 @@ export const BasicMilestone = {
     milestone: {
       title: "My first Storybook",
       date: "October 2022",
-      description: "My first Storybook for the LinkFree project",
+      description: "My first Storybook for the BioDrop project",
       icon: "FaGlobe",
       color: "primary-high",
     },

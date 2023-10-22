@@ -1,7 +1,7 @@
 {
   "name": "Nigel Lowa",
-  "bio": "A software protoge with a penchant for developing impressional applications",
-  "tags": ["Open Source", "JavaScript", "React"],
+  "bio": "A technical writer and data analysis protoge with a penchant for developing responsive, dynamic applications",
+  "tags": ["Open Source", "JavaScript", "React", "Python", "R"],
   "socials": [
     {
       "icon": "FaTwitter",
@@ -44,7 +44,7 @@
       "date": "Feb 2022",
       "icon": "SiHashnode",
       "color": "Blue",
-      "description": "Started Blogging on Dev.to",
+      "description": "Wrote my 10th article on Dev.to",
       "url": "https://dev.to/anvilicious"
     },
     {

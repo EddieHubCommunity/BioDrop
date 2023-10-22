@@ -23,19 +23,75 @@ export default async function handler(req, res) {
     return res.status(401).json({});
   }
 
-  const profiles = await getProfiles();
+  const { filter } = req.query;
+  const profiles = await getProfiles(filter);
 
   res.status(200).json(profiles);
 }
-export async function getProfiles() {
+export async function getProfiles(filter = "recently updated", limit = 30) {
   await connectMongo();
 
   let profiles = [];
-  try {
-    profiles = await Profile.find({}).sort({ updatedAt: -1 }).limit(10);
-  } catch (e) {
-    logger.error(e, "failed loading profiles");
-    return profiles;
+  if (filter === "recently updated") {
+    try {
+      profiles = await Profile.find({}).sort({ updatedAt: -1 }).limit(limit);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
+  }
+
+  if (filter === "premium") {
+    try {
+      profiles = await Profile.aggregate([
+        {
+          $lookup: {
+            from: "users",
+            localField: "user",
+            foreignField: "_id",
+            as: "user",
+          },
+        },
+        {
+          $match: {
+            "user.type": "premium",
+          },
+        },
+      ]).limit(limit);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
+  }
+
+  if (filter === "by rank") {
+    try {
+      profiles = await Profile.aggregate([
+        {
+          $setWindowFields: {
+            sortBy: { views: -1 },
+            output: {
+              rank: {
+                $rank: {},
+              },
+            },
+          },
+        },
+      ]).limit(limit);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
+  }
+  if (filter === "isShadowBanned") {
+    try {
+      profiles = await Profile.find({ isShadowBanned: true })
+        .sort({ updatedAt: -1 })
+        .limit(limit);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
   }
 
   return JSON.parse(JSON.stringify(profiles));

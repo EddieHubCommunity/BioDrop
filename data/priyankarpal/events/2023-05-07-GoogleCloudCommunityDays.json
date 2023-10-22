@@ -1,12 +1,12 @@
 {
-  "isVirtual": false,    
+  "isVirtual": false,
   "isInPerson": true,
   "color": "red",
   "name": "Cloud Community Days Kolkata, 2023",
   "description": "I will attend this event with the intention of learning new things and collaborating with others",
-  "date": { 
+  "date": {
     "start": "2023-05-07T10:00:00.000+05:30",
-    "end": "2023-05-07T20:00:00.000+05:30" 
+    "end": "2023-05-07T20:00:00.000+05:30"
   },
   "url": "https://gdgcloud.kolkata.dev/ccd2023",
   "location": {

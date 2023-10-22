@@ -7,23 +7,34 @@ import {
   YAxis,
   ResponsiveContainer,
 } from "recharts";
+import dateFormat from "@services/utils/dateFormat";
 
-export default function StatsChart({data}) {
+function formatDate(value) {
+  return dateFormat({
+    format: "short",
+    date: value,
+    locale: "local",
+    UTCLocal: true,
+  });
+}
+
+export default function StatsChart({ data, dataKey = "views" }) {
   return (
     <div className="w-full h-80">
       <ResponsiveContainer height="100%">
         <BarChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="date" />
+          <XAxis dataKey="date" tickFormatter={formatDate} />
           <YAxis />
           <Tooltip
+            labelFormatter={formatDate}
             contentStyle={{
               color: "black",
             }}
           />
-          <Bar dataKey="views" fill="#82ca9d" />
+          <Bar dataKey={dataKey} fill="#38a1ad" />
         </BarChart>
       </ResponsiveContainer>
     </div>
-  )
+  );
 }

@@ -4,13 +4,14 @@ import AxeBuilder from "@axe-core/playwright";
 // Changelog Page
 test("Changelog has title", async ({ page }) => {
   await page.goto("/changelog");
-  await expect(page).toHaveTitle("LinkFree user changelog");
+  await expect(page).toHaveTitle("BioDrop user changelog");
 });
 
 // Navigating to Changelog Page
 test("Navigate to Changelog", async ({ page }) => {
   await page.goto("/roadmap");
   await page.getByRole("link", { name: "See full list" }).click();
+  await page.waitForLoadState("networkidle");
   await expect(page.locator("h1")).toHaveText("Changelog");
 });
 
@@ -27,6 +28,7 @@ test("Footer link goes to GitHub", async ({ page }) => {
   const getFooter = page.getByText("Powered by EddieHub");
 
   await getFooter.click();
+  await page.waitForLoadState("networkidle");
 
   await expect(page).toHaveURL(/github/);
 });

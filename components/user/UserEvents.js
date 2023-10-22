@@ -1,7 +1,7 @@
 import { useState } from "react";
 import EventCard from "@components/event/EventCard";
 import Alert from "@components/Alert";
-import DropdownMenu from "@components/form/DropDown";
+import Select from "@components/form/Select";
 
 export default function UserEvents({
   manage = false,
@@ -21,7 +21,6 @@ export default function UserEvents({
     { value: "paid", name: "Paid Events" },
     { value: "past", name: "Past Events" },
   ];
-
   const handleEventTypeChange = (event) => {
     setEventType(event.target.value);
   };
@@ -52,31 +51,43 @@ export default function UserEvents({
     if (eventType === "all") {
       return events;
     }
-    return events.filter((event) => filterByEventType(event, eventType));
+    let filteredEvents = events.filter((event) =>
+      filterByEventType(event, eventType),
+    );
+    if (eventType === "future" && filteredEvents.length === 0) {
+      filteredEvents = events.filter((event) =>
+        filterByEventType(event, "all"),
+      );
+    }
+    return filteredEvents;
   };
-
   const eventsToShow = getFilteredEvents();
-
   const filteredEventOptions = eventOptions.filter((option) => {
     if (option.value === "all") {
       return true;
     }
     const filterEvents = events.filter((event) =>
-      filterByEventType(event, option.value)
+      filterByEventType(event, option.value),
     );
     return filterEvents.length > 0;
   });
 
   return (
     <>
-      {!eventsToShow?.length && <Alert type="info" message="No Events found" />}
+      {eventsToShow.length === 0 && (
+        <Alert type="info" message="No Events found" />
+      )}
 
-      {!manage && (
-        <DropdownMenu
-          eventType={eventType}
-          handleEventTypeChange={handleEventTypeChange}
-          options={filteredEventOptions}
-          label="Select Event Type:"
+      {eventsToShow.length > 0 && (
+        <Select
+          name="event-type"
+          value={eventType}
+          label="Select an event type"
+          onChange={handleEventTypeChange}
+          options={filteredEventOptions.map((option) => ({
+            label: option.name,
+            value: option.value,
+          }))}
           className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
         />
       )}

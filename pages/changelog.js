@@ -1,7 +1,9 @@
 import CalendarIcon from "@heroicons/react/20/solid/CalendarIcon";
+import { classNames } from "@services/utils/classNames";
 
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
+import { PROJECT_NAME } from "@constants/index";
 
 export default function Changelog() {
   const colors = {
@@ -9,6 +11,54 @@ export default function Changelog() {
     removal: "text-red-800 bg-red-100",
   };
   const changes = [
+    {
+      title: "Profile pronouns",
+      description:
+        "If you prefer you can add pronouns to your profile, this will appear next to your name",
+      type: "addition",
+      date: "2023-10-10",
+    },
+    {
+      title: "More details for Referrer and Location stats",
+      description:
+        "The Referrer and Location stats now have dedicated pages for more details",
+      type: "addition",
+      date: "2023-10-05",
+    },
+    {
+      title: "Deep nesting to Profile tabs",
+      description: "Now you can share links to specific tabs on your profile",
+      type: "addition",
+      date: "2023-09-26",
+    },
+    {
+      title: "Premium features",
+      description:
+        "Customise your Profile further and get more detailed statistics with BioDrop Premium",
+      type: "addition",
+      date: "2023-09-08",
+    },
+    {
+      title: "Project rename",
+      description:
+        "Renamed from LinkFree to BioDrop - all existing links will redirect",
+      type: "addition",
+      date: "2023-08-26",
+    },
+    {
+      title: "Links animation",
+      description:
+        "Have your links stand out even further with a subtle animation",
+      type: "addition",
+      date: "2023-08-19",
+    },
+    {
+      title: "Discover Profile",
+      description:
+        "Discover recently created/updated profiles - this is great to encourage people to update their Profiles",
+      type: "addition",
+      date: "2023-08-11",
+    },
     {
       title: "GitHub Repos showcase",
       description:
@@ -45,29 +95,26 @@ export default function Changelog() {
       date: "2023-05-04",
     },
     {
-      title: "LinkFree now has DarkMode",
-      description:
-        "Yes it is finally here, dark mode is now available on LinkFree. You can toggle it on/off from the main Navbar",
+      title: `${PROJECT_NAME} now has DarkMode`,
+      description: `Yes it is finally here, dark mode is now available on ${PROJECT_NAME}. You can toggle it on/off from the main Navbar`,
       type: "addition",
       date: "2023-04-08",
     },
     {
       title: "Profile QR code download",
-      description:
-        "It is now possible to download your LinkFree QR code, so you can use it offline and in other places.",
+      description: `It is now possible to download your ${PROJECT_NAME} QR code, so you can use it offline and in other places.`,
       type: "addition",
       date: "2023-03-31",
     },
     {
       title: "Profile progress bar",
-      description: "It is now possible to track your LinkFree profile progress",
+      description: `It is now possible to track your ${PROJECT_NAME} profile progress`,
       type: "addition",
       date: "2023-03-26",
     },
     {
       title: "Dedicated domain (url)",
-      description:
-        "You can start using the shorter url linkfree.io, the previous domain still works also",
+      description: `You can start using the shorter url ${PROJECT_NAME}.io, the previous domain still works also`,
       type: "addition",
       date: "2023-03-12",
     },
@@ -94,7 +141,7 @@ export default function Changelog() {
     },
     {
       title: "World Map",
-      description: "See LinkFree users on a world wide map",
+      description: `See ${PROJECT_NAME} users on a world wide map`,
       type: "addition",
       date: "2023-01-24",
     },
@@ -116,8 +163,8 @@ export default function Changelog() {
   return (
     <>
       <PageHead
-        title="LinkFree user changelog"
-        description="What are the latest features and changes to LinkFree"
+        title={`${PROJECT_NAME} user changelog`}
+        description="What are the latest features and changes to BioDrop"
       />
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
@@ -133,9 +180,10 @@ export default function Changelog() {
                     </p>
                     <div className="ml-2 flex flex-shrink-0">
                       <p
-                        className={`inline-flex rounded-full px-2 text-xs font-semibold leading-5 ${
-                          colors[change.type]
-                        }`}
+                        className={classNames(
+                          colors[change.type],
+                          "inline-flex rounded-full px-2 text-xs font-semibold leading-5",
+                        )}
                       >
                         {change.type}
                       </p>

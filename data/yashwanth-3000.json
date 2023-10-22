@@ -1,0 +1,33 @@
+{
+  "name": "Yashwanth krishna",
+  "bio": "Trying to contribute to open source while learning. Learing in Public ",
+  "tags": ["Machine learning", "DSA"],
+  "social": [
+    {
+      "icon": "Fatwitter",
+      "Url": "https://twitter.com/Yashwanthstwt"
+    },
+    {
+      "icon": "Falinkedin",
+      "url": "https://www.linkedin.com/in/pyashwanthkrishna/"
+    }
+  ],
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Yashwanthstwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Gitub link",
+      "url": "https://github.com/yashwanth-3000",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin profile ",
+      "url": "https://www.linkedin.com/in/pyashwanthkrishna/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

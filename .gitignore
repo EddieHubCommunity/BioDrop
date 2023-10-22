@@ -11,6 +11,7 @@
 
 # misc
 .DS_Store
+.idea/
 *.pem
 
 # debug
@@ -37,3 +38,6 @@ test-results/
 
 # vscode
 .vscode
+
+# Sentry Auth Token
+.sentryclirc

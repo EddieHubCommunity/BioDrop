@@ -1,0 +1,21 @@
+{
+  "name": "Nwakaego Glory Nwaekpe",
+  "bio": "Poltitical enthusiast turned **Problem solver**. Poet & Football Fanatic",
+  "links": [
+    {
+      "name": "Follow me on",
+      "url": "https://twitter.com/GloryNwaekpe",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Nwakaego-Ego",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on my journey to simplifing the web",
+      "url": "https://ego.hashnode.dev/",
+      "icon": "FaHashnode"
+    }
+  ]
+}
