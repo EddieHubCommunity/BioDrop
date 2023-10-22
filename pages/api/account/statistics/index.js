@@ -27,10 +27,25 @@ export default async function handler(req, res) {
 export async function getStats(username, numberOfDays = 30) {
   await connectMongo();
 
-  // This calculates the start date by subtracting the specified number of days from the current date.
-  // The query then retrieves data from that calculated start date up to the current date.
-  const startDate = new Date();
-  startDate.setDate(startDate.getDate() - numberOfDays);
+  const profileData = await getRank(username);
+  const dailyStats = await getProfileViewsPerDay(username, numberOfDays);
+  const linkStats = await getLinkStats(username);
+
+  const data = {
+    profile: {
+      total: profileData.views,
+      monthly: profileData.views,
+      daily: dailyStats,
+      rank: profileData.rank,
+    },
+    links: linkStats,
+  };
+
+  return JSON.parse(JSON.stringify(data));
+}
+
+export async function getRank(username) {
+  await connectMongo();
 
   let profileData = {};
   try {
@@ -57,6 +72,16 @@ export async function getStats(username, numberOfDays = 30) {
     logger.error(e, "failed to load profile");
   }
 
+  return { views: profileData.views, rank: profileData.rank };
+}
+export async function getProfileViewsPerDay(username, numberOfDays = 30) {
+  await connectMongo();
+
+  // This calculates the start date by subtracting the specified number of days from the current date.
+  // The query then retrieves data from that calculated start date up to the current date.
+  const startDate = new Date();
+  startDate.setDate(startDate.getDate() - numberOfDays);
+
   let profileViews = [];
   try {
     profileViews = await ProfileStats.find({
@@ -67,7 +92,6 @@ export async function getStats(username, numberOfDays = 30) {
     logger.error(e, "failed to load stats");
   }
 
-  let totalViews = 0;
   let dailyStats = [];
   for (let day = 0; day < numberOfDays; day++) {
     const date = new Date();
@@ -76,12 +100,17 @@ export async function getStats(username, numberOfDays = 30) {
       (result) => result.date.toDateString() === date.toDateString(),
     );
     if (result) {
-      totalViews += result.views;
       dailyStats.push(result);
     } else {
       dailyStats.push({ date, views: 0 });
     }
   }
+
+  return dailyStats;
+}
+
+export async function getLinkStats(username) {
+  await connectMongo();
 
   let linkClicks = [];
   try {
@@ -115,18 +144,8 @@ export async function getStats(username, numberOfDays = 30) {
     };
   });
 
-  const data = {
-    profile: {
-      total: profileData.views,
-      monthly: totalViews,
-      daily: dailyStats,
-      rank: profileData.rank,
-    },
-    links: {
-      clicks: totalClicks,
-      individual: linkDailyStats,
-    },
+  return {
+    clicks: totalClicks,
+    individual: linkDailyStats,
   };
-
-  return JSON.parse(JSON.stringify(data));
 }
