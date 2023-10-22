@@ -69,6 +69,9 @@ export default function Users({ profiles }) {
           </Button>
           <Button href="/admin/profiles?filter=by rank">By Rank</Button>
           <Button href="/admin/profiles?filter=premium">Premium</Button>
+          <Button href="/admin/profiles?filter=isShadowBanned">
+            Shadow Banned
+          </Button>
         </div>
 
         <ul role="list" className="divide-y divide-primary-low">
