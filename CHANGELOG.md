@@ -1,3 +1,12 @@
+# [2.80.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.1...v2.80.0) (2023-10-22)
+
+
+### Features
+
+* create profile button ([#9574](https://github.com/EddieHubCommunity/BioDrop/issues/9574)) ([ef96775](https://github.com/EddieHubCommunity/BioDrop/commit/ef967759145341cb68eb2059ee66de19f13fbd99))
+
+
+
 ## [2.79.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.0...v2.79.1) (2023-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * events asc order on profile ([#9559](https://github.com/EddieHubCommunity/BioDrop/issues/9559)) ([8bcd140](https://github.com/EddieHubCommunity/BioDrop/commit/8bcd140908b865817ac4d0ebcf49819eb86f72d2))
-
-
-
-## [2.77.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.1...v2.77.2) (2023-10-21)
-
-
-### Bug Fixes
-
-* footer in smaller screens ([#9429](https://github.com/EddieHubCommunity/BioDrop/issues/9429)) ([12bd7d3](https://github.com/EddieHubCommunity/BioDrop/commit/12bd7d336f42232f9103bcf4832dfeb976d92705))
 
 
 
