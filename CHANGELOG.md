@@ -1,3 +1,21 @@
+# [2.78.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.3...v2.78.0) (2023-10-22)
+
+
+### Features
+
+* admin filter profiles ([#9563](https://github.com/EddieHubCommunity/BioDrop/issues/9563)) ([72fddd0](https://github.com/EddieHubCommunity/BioDrop/commit/72fddd0616ee15d44c34bcaafb45bd07a731ed7e))
+
+
+
+## [2.77.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.2...v2.77.3) (2023-10-22)
+
+
+### Bug Fixes
+
+* events asc order on profile ([#9559](https://github.com/EddieHubCommunity/BioDrop/issues/9559)) ([8bcd140](https://github.com/EddieHubCommunity/BioDrop/commit/8bcd140908b865817ac4d0ebcf49819eb86f72d2))
+
+
+
 ## [2.77.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.1...v2.77.2) (2023-10-21)
 
 
@@ -22,24 +40,6 @@
 ### Features
 
 * discover to search page (fix pr 9496) ([#9545](https://github.com/EddieHubCommunity/BioDrop/issues/9545)) ([921f6d4](https://github.com/EddieHubCommunity/BioDrop/commit/921f6d46c2c636de42bd855cc4202523233c3c4e)), closes [#9496](https://github.com/EddieHubCommunity/BioDrop/issues/9496)
-
-
-
-## [2.76.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.76.0...v2.76.1) (2023-10-18)
-
-
-### Bug Fixes
-
-* sentry disable cron ([#9533](https://github.com/EddieHubCommunity/BioDrop/issues/9533)) ([cff7bab](https://github.com/EddieHubCommunity/BioDrop/commit/cff7babb05b42da9350c9c40767a64110dec3b6b))
-
-
-
-# [2.76.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.75.2...v2.76.0) (2023-10-18)
-
-
-### Features
-
-* sentry integration ([#9187](https://github.com/EddieHubCommunity/BioDrop/issues/9187)) ([6226899](https://github.com/EddieHubCommunity/BioDrop/commit/6226899c2d1384666978b77908f7aa1c27892bdb))
 
 
 
