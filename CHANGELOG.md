@@ -1,3 +1,12 @@
+## [2.80.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.2...v2.80.3) (2023-10-23)
+
+
+### Bug Fixes
+
+* footer text inconsistency ([#9577](https://github.com/EddieHubCommunity/BioDrop/issues/9577)) ([bc898ae](https://github.com/EddieHubCommunity/BioDrop/commit/bc898aee005d3d53ab3586984b6d1582d6c00eb9))
+
+
+
 ## [2.80.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.1...v2.80.2) (2023-10-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile views badge abbreviation ([#9572](https://github.com/EddieHubCommunity/BioDrop/issues/9572)) ([c9069b4](https://github.com/EddieHubCommunity/BioDrop/commit/c9069b43e96112b87ad0e6e389a8dc4c4d2ad647))
-
-
-
-# [2.79.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.78.0...v2.79.0) (2023-10-22)
-
-
-### Features
-
-* public stats reduce space ([#9570](https://github.com/EddieHubCommunity/BioDrop/issues/9570)) ([e31d3d1](https://github.com/EddieHubCommunity/BioDrop/commit/e31d3d130334cf09e1967e7b88fccf0262b039a7))
 
 
 
