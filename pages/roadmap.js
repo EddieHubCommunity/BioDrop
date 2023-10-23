@@ -18,10 +18,10 @@ export default function Roadmap() {
       actionText: "See full list",
       description: "Enjoy these exciting new features right now!",
       features: [
-        "Statistics",
+        "New branding and design",
+        "Show more detailed statistics",
+        "Premium features",
         "Dark mode",
-        "Forms to manage your profile",
-        "Customise your profile",
       ],
       mostPopular: false,
       icon: (
@@ -41,12 +41,7 @@ export default function Roadmap() {
       actionText: "Issue list",
       description:
         "Features that are currently being worked on or will be soon.",
-      features: [
-        "Show more detailed statistics",
-
-        "Premium features",
-        "New branding and design",
-      ],
+      features: ["Custom domains", "New web app design"],
       mostPopular: true,
       icon: (
         <ComputerDesktopIcon
