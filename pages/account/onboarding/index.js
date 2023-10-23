@@ -126,7 +126,7 @@ export default function Onboarding({ profile, progress }) {
     {
       icon: FaMicroblog,
       title: "Testimonials",
-      description: "Your favourite Testinomials",
+      description: "Your favourite Testimonials",
       button: {
         name: "Testimonials",
         href: "/account/manage/testimonials",
@@ -192,7 +192,7 @@ export default function Onboarding({ profile, progress }) {
               Profile Completion: {progress.percentage}%
             </span>
             {progress.missing.length > 0 && (
-              <span className="text-primary-medium-low">
+              <span className="text-primary-medium-low dark:text-primary-low">
                 (add missing sections below: {progress.missing.join(", ")})
               </span>
             )}

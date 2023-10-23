@@ -1,45 +1,45 @@
-# [2.75.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.1...v2.75.0) (2023-10-15)
-
-
-### Features
-
-* tags to events ([#9498](https://github.com/EddieHubCommunity/BioDrop/issues/9498)) ([dd94b93](https://github.com/EddieHubCommunity/BioDrop/commit/dd94b9372262b7f5087d61bb9482d468157d7f24)), closes [#9276](https://github.com/EddieHubCommunity/BioDrop/issues/9276)
-
-
-
-## [2.74.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.0...v2.74.1) (2023-10-14)
+## [2.80.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.2...v2.80.3) (2023-10-23)
 
 
 ### Bug Fixes
 
-* hide tabs with no data ([#9494](https://github.com/EddieHubCommunity/BioDrop/issues/9494)) ([3a42565](https://github.com/EddieHubCommunity/BioDrop/commit/3a4256556ba8a3928ac33a1eb9e44ff23ed434da))
+* footer text inconsistency ([#9577](https://github.com/EddieHubCommunity/BioDrop/issues/9577)) ([bc898ae](https://github.com/EddieHubCommunity/BioDrop/commit/bc898aee005d3d53ab3586984b6d1582d6c00eb9))
 
 
 
-# [2.74.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.73.0...v2.74.0) (2023-10-14)
-
-
-### Features
-
-* admin changelog filter user ([#9491](https://github.com/EddieHubCommunity/BioDrop/issues/9491)) ([eb864b6](https://github.com/EddieHubCommunity/BioDrop/commit/eb864b6a497f526c8b3d43cfbcbbe759acfdb869))
-
-
-
-# [2.73.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.10...v2.73.0) (2023-10-14)
-
-
-### Features
-
-* admin list premium users ([#9489](https://github.com/EddieHubCommunity/BioDrop/issues/9489)) ([000fbbc](https://github.com/EddieHubCommunity/BioDrop/commit/000fbbc92913a63e71fb901464b33dc87669d7a5))
-
-
-
-## [2.72.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.9...v2.72.10) (2023-10-14)
+## [2.80.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.1...v2.80.2) (2023-10-22)
 
 
 ### Bug Fixes
 
-* multiple re-render in profile page ([#9380](https://github.com/EddieHubCommunity/BioDrop/issues/9380)) ([9ef1fbe](https://github.com/EddieHubCommunity/BioDrop/commit/9ef1fbe7ced5b4c9f53c2d3aa84769a8c83712c0))
+* typo in gitpod docs ([#9540](https://github.com/EddieHubCommunity/BioDrop/issues/9540)) ([#9568](https://github.com/EddieHubCommunity/BioDrop/issues/9568)) ([fc086d2](https://github.com/EddieHubCommunity/BioDrop/commit/fc086d277e59cd63ab2b909781df3dda34a15752))
+
+
+
+## [2.80.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.0...v2.80.1) (2023-10-22)
+
+
+### Bug Fixes
+
+* last 30 days views ([#9578](https://github.com/EddieHubCommunity/BioDrop/issues/9578)) ([d3b5ebb](https://github.com/EddieHubCommunity/BioDrop/commit/d3b5ebba089b348326d08c33e0055f51b7838f4e))
+
+
+
+# [2.80.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.1...v2.80.0) (2023-10-22)
+
+
+### Features
+
+* create profile button ([#9574](https://github.com/EddieHubCommunity/BioDrop/issues/9574)) ([ef96775](https://github.com/EddieHubCommunity/BioDrop/commit/ef967759145341cb68eb2059ee66de19f13fbd99))
+
+
+
+## [2.79.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.0...v2.79.1) (2023-10-22)
+
+
+### Bug Fixes
+
+* profile views badge abbreviation ([#9572](https://github.com/EddieHubCommunity/BioDrop/issues/9572)) ([c9069b4](https://github.com/EddieHubCommunity/BioDrop/commit/c9069b43e96112b87ad0e6e389a8dc4c4d2ad647))
 
 
 

@@ -82,16 +82,17 @@ module.exports = async () => {
   await connectMongo();
   let githubData = {};
   const repoUrl = "https://github.com/EddieHubCommunity/BioDrop";
+  let error = "";
   try {
     githubData = await getGitHubRepo(repoUrl);
   } catch (e) {
-    const error = `failed to get data for repo: ${repoUrl}`;
+    error = `failed to get data for repo: ${repoUrl}`;
     logger.error(e, error);
     return { error };
   }
 
   if (githubData.error) {
-    return logger.error(e, error);
+    return logger.error(githubData.error, error);
   }
 
   await Profile.findOneAndUpdate(

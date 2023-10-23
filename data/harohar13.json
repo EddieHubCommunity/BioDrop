@@ -1,0 +1,11 @@
+{
+  "name": "Harohar",
+  "bio": "Software engineer,writer",
+  "links": [
+    {
+      "name": "Follow me on github",
+      "url": "https://github.com/harohar13",
+      "icon": "FaGithub"
+    }
+  ]
+}
