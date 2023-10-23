@@ -46,7 +46,7 @@ export default function UserLink({
         animations[link.animation] !== animations.glow &&
           "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
         isEnabled && getLinkAnimation.get(animations[link.animation]),
-        "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow",
+        "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl pl-16 p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow",
       )}
       style={{
         "--hover-color": colors[link.icon],
