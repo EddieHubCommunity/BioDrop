@@ -1,3 +1,12 @@
+# [2.81.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.3...v2.81.0) (2023-10-23)
+
+
+### Features
+
+* populate basic profile on login ([#9584](https://github.com/EddieHubCommunity/BioDrop/issues/9584)) ([4fc8e7d](https://github.com/EddieHubCommunity/BioDrop/commit/4fc8e7d68cfde2183af285c9fb4d26651982896f))
+
+
+
 ## [2.80.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.2...v2.80.3) (2023-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * create profile button ([#9574](https://github.com/EddieHubCommunity/BioDrop/issues/9574)) ([ef96775](https://github.com/EddieHubCommunity/BioDrop/commit/ef967759145341cb68eb2059ee66de19f13fbd99))
-
-
-
-## [2.79.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.0...v2.79.1) (2023-10-22)
-
-
-### Bug Fixes
-
-* profile views badge abbreviation ([#9572](https://github.com/EddieHubCommunity/BioDrop/issues/9572)) ([c9069b4](https://github.com/EddieHubCommunity/BioDrop/commit/c9069b43e96112b87ad0e6e389a8dc4c4d2ad647))
 
 
 
