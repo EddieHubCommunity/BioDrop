@@ -98,7 +98,7 @@ export default function DocsContribute() {
           Code Reviews
         </h2>
         <p>
-          Code Reviews are another way to contribute as it can help developers understand the codebase, share feedback that helps them increase their coding skills, catch bugs, ensure no point of failure, increase collaboration among team members, etc.
+          Code Reviews are another way to contribute as they help understand the codebase, share feedback that improves coding skills, catches bugs and increases collaboration among the community.
         </p>
       </Page>
     </>
