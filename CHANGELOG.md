@@ -1,3 +1,12 @@
+## [2.81.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.1...v2.81.2) (2023-10-23)
+
+
+### Bug Fixes
+
+* updated app roadmap ([#9588](https://github.com/EddieHubCommunity/BioDrop/issues/9588)) ([2cc0048](https://github.com/EddieHubCommunity/BioDrop/commit/2cc0048e97abf486188bb544de262cb33f19b035))
+
+
+
 ## [2.81.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.0...v2.81.1) (2023-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typo in gitpod docs ([#9540](https://github.com/EddieHubCommunity/BioDrop/issues/9540)) ([#9568](https://github.com/EddieHubCommunity/BioDrop/issues/9568)) ([fc086d2](https://github.com/EddieHubCommunity/BioDrop/commit/fc086d277e59cd63ab2b909781df3dda34a15752))
-
-
-
-## [2.80.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.0...v2.80.1) (2023-10-22)
-
-
-### Bug Fixes
-
-* last 30 days views ([#9578](https://github.com/EddieHubCommunity/BioDrop/issues/9578)) ([d3b5ebb](https://github.com/EddieHubCommunity/BioDrop/commit/d3b5ebba089b348326d08c33e0055f51b7838f4e))
 
 
 
