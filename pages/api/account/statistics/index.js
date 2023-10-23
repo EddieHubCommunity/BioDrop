@@ -34,7 +34,7 @@ export async function getStats(username, numberOfDays = 30) {
   const data = {
     profile: {
       total: profileData.views,
-      monthly: profileData.views,
+      monthly: dailyStats.reduce((acc, day) => acc + day.views, 0),
       daily: dailyStats,
       rank: profileData.rank,
     },

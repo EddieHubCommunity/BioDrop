@@ -1,45 +1,45 @@
-# [2.80.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.1...v2.80.0) (2023-10-22)
-
-
-### Features
-
-* create profile button ([#9574](https://github.com/EddieHubCommunity/BioDrop/issues/9574)) ([ef96775](https://github.com/EddieHubCommunity/BioDrop/commit/ef967759145341cb68eb2059ee66de19f13fbd99))
-
-
-
-## [2.79.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.0...v2.79.1) (2023-10-22)
+## [2.81.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.1...v2.81.2) (2023-10-23)
 
 
 ### Bug Fixes
 
-* profile views badge abbreviation ([#9572](https://github.com/EddieHubCommunity/BioDrop/issues/9572)) ([c9069b4](https://github.com/EddieHubCommunity/BioDrop/commit/c9069b43e96112b87ad0e6e389a8dc4c4d2ad647))
+* updated app roadmap ([#9588](https://github.com/EddieHubCommunity/BioDrop/issues/9588)) ([2cc0048](https://github.com/EddieHubCommunity/BioDrop/commit/2cc0048e97abf486188bb544de262cb33f19b035))
 
 
 
-# [2.79.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.78.0...v2.79.0) (2023-10-22)
-
-
-### Features
-
-* public stats reduce space ([#9570](https://github.com/EddieHubCommunity/BioDrop/issues/9570)) ([e31d3d1](https://github.com/EddieHubCommunity/BioDrop/commit/e31d3d130334cf09e1967e7b88fccf0262b039a7))
-
-
-
-# [2.78.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.3...v2.78.0) (2023-10-22)
-
-
-### Features
-
-* admin filter profiles ([#9563](https://github.com/EddieHubCommunity/BioDrop/issues/9563)) ([72fddd0](https://github.com/EddieHubCommunity/BioDrop/commit/72fddd0616ee15d44c34bcaafb45bd07a731ed7e))
-
-
-
-## [2.77.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.77.2...v2.77.3) (2023-10-22)
+## [2.81.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.0...v2.81.1) (2023-10-23)
 
 
 ### Bug Fixes
 
-* events asc order on profile ([#9559](https://github.com/EddieHubCommunity/BioDrop/issues/9559)) ([8bcd140](https://github.com/EddieHubCommunity/BioDrop/commit/8bcd140908b865817ac4d0ebcf49819eb86f72d2))
+* hover links open source roadmap ([#9503](https://github.com/EddieHubCommunity/BioDrop/issues/9503)) ([0b46b32](https://github.com/EddieHubCommunity/BioDrop/commit/0b46b32c4e8e86ca2b38e6d1e140f1b306f745c1))
+
+
+
+# [2.81.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.3...v2.81.0) (2023-10-23)
+
+
+### Features
+
+* populate basic profile on login ([#9584](https://github.com/EddieHubCommunity/BioDrop/issues/9584)) ([4fc8e7d](https://github.com/EddieHubCommunity/BioDrop/commit/4fc8e7d68cfde2183af285c9fb4d26651982896f))
+
+
+
+## [2.80.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.2...v2.80.3) (2023-10-23)
+
+
+### Bug Fixes
+
+* footer text inconsistency ([#9577](https://github.com/EddieHubCommunity/BioDrop/issues/9577)) ([bc898ae](https://github.com/EddieHubCommunity/BioDrop/commit/bc898aee005d3d53ab3586984b6d1582d6c00eb9))
+
+
+
+## [2.80.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.1...v2.80.2) (2023-10-22)
+
+
+### Bug Fixes
+
+* typo in gitpod docs ([#9540](https://github.com/EddieHubCommunity/BioDrop/issues/9540)) ([#9568](https://github.com/EddieHubCommunity/BioDrop/issues/9568)) ([fc086d2](https://github.com/EddieHubCommunity/BioDrop/commit/fc086d277e59cd63ab2b909781df3dda34a15752))
 
 
 
