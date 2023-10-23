@@ -1,3 +1,12 @@
+## [2.81.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.0...v2.81.1) (2023-10-23)
+
+
+### Bug Fixes
+
+* hover links open source roadmap ([#9503](https://github.com/EddieHubCommunity/BioDrop/issues/9503)) ([0b46b32](https://github.com/EddieHubCommunity/BioDrop/commit/0b46b32c4e8e86ca2b38e6d1e140f1b306f745c1))
+
+
+
 # [2.81.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.3...v2.81.0) (2023-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * last 30 days views ([#9578](https://github.com/EddieHubCommunity/BioDrop/issues/9578)) ([d3b5ebb](https://github.com/EddieHubCommunity/BioDrop/commit/d3b5ebba089b348326d08c33e0055f51b7838f4e))
-
-
-
-# [2.80.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.79.1...v2.80.0) (2023-10-22)
-
-
-### Features
-
-* create profile button ([#9574](https://github.com/EddieHubCommunity/BioDrop/issues/9574)) ([ef96775](https://github.com/EddieHubCommunity/BioDrop/commit/ef967759145341cb68eb2059ee66de19f13fbd99))
 
 
 
