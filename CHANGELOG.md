@@ -1,3 +1,39 @@
+## [2.83.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.0...v2.83.1) (2023-10-24)
+
+
+### Bug Fixes
+
+* update assign comment check ([#9603](https://github.com/EddieHubCommunity/BioDrop/issues/9603)) ([b82aeb7](https://github.com/EddieHubCommunity/BioDrop/commit/b82aeb779299df144cb50d0b82832667550ceeae))
+
+
+
+# [2.83.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.2...v2.83.0) (2023-10-24)
+
+
+### Features
+
+* action to update issue comment with status ([#9378](https://github.com/EddieHubCommunity/BioDrop/issues/9378)) ([e8329fd](https://github.com/EddieHubCommunity/BioDrop/commit/e8329fd719ae4e719d163e56a22adae557c0d6cc))
+
+
+
+## [2.82.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.1...v2.82.2) (2023-10-24)
+
+
+### Bug Fixes
+
+* new milestone date  ([#9557](https://github.com/EddieHubCommunity/BioDrop/issues/9557)) ([2fabded](https://github.com/EddieHubCommunity/BioDrop/commit/2fabdedf5e6155b816bfaee1909ceecbad941703)), closes [#9548](https://github.com/EddieHubCommunity/BioDrop/issues/9548)
+
+
+
+## [2.82.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.0...v2.82.1) (2023-10-24)
+
+
+### Bug Fixes
+
+* social icons ordering [#8533](https://github.com/EddieHubCommunity/BioDrop/issues/8533) ([#9558](https://github.com/EddieHubCommunity/BioDrop/issues/9558)) ([fa715d1](https://github.com/EddieHubCommunity/BioDrop/commit/fa715d1ab84cd8ff78cbf4e07e15a1455df16453))
+
+
+
 # [2.82.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.3...v2.82.0) (2023-10-24)
 
 
@@ -9,42 +45,6 @@
 ### Features
 
 * middleware to protect auth and admin pages ([#9527](https://github.com/EddieHubCommunity/BioDrop/issues/9527)) ([a2c7774](https://github.com/EddieHubCommunity/BioDrop/commit/a2c77741f4809154d80cc643f1a355934e6a070f)), closes [#9249](https://github.com/EddieHubCommunity/BioDrop/issues/9249)
-
-
-
-## [2.81.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.2...v2.81.3) (2023-10-24)
-
-
-### Bug Fixes
-
-* edit docs button ([#9555](https://github.com/EddieHubCommunity/BioDrop/issues/9555)) ([9ee0287](https://github.com/EddieHubCommunity/BioDrop/commit/9ee02872c6b7d40de116e0032af8974968bf7f71))
-
-
-
-## [2.81.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.1...v2.81.2) (2023-10-23)
-
-
-### Bug Fixes
-
-* updated app roadmap ([#9588](https://github.com/EddieHubCommunity/BioDrop/issues/9588)) ([2cc0048](https://github.com/EddieHubCommunity/BioDrop/commit/2cc0048e97abf486188bb544de262cb33f19b035))
-
-
-
-## [2.81.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.0...v2.81.1) (2023-10-23)
-
-
-### Bug Fixes
-
-* hover links open source roadmap ([#9503](https://github.com/EddieHubCommunity/BioDrop/issues/9503)) ([0b46b32](https://github.com/EddieHubCommunity/BioDrop/commit/0b46b32c4e8e86ca2b38e6d1e140f1b306f745c1))
-
-
-
-# [2.81.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.3...v2.81.0) (2023-10-23)
-
-
-### Features
-
-* populate basic profile on login ([#9584](https://github.com/EddieHubCommunity/BioDrop/issues/9584)) ([4fc8e7d](https://github.com/EddieHubCommunity/BioDrop/commit/4fc8e7d68cfde2183af285c9fb4d26651982896f))
 
 
 
