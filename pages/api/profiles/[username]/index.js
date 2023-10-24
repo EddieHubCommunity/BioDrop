@@ -114,6 +114,9 @@ export async function getUserApi(req, res, username, options = {}) {
       ),
     socials: getProfile.links
       .filter((link) => link.isPinned)
+      .sort(
+        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE),
+      )
       .map((link) => ({
         _id: link._id,
         url: link.url,
