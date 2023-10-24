@@ -43,7 +43,6 @@ export async function middleware(req) {
 
   const username = session.username;
   // if admin request check user is allowed
-  console.log(username, process.env.ADMIN_USERS, adminRequired);
   if (adminRequired.some((path) => reqPathName.startsWith(path))) {
     if (!adminUsers.includes(username)) {
       if (reqPathName.startsWith("/api")) {
