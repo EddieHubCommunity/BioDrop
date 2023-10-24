@@ -11,11 +11,8 @@ import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
-  if (!session) {
-    res.status(401).json({ message: "You must be logged in." });
-    return;
-  }
   const username = session.username;
+
   if (!["GET", "PUT", "DELETE"].includes(req.method)) {
     return res
       .status(400)
@@ -93,7 +90,7 @@ export async function updateEventApi(context, username, id, updateEvent) {
       "url",
       "date",
       "color",
-      "tags"
+      "tags",
     ]);
   } catch (e) {
     log.error(e, `validation failed to update event for username: ${username}`);
@@ -197,7 +194,7 @@ export async function addEventApi(context, username, addEvent) {
       "url",
       "date",
       "color",
-      "tags"
+      "tags",
     ]);
   } catch (e) {
     log.error(e, `validation failed to add event for username: ${username}`);
