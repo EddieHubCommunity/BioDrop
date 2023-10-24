@@ -1,3 +1,12 @@
+# [2.83.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.2...v2.83.0) (2023-10-24)
+
+
+### Features
+
+* action to update issue comment with status ([#9378](https://github.com/EddieHubCommunity/BioDrop/issues/9378)) ([e8329fd](https://github.com/EddieHubCommunity/BioDrop/commit/e8329fd719ae4e719d163e56a22adae557c0d6cc))
+
+
+
 ## [2.82.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.1...v2.82.2) (2023-10-24)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * edit docs button ([#9555](https://github.com/EddieHubCommunity/BioDrop/issues/9555)) ([9ee0287](https://github.com/EddieHubCommunity/BioDrop/commit/9ee02872c6b7d40de116e0032af8974968bf7f71))
-
-
-
-## [2.81.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.1...v2.81.2) (2023-10-23)
-
-
-### Bug Fixes
-
-* updated app roadmap ([#9588](https://github.com/EddieHubCommunity/BioDrop/issues/9588)) ([2cc0048](https://github.com/EddieHubCommunity/BioDrop/commit/2cc0048e97abf486188bb544de262cb33f19b035))
 
 
 
