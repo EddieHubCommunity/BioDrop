@@ -1,41 +1,92 @@
+import { getToken } from "next-auth/jwt";
 import { NextResponse } from "next/server";
 
 export const config = {
-  matcher: ["/"],
+  matcher: [
+    "/",
+
+    // account management
+    "/account/:path*",
+    "/api/account/:path*",
+
+    // admin section
+    "/admin/:path*",
+    "/api/admin/:path*",
+  ],
 };
 
-// logging
-// no http requests (use db?)
-export async function middleware(request) {
-  const hostname = request.headers.get("host");
+export async function middleware(req) {
+  const hostname = req.headers.get("host");
+  const reqPathName = req.nextUrl.pathname;
+  const sessionRequired = ["/account", "/api/account"];
+  const adminRequired = ["/admin", "/api/admin"];
+  const adminUsers = process.env.ADMIN_USERS.split(",");
 
-  let res;
-  let profile;
-  let url = `${
-    process.env.NEXT_PUBLIC_BASE_URL
-  }/api/search/${encodeURIComponent(hostname)}`;
-  try {
-    res = await fetch(url, {
-      method: "GET",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
-    profile = await res.json();
-  } catch (e) {
-    console.error(url, e);
-    return NextResponse.error(e);
+  // check if custom domain
+  if (reqPathName === "/") {
+    let res;
+    let profile;
+    let url = `${
+      process.env.NEXT_PUBLIC_BASE_URL
+    }/api/search/${encodeURIComponent(hostname)}`;
+    try {
+      res = await fetch(url, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      profile = await res.json();
+    } catch (e) {
+      console.error(url, e);
+      return NextResponse.error(e);
+    }
+
+    if (
+      profile.username &&
+      profile.user.type === "premium" &&
+      profile.settings?.domain &&
+      hostname === profile.settings.domain
+    ) {
+      // if match found rewrite to custom domain and display profile page
+      return NextResponse.rewrite(
+        new URL(`/${profile.username}`, `http://${profile.settings.domain}`),
+      );
+    }
   }
 
+  // if not in sessionRequired or adminRequired, skip
   if (
-    profile.username &&
-    profile.user.type === "premium" &&
-    profile.settings?.domain &&
-    hostname === profile.settings.domain
+    !sessionRequired
+      .concat(adminRequired)
+      .some((path) => reqPathName.startsWith(path))
   ) {
-    // if match found rewrite to custom domain and display profile page
-    return NextResponse.rewrite(
-      new URL(`/${profile.username}`, `https://${profile.settings.domain}`), // TODO: https
-    );
+    return NextResponse.next();
   }
+
+  const session = await getToken({
+    req: req,
+    secret: process.env.NEXTAUTH_SECRET,
+  });
+
+  // if no session reject request
+  if (!session) {
+    if (reqPathName.startsWith("/api")) {
+      return NextResponse.json({}, { status: 401 });
+    }
+    return NextResponse.redirect(new URL("/auth/signin", req.url));
+  }
+
+  const username = session.username;
+  // if admin request check user is allowed
+  if (adminRequired.some((path) => reqPathName.startsWith(path))) {
+    if (!adminUsers.includes(username)) {
+      if (reqPathName.startsWith("/api")) {
+        return NextResponse.json({}, { status: 401 });
+      }
+      return NextResponse.redirect(new URL("/404", req.url));
+    }
+  }
+
+  return NextResponse.next();
 }

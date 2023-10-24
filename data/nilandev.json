@@ -1,0 +1,34 @@
+{
+  "name": "Nilanchala",
+  "bio": "Solution architect. 15 years of product development experience in Java, Spring, SpringBoot, SOA, Microservices & Cloud.",
+  "tags": [
+    "Open Source",
+    "Java",
+    "Spring",
+    "Spring Boot",
+    "Python",
+    "Django"    
+  ],
+   "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/asknilan"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nilandev"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/TheTechMojo"
+    }
+  ],
+  
+  "links": [   
+    {
+      "name": "Check out my website",
+      "url": "https://stacktips.com",
+      "icon": "FaGlobe"
+    }
+  ]
+}

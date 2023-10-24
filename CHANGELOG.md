@@ -1,45 +1,45 @@
-## [2.72.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.0...v2.72.1) (2023-10-10)
+## [2.83.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.1...v2.83.2) (2023-10-24)
 
 
 ### Bug Fixes
 
-* latest features added to changelog ([#9439](https://github.com/EddieHubCommunity/BioDrop/issues/9439)) ([df0adc4](https://github.com/EddieHubCommunity/BioDrop/commit/df0adc44b80b366180c109b54fa9e41cacaedc7f))
+* trying to debug assigned issues ([#9609](https://github.com/EddieHubCommunity/BioDrop/issues/9609)) ([3f6fe4d](https://github.com/EddieHubCommunity/BioDrop/commit/3f6fe4dee34c88341b3a0063358dc749ce4e766f))
 
 
 
-# [2.72.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.71.0...v2.72.0) (2023-10-10)
+## [2.83.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.0...v2.83.1) (2023-10-24)
+
+
+### Bug Fixes
+
+* update assign comment check ([#9603](https://github.com/EddieHubCommunity/BioDrop/issues/9603)) ([b82aeb7](https://github.com/EddieHubCommunity/BioDrop/commit/b82aeb779299df144cb50d0b82832667550ceeae))
+
+
+
+# [2.83.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.2...v2.83.0) (2023-10-24)
 
 
 ### Features
 
-* display pronoun ([#9438](https://github.com/EddieHubCommunity/BioDrop/issues/9438)) ([c4d8fd6](https://github.com/EddieHubCommunity/BioDrop/commit/c4d8fd63e1c998586ba8b973a3bc59648bb538a9))
+* action to update issue comment with status ([#9378](https://github.com/EddieHubCommunity/BioDrop/issues/9378)) ([e8329fd](https://github.com/EddieHubCommunity/BioDrop/commit/e8329fd719ae4e719d163e56a22adae557c0d6cc))
 
 
 
-# [2.71.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.2...v2.71.0) (2023-10-10)
-
-
-### Features
-
-* pronoun field for profile ([#9396](https://github.com/EddieHubCommunity/BioDrop/issues/9396)) ([d55494f](https://github.com/EddieHubCommunity/BioDrop/commit/d55494f7be754e1ae3fbd03726e32085aa6dc450)), closes [#8618](https://github.com/EddieHubCommunity/BioDrop/issues/8618)
-
-
-
-## [2.70.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.1...v2.70.2) (2023-10-09)
+## [2.82.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.1...v2.82.2) (2023-10-24)
 
 
 ### Bug Fixes
 
-* improvement to docs ([#9426](https://github.com/EddieHubCommunity/BioDrop/issues/9426)) ([4f775a4](https://github.com/EddieHubCommunity/BioDrop/commit/4f775a4bb2adf68a2a97c50a07ad06dd0c20cc02))
+* new milestone date  ([#9557](https://github.com/EddieHubCommunity/BioDrop/issues/9557)) ([2fabded](https://github.com/EddieHubCommunity/BioDrop/commit/2fabdedf5e6155b816bfaee1909ceecbad941703)), closes [#9548](https://github.com/EddieHubCommunity/BioDrop/issues/9548)
 
 
 
-## [2.70.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.70.0...v2.70.1) (2023-10-09)
+## [2.82.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.0...v2.82.1) (2023-10-24)
 
 
 ### Bug Fixes
 
-* url display in referrers page ([#9424](https://github.com/EddieHubCommunity/BioDrop/issues/9424)) ([2adcef2](https://github.com/EddieHubCommunity/BioDrop/commit/2adcef2b99dac9fd082c95e70cd547bf8a4781f7))
+* social icons ordering [#8533](https://github.com/EddieHubCommunity/BioDrop/issues/8533) ([#9558](https://github.com/EddieHubCommunity/BioDrop/issues/9558)) ([fa715d1](https://github.com/EddieHubCommunity/BioDrop/commit/fa715d1ab84cd8ff78cbf4e07e15a1455df16453))
 
 
 

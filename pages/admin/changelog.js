@@ -1,44 +1,20 @@
-import { authOptions } from "../api/auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
-
 import logger from "@config/logger";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 
-import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import { PROJECT_NAME } from "@constants/index";
 import { getChangelogs } from "pages/api/admin/changelog";
 import dateFormat from "@services/utils/dateFormat";
+import Button from "@components/Button";
 
 export async function getServerSideProps(context) {
-  const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
-  const username = session.username;
-
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return {
-      redirect: {
-        destination: "/404",
-        permanent: false,
-      },
-    };
-  }
-
-  let data = {};
+  let data = [];
+  const { filter } = context.query;
   try {
-    data = await getChangelogs(username);
+    data = await getChangelogs(filter);
   } catch (e) {
-    logger.error(e, "server stats failed");
+    logger.error(e, "get changelog failed");
   }
 
   return {
@@ -58,6 +34,13 @@ export default function Statistics({ data }) {
       <Page>
         <Navigation />
         <h1 className="text-4xl mb-4 font-bold">Changelog</h1>
+
+        <div className="flex gap-4">
+          <Button href="/admin/changelog?filter=recently updated">
+            By Recent
+          </Button>
+          <Button href="/admin/changelog?filter=user">User</Button>
+        </div>
 
         <table className="min-w-full divide-y divide-gray-300">
           <thead>

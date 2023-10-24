@@ -93,7 +93,7 @@ export default function DocsIndex() {
       },
       icon: ArrowUpRightIcon,
       comment:
-        "It doesn't stop there! You can review other people's changes and become a maintainer.",
+        "It doesn't stop there! You can become a maintainer.",
     },
     // {
     //   id: 2,
@@ -167,12 +167,9 @@ export default function DocsIndex() {
                             <div className="min-w-0 flex-1">
                               <div>
                                 <div className="text-sm">
-                                  <a
-                                    href={roadmapItem.action.href}
-                                    className="font-medium text-primary-high dark:text-primary-low"
-                                  >
+                                  <Link href={roadmapItem.action.href}>
                                     {roadmapItem.action.name}
-                                  </a>
+                                  </Link>
                                 </div>
                                 <p className="mt-0.5 text-sm text-primary-high dark:text-primary-low">
                                   Step {roadmapItemIdx + 1}
