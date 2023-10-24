@@ -1,3 +1,12 @@
+## [2.82.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.0...v2.82.1) (2023-10-24)
+
+
+### Bug Fixes
+
+* social icons ordering [#8533](https://github.com/EddieHubCommunity/BioDrop/issues/8533) ([#9558](https://github.com/EddieHubCommunity/BioDrop/issues/9558)) ([fa715d1](https://github.com/EddieHubCommunity/BioDrop/commit/fa715d1ab84cd8ff78cbf4e07e15a1455df16453))
+
+
+
 # [2.82.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.3...v2.82.0) (2023-10-24)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * hover links open source roadmap ([#9503](https://github.com/EddieHubCommunity/BioDrop/issues/9503)) ([0b46b32](https://github.com/EddieHubCommunity/BioDrop/commit/0b46b32c4e8e86ca2b38e6d1e140f1b306f745c1))
-
-
-
-# [2.81.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.3...v2.81.0) (2023-10-23)
-
-
-### Features
-
-* populate basic profile on login ([#9584](https://github.com/EddieHubCommunity/BioDrop/issues/9584)) ([4fc8e7d](https://github.com/EddieHubCommunity/BioDrop/commit/4fc8e7d68cfde2183af285c9fb4d26651982896f))
 
 
 
