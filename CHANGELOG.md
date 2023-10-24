@@ -1,3 +1,12 @@
+## [2.82.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.1...v2.82.2) (2023-10-24)
+
+
+### Bug Fixes
+
+* new milestone date  ([#9557](https://github.com/EddieHubCommunity/BioDrop/issues/9557)) ([2fabded](https://github.com/EddieHubCommunity/BioDrop/commit/2fabdedf5e6155b816bfaee1909ceecbad941703)), closes [#9548](https://github.com/EddieHubCommunity/BioDrop/issues/9548)
+
+
+
 ## [2.82.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.0...v2.82.1) (2023-10-24)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * updated app roadmap ([#9588](https://github.com/EddieHubCommunity/BioDrop/issues/9588)) ([2cc0048](https://github.com/EddieHubCommunity/BioDrop/commit/2cc0048e97abf486188bb544de262cb33f19b035))
-
-
-
-## [2.81.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.0...v2.81.1) (2023-10-23)
-
-
-### Bug Fixes
-
-* hover links open source roadmap ([#9503](https://github.com/EddieHubCommunity/BioDrop/issues/9503)) ([0b46b32](https://github.com/EddieHubCommunity/BioDrop/commit/0b46b32c4e8e86ca2b38e6d1e140f1b306f745c1))
 
 
 
