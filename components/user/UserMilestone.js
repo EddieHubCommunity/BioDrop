@@ -19,7 +19,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
       });
       setDate(formattedDate);
     }
-  }, [milestone, milestone.dateFormat]);
+  }, [milestone.date, milestone.dateFormat]);
 
   const DisplayIcon = getIcon(milestone.icon);
   const item = (milestone, isGoal) => {
