@@ -12,7 +12,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
-    if(milestone.date) {
+    if (milestone.date) {
       const formattedDate = shortenDate({
         date: milestone.date,
         formatStyle: milestone.dateFormat,
