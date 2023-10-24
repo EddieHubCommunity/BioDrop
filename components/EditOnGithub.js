@@ -16,7 +16,6 @@ export default function EditOnGitHub() {
       ? `${asPath}/index.js`
       : `${asPath}.mdx`
   }`;
-  }`;
 
   return (
     <li>
