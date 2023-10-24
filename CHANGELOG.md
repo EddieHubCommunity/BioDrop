@@ -1,3 +1,12 @@
+## [2.83.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.1...v2.83.2) (2023-10-24)
+
+
+### Bug Fixes
+
+* trying to debug assigned issues ([#9609](https://github.com/EddieHubCommunity/BioDrop/issues/9609)) ([3f6fe4d](https://github.com/EddieHubCommunity/BioDrop/commit/3f6fe4dee34c88341b3a0063358dc749ce4e766f))
+
+
+
 ## [2.83.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.0...v2.83.1) (2023-10-24)
 
 
@@ -31,20 +40,6 @@
 ### Bug Fixes
 
 * social icons ordering [#8533](https://github.com/EddieHubCommunity/BioDrop/issues/8533) ([#9558](https://github.com/EddieHubCommunity/BioDrop/issues/9558)) ([fa715d1](https://github.com/EddieHubCommunity/BioDrop/commit/fa715d1ab84cd8ff78cbf4e07e15a1455df16453))
-
-
-
-# [2.82.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.3...v2.82.0) (2023-10-24)
-
-
-### Bug Fixes
-
-* mongo docs minimum version ([#9595](https://github.com/EddieHubCommunity/BioDrop/issues/9595)) ([fdf7568](https://github.com/EddieHubCommunity/BioDrop/commit/fdf756849dc0ae302d34d667c11980c05d5790df))
-
-
-### Features
-
-* middleware to protect auth and admin pages ([#9527](https://github.com/EddieHubCommunity/BioDrop/issues/9527)) ([a2c7774](https://github.com/EddieHubCommunity/BioDrop/commit/a2c77741f4809154d80cc643f1a355934e6a070f)), closes [#9249](https://github.com/EddieHubCommunity/BioDrop/issues/9249)
 
 
 
