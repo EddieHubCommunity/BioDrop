@@ -1,3 +1,12 @@
+## [2.83.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.0...v2.83.1) (2023-10-24)
+
+
+### Bug Fixes
+
+* update assign comment check ([#9603](https://github.com/EddieHubCommunity/BioDrop/issues/9603)) ([b82aeb7](https://github.com/EddieHubCommunity/BioDrop/commit/b82aeb779299df144cb50d0b82832667550ceeae))
+
+
+
 # [2.83.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.2...v2.83.0) (2023-10-24)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * middleware to protect auth and admin pages ([#9527](https://github.com/EddieHubCommunity/BioDrop/issues/9527)) ([a2c7774](https://github.com/EddieHubCommunity/BioDrop/commit/a2c77741f4809154d80cc643f1a355934e6a070f)), closes [#9249](https://github.com/EddieHubCommunity/BioDrop/issues/9249)
-
-
-
-## [2.81.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.2...v2.81.3) (2023-10-24)
-
-
-### Bug Fixes
-
-* edit docs button ([#9555](https://github.com/EddieHubCommunity/BioDrop/issues/9555)) ([9ee0287](https://github.com/EddieHubCommunity/BioDrop/commit/9ee02872c6b7d40de116e0032af8974968bf7f71))
 
 
 
