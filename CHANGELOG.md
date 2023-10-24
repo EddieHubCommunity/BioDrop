@@ -1,3 +1,12 @@
+## [2.81.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.2...v2.81.3) (2023-10-24)
+
+
+### Bug Fixes
+
+* edit docs button ([#9555](https://github.com/EddieHubCommunity/BioDrop/issues/9555)) ([9ee0287](https://github.com/EddieHubCommunity/BioDrop/commit/9ee02872c6b7d40de116e0032af8974968bf7f71))
+
+
+
 ## [2.81.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.1...v2.81.2) (2023-10-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * footer text inconsistency ([#9577](https://github.com/EddieHubCommunity/BioDrop/issues/9577)) ([bc898ae](https://github.com/EddieHubCommunity/BioDrop/commit/bc898aee005d3d53ab3586984b6d1582d6c00eb9))
-
-
-
-## [2.80.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.1...v2.80.2) (2023-10-22)
-
-
-### Bug Fixes
-
-* typo in gitpod docs ([#9540](https://github.com/EddieHubCommunity/BioDrop/issues/9540)) ([#9568](https://github.com/EddieHubCommunity/BioDrop/issues/9568)) ([fc086d2](https://github.com/EddieHubCommunity/BioDrop/commit/fc086d277e59cd63ab2b909781df3dda34a15752))
 
 
 
