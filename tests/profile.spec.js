@@ -69,8 +69,21 @@ test("Profile views increase", async ({ page }) => {
   expect(startingViews.views).toEqual(endingViews.views - 3);
 });
 
-test.fixme("Link clicks increase", async () => {
-  // will need DB integration
+test("Link clicks increase", async ({page}) => {
+  await connectMongo();
+  await page.goto("/eddiejaoude");
+  
+  const startingLink = await Link.findOne({  url: "https://twitter.com/eddiejaoude" })
+
+  const previousClickCount = startingLink.clicks; 
+  
+  const profileLink = page.locator('a').filter({ hasText: 'Twitter: Follow me' })
+
+  await profileLink.click();
+  await page.waitForTimeout(1000);
+  const currentLink = await Link.findOne({ url: "https://twitter.com/eddiejaoude" })
+
+  expect(currentLink.clicks).toEqual((previousClickCount + 1));
 });
 
 test("Profile not found redirects to search page with error message", async ({
@@ -154,22 +167,4 @@ test.describe("accessibility tests (dark)", () => {
       .analyze();
     expect(accessibilityScanResults.violations).toEqual([]);
   });
-});
-
-test("Link clicks increase", async ({page}) => {
-  await connectMongo();
-  await page.goto("/eddiejaoude");
-  
-  const startingLink = await Link.findOne({  url: "https://twitter.com/eddiejaoude" })
-
-  const previousClickCount = startingLink.clicks; 
-  console.log("previousClickCount", previousClickCount)
-
-  const profileLink = page.locator('a').filter({ hasText: 'Twitter: Follow me' })
-
-  await profileLink.click();
-  await page.waitForTimeout(1000);
-  const currentLink = await Link.findOne({ url: "https://twitter.com/eddiejaoude" })
-
-  expect(currentLink.clicks).toEqual((previousClickCount + 1));
 });
