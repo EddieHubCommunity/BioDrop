@@ -29,7 +29,7 @@ jobs:
           COMMENT_AUTHOR=$(jq -r .comment.user.login "$GITHUB_EVENT_PATH")
           CURRENT_COMMENT=$(jq -r .comment.body "$GITHUB_EVENT_PATH")
           ISSUE_URL="https://github.com/$GITHUB_REPOSITORY/issues?q=is%3Aopen+is%3Aissue+assignee%3A$COMMENT_AUTHOR"
-          MESSAGE="$CURRENT_COMMENT\n\n🔴 **$COMMENT_AUTHOR** already has some assigned issues to address. 🔧[View assigned issues]($ISSUE_URL)"
+          MESSAGE="$CURRENT_COMMENT\n\nℹ️ **$COMMENT_AUTHOR** has some opened assigned issues: 🔧[View assigned issues]($ISSUE_URL)"
           echo "Updating comment with message: $MESSAGE"
           curl -L \
             -X PATCH \
