@@ -1,7 +1,5 @@
 {
   "name": "Akshat Jangid",
-  "displayStatsPublic":true,
-  "type":"personal",
   "bio": "**MERN Stack** Developer | **JavaScript** Enthusiast | Problem Solver| Tech Explorer",
   "tags":["Open source","Javascript","Reactjs","Nextjs","Web Development","Travel","c++","Problem Solver"],
   "links": [
@@ -11,7 +9,7 @@
       "icon": "SiTwitter"
     },
     {
-      "name": "Checkout my Open source journy",
+      "name": "Checkout my Open source journey",
       "url": "https://github.com/Akshat171",
       "icon": "FaGithub"
     },
@@ -21,7 +19,7 @@
       "icon": "SiLinkedin"
     },
     {
-      "name": "Problem Solving on Leetcode",
+      "name": "Problem-Solving on Leetcode",
       "url": "https://leetcode.com/akshatjangir1710/",
       "icon": "SiLeetcode"
     },
