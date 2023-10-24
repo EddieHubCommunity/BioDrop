@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - feat-sentry-wizard
+      - feat-middleware
 
 jobs:
   deploy:
