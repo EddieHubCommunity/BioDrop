@@ -1,3 +1,17 @@
+# [2.82.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.3...v2.82.0) (2023-10-24)
+
+
+### Bug Fixes
+
+* mongo docs minimum version ([#9595](https://github.com/EddieHubCommunity/BioDrop/issues/9595)) ([fdf7568](https://github.com/EddieHubCommunity/BioDrop/commit/fdf756849dc0ae302d34d667c11980c05d5790df))
+
+
+### Features
+
+* middleware to protect auth and admin pages ([#9527](https://github.com/EddieHubCommunity/BioDrop/issues/9527)) ([a2c7774](https://github.com/EddieHubCommunity/BioDrop/commit/a2c77741f4809154d80cc643f1a355934e6a070f)), closes [#9249](https://github.com/EddieHubCommunity/BioDrop/issues/9249)
+
+
+
 ## [2.81.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.81.2...v2.81.3) (2023-10-24)
 
 
@@ -31,15 +45,6 @@
 ### Features
 
 * populate basic profile on login ([#9584](https://github.com/EddieHubCommunity/BioDrop/issues/9584)) ([4fc8e7d](https://github.com/EddieHubCommunity/BioDrop/commit/4fc8e7d68cfde2183af285c9fb4d26651982896f))
-
-
-
-## [2.80.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.80.2...v2.80.3) (2023-10-23)
-
-
-### Bug Fixes
-
-* footer text inconsistency ([#9577](https://github.com/EddieHubCommunity/BioDrop/issues/9577)) ([bc898ae](https://github.com/EddieHubCommunity/BioDrop/commit/bc898aee005d3d53ab3586984b6d1582d6c00eb9))
 
 
 
