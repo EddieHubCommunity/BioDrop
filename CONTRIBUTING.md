@@ -44,7 +44,7 @@ We welcome everyone to review Pull Requests, it is a great way to learn, network
 
 ### DOs
 
-- be kind and respectful, we use inclusive, gender neutral language (for example `they/them` instead of `guy/man`)
+- be kind and respectful, we use inclusive, gender-neutral language (for example `they/them` instead of `guy/man`)
 - use inline comments to explain your suggestions
 - use inline suggestions to propose changes
 
