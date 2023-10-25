@@ -1,20 +1,34 @@
 name: 💡 General Feature Request
-description: Have a new idea/feature for BioDrop? Please suggest!
+description: Have a new idea/feature for BioDrop? Let us know...
 title: "[FEATURE] <description>"
 labels: ["⭐ goal: addition", "🚦 status: awaiting triage"]
 body:
+  - type: checkboxes
+    id: duplicates
+    attributes:
+      label: Is this a unique feature?
+      description: Increase the chances of your issue being accepted by making sure it has not been raised before.
+      options:
+        - label: I have checked "open" AND "closed" issues and this is not a duplicate
+          required: true
+  - type: textarea
+    attributes:
+      label: Is your feature request related to a problem/unavailable functionality? Please describe.
+      description: A clear and concise description of what the problem is (for example "I'm always frustrated when [...]").
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
-      label: Description
-      description: A brief description of the enhancement you propose, also include what you tried and what worked.
+      label: Proposed Solution
+      description: A clear description of the enhancement you propose. Please include relevant information and resources (for example another project's implementation of this feature).
     validations:
       required: true
   - type: textarea
     id: screenshots
     attributes:
       label: Screenshots
-      description: Please add screenshots if applicable
+      description: Please add screenshots of the before and/or after the proposed changes.
     validations:
       required: false
   - type: dropdown
@@ -23,19 +37,19 @@ body:
       label: Do you want to work on this issue?
       multiple: false
       options:
-        - "Yes"
         - "No"
+        - "Yes"
+      default: 0
     validations:
       required: false
   - type: textarea
     id: extrainfo
     attributes:
-      label: Additional information
-      description: Is there anything else we should know about this idea?
+      label: If you want to work on this issue...
+      description: Please explain how you would technically implement this feature (for example reference any existing code)
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
         You can also join our Discord community [here](http://discord.eddiehub.org)
-        Feel free to check out other cool repositories of the EddieHub Community [here](https://github.com/EddieHubCommunity)

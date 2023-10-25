@@ -1,0 +1,21 @@
+{
+    "name": "Idiris Omer",
+    "bio": "Aspiring Javascript Developer. Outdoor Enthusiast & Casual Strength Enjoyer",
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/Idiris_codes",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "Follow me on LinkedIn",
+            "url": "https://www.linkedin.com/in/idiris-omer",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Follow me on Github",
+            "url": "https://github.com/Faopaw",
+            "icon": "FaGithub"
+        }
+    ]
+}

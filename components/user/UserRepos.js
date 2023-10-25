@@ -3,6 +3,8 @@ import Link from "@components/Link";
 import Delete from "@components/account/manage/Delete";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import StarIcon from "@heroicons/react/20/solid/StarIcon";
+import PencilIcon from "@heroicons/react/20/solid/PencilIcon";
+import ExclamationCircleIcon from "@heroicons/react/20/solid/ExclamationCircleIcon";
 import dateFormat from "@services/utils/dateFormat";
 
 export default function UserRepos({ manage = false, confirmDelete, repos }) {
@@ -29,16 +31,35 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
           <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low">
             {repo.description}
           </p>
+          {repo.usernames && (
+            <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
+              Added by {repo.usernames.join(", ")}
+            </p>
+          )}
         </div>
       </div>
       <div className="flex items-center gap-x-4">
-        <div className="hidden sm:flex sm:flex-col sm:items-end">
+        <div className="hidden sm:flex sm:flex-col sm:items-end gap-2">
           <p className="inline-flex gap-2 p-3 items-center content-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">
             <StarIcon
               className="h-4 w-4 flex-none text-primary-low-medium "
               aria-hidden="true"
             />
             {repo.stats.stars}
+          </p>
+          <p className="inline-flex gap-2 p-3 items-center content-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-blue-800 ring-1 ring-inset ring-blue-600/20">
+            <PencilIcon
+              className="h-4 w-4 flex-none text-primary-low-medium"
+              aria-hidden="true"
+            />
+            {repo.stats.forks}
+          </p>
+          <p className="inline-flex gap-2 p-3 items-center content-center rounded-md bg-blue-50 px-2 py-1 text-xs font-medium text-red-800 ring-1 ring-inset ring-red-600/20">
+            <ExclamationCircleIcon
+              className="h-4 w-4 flex-none text-primary-low-medium"
+              aria-hidden="true"
+            />
+            {repo.stats.issues}
           </p>
         </div>
         <ChevronRightIcon

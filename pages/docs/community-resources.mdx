@@ -49,34 +49,36 @@ YouTube (or blog)
 
 ## Contributions
 
-<table>
-  <thead>
-    <tr>
-      <th>CONTRIBUTOR</th>
-      <th>CONTRIBUTION</th>
-      <th>DATE (YYYY/MM/DD)</th>
-      <th>RESOURCE LINK (PR, Blog, Video)</th>
-    </tr>
-  </thead>
-  <tbody>
-    {data.map((item, index) => {
-      return (
-        <tr key={item.username + item.name + index}>
-          <td>
-            <a href={`https://github.com/${item.username}`}>{item.name}</a>
-          </td>
-          <td>{item.contribution}</td>
-          <td>{item.date}</td>
-          <td>
-            <a href={item.resource.url}>
-              {item.resource.name ? item.resource.name : item.resource.url}
-            </a>
-          </td>
-        </tr>
-      );
-    })}
-  </tbody>
-</table>
+<div className="w-full overflow-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>CONTRIBUTOR</th>
+        <th>CONTRIBUTION</th>
+        <th>DATE (YYYY/MM/DD)</th>
+        <th>RESOURCE LINK (PR, Blog, Video)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {data.map((item, index) => {
+        return (
+          <tr key={item.username + item.name + index}>
+            <td>
+              <a href={`https://github.com/${item.username}`}>{item.name}</a>
+            </td>
+            <td>{item.contribution}</td>
+            <td>{item.date}</td>
+            <td>
+              <a href={item.resource.url}>
+                {item.resource.name ? item.resource.name : item.resource.url}
+              </a>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
 
 export default ({ children }) => {
   data.sort((a, b) => new Date(b.date) - new Date(a.date));

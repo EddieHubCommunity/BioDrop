@@ -18,7 +18,7 @@ function formatDate(value) {
   });
 }
 
-export default function StatsChart({ data }) {
+export default function StatsChart({ data, dataKey = "views" }) {
   return (
     <div className="w-full h-80">
       <ResponsiveContainer height="100%">
@@ -32,7 +32,7 @@ export default function StatsChart({ data }) {
               color: "black",
             }}
           />
-          <Bar dataKey="views" fill="#38a1ad" />
+          <Bar dataKey={dataKey} fill="#38a1ad" />
         </BarChart>
       </ResponsiveContainer>
     </div>

@@ -1,8 +1,7 @@
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 
-import { Profile, Stats } from "@models/index"
-
+import { Profile, Stats } from "@models/index";
 
 export default async function handler(req, res) {
   if (req.method != "GET") {
@@ -20,13 +19,15 @@ export async function getTotalStats() {
 
   let totalStats = [];
   try {
-    totalStats = await Stats.aggregate([{
-      $group: {
-        _id: null,
-        totalViews:  { $sum: "$views" },
-        totalClicks: { $sum: "$clicks" },
-      }
-    }]);
+    totalStats = await Stats.aggregate([
+      {
+        $group: {
+          _id: null,
+          totalViews: { $sum: "$views" },
+          totalClicks: { $sum: "$clicks" },
+        },
+      },
+    ]);
   } catch (e) {
     logger.error(e, "failed to load stats");
   }

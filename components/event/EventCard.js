@@ -1,5 +1,9 @@
 import { useEffect, useState } from "react";
-import { FaMicrophoneLines, FaMapPin, FaUpRightFromSquare } from "react-icons/fa6";
+import {
+  FaMicrophoneLines,
+  FaMapPin,
+  FaUpRightFromSquare,
+} from "react-icons/fa6";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -12,6 +16,7 @@ import FallbackImage from "@components/FallbackImage";
 import Edit from "@components/account/manage/Edit";
 import dateFormat from "@services/utils/dateFormat";
 import Markdown from "@components/Markdown";
+import TagSimple from "@components/tag/TagSimple";
 
 export default function EventCard({ manage, event, usernames }) {
   const fallbackImageSize = 60;
@@ -22,10 +27,10 @@ export default function EventCard({ manage, event, usernames }) {
   useEffect(() => {
     try {
       setStartTime(
-        dateFormat({ locale: "local", format: "long", date: event.date.start })
+        dateFormat({ locale: "local", format: "long", date: event.date.start }),
       );
       setEndTime(
-        dateFormat({ locale: "local", format: "long", date: event.date.end })
+        dateFormat({ locale: "local", format: "long", date: event.date.end }),
       );
     } catch (e) {
       setStartTime(event.date.start);
@@ -48,7 +53,7 @@ export default function EventCard({ manage, event, usernames }) {
           {event.price?.startingFrom > 0 && <TbCoin title="Paid event" />}
           {event.price?.startingFrom === 0 && <TbCoinOff title="Free event" />}
         </div>
-        <div className="flex-1 space-y-1 p-4">
+        <div className="flex-1 space-y-1 px-4">
           <div className="flex items-center justify-between">
             <div>
               <div className="flex justify-between">
@@ -86,27 +91,8 @@ export default function EventCard({ manage, event, usernames }) {
               <Markdown className="text-sm text-primary-medium dark:text-primary-low-medium py-1 flex-wrap">
                 {event.description}
               </Markdown>
-              <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
-                <div className="flex gap-2 flex-wrap">
-                  {(event.isVirtual ||
-                    (event.isInPerson && event.location)) && <FaMapPin />}
-                  <span>
-                    {event.isVirtual && "Remote"}
-                    {event.isVirtual &&
-                      event.isInPerson &&
-                      event.location &&
-                      " AND in "}
-                    {event.isInPerson &&
-                      event.location &&
-                      Object.values(event.location).join(", ")}
-                  </span>
-                </div>
-                {event.price?.startingFrom > 0 && (
-                  <div>${event.price?.startingFrom}</div>
-                )}
-              </div>
             </div>
-            <div className="isolate flex -space-x-1 ">
+            <div className="isolate flex space-x-1">
               {usernames &&
                 usernames.map((username) => {
                   return (
@@ -129,8 +115,48 @@ export default function EventCard({ manage, event, usernames }) {
                 })}
             </div>
           </div>
+          <div className="flex justify-between">
+            <div className="text-sm text-primary-high dark:text-primary-low-medium py-1 flex justify-between">
+              <div className="flex gap-2 flex-wrap">
+                {(event.isVirtual || (event.isInPerson && event.location)) && (
+                  <FaMapPin />
+                )}
+                <span>
+                  {event.isVirtual && "Remote"}
+                  {event.isVirtual &&
+                    event.isInPerson &&
+                    event.location &&
+                    " AND in "}
+                  {event.isInPerson &&
+                    event.location &&
+                    Object.values(event.location).join(", ")}
+                </span>
+              </div>
+            </div>
+            {event.price?.startingFrom > 0 ? (
+              <div className="flex justify-end items-center">
+                <div>${event.price?.startingFrom}</div>
+              </div>
+            ) : (
+              <div className="flex justify-end items-center">
+                <div>Free</div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
+      {event.tags?.length > 0 && (
+        <div className="flex flex-wrap justify-center gap-2">
+          {event.tags.map((tag, index) => {
+            const trimmedTag = tag.trim();
+            if (!trimmedTag) {
+              return null;
+            }
+
+            return <TagSimple name={trimmedTag} key={index} />;
+          })}
+        </div>
+      )}
     </div>
   );
 

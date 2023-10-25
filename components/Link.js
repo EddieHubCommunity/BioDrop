@@ -3,7 +3,6 @@ import NextLink from "next/link";
 export default function Link({ children, className, rel, ...restProps }) {
   return (
     <NextLink
-      aria-label={children}
       rel={rel ? rel : "noreferrer"}
       className={
         className

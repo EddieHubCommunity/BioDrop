@@ -8,7 +8,6 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { getEvents } from "../api/admin/events";
 
-import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
@@ -17,26 +16,7 @@ import Bulb from "@components/Bulb";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
-
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return {
-      redirect: {
-        destination: "/404",
-        permanent: false,
-      },
-    };
-  }
 
   let events = [];
   try {
@@ -85,7 +65,7 @@ export default function Events({ events }) {
     }
 
     setEventList(
-      eventList.map((event) => (event._id === _id ? updatedEvent : event))
+      eventList.map((event) => (event._id === _id ? updatedEvent : event)),
     );
 
     return setShowNotification({

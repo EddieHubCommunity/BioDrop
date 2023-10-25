@@ -14,7 +14,6 @@ import Modal from "@components/Modal";
 import ClipboardCopy from "@components/ClipboardCopy";
 import { socials } from "@config/socials";
 import Markdown from "@components/Markdown";
-import BasicCards from "@components/statistics/BasicCards";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -28,7 +27,7 @@ function UserProfile({ BASE_URL, data }) {
   //qrRef.current is pointing to the DOM node and firstChild to its canvas
   const downloadQR = () =>
     qrRef.current.firstChild.toBlob((blob) =>
-      saveAs(blob, `biodrop-${data.username}.png`)
+      saveAs(blob, `biodrop-${data.username}.png`),
     );
 
   return (
@@ -52,7 +51,9 @@ function UserProfile({ BASE_URL, data }) {
         </Badge>
 
         <div className="flex flex-col self-center gap-3">
-          <h1 className="flex text-3xl font-bold gap-1">{data.name}</h1>
+          <h1 className="flex text-3xl font-bold gap-1">
+            {data.name} {data.pronoun && `(${data.pronoun})`}
+          </h1>
           <div className="flex md:w-full gap-2 mx-auto text-xl">
             {data.socials?.map((social) => (
               <UserSocial
@@ -69,7 +70,7 @@ function UserProfile({ BASE_URL, data }) {
         <Markdown>{data.bio}</Markdown>
       </div>
       {!qrShow && (
-        <div className="flex flex-wrap justify-center">
+        <div className="hidden md:flex flex-wrap justify-center">
           {data.accountType === "premium" && (
             <Tag
               name="Premium"
@@ -107,25 +108,6 @@ function UserProfile({ BASE_URL, data }) {
         Premium user badge. You can get this badge by upgrading to Premium.
       </Modal>
 
-      {data.isStatsPublic && (
-        <BasicCards
-          data={[
-            {
-              name: "Rank",
-              current: data.profileStats?.profile?.rank,
-            },
-            {
-              name: "Total Profile Views",
-              current: data.profileStats?.profile?.total || 0,
-            },
-            {
-              name: "Profile Views on last 30 days",
-              current: data.profileStats?.profile?.monthly || 0,
-            },
-          ]}
-        />
-      )}
-
       {/* Passed Ref object as the ref attribute to the JSX of the DOM node of QR */}
       <Modal show={qrShow} setShow={setQrShow} modalStyles="w-fit m-auto">
         <div className="flex flex-col items-center justify-center px-8">
@@ -156,7 +138,7 @@ function UserProfile({ BASE_URL, data }) {
                     href={`${SOCIAL_SHARE_LINK}${BASE_URL}/${data.username}${
                       includeText
                         ? `&text=${encodeURIComponent(
-                            `Check out ${data.name}'s profile on BioDrop.io`
+                            `Check out ${data.name}'s profile on BioDrop.io`,
                           )}`
                         : ""
                     }`}

@@ -1,13 +1,33 @@
 name: 🐛 Bug
 description: Report an issue to help improve the project.
 title: "[BUG] <description>"
-labels: ["🛠 goal: fix","🚦 status: awaiting triage"]
+labels: ["🛠 goal: fix", "🚦 status: awaiting triage"]
 body:
+  - type: checkboxes
+    id: duplicates
+    attributes:
+      label: Has this bug been raised before?
+      description: Increase the chances of your issue being accepted by making sure it has not been raised before.
+      options:
+        - label: I have checked "open" AND "closed" issues and this is not a duplicate
+          required: true
+  - type: input
+    attributes:
+      label: Where did you find this bug?
+      description: Local dev environment or production on biodrop.io
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version of BioDrop (for example "v1.2.3")
+      description: Can be found in the lower right corner of the web interface in the footer.
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
       label: Description
-      description: A brief description of the question or issue, also include what you tried and what didn't work
+      description: A clear description of the bug you have found. Please include relevant information and resources (for example the steps to reproduce the bug)
     validations:
       required: true
   - type: textarea
@@ -23,19 +43,19 @@ body:
       label: Do you want to work on this issue?
       multiple: false
       options:
-        - "Yes"
         - "No"
+        - "Yes"
+      default: 0
     validations:
       required: false
   - type: textarea
     id: extrainfo
     attributes:
-      label: Additional information
-      description: Is there anything else we should know about this bug?
+      label: If you want to work on this issue...
+      description: Please explain how you would technically resolve this feature (for example the code changes you would make)
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
         You can also join our Discord community [here](http://discord.eddiehub.org)
-        Feel free to check out other cool repositories of the EddieHub Community [here](https://github.com/EddieHubCommunity)

@@ -18,21 +18,13 @@ import ConfirmDialog from "@components/ConfirmDialog";
 import dateFormat from "@services/utils/dateFormat";
 import { PROJECT_NAME } from "@constants/index";
 import Textarea from "@components/form/Textarea";
+import TagsInput from "@components/tag/TagsInput";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const id = context.query.data ? context.query.data[0] : undefined;
+
   let event = {};
   if (id) {
     try {
@@ -64,6 +56,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
+  const [tags, setTags] = useState(event.tags || []);
 
   useEffect(() => {
     if (!isSpeaking) {
@@ -123,6 +116,7 @@ export default function ManageEvent({ BASE_URL, event }) {
       isSpeaking,
       speakingTopic,
       color,
+      tags,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/event/`;
     if (event._id) {
@@ -145,7 +139,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         type: "error",
         message: "Event add/update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
@@ -161,7 +155,7 @@ export default function ManageEvent({ BASE_URL, event }) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
     const update = await res.json();
 
@@ -176,6 +170,11 @@ export default function ManageEvent({ BASE_URL, event }) {
 
     return Router.push(`${BASE_URL}/account/manage/events?alert=deleted`);
   };
+
+  const handleTagAdd = (newTag) =>
+    setTags((prevState) => [...prevState, newTag]);
+  const handleTagRemove = (tagToRemove) =>
+    setTags(tags.filter((tag) => tag !== tagToRemove));
 
   return (
     <>
@@ -332,6 +331,16 @@ export default function ManageEvent({ BASE_URL, event }) {
                       maxLength="16"
                     />
                   </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <TagsInput
+                      onTagAdd={handleTagAdd}
+                      onTagRemove={handleTagRemove}
+                      tags={tags}
+                    />
+                    <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
+                      Separate tags with commas.
+                    </p>
+                  </div>
                 </div>
 
                 <div className="mt-6 flex items-center justify-end gap-x-6">
@@ -347,7 +356,7 @@ export default function ManageEvent({ BASE_URL, event }) {
               </div>
             </div>
           </form>
-          <div>
+          <div className="mt-6 md:mt-0">
             <EventCard
               event={{
                 name,
@@ -359,6 +368,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                 speakingTopic,
                 price: { startingFrom: price },
                 color,
+                tags,
               }}
             />
           </div>

@@ -215,7 +215,7 @@ export default function Premium({ user }) {
         {
           name: "Discover",
           description:
-            "See a list of all those BioDrop Profiles which have been recently updated",
+            "See a list of all those BioDrop Profiles which have been recently updated on the Search Page",
           tiers: { Free: true, Premium: true },
         },
         // {
@@ -252,7 +252,7 @@ export default function Premium({ user }) {
           tiers: { Free: true, Premium: true },
         },
         {
-          name: "Total Daily Link Clicks (coming soon)",
+          name: "Total Daily Link Clicks",
           description:
             "Analytics on the total number of clicks for each individual link in your Profile per day over the last 30 days",
           tiers: { Free: false, Premium: true },
@@ -298,12 +298,12 @@ export default function Premium({ user }) {
   const badge = (
     text,
     classnames1 = "shadow-xl shadow-green-500/50",
-    classnames2 = "animate-ping"
+    classnames2 = "motion-safe:animate-ping",
   ) => (
     <span
       className={classNames(
         "inline-flex items-center gap-x-1.5 rounded-md px-2 py-1 text-xs font-medium text-primary-medium dark:text-primary-low ring-1 ring-inset ring-green-500 mb-4",
-        classnames1
+        classnames1,
       )}
     >
       <svg
@@ -338,7 +338,7 @@ export default function Premium({ user }) {
                   tier.mostPopular
                     ? "rounded-xl bg-gray-400/5 ring-1 ring-inset ring-gray-200"
                     : "",
-                  "p-8"
+                  "p-8",
                 )}
               >
                 <h3
@@ -393,7 +393,7 @@ export default function Premium({ user }) {
                                 ) : null}
                               </span>
                             </li>
-                          ) : null
+                          ) : null,
                         )}
                       </ul>
                     </li>
@@ -480,7 +480,7 @@ export default function Premium({ user }) {
                           colSpan={4}
                           className={classNames(
                             sectionIdx === 0 ? "pt-8" : "pt-16",
-                            "pb-4 font-semibold leading-6 text-gray-900"
+                            "pb-4 font-semibold leading-6 text-gray-900",
                           )}
                         >
                           {section.name}

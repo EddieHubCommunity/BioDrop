@@ -50,3 +50,6 @@ jobs:
       - name: load json files
         if: steps.changes.outputs.data == 'true'
         run: curl -L -f https://biodrop.io/api/system/reload?secret=${{ secrets.BIODROP_API_SECRET }}
+      - name: load testimonials json files for db managed profiles
+        if: steps.changes.outputs.data == 'true'
+        run: curl -L -f https://biodrop.io/api/system/testimonials-forms?secret=${{ secrets.BIODROP_API_SECRET }}

@@ -86,7 +86,7 @@ const Pagination = ({
                 className={classNames(
                   currentPage === pNumber &&
                     "text-white bg-tertiary-medium border-tertiary-medium rounded-full",
-                  "w-6 h-6 sm:w-8 sm:h-8 text-xs sm:text-base cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium transition-all"
+                  "w-6 h-6 sm:w-8 sm:h-8 text-xs sm:text-base cursor-pointer border-2 rounded-full p-1 flex items-center justify-center hover:border-tertiary-medium transition-all",
                 )}
                 onClick={() => paginate(pNumber)}
               >

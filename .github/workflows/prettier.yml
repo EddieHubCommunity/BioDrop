@@ -24,7 +24,7 @@ jobs:
       - run: npm ci
 
       - name: Prettier
-        run: npx prettier --write data/*.json
+        run: npx prettier --write data/**/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

@@ -9,7 +9,7 @@ import Badge from "@components/Badge";
 import logger from "@config/logger";
 import Input from "@components/form/Input";
 import { getTags } from "./api/discover/tags";
-import { getProfiles } from "./api/profiles";
+import { getProfiles } from "./api/discover/profiles";
 import Pagination from "@components/Pagination";
 import {
   cleanSearchInput,
@@ -21,20 +21,15 @@ async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
       slug: keyword,
-    }).toString()}`
+    }).toString()}`,
   );
 
   const searchData = await res.json();
   return searchData.users || [];
 }
 
-async function fetchRandomUsers() {
+async function fetchRecentlyUpdatedUsers() {
   const users = await getProfiles();
-
-  if (users.length > 9) {
-    return users.sort(() => 0.5 - Math.random()).slice(0, 9);
-  }
-
   return users;
 }
 
@@ -53,14 +48,14 @@ export async function getServerSideProps(context) {
   let serverProps = {
     tags: [],
     filteredUsers: [],
-    randUsers: [],
+    recentlyUpdatedUsers: [],
   };
 
   try {
     if (keyword) {
       serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
     } else {
-      serverProps.randUsers = await fetchRandomUsers();
+      serverProps.recentlyUpdatedUsers = await fetchRecentlyUpdatedUsers();
     }
   } catch (e) {
     logger.error(e, "ERROR fetching users");
@@ -74,15 +69,15 @@ export async function getServerSideProps(context) {
 }
 
 export default function Search({
-  data: { tags, randUsers, filteredUsers },
+  data: { tags, recentlyUpdatedUsers, filteredUsers },
   BASE_URL,
 }) {
   const router = useRouter();
   const { username, keyword, userSearchParam } = router.query;
   const [notFound, setNotFound] = useState();
-  const [users, setUsers] = useState(keyword ? filteredUsers : randUsers);
+  const [users, setUsers] = useState(keyword ? filteredUsers : recentlyUpdatedUsers);
   const [inputValue, setInputValue] = useState(
-    username || keyword || userSearchParam || ""
+    username || keyword || userSearchParam || "",
   );
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -102,7 +97,7 @@ export default function Search({
   useEffect(() => {
     if (!inputValue) {
       //Setting the users as null when the input field is empty
-      setUsers(randUsers);
+      setUsers(recentlyUpdatedUsers);
       //Removing the not found field when the input field is empty
       setNotFound();
       router.replace(
@@ -110,7 +105,7 @@ export default function Search({
           pathname: "/search",
         },
         undefined,
-        { shallow: true }
+        { shallow: true },
       );
       return;
     }
@@ -128,7 +123,7 @@ export default function Search({
         const res = await fetch(
           `${BASE_URL}/api/search?${new URLSearchParams({
             slug: value,
-          }).toString()}`
+          }).toString()}`,
         );
         const data = await res.json();
         if (data.error) {
@@ -151,7 +146,7 @@ export default function Search({
           query: { userSearchParam: inputValue },
         },
         undefined,
-        { shallow: true }
+        { shallow: true },
       );
       fetchUsers(inputValue);
     }, 500);
@@ -185,7 +180,7 @@ export default function Search({
     if (cleanedInput.length) {
       if (searchTagNameInInput(inputValue, keyword)) {
         return setInputValue(
-          items.filter((item) => item.trim() !== keyword).join(", ")
+          items.filter((item) => item.trim() !== keyword).join(", "),
         );
       }
 
@@ -195,7 +190,7 @@ export default function Search({
     setInputValue(keyword);
   };
 
-  const usersPerPage = 20;
+  const usersPerPage = 21;
   const indexOfLastUser = currentPage * usersPerPage;
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
   const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
@@ -243,6 +238,8 @@ export default function Search({
             onChange={(e) => setInputValue(e.target.value)}
           />
         </Badge>
+
+       {!inputValue && <h2 className="mt-10 mb-4 text-2xl font-bold">Recently updated profiles</h2>}
 
         {notFound && <Alert type="error" message={notFound} />}
         <ul

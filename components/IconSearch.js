@@ -22,7 +22,7 @@ function IconSearch({ selectedIcon, handleSelectedIcon }) {
 
   return (
     <Combobox value={selectedIcon} onChange={handleSelectedIcon}>
-      <Label htmlFor="search-icon">Icon</Label>     
+      <Label htmlFor="search-icon">Icon</Label>
       <Combobox.Input
         name="search-icon"
         onChange={(event) => setQuery(event.target.value)}

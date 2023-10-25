@@ -26,18 +26,9 @@ const animations = config.animations;
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const id = context.query.data ? context.query.data[0] : undefined;
+
   let link = {};
   if (id) {
     try {
@@ -68,7 +59,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
   const [animation, setAnimation] = useState(
-    link.animation || Object.keys(config.animations)[0]
+    link.animation || Object.keys(config.animations)[0],
   );
 
   const handleSubmit = async (e) => {
@@ -110,7 +101,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
         type: "error",
         message: "Link add/update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }

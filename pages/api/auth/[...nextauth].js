@@ -6,7 +6,7 @@ import { serverEnv } from "@config/schemas/serverSchema";
 import stripe from "@config/stripe";
 import DbAdapter from "./db-adapter";
 import connectMongo from "@config/mongo";
-import { Account, Profile, User } from "@models/index";
+import { Account, Link, Profile, User } from "@models/index";
 import {
   getAccountByProviderAccountId,
   associateProfileWithAccount,
@@ -46,12 +46,12 @@ export const authOptions = {
             following: githubProfile.following,
           },
         },
-        { upsert: true }
+        { upsert: true },
       );
       return true;
     },
     async redirect({ baseUrl }) {
-      return `${baseUrl}/account/statistics`;
+      return `${baseUrl}/account/onboarding`;
     },
     async jwt({ token, account, profile }) {
       // Persist the OAuth access_token and or the user id to the token right after signin
@@ -87,25 +87,55 @@ export const authOptions = {
   events: {
     async signIn({ profile: githubProfile }) {
       await connectMongo();
+      const username = githubProfile.username;
+      const defaultLink = (profileId) => ({
+        username,
+        name: "GitHub",
+        url: `https://github.com/${username}`,
+        icon: "FaGithub",
+        isEnabled: true,
+        isPinned: true,
+        animation: "glow",
+        profile: new ObjectId(profileId),
+      });
+
       // associate BioDrop profile to account
       const account = await getAccountByProviderAccountId(githubProfile.id);
       const user = await User.findOne({ _id: account.userId });
 
-      // associate User to Profile for premium flag
-      const profile = await Profile.findOneAndUpdate(
-        {
-          username: githubProfile.username,
-        },
-        {
-          user: account.userId,
-        },
-        {
+      // create basic profile if it doesn't exist
+      let profile = await Profile.findOne({ username });
+      if (!profile) {
+        logger.info("profile not found for: ", username);
+        profile = await Profile.findOneAndUpdate(
+          {
+            username,
+          },
+          {
+            source: "database",
+            name: githubProfile.name,
+            bio: "Have a look at my BioDrop Profile!",
+            user: account.userId,
+          },
+          {
+            new: true,
+            upsert: true,
+          },
+        );
+        const link = await Link.create([defaultLink(profile._id)], {
           new: true,
-        }
-      );
-      if (profile) {
-        await associateProfileWithAccount(account, profile._id);
+        });
+        profile = await Profile.findOneAndUpdate(
+          { username },
+          {
+            $push: { links: new ObjectId(link[0]._id) },
+          },
+          { new: true },
+        );
       }
+
+      // associate User to Profile
+      await associateProfileWithAccount(account, profile._id);
 
       // Create a stripe customer for the user with their email address
       if (!user.stripeCustomerId) {
@@ -116,13 +146,27 @@ export const authOptions = {
           name: user.name,
           metadata: {
             userId: account.userId,
-            github: githubProfile.username,
+            github: username,
           },
         });
 
         await User.findOneAndUpdate(
           { _id: new ObjectId(account.userId) },
-          { stripeCustomerId: customer.id, type: "free" }
+          { stripeCustomerId: customer.id, type: "free" },
+        );
+      }
+
+      // add github link to profile if no links exist
+      if (profile.links.length === 0) {
+        logger.info("no links found for: ", username);
+        const link = await Link.create([defaultLink(profile._id)], {
+          new: true,
+        });
+        await Profile.findOneAndUpdate(
+          { username },
+          {
+            $push: { links: new ObjectId(link[0]._id) },
+          },
         );
       }
     },
