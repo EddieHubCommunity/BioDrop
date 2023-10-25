@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
 import connectMongo from "@config/mongo";
-import { Profile } from "@models/index";
+import { Profile, Link } from "@models/index";
 
 test("Profile has title", async ({ page }) => {
   const username = "_test-profile-user-1";
@@ -69,8 +69,24 @@ test("Profile views increase", async ({ page }) => {
   expect(startingViews.views).toEqual(endingViews.views - 3);
 });
 
-test.fixme("Link clicks increase", async () => {
-  // will need DB integration
+test("Link clicks increase", async ({page}) => {
+
+  await connectMongo();
+  await page.goto("/eddiejaoude");
+  
+  const startingLinks = await Link.find({ username: "eddiejaoude" })
+  const startingLink = startingLinks[0]
+
+  const previousClickCount = startingLink.clicks; 
+
+  const profileLink = page.locator('a').filter({ hasText: startingLink.name })
+
+  await profileLink.click();
+  await page.waitForTimeout(1000);
+  const currentLink = await Link.findOne({ name: startingLink.name, username: "eddiejaoude" })
+  const updateCurrentLinkClicks = currentLink.clicks
+  
+  expect(updateCurrentLinkClicks).toEqual((previousClickCount + 1));
 });
 
 test("Profile not found redirects to search page with error message", async ({

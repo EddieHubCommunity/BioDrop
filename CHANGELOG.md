@@ -1,3 +1,12 @@
+## [2.83.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.2...v2.83.3) (2023-10-25)
+
+
+### Bug Fixes
+
+* hero-buttons for mobile ([#9159](https://github.com/EddieHubCommunity/BioDrop/issues/9159)) ([0b8ec64](https://github.com/EddieHubCommunity/BioDrop/commit/0b8ec64a43ba5f63cb0fa3e1fd8f19edd1656546))
+
+
+
 ## [2.83.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.1...v2.83.2) (2023-10-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * new milestone date  ([#9557](https://github.com/EddieHubCommunity/BioDrop/issues/9557)) ([2fabded](https://github.com/EddieHubCommunity/BioDrop/commit/2fabdedf5e6155b816bfaee1909ceecbad941703)), closes [#9548](https://github.com/EddieHubCommunity/BioDrop/issues/9548)
-
-
-
-## [2.82.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.0...v2.82.1) (2023-10-24)
-
-
-### Bug Fixes
-
-* social icons ordering [#8533](https://github.com/EddieHubCommunity/BioDrop/issues/8533) ([#9558](https://github.com/EddieHubCommunity/BioDrop/issues/9558)) ([fa715d1](https://github.com/EddieHubCommunity/BioDrop/commit/fa715d1ab84cd8ff78cbf4e07e15a1455df16453))
 
 
 
