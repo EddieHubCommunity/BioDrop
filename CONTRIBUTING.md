@@ -21,7 +21,7 @@ Before **creating** an Issue for `features`/`bugs`/`improvements` please follow 
 
 Before working on an existing Issue please follow these steps:
 
-1. only ask to be assigned 1 issue at a time
+1. only ask to be assigned 1 **open** issue at a time
 1. look out for the Issue label `status: ready for dev` (if it does not have this label, your work might not be accepted)
 1. comment asking for the issue to be assigned to you (do not tag maintainers on GitHub or Discord as all maintainers receive your comment notifications)
 1. after the Issue is assigned to you, you can start working on it
