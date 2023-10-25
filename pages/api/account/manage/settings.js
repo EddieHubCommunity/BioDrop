@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
+import { serverEnv } from "@config/schemas/serverSchema";
 import Profile from "@models/Profile";
 import logChange from "@models/middlewares/logChange";
 
@@ -74,27 +75,31 @@ export async function updateSettingsApi(context, username, data) {
     log.error(e, `failed to updated profile premium for username: ${username}`);
   }
 
-  if (data.domain !== getProfile.settings.domain) {
-    log.info(`profile premium settings updated for username: ${username}`);
+  beforeUpdate.domain = beforeUpdate.domain.replaceAll("|", "."); // TODO: use getter/setter instead
+  if (data.domain !== beforeUpdate.domain) {
+    log.info(
+      `trying to update profile premium settings domain for username: ${username}`,
+    );
 
     // remove previous custom domain if exists
     if (beforeUpdate.domain) {
       log.info(
-        `attempting to remove existing domain "${data.domain}" for: ${username}`,
+        `attempting to remove existing domain "${beforeUpdate.domain}" for: ${username}`,
       );
       let domainRemoveRes;
+      const domainRemoveUrl = `https://api.vercel.com/v6/domains/${beforeUpdate.domain}?teamId=${serverEnv.VERCEL_TEAM_ID}`;
       try {
-        domainRemoveRes = await fetch(
-          `https://api.vercel.com/v9/projects/${process.env.PROJECT_ID_VERCEL}/domains/${data.domain}${process.env.TEAM_ID_VERCEL}`,
-          {
-            headers: {
-              Authorization: `Bearer ${process.env.VERCEL_AUTH_TOKEN}`,
-            },
-            method: "DELETE",
+        domainRemoveRes = await fetch(domainRemoveUrl, {
+          headers: {
+            Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
           },
-        );
+          method: "DELETE",
+        });
         const domainRemoveJson = domainRemoveRes.json();
-        log.info(`domain removed for: ${username}`, domainRemoveJson);
+        log.info(
+          `domain ${beforeUpdate.domain} removed for: ${username}`,
+          domainRemoveJson,
+        );
       } catch (e) {
         log.error(
           e,
@@ -107,19 +112,18 @@ export async function updateSettingsApi(context, username, data) {
     if (data.domain) {
       log.info(`attempting to add domain "${data.domain}" for: ${username}`);
       let domainAddRes;
+      const domainAddUrl = `https://api.vercel.com/v5/domains?teamId=${serverEnv.VERCEL_TEAM_ID}`;
       try {
-        domainAddRes = await fetch(
-          `https://api.vercel.com/v10/projects/${process.env.PROJECT_ID_VERCEL}/domains${process.env.TEAM_ID_VERCEL}`,
-          {
-            method: "POST",
-            headers: {
-              Authorization: `Bearer ${process.env.VERCEL_AUTH_TOKEN}`,
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ name: data.domain }),
+        domainAddRes = await fetch(domainAddUrl, {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
+            "Content-Type": "application/json",
           },
-        );
-        await domainAddRes.json();
+          body: JSON.stringify({ name: data.domain }),
+        });
+        const domainAddJson = await domainAddRes.json();
+        log.info(`domain ${data.domain} added for: ${username}`, domainAddJson);
       } catch (e) {
         log.error(
           e,
