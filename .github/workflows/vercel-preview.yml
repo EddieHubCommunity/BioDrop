@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - premium3
+      - feat-middleware
 
 jobs:
   deploy:

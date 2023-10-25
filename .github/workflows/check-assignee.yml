@@ -1,0 +1,45 @@
+name: Check Assignee's Issues
+
+on:
+  issue_comment:
+    types:
+      - created
+
+jobs:
+  check-assignee-issues:
+    permissions:
+      issues: write
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Check if the author has issues assigned
+        id: check-assignee
+        run: |
+          COMMENT_AUTHOR=$(jq -r .comment.user.login "$GITHUB_EVENT_PATH")
+          ISSUES=$(curl \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -s "https://api.github.com/search/issues?q=repo:${{ github.repository }}+is:open+is:issue+assignee:$COMMENT_AUTHOR" | jq .total_count)
+          echo "Found $ISSUES issues assigned to $COMMENT_AUTHOR"
+          echo "has_issues=$(test $ISSUES -gt 0 && echo true || echo false)" >> $GITHUB_OUTPUT
+
+      - name: Update comment if author has issues
+        if: steps.check-assignee.outputs.has_issues == 'true'
+        run: |
+          COMMENT_ID=$(jq -r .comment.id "$GITHUB_EVENT_PATH")
+          COMMENT_AUTHOR=$(jq -r .comment.user.login "$GITHUB_EVENT_PATH")
+          CURRENT_COMMENT=$(jq -r .comment.body "$GITHUB_EVENT_PATH")
+          ISSUE_URL="https://github.com/$GITHUB_REPOSITORY/issues?q=is%3Aopen+is%3Aissue+assignee%3A$COMMENT_AUTHOR"
+          MESSAGE="$CURRENT_COMMENT\n\nℹ️ **$COMMENT_AUTHOR** has some opened assigned issues: 🔧[View assigned issues]($ISSUE_URL)"
+          echo "Updating comment with message: $MESSAGE"
+          curl -L \
+            -X PATCH \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/$GITHUB_REPOSITORY/issues/comments/$COMMENT_ID \
+            -d "{\"body\":\"$MESSAGE\"}"

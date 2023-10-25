@@ -21,16 +21,6 @@ import FallbackImage from "@components/FallbackImage";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
 
   let testimonials = [];
@@ -154,7 +144,7 @@ export default function ManageTestimonials({ BASE_URL, testimonials }) {
                 <li
                   key={testimonial._id}
                   className={classNames(
-                    reorder && "animate-pulse",
+                    reorder && "motion-safe:animate-pulse",
                     "flex items-center justify-between gap-x-6 py-5",
                   )}
                 >

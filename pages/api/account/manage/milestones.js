@@ -8,11 +8,6 @@ import Profile from "@models/Profile";
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
 
-  if (!session) {
-    res.status(401).json([]);
-    return;
-  }
-
   if (req.method !== "GET") {
     return res.status(400).json({ error: "Invalid request: GET required" });
   }
@@ -49,6 +44,5 @@ export async function getMilestonesApi(username) {
   } catch (e) {
     log.error(e, `failed to get milestones for username: ${username}`);
   }
-
   return JSON.parse(JSON.stringify(getMilestones));
 }

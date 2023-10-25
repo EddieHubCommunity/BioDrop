@@ -1,0 +1,22 @@
+{
+    "name": "Bratajit Das",
+    "bio": "Software Developer",
+    "links": [
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/bratajit03",
+        "icon": "FaTwitter"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Bratajit-03",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/bratajitdas-97417c235/",
+        "icon": "FaLinkedin"
+      }
+    ]
+  }
+  

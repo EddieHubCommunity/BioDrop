@@ -89,10 +89,6 @@ export default function Navbar() {
       url: "/repos",
     },
     {
-      name: "Discover",
-      url: "/discover",
-    },
-    {
       name: "Pricing",
       url: "/pricing",
     },

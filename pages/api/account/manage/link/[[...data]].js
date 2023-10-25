@@ -5,14 +5,12 @@ import { ObjectId } from "bson";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import { LinkStats, Profile, Link } from "@models/index";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
-  if (!session) {
-    res.status(401).json({ message: "You must be logged in." });
-    return;
-  }
   const username = session.username;
+
   if (!["GET", "PUT", "POST", "DELETE"].includes(req.method)) {
     return res.status(400).json({
       error: "Invalid request: GET or PUT or POST or DELETE required",
@@ -20,19 +18,20 @@ export default async function handler(req, res) {
   }
 
   const { data } = req.query;
+  const context = { req, res };
 
   let link = {};
   if (req.method === "GET") {
     link = await getLinkApi(username, data[0]);
   }
   if (req.method === "DELETE") {
-    link = await deleteLinkApi(username, data[0]);
+    link = await deleteLinkApi(context, username, data[0]);
   }
   if (req.method === "PUT") {
-    link = await updateLinkApi(username, data[0], req.body);
+    link = await updateLinkApi(context, username, data[0], req.body);
   }
   if (req.method === "POST") {
-    link = await addLinkApi(username, req.body);
+    link = await addLinkApi(context, username, req.body);
   }
 
   if (link.error) {
@@ -56,7 +55,7 @@ export async function getLinkApi(username, id) {
   return JSON.parse(JSON.stringify(getLink));
 }
 
-export async function addLinkApi(username, data) {
+export async function addLinkApi(context, username, data) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -111,12 +110,28 @@ export async function addLinkApi(username, data) {
   }
   getLink = await getLinkApi(username, getLink[0]._id);
 
+  // Add to Changelog
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Link",
+      changesBefore: null,
+      changesAfter: getLink,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Link changes in changelog for username: ${username}`,
+    );
+  }
+
   return JSON.parse(JSON.stringify(getLink));
 }
 
-export async function updateLinkApi(username, id, data) {
+export async function updateLinkApi(context, username, id, data) {
   await connectMongo();
   const log = logger.child({ username });
+
+  let beforeUpdate = await getLinkApi(username, id);
 
   let getLink = {};
 
@@ -166,10 +181,24 @@ export async function updateLinkApi(username, id, data) {
     return { error: e.errors };
   }
 
+  // Add to Changelog
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Link",
+      changesBefore: beforeUpdate,
+      changesAfter: await getLinkApi(username, id),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Link changes in changelog for username: ${username}`,
+    );
+  }
+
   return JSON.parse(JSON.stringify(getLink));
 }
 
-export async function deleteLinkApi(username, id) {
+export async function deleteLinkApi(context, username, id) {
   await connectMongo();
   const log = logger.child({ username });
 
@@ -216,6 +245,20 @@ export async function deleteLinkApi(username, id) {
     const error = `failed to delete link from profile for username: ${username}`;
     log.error(e, error);
     return { error };
+  }
+
+  // Add to Changelog
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Link",
+      changesBefore: getLink,
+      changesAfter: null,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Link changes in changelog for username: ${username}`,
+    );
   }
 
   return JSON.parse(JSON.stringify({}));
