@@ -79,7 +79,7 @@ This environment is fully on your computer and requires each dependency (for exa
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
 - [NodeJs](https://nodejs.org/en/download/) (Works with Node LTS version v18.16.1)
-- [MongoDB](https://www.mongodb.com/home)
+- [MongoDB](https://www.mongodb.com/home) (v6+)
 - Optional [NVM](https://github.com/nvm-sh/nvm): Switch Node version by using `nvm use` (on Windows, use `nvm use v18.16.1`). If this is not installed, run `nvm install v18.16.1`.
 
 #### Commands

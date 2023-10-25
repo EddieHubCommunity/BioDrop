@@ -9,11 +9,6 @@ import dateFormat from "@services/utils/dateFormat";
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
 
-  if (!session) {
-    res.status(401).json([]);
-    return;
-  }
-
   if (req.method !== "GET") {
     return res.status(400).json({ error: "Invalid request: GET required" });
   }
