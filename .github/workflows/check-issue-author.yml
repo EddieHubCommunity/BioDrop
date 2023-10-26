@@ -1,0 +1,39 @@
+name: "check issues author"
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  check-issue-author:
+    permissions:
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: check if issue author has assigned issues
+        id: check-assignee
+        run: |
+          ISSUE_AUTHOR=${{ github.event.issue.user.login }}
+          ISSUES=$(curl \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -s "https://api.github.com/search/issues?q=repo:${{ github.repository }}+is:open+is:issue+assignee:$ISSUE_AUTHOR" | jq .total_count)
+          echo "issue author $ISSUE_AUTHOR"
+          echo "has_issues=$(test $ISSUES -gt 0 && echo true || echo false)" >> $GITHUB_OUTPUT
+      
+      - name: Update issue if author has issues
+        if: steps.check-assignee.outputs.has_issues == 'true'
+        run: |
+            ISSUE_AUTHOR=${{ github.event.issue.user.login }}
+            ISSUE_URL="https://github.com/$GITHUB_REPOSITORY/issues/${{ github.event.issue.number }}"
+            ASSIGNED_ISSUE_URL="https://github.com/$GITHUB_REPOSITORY/issues?q=is%3Aopen+is%3Aissue+assignee%3A$ISSUE_AUTHOR"
+            MESSAGE="${{ github.event.issue.body }}\n\nℹ️ **$ISSUE_AUTHOR** has some opened assigned issues: 🔧[View assigned issues]($ASSIGNED_ISSUE_URL)"
+            echo "Updating issue with message: $MESSAGE"
+            curl -L \
+            -X PATCH \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            ISSUE_URL \
+            -d "{\"body\":\"$MESSAGE\"}"
