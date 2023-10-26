@@ -1,3 +1,12 @@
+## [2.83.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.4...v2.83.5) (2023-10-26)
+
+
+### Bug Fixes
+
+* removed label on tab component ([#9551](https://github.com/EddieHubCommunity/BioDrop/issues/9551)) ([cc3a447](https://github.com/EddieHubCommunity/BioDrop/commit/cc3a4477a6d41995f7c7dd2bd315cc856f71ce6e))
+
+
+
 ## [2.83.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.3...v2.83.4) (2023-10-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update assign comment check ([#9603](https://github.com/EddieHubCommunity/BioDrop/issues/9603)) ([b82aeb7](https://github.com/EddieHubCommunity/BioDrop/commit/b82aeb779299df144cb50d0b82832667550ceeae))
-
-
-
-# [2.83.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.2...v2.83.0) (2023-10-24)
-
-
-### Features
-
-* action to update issue comment with status ([#9378](https://github.com/EddieHubCommunity/BioDrop/issues/9378)) ([e8329fd](https://github.com/EddieHubCommunity/BioDrop/commit/e8329fd719ae4e719d163e56a22adae557c0d6cc))
 
 
 
