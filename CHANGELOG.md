@@ -1,3 +1,12 @@
+## [2.83.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.3...v2.83.4) (2023-10-26)
+
+
+### Bug Fixes
+
+* url wrap in stats list ([#9620](https://github.com/EddieHubCommunity/BioDrop/issues/9620)) ([9a8790e](https://github.com/EddieHubCommunity/BioDrop/commit/9a8790e1b4b1135e33535f627a05c2ea4c595a77))
+
+
+
 ## [2.83.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.2...v2.83.3) (2023-10-25)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * action to update issue comment with status ([#9378](https://github.com/EddieHubCommunity/BioDrop/issues/9378)) ([e8329fd](https://github.com/EddieHubCommunity/BioDrop/commit/e8329fd719ae4e719d163e56a22adae557c0d6cc))
-
-
-
-## [2.82.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.1...v2.82.2) (2023-10-24)
-
-
-### Bug Fixes
-
-* new milestone date  ([#9557](https://github.com/EddieHubCommunity/BioDrop/issues/9557)) ([2fabded](https://github.com/EddieHubCommunity/BioDrop/commit/2fabdedf5e6155b816bfaee1909ceecbad941703)), closes [#9548](https://github.com/EddieHubCommunity/BioDrop/issues/9548)
 
 
 
