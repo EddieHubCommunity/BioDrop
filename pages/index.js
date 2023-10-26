@@ -225,10 +225,10 @@ export default function Home({
               <div className="flex items-center gap-x-2 px-4">
                 <FaGithub /> Open Source
               </div>
-              <div className="flex items-center gap-x-2 px-4">
+              <div className="flex items-center gap-x-2 px-4 divide-dark-2 dark:divide-primary-low">
                 <FaLock /> GitHub OAuth
               </div>
-              <div className="flex items-center gap-x-2 px-4">
+              <div className="flex items-center gap-x-2 px-4 divide-dark-2 dark:divide-primary-low">
                 <FaDollarSign /> Free Tier Forever
               </div>
             </div>
