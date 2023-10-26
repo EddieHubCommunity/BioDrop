@@ -1,11 +1,7 @@
-import { authOptions } from "../api/auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
-
 import logger from "@config/logger";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 
-import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import { PROJECT_NAME } from "@constants/index";
 import { getChangelogs } from "pages/api/admin/changelog";
@@ -13,28 +9,6 @@ import dateFormat from "@services/utils/dateFormat";
 import Button from "@components/Button";
 
 export async function getServerSideProps(context) {
-  const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
-  const username = session.username;
-
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return {
-      redirect: {
-        destination: "/404",
-        permanent: false,
-      },
-    };
-  }
-
   let data = [];
   const { filter } = context.query;
   try {

@@ -25,17 +25,8 @@ import Alert from "@components/Alert";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
+
   let profile = {};
   try {
     profile = (await getUserApi(context.req, context.res, username)).profile;
@@ -126,7 +117,7 @@ export default function Onboarding({ profile, progress }) {
     {
       icon: FaMicroblog,
       title: "Testimonials",
-      description: "Your favourite Testinomials",
+      description: "Your favourite Testimonials",
       button: {
         name: "Testimonials",
         href: "/account/manage/testimonials",

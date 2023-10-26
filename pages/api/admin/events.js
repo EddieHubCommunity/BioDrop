@@ -1,26 +1,10 @@
-import { authOptions } from "../auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
-
-import { serverEnv } from "@config/schemas/serverSchema";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import connectMongo from "@config/mongo";
 
 export default async function handler(req, res) {
-  const session = await getServerSession(req, res, authOptions);
-
-  if (!session) {
-    return res.status(401).json({});
-  }
-
   if (!["GET"].includes(req.method)) {
     return res.status(400).json({ error: "Invalid request: GET required" });
-  }
-
-  const username = session.username;
-
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return res.status(401).json({});
   }
 
   const events = await getEvents();

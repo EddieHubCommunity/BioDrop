@@ -26,18 +26,9 @@ const animations = config.animations;
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const id = context.query.data ? context.query.data[0] : undefined;
+
   let link = {};
   if (id) {
     try {
