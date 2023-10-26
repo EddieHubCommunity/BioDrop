@@ -9,7 +9,6 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
           <Select
             name="tabs"
             value={selectedTab?.name}
-            label="Select a tab"
             onChange={(e) =>
               setTabs(tabs.find((tab) => tab.name === e.currentTarget.value))
             }
