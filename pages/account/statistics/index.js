@@ -25,17 +25,8 @@ const DynamicChart = dynamic(
 export async function getServerSideProps(context) {
   const { req, res } = context;
   const session = await getServerSession(req, res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
+
   const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
     logger.error(
@@ -216,7 +207,7 @@ export default function Statistics({ data, profile, BASE_URL }) {
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
-                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6 text-ellipsis overflow-hidden">
                     {session && session.accountType === "premium" && (
                       <Link href={`/account/statistics/link/${link._id}`}>
                         {link.url}

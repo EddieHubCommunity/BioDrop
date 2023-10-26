@@ -50,7 +50,7 @@ export default function DocsWhere() {
           Recommended Open Source projects
         </h2>
         <p>
-          Here are some estiablished, activity and supportive Open Source
+          Here are some established, activity and supportive Open Source
           projects you can join today.
         </p>
 
@@ -66,7 +66,7 @@ export default function DocsWhere() {
             <span>
               <strong className="font-semibold">BioDrop:</strong> This
               repository is super active and has a great community. With a
-              variety of issuses to work on, you can find something that
+              variety of issues to work on, you can find something that
               interests you.
             </span>
           </li>
