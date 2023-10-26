@@ -72,7 +72,7 @@ export default function DocsGlossary() {
 
         <DataList
           title="Git and GitHub Terms"
-          subtitle="These can be confusing, hopefully these explainations will help"
+          subtitle="These can be confusing, hopefully these explanations will help"
           data={data}
         />
       </Page>
