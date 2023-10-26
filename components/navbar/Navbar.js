@@ -135,11 +135,11 @@ export default function Navbar() {
         className={classNames(
           "relative top-0 bg-primary-high dark:bg-primary-medium",
           session &&
-            session.accountType === "premium" &&
-            "border-b-2 border-tertiary-medium",
+          session.accountType === "premium" &&
+          "border-b-2 border-tertiary-medium",
         )}
       >
-        <div className="z-30 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
+        <div className="z-0 w-full mx-auto px-4 sm:px-6 lg:px-8 relative t-0">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
