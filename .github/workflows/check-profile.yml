@@ -1,4 +1,4 @@
-name: Check JSON Profile API
+name: JSON Profile API check
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
       - "data/**.json"
 
 jobs:
-  check-response-source:
+  api-response-source:
     runs-on: ubuntu-latest
 
     steps:
@@ -24,6 +24,6 @@ jobs:
       - name: Check if source is database
         if: fromJson(steps.myRequest.outputs.response).source == 'database'
         run: |
-          echo "Source is database"
+          echo "${{ github.event.pull_request.user.login }}'s Profile is already in database"
           exit 1
           
