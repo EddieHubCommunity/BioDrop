@@ -12,7 +12,7 @@ import { getStatsForLink } from "pages/api/account/statistics/link/[id]";
 import Alert from "@components/Alert";
 
 const DynamicChart = dynamic(
-  () => import("../../../../components/statistics/StatsChart"),
+  () => import("../../../../components/statistics/BarGraph"),
   { ssr: false },
 );
 
