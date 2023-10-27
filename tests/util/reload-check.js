@@ -13,12 +13,12 @@
     profiles.slice(start, finish).map(async (profile) => {
       counter++;
       const userLocal = await fetch(
-        `${urlNewVersion}/api/profiles/${profile.username}`
+        `${urlNewVersion}/api/profiles/${profile.username}`,
       );
       const userLocalRes = await userLocal.json();
 
       const userProd = await fetch(
-        `${urlOldVersion}/api/profiles/${profile.username}`
+        `${urlOldVersion}/api/profiles/${profile.username}`,
       );
       const userProdRes = await userProd.json();
 
@@ -32,20 +32,20 @@
           console.log(
             `=== ERROR: User ${userLocalRes.username}: "${collection}" count does not match expected`,
             local,
-            prod
+            prod,
           );
         }
 
         console.log(
           `SUCCESS: User ${userLocalRes.username}: "${collection}" count does match expected`,
           local,
-          prod
+          prod,
         );
       });
 
       const collection = "testimonials";
       const testimonialsLocal = userLocalRes[collection].filter(
-        (item) => item.isPinned
+        (item) => item.isPinned,
       ).length;
       const testimonialsProd = userProdRes[collection]
         ? userProdRes[collection].length
@@ -54,18 +54,18 @@
         console.log(
           `=== ERROR: User ${userLocalRes.username}: "${collection}" count does not match expected`,
           testimonialsLocal,
-          testimonialsProd
+          testimonialsProd,
         );
       }
 
       console.log(
         `SUCCESS: User ${userLocalRes.username}: "${collection}" count does match expected`,
         testimonialsLocal,
-        testimonialsProd
+        testimonialsProd,
       );
 
       return;
-    })
+    }),
   );
 
   console.log("DONE", counter);

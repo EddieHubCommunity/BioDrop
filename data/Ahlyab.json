@@ -1,0 +1,16 @@
+{
+  "name": "Ahalyab Asad",
+  "bio": "Passionate computer science student, trying to absord as much knowledge as possible",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/ahlyab",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ahalyab-asad/",
+      "icon": "FaLikedin"
+    }
+  ]
+}

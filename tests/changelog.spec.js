@@ -11,6 +11,7 @@ test("Changelog has title", async ({ page }) => {
 test("Navigate to Changelog", async ({ page }) => {
   await page.goto("/roadmap");
   await page.getByRole("link", { name: "See full list" }).click();
+  await page.waitForLoadState("networkidle");
   await expect(page.locator("h1")).toHaveText("Changelog");
 });
 
@@ -27,6 +28,7 @@ test("Footer link goes to GitHub", async ({ page }) => {
   const getFooter = page.getByText("Powered by EddieHub");
 
   await getFooter.click();
+  await page.waitForLoadState("networkidle");
 
   await expect(page).toHaveURL(/github/);
 });

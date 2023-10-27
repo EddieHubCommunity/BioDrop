@@ -14,7 +14,7 @@ export default function CallToAction({
       <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
         <h2 className="text-3xl font-bold tracking-tight text-primary-high dark:text-primary-low sm:text-4xl">
           <span className="block">{title}</span>
-          <span className="block text-secondary-high dark:text-secondary-low">
+          <span className="block text-primary-medium dark:text-secondary-low">
             {description}
           </span>
         </h2>

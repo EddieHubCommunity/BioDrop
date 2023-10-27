@@ -13,6 +13,9 @@ const envSchema = z.object({
   GITHUB_API_TOKEN: z.string().optional(),
   RANDOM_USERS: z.string().optional(),
   ADMIN_USERS: z.string().optional(),
+  NEXT_PUBLIC_VERCEL_ENV: z.string().optional(),
+  STRIPE_SECRET_KEY: z.string().optional(),
+  STRIPE_WEBHOOK_SECRET: z.string().optional(),
 });
 
 const serverEnv = envSchema.safeParse(process.env);

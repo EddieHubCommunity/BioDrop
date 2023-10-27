@@ -35,7 +35,7 @@ export async function getStaticProps() {
       user.location.provided &&
       user.location.provided !== "unknown" &&
       user.location.name !== "unknown" &&
-      user.location.provided.toLowerCase() !== "remote"
+      user.location.provided.toLowerCase() !== "remote",
   );
 
   // Apply offset equally to 4 quadrants arround point
@@ -71,7 +71,7 @@ export async function getStaticProps() {
           [parseFloat(user.location.lon), parseFloat(user.location.lat)],
           offset,
           offset2,
-          index
+          index,
         ),
       },
     };
@@ -144,7 +144,7 @@ export default function Map({ data }) {
           as="image"
           key={`${i}${j}`}
           href={`https://b.tile.openstreetmap.org/2/${i}/${j}.png`}
-        />
+        />,
       );
     }
   }
@@ -195,7 +195,7 @@ export default function Map({ data }) {
                 />
               ))}
         </div>
-        <div className="h-screen">
+        <div style={{ height: "min(96vw, 100vh)" }}>
           <DynamicMap
             users={filteredUsers.length > 0 ? filteredUsers : users}
           />

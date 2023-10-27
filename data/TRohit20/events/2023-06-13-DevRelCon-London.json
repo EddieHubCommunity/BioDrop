@@ -1,13 +1,13 @@
 {
-    "isVirtual": false,
-    "isInPerson": true,
-    "color": "blue",
-    "name": "DevRelCon London 2023",
-    "description": "Back in its home city for the first time since 2019, DevRelCon London is a two day conference bringing together developer relations, education, marketing, and community professionals for sharing, learning, and communing.",
-    "date": {
-      "start": "2023-06-13",
-      "end": "2023-06-14",
-      "cfpClose": "2023-03-31"
-    },
-    "url": "https://london-2023.devrelcon.dev"
-  }
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "DevRelCon London 2023",
+  "description": "Back in its home city for the first time since 2019, DevRelCon London is a two day conference bringing together developer relations, education, marketing, and community professionals for sharing, learning, and communing.",
+  "date": {
+    "start": "2023-06-13",
+    "end": "2023-06-14",
+    "cfpClose": "2023-03-31"
+  },
+  "url": "https://london-2023.devrelcon.dev"
+}

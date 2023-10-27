@@ -8,10 +8,6 @@ import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
-  if (!session) {
-    res.status(401).json({ message: "You must be logged in." });
-    return;
-  }
   const username = session.username;
   if (!["GET", "PUT", "PATCH"].includes(req.method)) {
     return res
@@ -89,7 +85,7 @@ export async function updateTestimonialPinnedApi(username, data) {
           source: "database",
           "testimonials.$.isPinned": data.isPinned,
         },
-      }
+      },
     );
   } catch (e) {
     log.error(e, `failed to update testimonial for username: ${username}`);
@@ -112,7 +108,7 @@ export async function updateTestimonialOrderApi(username, data) {
           source: "database",
           testimonials: data,
         },
-      }
+      },
     );
   } catch (e) {
     log.error(e, `failed to update testimonial for username: ${username}`);

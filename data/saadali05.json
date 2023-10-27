@@ -1,0 +1,41 @@
+{
+  "name": "Saad Ali",
+  "bio": "Aspiring code explorer, embarking on a journey of learning and creating. Turning curiosity into code, one step at a time. ",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/saadali05",
+      "icon": "FaGithub "
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/saadali5/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Dev Community",
+      "url": "https://dev.to/saadi5603",
+      "icon": "FaDevcommunity "
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/SAADI5603",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/saadxalii/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/profile.php?id=100004491677589",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Subscribe me on Youtube",
+      "url": "https://www.youtube.com/channel/UC3p7SV8KwL18fOTiAyqG3xw",
+      "icon": "FaYoutube"
+    }
+  ]
+}

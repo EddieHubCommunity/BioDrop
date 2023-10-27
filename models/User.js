@@ -2,6 +2,22 @@ import mongoose from "mongoose";
 
 const UserSchema = new mongoose.Schema(
   {
+    type: {
+      type: String,
+      required: true,
+      enum: {
+        values: ["free", "premium"],
+        message: "{VALUE} is not a supported data source",
+      },
+      default: "free",
+    },
+    stripeCustomerId: {
+      type: String,
+      trim: true,
+    },
+    premiumTrialStartDate: {
+      type: Date,
+    },
     name: {
       type: String,
       trim: true,
@@ -19,7 +35,7 @@ const UserSchema = new mongoose.Schema(
       trim: true,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 module.exports = mongoose.models.User || mongoose.model("User", UserSchema);

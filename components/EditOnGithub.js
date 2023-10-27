@@ -11,7 +11,9 @@ export default function EditOnGitHub() {
   const { asPath } = router;
 
   const githubUrl = `https://github.com/EddieHubCommunity/BioDrop/edit/main/pages${
-    asPath === "/docs" ? `/docs/index.js` : `${asPath}.mdx`
+    asPath === "/docs" || asPath === "/docs/open-source-roadmap"
+      ? `${asPath}/index.js`
+      : `${asPath}.mdx`
   }`;
 
   return (
