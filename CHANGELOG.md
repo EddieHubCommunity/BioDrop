@@ -1,3 +1,12 @@
+## [2.83.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.5...v2.83.6) (2023-10-27)
+
+
+### Bug Fixes
+
+* rename component StatsChart to BarGraph (fix pr [#9442](https://github.com/EddieHubCommunity/BioDrop/issues/9442)) ([#9633](https://github.com/EddieHubCommunity/BioDrop/issues/9633)) ([71e0ab4](https://github.com/EddieHubCommunity/BioDrop/commit/71e0ab42e0231264613048ed33ee85d0f1bf7985))
+
+
+
 ## [2.83.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.4...v2.83.5) (2023-10-26)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * trying to debug assigned issues ([#9609](https://github.com/EddieHubCommunity/BioDrop/issues/9609)) ([3f6fe4d](https://github.com/EddieHubCommunity/BioDrop/commit/3f6fe4dee34c88341b3a0063358dc749ce4e766f))
-
-
-
-## [2.83.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.0...v2.83.1) (2023-10-24)
-
-
-### Bug Fixes
-
-* update assign comment check ([#9603](https://github.com/EddieHubCommunity/BioDrop/issues/9603)) ([b82aeb7](https://github.com/EddieHubCommunity/BioDrop/commit/b82aeb779299df144cb50d0b82832667550ceeae))
 
 
 
