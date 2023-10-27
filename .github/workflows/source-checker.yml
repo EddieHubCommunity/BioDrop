@@ -1,0 +1,29 @@
+name: Check JSON Profile API
+
+on:
+  pull_request:
+    paths:
+      - "data/**.json"
+
+jobs:
+  check-response-source:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Make the API request corresponding to the pull request author and outputs the data of the user as JSON string
+      - name: Make API request
+        id: myRequest
+        uses: fjogeleit/http-request-action@v1
+        with:
+          url: "https://biodrop.io/api/profiles/${{ github.event.pull_request.user.login }}"
+
+      # fail the job if the source is database
+      - name: Check if source is database
+        if: fromJson(steps.myRequest.outputs.response).source == 'database'
+        run: |
+          echo "Source is database"
+          exit 1
+          
