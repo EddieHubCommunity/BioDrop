@@ -54,8 +54,7 @@ export default function Icons() {
 
     const filteredIconNames = Object.keys(icons)
       .filter((icon) => icon.includes(value.toLocaleLowerCase()))
-      .map((iconName) => icons[iconName]);
-     
+      .map((iconName) => icons[iconName]);     
     if (!filteredIconNames.length) {
       return setNotFound(value);
     }
