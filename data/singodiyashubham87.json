@@ -1,0 +1,30 @@
+{
+    "name": "Shubham Singodiya",
+    "bio": "Full Stack React Developer & Open-Source contributor",
+    "tags": [
+      "React",
+      "JavaScript",
+      "Tailwind",
+      "Git",
+      "Postman",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/singodiyashubham87",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/singodiyashubham87/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "Dev.to",
+        "url": "https://dev.to/_master_mickey",
+        "icon": "FaBlog"
+      }
+    ]
+  }

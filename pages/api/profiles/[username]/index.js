@@ -114,6 +114,9 @@ export async function getUserApi(req, res, username, options = {}) {
       ),
     socials: getProfile.links
       .filter((link) => link.isPinned)
+      .sort(
+        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE),
+      )
       .map((link) => ({
         _id: link._id,
         url: link.url,
@@ -164,7 +167,9 @@ export async function getUserApi(req, res, username, options = {}) {
       }
     });
 
-    getProfile.events = dateEvents;
+    getProfile.events = dateEvents.sort(
+      (a, b) => Number(new Date(a.date.start)) - Number(new Date(b.date.start)),
+    );
   } else {
     getProfile.events = [];
   }

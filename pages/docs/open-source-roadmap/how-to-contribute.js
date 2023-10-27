@@ -59,7 +59,7 @@ export default function DocsHowToContribute() {
           After review
         </h2>
         <p>
-          If you receieve feedback where you need to make changes, you can add
+          If you receive feedback where you need to make changes, you can add
           additional commits to your branch in your fork, GitHub automatically
           add them to your open pull request.
         </p>
