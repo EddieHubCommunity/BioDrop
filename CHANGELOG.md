@@ -1,3 +1,12 @@
+## [2.83.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.6...v2.83.7) (2023-10-28)
+
+
+### Bug Fixes
+
+* view profile button width ([#9641](https://github.com/EddieHubCommunity/BioDrop/issues/9641)) ([6ed16ff](https://github.com/EddieHubCommunity/BioDrop/commit/6ed16ff704ce801e83211f4284487b94f75c8dd9))
+
+
+
 ## [2.83.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.5...v2.83.6) (2023-10-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * hero-buttons for mobile ([#9159](https://github.com/EddieHubCommunity/BioDrop/issues/9159)) ([0b8ec64](https://github.com/EddieHubCommunity/BioDrop/commit/0b8ec64a43ba5f63cb0fa3e1fd8f19edd1656546))
-
-
-
-## [2.83.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.1...v2.83.2) (2023-10-24)
-
-
-### Bug Fixes
-
-* trying to debug assigned issues ([#9609](https://github.com/EddieHubCommunity/BioDrop/issues/9609)) ([3f6fe4d](https://github.com/EddieHubCommunity/BioDrop/commit/3f6fe4dee34c88341b3a0063358dc749ce4e766f))
 
 
 
