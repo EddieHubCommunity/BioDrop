@@ -221,7 +221,7 @@ export default function Home({
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-medium dark:text-primary-low mb-4">
               Showcase the content you create and your projects in one place
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-0 justify-center items-center divide-x-0 sm:divide-x">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-0 justify-center items-center divide-x-0 sm:divide-x divide-dark-2 dark:divide-primary-low">
               <div className="flex items-center gap-x-2 px-4">
                 <FaGithub /> Open Source
               </div>
