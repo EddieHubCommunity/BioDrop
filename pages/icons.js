@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import * as FaIcons from "react-icons/fa6";
 import * as SiIcons from "react-icons/si";
 
@@ -7,43 +7,51 @@ import IconCard from "@components/IconCard";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { PROJECT_NAME } from "@constants/index";
+import { useRouter } from "next/router";
+
+const icons = {};
+
+Object.keys(FaIcons).forEach((key) => {
+  icons[key.toLocaleLowerCase()] = key;
+});
+
+Object.keys(SiIcons).forEach((key) => {
+  icons[key.toLocaleLowerCase()] = key;
+});
+
+const popularIcons = [
+  "FaGithub",
+  "FaTwitter",
+  "FaLinkedin",
+  "FaGit",
+  "FaXTwitter",
+  "FaInstagram",
+  "SiHashnode",
+  "FaLink",
+  "FaYoutube",
+  "FaGlobe",
+  "FaDev",
+  "FaDiscord",
+  "FaMedium",
+  "SiMedium",
+  "FaFacebook",
+  "FaGithubAlt",
+  "SiLinkedin",
+  "SiLeetcode",
+  "FaDollarSign",
+  "FaMastodon",
+];
 
 export default function Icons() {
   const [searchedIconNames, setSearchedIconNames] = useState([]);
   const [notFound, setNotFound] = useState();
-  const [threeOrMore, setThreeOrMore] = useState();
+  const searchInputRef = useRef(null);
 
-  const popularIcons = [
-    "FaGithub",
-    "FaTwitter",
-    "FaLinkedin",
-    "FaGit",
-    "FaXTwitter",
-    "FaInstagram",
-    "SiHashnode",
-    "FaLink",
-    "FaYoutube",
-    "FaGlobe",
-    "FaDev",
-    "FaDiscord",
-    "FaMedium",
-    "SiMedium",
-    "FaFacebook",
-    "FaGithubAlt",
-    "SiLinkedin",
-    "SiLeetcode",
-    "FaDollarSign",
-    "FaMastodon",
-  ];
-  const icons = {};
-
-  Object.keys(FaIcons).forEach((key) => {
-    icons[key.toLocaleLowerCase()] = key;
-  });
-
-  Object.keys(SiIcons).forEach((key) => {
-    icons[key.toLocaleLowerCase()] = key;
-  });
+  const router = useRouter();
+  const [threeOrMore, setThreeOrMore] = useState(
+    router.query.keyword?.length >= 3 ? true : false,
+  );
+  const keyword = router.query.keyword || "";
 
   const searchIcons = (value) => {
     setSearchedIconNames([]);
@@ -67,6 +75,11 @@ export default function Icons() {
     setSearchedIconNames(filteredIconNames);
   };
 
+  useLayoutEffect(() => {
+    searchIcons(keyword);
+    searchInputRef?.current.focus();
+  }, [keyword]);
+
   return (
     <>
       <PageHead
@@ -77,10 +90,21 @@ export default function Icons() {
       <Page>
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
         <input
+          value={keyword}
+          ref={searchInputRef}
           placeholder="Search Icons (minimum 3 characters)"
-          className="border-2 dark:bg-primary-high hover:border-tertiary-medium transition-all duration-250 ease-linear rounded px-6 py-2 mb-4"
+          className="border-2 dark:bg-primary-high hover:border-tertiary-medium transition-border duration-250 ease-linear rounded px-6 py-2 mb-4"
           name="keyword"
-          onChange={(e) => searchIcons(e.target.value)}
+          onChange={(e) => {
+            if (e.currentTarget.value.length === 0)
+              return router.replace({
+                pathname: "/icons",
+              });
+            router.replace({
+              pathname: "/icons",
+              query: { keyword: e.currentTarget.value },
+            });
+          }}
         />
         {threeOrMore && notFound && (
           <Alert type="error" message={`${notFound} not found`} />
