@@ -26,4 +26,3 @@ jobs:
         run: |
           echo "${{ github.event.pull_request.user.login }}'s Profile is already in database"
           exit 1
-          
