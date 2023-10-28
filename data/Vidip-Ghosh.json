@@ -1,0 +1,22 @@
+{
+  "name": "Vidip Ghosh",
+  "bio": "B.Tech CSE'24 from Jamia Millia Islamia, New Delhi",
+  "tags": ["travelling","photography","exploring new technologies"],
+  "links":[
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/GhoshVidip67772",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vidip-ghosh-9973b7213/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Vidip-Ghosh",
+      "icon": "FaGithub"
+    }
+  ]
+}
