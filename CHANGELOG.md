@@ -1,3 +1,12 @@
+## [2.83.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.7...v2.83.8) (2023-10-28)
+
+
+### Bug Fixes
+
+* light theme pipes match text color ([#9629](https://github.com/EddieHubCommunity/BioDrop/issues/9629)) ([e11abb6](https://github.com/EddieHubCommunity/BioDrop/commit/e11abb6fd0c753055debf253d75596224e2abfb4))
+
+
+
 ## [2.83.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.6...v2.83.7) (2023-10-28)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * url wrap in stats list ([#9620](https://github.com/EddieHubCommunity/BioDrop/issues/9620)) ([9a8790e](https://github.com/EddieHubCommunity/BioDrop/commit/9a8790e1b4b1135e33535f627a05c2ea4c595a77))
-
-
-
-## [2.83.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.2...v2.83.3) (2023-10-25)
-
-
-### Bug Fixes
-
-* hero-buttons for mobile ([#9159](https://github.com/EddieHubCommunity/BioDrop/issues/9159)) ([0b8ec64](https://github.com/EddieHubCommunity/BioDrop/commit/0b8ec64a43ba5f63cb0fa3e1fd8f19edd1656546))
 
 
 
