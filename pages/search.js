@@ -145,11 +145,13 @@ export default function Search({
     }
 
     const timer = setTimeout(() => {
-      const newUrl = `/search?userSearchParam=${inputValue}`;
-      window.history.replaceState(
-        { ...window.history.state, as: newUrl, url: newUrl },
-        "",
-        newUrl,
+      router.replace(
+        {
+          pathname: "/search",
+          query: { userSearchParam: inputValue },
+        },
+        undefined,
+        { shallow: true },
       );
       fetchUsers(inputValue);
     }, 500);
