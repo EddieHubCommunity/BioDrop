@@ -100,9 +100,7 @@ export default function Search({
     }
   }, [username]);
   useLayoutEffect(() => {
-    if (searchInputRef.current) {
-      searchInputRef.current.focus();
-    }
+    searchInputRef.current?.focus();
   }, []);
 
   useEffect(() => {
