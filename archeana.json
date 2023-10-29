@@ -1,0 +1,21 @@
+{
+  "name": "Ana Jesus",
+  "bio": "As an aspiring web developer just starting out, I have a growing interest in JavaScript, HTML, and CSS. I'm also delving into academic research, specializing in Archaeological Science and Archaeobotany, as I combine technology and our ancient history."
+ "links": [
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@anajesus12",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/archeana",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ana-jesus-1644374a/",
+      "icon": "SiLinkedin"
+    },
+  ]
+}
