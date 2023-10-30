@@ -1,3 +1,12 @@
+## [2.83.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.11...v2.83.12) (2023-10-30)
+
+
+### Bug Fixes
+
+* gh action profile check flag ([#9673](https://github.com/EddieHubCommunity/BioDrop/issues/9673)) ([7cbc870](https://github.com/EddieHubCommunity/BioDrop/commit/7cbc870a3ee1aea57d5ccf0f50cab9979ce66ee0))
+
+
+
 ## [2.83.11](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.10...v2.83.11) (2023-10-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * light theme pipes match text color ([#9629](https://github.com/EddieHubCommunity/BioDrop/issues/9629)) ([e11abb6](https://github.com/EddieHubCommunity/BioDrop/commit/e11abb6fd0c753055debf253d75596224e2abfb4))
-
-
-
-## [2.83.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.6...v2.83.7) (2023-10-28)
-
-
-### Bug Fixes
-
-* view profile button width ([#9641](https://github.com/EddieHubCommunity/BioDrop/issues/9641)) ([6ed16ff](https://github.com/EddieHubCommunity/BioDrop/commit/6ed16ff704ce801e83211f4284487b94f75c8dd9))
 
 
 
