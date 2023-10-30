@@ -1,3 +1,12 @@
+## [2.83.13](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.12...v2.83.13) (2023-10-30)
+
+
+### Bug Fixes
+
+* gh action profile check ignore 404 ([#9675](https://github.com/EddieHubCommunity/BioDrop/issues/9675)) ([2c9e564](https://github.com/EddieHubCommunity/BioDrop/commit/2c9e564927963fc4d8205a27a6c5a6a50e83064a))
+
+
+
 ## [2.83.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.11...v2.83.12) (2023-10-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * github action skip on profile not found ([#9667](https://github.com/EddieHubCommunity/BioDrop/issues/9667)) ([4bf469f](https://github.com/EddieHubCommunity/BioDrop/commit/4bf469f517ee5cc8583c563eafb913cc75c8b96b))
-
-
-
-## [2.83.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.7...v2.83.8) (2023-10-28)
-
-
-### Bug Fixes
-
-* light theme pipes match text color ([#9629](https://github.com/EddieHubCommunity/BioDrop/issues/9629)) ([e11abb6](https://github.com/EddieHubCommunity/BioDrop/commit/e11abb6fd0c753055debf253d75596224e2abfb4))
 
 
 
