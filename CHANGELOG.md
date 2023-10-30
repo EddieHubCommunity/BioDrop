@@ -1,3 +1,12 @@
+## [2.83.11](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.10...v2.83.11) (2023-10-30)
+
+
+### Bug Fixes
+
+* gh action profile check method ([#9671](https://github.com/EddieHubCommunity/BioDrop/issues/9671)) ([ce5b039](https://github.com/EddieHubCommunity/BioDrop/commit/ce5b0395170008096e1e671e649045144bea0a32))
+
+
+
 ## [2.83.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.9...v2.83.10) (2023-10-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * view profile button width ([#9641](https://github.com/EddieHubCommunity/BioDrop/issues/9641)) ([6ed16ff](https://github.com/EddieHubCommunity/BioDrop/commit/6ed16ff704ce801e83211f4284487b94f75c8dd9))
-
-
-
-## [2.83.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.5...v2.83.6) (2023-10-27)
-
-
-### Bug Fixes
-
-* rename component StatsChart to BarGraph (fix pr [#9442](https://github.com/EddieHubCommunity/BioDrop/issues/9442)) ([#9633](https://github.com/EddieHubCommunity/BioDrop/issues/9633)) ([71e0ab4](https://github.com/EddieHubCommunity/BioDrop/commit/71e0ab42e0231264613048ed33ee85d0f1bf7985))
 
 
 
