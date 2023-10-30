@@ -20,7 +20,7 @@ jobs:
         with:
           url: "https://biodrop.io/api/profiles/${{ github.event.pull_request.user.login }}"
           method: GET
-          ignoreStatusCodes: 404
+          ignoreStatusCodes: "404"
 
       # fail the job if the source is database
       - name: Check if source is database
