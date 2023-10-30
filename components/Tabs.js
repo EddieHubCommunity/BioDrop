@@ -29,7 +29,7 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
                   selectedTab?.name === tab.name
                     ? "border-tertiary-medium "
                     : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
-                  `justify-center text-base group flex border-b-2 py-4 font-medium grow`,
+                  `justify-center text-base group flex border-b-2 py-4 font-medium grow items-center`,
                 )}
               >
                 {tab.icon && (
