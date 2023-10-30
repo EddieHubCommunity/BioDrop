@@ -1,3 +1,12 @@
+## [2.83.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.9...v2.83.10) (2023-10-30)
+
+
+### Bug Fixes
+
+* gh action profile status code type ([#9669](https://github.com/EddieHubCommunity/BioDrop/issues/9669)) ([dd6980b](https://github.com/EddieHubCommunity/BioDrop/commit/dd6980b4b99f6d15a10cfb1f2caeccf2f4f221e9))
+
+
+
 ## [2.83.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.8...v2.83.9) (2023-10-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * rename component StatsChart to BarGraph (fix pr [#9442](https://github.com/EddieHubCommunity/BioDrop/issues/9442)) ([#9633](https://github.com/EddieHubCommunity/BioDrop/issues/9633)) ([71e0ab4](https://github.com/EddieHubCommunity/BioDrop/commit/71e0ab42e0231264613048ed33ee85d0f1bf7985))
-
-
-
-## [2.83.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.4...v2.83.5) (2023-10-26)
-
-
-### Bug Fixes
-
-* removed label on tab component ([#9551](https://github.com/EddieHubCommunity/BioDrop/issues/9551)) ([cc3a447](https://github.com/EddieHubCommunity/BioDrop/commit/cc3a4477a6d41995f7c7dd2bd315cc856f71ce6e))
 
 
 
