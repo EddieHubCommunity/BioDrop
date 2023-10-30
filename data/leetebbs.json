@@ -1,0 +1,22 @@
+{
+  "name": "Lee Tebbs",
+  "bio": "22 year Mechanical/electrical engineer in the plant industry, working on a career change to a web developer. Enjoy crypto/ web3 development",
+  "tags": ["frontend", "Web3", "solidity", "crypto"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/LTebbs2",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url":  "https://www.linkedin.com/in/tebbo-/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/leetebbs",
+      "icon": "FaGithub"
+    }
+  ]
+}
