@@ -7,6 +7,7 @@ import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
 import { useTheme } from "next-themes";
 import { classNames } from "@services/utils/classNames";
+import Image from "next/image";
 
 import { FaGithub } from "react-icons/fa6";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
@@ -116,7 +117,18 @@ export default function Navbar() {
       {session && (
         <>
           <NavLink
-            item={{ name: "Account", url: "/account/onboarding" }}
+            item={{
+              name: (
+                <Image
+                  className="flex-none rounded-full mx-2 bg-primary-low"
+                  width={42}
+                  height={42}
+                  src={`https://github.com/${session.username}.png`}
+                  alt="description of image"
+                />
+              ),
+              url: "/account/onboarding",
+            }}
             setIsOpen={setIsOpen}
           />
           <NavLink
