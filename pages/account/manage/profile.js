@@ -76,7 +76,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     };
   });
 
-  const inputRef = useRef(null);
+  const tagInputRef = useRef(null);
 
   const { pronouns } = config;
 
@@ -92,7 +92,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (document.activeElement === inputRef.current) {
+    if (document.activeElement === tagInputRef.current) {
       return;
     }
 
@@ -250,7 +250,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         onTagAdd={handleTagAdd}
                         onTagRemove={handleTagRemove}
                         tags={tags}
-                        inputRef={inputRef}
+                        inputRef={tagInputRef}
                       />
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                         Separate tags with commas.

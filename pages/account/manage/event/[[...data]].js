@@ -57,7 +57,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState("");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
   const [tags, setTags] = useState(event.tags || []);
-  const inputRef = useRef(null);
+  const tagInputRef = useRef(null);
 
   useEffect(() => {
     if (!isSpeaking) {
@@ -106,7 +106,8 @@ export default function ManageEvent({ BASE_URL, event }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (document.activeElement === inputRef) {
+    if (document.activeElement === tagInputRef.current) {
+      console.log('testing');
       return;
     }
     let alert = "created";
@@ -340,7 +341,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onTagAdd={handleTagAdd}
                       onTagRemove={handleTagRemove}
                       tags={tags}
-                      inputRef={inputRef}
+                      inputRef={tagInputRef}
                     />
                     <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                       Separate tags with commas.
