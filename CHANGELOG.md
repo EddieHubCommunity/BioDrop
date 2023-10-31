@@ -1,3 +1,12 @@
+## [2.83.18](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.17...v2.83.18) (2023-10-31)
+
+
+### Bug Fixes
+
+* typo in footer ([#9685](https://github.com/EddieHubCommunity/BioDrop/issues/9685)) ([e7541b4](https://github.com/EddieHubCommunity/BioDrop/commit/e7541b4fa61f943cdf0f8e33ba73ec7ac1d6bc1f))
+
+
+
 ## [2.83.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.16...v2.83.17) (2023-10-31)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * gh action profile check method ([#9677](https://github.com/EddieHubCommunity/BioDrop/issues/9677)) ([c407a04](https://github.com/EddieHubCommunity/BioDrop/commit/c407a045adcc8de2f383bc82d529e32c1b06b511))
-
-
-
-## [2.83.13](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.12...v2.83.13) (2023-10-30)
-
-
-### Bug Fixes
-
-* gh action profile check ignore 404 ([#9675](https://github.com/EddieHubCommunity/BioDrop/issues/9675)) ([2c9e564](https://github.com/EddieHubCommunity/BioDrop/commit/2c9e564927963fc4d8205a27a6c5a6a50e83064a))
 
 
 
