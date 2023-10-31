@@ -62,7 +62,7 @@ export default function DocsContribute() {
               <strong className="font-semibold">Documentation:</strong>{" "}
               Incorrect or out of date documentation is worse than no
               documentation because people rely on it. Going through the
-              documemtation and following along, you can spot errors and fix
+              documentation and following along, you can spot errors and fix
               them. Or you can add more information to the documentation.
             </span>
           </li>

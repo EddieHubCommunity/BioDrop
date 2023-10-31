@@ -12,23 +12,13 @@ import { getStatsForLink } from "pages/api/account/statistics/link/[id]";
 import Alert from "@components/Alert";
 
 const DynamicChart = dynamic(
-  () => import("../../../../components/statistics/StatsChart"),
+  () => import("../../../../components/statistics/BarGraph"),
   { ssr: false },
 );
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
   const session = await getServerSession(req, res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   if (session.accountType !== "premium") {
     return {
       redirect: {

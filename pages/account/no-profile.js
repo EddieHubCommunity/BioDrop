@@ -1,24 +1,10 @@
-import { authOptions } from "../api/auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
-
 import { clientEnv } from "@config/schemas/clientSchema";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import Link from "@components/Link";
 import { PROJECT_NAME } from "@constants/index";
 
-export async function getServerSideProps(context) {
-  const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/",
-        permanent: false,
-      },
-    };
-  }
-
+export async function getServerSideProps() {
   return {
     props: { BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
