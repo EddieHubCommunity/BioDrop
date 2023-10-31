@@ -1,0 +1,16 @@
+{
+  "name": "Aung Ko Htet",
+  "bio": "I am passionate about all things cloud ☁️!",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aungkohtet_",
+      "icon": "FaTwitter"
+    }
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/aungkohtat",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
