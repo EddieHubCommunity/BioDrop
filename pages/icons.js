@@ -62,7 +62,7 @@ export default function Icons() {
 
     const filteredIconNames = Object.keys(icons)
       .filter((icon) => icon.includes(value.toLocaleLowerCase()))
-      .map((iconName) => icons[iconName]);     
+      .map((iconName) => icons[iconName]);
     if (!filteredIconNames.length) {
       return setNotFound(value);
     }
@@ -90,7 +90,8 @@ export default function Icons() {
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
         <Input
           placeholder="Search Icons (minimum 3 characters)"
-
+          ref={searchInputRef}
+          value={keyword}
           name="keyword"
           onChange={(e) => {
             if (e.currentTarget.value.length === 0)
