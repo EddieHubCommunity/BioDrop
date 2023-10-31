@@ -1,3 +1,12 @@
+## [2.83.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.16...v2.83.17) (2023-10-31)
+
+
+### Bug Fixes
+
+* double border on input field in icons page ([#9663](https://github.com/EddieHubCommunity/BioDrop/issues/9663)) ([4f88584](https://github.com/EddieHubCommunity/BioDrop/commit/4f88584e72837e7daae9de66d2fe12b2f3fcacf0))
+
+
+
 ## [2.83.16](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.15...v2.83.16) (2023-10-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * gh action profile check ignore 404 ([#9675](https://github.com/EddieHubCommunity/BioDrop/issues/9675)) ([2c9e564](https://github.com/EddieHubCommunity/BioDrop/commit/2c9e564927963fc4d8205a27a6c5a6a50e83064a))
-
-
-
-## [2.83.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.11...v2.83.12) (2023-10-30)
-
-
-### Bug Fixes
-
-* gh action profile check flag ([#9673](https://github.com/EddieHubCommunity/BioDrop/issues/9673)) ([7cbc870](https://github.com/EddieHubCommunity/BioDrop/commit/7cbc870a3ee1aea57d5ccf0f50cab9979ce66ee0))
 
 
 
