@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   res.status(200).json(profiles);
 }
-export async function getProfiles(filter = "recently updated", limit = 30) {
+export async function getProfiles(filter = "recently updated", limit = 100) {
   await connectMongo();
 
   let profiles = [];

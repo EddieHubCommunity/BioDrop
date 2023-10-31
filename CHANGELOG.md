@@ -1,3 +1,21 @@
+## [2.83.16](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.15...v2.83.16) (2023-10-30)
+
+
+### Bug Fixes
+
+* icon alignment issue in tabs ([#9681](https://github.com/EddieHubCommunity/BioDrop/issues/9681)) ([41a40f9](https://github.com/EddieHubCommunity/BioDrop/commit/41a40f9ad0ff9baeee286bd0a5d68291d983c39c))
+
+
+
+## [2.83.15](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.14...v2.83.15) (2023-10-30)
+
+
+### Bug Fixes
+
+* admin profile limit increased ([#9694](https://github.com/EddieHubCommunity/BioDrop/issues/9694)) ([fa92415](https://github.com/EddieHubCommunity/BioDrop/commit/fa92415448015a1c37876ca0f5cefbe1844ab7ec))
+
+
+
 ## [2.83.14](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.13...v2.83.14) (2023-10-30)
 
 
@@ -22,24 +40,6 @@
 ### Bug Fixes
 
 * gh action profile check flag ([#9673](https://github.com/EddieHubCommunity/BioDrop/issues/9673)) ([7cbc870](https://github.com/EddieHubCommunity/BioDrop/commit/7cbc870a3ee1aea57d5ccf0f50cab9979ce66ee0))
-
-
-
-## [2.83.11](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.10...v2.83.11) (2023-10-30)
-
-
-### Bug Fixes
-
-* gh action profile check method ([#9671](https://github.com/EddieHubCommunity/BioDrop/issues/9671)) ([ce5b039](https://github.com/EddieHubCommunity/BioDrop/commit/ce5b0395170008096e1e671e649045144bea0a32))
-
-
-
-## [2.83.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.9...v2.83.10) (2023-10-30)
-
-
-### Bug Fixes
-
-* gh action profile status code type ([#9669](https://github.com/EddieHubCommunity/BioDrop/issues/9669)) ([dd6980b](https://github.com/EddieHubCommunity/BioDrop/commit/dd6980b4b99f6d15a10cfb1f2caeccf2f4f221e9))
 
 
 
