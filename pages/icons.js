@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef, useState } from "react";
 import * as FaIcons from "react-icons/fa6";
 import * as SiIcons from "react-icons/si";
-
+import Input from "@components/form/Input";
 import Alert from "@components/Alert";
 import IconCard from "@components/IconCard";
 import Page from "@components/Page";
@@ -62,8 +62,7 @@ export default function Icons() {
 
     const filteredIconNames = Object.keys(icons)
       .filter((icon) => icon.includes(value.toLocaleLowerCase()))
-      .map((iconName) => icons[iconName]);
-
+      .map((iconName) => icons[iconName]);     
     if (!filteredIconNames.length) {
       return setNotFound(value);
     }
@@ -89,11 +88,9 @@ export default function Icons() {
 
       <Page>
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
-        <input
-          value={keyword}
-          ref={searchInputRef}
+        <Input
           placeholder="Search Icons (minimum 3 characters)"
-          className="border-2 dark:bg-primary-high hover:border-tertiary-medium transition-border duration-250 ease-linear rounded px-6 py-2 mb-4"
+
           name="keyword"
           onChange={(e) => {
             if (e.currentTarget.value.length === 0)
