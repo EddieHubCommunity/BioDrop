@@ -116,21 +116,17 @@ export default function Navbar() {
 
       {session && (
         <>
-          <NavLink
-            item={{
-              name: (
-                <Image
-                  className="flex-none rounded-full mx-2 bg-primary-low"
-                  width={42}
-                  height={42}
-                  src={`https://github.com/${session.username}.png`}
-                  alt="description of image"
-                />
-              ),
-              url: "/account/onboarding",
-            }}
-            setIsOpen={setIsOpen}
-          />
+          <Link href="/account/onboarding" aria-label="Account">
+            <div>
+              <Image
+                className="flex-none hover:ring-2 hover:ring-tertiary-medium rounded-full mx-2"
+                width={40}
+                height={40}
+                src={`https://github.com/${session.username}.png`}
+                alt="Account"
+              />
+            </div>
+          </Link>
           <NavLink
             item={{ name: "Logout", url: "/" }}
             setIsOpen={setIsOpen}
