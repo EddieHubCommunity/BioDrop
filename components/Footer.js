@@ -22,7 +22,7 @@ export default function Footer() {
       { name: "Map", href: "/map", external: false },
       { name: "Login", href: "/auth/signin", external: false },
       {
-        name: "Open Souce Roadmap",
+        name: "Open Source Roadmap",
         href: "/docs/open-source-roadmap",
         external: false,
       },
