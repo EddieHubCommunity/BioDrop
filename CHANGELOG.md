@@ -1,3 +1,12 @@
+# [2.84.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.19...v2.84.0) (2023-11-01)
+
+
+### Features
+
+* admin list not enabled proiles ([#9709](https://github.com/EddieHubCommunity/BioDrop/issues/9709)) ([24bf515](https://github.com/EddieHubCommunity/BioDrop/commit/24bf5151222058841067311fa138c60dcd52ef05))
+
+
+
 ## [2.83.19](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.18...v2.83.19) (2023-11-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * icon alignment issue in tabs ([#9681](https://github.com/EddieHubCommunity/BioDrop/issues/9681)) ([41a40f9](https://github.com/EddieHubCommunity/BioDrop/commit/41a40f9ad0ff9baeee286bd0a5d68291d983c39c))
-
-
-
-## [2.83.15](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.14...v2.83.15) (2023-10-30)
-
-
-### Bug Fixes
-
-* admin profile limit increased ([#9694](https://github.com/EddieHubCommunity/BioDrop/issues/9694)) ([fa92415](https://github.com/EddieHubCommunity/BioDrop/commit/fa92415448015a1c37876ca0f5cefbe1844ab7ec))
 
 
 
