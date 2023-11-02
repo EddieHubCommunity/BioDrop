@@ -57,6 +57,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState("");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
   const [tags, setTags] = useState(event.tags || []);
+  const [isDisabled, setIsDisabled] = useState(false);
 
   useEffect(() => {
     if (!isSpeaking) {
@@ -104,6 +105,7 @@ export default function ManageEvent({ BASE_URL, event }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsDisabled(true);
 
     let alert = "created";
     let putEvent = {
@@ -134,6 +136,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     const update = await res.json();
 
     if (update.message) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
@@ -349,7 +352,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} disable={isDisabled}>
                     SAVE
                   </Button>
                 </div>
