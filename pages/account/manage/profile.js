@@ -69,6 +69,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     profile.bio || "Have a look at my links below...",
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
+  const [isDisabled, setIsDisabled] = useState(false);
   const layouts = config.layouts.map((l) => {
     return {
       value: l,
@@ -89,6 +90,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsDisabled(true);
     const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
       method: "PUT",
       headers: {
@@ -97,6 +99,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       body: JSON.stringify({ name, bio, tags, layout, pronoun, isStatsPublic }),
     });
     const update = await res.json();
+    setIsDisabled(false);
 
     if (update.message) {
       return setShowNotification({
@@ -259,7 +262,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                 </section>
 
                 <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
-                  <Button primary={true}>SAVE</Button>
+                  <Button primary={true} disable={isDisabled}>SAVE</Button>
                 </div>
               </div>
             </form>
