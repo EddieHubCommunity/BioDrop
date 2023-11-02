@@ -277,7 +277,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true} disabled={isDisabled}>
+                  <Button className={isDisabled && "cursor-not-allowed"} type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>
