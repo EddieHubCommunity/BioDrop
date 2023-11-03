@@ -1,0 +1,16 @@
+{
+  "name": "Samuel Aidoo",
+  "bio": "Software Engineer. Football Analyst",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_samuelaidoo",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "www.linkedin.com/in/samuel-aidoo-68288116a",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

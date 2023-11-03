@@ -18,7 +18,7 @@ import { PROJECT_NAME } from "@constants/index";
 import Link from "@components/Link";
 
 const DynamicChart = dynamic(
-  () => import("../../../components/statistics/StatsChart"),
+  () => import("../../../components/statistics/BarGraph"),
   { ssr: false },
 );
 
@@ -207,7 +207,7 @@ export default function Statistics({ data, profile, BASE_URL }) {
             {data.links &&
               data.links.individual.map((link) => (
                 <tr key={link.url}>
-                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6 text-ellipsis overflow-hidden">
                     {session && session.accountType === "premium" && (
                       <Link href={`/account/statistics/link/${link._id}`}>
                         {link.url}
