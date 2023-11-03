@@ -107,7 +107,6 @@ export default function ManageEvent({ BASE_URL, event }) {
     e.preventDefault();
 
     if (document.activeElement === tagInputRef.current) {
-      console.log('testing');
       return;
     }
     let alert = "created";
