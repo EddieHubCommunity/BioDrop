@@ -1,0 +1,31 @@
+name: JSON Profile API check
+
+on:
+  pull_request:
+    paths:
+      - "data/**.json"
+
+jobs:
+  api-response-source:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Make the API request corresponding to the pull request author and outputs the data of the user as JSON string
+      - name: Make API request
+        id: myRequest
+        uses: fjogeleit/http-request-action@main
+        with:
+          url: "https://biodrop.io/api/profiles/${{ github.event.pull_request.user.login }}"
+          preventFailureOnNoResponse: "true"
+          ignoreStatusCodes: "404"
+          method: "GET"
+
+      # fail the job if the source is database
+      - name: Check if source is database
+        if: fromJson(steps.myRequest.outputs.response).source == 'database'
+        run: |
+          echo "${{ github.event.pull_request.user.login }}'s Profile is already in database"
+          exit 1

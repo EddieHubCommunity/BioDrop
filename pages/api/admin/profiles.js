@@ -12,7 +12,7 @@ export default async function handler(req, res) {
 
   res.status(200).json(profiles);
 }
-export async function getProfiles(filter = "recently updated", limit = 30) {
+export async function getProfiles(filter = "recently updated", limit = 100) {
   await connectMongo();
 
   let profiles = [];
@@ -67,9 +67,21 @@ export async function getProfiles(filter = "recently updated", limit = 30) {
       return profiles;
     }
   }
+
   if (filter === "isShadowBanned") {
     try {
       profiles = await Profile.find({ isShadowBanned: true })
+        .sort({ updatedAt: -1 })
+        .limit(limit);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
+  }
+
+  if (filter === "isDisabled") {
+    try {
+      profiles = await Profile.find({ isEnabled: false })
         .sort({ updatedAt: -1 })
         .limit(limit);
     } catch (e) {

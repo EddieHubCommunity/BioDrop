@@ -1,0 +1,21 @@
+{
+  "name": "Ana Jesus",
+  "bio": "Web Developer & Archaeo Enthusiast.",
+ "links": [
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@anajesus12",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/archeana",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/ana-jesus-1644374a/",
+      "icon": "SiLinkedin"
+    }
+  ]
+}
