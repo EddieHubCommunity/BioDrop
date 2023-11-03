@@ -21,7 +21,7 @@ Here is an example of a BioDrop Profile https://biodrop.io/eddiejaoude
 
 > [!IMPORTANT]  
 > Creating/Changing/Deleting your JSON Profile do **not** count towards hacktoberfest and will automatically be marked with the label `invalid` so that Hacktoberfest ignores your Pull Request
-> But this does not effect your Pull Request being accepted and merged into BioDrop
+> But this does not affect your Pull Request being accepted and merged into BioDrop
 
 All other Pull Requests will count towards Hacktoberfest.
 

@@ -1,0 +1,11 @@
+{
+  "name": "Robert Palmer",
+  "bio": "Tech Support and Customer Service Rep switching over to the development side.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/whoyoumagoo",
+      "icon": "FaTwitter"
+    }
+  ]
+}

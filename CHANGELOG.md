@@ -1,45 +1,45 @@
-## [2.83.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.2...v2.83.3) (2023-10-25)
-
-
-### Bug Fixes
-
-* hero-buttons for mobile ([#9159](https://github.com/EddieHubCommunity/BioDrop/issues/9159)) ([0b8ec64](https://github.com/EddieHubCommunity/BioDrop/commit/0b8ec64a43ba5f63cb0fa3e1fd8f19edd1656546))
-
-
-
-## [2.83.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.1...v2.83.2) (2023-10-24)
-
-
-### Bug Fixes
-
-* trying to debug assigned issues ([#9609](https://github.com/EddieHubCommunity/BioDrop/issues/9609)) ([3f6fe4d](https://github.com/EddieHubCommunity/BioDrop/commit/3f6fe4dee34c88341b3a0063358dc749ce4e766f))
-
-
-
-## [2.83.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.0...v2.83.1) (2023-10-24)
-
-
-### Bug Fixes
-
-* update assign comment check ([#9603](https://github.com/EddieHubCommunity/BioDrop/issues/9603)) ([b82aeb7](https://github.com/EddieHubCommunity/BioDrop/commit/b82aeb779299df144cb50d0b82832667550ceeae))
-
-
-
-# [2.83.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.2...v2.83.0) (2023-10-24)
+# [2.84.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.19...v2.84.0) (2023-11-01)
 
 
 ### Features
 
-* action to update issue comment with status ([#9378](https://github.com/EddieHubCommunity/BioDrop/issues/9378)) ([e8329fd](https://github.com/EddieHubCommunity/BioDrop/commit/e8329fd719ae4e719d163e56a22adae557c0d6cc))
+* admin list not enabled proiles ([#9709](https://github.com/EddieHubCommunity/BioDrop/issues/9709)) ([24bf515](https://github.com/EddieHubCommunity/BioDrop/commit/24bf5151222058841067311fa138c60dcd52ef05))
 
 
 
-## [2.82.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.82.1...v2.82.2) (2023-10-24)
+## [2.83.19](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.18...v2.83.19) (2023-11-01)
 
 
 ### Bug Fixes
 
-* new milestone date  ([#9557](https://github.com/EddieHubCommunity/BioDrop/issues/9557)) ([2fabded](https://github.com/EddieHubCommunity/BioDrop/commit/2fabdedf5e6155b816bfaee1909ceecbad941703)), closes [#9548](https://github.com/EddieHubCommunity/BioDrop/issues/9548)
+* update dependencies ([#9639](https://github.com/EddieHubCommunity/BioDrop/issues/9639)) ([7518764](https://github.com/EddieHubCommunity/BioDrop/commit/7518764aa41133e8c5c959e7c5551b1a7dc881d9))
+
+
+
+## [2.83.18](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.17...v2.83.18) (2023-10-31)
+
+
+### Bug Fixes
+
+* typo in footer ([#9685](https://github.com/EddieHubCommunity/BioDrop/issues/9685)) ([e7541b4](https://github.com/EddieHubCommunity/BioDrop/commit/e7541b4fa61f943cdf0f8e33ba73ec7ac1d6bc1f))
+
+
+
+## [2.83.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.16...v2.83.17) (2023-10-31)
+
+
+### Bug Fixes
+
+* double border on input field in icons page ([#9663](https://github.com/EddieHubCommunity/BioDrop/issues/9663)) ([4f88584](https://github.com/EddieHubCommunity/BioDrop/commit/4f88584e72837e7daae9de66d2fe12b2f3fcacf0))
+
+
+
+## [2.83.16](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.15...v2.83.16) (2023-10-30)
+
+
+### Bug Fixes
+
+* icon alignment issue in tabs ([#9681](https://github.com/EddieHubCommunity/BioDrop/issues/9681)) ([41a40f9](https://github.com/EddieHubCommunity/BioDrop/commit/41a40f9ad0ff9baeee286bd0a5d68291d983c39c))
 
 
 

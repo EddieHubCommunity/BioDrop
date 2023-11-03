@@ -1,6 +1,6 @@
 {
     "name": "SARVESH ASHOK DEVRUKHAKAR",
-    "bio": "**Student** • **Open Source Contributor** • **Amature Freelancer**",
+    "bio": "**Student** • **Open Source Contributor**",
     "tags": [
         "C",
         "C++",
@@ -16,31 +16,29 @@
     ],
     "socials": [
         {
-            "icon": "FaLinkedin",
+            "icon": "FaLinkedinIn",
             "url": "https://www.linkedin.com/in/sarveshdevrukhakar"
         },
         {
             "icon": "FaGithub",
             "url": "https://github.com/SAD0XER"
-        },
-        {
-            "icon": "FaXTwitter",
-            "url": "https://www.twitter.com/SAD0XER"
-        },
-        {
-            "icon": "FaInstagram",
-            "url": "https://www.instagram.com/sarveshdevrukhakar"
         }
     ],
     "links": [
         {
-            "group": "Technology Portfolio",
-            "name": "GitHub - Let's Collaborate and Contribute in Open Source on GitHub",
+            "group": "My Technology Portfolio",
+            "name": "GitHub - Let's Collaborate and Contribute in Open Source and Build something Great!",
             "url": "https://github.com/SAD0XER",
             "icon": "SiGithub"
         },
         {
-            "group": "Technology Portfolio",
+            "group": "My Technology Portfolio",
+            "name": "LeetCode - My LeetCode Profile",
+            "url": "https://leetcode.com/SAD0XER",
+            "icon": "SiLeetcode"
+        },
+        {
+            "group": "My Technology Portfolio",
             "name": "SoloLearn - Let's Learn Something On SoloLearn",
             "url": "https://www.sololearn.com/profile/18241219",
             "icon": "SiSololearn"
@@ -55,13 +53,13 @@
             "group": "Socials",
             "name": "Twitter - Tiw Tiw",
             "url": "https://www.twitter.com/SAD0XER",
-            "icon": "FaSquareXTwitter"
+            "icon": "FaXTwitter"
         },
         {
             "group": "Socials",
             "name": "Instagram - Follow me if you want to ;)",
             "url": "https://www.instagram.com/sarveshdevrukhakar",
-            "icon": "FaSquareInstagram"
+            "icon": "FaInstagram"
         },
         {
             "group": "Other",
@@ -71,7 +69,13 @@
         },
         {
             "group": "Other",
-            "name": "YouTube - Channerl Will Get Active Soon",
+            "name": "Spotify - Explore My Profile!",
+            "url": "https://open.spotify.com/user/31br6cokwd2t2lhbzyttqlhn52ne",
+            "icon": "SiSpotify"
+        },
+        {
+            "group": "Other",
+            "name": "YouTube - Channel Will Get Active Soon",
             "url": "https://youtube.com/@ALL_R0UNDER",
             "icon": "FaYoutube"
         }
