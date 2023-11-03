@@ -48,8 +48,10 @@ export default function ManageSettings({
   const [showNotification, setShowNotification] = useState(false);
   const [hideNavbar, setHideNavbar] = useState(settings.hideNavbar || false);
   const [hideFooter, setHideFooter] = useState(settings.hideFooter || false);
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const toggle = async (setting) => {
+    setIsDisabled(true);
     if (accountType !== "premium") {
       return;
     }
@@ -64,6 +66,7 @@ export default function ManageSettings({
       }),
     });
     const updatedSettings = await res.json();
+    setIsDisabled(false)
     setShowNotification(true);
     setHideNavbar(updatedSettings.hideNavbar);
     setHideFooter(updatedSettings.hideFooter);
@@ -118,6 +121,7 @@ export default function ManageSettings({
                         text1="Hide Navbar on your Profile"
                         enabled={accountType === "premium" && hideNavbar}
                         setEnabled={() => toggle("hideNavbar")}
+                        disable={accountType !== "premium" || isDisabled}
                       />
                     </div>
                     <div className="flex items-center gap-x-3">
@@ -125,6 +129,7 @@ export default function ManageSettings({
                         text1="Hide Footer on your Profile"
                         enabled={accountType === "premium" && hideFooter}
                         setEnabled={() => toggle("hideFooter")}
+                        disable={accountType !== "premium" || isDisabled}
                       />
                     </div>
                   </div>
