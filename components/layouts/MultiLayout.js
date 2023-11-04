@@ -16,7 +16,7 @@ export default function MultiLayout({ settings, children }) {
             <Navbar />
           </>
         )}
-        <main id="main" className="flex-1 dark:bg-dark-2 dark:z-10">
+        <main id="main" className="flex-1 dark:bg-dark-2 dark:z-40">
           {children}
         </main>
         {(!settings ||
