@@ -184,6 +184,12 @@ export default function Premium({ user }) {
             "Make your Profile standout with a Premium badge on your Profile",
           tiers: { Free: false, Premium: true },
         },
+        {
+          name: "Hide sign up button",
+          description:
+            "Automatically removes the sign up button from your Profile",
+          tiers: { Free: false, Premium: true },
+        },
       ],
     },
     {

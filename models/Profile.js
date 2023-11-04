@@ -150,7 +150,9 @@ const ProfileSchema = new Schema(
         get: (v) => v.replaceAll("|", "."),
         set: (v) => v.replaceAll(".", "|"),
         validator: function (v) {
-          return /^((?!-)[A-Za-z0-9-]{1, 63}(?<!-)\\.)+[A-Za-z]{2, 6}$/.test(v);
+          return /^[^https?:\/\/](?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}$/.test(
+            v,
+          );
         },
         message: (props) => `${props.value} is not a valid domain!`,
       },

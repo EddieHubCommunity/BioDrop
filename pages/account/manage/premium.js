@@ -173,10 +173,17 @@ export default function ManageSettings({
                       <div className="mt-1">
                         <Input
                           name="domain"
-                          label="Domain"
+                          label={`Domain (for example: ${username}.io)`}
                           value={domain}
                           disabled={!enableForm}
-                          onChange={(e) => setDomain(e.target.value)}
+                          onChange={(e) =>
+                            setDomain(
+                              e.target.value.replace(
+                                /http:\/\/|https:\/\//,
+                                "",
+                              ),
+                            )
+                          }
                         />
                       </div>
                     </div>
