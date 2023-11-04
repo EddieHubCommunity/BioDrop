@@ -186,6 +186,11 @@ export default function ManageSettings({
                           }
                         />
                       </div>
+                      <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
+                        <Link href="/docs/how-to-guides/premium">
+                          Learn more about custom domains
+                        </Link>
+                      </p>
                     </div>
                     <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
                       <Button primary={true} disabled={!enableForm}>

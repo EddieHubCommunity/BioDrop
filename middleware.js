@@ -23,7 +23,12 @@ export async function middleware(req) {
   const adminUsers = process.env.ADMIN_USERS.split(",");
 
   // check if custom domain
-  if (reqPathName === "/") {
+  const hostedDomain = process.env.NEXT_PUBLIC_BASE_URL.replace(
+    /http:\/\/|https:\/\/|www./,
+    "",
+  );
+  if (hostname !== hostedDomain && reqPathName === "/") {
+    console.log("custom domain used: ", hostname);
     let res;
     let profile;
     let url = `${
@@ -48,6 +53,7 @@ export async function middleware(req) {
       profile.settings?.domain &&
       hostname === profile.settings.domain
     ) {
+      console.log("custom domain matched: ", profile.username, hostname);
       // if match found rewrite to custom domain and display profile page
       return NextResponse.rewrite(
         new URL(`/${profile.username}`, `http://${profile.settings.domain}`),
