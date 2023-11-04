@@ -24,7 +24,7 @@ export async function middleware(req) {
 
   // check if custom domain
   const hostedDomain = process.env.NEXT_PUBLIC_BASE_URL.replace(
-    /http:\/\/|https:\/\/|www./,
+    /http:\/\/|https:\/\//,
     "",
   );
   if (hostname !== hostedDomain && reqPathName === "/") {
