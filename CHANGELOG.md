@@ -1,3 +1,12 @@
+## [2.84.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.1...v2.84.2) (2023-11-05)
+
+
+### Bug Fixes
+
+* quickstart json docs with biodrop images ([#9714](https://github.com/EddieHubCommunity/BioDrop/issues/9714)) ([dac63b4](https://github.com/EddieHubCommunity/BioDrop/commit/dac63b42409252e9cb4eb3f0e90e4b6bf1fbf0c9))
+
+
+
 ## [2.84.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.0...v2.84.1) (2023-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typo in footer ([#9685](https://github.com/EddieHubCommunity/BioDrop/issues/9685)) ([e7541b4](https://github.com/EddieHubCommunity/BioDrop/commit/e7541b4fa61f943cdf0f8e33ba73ec7ac1d6bc1f))
-
-
-
-## [2.83.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.16...v2.83.17) (2023-10-31)
-
-
-### Bug Fixes
-
-* double border on input field in icons page ([#9663](https://github.com/EddieHubCommunity/BioDrop/issues/9663)) ([4f88584](https://github.com/EddieHubCommunity/BioDrop/commit/4f88584e72837e7daae9de66d2fe12b2f3fcacf0))
 
 
 
