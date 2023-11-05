@@ -178,6 +178,24 @@ function UserProfile({ BASE_URL, data }) {
                   </p>
                 </ClipboardCopy>
               </div>
+              <div className="mt-5 space-y-4 items-center justify-center w-full overflow-hidden">
+                <h5 className="font-medium text-lg">Embed Profile</h5>
+                <ClipboardCopy>
+                  <p className="dark:text-gray-300 border p-3 rounded-md">
+                    {`[![${data.username} | BioDrop](${BASE_URL}/${data.username}?embed)](${BASE_URL}/${data.username})`}
+                  </p>
+                </ClipboardCopy>
+                <ClipboardCopy>
+                  <p className="dark:text-gray-300 border p-3 rounded-md">
+                    {`![<img src="${BASE_URL}/${data.username}?embed" />](${BASE_URL}/${data.username})`}
+                  </p>
+                </ClipboardCopy>
+                <ClipboardCopy>
+                  <p className="dark:text-gray-300 border p-3 rounded-md">
+                    {`<a href="${BASE_URL}/${data.username}"><img src="${BASE_URL}/${data.username}?embed" /></a>`}
+                  </p>
+                </ClipboardCopy> 
+              </div>
             </>
           )}
         </div>
