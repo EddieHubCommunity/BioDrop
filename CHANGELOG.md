@@ -1,3 +1,12 @@
+## [2.84.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.0...v2.84.1) (2023-11-05)
+
+
+### Bug Fixes
+
+* biodrop image for map ([#9715](https://github.com/EddieHubCommunity/BioDrop/issues/9715)) ([86741c6](https://github.com/EddieHubCommunity/BioDrop/commit/86741c64d35c996e202cb9de678f47fc1e7b70b9))
+
+
+
 # [2.84.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.19...v2.84.0) (2023-11-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * double border on input field in icons page ([#9663](https://github.com/EddieHubCommunity/BioDrop/issues/9663)) ([4f88584](https://github.com/EddieHubCommunity/BioDrop/commit/4f88584e72837e7daae9de66d2fe12b2f3fcacf0))
-
-
-
-## [2.83.16](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.15...v2.83.16) (2023-10-30)
-
-
-### Bug Fixes
-
-* icon alignment issue in tabs ([#9681](https://github.com/EddieHubCommunity/BioDrop/issues/9681)) ([41a40f9](https://github.com/EddieHubCommunity/BioDrop/commit/41a40f9ad0ff9baeee286bd0a5d68291d983c39c))
 
 
 
