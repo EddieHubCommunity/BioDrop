@@ -1,6 +1,7 @@
 import DocsLayout from "@components/layouts/DocsLayout.js";
 import ClipboardCopy from "@components/ClipboardCopy";
 import Link from "@components/Link";
+import Alert from "@components/Alert.js";
 
 ## Premium Features
 
@@ -16,11 +17,37 @@ You can use the toggles to hide/show the header or footer from your Profile.
 
 ### Custom Domain
 
-You can use your own domain name for your Profile. This is a great way to make your Profile look more professional.
+You can use your own domain for your Profile. This is a great way to make your Profile look more professional.
 
 In the Premium section on manage your profile, add the domain name you want to use. You will need to add a CNAME record to your DNS settings for your domain name. The CNAME record should point to `biodrop.io`.
 
 ![Premium Page example](https://github.com/EddieHubCommunity/BioDrop/assets/624760/468d3be0-e8c2-4be2-85d5-26436c8aa0ab)
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      When using your custom domain, the header and footer will be hidden by default.
+    </>
+  }
+/>
+
+You will also need to update your domain's DNS to point to BioDrop.
+
+You can do this by adding an `A` record for your apex domain `@` that points to `76.76.21.21`.
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      These changes can take up to 48 hours to have an effect.
+    </>
+  }
+/>
+
+![DNS screenshot](https://github.com/EddieHubCommunity/BioDrop/assets/624760/cc5e696a-8c98-4aa2-b92d-1d5c4d68ef18)
 
 export default ({ children }) => (
   <DocsLayout
