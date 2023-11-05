@@ -155,7 +155,7 @@ export default function Home({
       name: PROJECT_NAME + " Map",
       description: "Discover people around the world from the BioDrop Map.",
       imageSrc:
-        "https://user-images.githubusercontent.com/109926117/234534991-d2d3468e-2d13-4088-ad38-39f2d0cfa63d.png",
+        "https://user-images.githubusercontent.com/43419831/279958647-a815844e-ca8e-48e1-8362-5cc1f48063d6.png",
       imageAlt: PROJECT_NAME + " screenshot of Map Page",
     },
     {
