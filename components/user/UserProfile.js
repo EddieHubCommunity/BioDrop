@@ -187,12 +187,12 @@ function UserProfile({ BASE_URL, data }) {
                 </ClipboardCopy>
                 <ClipboardCopy>
                   <p className="dark:text-gray-300 border p-3 rounded-md">
-                    {`![<img src="${BASE_URL}/${data.username}?embed" />](${BASE_URL}/${data.username})`}
+                    {`[<img src="${BASE_URL}/${data.username}?embed" />](${BASE_URL}/${data.username})`}
                   </p>
                 </ClipboardCopy>
                 <ClipboardCopy>
                   <p className="dark:text-gray-300 border p-3 rounded-md">
-                    {`<a href="${BASE_URL}/${data.username}"><img src="${BASE_URL}/${data.username}?embed" /></a>`}
+                    {`<a href="${BASE_URL}/${data.username}"><img src="${BASE_URL}/${data.username}?embed" alt="${data.username} | BioDrop" /></a>`}
                   </p>
                 </ClipboardCopy> 
               </div>
