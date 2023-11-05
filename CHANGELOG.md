@@ -1,3 +1,12 @@
+## [2.84.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.2...v2.84.3) (2023-11-05)
+
+
+### Bug Fixes
+
+* z-index icon notification ([#9726](https://github.com/EddieHubCommunity/BioDrop/issues/9726)) ([1630c83](https://github.com/EddieHubCommunity/BioDrop/commit/1630c8349f693d5fef1067ae6beb194bb3487932))
+
+
+
 ## [2.84.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.1...v2.84.2) (2023-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update dependencies ([#9639](https://github.com/EddieHubCommunity/BioDrop/issues/9639)) ([7518764](https://github.com/EddieHubCommunity/BioDrop/commit/7518764aa41133e8c5c959e7c5551b1a7dc881d9))
-
-
-
-## [2.83.18](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.17...v2.83.18) (2023-10-31)
-
-
-### Bug Fixes
-
-* typo in footer ([#9685](https://github.com/EddieHubCommunity/BioDrop/issues/9685)) ([e7541b4](https://github.com/EddieHubCommunity/BioDrop/commit/e7541b4fa61f943cdf0f8e33ba73ec7ac1d6bc1f))
 
 
 
