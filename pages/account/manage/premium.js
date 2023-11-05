@@ -76,9 +76,7 @@ export default function ManageSettings({
         show: true,
         type: "error",
         message: "Profile settings update failed",
-        additionalMessage: `Please check the fields: ${Object.keys(
-          updatedSettings.message,
-        ).join(", ")}`,
+        additionalMessage: updatedSettings.message,
       });
     }
 
@@ -187,6 +185,7 @@ export default function ManageSettings({
                         />
                       </div>
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
+                        Clear and save to remove domain.{" "}
                         <Link href="/docs/how-to-guides/premium">
                           Learn more about custom domains
                         </Link>

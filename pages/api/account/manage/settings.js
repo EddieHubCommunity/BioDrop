@@ -32,6 +32,13 @@ export default async function handler(req, res) {
   return res.status(200).json(profile);
 }
 
+async function updateDomain(username, domain = "") {
+  await Profile.findOneAndUpdate(
+    { username },
+    { source: "database", settings: { domain } },
+  );
+}
+
 export async function getSettingsApi(username) {
   await connectMongo();
   const log = logger.child({ username });
@@ -72,7 +79,9 @@ export async function updateSettingsApi(context, username, data) {
     );
     log.info(`profile premium settings updated for username: ${username}`);
   } catch (e) {
-    log.error(e, `failed to updated profile premium for username: ${username}`);
+    const error = `failed to updated profile premium for username: ${username}`;
+    log.error(e, error);
+    return { error };
   }
 
   beforeUpdate.domain = beforeUpdate.domain.replaceAll("|", "."); // TODO: use getter/setter instead
@@ -101,10 +110,10 @@ export async function updateSettingsApi(context, username, data) {
           `domain ${beforeUpdate.domain} removed for: ${username}`,
         );
       } catch (e) {
-        log.error(
-          e,
-          `failed to remove previous project custom domain for username: ${username}`,
-        );
+        updateDomain(username, beforeUpdate.domain);
+        const error = `failed to remove previous project custom domain for username: ${username}`;
+        log.error(e, error);
+        return { error };
       }
 
       log.info(
@@ -125,10 +134,10 @@ export async function updateSettingsApi(context, username, data) {
           `domain ${beforeUpdate.domain} removed for: ${username}`,
         );
       } catch (e) {
-        log.error(
-          e,
-          `failed to remove previous team custom domain for username: ${username}`,
-        );
+        updateDomain(username, beforeUpdate.domain);
+        const error = `failed to remove previous team custom domain for username: ${username}`;
+        log.error(e, error);
+        return { error };
       }
     }
 
@@ -139,6 +148,8 @@ export async function updateSettingsApi(context, username, data) {
       );
       let domainAddRes;
       const domainAddUrl = `https://api.vercel.com/v5/domains?teamId=${serverEnv.VERCEL_TEAM_ID}`;
+      const domainAddUrlError = `failed to add new team custom domain "${data.domain}" for username: ${username}`;
+      let domainAddJson;
       try {
         domainAddRes = await fetch(domainAddUrl, {
           method: "POST",
@@ -148,16 +159,21 @@ export async function updateSettingsApi(context, username, data) {
           },
           body: JSON.stringify({ name: data.domain }),
         });
-        const domainAddJson = await domainAddRes.json();
+        domainAddJson = await domainAddRes.json();
         log.info(
           domainAddJson,
           `domain ${data.domain} added to team for: ${username}`,
         );
       } catch (e) {
-        log.error(
-          e,
-          `failed to add new team custom domain "${data.domain}" for username: ${username}`,
-        );
+        updateDomain(username, beforeUpdate.domain);
+        log.error(e, domainAddUrlError);
+        return { error: domainAddUrlError };
+      }
+
+      if (domainAddJson.error) {
+        updateDomain(username, beforeUpdate.domain);
+        log.error(domainAddUrlError);
+        return { error: domainAddUrlError };
       }
 
       log.info(
@@ -165,6 +181,8 @@ export async function updateSettingsApi(context, username, data) {
       );
       let domainProjectAddRes;
       const domainProjectAddUrl = `https://api.vercel.com/v10/projects/${serverEnv.VERCEL_PROJECT_ID}/domains?teamId=${serverEnv.VERCEL_TEAM_ID}`;
+      const domainProjectAddJsonError = `failed to add new project custom domain "${data.domain}" for username: ${username}`;
+      let domainProjectAddJson;
       try {
         domainProjectAddRes = await fetch(domainProjectAddUrl, {
           method: "POST",
@@ -174,16 +192,20 @@ export async function updateSettingsApi(context, username, data) {
           },
           body: JSON.stringify({ name: data.domain }),
         });
-        const domainProjectAddJson = await domainProjectAddRes.json();
+        domainProjectAddJson = await domainProjectAddRes.json();
         log.info(
           domainProjectAddJson,
           `domain ${data.domain} added to project for: ${username}`,
         );
       } catch (e) {
-        log.error(
-          e,
-          `failed to add new project custom domain "${data.domain}" for username: ${username}`,
-        );
+        log.error(e, domainProjectAddJsonError);
+        return { error: domainProjectAddJsonError };
+      }
+
+      if (domainProjectAddJson.error) {
+        updateDomain(username, beforeUpdate.domain);
+        log.error(domainProjectAddJsonError);
+        return { error: domainProjectAddJsonError };
       }
     }
   }
