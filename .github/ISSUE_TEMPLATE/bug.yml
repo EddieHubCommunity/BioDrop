@@ -51,8 +51,8 @@ body:
   - type: textarea
     id: extrainfo
     attributes:
-      label: If you want to work on this issue...
-      description: Please explain how you would technically resolve this feature (for example the code changes you would make)
+      label: If "yes" to above, please explain how you would technically implement this
+      description: For example reference any existing code
     validations:
       required: false
   - type: markdown
