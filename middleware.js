@@ -25,6 +25,7 @@ export async function middleware(req) {
   const adminRequired = ["/admin", "/api/admin"];
   const adminUsers = process.env.ADMIN_USERS.split(",");
 
+  console.log(`domain used "${hostname}" with path "${reqPathName}"`);
   // if custom domain + on root path
   if (hostname !== req.nextUrl.host && reqPathName === "/") {
     console.log(`custom domain used: "${hostname}"`);
@@ -54,7 +55,7 @@ export async function middleware(req) {
       profile.settings.domain === hostname
     ) {
       console.log(
-        `custom domain matched "${hostname}" for username "${profile.username}"`,
+        `custom domain matched "${hostname}" for username "${profile.username}" (protocol: "${protocol}"))`,
       );
       // if match found rewrite to custom domain and display profile page
       return NextResponse.rewrite(
@@ -64,6 +65,8 @@ export async function middleware(req) {
         ),
       );
     }
+
+    console.error(`custom domain NOT matched "${hostname}"`);
   }
 
   // if not in sessionRequired or adminRequired, skip
