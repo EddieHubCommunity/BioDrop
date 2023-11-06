@@ -55,6 +55,7 @@ export default function ManageSettings({
   });
   const [hideNavbar, setHideNavbar] = useState(settings.hideNavbar || false);
   const [hideFooter, setHideFooter] = useState(settings.hideFooter || false);
+  const [vercel, setVercel] = useState(settings.vercel);
   const [domain, setDomain] = useState(
     settings.domain?.replaceAll("|", ".") || "",
   ); // TODO: use getter/setter instead
@@ -79,6 +80,9 @@ export default function ManageSettings({
         additionalMessage: updatedSettings.message,
       });
     }
+
+    setDomain(updatedSettings.domain.replaceAll("|", ".") || "");
+    setVercel(updatedSettings.vercel);
 
     return setShowNotification({
       show: true,
@@ -174,14 +178,15 @@ export default function ManageSettings({
                           label={`Domain (for example: ${username}.io)`}
                           value={domain}
                           disabled={!enableForm}
-                          onChange={(e) =>
+                          onChange={(e) => {
+                            setVercel({});
                             setDomain(
                               e.target.value.replace(
                                 /http:\/\/|https:\/\//,
                                 "",
                               ),
-                            )
-                          }
+                            );
+                          }}
                         />
                       </div>
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
@@ -190,6 +195,19 @@ export default function ManageSettings({
                           Learn more about custom domains
                         </Link>
                       </p>
+                      {vercel?.misconfigured !== undefined &&
+                        domain?.length > 0 && (
+                          <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
+                            {vercel.misconfigured ? (
+                              <Alert type="error" message="DNS misconfigured" />
+                            ) : (
+                              <Alert
+                                type="success"
+                                message="DNS correctly configured"
+                              />
+                            )}
+                          </p>
+                        )}
                     </div>
                     <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
                       <Button primary={true} disabled={!enableForm}>

@@ -39,6 +39,38 @@ async function updateDomain(username, domain = "") {
   );
 }
 
+async function vercelDomainStatus(username, domain) {
+  const log = logger.child({ username });
+  let domainRes;
+  const domainUrl = `https://api.vercel.com/v10/domains/${domain}/config?teamId=${serverEnv.VERCEL_TEAM_ID}`;
+  const domainUrlError = `failed get status for custom domain "${domain}" for username: ${username}`;
+  let domainJson;
+  try {
+    domainRes = await fetch(domainUrl, {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
+        "Content-Type": "application/json",
+      },
+    });
+    domainJson = await domainRes.json();
+    log.info(
+      domainJson,
+      `retrieve domain status for ${domain} for: ${username}`,
+    );
+  } catch (e) {
+    log.error(e, domainUrlError);
+    return { error: domainUrlError };
+  }
+
+  if (domainJson.error) {
+    log.error(domainUrlError);
+    return { error: domainUrlError };
+  }
+
+  return domainJson;
+}
+
 export async function getSettingsApi(username) {
   await connectMongo();
   const log = logger.child({ username });
@@ -50,7 +82,17 @@ export async function getSettingsApi(username) {
     return { error: "Profile not found." };
   }
 
-  return JSON.parse(JSON.stringify(getProfile.settings));
+  let data = { ...getProfile.settings };
+
+  if (getProfile.settings?.domain) {
+    const vercel = await vercelDomainStatus(
+      username,
+      getProfile.settings.domain,
+    );
+    data.vercel = vercel;
+  }
+
+  return JSON.parse(JSON.stringify(data));
 }
 
 export async function updateSettingsApi(context, username, data) {
@@ -83,6 +125,7 @@ export async function updateSettingsApi(context, username, data) {
     log.error(e, error);
     return { error };
   }
+  let result = { ...getProfile.settings };
 
   beforeUpdate.domain = beforeUpdate.domain.replaceAll("|", "."); // TODO: use getter/setter instead
   if (data.domain !== beforeUpdate.domain) {
@@ -207,6 +250,14 @@ export async function updateSettingsApi(context, username, data) {
         log.error(domainProjectAddJsonError);
         return { error: domainProjectAddJsonError };
       }
+
+      if (getProfile.settings?.domain) {
+        const vercel = await vercelDomainStatus(
+          username,
+          getProfile.settings.domain,
+        );
+        result.vercel = vercel;
+      }
     }
   }
 
@@ -224,5 +275,5 @@ export async function updateSettingsApi(context, username, data) {
     );
   }
 
-  return JSON.parse(JSON.stringify(getProfile.settings));
+  return JSON.parse(JSON.stringify(result));
 }
