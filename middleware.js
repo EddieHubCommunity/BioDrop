@@ -28,9 +28,10 @@ export async function middleware(req) {
     /http:\/\/|https:\/\//,
     "",
   );
+  const hostedDomains = [hostedDomain, `www.${hostedDomain}`];
 
   // if custom domain + on root path
-  if (hostname !== hostedDomain && reqPathName === "/") {
+  if (!hostedDomains.includes(hostname) && reqPathName === "/") {
     console.log(`custom domain used: "${hostname}"`);
 
     let res;
@@ -58,7 +59,7 @@ export async function middleware(req) {
       profile.settings.domain === hostname
     ) {
       console.log(
-        `custom domain matched "${hostname}" for username "${profile.username}" (protocol: "${protocol}"))`,
+        `custom domain matched "${hostname}" for username "${profile.username}" (protocol: "${protocol}")`,
       );
       // if match found rewrite to custom domain and display profile page
       return NextResponse.rewrite(

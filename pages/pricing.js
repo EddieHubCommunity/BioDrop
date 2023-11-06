@@ -185,9 +185,14 @@ export default function Premium({ user }) {
           tiers: { Free: false, Premium: true },
         },
         {
-          name: "Hide sign up button",
+          name: "Removed Button",
           description:
-            "Automatically removes the sign up button from your Profile",
+            'Automatically removes the "Create your Profile" button from your Profile',
+          tiers: { Free: false, Premium: true },
+        },
+        {
+          name: "Custom Domain",
+          description: "Use your own domain for your Profile",
           tiers: { Free: false, Premium: true },
         },
       ],
