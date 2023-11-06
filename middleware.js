@@ -24,14 +24,13 @@ export async function middleware(req) {
   const sessionRequired = ["/account", "/api/account"];
   const adminRequired = ["/admin", "/api/admin"];
   const adminUsers = process.env.ADMIN_USERS.split(",");
-
-  console.log(
-    `domain used "${hostname}" with path "${reqPathName}"`,
-    `Request Url "${req.url}"`,
-    `Req nextUrl "${req.nextUrl.host}"`,
+  const hostedDomain = process.env.NEXT_PUBLIC_BASE_URL.replace(
+    /http:\/\/|https:\/\//,
+    "",
   );
+
   // if custom domain + on root path
-  if (hostname !== req.nextUrl.host && reqPathName === "/") {
+  if (hostname !== hostedDomain && reqPathName === "/") {
     console.log(`custom domain used: "${hostname}"`);
 
     let res;
