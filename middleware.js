@@ -1,6 +1,8 @@
 import { getToken } from "next-auth/jwt";
 import { NextResponse } from "next/server";
 
+// note: logger is not available in middleware, using console.log instead
+
 export const config = {
   matcher: [
     "/",
@@ -16,15 +18,16 @@ export const config = {
 };
 
 export async function middleware(req) {
+  const protocol = process.env.NODE_ENV === "development" ? "http" : "https";
   const hostname = req.headers.get("host");
   const reqPathName = req.nextUrl.pathname;
   const sessionRequired = ["/account", "/api/account"];
   const adminRequired = ["/admin", "/api/admin"];
   const adminUsers = process.env.ADMIN_USERS.split(",");
 
-  // if custom domain
+  // if custom domain + on root path
   if (hostname !== req.nextUrl.host && reqPathName === "/") {
-    console.log("custom domain used: ", hostname);
+    console.log(`custom domain used: "${hostname}"`);
 
     let res;
     let profile;
@@ -45,15 +48,20 @@ export async function middleware(req) {
     }
 
     if (
-      profile.username &&
+      profile?.username &&
       profile.user.type === "premium" &&
       profile.settings?.domain &&
       profile.settings.domain === hostname
     ) {
-      console.log("custom domain matched: ", profile.username, hostname);
+      console.log(
+        `custom domain matched "${hostname}" for username "${profile.username}"`,
+      );
       // if match found rewrite to custom domain and display profile page
       return NextResponse.rewrite(
-        new URL(`/${profile.username}`, `http://${profile.settings.domain}`),
+        new URL(
+          `/${profile.username}`,
+          `${protocol}://${profile.settings.domain}`,
+        ),
       );
     }
   }
