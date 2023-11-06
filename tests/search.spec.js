@@ -70,18 +70,19 @@ test("Search term persistence after navigating back", async ({ page }) => {
   // 1. Perform search
   await page.goto("/search");
   const input = page.locator("[name='keyword']");
-  const searchTerm = "eddiejaoude";
+  const searchTerm = "_test-profile-user-1";
+  const searchName = "Test User Name 1"
   await input.fill(searchTerm);
 
   // 2. Navigate to profile
-  await expect(page).toHaveURL("/search?userSearchParam=eddiejaoude");
+  await expect(page).toHaveURL(`/search?userSearchParam=${searchTerm}`);
   await page.waitForLoadState("networkidle");
-  await page.locator("h3:has-text('eddiejaoude')").click();
-  await page.waitForLoadState("networkidle");
+  await page.locator(`a h3:has-text('${searchTerm}')`).click();
+  await page.waitForURL(`/${searchTerm}`);
 
   // 3. Check if the profile is displayed
-  await expect(page).toHaveURL("/eddiejaoude");
-  await expect(page.locator("h1")).toHaveText("Eddie Jaoude");
+  await expect(page).toHaveURL(`/${searchTerm}`);
+  await expect(page.locator("h1")).toHaveText(`${searchName}`);
 
   // 4. Go back and check that search term is still here
   await page.goBack();
@@ -93,6 +94,7 @@ test("Search term persistence after navigating back", async ({ page }) => {
 });
 
 test("find the profile after providing concise name", async ({ page }) => {
+  const searchTerm = "_test-profile-user-1";
   // 1. Start from the homepage
   await page.goto("/");
 
@@ -104,12 +106,12 @@ test("find the profile after providing concise name", async ({ page }) => {
 
   // 3. find the input field and type the whole name
   const input = page.locator("[name='keyword']");
-  await input.fill("eddiejaoude");
+  await input.fill(searchTerm);
 
   // 4. select and click on the profile by matching name string
-  const profileHeader = page.locator("h3:has-text('eddiejaoude')");
+  const profileHeader = page.locator(`h3:has-text('${searchTerm}')`);
   const profileHeaderText = await profileHeader.innerText();
-  await expect(profileHeaderText).toContain("eddiejaoude");
+  await expect(profileHeaderText).toContain(searchTerm);
 });
 
 test.describe("accessibility tests (light)", () => {
