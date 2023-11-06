@@ -105,6 +105,15 @@ export const navigation = [
     ],
   },
   {
+    name: "Premium",
+    // icon: ChartPieIcon,
+    children: [
+      { name: "Auto", href: "/docs/premium/auto" },
+      { name: "Customisation", href: "/docs/premium/customisation" },
+      { name: "Custom Domain", href: "/docs/premium/domain" },
+    ],
+  },
+  {
     name: "Other",
     // icon: ChartPieIcon,
     children: [
