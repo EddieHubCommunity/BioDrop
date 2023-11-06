@@ -1,3 +1,12 @@
+## [2.84.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.4...v2.84.5) (2023-11-06)
+
+
+### Bug Fixes
+
+* test profiles ([#9739](https://github.com/EddieHubCommunity/BioDrop/issues/9739)) ([fc5ba2d](https://github.com/EddieHubCommunity/BioDrop/commit/fc5ba2d555f3558682834272edec48a9baff1b70))
+
+
+
 ## [2.84.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.3...v2.84.4) (2023-11-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * biodrop image for map ([#9715](https://github.com/EddieHubCommunity/BioDrop/issues/9715)) ([86741c6](https://github.com/EddieHubCommunity/BioDrop/commit/86741c64d35c996e202cb9de678f47fc1e7b70b9))
-
-
-
-# [2.84.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.83.19...v2.84.0) (2023-11-01)
-
-
-### Features
-
-* admin list not enabled proiles ([#9709](https://github.com/EddieHubCommunity/BioDrop/issues/9709)) ([24bf515](https://github.com/EddieHubCommunity/BioDrop/commit/24bf5151222058841067311fa138c60dcd52ef05))
 
 
 
