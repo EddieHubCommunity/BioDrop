@@ -203,6 +203,11 @@ export async function updateSettingsApi(context, username, data) {
           body: JSON.stringify({ name: data.domain }),
         });
         domainAddJson = await domainAddRes.json();
+        if (domainAddJson.error) {
+          updateDomain(username, beforeUpdate.domain);
+          log.error(domainAddUrlError);
+          return { error: domainAddUrlError };
+        }
         log.info(
           domainAddJson,
           `domain ${data.domain} added to team for: ${username}`,
@@ -210,12 +215,6 @@ export async function updateSettingsApi(context, username, data) {
       } catch (e) {
         updateDomain(username, beforeUpdate.domain);
         log.error(e, domainAddUrlError);
-        return { error: domainAddUrlError };
-      }
-
-      if (domainAddJson.error) {
-        updateDomain(username, beforeUpdate.domain);
-        log.error(domainAddUrlError);
         return { error: domainAddUrlError };
       }
 
@@ -236,18 +235,17 @@ export async function updateSettingsApi(context, username, data) {
           body: JSON.stringify({ name: data.domain }),
         });
         domainProjectAddJson = await domainProjectAddRes.json();
+        if (domainProjectAddJson.error) {
+          updateDomain(username, beforeUpdate.domain);
+          log.error(domainProjectAddJsonError);
+          return { error: domainProjectAddJsonError };
+        }
         log.info(
           domainProjectAddJson,
           `domain ${data.domain} added to project for: ${username}`,
         );
       } catch (e) {
         log.error(e, domainProjectAddJsonError);
-        return { error: domainProjectAddJsonError };
-      }
-
-      if (domainProjectAddJson.error) {
-        updateDomain(username, beforeUpdate.domain);
-        log.error(domainProjectAddJsonError);
         return { error: domainProjectAddJsonError };
       }
 
