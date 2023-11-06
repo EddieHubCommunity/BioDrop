@@ -25,7 +25,11 @@ export async function middleware(req) {
   const adminRequired = ["/admin", "/api/admin"];
   const adminUsers = process.env.ADMIN_USERS.split(",");
 
-  console.log(`domain used "${hostname}" with path "${reqPathName}"`);
+  console.log(
+    `domain used "${hostname}" with path "${reqPathName}"`,
+    `Request Url "${req.url}"`,
+    `Req nextUrl "${req.nextUrl.host}"`,
+  );
   // if custom domain + on root path
   if (hostname !== req.nextUrl.host && reqPathName === "/") {
     console.log(`custom domain used: "${hostname}"`);
