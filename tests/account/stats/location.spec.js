@@ -6,7 +6,7 @@ const premiumUser = {
   name: "Automated Test Premium User",
   email: "test-profile-user-6@test.com",
   username: "_test-profile-user-6",
-  type: "premium",
+  accountType: "premium",
 };
 
 test("Guest user cannot access premium locations stats", async ({
@@ -25,7 +25,7 @@ test("Logged in free user cannot access premium locations stats", async ({
   const page = await context.newPage();
   await page.goto("/account/statistics/locations");
   await page.waitForLoadState("networkidle");
-  await expect(page).toHaveURL(/account\/onboarding/);
+  await expect(page).toHaveURL(/\/pricing/);
 });
 
 test("Logged in premium user can access premium locations stats", async ({
@@ -46,7 +46,7 @@ test.describe("accessibility tests (light)", () => {
     const page = await context.newPage();
     await page.goto("/account/statistics/locations");
     const accessibilityScanResults = await new AxeBuilder({ page })
-      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      .withTags([ "wcag2a", "wcag2aa", "wcag21a", "wcag21aa" ])
       .analyze();
     expect(accessibilityScanResults.violations).toEqual([]);
   });
@@ -62,7 +62,7 @@ test.describe("accessibility tests (dark)", () => {
     const page = await context.newPage();
     await page.goto("/account/statistics/locations");
     const accessibilityScanResults = await new AxeBuilder({ page })
-      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      .withTags([ "wcag2a", "wcag2aa", "wcag21a", "wcag21aa" ])
       .analyze();
     expect(accessibilityScanResults.violations).toEqual([]);
   });

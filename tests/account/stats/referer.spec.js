@@ -23,7 +23,7 @@ test("Logged in free user cannot access premium referers stats", async ({
   const page = await context.newPage();
   await page.goto("/account/statistics/referers");
   await page.waitForLoadState("networkidle");
-  await expect(page).toHaveURL(/account\/onboarding/);
+  await expect(page).toHaveURL(/\/pricing/);
 });
 
 test("Logged in premium user can access premium referers stats", async ({
@@ -44,7 +44,7 @@ test.describe("accessibility tests (light)", () => {
     const page = await context.newPage();
     await page.goto("/account/statistics/referers");
     const accessibilityScanResults = await new AxeBuilder({ page })
-      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      .withTags([ "wcag2a", "wcag2aa", "wcag21a", "wcag21aa" ])
       .analyze();
     expect(accessibilityScanResults.violations).toEqual([]);
   });
@@ -60,7 +60,7 @@ test.describe("accessibility tests (dark)", () => {
     const page = await context.newPage();
     await page.goto("/account/statistics/referers");
     const accessibilityScanResults = await new AxeBuilder({ page })
-      .withTags(["wcag2a", "wcag2aa", "wcag21a", "wcag21aa"])
+      .withTags([ "wcag2a", "wcag2aa", "wcag21a", "wcag21aa" ])
       .analyze();
     expect(accessibilityScanResults.violations).toEqual([]);
   });

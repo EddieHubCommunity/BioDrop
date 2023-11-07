@@ -60,6 +60,12 @@ export const authOptions = {
         token.id = profile.id;
         token.username = profile.login;
       }
+      const user = await User.findOne({ _id: token.sub });
+      if (user) {
+        token.accountType = user.type;
+      } else {
+        token.accountType = "free";
+      }
       return token;
     },
     async session({ session, token }) {
@@ -122,13 +128,13 @@ export const authOptions = {
             upsert: true,
           },
         );
-        const link = await Link.create([defaultLink(profile._id)], {
+        const link = await Link.create([ defaultLink(profile._id) ], {
           new: true,
         });
         profile = await Profile.findOneAndUpdate(
           { username },
           {
-            $push: { links: new ObjectId(link[0]._id) },
+            $push: { links: new ObjectId(link[ 0 ]._id) },
           },
           { new: true },
         );
@@ -159,13 +165,13 @@ export const authOptions = {
       // add github link to profile if no links exist
       if (profile.links.length === 0) {
         logger.info("no links found for: ", username);
-        const link = await Link.create([defaultLink(profile._id)], {
+        const link = await Link.create([ defaultLink(profile._id) ], {
           new: true,
         });
         await Profile.findOneAndUpdate(
           { username },
           {
-            $push: { links: new ObjectId(link[0]._id) },
+            $push: { links: new ObjectId(link[ 0 ]._id) },
           },
         );
       }

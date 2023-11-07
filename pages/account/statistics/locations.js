@@ -20,15 +20,6 @@ export async function getServerSideProps(context) {
   const { req, res } = context;
   const session = await getServerSession(req, res, authOptions);
 
-  if (session.accountType !== "premium") {
-    return {
-      redirect: {
-        destination: "/account/onboarding",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const { status, profile } = await getUserApi(req, res, username);
   if (status !== 200) {
@@ -50,7 +41,7 @@ export async function getServerSideProps(context) {
     stats = Object.keys(profile.stats.countries)
       .map((country) => ({
         country,
-        value: profile.stats.countries[country],
+        value: profile.stats.countries[ country ],
       }))
       .sort((a, b) => b.value - a.value);
   }
@@ -99,14 +90,14 @@ export default function Locations({ stats }) {
               </th>
             </tr>
           </thead>
-          <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
+          <tbody className="bg-white divide-y divide-primary-low dark:divide-primary-medium dark:bg-primary-high">
             {stats &&
               stats.map((item) => (
                 <tr key={item.country}>
-                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
+                  <td className="py-4 pl-4 pr-3 text-sm font-medium md:whitespace-nowrap text-primary-high dark:text-primary-low sm:pl-6">
                     {item.country}
                   </td>
-                  <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
+                  <td className="px-3 py-4 text-sm whitespace-nowrap text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(item.value)}
                   </td>
                 </tr>
