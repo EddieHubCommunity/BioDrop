@@ -71,13 +71,13 @@ test("Search term persistence after navigating back", async ({ page }) => {
   await page.goto("/search");
   const input = page.locator("[name='keyword']");
   const searchTerm = "_test-profile-user-1";
-  const searchName = "Test User Name 1"
+  const searchName = "Test User Name 1";
   await input.fill(searchTerm);
 
   // 2. Navigate to profile
   await expect(page).toHaveURL(`/search?userSearchParam=${searchTerm}`);
   await page.waitForLoadState("networkidle");
-  await page.locator(`a h3:has-text('${searchTerm}')`).click();
+  await page.locator(`a h2:has-text('${searchTerm}')`).click();
   await page.waitForURL(`/${searchTerm}`);
 
   // 3. Check if the profile is displayed
@@ -109,7 +109,7 @@ test("find the profile after providing concise name", async ({ page }) => {
   await input.fill(searchTerm);
 
   // 4. select and click on the profile by matching name string
-  const profileHeader = page.locator(`h3:has-text('${searchTerm}')`);
+  const profileHeader = page.locator(`h2:has-text('${searchTerm}')`);
   const profileHeaderText = await profileHeader.innerText();
   await expect(profileHeaderText).toContain(searchTerm);
 });
