@@ -171,7 +171,7 @@ export default function Onboarding({ profile, progress }) {
           <Button
             href={`/${profile.username}`}
             className={"gap-4"}
-            disable={!cards[0].isEdit}
+            disabled={!cards[0].isEdit}
           >
             <FaArrowUpRightFromSquare className="w-4 h-4" /> View Profile
           </Button>

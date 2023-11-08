@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth/next";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
+import { serverEnv } from "@config/schemas/serverSchema";
 import Profile from "@models/Profile";
 import logChange from "@models/middlewares/logChange";
 
@@ -31,6 +32,45 @@ export default async function handler(req, res) {
   return res.status(200).json(profile);
 }
 
+async function updateDomain(username, domain = "") {
+  await Profile.findOneAndUpdate(
+    { username },
+    { source: "database", settings: { domain } },
+  );
+}
+
+async function vercelDomainStatus(username, domain) {
+  const log = logger.child({ username });
+  let domainRes;
+  const domainUrl = `https://api.vercel.com/v10/domains/${domain}/config?teamId=${serverEnv.VERCEL_TEAM_ID}`;
+  const domainUrlError = `failed get status for custom domain "${domain}" for username: ${username}`;
+  let domainJson;
+  try {
+    domainRes = await fetch(domainUrl, {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
+        "Content-Type": "application/json",
+      },
+    });
+    domainJson = await domainRes.json();
+    log.info(
+      domainJson,
+      `retrieve domain status for ${domain} for: ${username}`,
+    );
+  } catch (e) {
+    log.error(e, domainUrlError);
+    return { error: domainUrlError };
+  }
+
+  if (domainJson.error) {
+    log.error(domainUrlError);
+    return { error: domainUrlError };
+  }
+
+  return domainJson;
+}
+
 export async function getSettingsApi(username) {
   await connectMongo();
   const log = logger.child({ username });
@@ -42,7 +82,17 @@ export async function getSettingsApi(username) {
     return { error: "Profile not found." };
   }
 
-  return JSON.parse(JSON.stringify(getProfile.settings));
+  let data = { ...getProfile.settings };
+
+  if (getProfile.settings?.domain) {
+    const vercel = await vercelDomainStatus(
+      username,
+      getProfile.settings.domain,
+    );
+    data.vercel = vercel;
+  }
+
+  return JSON.parse(JSON.stringify(data));
 }
 
 export async function updateSettingsApi(context, username, data) {
@@ -58,10 +108,12 @@ export async function updateSettingsApi(context, username, data) {
     return { error: e.errors };
   }
 
+  const update = { ...beforeUpdate, ...data };
+  update.domain = update.domain.replaceAll(".", "|"); // TODO: use getter/setter instead
   try {
     getProfile = await Profile.findOneAndUpdate(
       { username },
-      { source: "database", settings: data },
+      { source: "database", settings: update },
       {
         upsert: true,
         new: true,
@@ -69,7 +121,142 @@ export async function updateSettingsApi(context, username, data) {
     );
     log.info(`profile premium settings updated for username: ${username}`);
   } catch (e) {
-    log.error(e, `failed to updated profile premium for username: ${username}`);
+    const error = `failed to updated profile premium for username: ${username}`;
+    log.error(e, error);
+    return { error };
+  }
+  let result = { ...getProfile.settings };
+
+  beforeUpdate.domain = beforeUpdate.domain.replaceAll("|", "."); // TODO: use getter/setter instead
+  if (data.domain !== beforeUpdate.domain) {
+    log.info(
+      `trying to update profile premium settings domain for username: ${username}`,
+    );
+
+    // remove previous custom domain if exists
+    if (beforeUpdate.domain) {
+      log.info(
+        `attempting to remove existing domain "${beforeUpdate.domain}" from the project for: ${username}`,
+      );
+      let domainRemoveRes;
+      const domainRemoveUrl = `https://api.vercel.com/v9/projects/${serverEnv.VERCEL_PROJECT_ID}/domains/${beforeUpdate.domain}?teamId=${serverEnv.VERCEL_TEAM_ID}`;
+      try {
+        domainRemoveRes = await fetch(domainRemoveUrl, {
+          headers: {
+            Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
+          },
+          method: "DELETE",
+        });
+        const domainRemoveJson = await domainRemoveRes.json();
+        log.info(
+          domainRemoveJson,
+          `domain ${beforeUpdate.domain} removed for: ${username}`,
+        );
+      } catch (e) {
+        updateDomain(username, beforeUpdate.domain);
+        const error = `failed to remove previous project custom domain for username: ${username}`;
+        log.error(e, error);
+        return { error };
+      }
+
+      log.info(
+        `attempting to remove existing domain "${beforeUpdate.domain}" from team for: ${username}`,
+      );
+      let domainProjectRemoveRes;
+      const domainProjectRemoveUrl = `https://api.vercel.com/v6/domains/${beforeUpdate.domain}?teamId=${serverEnv.VERCEL_TEAM_ID}`;
+      try {
+        domainProjectRemoveRes = await fetch(domainProjectRemoveUrl, {
+          headers: {
+            Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
+          },
+          method: "DELETE",
+        });
+        const domainProjectRemoveJson = await domainProjectRemoveRes.json();
+        log.info(
+          domainProjectRemoveJson,
+          `domain ${beforeUpdate.domain} removed for: ${username}`,
+        );
+      } catch (e) {
+        updateDomain(username, beforeUpdate.domain);
+        const error = `failed to remove previous team custom domain for username: ${username}`;
+        log.error(e, error);
+        return { error };
+      }
+    }
+
+    // add new custom domain
+    if (data.domain) {
+      log.info(
+        `attempting to add domain "${data.domain}" to the team for: ${username}`,
+      );
+      let domainAddRes;
+      const domainAddUrl = `https://api.vercel.com/v5/domains?teamId=${serverEnv.VERCEL_TEAM_ID}`;
+      const domainAddUrlError = `failed to add new team custom domain "${data.domain}" for username: ${username}`;
+      let domainAddJson;
+      try {
+        domainAddRes = await fetch(domainAddUrl, {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ name: data.domain }),
+        });
+        domainAddJson = await domainAddRes.json();
+        if (domainAddJson.error) {
+          updateDomain(username, beforeUpdate.domain);
+          log.error(domainAddUrlError);
+          return { error: domainAddUrlError };
+        }
+        log.info(
+          domainAddJson,
+          `domain ${data.domain} added to team for: ${username}`,
+        );
+      } catch (e) {
+        updateDomain(username, beforeUpdate.domain);
+        log.error(e, domainAddUrlError);
+        return { error: domainAddUrlError };
+      }
+
+      log.info(
+        `attempting to add domain "${data.domain}" to the project for: ${username}`,
+      );
+      let domainProjectAddRes;
+      const domainProjectAddUrl = `https://api.vercel.com/v10/projects/${serverEnv.VERCEL_PROJECT_ID}/domains?teamId=${serverEnv.VERCEL_TEAM_ID}`;
+      const domainProjectAddJsonError = `failed to add new project custom domain "${data.domain}" for username: ${username}`;
+      let domainProjectAddJson;
+      try {
+        domainProjectAddRes = await fetch(domainProjectAddUrl, {
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ name: data.domain }),
+        });
+        domainProjectAddJson = await domainProjectAddRes.json();
+        if (domainProjectAddJson.error) {
+          updateDomain(username, beforeUpdate.domain);
+          log.error(domainProjectAddJsonError);
+          return { error: domainProjectAddJsonError };
+        }
+        log.info(
+          domainProjectAddJson,
+          `domain ${data.domain} added to project for: ${username}`,
+        );
+      } catch (e) {
+        log.error(e, domainProjectAddJsonError);
+        return { error: domainProjectAddJsonError };
+      }
+
+      if (getProfile.settings?.domain) {
+        const vercel = await vercelDomainStatus(
+          username,
+          getProfile.settings.domain,
+        );
+        result.vercel = vercel;
+      }
+    }
   }
 
   // Add to Changelog
@@ -86,5 +273,5 @@ export async function updateSettingsApi(context, username, data) {
     );
   }
 
-  return JSON.parse(JSON.stringify(getProfile.settings));
+  return JSON.parse(JSON.stringify(result));
 }

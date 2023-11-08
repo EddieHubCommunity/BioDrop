@@ -43,7 +43,7 @@ export async function getUserApi(req, res, username, options = {}) {
   }
 
   let ipLookupProm;
-  if (options.ip) {
+  if (options.ip && !options.ip.match(/127\.0\.0\.1/)) {
     try {
       ipLookupProm = fetch(`https://api.iplocation.net/?ip=${options.ip}`);
     } catch (e) {
@@ -203,7 +203,7 @@ export async function getUserApi(req, res, username, options = {}) {
       const referer = new URL(options.referer);
       increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
     }
-    if (options.ip) {
+    if (options.ip && !options.ip.match(/127\.0\.0\.1/)) {
       try {
         const ipLookupRes = await ipLookupProm;
         const ipLookup = await ipLookupRes.json();
@@ -230,7 +230,7 @@ export async function getUserApi(req, res, username, options = {}) {
         } catch (e) {
           log.error(
             e,
-            `failed to increment profile stats for username: ${username}`,
+            `failed to increment profile total stats for username: ${username}`,
           );
         }
       })(),
@@ -253,7 +253,7 @@ export async function getUserApi(req, res, username, options = {}) {
         } catch (e) {
           log.error(
             e,
-            "failed to increment profile stats for username: ${username}",
+            "failed to increment profile daily stats for username: ${username}",
           );
         }
       })(),

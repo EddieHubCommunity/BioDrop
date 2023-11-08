@@ -50,6 +50,15 @@ export async function getServerSideProps(context) {
     profile.cleanBio = profile.bio;
   }
 
+  // override hiding navbar and footer if custom domain matches
+  if (
+    profile.settings?.domain &&
+    profile.settings.domain.replaceAll("|", ".") === req.headers.host
+  ) {
+    profile.settings.hideNavbar = true;
+    profile.settings.hideFooter = true;
+  }
+
   return {
     props: {
       data: profile,
