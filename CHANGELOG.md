@@ -1,3 +1,12 @@
+## [2.85.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.0...v2.85.1) (2023-11-08)
+
+
+### Bug Fixes
+
+* heading strucuture fails WCAG 2.2AA ([#9631](https://github.com/EddieHubCommunity/BioDrop/issues/9631)) ([#9719](https://github.com/EddieHubCommunity/BioDrop/issues/9719)) ([ba6ea4f](https://github.com/EddieHubCommunity/BioDrop/commit/ba6ea4f0b2676ef72eb1abb907f55a6d3d5f750d)), closes [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581) [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581)
+
+
+
 # [2.85.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.5...v2.85.0) (2023-11-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * z-index icon notification ([#9726](https://github.com/EddieHubCommunity/BioDrop/issues/9726)) ([1630c83](https://github.com/EddieHubCommunity/BioDrop/commit/1630c8349f693d5fef1067ae6beb194bb3487932))
-
-
-
-## [2.84.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.1...v2.84.2) (2023-11-05)
-
-
-### Bug Fixes
-
-* quickstart json docs with biodrop images ([#9714](https://github.com/EddieHubCommunity/BioDrop/issues/9714)) ([dac63b4](https://github.com/EddieHubCommunity/BioDrop/commit/dac63b42409252e9cb4eb3f0e90e4b6bf1fbf0c9))
 
 
 
