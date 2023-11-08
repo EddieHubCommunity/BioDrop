@@ -229,7 +229,7 @@ export default function Navbar() {
             isOpen
               ? "transform translate-y-0 opacity-100"
               : "transform -translate-y-96 opacity-0",
-            "md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full",
+            "md:hidden dark:z-50 z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full",
           )}
           id="mobile-menu"
         >

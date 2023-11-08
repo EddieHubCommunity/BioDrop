@@ -13,6 +13,8 @@ import { getSettingsApi } from "pages/api/account/manage/settings";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
+import Input from "@components/form/Input";
+import Button from "@components/Button";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
@@ -45,28 +47,49 @@ export default function ManageSettings({
 }) {
   const router = useRouter();
   const { success } = router.query;
-  const [showNotification, setShowNotification] = useState(false);
+  const [showNotification, setShowNotification] = useState({
+    show: false,
+    type: "",
+    message: "",
+    additionalMessage: "",
+  });
   const [hideNavbar, setHideNavbar] = useState(settings.hideNavbar || false);
   const [hideFooter, setHideFooter] = useState(settings.hideFooter || false);
+  const [vercel, setVercel] = useState(settings.vercel);
+  const [domain, setDomain] = useState(
+    settings.domain?.replaceAll("|", ".") || "",
+  ); // TODO: use getter/setter instead
+  const [enableForm] = useState(accountType === "premium" ? true : false);
 
-  const toggle = async (setting) => {
-    if (accountType !== "premium") {
-      return;
-    }
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     const res = await fetch(`${BASE_URL}/api/account/manage/settings`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({
-        hideNavbar: setting === "hideNavbar" ? !hideNavbar : hideNavbar,
-        hideFooter: setting === "hideFooter" ? !hideFooter : hideFooter,
-      }),
+      body: JSON.stringify({ hideNavbar, hideFooter, domain }),
     });
     const updatedSettings = await res.json();
-    setShowNotification(true);
-    setHideNavbar(updatedSettings.hideNavbar);
-    setHideFooter(updatedSettings.hideFooter);
+
+    if (updatedSettings.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Profile settings update failed",
+        additionalMessage: updatedSettings.message,
+      });
+    }
+
+    setDomain(updatedSettings.domain.replaceAll("|", ".") || "");
+    setVercel(updatedSettings.vercel);
+
+    return setShowNotification({
+      show: true,
+      type: "success",
+      message: "Profile updated",
+      additionalMessage: "Your profile settings has been updated successfully",
+    });
   };
 
   return (
@@ -84,28 +107,49 @@ export default function ManageSettings({
           />
         )}
         <Navigation />
+
         <Notification
-          show={showNotification}
-          type="success"
-          onClose={() => setShowNotification(false)}
-          message="Premium updated"
-          additionalMessage="Your Profile Premium settings have been updated."
+          show={showNotification.show}
+          type={showNotification.type}
+          onClose={() =>
+            setShowNotification({ ...showNotification, show: false })
+          }
+          message={showNotification.message}
+          additionalMessage={showNotification.additionalMessage}
         />
+
         {accountType !== "premium" && (
           <Alert
             type="warning"
             message="These are Premium features. Please upgrade your account for these to take effect on your public Profile."
           />
         )}
-        <form>
+        <form onSubmit={handleSubmit}>
           <fieldset>
             <legend className="sr-only">Premium features</legend>
             <div className="sm:grid sm:grid-cols-3 sm:items-baseline sm:gap-4 sm:py-6">
-              <div
-                className="text-sm font-semibold leading-6 text-primary-medium dark:text-primary-low"
-                aria-hidden="true"
-              >
-                Premium features
+              <div>
+                <p
+                  className="font-semibold leading-6 text-primary-medium dark:text-primary-low"
+                  aria-hidden="true"
+                >
+                  Premium features
+                </p>
+                {accountType === "premium" && (
+                  <p
+                    className="text-sm leading-6 text-primary-medium dark:text-primary-low mt-4"
+                    aria-hidden="true"
+                  >
+                    For help with your Premium account settings:
+                    <br />
+                    <Link
+                      href={`${PREMIUM_SUPPORT_URL} (${username})`}
+                      target="_blank"
+                    >
+                      Contact Support
+                    </Link>
+                  </p>
+                )}
               </div>
               <div className="mt-1 sm:col-span-2 sm:mt-0">
                 <div className="max-w-lg">
@@ -116,16 +160,59 @@ export default function ManageSettings({
                     <div className="flex items-center gap-x-3">
                       <Toggle
                         text1="Hide Navbar on your Profile"
-                        enabled={accountType === "premium" && hideNavbar}
-                        setEnabled={() => toggle("hideNavbar")}
+                        enabled={enableForm && hideNavbar}
+                        setEnabled={setHideNavbar}
                       />
                     </div>
                     <div className="flex items-center gap-x-3">
                       <Toggle
                         text1="Hide Footer on your Profile"
-                        enabled={accountType === "premium" && hideFooter}
-                        setEnabled={() => toggle("hideFooter")}
+                        enabled={enableForm && hideFooter}
+                        setEnabled={setHideFooter}
                       />
+                    </div>
+                    <div className="col-span-3 sm:col-span-4">
+                      <div className="mt-1">
+                        <Input
+                          name="domain"
+                          label={`Domain (for example: ${username}.io)`}
+                          value={domain}
+                          disabled={!enableForm}
+                          onChange={(e) => {
+                            setVercel({});
+                            setDomain(
+                              e.target.value.replace(
+                                /http:\/\/|https:\/\//,
+                                "",
+                              ),
+                            );
+                          }}
+                        />
+                      </div>
+                      <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
+                        Clear and save to remove domain.{" "}
+                        <Link href="/docs/premium/domain">
+                          Learn more about custom domains
+                        </Link>
+                      </p>
+                      {vercel?.misconfigured !== undefined &&
+                        domain?.length > 0 && (
+                          <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
+                            {vercel.misconfigured ? (
+                              <Alert type="error" message="DNS misconfigured" />
+                            ) : (
+                              <Alert
+                                type="success"
+                                message="DNS correctly configured"
+                              />
+                            )}
+                          </p>
+                        )}
+                    </div>
+                    <div className="mt-10 border-t border-primary-low-medium/30 pt-6 sm:flex sm:items-center sm:justify-between">
+                      <Button primary={true} disabled={!enableForm}>
+                        SAVE
+                      </Button>
                     </div>
                   </div>
                 </div>
@@ -133,14 +220,6 @@ export default function ManageSettings({
             </div>
           </fieldset>
         </form>
-        {accountType === "premium" && (
-          <p>
-            For help with your Premium account settings:{" "}
-            <Link href={`${PREMIUM_SUPPORT_URL} (${username})`} target="_blank">
-              Contact Support
-            </Link>
-          </p>
-        )}
       </Page>
     </>
   );

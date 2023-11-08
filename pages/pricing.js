@@ -184,6 +184,17 @@ export default function Premium({ user }) {
             "Make your Profile standout with a Premium badge on your Profile",
           tiers: { Free: false, Premium: true },
         },
+        {
+          name: "Removed Button",
+          description:
+            'Automatically removes the "Create your Profile" button from your Profile',
+          tiers: { Free: false, Premium: true },
+        },
+        {
+          name: "Custom Domain",
+          description: "Use your own domain for your Profile",
+          tiers: { Free: false, Premium: true },
+        },
       ],
     },
     {
@@ -359,7 +370,7 @@ export default function Premium({ user }) {
                 <p className="mb-4">{tier.description}</p>
                 <Button
                   primary={true}
-                  disable={tier.button.isDisabled()}
+                  disabled={tier.button.isDisabled()}
                   aria-describedby={tier.id}
                   href={tier.button.action()}
                   onClick={() => tier.button.onClick()}
@@ -462,7 +473,7 @@ export default function Premium({ user }) {
                         </div>
                         <p className="mb-4">{tier.description}</p>
                         <Button
-                          disable={tier.button.isDisabled()}
+                          disabled={tier.button.isDisabled()}
                           primary={true}
                           href={tier.button.action()}
                           onClick={() => tier.button.onClick()}

@@ -1,0 +1,30 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
+import Alert from "@components/Alert.js";
+
+## Premium Features
+
+If you have a Premium account you have these extra features.
+
+### Premium Badge
+
+Automatically earn a Premium badge. This is shown on your Profile tags.
+
+![Premium Badge example](https://github.com/EddieHubCommunity/BioDrop/assets/624760/b2741e55-7359-4c73-b8bc-8364cba283e5)
+
+### Hidden "Create your BioDrop Profile" button
+
+The "Create your BioDrop Profile" button which is shown on Free accounts for visitors and users that are not logged in, is automatically hidden.
+
+![Create your BioDrop Profile example](https://github.com/EddieHubCommunity/BioDrop/assets/624760/c4e80774-d9f7-4ccd-ab31-ded0c9f43963)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);
