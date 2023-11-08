@@ -1,3 +1,12 @@
+# [2.85.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.5...v2.85.0) (2023-11-08)
+
+
+### Features
+
+* custom domain ([#9436](https://github.com/EddieHubCommunity/BioDrop/issues/9436)) ([5418e2b](https://github.com/EddieHubCommunity/BioDrop/commit/5418e2ba9489d8d3143d4601a6535f511fd36546))
+
+
+
 ## [2.84.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.4...v2.84.5) (2023-11-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * quickstart json docs with biodrop images ([#9714](https://github.com/EddieHubCommunity/BioDrop/issues/9714)) ([dac63b4](https://github.com/EddieHubCommunity/BioDrop/commit/dac63b42409252e9cb4eb3f0e90e4b6bf1fbf0c9))
-
-
-
-## [2.84.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.0...v2.84.1) (2023-11-05)
-
-
-### Bug Fixes
-
-* biodrop image for map ([#9715](https://github.com/EddieHubCommunity/BioDrop/issues/9715)) ([86741c6](https://github.com/EddieHubCommunity/BioDrop/commit/86741c64d35c996e202cb9de678f47fc1e7b70b9))
 
 
 
