@@ -110,6 +110,19 @@ export async function updateSettingsApi(context, username, data) {
 
   const update = { ...beforeUpdate, ...data };
   update.domain = update.domain.replaceAll(".", "|"); // TODO: use getter/setter instead
+
+  // check if domain is already used
+  if (update.domain) {
+    const domainCheck = await Profile.findOne({
+      "settings.domain": update.domain,
+    });
+    if (domainCheck) {
+      const domainCheckError = `Domain "${update.domain}" is already in use for username: ${username}`;
+      log.error(domainCheckError);
+      return { error: domainCheckError };
+    }
+  }
+
   try {
     getProfile = await Profile.findOneAndUpdate(
       { username },
@@ -245,6 +258,7 @@ export async function updateSettingsApi(context, username, data) {
           `domain ${data.domain} added to project for: ${username}`,
         );
       } catch (e) {
+        updateDomain(username, beforeUpdate.domain);
         log.error(e, domainProjectAddJsonError);
         return { error: domainProjectAddJsonError };
       }
