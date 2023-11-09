@@ -8,6 +8,7 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { PROJECT_NAME } from "@constants/index";
 import { useRouter } from "next/router";
+import Button from "@components/Button";
 
 const icons = {};
 
@@ -103,6 +104,7 @@ export default function Icons() {
             onChange={(e) => setSearchQuery(e.currentTarget.value)}
             name="keyword"
           />
+          <Button>Search</Button>
         </form>
         {threeOrMore && notFound && (
           <Alert type="error" message={`${notFound} not found`} />
