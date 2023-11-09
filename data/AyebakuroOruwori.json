@@ -1,0 +1,31 @@
+{
+  "name": "Ayebakuro A. Oruwori",
+  "bio": "Software Engineer who works as a DevOps Engineer and Cloud Engineer at the moment.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Ayebakkuroo",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/ayebakuro_o/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ayebakuro-oruwori/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/AyebakuroOruwori",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://ayebakuro.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

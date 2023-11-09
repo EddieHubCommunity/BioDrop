@@ -1,0 +1,35 @@
+{
+  "name": "Harsh Pandey",
+  "bio": "Full-stack Developer | Open Source",
+  "tags": [
+    "ReactJS",
+    "NextJS",
+    "JavaScript",
+    "Open source",
+    "Node.js",
+    "TailwindCSS"
+  ],
+
+  "links": [
+    {
+      "name": "Let's collaborate on some amazing projects",
+      "url": "https://github.com/PandeyHarsh433",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Connect me on Linkedin",
+      "url": "https://www.linkedin.com/in/harshpandey007/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://pandey-harsh-c2049f.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/pa57536222",
+      "icon": "FaTwitter"
+    }
+  ]
+}

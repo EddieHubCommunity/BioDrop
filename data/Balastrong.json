@@ -1,13 +1,20 @@
 {
   "name": "Leonardo Montini",
-  "type": "personal",
   "bio": "Frontend Developer, Open Source Enthusiast & Content Creator",
-
   "tags": ["Open Source", "GitHub", "vscode", "Typescript"],
   "socials": [
-    { "icon": "FaYoutube", "url": "https://youtube.com/DevLeonardo" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/balastrong" },
-    { "icon": "FaGithub", "url": "https://github.com/balastrong" }
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/DevLeonardo"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/balastrong"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/balastrong"
+    }
   ],
   "links": [
     {

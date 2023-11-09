@@ -1,0 +1,21 @@
+{
+  "name": "Jayendra Parmar",
+  "bio": "MERN Stack Developer, Enthusiastic to learn new technology, future web3 developer, learn finance and blockchain releation, finding new business idea",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Jayendra_091",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Jp88Programmer",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jayendra-parmar-0986931b9",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

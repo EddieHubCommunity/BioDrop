@@ -1,0 +1,21 @@
+{
+  "name": "Abdul Waheed",
+  "bio": "Software Engineer | Web Developer | React | Open source",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/captainWaheed43",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/captain_waheed_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/captainWaheed/",
+      "icon": "FaGithub"
+    }
+  ]
+}

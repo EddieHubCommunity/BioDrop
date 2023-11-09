@@ -1,0 +1,41 @@
+{
+  "name": "Saif Rahman",
+  "bio": "Student - Engineer - Enthusiast",
+  "links": [
+    {
+      "name": "For Collaboration",
+      "url": "https://github.com/saifrahmn",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "See my tweets",
+      "url": "https://twitter.com/saif_rahmn",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Read my Blogs",
+      "url": "https://saifrahman.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/saif_rahm.n",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Contact me",
+      "url": "mailto:saifrahmn78@gmail.com",
+      "icon": "SiGmail"
+    },
+    {
+      "name": "Work with me",
+      "url": "https://www.linkedin.com/in/saif-rahman-a62686201",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Visit my Personal Website",
+      "url": "https://clomen.web.app/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Lakshya Kandpal",
+  "bio": "Open Source , BlockChain and Blogs✒️",
+  "links": [
+    {
+      "name": "GitHub Profile",
+      "url": "https://github.com/HiLakshya",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https: //twitter.com/lakshhhhhhya",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Blogs",
+      "url": "https://bitwisely.hashnode.dev/",
+      "icon": "SiBloglovin"
+    },
+    {
+      "name": "Newsletter",
+      "url": "https://bitwisely.hashnode.dev/newsletter",
+      "icon": "SiMaildotru"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/lakshhhhhya",
+      "icon": "SiInstagram"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/lakshyakandpal/",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/@LakshyaKandpal",
+      "icon": "SiYoutube"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "React",
+    "Node.js",
+    "Solidity",
+    "Python",
+    "Blockchain"
+  ],
+  "socials": [
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/lakshhhhhhya"
+    },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/lakshhhhhhya"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Prasenjit Nayak",
+  "bio": "A college student trying to be a Programmer. Programming enthusiast, touch typing & Love to learn new things",
+  "tags": ["Open Source", "Touch Typing", "Java"],
+  "milestones": [
+    {
+      "title": "Started Contributing to Open Source",
+      "date": "Oct 2021",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "I started contributing to GitHub",
+      "url": "https://github.com/StarKnightt"
+    },
+    {
+      "title": "Made some Mini Projects using Java such as Calculator, Music Player, Tic-Tac-Toe",
+      "date": "Oct 2021",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Check out my pinned repositories for more :)",
+      "url": "https://github.com/StarKnightt/Calculator-using-java"
+    },
+    {
+      "title": "Earned the Gold Badge for Java on HackerRank!",
+      "date": "May 2021",
+      "icon": "FaHackerrank",
+      "color": "Green",
+      "description": "Learned many things about Java.",
+      "url": "https://www.hackerrank.com/certificates/fb873c10eead"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Star_Knight12",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/code.prasen/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/prasenjitnayak/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/StarKnightt",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Discord",
+      "url": "https://discord.com/users/Star_Knight",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/users/17071919/star-knight",
+      "icon": "FaStackOverflow"
+    }
+  ]
+}

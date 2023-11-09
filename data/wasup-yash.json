@@ -1,0 +1,25 @@
+{
+  "name": "Yash Sharma",
+  "bio": "**Open Source**  Enthusiast | DevOps Engineer",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "BackEnd",
+    "Node.js",
+    "Docker",
+    "AWS",
+    "Ansible",
+    "Jenkins",
+    "Terraform"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/yash1_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/wasup-yash"
+    }
+  ]
+}

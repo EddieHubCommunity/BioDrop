@@ -1,0 +1,38 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## Profile Tips
+
+Make your BioDrop Profile stand out by following these tips.
+
+### Links: Prompt people to subscribe/follow
+
+- For YouTube links you can append your url with `?sub_confirmation=1` which will ask the visitor if they wish to subscribe
+- For Twitter you can use the "intent" link to ask people if they would like to follow you when visiting your profile. This is done with `https://twitter.com/intent/user?screen_name=TWITTER-USERNAME` (for example [https://twitter.com/intent/user?screen_name=eddiejaoude](https://twitter.com/intent/user?screen_name=eddiejaoude))
+- If you would like people to email you directly, you can add a link on your Profile with a URL `mailto:<YOUR-EMAIL-ADDRESS>` for example: `mailto:name@email.com`
+
+### Milestones: Share your achievements and future goals
+
+- Whether it's reaching 1K followers on Twitter, winning a contest, or creating a project that helped your employer achieve company goals, share your achievements in the [Milestones](/docs/how-to-guides/milestones-json) tab.
+- Hold yourself accountable by sharing your future goals in the [Milestones](/docs/how-to-guides/milestones-json) tab.
+
+### Testimonials: Give and receive feedback
+
+- A good way to increase your Profile's visibility is to give [testimonials](/docs/how-to-guides/testimonials-json) to other BioDrop users, as you will appear on their Profile page.
+- To increase your Profile's credibility you can add [testimonials](/docs/how-to-guides/testimonials-json) to your Profile people have given you.
+
+### Events: Share your upcoming events
+
+- Another way to get more visibility to your Profile is to add your event activity, this is a good way to network and connect with others in your niche. Share what [events](/docs/how-to-guides/events-json) you are participating in your Profile, these will also appear in the [Events](/events) page on the app.
+
+For example profiles and how to implement these tips in your Profile, visit the end section in the [QuickStart guide](/docs/quickstart-forms)
+
+### Repos: Share your Open Source GitHub repos/projects
+
+- If you have any Open Source projects on GitHub, you can add them to your Profile by adding the URL to the [repos](/docs/how-to-guides/repos-forms) tab. This will also appear in the Global [Repos](/repos) page on the app.
+
+export default ({ children }) => (
+  <DocsLayout title="profile-style guide" section="Extra" name="Profile Tips">
+    {children}
+  </DocsLayout>
+);

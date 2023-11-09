@@ -1,0 +1,49 @@
+{
+  "name": "fabian4",
+  "bio": "A backend developer with the knowledge of BigData / frontend / full-stack that is able and willing to do ANYTHING 🚀",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/fabian13416618"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/fabian__bao"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/fabian4"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/fabian4"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@fabianbao"
+    }
+  ],
+  "tags": ["Open Source", "Blogging", "Backend"],
+  "links": [
+    {
+      "name": "Twitter - Follow me on Twitter",
+      "url": "https://twitter.com/fabian13416618",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "MyBlog - Follow me on MyBlog",
+      "url": "https://fabian4.site/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "LinkedIn - Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/fabian4",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram - Follow me on Instagram",
+      "url": "https://www.instagram.com/fabian__bao",
+      "icon": "FaInstagram"
+    }
+  ]
+}

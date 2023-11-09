@@ -1,0 +1,50 @@
+{
+  "name": "Soham Dasgupta",
+  "bio": "Director, Software Engineering | Technology Leader | Enterprise Architect | Full-Stack Developer | Open-Source Enthusiast",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "TypeScript",
+    "NextJS",
+    "C#",
+    ".NET",
+    "Microsoft SQL Server",
+    "Go",
+    "Rust",
+    "Docker",
+    "Kubernetes",
+    "Helm"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thesobercoder"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/thesobercoder"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/thesobercoder",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/sohamdasgupta",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my work on GitHub",
+      "url": "https://github.com/thesobercoder",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Certifications",
+      "url": "https://www.credly.com/users/soham1-dasgupta/badges",
+      "icon": "FaCertificate"
+    }
+  ]
+}

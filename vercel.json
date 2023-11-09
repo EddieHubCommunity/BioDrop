@@ -1,0 +1,16 @@
+{
+  "git": {
+    "deploymentEnabled": false
+  },
+  "crons": [
+    {
+      "path": "/api/system/stats",
+      "schedule": "0 0 * * *"
+    },
+    {
+      "path": "/api/system/github",
+      "schedule": "0 8 * * *"
+    }
+  ],
+  "installCommand": "npm ci --omit=dev"
+}

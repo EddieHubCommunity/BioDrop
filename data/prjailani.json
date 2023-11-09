@@ -1,0 +1,21 @@
+{
+  "name": "Abdul Kader Jailani P R",
+  "bio": "Web Developer and Digital Marketer at Anavara | CSE'26 | OpenSource Contributor - SSOC'22, SWOC'23, GSSOC'23",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/prprjailani",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/prjailani",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "See my GitHub Profile",
+      "url": "https://github.com/prjailani",
+      "icon": "FaGithub"
+    }
+  ]
+}

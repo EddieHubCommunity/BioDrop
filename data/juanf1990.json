@@ -1,0 +1,26 @@
+{
+  "name": "Juan Ferreira",
+  "bio": "Accountant turned **Digital Nomad**. Travel enthusiast & Music aficionado",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/JuanAndresF1990",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check my GH",
+      "url": "https://github.com/juanf1990",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check my LinkedIn",
+      "url": "https://www.linkedin.com/in/juan-frontend",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/juanelevzla",
+      "icon": "FaInstagram"
+    }
+  ]
+}

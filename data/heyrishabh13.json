@@ -1,0 +1,16 @@
+{
+  "name": "Rishabh Kamboj",
+  "bio": "Voluteer @ Isha Foundation, Learning to contribute in Open Source",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/heyrishabh13",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/heyrishabh13",
+      "icon": "FaGithub"
+    }
+  ]
+}

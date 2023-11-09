@@ -1,0 +1,32 @@
+{
+  "name": "Tarun Kumar",
+  "bio": "Full stack developer, learning DevOps",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Go-lang",
+    "NextJS",
+    "NodeJS",
+    "DevOps"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tarunkm_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/tarunclub"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/tarunkm_",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    }
+  ]
+}

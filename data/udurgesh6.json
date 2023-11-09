@@ -1,0 +1,21 @@
+{
+  "name": "Durgesh Upadhyay",
+  "bio": "Transforming Ideas into Reality | Full Stack Developer Building Next-level Applications with Innovation & Expertise",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/udurgesh6",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/durgeshupadhyay",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/udurgesh6",
+      "icon": "FaGithub"
+    }
+  ]
+}

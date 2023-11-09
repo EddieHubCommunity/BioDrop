@@ -1,0 +1,101 @@
+{
+  "name": "Rahul Verma",
+  "bio": "Senior Software Engineer Cimpress | 🇮🇳 Indian | ♟ Cat-D Player Chess.com | 🏋️‍♂️ Fitness & 💰 Investment Enthusiast",
+  "tags": ["Open Source", "Java", "PHP", "Javascript", "HTML", "CSS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rahulverma0008"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rahulverma0008"
+    },
+    {
+      "icon": "FaChess",
+      "url": "https://www.chess.com/member/rahulverma0008"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/rahulverma0008",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/rahulverma0008",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Recently Viewed Products",
+      "date": "December 2018",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Published my first Open Source Projects as Recently Viewed Products for Opencart",
+      "url": "https://github.com/rahulverma0008/opencart-recently-viewed-products"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Geo Zone Shipping",
+      "date": "December 2018",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Published my second Open Source Projects as Geo Zone Shipping module for Opencart",
+      "url": "https://github.com/rahulverma0008/geo-zone-shopping"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Real Time Notification",
+      "date": "December 2018",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Published another Open Source Projects as Real Time Notification for Opencart",
+      "url": "https://github.com/rahulverma0008/real-time-notification"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Stripe Payment App",
+      "date": "December 2018",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Published another Open Source Projects as Stripe Payment App for Opencart",
+      "url": "https://github.com/rahulverma0008/opencart-stripe-payment-module"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "SEO Structured Data",
+      "date": "December 2020",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Published another Open Source Projects as SEO Structured Date for Opencart",
+      "url": "https://github.com/rahulverma0008/seo-structured-data"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Career",
+      "date": "April 2015",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my career as Software Engineer"
+    },
+    {
+      "title": "First Open Source Projects",
+      "date": "2018",
+      "icon": "FaGithub",
+      "color": "grey",
+      "description": "Published my first Open Source Projects as Recently Viewed Products for Opencart",
+      "url": "https://github.com/rahulverma0008/opencart-recently-viewed-products"
+    },
+    {
+      "title": "Started Contribution to Open Source Projects Linkfree",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green"
+    }
+  ]
+}

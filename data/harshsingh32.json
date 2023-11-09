@@ -1,0 +1,83 @@
+{
+  "name": "Harsh Singh",
+  "bio": "Full Stack Developer | India | Bachelor of Technology (CSE), Final year | Blogs | Open for 6 months Internship Opportunities for **FullStack Development** | 😊 Hire me",
+  "tags": [
+    "Open Source",
+    "Github",
+    "JavaScript",
+    "MongoDB",
+    "HTML5",
+    "ReactJS",
+    "NextJs",
+    "CSS3",
+    "Vercel",
+    "Devops",
+    "Linux"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/harshsitwts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/harshsingh32"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@harshsin327"
+    },
+    {
+      "icon": "FaInstagramSquare",
+      "url": "https://www.instagram.com/harshsingh3719/"
+    },
+    {
+      "icon": "FaDev",
+      "url": "https://dev.to/harshsingh32"
+    },
+    {
+      "icon": "SiMastodon",
+      "url": "https://mastodon.social/@harsh71"
+    },
+    {
+      "icon": "FaDiscord",
+      "url": "https://discord.com/users/702823621709660211"
+    },
+    {
+      "icon": "FaRocket",
+      "url": "https://www.threads.net/@harshsingh3719"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/harshsingh32",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/harshsitwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@harshsin327",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/harsh-singh-4245771a2",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "BioLink",
+      "url": "https://bio.link/harshsingh32",
+      "icon": "SiBiolink"
+    },
+    {
+      "name": "Leetcode",
+      "url": "https://leetcode.com/hasew7890/",
+      "icon": "SiLeetcode"
+    }
+  ]
+}

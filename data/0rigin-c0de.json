@@ -1,0 +1,26 @@
+{
+  "name": "Sunil Kumar",
+  "bio": "I'm a self-taught from **India**",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Cook_C0de",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/sunil.herez",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/0rigin-c0de",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://shunnubio.netlify.app/",
+      "icon": "FaLink"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Navneet Anand",
+  "bio": "Front-End Developer",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/navneet_anand_17",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/navneet17360",
+      "icon": "FaGithub"
+    }
+  ]
+}

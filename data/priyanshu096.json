@@ -1,0 +1,21 @@
+{
+  "name": "Priyanshu Patel",
+  "bio": "Web Developer **Esports Player**. Travel enthusiast ",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/priyans.121/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Priyans121",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/priyanshu121/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

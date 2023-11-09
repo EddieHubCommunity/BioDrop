@@ -1,0 +1,22 @@
+{
+  "name": "Mohd Saquib Mansoori",
+  "bio": "Experienced fullstack developer with expertise in building end-to-end web applications using modern technologies and best practices.",
+  "tags": ["Open Source", "Javascript", "NodeJS", "Java"],
+  "links": [
+    {
+      "name": "Stay updated with my latest projects and contributions by following me on GitHub.",
+      "url": "https://github.com/MohdSaquib114",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Click the follow button on my Twitter profile",
+      "url": "https://twitter.com/saquib71102",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram to stay connected!",
+      "url": "https://www.instagram.com/msm_saq",
+      "icon": "SiInstagram"
+    }
+  ]
+}

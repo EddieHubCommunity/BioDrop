@@ -1,0 +1,21 @@
+{
+  "name": "Rol John Torralba",
+  "bio": "Professional web developer, aspiring game developer.",
+  "links": [
+    {
+      "name": "Personal Website",
+      "url": "https://roljohntorralba.com/",
+      "icon": "FaUserAstronaut"
+    },
+    {
+      "name": "Work Website (Under construction)",
+      "url": "https://valiantweb.co/",
+      "icon": "FaUserTie"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "http://instagram.com/roljohntorralba/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

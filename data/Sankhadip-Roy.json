@@ -1,0 +1,31 @@
+{
+  "name": "Sankhadip Roy",
+  "bio": "CSE 2nd year undergrad | FullStack WebDev",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sankhadiproy23",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sankhadip-roy",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Sankhadip-Roy",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Subscribe me on Youtube",
+      "url": "https://www.youtube.com/@sankhadip_roy",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Portfolio Website",
+      "url": "https://sankhadiproy.live",
+      "icon": "FaConnectdevelop"
+    }
+  ]
+}

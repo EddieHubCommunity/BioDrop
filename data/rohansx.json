@@ -1,0 +1,26 @@
+{
+  "name": "Rohan Sharma",
+  "bio": "Web Developer, Cybersecurity enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/therohanx",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/the.rohan/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Checkout me on Github",
+      "url": "https://www.github.com/rohansx",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/rohansx",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

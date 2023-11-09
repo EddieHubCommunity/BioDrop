@@ -1,0 +1,36 @@
+{
+  "name": "Sathya Anand",
+  "bio": "I am a Software engineer. Learning FullStack Web Development and looking forward to improving my skills via OpenSource contributions ",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sathyaanand345",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Saan-king",
+      "icon": "SiGithubactions"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@Saan10",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/sathya-anand-63b9751a9/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/life_of_saan/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Dev Community",
+      "url": "https://dev.to/sathyaanand",
+      "icon": "FaDev"
+    }
+  ]
+}

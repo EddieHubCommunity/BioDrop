@@ -1,0 +1,43 @@
+{
+  "name": "Deepak Paul",
+  "bio": "Full Stack Developer •  Open Source Enthusiast •  Building web apps in my spare time so I can pay for my coffee addiction ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "React",
+    "Angular",
+    "NodeJS"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/deepakrudrapaul"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/deepakrudrapaul"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/deepakrudrapaul"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/deepakrudrapaul",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/deepakrudrapaul",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/deepak-rudra-paul/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

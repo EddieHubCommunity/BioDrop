@@ -1,0 +1,26 @@
+{
+  "name": "Rohit Kumar",
+  "bio": "Junior Developer, looking to new opportunity",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/aarkaynegi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/aar_kay_negi/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/aarkaynegi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/aarkaynegi",
+      "icon": "FaGithub"
+    }
+  ]
+}

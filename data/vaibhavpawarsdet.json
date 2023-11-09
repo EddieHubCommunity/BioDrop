@@ -1,0 +1,21 @@
+{
+  "name": "Vaibhav Pawar",
+  "bio": "Civil Engineer turned Web Developer & contributor to open source. Technological Enthusiast, I belive in learn in public and grow in public",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Vaibhavpawar00",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/vaibhav-pawar-bb5707270/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Vaibhavpawarsdet",
+      "icon": "FaGitHub"
+    }
+  ]
+}

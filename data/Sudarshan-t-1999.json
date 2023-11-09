@@ -1,0 +1,68 @@
+{
+  "name": "Sudarshan T",
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Sudarshan-t-1999"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sudarshan-t"
+    }
+  ],
+  "bio": "Engineer with keen interest in Machine Learning and Python programming",
+  "tags": [
+    "Open Source",
+    "Python",
+    "Machine Learning",
+    "AI",
+    "Data Visualization",
+    "Flask",
+    "Java"
+  ],
+  "links": [
+    {
+      "name": "My Portfolio",
+      "url": "https://sudarshan-t-1999.github.io/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow on LinkedIn",
+      "url": "https://www.linkedin.com/in/sudarshan-t",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Sudarshan-t-1999",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@sudarshant1999",
+      "icon": "SiMedium"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Wrote my first blog",
+      "date": "20 July 2021",
+      "icon": "SiMedium",
+      "description": "Blog about the basics of Machine Learning",
+      "url": "https://medium.com/@sudarshant1999/basic-introduction-to-machine-learning-e7fcaec5f6e1"
+    },
+    {
+      "title": "My first end to end Machine Learning project",
+      "date": "07 Oct 2022",
+      "icon": "FaPlane",
+      "description": "A flight ticket price prediction app which used machine learning",
+      "url": "https://flight-price-prediction.onrender.com/"
+    },
+    {
+      "title": "Passed my First Certification",
+      "date": "26 Jan 2023",
+      "icon": "FaCertificate",
+      "description": "Cleared the AI900 Microsoft Certified: Azure AI Fundamentals exam",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/SudarshanT-2023/A2D15E241629116F?sharingId=7AB4A97249ACBE45"
+    }
+  ]
+}

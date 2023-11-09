@@ -1,0 +1,13 @@
+{
+  "userStatus": "attending",
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "green",
+  "name": "Mumbai FOSS",
+  "description": "FOSS United in collaboration with FOSSEE, IIT Bombay, is organizing MumbaiFOSS to revive the spirit of Free and Open source software in Mumbai.",
+  "date": {
+    "start": "2023-03-11T16:08:30.000+05:30",
+    "end": "2023-03-11T17:18:00.000+05:30"
+  },
+  "url": "https://indiafoss.net/Mumbai/2023"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Sabrina Chacon",
+  "bio": "Freelancer | Coffee Lover | Code Lover",
+  "tags": ["Open Source", "DevRel", "Blogging"],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Dev_HopeFuture",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/dev_hopefuture/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/sabrinalzbh/",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/sabrina-chacon/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

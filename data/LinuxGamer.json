@@ -1,9 +1,7 @@
 {
   "name": "CJ (LinuxGamer)",
-  "type": "personal",
-  "bio": "**Open Source** Enthusiast! Tech and Art YouTuber and Streamer.",
-
-  "tags": ["Open Source", "Youtuber", "EddieHub", "GitHub", "Artist"],
+  "bio": "**Open Source** Enthusiast! Dyslexic Artist, Developer and Content Creator.",
+  "tags": ["Open Source", "Youtuber", "EddieHub", "GitHub", "Artist", "Writer"],
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -12,7 +10,7 @@
     },
     {
       "name": "Subscribe to my YouTube",
-      "url": "https://www.youtube.com/channel/UCbBtLFxKBpcwt85EoP0kXRg",
+      "url": "https://www.youtube.com/@the_linuxgamer",
       "icon": "FaYoutube"
     },
     {
@@ -22,7 +20,7 @@
     },
     {
       "name": "Follow my main Fediverse account",
-      "url": "https://pl.starnix.network/users/CJLinuxGamer",
+      "url": "https://linuxrocks.online/@LinuxGamer",
       "icon": "FaMastodon"
     },
     {
@@ -69,6 +67,13 @@
       "icon": "SiJavascript",
       "color": "yellow",
       "description": "I started learning JavaScript by working on some JavaScript projects, like Linkfree and Collaborafolio"
+    },
+    {
+      "title": "Started Writing My First Novel",
+      "date": "27 June 2023",
+      "icon": "FaBook",
+      "color": "blue",
+      "description": "I started work on writing my first novel, I have always wanted to write a book, and finally I plucked up the courage to start."
     }
   ]
 }

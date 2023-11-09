@@ -1,12 +1,16 @@
 {
   "name": "Snehal Senapati",
-  "type": "personal",
   "bio": "Frontend Developer | Open Source Enthusiast | HTML | CSS | ReactJS | DSA-Java | ",
   "tags": ["Frontend", "Open Source", "Javascript", "ReactJs", "Java"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/SenapatiSnehal" },
-    { "icon": "FaGithub", "url": "https://github.com/snehalsenapati23" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/SenapatiSnehal"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/snehalsenapati23"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/snehal-senapati-971b451ba/"

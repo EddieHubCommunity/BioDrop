@@ -1,6 +1,5 @@
 {
   "name": "Pravendra Kumar",
-  "type": "personal",
   "bio": "**Full Stack** Developer | OpenSource Enthusiast | Quick Learner",
   "tags": [
     "Javascript",
@@ -11,10 +10,15 @@
     "Node.js"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/pravendra93" },
-    { "icon": "FaGithub", "url": "https://github.com/pravendra93" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/pravendra93"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/pravendra93"
+    }
   ],
-
   "links": [
     {
       "name": "Connect with me on Twitter",

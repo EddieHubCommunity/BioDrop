@@ -1,0 +1,36 @@
+{
+  "name": "Harshit Paneri",
+  "bio": "Full Stack intern, Open Source contributor, Social Summer of Code Mentor",
+  "tags": ["FullStack", "Opensource", "Javascript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/harshit___29"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com//harshit-paneri"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/harshit___29",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/harshit-paneri",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/harshitpaneri29",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

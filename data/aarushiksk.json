@@ -1,0 +1,42 @@
+{
+  "name": "Aarushi",
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/aarushiksk"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aarushi-sharma-1b24211a9/"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Automation of Hill Climb Racing Game",
+      "date": "November 2022",
+      "icon": "SiOpencv",
+      "color": "grey",
+      "description": "Automation of Hill Climb Racing Game project utilizes technologies like OpenCV and MediaPipe to control the car using hand gestures.",
+      "url": "https://github.com/aarushiksk/Automation-of-Hill-Climb-Racing-Game"
+    }
+  ],
+  "bio": "Aspiring Data Scientist and Generative AI developer",
+  "tags": ["Open Source", "OpenCV", "Python", "Java", "DSA", "Scikit-Learn"],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/aarushiksk",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aarushi-sharma-1b24211a9/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Medium",
+      "url": "https://medium.com/@aarushiksk",
+      "icon": "SiMedium"
+    }
+  ]
+}

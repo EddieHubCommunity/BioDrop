@@ -1,0 +1,41 @@
+{
+  "name": "Md Arslan",
+  "bio": "I am Arslan, a tech geek & nerd who loves programming and philosophy. I am an Open Source & Web3 Enthusiast.",
+  "tags": ["Blockchain", "Open Source", "Web Dev"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/md_arslan7"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mdarslan7"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/md-arslan-8b34a6205/"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/mdarslan7",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/md_arslan7",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/md-arslan-8b34a6205/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/mdarslan7/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

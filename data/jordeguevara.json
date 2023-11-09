@@ -1,0 +1,21 @@
+{
+  "name": "Jorde",
+  "bio": "Senior Software Engineer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://www.instagram.com/jguavaa",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twiiter",
+      "url": "https://twitter.com/_Jguavaa",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Dev.to",
+      "url": "https://dev.to/jordeguevara",
+      "icon": "FaDev"
+    }
+  ]
+}

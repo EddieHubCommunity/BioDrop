@@ -1,0 +1,27 @@
+{
+  "name": "Advait Jain",
+  "bio": "Aspiring Software Developer | 👨‍💻Open-Source Contributor/Enthusiast - Hacktoberfest 2022 | 💻 Proficiency in Python , Html/CSS/JS , Docker , GITHUB ,Rust",
+  "tags": ["EddieHub", "Open Source", "GitHub", "Community", "Collaboration"],
+  "links": [
+    {
+      "name": "Visit Protfolio",
+      "url": "http://zoronium.github.io",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "GitHub ",
+      "url": "https://github.com/Zoronium",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Discord Community",
+      "url": "https://discordapp.com/users/759139442493095947",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "LinkedIn Organisation",
+      "url": "https://www.linkedin.com/in/advaitj",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

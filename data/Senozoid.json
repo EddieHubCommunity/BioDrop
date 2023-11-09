@@ -1,0 +1,21 @@
+{
+  "name": "Souriddha Sen",
+  "bio": "Student, learner, developer, most of the time. Adventurer, writer, artist, in spare time.",
+  "links": [
+    {
+      "name": "Read my writing",
+      "url": "https://senozphere.wordpress.com/",
+      "icon": "FaWordpress"
+    },
+    {
+      "name": "See what I'm working on",
+      "url": "https://github.com/Senozoid",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Find me on LinkedIn",
+      "url": "https://www.linkedin.com/in/souriddha/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

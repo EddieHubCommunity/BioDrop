@@ -1,0 +1,104 @@
+{
+  "name": "Himanshu Swami",
+  "bio": " Programmer | Developer | Competitive Coder",
+  "tags": [
+    "Full Stack Web Developer",
+    "Competitive Coding",
+    "Flutter App Developer"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": ""
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/HimanshuSwami-Developer"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": ""
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": ""
+    },
+    {
+      "icon": "FaFacebook",
+      "url": ""
+    },
+    {
+      "icon": "FaYoutube",
+      "url": ""
+    },
+    {
+      "icon": "FaDev",
+      "url": "https://dev.to/himanshuch8055"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/HimanshuSwami-Developer",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Threads and Random Talks",
+      "url": "",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "DEV Community",
+      "url": "",
+      "icon": "FaDev"
+    },
+    {
+      "name": "YouTube",
+      "url": "",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Medium",
+      "url": "",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Showwcase",
+      "url": "",
+      "icon": "FaShowwcase"
+    },
+    {
+      "name": "FaceBook",
+      "url": "",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "April 2020",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Full Stack Developer",
+      "url": ""
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "August 2022",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "Started Advocating for Opensource Contributions",
+      "url": "https://github.com/HimanshuSwami-Developer"
+    }
+  ]
+}

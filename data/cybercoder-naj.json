@@ -1,0 +1,26 @@
+{
+  "name": "Nishant Aanjaney Jalan",
+  "bio": "Android Developer | Teacher | Programming Enthusiast",
+  "links": [
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/cybercoder-naj",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My LinkedIn",
+      "url": "https://www.linkedin.com/in/nishant-a-jalan",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Medium",
+      "url": "https://www.medium.com/@cybercoder.naj",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "My Portfolio",
+      "url": "https://cybercoder-naj.github.io/",
+      "icon": "FaLink"
+    }
+  ]
+}

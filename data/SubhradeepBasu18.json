@@ -1,0 +1,21 @@
+{
+  "name": "Subhradeep Basu",
+  "bio": "Hey folks! My name is Subhradeep Basu, and I am currently pursuing a BTECH degree in Information Technology. I'm experienced in working with programming languages like - C, Python and Java. Additionally, I'm expanding my skill set by learning JavaScript for Web Dev. I have a keen interest in the field of artificial intelligence (AI) and its application. ",
+  "links": [
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/SubhradeepBasu5",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/subhradeep-basu-786aab209/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect on GitHub",
+      "url": "https://github.com/SubhradeepBasu18",
+      "icon": "FaGithub"
+    }
+  ]
+}

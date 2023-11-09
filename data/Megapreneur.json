@@ -1,17 +1,21 @@
 {
   "name": "Ademola Megbabi",
-  "type": "personal",
   "bio": "Marine Scientist || Software Engineer",
   "tags": ["Open Source", "Back-end Developer", "Web3"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AdemolaMegbabi" },
-    { "icon": "FaGithub", "url": "https://github.com/Megapreneur" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AdemolaMegbabi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Megapreneur"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/ademolamegbabi/"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",

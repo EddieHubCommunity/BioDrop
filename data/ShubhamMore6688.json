@@ -1,0 +1,45 @@
+{
+  "name": "Shubham More",
+  "bio": "Devops | Open Source | Android developer ",
+  "tags": ["Open Source", "Devops", "Android development"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Shubham6803"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ShubhamMore6688"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://shubhammore.hashnode.dev/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shubham-more-31ba18253"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/ShubhamMore6688",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Threads and Random Talks",
+      "url": "https://twitter.com/Shubham6803",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Interested in reading my blogs? Go here!",
+      "url": "https://shubhammore.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shubham-more-31ba18253",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

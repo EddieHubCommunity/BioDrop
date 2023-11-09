@@ -1,0 +1,47 @@
+{
+  "name": "Haris Khan",
+  "bio": "Computer Science guy in a Software Engineering world!",
+  "tags": ["Frontend Developer", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/harisdev-netizen"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://harisdev.hashnode.dev"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/WittyXEngineer"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Checkout my Projects",
+      "url": "https://github.com/harisdev-netizen",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode: Read my Blogs",
+      "url": "https://harisdev.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/WittyXEngineer",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Connect with me",
+      "url": "https://www.linkedin.com/in/hariskhan00/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "instantBazar: My Online Store",
+      "url": "https://www.instagram.com/instantbazar_/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "testimonials": ["basit333"]
+}

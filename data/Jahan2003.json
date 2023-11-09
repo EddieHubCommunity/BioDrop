@@ -1,0 +1,21 @@
+{
+  "name": "Jahan Sai",
+  "bio": "Student | Frontend Development | Open Source",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/jahan_sai",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect",
+      "url": "https://www.linkedin.com/in/jahan-sai-b53258222/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "For my projects and open source contributions",
+      "url": "https://github.com/Jahan2003",
+      "icon": "FaGithub"
+    }
+  ]
+}

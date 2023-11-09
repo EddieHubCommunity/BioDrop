@@ -1,0 +1,42 @@
+{
+  "name": "Sebastian James",
+  "bio": "Passionate about #AI | #remotework aspirant | Open-source rules | Loves blogging | IBSian | x-MECian",
+  "tags": ["AI", "remote work", "blogging"],
+  "socials": [
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/sebastianjames55/"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://www.facebook.com/SebJames55/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/SebJames55",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sebastianjames55/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/SebastianJames55",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@sebastianjames55",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@SebastianJames55",
+      "icon": "SiHashnode"
+    }
+  ]
+}

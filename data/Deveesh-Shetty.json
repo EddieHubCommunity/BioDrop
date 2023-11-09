@@ -1,0 +1,80 @@
+{
+  "name": "Deveesh Shetty",
+  "bio": "React Developer | Open Source Enthusiast | Full Stack 🚀",
+  "tags": ["Typescript", "Javascript", "Open Source", "NextJS", "MERN Stack"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shettydeveesh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Deveesh-Shetty"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/deveesh-shetty-908539214"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Let's follow",
+      "url": "https://twitter.com/shettydeveesh",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Github: Let's Build Stuff",
+      "url": "https://github.com/Deveesh-Shetty",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/deveesh-shetty-908539214",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Personal Website",
+      "url": "https://deveesh.vercel.app",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Hashnode: Checkout my blogs",
+      "url": "https://deveesh.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Codepen: Click for code snippets",
+      "url": "https://codepen.io/deveesh_shetty_12",
+      "icon": "FaCodepen"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "My First Internship",
+      "date": "September 2022",
+      "icon": "FaLaptop",
+      "color": "grey",
+      "description": "Joined as a developer intern at Startupreneur for 4 months"
+    },
+    {
+      "isGoal": true,
+      "title": "Become a Full Stack Developer",
+      "date": "2023",
+      "icon": "HiOutlineRocketLaunch",
+      "description": "Become a Full Stack Developer and build Open Source Projects for community"
+    },
+    {
+      "isGoal": true,
+      "title": "Open Source FTW!!!",
+      "date": "2023",
+      "icon": "SlGlobe",
+      "description": "Contribute more and more to open source projects, advance my skills, and build a community"
+    }
+  ]
+}

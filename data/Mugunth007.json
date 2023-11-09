@@ -1,0 +1,26 @@
+{
+  "name": "Mugundhan",
+  "bio": "Data Science Enthusiast and React developer eager to work on new technologies finally anime watcher",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/mugunth-perumal/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Mugunth007",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/mugunth_king",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Visit my portfolio",
+      "url": "https://mugunth.tech/",
+      "icon": "FaPortfolio"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Mihir Raj Singh",
+  "bio": "Collaborating | Sharing | Learning | Implementing | Developing | Exploring 🥑",
+  "links": [
+    {
+      "name": "Hashnode : Embark on a knowledge journey with me on Hashnode, where I share my insightful musings on diverse topics - from tech to life and everything in between !",
+      "url": "https://iammihirsig.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Twitter : Let's converse in the language of 280 characters and share ideas, insights, and a few laughs by connecting on Twitter !",
+      "url": "https://twitter.com/iammihirsig",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub : Collaborate with me on GitHub and let's build amazing projects that leave a lasting impact!",
+      "url": "https://github.com/Mihir-Raj-Singh",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Showwcase : Behold, yet another showcase of my work!",
+      "url": "https://www.showwcase.com/iammihirsig",
+      "icon": "FaRocket"
+    },
+    {
+      "name": "LinkedIn : Join me on LinkedIn, where we can forge a professional bond and create new opportunities together !",
+      "url": "https://www.linkedin.com/in/mihir-raj-singh",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Youtube : Experience my visual creations on the world's most captivating video platform - YouTube !",
+      "url": "https://www.youtube.com/@iammihirsig",
+      "icon": "SiYoutube"
+    },
+    {
+      "name": "Instagram : Join me on Instagram and indulge in a visually enchanting journey through my world !",
+      "url": "https://www.instagram.com/iammihirsig/",
+      "icon": "SiInstagram"
+    }
+  ]
+}

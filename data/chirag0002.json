@@ -1,0 +1,52 @@
+{
+  "name": "Chirag Varshney",
+  "bio": "DevOps Enthusiast | Web Developer | Started Journey In Open Source | Communities💙 | Let's Connect🤝 ",
+  "tags": ["DevOps", "Open Source", "Javascript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ChiragV01"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chirag0002"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/chirag0002/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ChiragV01",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/chirag0002",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/chirag0002/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Instagram: Let's get connected",
+      "url": "https://www.instagram.com/_chirag_varshney_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "SuperContributors Community",
+      "name": "SuperContributors: Discord",
+      "url": "https://discord.gg/a93rVVGuBT",
+      "icon": "FaDiscord"
+    }
+  ]
+}

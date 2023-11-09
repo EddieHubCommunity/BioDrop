@@ -1,0 +1,165 @@
+{
+  "name": "Nikhil Barik",
+  "bio": "Software Engineer at Yahoo. Loves FOSS.",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "DevOps",
+    "Cloud Native",
+    "Cloud Computing",
+    "Kubernetes",
+    "Flutter",
+    "iOS Development",
+    "Chrome Extensions"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nerdynikhil"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nerdynikhil"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/nerdynikhil"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@nerdynikhil"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@nerdynikhil"
+    },
+    {
+      "icon": "FaMedium",
+      "url": "https://medium.com/@nerdynikhil"
+    }
+  ],
+  "links": [
+    {
+      "name": "Main website",
+      "url": "https://nerdynikhil.me/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nerdynikhil",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub: Let's work on some projects",
+      "url": "https://github.com/nerdynikhil/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/nisarg-thakkar-08811a21a",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Main YouTube channel (English)",
+      "url": "https://www.youtube.com/@nerdynikhil",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Checkout my blog on Hashnode",
+      "url": "https://hashnode.com/@nerdynikhil",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Contributed to Kubernetes",
+      "date": "March 2023",
+      "icon": "FaLaptopCode",
+      "color": "black",
+      "description": "For Bengali localization."
+    },
+    {
+      "title": "Project Admin - Kharagpur Winter of Code",
+      "date": "December 2022",
+      "icon": "FaCodeBranch",
+      "color": "grey",
+      "description": "Kharagpur Winter of Code is a 5-week long online program for students who are new to open source software development..",
+      "url": "https://kwoc.kossiitkgp.org/"
+    },
+    {
+      "title": "Started working at yahoo! as an SWE",
+      "date": "August 2022",
+      "icon": "FaLaptopCode",
+      "color": "purple",
+      "description": "Converted from an Intern for full time."
+    },
+    {
+      "title": "Qualified and participated in 2020 ICPC Asia Amritapuri Regionals",
+      "date": "August 2021",
+      "icon": "FaLaptopCode",
+      "color": "red",
+      "description": "Our team Zigbee stood at 659th position."
+    },
+    {
+      "title": "Joined CNCF Layer5",
+      "date": "August 2021",
+      "icon": "FaPeopleArrows",
+      "color": "green",
+      "description": "Became a member and contributed to the Layer5 website."
+    },
+    {
+      "title": "Instructor - Cross Platform Mobile App Development with Flutter",
+      "date": "Sept 2021",
+      "icon": "FaCodeBranch",
+      "color": "grey",
+      "description": "Designed course flow for the Getting Started with Flutter playlist on YT.",
+      "url": "https://gdsc.community.dev/odisha-university-of-technology-and-research/"
+    },
+    {
+      "title": "Project Admin - SWoC 2021",
+      "date": "October 2021",
+      "icon": "FaPeopleArrows",
+      "color": "cyan",
+      "description": "Script Winter of Code"
+    },
+    {
+      "title": "Became GoogleCloudReady Facilitator",
+      "date": "March - June 2021",
+      "icon": "FaPeopleArrows",
+      "color": "green",
+      "description": "Conducted hands-on workshops on QwikLabs platform, helped 300+ students managing the community group throughout the program."
+    },
+    {
+      "title": "Mentored at GSSoC 2021",
+      "date": "March - July 2021",
+      "icon": "FaCodeBranch",
+      "color": "grey",
+      "description": "For the project Awesome Chrome Extensions by Riddhi Suteri. Responsible for assigning issues, merging PRs, code review and feedback, resolving doubts of contributors on Discord.",
+      "url": "https://gssoc.girlscript.tech/"
+    },
+    {
+      "title": "Project Admin - JIIT Hack Week 2021",
+      "date": "March 2021",
+      "icon": "FaCodeBranch",
+      "color": "grey",
+      "description": "JIIT Open-Source Developers Circle (JODC).",
+      "url": "https://github.com/osdc/"
+    },
+    {
+      "title": "Founded Zigbee Student Developers' Club",
+      "date": "December 2020",
+      "icon": "FaPeopleArrows",
+      "color": "grey",
+      "description": "Built our new club to promote competitive atmosphere for developers, designers in the campus organizing workshops on Git/Github, Contributing to Open Source,and so on parterning with orgs such as Major League Hacking, CodeforCause, Miceosoft Learn Student Ambassadors.",
+      "url": "https://zigbeeoutr.in/"
+    },
+    {
+      "title": "Interned as a Mobile Developer at Lecturenotes.in",
+      "date": "June 2019",
+      "icon": "SiFlutter",
+      "color": "blue",
+      "description": "Flutter ftw.",
+      "url": "https://lecturenotes.in/"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+"🚦 status: awaiting triage":
+  issues:
+    comment: >
+      To reduce notifications, issues are locked until they are https://github.com/EddieHubCommunity/BioDrop/labels/%F0%9F%8F%81%20status%3A%20ready%20for%20dev and to be assigned. You can learn more in our contributing guide https://github.com/EddieHubCommunity/BioDrop/blob/main/CONTRIBUTING.md
+    lock: true
+
+"🏁 status: ready for dev":
+  issues:
+    comment: >
+      The issue has been unlocked and is now ready for dev. If you would like to work on this issue, you can comment to have it assigned to you. You can learn more in our contributing guide https://github.com/EddieHubCommunity/BioDrop/blob/main/CONTRIBUTING.md
+    unlock: true

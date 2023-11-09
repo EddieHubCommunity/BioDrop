@@ -1,0 +1,79 @@
+{
+  "name": "Chirag Patil",
+  "bio": "I am a fullstack software developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "ReactJs",
+    "C#",
+    "Python",
+    "DevOps"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/chirag4242"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/patil_chirag42"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/chirag42"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://cio-app.herokuapp.com"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Hardwork4224"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/chirag4242",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/chirag42",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Blogs",
+      "name": "Blog - I write about programming and technology",
+      "url": "https://devexplanation.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me",
+      "url": "https://www.instagram.com/patil_chirag42",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Hardwork4224",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Portfolio",
+      "name": "Check who I am and my projects",
+      "url": "https://cio-app.herokuapp.com",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Check out my projects and more",
+      "url": "https://sites.google.com/view/chiragpatil/home",
+      "icon": "FaLink"
+    }
+  ]
+}

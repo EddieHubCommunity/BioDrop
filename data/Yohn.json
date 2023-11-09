@@ -1,8 +1,6 @@
 {
   "name": "Yohn aka John Brittain III",
-  "type": "personal",
   "bio": "Self taught w3b enthusiast that's ready to break out with some new and exciting techniques, never seen before on the web, that seem to just 'work'.",
-
   "links": [
     {
       "name": "Get Notified When SKEM9 Comes Back Online!",
@@ -45,7 +43,6 @@
     },
     {
       "title": "Started Customizing my MySpace",
-
       "date": "2004",
       "icon": "FaGlobe",
       "color": "grey",
@@ -53,7 +50,6 @@
     },
     {
       "title": "Created My First Website",
-
       "date": "2005",
       "icon": "FaGlobe",
       "color": "#6e9dd4",
@@ -61,7 +57,6 @@
     },
     {
       "title": "Social Network",
-
       "date": "2006",
       "icon": "FaGlobe",
       "color": "#333333",
@@ -69,7 +64,6 @@
     },
     {
       "title": "500K Members",
-
       "date": "Jan 2008",
       "icon": "FaGlobe",
       "color": "red",
@@ -85,7 +79,6 @@
     {
       "title": "Hit the road",
       "date": "2009",
-
       "icon": "FaSearch",
       "color": "white",
       "description": "New life experiences through traveling around the country."

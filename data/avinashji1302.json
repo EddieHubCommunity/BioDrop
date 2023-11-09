@@ -1,0 +1,17 @@
+{
+  "name": "Avinash Gupta",
+  "bio": "Full Stack Intern at ShipGig Venture and open source contributor ",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/avinashji1302",
+      "icon": "FaGithub"
+    },
+
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/avinash-gupta-ab24231b6/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

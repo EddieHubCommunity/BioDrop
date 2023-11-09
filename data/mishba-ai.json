@@ -1,0 +1,26 @@
+{
+  "name": "misba bagban",
+  "bio": "student|Btech-CE|C++|Html|learning DSA|Technical writer @hashnode|Open-source enthusiastic",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mishba_bagban",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/mishba-ai",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mishba-bagban/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/@mishba",
+      "icon": "SiHashnode"
+    }
+  ]
+}

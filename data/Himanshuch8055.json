@@ -1,52 +1,117 @@
 {
   "name": "Himanshu Chauhan",
-  "type": "personal",
-  "bio": "Open source Advocate | Programmer | Content Writer | Developer | Competitive Coder",
+  "bio": "Full Stack Developer 🙂, with knowledge in web development and design, Passionate programmer in love with JavaScript ❤️, Contributing to open source 🚀",
   "tags": [
-    "Open Source",
-    "Content Writer",
-    "Blogging",
-    "Web3",
-    "Developers",
-    "Competitive Coding"
+    "Full Stack Web Developer",
+    "Competitive Coding",
+    "Native App Developer",
+    "Node.js",
+    "Open Source"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/himanshuch8055" },
-    { "icon": "FaGithub", "url": "https://github.com/Himanshuch8055" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/himanshuch8055"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Himanshuch8055"
+    },
     {
       "icon": "FaInstagram",
-      "url": "https://www.instagram.com/himanshuchauhan8055/"
+      "url": "https://instagram.com/himanshuch8055/"
     },
     {
       "icon": "FaLinkedin",
-      "url": "https://www.linkedin.com/in/himanshu-chauhan-693404226/"
+      "url": "https://linkedin.com/in/himanshuch8055/"
     },
     {
       "icon": "FaFacebook",
-      "url": "https://www.facebook.com/himanshuchauhan8055"
+      "url": "https://facebook.com/himanshuch8055"
     },
     {
       "icon": "FaYoutube",
-      "url": "https://www.youtube.com/channel/UCoBSwNEZRZ1ROny1RNACh7A"
+      "url": "https://youtube.com/@himanshuch8055"
     },
-    { "icon": "FaDev", "url": "https://dev.to/himanshuch8055_99" }
+    {
+      "icon": "FaDev",
+      "url": "https://dev.to/himanshuch8055"
+    },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://himanshuch8055.github.io/portfolio/"
+    }
   ],
-
+  "testimonials": [
+    "eddiejaoude",
+    "FrancescoXX",
+    "loftwah",
+    "xkrishguptaa",
+    "tobySolutions",
+    "Njong392",
+    "MadhuSaini22",
+    "Anushka-codergirl",
+    "Pradumnasaraf"
+  ],
   "links": [
     {
+      "group": "Socials",
+      "icon": "FaDollarSign",
+      "url": "https://himanshuch8055.github.io/portfolio/"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/himanshuch8055/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
       "name": "Follow me on GitHub",
       "url": "https://github.com/Himanshuch8055",
       "icon": "FaGithub"
     },
     {
-      "name": "Twitter: Threads and Random Talks",
+      "group": "Socials",
+      "name": "Threads and Random Talks",
       "url": "https://twitter.com/himanshuch8055",
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/himanshu-chauhan-693404226/",
-      "icon": "FaLinkedin"
+      "group": "Socials",
+      "name": "DEV Community",
+      "url": "https://dev.to/himanshuch8055",
+      "icon": "FaDev"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube",
+      "url": "https://youtube.com/@himanshuch8055",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Socials",
+      "name": "Medium",
+      "url": "https://medium.com/@himanshuch8055",
+      "icon": "FaMedium"
+    },
+    {
+      "group": "Socials",
+      "name": "Showwcase",
+      "url": "https://showwcase.com/himanshuch8055",
+      "icon": "FaShowwcase"
+    },
+    {
+      "group": "Socials",
+      "name": "FaceBook",
+      "url": "https://facebook.com/himanshuch8055",
+      "icon": "FaFacebook"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram",
+      "url": "https://instagram.com/himanshuch8055/",
+      "icon": "FaInstagram"
     }
   ],
   "milestones": [
@@ -55,8 +120,8 @@
       "date": "April 2020",
       "icon": "FaDollarSign",
       "color": "blue",
-      "description": "Started Content Writing",
-      "url": "https://www.linkedin.com/in/himanshu-chauhan-693404226/"
+      "description": "Full Stack Developer",
+      "url": "https://linkedin.com/in/himanshuch8055/"
     },
     {
       "title": "Joined Open Source",
@@ -65,6 +130,14 @@
       "color": "red",
       "description": "Started Advocating for Opensource Contributions",
       "url": "https://github.com/Himanshuch8055"
+    },
+    {
+      "title": "Web Developer intern",
+      "date": "October 2023",
+      "icon": "FaDollarSign",
+      "color": "red",
+      "description": "Working as a Full stack Web developer intern in UptoSkills",
+      "url": "https://linkedin.com/in/himanshuch8055/"
     }
   ]
 }

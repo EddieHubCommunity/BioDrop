@@ -1,0 +1,21 @@
+{
+  "name": "Vedansh Mehra",
+  "bio": "Software Developer, Technical Writer, Vlogger, Creating content (Tech & Travel)",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/imvedanshmehra",
+      "icon": "FaTwitterSquare"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/imvedanshmehra/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/imvedanshmehra",
+      "icon": "FaGithubSquare"
+    }
+  ]
+}

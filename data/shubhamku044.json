@@ -1,0 +1,34 @@
+{
+  "name": "Shubham Kumar",
+  "bio": "Open Source | Full stack developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "ReactJS",
+    "TailwindCSS"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shubhamku044"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shubhamku044"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@shubhamku044"
+    },
+    {
+      "url": "https://www.linkedin.com/in/shubhamku044/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "url": "https://dev.to/shubhamku044",
+      "icon": "FaDev"
+    }
+  ]
+}

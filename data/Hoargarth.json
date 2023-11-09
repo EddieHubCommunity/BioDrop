@@ -1,0 +1,46 @@
+{
+  "name": "Alex Berger",
+  "bio": "Frontend Developer | E-commerce",
+  "tags": [
+    "JavaScript",
+    "TypeScript",
+    "NodeJS",
+    "VueJS",
+    "Magento",
+    "Shopware"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/hoargarth"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Hoargarth"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/berger-alex"
+    }
+  ],
+  "links": [
+    {
+      "group": "Social Media",
+      "name": "Twitter: Lets follow each other",
+      "url": "https://twitter.com/hoargarth",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Social Media",
+      "name": "GitHub: What I do",
+      "url": "https://github.com/Hoargarth",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Social Media",
+      "name": "LinkedIn: Lets connect",
+      "url": "https://www.linkedin.com/in/berger-alex",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

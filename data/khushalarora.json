@@ -1,0 +1,36 @@
+{
+  "name": "Khushal Arora",
+  "bio": "Web Development | Open Source | Tech Enthusiast",
+  "tags": ["Python", "Web Development", "Linux"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/khushaltwts"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/khushal-arora"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/khushalarora"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/khushaltwts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/khushal-arora",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/khushalarora",
+      "icon": "FaGithub"
+    }
+  ]
+}

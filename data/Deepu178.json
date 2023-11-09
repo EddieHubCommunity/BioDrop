@@ -1,0 +1,164 @@
+{
+  "name": "Deependra Kumar",
+  "bio": "**Open Source** | Full Stack Developer | Freelancer | [**Vibey**](https://www.vibey.live/) Maintainer",
+  "tags": [
+    "Open Source",
+    "React",
+    "MongoDB",
+    "REST APIs",
+    "Express.js",
+    "Node.js",
+    "Freelancing"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/deepuReact"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/deepu178"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/deepuraj178"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://www.deependra.biz/"
+    },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://github.com/sponsors/deepu178"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "My Services - Open Source and Freelancing",
+      "url": "https://deependra.biz/",
+      "icon": "FaBusinessTime"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter - Daily tips on Open Source and Freelancing",
+      "url": "https://twitter.com/deepu178",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/deepu178",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/deepu178/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about Open Source and Freelancing",
+      "url": "https://uncode.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me for behind the scenes",
+      "url": "https://www.instagram.com/deepuraj178",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube - Subscribe for video content",
+      "url": "https://www.youtube.com/@diveintoopensource",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Support My Work",
+      "name": "GitHub Sponsors - Any help is more than appreciated",
+      "url": "https://github.com/sponsors/deepu178",
+      "icon": "FaHeart"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "Vibey - A platform to find all the developer events happening all over the world",
+      "url": "https://github.com/UniKonf/vibey",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Open Source Projects",
+      "name": "KesarUI - An open source library for react components",
+      "url": "https://github.com/unikonf/kesarui",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "First repo to reach 50 stars as maintainer",
+      "date": "Mar 2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Vibey",
+      "url": "https://github.com/unikonf/vibey"
+    },
+    {
+      "title": "Crossed 200 followers on Twitter",
+      "date": "Apr 2023",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "Creating content on Open Source and Freelancing and connecting with people on Twitter helped me to cross the 20 followers milestone",
+      "url": "https://twitter.com/deepuReact"
+    },
+    {
+      "title": "Crossed 40 followers on GitHub",
+      "date": "Feb 2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Building Open Source projects in public and collaborating with people on Pull Requests helped me to cross the 40 followers milestone",
+      "url": "https://github.com/deepu178"
+    },
+    {
+      "title": "Crossed 400+ followers on LinkedIn",
+      "date": "Dec 2022",
+      "icon": "FaLinkedin",
+      "color": "purple",
+      "description": "Creating content on Open Source and Freelancing and connecting with people on Twitter helped me to cross the 400+ followers milestone",
+      "url": "https://www.linkedin.com/in/deepu178/"
+    },
+    {
+      "title": "Became Postman Student Expert",
+      "date": "Jan 2023",
+      "icon": "SiPostman",
+      "color": "orange",
+      "description": "API Fundamental Students Expert",
+      "url": "https://badgr.com/public/assertions/raV3knifRpCM54Wy9cOSNQ"
+    },
+    {
+      "isGoal": true,
+      "title": "Run a successfull freelancing agency",
+      "date": "2023",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to run a successfull freelancing agency for projects which come under development"
+    },
+    {
+      "isGoal": true,
+      "title": "Start video content on YouTube and get 1K subscribers by the end of 2023",
+      "date": "2023",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "I want to start video content on YouTube to help people get started with Open Source and Freelancing",
+      "url": "https://www.youtube.com/@diveintoopensource"
+    },
+    {
+      "isGoal": true,
+      "title": "Speak and attend international conferences",
+      "date": "2023",
+      "icon": "FaGlobal",
+      "color": "black",
+      "description": "I want to speak and attend international conferences to share my knowledge and learn from others"
+    }
+  ]
+}

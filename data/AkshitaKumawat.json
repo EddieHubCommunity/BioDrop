@@ -1,0 +1,16 @@
+{
+  "name": "Akshita Kumawat",
+  "bio": "OPEN SOURCE COMMUNITY",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/AkshitaKumawat",
+      "icon": "FaGitHub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/akshita-kumawat-136809253/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

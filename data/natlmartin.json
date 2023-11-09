@@ -1,0 +1,16 @@
+{
+  "name": "Natalie Martin",
+  "bio": "Digital Marketer turned Software Engineer - looking forward to contributing on open source projects!",
+  "links": [
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/codename.nat/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/natalielouisemartin/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

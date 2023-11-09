@@ -1,0 +1,21 @@
+{
+  "name": "Jaswanth",
+  "bio": "Hi there! I'm Jaswanth, a student with a passion for tech and software development. I'm always eager to connect with fellow enthusiasts!",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Jaswanth73",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/jaswanth-ch-1b71221b7/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/jaswanth187",
+      "icon": "FaGithub"
+    }
+  ]
+}

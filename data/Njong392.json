@@ -1,8 +1,6 @@
 {
   "name": "Njong Emy",
-  "type": "personal",
   "bio": "Technical writer, Front-end developer, student :)",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -11,13 +9,22 @@
     "Technical writing"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/njong_emy" },
-    { "icon": "FaGithub", "url": "https://github.com/Njong392" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/njong_emy"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Njong392"
+    },
     {
       "icon": "FaYoutube",
       "url": "https://youtube.com/channel/UCY5NlsaRLVTMkfC7BQEj2Pg"
     },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/njong-emy" }
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/njong-emy"
+    }
   ],
   "links": [
     {
@@ -84,7 +91,6 @@
       "color": "grey",
       "description": "Second writing gig"
     },
-
     {
       "title": "Started my own open source project",
       "date": "2022",

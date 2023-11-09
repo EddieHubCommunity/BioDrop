@@ -1,0 +1,21 @@
+{
+  "name": "Harmeet Singh",
+  "bio": "Full Stack (MERN) Developer | Postman API Student Expert | Open Source Contributor",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ImHarmeet_Singh",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/harmeetsingh113/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/harmeetsingh11",
+      "icon": "FaGithub"
+    }
+  ]
+}

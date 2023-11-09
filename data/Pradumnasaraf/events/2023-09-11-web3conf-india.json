@@ -1,0 +1,17 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "userStatus": "speaking",
+  "speakingTopic": "Open Source",
+  "color": "orange",
+  "name": "Web3Conf India",
+  "description": "Web3Conf is India's first and biggest chain agnostic conference.",
+  "date": {
+    "start": "2023-08-11T09:00:00+05:30",
+    "end": "2023-08-14T22:00:00+05:30"
+  },
+  "location": {
+    "country": "Goa, India"
+  },
+  "url": "https://web3confindia.xyz/"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "P.Nikhil ",
+  "bio": "Open Source",
+  "tags": ["Open source", "java"],
+  "social": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/P Nikhil"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ Pnikhil003"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/pnikhil003",
+      "icon": "FaTwitter",
+      "colour": "#FF000"
+    },
+    {
+      "name": "visit my Github profile",
+      "url": "https://github.com/Nikhil202003",
+      "icon": "FaGithub"
+    }
+  ]
+}

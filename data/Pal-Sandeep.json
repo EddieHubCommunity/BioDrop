@@ -1,8 +1,6 @@
 {
   "name": "Sandeep Pal",
-  "type": "personal",
   "bio": "**Django Developer**, upcomming **DevOps** ∞ Engineer | Ambassador **@MGSU-Bikaner** | **Open Source** | Cloud & Container Enthusiast ⚡️",
-
   "tags": [
     "Python",
     "Django",
@@ -16,8 +14,14 @@
     "GitOps"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/8sandeeppal" },
-    { "icon": "FaGithub", "url": "https://github.com/pal-sandeep" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/8sandeeppal"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/pal-sandeep"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://linkedin.com/in/8sandeeppal"
@@ -26,7 +30,10 @@
       "icon": "FaInstagram",
       "url": "https://www.instagram.com/iisandeepkumar"
     },
-    { "icon": "FaGmail", "url": "mailto:skumar8work@gmail.com" }
+    {
+      "icon": "FaGmail",
+      "url": "mailto:skumar8work@gmail.com"
+    }
   ],
   "links": [
     {

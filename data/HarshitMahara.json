@@ -1,0 +1,26 @@
+{
+  "name": "Harshit Singh Mahara",
+  "bio": "I'm a computer science student with a strong foundation in data structures and algorithms. I'm always looking to learn new technologies .",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/mahara_harshit",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/harshit_mahara_31/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/HarshitMahara",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/harshit-singh-mahara-1084b9227/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

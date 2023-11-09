@@ -1,0 +1,16 @@
+{
+  "name": "Nancy Kasaudhan",
+  "bio": "Tech enthusiast Sports & fun loving",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nancy_kasaudhan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/nancyKasaudhan20",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Cloud Community Days Kolkata, 2023 - Kolkata",
+  "description": "#GoogleCloudCommunityDays - An event organized by the community that features industry experts presenting on exciting cloud topics. The shared belief powering this conference is that when developers come together to exchange ideas, amazing things can happen.",
+  "date": {
+    "start": "2023-05-07T10:00:00.000+05:30",
+    "end": "2023-05-07T20:00:00.000+05:30"
+  },
+  "url": "https://gdgcloud.kolkata.dev/ccd2023/",
+  "location": {
+    "city": "Kolkata",
+    "country": "India"
+  }
+}

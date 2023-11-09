@@ -1,0 +1,41 @@
+{
+  "name": "Rajdeep Singh",
+  "bio": "JavaScript || Reactjs || Nextjs || Python || Rust || Biotechnology || Bioinformatic || Front-end Developer || Author || Open source contributor",
+  "tags": ["Open Source", "Javascript", "ReactJS", "Nextjs"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/officialrajdeepsingh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/officalrajdeepsingh/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Official_R_deep"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Let's work on some projects",
+      "url": "https://github.com/officialrajdeepsingh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/officalrajdeepsingh/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Freecodecamp",
+      "url": "https://www.freecodecamp.org/news/author/officialrajdeepsingh/",
+      "icon": "FaFreeCodeCamp"
+    },
+    {
+      "name": "website: Let's connect",
+      "url": "https://officialrajdeepsingh.dev/",
+      "icon": "FaGlobe"
+    }
+  ]
+}

@@ -1,12 +1,16 @@
 {
   "name": "Kimberly Pangilinan",
-  "type": "personal",
   "bio": "BS in Information Tech Student | * Aspiring * Web Developer and Designer | Still Learning",
-
   "tags": ["HTML", "CSS", "JavaScript", "PHP"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/kpangilinan_dev" },
-    { "icon": "FaGithub", "url": "https://github.com/KimberlyPangilinan" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kpangilinan_dev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/KimberlyPangilinan"
+    },
     {
       "icon": "FaYoutube",
       "url": "https://www.youtube.com/@kimberlypangilinan"

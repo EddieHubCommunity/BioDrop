@@ -1,0 +1,53 @@
+{
+  "name": "Ankit Anand",
+  "bio": "**Java Developer** | **Git + GitHub** | **Open Source Contributor at Mozilla** ",
+  "tags": [
+    "Java",
+    "Python",
+    "SQL",
+    "Backend Development",
+    "Linux",
+    "Mozilla",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nkitanand"
+    },
+    {
+      "icon": "FaBrowser",
+      "url": "https://nkitanand.github.io/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nkitanand"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ankit-anand-b22588a3/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Ankit's Website - I won't mind you checking me out!",
+      "url": "https://nkitanand.github.io/",
+      "icon": "FaBrowser"
+    },
+    {
+      "name": "Ankit's Twitter - Follow me for Opensource and Git Tips",
+      "url": "https://twitter.com/nkitanand",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Ankit's LinkedIn - Connect or Follow me for professional tips",
+      "url": "https://www.linkedin.com/in/ankit-anand-b22588a3/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Ankit's GitHub - Let's collab for build together",
+      "url": "https://github.com/nkitanand",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Udayan Singh",
+  "bio": "Tech Undergrad trying to get started with Open Source contributions.",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Udayan-Singh",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/twt4udayan",
+      "icon": "FaTwitter"
+    }
+  ]
+}

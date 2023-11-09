@@ -1,0 +1,26 @@
+{
+  "name": "Nisarga Adhikary",
+  "bio": "Your friendly neighbourhood full stack developer & cybersecurity enthusiast.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ni5arga",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Website",
+      "url": "https://nisarga.me/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/ni5arga",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/ni5arga/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

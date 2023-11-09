@@ -1,0 +1,51 @@
+{
+  "name": "Mayank Pandey",
+  "bio": "***Open Source*** | JavaScript Developer | Learning DevOps and Django. |",
+  "tags": ["Open Source", "JavaScript", "ReactJS", "DevOps", "Python"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/reallyMayankP"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MAYANKpandey14"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/manu.pandey_"
+    }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "My Services - Open Source and Website creation",
+      "url": "https://c92bcpytc8a.typeform.com/to/hnJW2J02",
+      "icon": "FaBusinessTime"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter- Posts about Web development and Open Source",
+      "url": "https://twitter.com/reallyMayankP",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram- Follow me to see what happens behind the lines.",
+      "url": "https://www.instagram.com/manu.pandey_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub- Open to collaborate and contribute to Open Source",
+      "url": "https://www.github.com/MAYANKpandey14/",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn- Like minded people should connect and build something big together.",
+      "url": "https://www.linkedin.com/in/mayank-pandey-21a5bb195/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

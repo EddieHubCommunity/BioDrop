@@ -1,0 +1,21 @@
+{
+  "name": "AKHIL GIREESH",
+  "bio": "19 | Incipient Web 3 Developer | Blockchain & AI Enthusiast | Amateur Surrealism Artist",
+  "links": [
+    {
+      "name": "Reach out to me on Twitter",
+      "url": "https://twitter.com/_0x416B68696C_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Reach out to me on Github",
+      "url": "https://github.com/AKHIL-GIREESH",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Reach out to me on LinkedIn",
+      "url": "https://www.linkedin.com/in/akhil-gireesh-3b6aa5227/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

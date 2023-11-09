@@ -1,0 +1,21 @@
+{
+  "name": "Mónica Fidalgo",
+  "bio": "Frontend Product Engineer at Cloudflare after a career switch from Marine Biology into tech | Teacher and a mentor for women in tech community 👩‍💻 | Away from the computer we can also find me lost in the nature 🌿 ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/coding_mermaid",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Find me on GitHub",
+      "url": "https://github.com/MonicaFidalgo",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/monicafidalgo/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

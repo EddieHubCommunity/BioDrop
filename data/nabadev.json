@@ -1,0 +1,21 @@
+{
+  "name": "Nabajyoti Bharali",
+  "bio": "Self-taught web developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/naba_dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/nabadev/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/nabajyoti-bharali/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

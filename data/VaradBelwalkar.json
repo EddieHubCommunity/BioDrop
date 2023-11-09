@@ -1,0 +1,48 @@
+{
+  "name": "Varad Belwalkar",
+  "bio": "DevOps and Machine Learning Enthusiast",
+  "tags": ["Open Source", "DevOps", "Backend", "Go"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/BelwalkarVarad"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/VaradBelwalkar"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/varadbelwalkar"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/VaradBelwalkar",
+      "icon": "FaGithub",
+      "color": "#171515"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BelwalkarVarad",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/eddiejaoude",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout my Dockerhub",
+      "url": "https://hub.docker.com/u/varadbelwalkar",
+      "icon": "FaDocker"
+    },
+    {
+      "name": "Checkout collection of useful resources and handbooks",
+      "url": "https://drive.google.com/drive/folders/1P6RizG_Ub28neoaPeh9V9KMjUDcL4kj0?usp=sharing",
+      "icon": "FaGoogleDrive"
+    }
+  ]
+}

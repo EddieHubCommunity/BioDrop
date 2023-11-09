@@ -1,32 +1,54 @@
 {
   "name": "Priyanshu Maurya",
-  "type": "personal",
-  "bio": "Open Source Contributer!",
-
+  "bio": "React.js Developer | Open-source Contributor | Aspiring Machine Learning Practitioner",
+  "tags": ["Open Source", "Javascript", "Typescript", "Python", "React"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/PrianshuMaurya"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/PriyansuMaurya"
+    }
+  ],
   "links": [
     {
-      "name": "Follow me on GitHub",
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/PrianshuMaurya",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
       "url": "https://github.com/PriyansuMaurya",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on Twitter",
-      "url": "https://twitter.com/pr17anshu",
-      "icon": "FaTwitter"
-    },
-    {
-      "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/priyanshu-maurya-388346240",
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/priyanshu-maurya/",
       "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
-      "title": "Curretly Pursuing Engg 🎓",
+      "isGoal": true,
+      "title": "Course helping me to understand what really is AI and what actually goes under the hood",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "I am 50% on the way through course",
+      "url": "https://archive.nptel.ac.in/courses/106/102/106102220/"
+    },
+    {
+      "title": "Pursuing Computer Engineering 🎓",
       "date": "January 2020",
       "icon": "FaBook",
       "color": "grey",
-      "description": "Started Programming in year 2019"
+      "description": "toos"
     },
     {
       "title": "Started Programming",

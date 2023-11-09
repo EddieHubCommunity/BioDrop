@@ -1,0 +1,76 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
+
+## Events - with Forms
+
+Whether you are hosting or attending Events, let people know what you are up to by adding these to your Profile.
+
+## Add an Event
+
+1. Go to the [BioDrop homepage](https://biodrop.io/)
+
+2. Click on `Log in`
+
+![BioDrop Homepage](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/ce980ed7-ad4d-42c0-886c-447a2e2ab936)
+
+3. You will be taken to your Profile's Statistics page
+
+Click on `Events`
+
+![BioDrop Profile](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/12fd246f-316a-4644-bc15-380f95dfac14)
+
+4. This will take you to the Events page
+
+Click `Add Event`
+
+![BioDrop Add Event page](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/74061f02-deae-4934-9fa7-9d4c383394fe)
+
+Note: If you already have events in your Profile these will shown here. If you want to edit an existing event then please refer to Edit an Event below.
+
+5. Complete the information on the Form
+
+![BioDrop Link Form](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/2e8f5598-20b4-4336-ad1e-f83e59bad490)
+
+| Field        | Description                                                                  |
+| ------------ | ---------------------------------------------------------------------------- |
+| Event Name   | This could be the name of the conference for example                         |
+| Description  | Explain what this event is about                                             |
+| Event URL    | Add a link so others can easily find this event                              |
+| Dates        | Add when the Event starts and when it finishes using the date picker         |
+| Ticket Price | Add how much it costs to attend an event in USD (if it is free then add `0`) |
+| Virtual      | Use the toggle indicate if the event is taking place online or not           |
+
+Note: as you complete these fields the information will appear on the right hand side, which will allow you to preview how your Profile will look.
+
+6. Click `Save`
+
+7. Your event will then be shown in your Profile on your custom URL (BioDrop.io/eddiejaoude)
+
+## Edit an Event
+
+1. To edit an event which is already on your Profile, firstly follow steps 1 to 3 shown above in Add an Event
+
+2. On the Events page, click on the pencil icon as shown below
+
+![BioDrop Events](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/661feadb-8c74-4ecd-a50e-b313be67efd5)
+
+3. You will be taken to a Form which will have the existing information for that event which you can change
+
+![BioDrop Events Form](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/92d58066-003e-4d94-a597-a35802683bec)
+
+Note: as you change these fields the information will appear on the right hand side, which will allow you to preview how your Event will look.
+
+4. Click `Save`
+
+5. Your changed Event will then be shown in your Profile on your custom URL (BioDrop.io/eddiejaoude)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);

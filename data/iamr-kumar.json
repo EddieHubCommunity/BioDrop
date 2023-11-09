@@ -1,8 +1,6 @@
 {
   "name": "Ritik Kumar",
-  "type": "personal",
   "bio": "Full Stack Engineer | Freelance Developer | Part-time writer",
-
   "tags": ["Javascript", "Typescript", "React", "NextJS", "Node", "Flutter"],
   "socials": [
     {
@@ -30,7 +28,6 @@
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
-
     {
       "name": "GitHub",
       "url": "https://github.com/iamr-kumar",

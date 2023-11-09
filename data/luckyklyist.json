@@ -1,0 +1,38 @@
+{
+  "name": "Anupam Chauhan",
+  "bio": "Open Source DevRel |**Backend Developer** | Computer Sc Student",
+  "tags": ["Open Source", "Javascript", "Python", "Django", "React"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/luckyklyist"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/luckyklyist"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@codewithklyist"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/luckyklyist",
+      "icon": "FaGithub",
+      "color": "#171515"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/luckyklyist",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/anupam-ac/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

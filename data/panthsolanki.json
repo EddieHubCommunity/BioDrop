@@ -1,0 +1,48 @@
+{
+  "name": "Panth Solanki",
+  "bio": "**FrontEnd** Developer | **Web App** Developer | **Mobile App** Developer ",
+  "tags": [
+    "FrontEnd Developer",
+    "JavaScript",
+    "VueJs",
+    "NuxtJS",
+    "React Native",
+    "Web3"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/panthsolanki"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/panth/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Social Presence",
+      "name": "GitHub: Follow me to unlock more code",
+      "url": "https://github.com/panthsolanki",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Social Presence",
+      "name": "Let's take our professional connection to LinkedIn",
+      "url": "https://www.linkedin.com/in/panth/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social Presence",
+      "name": "Follow Me on Twitter",
+      "url": "https://twitter.com/panthsolanki",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Proud Work in progress",
+      "name": "Visit to check",
+      "url": "https://web3utils.netlify.app/",
+      "icon": "FaLink"
+    }
+  ]
+}

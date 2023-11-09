@@ -1,3 +1,4 @@
+import { serverEnv } from "@config/schemas/serverSchema";
 import * as PinoLogger from "pino";
 
 const config = {
@@ -9,18 +10,8 @@ const config = {
   },
 };
 
-let logger
+let logger;
 
-if (process.env.STORYBOOK_RUN) {
-  logger = {
-    child: console.log,
-    info: console.log,
-    error: console.log,
-  }
-} else {
-  logger = PinoLogger.pino(
-    process.env.NODE_ENV === "development" ? config : {}
-  );
-}
+logger = PinoLogger.pino(serverEnv.NODE_ENV === "development" ? config : {});
 
 export default logger;

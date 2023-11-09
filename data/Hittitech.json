@@ -1,0 +1,21 @@
+{
+  "name": "Md Adnan Sami",
+  "bio": "Self-taught full-stack developer",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/md-adnan-sami/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/adnan9381",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Hittitech",
+      "icon": "FaGithub"
+    }
+  ]
+}

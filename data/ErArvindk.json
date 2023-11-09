@@ -1,0 +1,61 @@
+{
+  "name": "Arvind Kumar",
+  "bio": " Computer Science Student | fullstack developer | DSA | A geek |learner",
+  "tags": ["Javascript", "HTML", "CSS", "Python", "DSA", "Web dev"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/erarvind_k"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ErArvindk"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@freetime_official"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/arvind-kumar-1189bb263/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/er_arvind.k/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/erarvind_k",
+      "icon": "FaTwitter",
+      "color": "#000000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "YouTube: Learn more about technology",
+      "url": "https://www.youtube.com/@freetime_official",
+      "icon": "FaYoutube",
+      "color": "#000000"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/ErArvindk",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/arvind-kumar-1189bb263/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "instagram: Follow me",
+      "url": "https://www.instagram.com/er_arvind.k/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

@@ -1,8 +1,6 @@
 {
   "name": "Omkar Ramishte",
-  "type": "personal",
   "bio": " CS UnderGrad | Frontend Developer | shares about open source related threads and  Blogs on Twitter| Happy to connect❤️ ",
-
   "tags": [
     "C++",
     "ReactJS",
@@ -12,15 +10,23 @@
     "Open Source"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/omk-coder" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/omk-coder"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/omkar-ramishte-9ba784207/"
     },
-    { "icon": "FaTwitter", "url": "https://twitter.com/ORamishte" },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@Omkar009" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ORamishte"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@Omkar009"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub tO see My Art Of Work",

@@ -1,0 +1,21 @@
+{
+  "name": "Vedant Andhale",
+  "bio": "Developer Trying to create an impact through learning and growing every day",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/VedantAndhale",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/VedantAndhale",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://Linkedin.com/in/VedantAndhale",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

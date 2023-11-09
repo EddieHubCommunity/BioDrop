@@ -1,0 +1,57 @@
+{
+  "name": "Anurag Dhamala",
+  "bio": "Software Engineer who loves to dive deep into new technologies and collaborate with like-minded people",
+  "tags": [
+    "Typescript",
+    "JavaScript",
+    "Svelte",
+    "ReactJs",
+    "V8",
+    "NodeJS",
+    "NextJs",
+    "Express",
+    "Open Source",
+    "Software Engineer"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/theanurag_d"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/anurag-dhamala"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/anurag-dhamala"
+    }
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/anurag-dhamala",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://anurag-dhamala.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/theanurag_d",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "StackOverflow",
+      "url": "https://stackoverflow.com/users/14917277/anurag-dhamala",
+      "icon": "FaStackOverflow"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/anurag-dhamala",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

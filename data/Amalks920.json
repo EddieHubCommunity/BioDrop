@@ -1,0 +1,21 @@
+{
+  "name": "Amal K S",
+  "bio": "Aspiring fullstack developer",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/amal-ks-9a9567183/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Amalks920",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://hashnode.com/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

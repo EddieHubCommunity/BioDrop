@@ -1,0 +1,32 @@
+{
+  "name": "Diggaj Upadhyay (DigUp)",
+  "bio": "Tech enthusiast, blogger, and content writer",
+  "tags": ["Open Source", "Content Writing", "Blogging"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/diggajupadhyay"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/diggajupadhyay"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/diggajupadhyay",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/diggajupadhyay",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/diggajupadhyay",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

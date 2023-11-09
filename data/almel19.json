@@ -1,0 +1,39 @@
+{
+  "name": "almel test",
+  "bio": "Test bio",
+  "tags": ["tag 1", "tag 2", "tag 3", "tag 4"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/elonmusk"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/almel19"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@FIDE_chess"
+    }
+  ],
+  "links": [
+    {
+      "group": "group 1",
+      "name": "Twitter",
+      "url": "https://twitter.com/elonmusk",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "group 1",
+      "name": "Youtube",
+      "url": "https://www.youtube.com/@FIDE_chess",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "group 2",
+      "name": "GitHub",
+      "url": "https://www.github.com/almel19",
+      "icon": "FaGithub"
+    }
+  ]
+}

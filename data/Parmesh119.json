@@ -1,0 +1,76 @@
+{
+  "name": "Parmesh Bhatt",
+  "bio": "#119 | Junior IT'25 Engineer👨‍🎓 || Developer Program Member @GitHub || Cloud Team Member @CLDC || 1X @AWS certified || DSA💡|| Open-Source🖥 in Cloud computing☁ and DevOps || Connecting with Global-Communities 🌍 |",
+  "tags": [
+    "Cloud Computing",
+    "DevOps",
+    "Web Development",
+    "Open-source",
+    "Open-source education",
+    "Contributions"
+  ],
+  "Milestones": [
+    "Want to become a person that have special ability to do something with simplicity",
+    "Become scientist at DRDO",
+    "Become Master of Open-source",
+    "Want to go and explore the whole world as a student or freshman",
+    "Want to do something for my country before dying"
+  ],
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/parmesh-bhatt119/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Parmesh_119",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "http://github.com/Parmesh119",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/prmes_.119",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Gmail",
+      "url": "mailto:parmeshb90@gmail.com",
+      "icon": "SiGmail"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/21it009/",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "CodeChef",
+      "url": "https://www.codechef.com/users/parmesh_119",
+      "icon": "SiCodechef"
+    },
+    {
+      "name": "HackerRank",
+      "url": "https://www.hackerrank.com/21IT009",
+      "icon": "FaHackerrank"
+    },
+    {
+      "name": "HashNode",
+      "url": "https://hashnode.com/@Prmes119",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@21it009",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "GCP",
+      "url": "https://www.cloudskillsboost.google/public_profiles/44b914f8-1c53-4e9e-9c9b-9e7942de9f7b",
+      "icon": "SiGooglecloud"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Yashraj Jain",
+  "bio": "Hybrid Mobile Developer | FinTech | Flutter | Freelancer | Technical Content Writer",
+  "tags": ["Open Source", "Flutter", "Dart", "Swift", "Java", "Node.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/yashrajjain726"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/yashrajjain726"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/yashrajjain726",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/yashrajjain726",
+      "icon": "FaGithub"
+    }
+  ]
+}

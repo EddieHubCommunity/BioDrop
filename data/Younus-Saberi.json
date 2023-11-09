@@ -1,0 +1,80 @@
+{
+  "name": "Younus-Saberi",
+  "bio": "Enthusiast in **Cloud Computing** | BackEnd Developer | Learning about **DevOps** Tools such as Docker, Kubernetes, CI/CD, IaaC, ",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Docker",
+    "Python",
+    "Node.js"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/younussaberi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Younus-Saberi"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/younus-saberi/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Personal",
+      "name": "My Portfolio Website 🧑‍💻",
+      "url": "https://younussaberi.me/PersonalWebsite/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Personal",
+      "name": "Resume 📄",
+      "url": "https://drive.google.com/file/d/1TLVk4vwgDLubI8zEzH9PHNYNzBotX4a0/view?usp=share_link",
+      "icon": "FaBookmark"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me on Twitter 🐦",
+      "url": "https://twitter.com/younussaberi",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Linkedin: Let's connect on Linkedin 🤝 ",
+      "url": "https://www.linkedin.com/in/younus-saberi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Collaborate on Open Source💻",
+      "url": "https://github.com/Younus-Saberi",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Hashnode: Read some of my blogs 📃",
+      "url": "https://blog.younussaberi.me",
+      "icon": "SiHashnode"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube: Watch some of my content and work 📹",
+      "url": "https://www.youtube.com/@younussaberi",
+      "icon": "FaYoutube"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Selected as Cloud Lead",
+      "date": "October 2022",
+      "icon": "FaGoogle",
+      "color": "grey",
+      "description": "Being Recognized by Google Developer Student Clubs as Cloud Computing Lead at my Campus",
+      "url": "https://gdsc.community.dev/amc-engineering-college-bengaluru/"
+    }
+  ]
+}

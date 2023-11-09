@@ -1,0 +1,37 @@
+{
+  "name": "Viktar Patotski",
+  "bio": "Tech Lead,Back End Developer, DevOps, Architect, Tech Lead.",
+  "tags": ["Java", "DevOps", "Clean Code", "TDD", "Clouds", "Architecture"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/xp-vit",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/xpvit",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/viktar-patotski/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Visit my Site",
+      "url": "https://patotski.com/",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started my site",
+      "date": "Dec 2020",
+      "icon": "FaGlobe",
+      "color": "grey",
+      "description": "I have launched my site to share my experience and knowledge with others.",
+      "url": "https://patotski.com/"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "isInPerson": true,
+  "color": "Green",
+  "name": "Devpops Day Birmingham, AL",
+  "description": "I will be attending the Devops Day in Birmingham hoping to learn more about Devops and Network",
+  "date": {
+    "start": "2023-04-20T08:00:00.000+00:00",
+    "end": "2023-04-21T17:30:00.000+00:00"
+  },
+  "url": "https://devopsdays.org/events/2023-birmingham-al/welcome/",
+  "location": {
+    "road": "Red Mountain Theatre Arts Campus",
+    "city": "Birmingham",
+    "state": "Alabama",
+    "country": "United States"
+  },
+  "userStatus": "Attending"
+}

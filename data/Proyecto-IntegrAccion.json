@@ -1,0 +1,11 @@
+{
+  "name": "Proyecto IntegrAcción",
+  "bio": "un proyecto de cooperación entre la Universidad Católica San Pablo y ACNUR",
+  "links": [
+    {
+      "name": "Síguenos en Facebook",
+      "url": "https://www.facebook.com/ProyectoIntegrAccion1",
+      "icon": "FaFacebook"
+    }
+  ]
+}

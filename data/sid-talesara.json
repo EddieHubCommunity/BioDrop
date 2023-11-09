@@ -1,0 +1,116 @@
+{
+  "name": "Siddharth Talesara",
+  "bio": "Frontend Developer | ReactJs ~ Next.js | Open Source contributor 🎯 | Open for opportunity 🙂 | Gardner",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "React",
+    "NextJS",
+    "Sass"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://www.twitter.com/sidtalesara"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sid-talesara"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/siddharth-talesara/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Follow me on twitter",
+      "url": "https://www.twitter.com/sidtalesara",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/sid-talesara",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/siddharth-talesara/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about my daily learnings",
+      "url": "https://medium.com/@sidtalesara",
+      "icon": "FaMedium"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "Jul 2018",
+      "icon": "FaCode",
+      "color": "black",
+      "description": "Stated hands dirty in coding"
+    },
+    {
+      "title": "Started Youtube channel",
+      "date": "2020",
+      "icon": "FaYoutube",
+      "color": "black",
+      "description": "Started youtube channel sharing knowledge about plants",
+      "url": "https://www.youtube.com/@ThreePlants"
+    },
+    {
+      "title": "Internship in Fampay",
+      "date": "2020",
+      "icon": "SiFampay",
+      "color": "black",
+      "description": "Did internship in Fampay ~ India's first fintech startup for teenagers",
+      "url": "https://www.linkedin.com/posts/fampay_interns-of-the-fam-activity-6707329270328410113-t-V8?utm_source=share&utm_medium=member_desktop"
+    },
+    {
+      "title": "Internship in LLA",
+      "date": "2022",
+      "icon": "FaLaptop",
+      "color": "black",
+      "description": "I joined as LLA Product intern(LLA is youtube channel with over 4M subcribers and provide other services) ",
+      "url": "https://www.instagram.com/p/Cjao04Zvr8X/"
+    },
+    {
+      "title": "Started Open Source contribution",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Started open source contribution with the motivation from Eddie Jaoude",
+      "url": "https://github.com/sid-talesara"
+    },
+    {
+      "title": "Started part-time freelancing",
+      "date": "Oct.2022",
+      "icon": "FaMoneyBillWave",
+      "color": "blue",
+      "description": "Started part-time freelancing by joining Rightlabs and making my own money!"
+    },
+    {
+      "isGoal": true,
+      "title": "Land my first full time job as a Frontend Developer before 2024",
+      "date": "2023",
+      "icon": "FaUserTie",
+      "color": "black",
+      "description": "I want to move from being a part-time freelancer to a full time developer"
+    },
+    {
+      "isGoal": true,
+      "title": "Create a open source project that gets 1000+ stars",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "Want to create a open source project that gets 1000+ stars"
+    }
+  ]
+}

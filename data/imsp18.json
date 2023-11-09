@@ -1,0 +1,26 @@
+{
+  "name": "Shivang Parmar",
+  "bio": "Learning to Build ✨ | Front-End Developer 💻 | UI/UX 🎨 | Hackathon Enthusiast | Exploring Web3 🛰️ | ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/imsp_18",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shivang-parmar/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout my GitHub",
+      "url": "https://github.com/imsp18",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Buy me a Coffee",
+      "url": "https://www.buymeacoffee.com/imsp18",
+      "icon": "SiBuymeacoffee"
+    }
+  ]
+}

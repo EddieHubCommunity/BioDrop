@@ -1,0 +1,41 @@
+{
+  "name": "Vikash",
+  "bio": "FullStack Developer",
+  "tags": ["Web Development", "Javascript", "Java", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vikash_k__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Vikash861"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/vikash-kumar-2179591a4"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/vikash_k__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/vikash-kumar-2179591a4",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Vikash861",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/kumarvikashdev1",
+      "icon": "FaInstagram"
+    }
+  ]
+}

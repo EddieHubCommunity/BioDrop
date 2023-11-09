@@ -1,0 +1,26 @@
+{
+  "name": "Blair Fernandes",
+  "bio": "I am a passionate programmer 💻, geek 🤓 & an avid gamer🎮",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/blairf49",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/blair49",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/blair-fernandes",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "name": "Medium",
+      "url": "https://blair49.medium.com/",
+      "icon": "FaMediumM"
+    }
+  ]
+}

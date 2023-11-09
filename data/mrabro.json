@@ -1,13 +1,20 @@
 {
   "name": "Rafi Abro",
-  "type": "personal",
   "bio": "I'm Rafi, a full-time full-stack developer 👨‍💻 working since 2016 🚀",
-
   "tags": ["Open Source", "wordpress", "javascript", "nodejs", "DevOps"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/mrabro" },
-    { "icon": "FaGithub", "url": "https://github.com/mrabro" },
-    { "icon": "FaFacebook", "url": "https://facebook.com/mrabro" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/mrabro"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mrabro"
+    },
+    {
+      "icon": "FaFacebook",
+      "url": "https://facebook.com/mrabro"
+    }
   ],
   "links": [
     {

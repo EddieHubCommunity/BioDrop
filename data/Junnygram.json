@@ -1,0 +1,44 @@
+{
+  "name": " Oyewunmi Olaleye",
+  "bio": "**Frontend developer!** | Physicist ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Python",
+    "web Development",
+    "ReactJS",
+    "NextJS",
+    "Typescript"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Badboyjunny07"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Junnygram"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/olaleye-oyewunmi-4967a5223"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow my Open Source journey on GitHub",
+      "url": "https://github.com/Junnygram",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Random tweets on Twitter",
+      "url": "https://twitter.com/Badboyjunny07",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My portfolio",
+      "url": "https://olasportfolio.netlify.app",
+      "icon": "FaPollH"
+    }
+  ]
+}

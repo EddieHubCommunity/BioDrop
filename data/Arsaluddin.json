@@ -1,0 +1,23 @@
+{
+  "name": "Arsal Uddin",
+  "bio": "**Open Source**  Enthusiast | Frontend Developer",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "learning MERN Stack",
+    "React js",
+    "Node.js"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/arsaluddin8",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/arsal-uddin-297134217/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

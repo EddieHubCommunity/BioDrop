@@ -1,15 +1,21 @@
 {
   "name": "Sharat Katwa",
-  "type": "personal",
   "bio": "Backend Developer | Open Source and Tech Enthusiast",
-
   "tags": ["NodeJS", "ExpressJS", "MongoDB", "Javascript", "OpenSource"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/JkSharat" },
-    { "icon": "FaGithub", "url": "https://github.com/sharatkatwa" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/sharat-katwa" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/JkSharat"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sharatkatwa"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/sharat-katwa"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -29,7 +35,6 @@
       "color": "#0075D6"
     }
   ],
-
   "milestones": [
     {
       "title": "Started Learning about Backend Development",

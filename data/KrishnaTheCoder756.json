@@ -1,8 +1,6 @@
 {
   "name": "Krishna Sarathi Ghosh",
-  "type": "personal",
   "bio": "Python, Web Developer.",
-
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -34,9 +32,8 @@
     {
       "title": "Joined YouTube",
       "url": "https://youtube.com/@techboykrish",
-      "icon": "FaYouTube",
-      "date": "25 June 2022",
-      "icon": "FaYoutube"
+      "icon": "FaYoutube",
+      "date": "25 June 2022"
     }
   ]
 }

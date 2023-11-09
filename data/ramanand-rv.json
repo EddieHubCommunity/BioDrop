@@ -1,0 +1,31 @@
+{
+  "name": "Ramanand Thakur",
+  "bio": "A Software Developer and AI/ML enthusiast. Code👨🏻‍💻->Coffee🍵->Commit🔀->Repeat🔁",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn🤝🏻",
+      "url": "https://www.linkedin.com/in/ramanand-rv",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub🐼",
+      "url": "https://www.github.com/ramanand-rv/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter🐤",
+      "url": "https://twitter.com/ramanand_rv",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "YouTube▶️",
+      "url": "https://www.youtube.com/@ramanandthakur1464",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Instagram📸",
+      "url": "https://www.instagram.com/ramanand_rv/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

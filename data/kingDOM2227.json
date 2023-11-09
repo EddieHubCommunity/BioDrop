@@ -1,11 +1,16 @@
 {
   "name": "Abiola John Oluwaseyi",
-  "type": "personal",
   "bio": "Open Source DevRel | Python Developer | Data Scientist  | **GitHub** Star",
   "tags": ["Open Source", "Python", "R", "Java", "Javascript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/kingdom2203" },
-    { "icon": "FaGithub", "url": "https://github.com/kingDOM2227" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kingdom2203"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kingDOM2227"
+    },
     {
       "icon": "FaYoutube",
       "url": "https://youtube.com/channel/UCi_H7JjGDI3E_opg7pjujWw"

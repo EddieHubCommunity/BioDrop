@@ -1,19 +1,25 @@
 {
   "name": "Sachin Sharma",
-  "type": "personal",
   "bio": "Engineering undergraduate. Passionate about writing. Open Source Enthusiast. Let's collaborate",
-
   "tags": ["Open Source", "Blogger", "DevOps", "Docker", "Linux", "Kubernetes"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/sachintwts" },
-    { "icon": "SiHashnode", "url": "https://sachinsharma.info/" },
-    { "icon": "FaGithub", "url": "https://github.com/devsachinsharma" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sachintwts"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://sachinsharma.info/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/devsachinsharma"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/sachin-sharma-648b1b200/"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",

@@ -1,0 +1,27 @@
+{
+  "name": "Bikrant Jajware",
+  "bio": "Experienced Software Developer | Exploring Opensource | all time System Design and DSA Padawan",
+  "tags": ["Open Source", "Javascript", "Typescript", "Node", "React"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/bikrantjajware"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/bikrantjajware"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/bikrant-jajware"
+    }
+  ],
+  "links": [
+    {
+      "group": "Projects",
+      "name": "Archives: archive your memories on the go!",
+      "url": "https://m3mories.netlify.app/about",
+      "icon": "FaLink"
+    }
+  ]
+}

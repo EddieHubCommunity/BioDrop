@@ -1,0 +1,31 @@
+{
+  "name": "Parth Mandale",
+  "bio": "Passionate Techie who loves creating product. **Web3.0** and **Open Source is💚**",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com//ParthMandale",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ParthMandale",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/parth-mandale-0b7014247/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Join my Discord Server",
+      "url": "https://discord.gg/AhvQaKFpTk",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "My Gmail id: devparthmandale915@gmail.com",
+      "url": "",
+      "icon": "SiGmail"
+    }
+  ]
+}

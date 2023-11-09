@@ -1,0 +1,55 @@
+{
+  "name": "Neeraj Kumar",
+  "bio": "Backend Developer | **Node.js** | TypeScript Lover",
+  "tags": [
+    "Open Source",
+    "Node.js",
+    "MongoDB",
+    "Integration Testing",
+    "NestJS",
+    "Functional Programming",
+    "Type Level TypeScript",
+    "GraphQL",
+    "Microservices"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ennkay161"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/neerajkumar161"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/neerajkumar161/"
+    },
+    {
+      "icon": "FaStackOverflow",
+      "url": "https://stackoverflow.com/users/13338582/neeraj-kumar"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: You can follow me",
+      "url": "https://twitter.com/ennkay161",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github: Open Source and Projects",
+      "url": "https://github.com/neerajkumar161",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/neerajkumar161/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "StackOverflow: Help everyone",
+      "url": "https://stackoverflow.com/users/13338582/neeraj-kumar",
+      "icon": "FaStackOverflow"
+    }
+  ]
+}

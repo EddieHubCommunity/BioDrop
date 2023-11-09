@@ -1,0 +1,69 @@
+{
+  "name": "Parma Ram",
+  "bio": "Full Stack Web Developer | Exploring Tech | Open Source Enthusiast!",
+  "tags": [
+    "Open Source",
+    "Web Developer",
+    "algorithms",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Nextjs",
+    "NodeJS"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/BuldakParma"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/parma-ram-349b16228/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/parma1111"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@ParmaRam"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BuldakParma",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/parma1111",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/parma-ram-349b16228/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/parmarambuldak/?hl=en",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://my-portfolio-buldak.vercel.app/",
+      "icon": "FaLink"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Began my Open Source journey",
+      "date": "January 2023",
+      "icon": "FaRocket",
+      "color": "#7a5c4b",
+      "description": "Made my first Open Source contribution",
+      "url": "https://github.com/parma1111"
+    }
+  ]
+}

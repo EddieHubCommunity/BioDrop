@@ -1,0 +1,73 @@
+{
+  "name": "Rohiit Yaddav",
+  "bio": "**TechOps Engineer** | **DevOps** | **Open Source** | **GitHub** Star",
+  "tags": [
+    "Open Source",
+    "TechOps Engineer",
+    "DevOps",
+    "Javascript",
+    "Python",
+    "JAVA",
+    "FastAPI",
+    "PostMan",
+    "AWS",
+    "GCP"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/RohitYJ"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rohit190183107010"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/rohityj"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Linkdin",
+      "url": "https://www.linkedin.com/in/rohityj",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/rohit190183107010",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RohitYJ",
+      "icon": "FaTwitter"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Postman API Fundamentals Student Expert",
+      "date": "FEB 2023",
+      "icon": "FaPostman",
+      "color": "red",
+      "description": "Postman Student Experts are proficient in the essential skills required for consuming APIs in Postman and applications.",
+      "url": "https://badgr.com/public/assertions/pSBmx6MITHKm9mU0hmVHnw?identity__email=rohit.190183107010@gmail.com"
+    },
+    {
+      "title": "AWS Cloud Practitioner Essentials ",
+      "date": "Nov 2022",
+      "icon": "FaAWS",
+      "color": "red",
+      "description": "Started creating content",
+      "url": "https://youtube.com/eddiejaoude"
+    },
+    {
+      "title": "GitHub Star",
+      "date": "2020",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "**AWS** Cloud Practitioner Essentials ",
+      "url": "https://www.amazon.com/courses/certificates/c652ca49-6b76-40cd-a249-5f60b2563e25?ref_=cm_sw_r_cp_ud_aloc_cert_HQFZ0YSR8JNARBAB7DMT"
+    }
+  ]
+}

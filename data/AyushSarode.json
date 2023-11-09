@@ -1,14 +1,21 @@
 {
   "name": "Ayush Sarode",
-  "type": "personal",
   "bio": "Open source Enthusiastic | Web Dev  ",
   "tags": ["Open Source", "WebDev"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AyushSarode07" },
-    { "icon": "FaGithub", "url": "https://github.com/AyushSarode" },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@AyushSarode" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AyushSarode07"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AyushSarode"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@AyushSarode"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

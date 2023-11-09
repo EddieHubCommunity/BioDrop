@@ -1,0 +1,57 @@
+{
+  "name": "Dominic Frei",
+  "bio": "Solopreneur | Software Engineer | Developer Advocate | Dev Ops",
+  "tags": ["Engineer", "DevRel", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/DominicFrei"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/DominicFrei"
+    },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/DominicFrei"
+    }
+  ],
+  "testimonials": [],
+  "links": [
+    {
+      "group": "Business",
+      "name": "GrittR - Twitter on Steroids",
+      "url": "https://www.grittr.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/DominicFrei",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: My Work",
+      "url": "https://github.com/DominicFrei",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/DominicFrei",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "GrittR",
+      "date": "February 2023",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://www.grittr.app/"
+    }
+  ]
+}

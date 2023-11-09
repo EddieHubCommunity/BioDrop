@@ -1,0 +1,67 @@
+{
+  "name": "Ganesh Mourya",
+  "bio": "Open Source | Aspiring Frontend Developer | Skilled in C/C++, Git, HTML/CSS, Javascript, SQL | Learning PHP | BSc IT undergrad",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Frontend Developer",
+    "Software Developer",
+    "Internships"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Alkaison"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Alkaison"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/Alkaison"
+    },
+    {
+      "icon": "FaDiscord",
+      "url": "https://discordapp.com/users/536816649425125389"
+    }
+  ],
+  "links": [
+    {
+      "group": "Blogs",
+      "name": "Alkaison Blogs: Learn Git and GitHub Quickly",
+      "url": "https://alkaison.github.io/",
+      "icon": "FaCode"
+    },
+    {
+      "group": "Profiles",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Alkaison",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Profiles",
+      "name": "Twitter: Follow Me",
+      "url": "https://twitter.com/Alkaison",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Profiles",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/Alkaison",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Profiles",
+      "name": "Discord: Join Byte Hub Server",
+      "url": "https://discord.gg/dF4PHpA",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Profiles",
+      "name": "HackerRank: Level Up!",
+      "url": "https://www.hackerrank.com/Alkaison",
+      "icon": "FaLink"
+    }
+  ]
+}

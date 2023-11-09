@@ -1,0 +1,68 @@
+{
+  "name": "Wes MacDonald",
+  "bio": "Developer | Microbiologist | Coffee Nerd | Mixologist | Gardener",
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/wrmacdonald"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://hachyderm.io/@wrmacdonald#"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/wes-macdonald-2016/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Check out my work on GitHub",
+      "url": "https://github.com/wrmacdonald",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Mastodon",
+      "url": "https://hachyderm.io/@wrmacdonald#",
+      "icon": "FaMastodon"
+    },
+    {
+      "name": "Glance at my LinkedIn",
+      "url": "https://www.linkedin.com/in/wes-macdonald-2016/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Open Source",
+      "date": "April 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "blue",
+      "description": "Started Contributing To Open Source Projects",
+      "url": "https://github.com/wrmacdonald"
+    },
+    {
+      "title": "Software Developer Internship @ Bell Automation Systems",
+      "date": "November 2022",
+      "icon": "FaBell",
+      "color": "blue",
+      "description": "Started Backend project developing a website scraper & API",
+      "url": "https://bellautomationsystems.com/#about"
+    },
+    {
+      "title": "Graduated from Oregon State University with my Computer Science degree",
+      "date": "August 2022",
+      "icon": "FaGraduationCap",
+      "color": "blue",
+      "description": "Completed my Computer Science Bachelor's with a 4.00 GPA",
+      "url": "https://ecampus.oregonstate.edu"
+    },
+    {
+      "title": "Began working in Coffee!",
+      "date": "October 2019",
+      "icon": "FaCoffee",
+      "color": "blue",
+      "description": "Provided great customer service, a passion for coffee, & invented seasonal cocktails"
+    }
+  ]
+}

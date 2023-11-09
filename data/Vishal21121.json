@@ -1,0 +1,26 @@
+{
+  "name": "Vishal Singh",
+  "bio": "A full stack developer and a student pursuing B.Tech",
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Vishal21121",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/vishal_21121",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/vishal21121/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@vishal21121",
+      "icon": "SiHashnode"
+    }
+  ]
+}

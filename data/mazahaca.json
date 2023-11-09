@@ -1,8 +1,6 @@
 {
   "name": "Andrew Red",
-  "type": "personal",
   "bio": "Building open-sourced developer's future. Join me on this path! Ex-CTO at a few Fintech Startups, Co-Founder of JuicyScore.ai, open-source contributor, speaker 🎙",
-
   "tags": [
     "Open Source",
     "javascript",
@@ -12,8 +10,14 @@
     "microservices"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AndrewRedUK" },
-    { "icon": "FaGithub", "url": "https://github.com/mazahaca" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AndrewRedUK"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/mazahaca"
+    }
   ],
   "links": [
     {

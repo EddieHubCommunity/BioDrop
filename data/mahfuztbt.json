@@ -1,6 +1,5 @@
 {
   "name": "Mahfuz Ronnie",
-  "type": "personal",
   "bio": "Software Engineer | Aspiring Data Scientist",
   "tags": [
     "Artificial Intelligence",
@@ -8,7 +7,6 @@
     "Deep Learning",
     "Data Science"
   ],
-
   "links": [
     {
       "name": "GitHub",
@@ -20,7 +18,6 @@
       "url": "https://www.linkedin.com/in/mahfuztbt/",
       "icon": "FaLinkedin"
     },
-
     {
       "name": "Instagram",
       "url": "https://www.instagram.com/mahfuztbt",

@@ -1,8 +1,6 @@
 {
   "name": "Om Avhad",
-  "type": "personal",
   "bio": "Backend Developer",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -36,7 +34,6 @@
     {
       "title": "Jr. Python Developer Intern @ALTISSADVANCE",
       "date": "Aug 2021 - Apr 2022",
-
       "icon": "FaDollarSign",
       "color": "red",
       "description": "Django Developer",
@@ -45,7 +42,6 @@
     {
       "title": "Jr. Python Developer @ALTISSADVANCE",
       "date": "Apr 2022 - Jun 2022",
-
       "icon": "FaDollarSign",
       "color": "blue",
       "description": "Developed API's",
@@ -54,7 +50,6 @@
     {
       "title": "Backend Developer Intern @Fyle",
       "date": "Jun 2022 - Jul 2022",
-
       "icon": "FaDollarSign",
       "color": "#FF007F",
       "description": "REST API's developed with Flask",

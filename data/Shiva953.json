@@ -1,0 +1,31 @@
+{
+  "name": "Shiva",
+  "bio": "Rational Optimist",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Web Dev",
+    "Embedded Systems",
+    "Cybersecurity",
+    "Cloud",
+    "Blockhain",
+    "Web3"
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/Shiva953",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Neutron975",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Reach out on LinkedIn",
+      "url": "https://www.linkedin.com/in/shiva-seth-958114233/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

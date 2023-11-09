@@ -1,0 +1,36 @@
+{
+  "name": "Medh",
+  "bio": "**A Nerd**",
+  "tags": ["tag1", "tag2", "tag3"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/singh__medhavi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Med16-11"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/medhavi-singh-8752091ba/"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub: Let's collaborate",
+      "url": "https://github.com/Med16-11",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/singh__medhavi",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/medhavi-singh-8752091ba/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

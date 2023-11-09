@@ -1,0 +1,16 @@
+{
+  "name": "Nick Aldwin D. Lemoncito",
+  "bio": "Full-stack Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/nicklemoncito",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/nickaldwin",
+      "icon": "FaGithub"
+    }
+  ]
+}

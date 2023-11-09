@@ -1,11 +1,16 @@
 {
   "name": "Aleksandar Vranesevic",
-  "type": "personal",
   "bio": "Web Developer",
   "tags": ["Open Source", "PHP", "MySQL", "Bootstrap", "Sass", "Blogging"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/alek_va" },
-    { "icon": "FaGithub", "url": "https://github.com/alek-v" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/alek_va"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/alek-v"
+    }
   ],
   "links": [
     {

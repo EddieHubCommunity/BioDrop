@@ -1,0 +1,57 @@
+{
+  "name": "Fasal Muhammed",
+  "bio": "Executive Board Member and Sr Systems Engineer @**ServerHealers**",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Linux",
+    "Web Hosting",
+    "Hosting Control Panels",
+    "Git",
+    "AWS",
+    "Docker",
+    "Ansible"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iamfasal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/fasal-muhammed/"
+    }
+  ],
+  "links": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/iamfasal",
+      "icon": "FaGithub",
+      "group": "Socials Primary"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/fasal-muhammed/",
+      "icon": "FaLinkedin",
+      "group": "Socials Primary"
+    },
+    {
+      "name": "BackSQL - Advanced MySQL Backup script",
+      "url": "https://github.com/iamfasal/BackSQL",
+      "icon": "FaGithub",
+      "group": "Projects"
+    },
+    {
+      "name": "SSH Key Importer to AWS Regions",
+      "url": "https://github.com/iamfasal/SSHkey-to-AWSregions",
+      "icon": "FaGithub",
+      "group": "Projects"
+    },
+    {
+      "name": "WordPress Deploy using Terraform",
+      "url": "https://github.com/iamfasal/wordpress-prod-terraform",
+      "icon": "FaGithub",
+      "group": "Projects"
+    }
+  ]
+}

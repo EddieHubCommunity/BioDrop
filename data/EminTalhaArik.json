@@ -1,0 +1,63 @@
+{
+  "name": "Emin Arık",
+  "bio": "Business Analyst | Software Developer | **Full Time Learner**",
+  "tags": ["Entrepreneurship", "Analysis", "Python", "Django"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/talheminn"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/EminTalhaArik"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/emin-talha-arik/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Social Media",
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/emin-talha-arik/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social Media",
+      "name": "Instagram",
+      "url": "https://instagram.com/talhemin",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Social Media",
+      "name": "Twitter",
+      "url": "https://twitter.com/talheminn",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Projects",
+      "name": "GitHub",
+      "url": "https://github.com/EminTalhaArik",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Projects",
+      "name": "My Games",
+      "url": "https://talhemin.itch.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "YouTube Shorts: Quick technical tips",
+      "url": "https://youtube.com/eddiejaoudetv",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Business",
+      "name": "TEINN | Teens In Innovation",
+      "url": "http://teinn.org",
+      "icon": "FaLink"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Brownson Esiti",
+  "bio": "Frontend Web Developer who just started his career less than a year ago. I have always been fascinated with the power of the internet and how websites are built. I started learning HTML, CSS, and JavaScript on my own and quickly discovered my undying passion for frontend development. I am well-versed in a frontend framework which is React and I do hope to always stays up-to-date with the latest web technologies. Despite my short experience, I has already completed several projects, ranging from small static websites to large e-commerce platforms. I understand the importance of creating user-friendly and visually appealing interfaces and I do hope will strive to exceed the clients' expectations. I is a team player and enjoys working collaboratively with other developers, designers, and project managers. I am always willing to share my knowledge and learn from my colleagues. I is constantly seeking new challenges and opportunities to improve my skills and knowledge.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sinnerbrown",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/brownson-esiti-4b169b19b",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Discord",
+      "username": "Browniiii#2476",
+      "icon": "FaDiscord"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Brownei",
+      "icon": "FaGithub"
+    }
+  ]
+}

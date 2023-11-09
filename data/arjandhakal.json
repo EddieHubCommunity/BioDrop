@@ -1,0 +1,26 @@
+{
+  "name": "Arjan Dhakal",
+  "bio": "Fiddling with Typescript and Rust",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/arjandhakal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blog Articles",
+      "url": "https://arjandhakal.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dhakalarjan/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/ArjanDhakal2",
+      "icon": "FaTwitter"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Rimpy Yadav",
+  "bio": "Finding my better place in tech as Newbie :) Aspiring Backend webdev , Love to do Shuffle ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Rimpyadav",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Rimpyyadav",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://linkedin.com/in/rimpy-yadav-ab1581271",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

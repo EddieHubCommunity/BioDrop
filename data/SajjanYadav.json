@@ -1,6 +1,5 @@
 {
   "name": "Sajjan Yadav",
-  "type": "personal",
   "bio": "I am DevOps and Open Source enthusiast",
   "links": [
     {
@@ -18,7 +17,6 @@
       "url": "https://www.linkedin.com/in/sajjan-yadav-23987417a/",
       "icon": "FaLinkedin"
     },
-
     {
       "name": "Follow me on Instagram",
       "url": "https://www.instagram.com/_sajjan_y_/",

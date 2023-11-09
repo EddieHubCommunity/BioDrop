@@ -1,0 +1,69 @@
+{
+  "name": "Gautham Prasath",
+  "bio": "Cyber Security Enthusiast | Pentester | Red Teaming | Open Source | Travel",
+  "tags": ["Open Source", "Cyber Security"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/gauthamprasath"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Gauthamprasath8"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Gauthamprasath"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/gauthamprasath",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Gauthamprasath8",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Gauthamprasath",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Reddit: Discuss with me",
+      "url": "https://www.reddit.com/user/octron_8",
+      "icon": "FaRedditAlien"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Mastodon: Folllow me",
+      "url": "https://mastodon.social/@octorn",
+      "icon": "FaMastodon"
+    },
+    {
+      "group": "Blogs",
+      "name": "Medium : Read my stories",
+      "url": "https://medium.com/@gauthamprasath",
+      "icon": "FaMediumM"
+    },
+    {
+      "group": "Playgrounds",
+      "name": "Hack The Box",
+      "url": "https://app.hackthebox.com/profile/134628",
+      "icon": "SiHackthebox"
+    },
+    {
+      "group": "Playgrounds",
+      "name": "TryHackMe",
+      "url": "https://tryhackme.com/p/octron",
+      "icon": "SiTryhackme"
+    }
+  ]
+}

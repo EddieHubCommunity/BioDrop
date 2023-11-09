@@ -1,0 +1,40 @@
+{
+  "name": "Kishan Gupta",
+  "bio": "Software Engineer | Building Open-Source Community 💜",
+  "tags": ["ReactJS", "NodeJS", "JavaScript", "OpenSource"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/i_kishan_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kishangupta114"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/i-kishan"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://ikishan.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Check Out My Twitter Profile",
+      "url": "https://twitter.com/i_kishan_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/i-kishan",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "Check Out My GitHub Profile",
+      "url": "https://github.com/kishangupta114",
+      "icon": "FaGithub"
+    }
+  ]
+}

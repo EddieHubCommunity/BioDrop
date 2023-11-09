@@ -1,0 +1,27 @@
+{
+  "name": "Varad Kulkarni",
+  "bio": "Inquisitive Full Stack Web Developer who aims to make the paperless education more reliable and easy to use for people. I am also interested in Artificial Intelligence and Data Analytics.",
+  "tags": ["Open Source", "Community"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/KulVarad172004",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/doofenshmirtz._172?igshid=MzNlNGNkZWQ4Mg==",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/varad-kulkarni-675504264",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/varad-kulkarni172",
+      "icon": "FaGithub"
+    }
+  ]
+}

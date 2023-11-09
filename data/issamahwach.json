@@ -1,0 +1,16 @@
+{
+  "name": "Issam Ahwach",
+  "bio": "Software Engineer, Full-Stack Web Developer",
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/issamahwach",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@issam.ahw",
+      "icon": "FaMedium"
+    }
+  ]
+}

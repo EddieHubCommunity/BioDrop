@@ -1,0 +1,26 @@
+{
+  "name": "Mario Solís",
+  "bio": "Software Engineer student and developer enjoyer",
+  "links": [
+    {
+      "name": "My GitHub",
+      "url": "https://github.com/BeyondEternal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mario-solis-dev/",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/BeyondEternalGG",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/beyondeternal.dev/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

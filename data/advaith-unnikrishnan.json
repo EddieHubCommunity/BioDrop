@@ -1,12 +1,19 @@
 {
   "name": "Advaith U",
-  "type": "personal",
   "bio": "Developer | Community Evangelist | Product Enthusiast",
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/advaith_u" },
-    { "icon": "FaGithub", "url": "https://github.com/advaith-unnikrishnan" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/advaithu/" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/advaith_u"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/advaith-unnikrishnan"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/advaithu/"
+    },
     {
       "icon": "FaProductHunt",
       "url": "https://www.producthunt.com/@advaith_unnikrishnan"

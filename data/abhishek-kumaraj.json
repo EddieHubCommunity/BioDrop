@@ -1,0 +1,26 @@
+{
+  "name": "Abhishek Kumar",
+  "bio": "Web Developer, AI enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abhishekng100",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abhishek-kumar-01aa81201/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on github",
+      "url": "https://github.com/abhishek-kumaraj",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blogs",
+      "url": "https://abhishek15.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

@@ -1,21 +1,29 @@
-import Link from "../Link";
+import va from "@vercel/analytics";
+import Link from "@components/Link";
 
-export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
+export default function NavLink({
+  path,
+  item,
+  mode,
+  setIsOpen,
+  onClick,
+  ...restProps
+}) {
   let className =
-    "text-gray-300 hover:ring-2 hover:ring-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium";
+    "text-primary-low hover:ring-2 hover:ring-tertiary-medium hover:text-tertiary-medium px-3 py-2 rounded-md text-sm font-medium";
 
   if (mode === "mobile") {
     className =
-      "text-gray-300 hover:ring-2 hover:ring-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium";
+      "text-primary-low hover:ring-2 hover:ring-tertiary-medium hover:text-tertiary-medium block px-3 py-2 rounded-md text-base font-medium";
   }
 
-  if (path === item.url) {
+  if (path?.split("/")[1] === item.url.split("/")[1]) {
     if (mode === "mobile") {
       className =
-        "bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium";
+        "bg-primary-high text-white block px-3 py-2 rounded-md text-base font-medium";
     } else {
       className =
-        "bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium";
+        "bg-tertiary-medium text-primary-medium px-3 py-2 rounded-md text-sm font-medium";
     }
   }
 
@@ -26,10 +34,12 @@ export default function NavLink({ path, item, mode, setIsOpen, onClick }) {
       aria-current="page"
       onClick={(e) => {
         setIsOpen && setIsOpen(false);
+        va.track(`navbar`, { link: item.name });
         if (onClick) {
           onClick(e);
         }
       }}
+      {...restProps}
     >
       {item.name}
     </Link>

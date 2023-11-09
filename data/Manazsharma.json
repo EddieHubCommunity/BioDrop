@@ -1,0 +1,22 @@
+{
+  "name": "Manas Sharma",
+  "bio": "Frontend Devloper| Open Source Enthusiast| Intrested in Web3 & Devops ",
+  "tags": ["Open Source", "Javascript", "HTML", "CSS", "WEB3", "C++"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/manassharma__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LindkedIn",
+      "url": "https://www.linkedin.com/in/manas-sharma-a49295220/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Manazsharma",
+      "icon": "FaGithub"
+    }
+  ]
+}

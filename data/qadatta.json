@@ -1,0 +1,16 @@
+{
+  "name": "Dattatrya More",
+  "bio": "QA, Test Automation -( UI,API,Performance)",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/DattatryaLMore",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/dattatrya-more-94b57513/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

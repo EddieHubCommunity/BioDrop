@@ -1,0 +1,26 @@
+{
+  "name": "Muhib ur Rahman Bakar",
+  "bio": "Principal Software Engineer | Web Developer | Javascirpt/Typescript | ReactJs | NodeJs | NextJs",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/bakardev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/bakardev/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bakardev/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/bakar-dev",
+      "icon": "FaGithub"
+    }
+  ]
+}

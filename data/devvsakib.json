@@ -1,12 +1,16 @@
 {
   "name": "DevvSakib",
-  "type": "personal",
   "bio": "Frontend Engineer | Open Source Enthusiast | WordPress Expert",
-
   "tags": ["javascript", "react", "Open Source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/devvsakib" },
-    { "icon": "FaGithub", "url": "https://github.com/devvsakib" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/devvsakib"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/devvsakib"
+    }
   ],
   "links": [
     {

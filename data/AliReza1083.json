@@ -1,14 +1,24 @@
 {
   "name": "Ali Reza",
-  "type": "personal",
   "bio": "**React** Developer | Refugee Boy | Open Source",
-
   "tags": ["Open Source", "Javascript", "Typescript", "ReactJS"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Ali_Developer05" },
-    { "icon": "FaGithub", "url": "https://github.com/AliReza1083" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/alireza2o05/" },
-    { "icon": "FaLink", "url": "https://www.alirezasamadi.com/" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ali_Developer05"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AliReza1083"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/alireza2o05/"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://www.alirezasamadi.com/"
+    },
     {
       "icon": "FaDollarSign",
       "url": "https://www.paypal.com/paypalme/alirezasamadi"

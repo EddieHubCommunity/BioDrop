@@ -1,0 +1,21 @@
+{
+  "name": "Shadrack Mwelwa",
+  "bio": "Full-Stack Developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/shadrack_mwelwa",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkdIn",
+      "url": "https://www.linkedin.com/in/shadrack-mwelwa/",
+      "icon": "FaLinkdIn"
+    },
+    {
+      "name": "Lets collaborate on Github",
+      "url": "https://github.com/shadrack-mwelwa",
+      "icon": "FaGithub"
+    }
+  ]
+}

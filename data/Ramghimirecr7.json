@@ -1,0 +1,21 @@
+{
+  "name": "Ram Ghimire",
+  "bio": "Software Engineer. Travel and Gym enthusiast & Football fan(the real football)",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/RamGhim20205153",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/Ramghimire",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Ramghimirecr7",
+      "icon": "FaGithub"
+    }
+  ]
+}

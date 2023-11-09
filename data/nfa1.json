@@ -1,0 +1,11 @@
+{
+  "name": "Nilo Alvarado",
+  "bio": "Software Engineering | Data Science | Python | SQL | R | HTML | CSS | JavaScript",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/nfa1",
+      "icon": "FaGithub"
+    }
+  ]
+}

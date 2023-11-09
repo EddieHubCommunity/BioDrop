@@ -1,6 +1,5 @@
 {
   "name": "Izam Mohammed",
-  "type": "personal",
   "bio": "Open Source Enthusiast | **Data Scientist** | Freeelancer",
   "tags": [
     "Open Source",
@@ -11,13 +10,22 @@
     "Deep Learning"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/izammohammed2" },
-    { "icon": "FaGithub", "url": "https://github.com/izam-mohammed" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/izammohammed2"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/izam-mohammed"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/izammohammed/"
     },
-    { "icon": "FaKaggle", "url": "https://www.kaggle.com/izammohammed" }
+    {
+      "icon": "FaKaggle",
+      "url": "https://www.kaggle.com/izammohammed"
+    }
   ],
   "links": [
     {

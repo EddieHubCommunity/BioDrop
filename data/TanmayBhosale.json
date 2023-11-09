@@ -1,0 +1,21 @@
+{
+  "name": "Tanmay Bhosale",
+  "bio": "Trying to come up with innovative digital solutions | Developer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Its_TanmayB",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/tanmay-bhosale/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "AutoBird",
+      "url": "https://auto-bird.com",
+      "icon": "FaLink"
+    }
+  ]
+}

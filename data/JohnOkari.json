@@ -1,0 +1,21 @@
+{
+  "name": "John Okari",
+  "bio": "**Full-Stack Developer**| JavaScript | ReactJs | Ruby on Rails | Technical Writer ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/johnnokari",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/johnnokari-001",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/JohnOkari",
+      "icon": "FaGithub"
+    }
+  ]
+}

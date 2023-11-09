@@ -1,0 +1,48 @@
+{
+  "name": "Achana Naga Durga Prasad",
+  "bio": "**Frontend Developer**",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/durga_prasad08"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/durgaprasad118"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/dp1108/"
+    }
+  ],
+  "tags": [
+    "React Js",
+    "Javascript",
+    "Tailwind CSS",
+    "CSS",
+    "HTML",
+    "Git and GitHub"
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/durga_prasad08",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's collaborate on GitHub",
+      "url": "https://github.com/durgaprasad118",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Lets connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/dp1108/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Checkout my blogs on hashnode",
+      "url": "https://hashnode.com/@durgaprasad1108",
+      "icon": "SiHashnode"
+    }
+  ]
+}

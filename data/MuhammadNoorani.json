@@ -1,0 +1,86 @@
+{
+  "name": "Muhammad Noorani",
+  "bio": "Coder ‎‍💻 | Web-Development🌐 | Learning DSA 📙 | Open Source Contributor 🟩 | Documenting my Journey 📄 | Technical writer ✍️ | Public Speaker 🎙️ | Networking & Collaborating 🤝 | Always Open to Opportunities🚪| ",
+  "tags": [
+    "Open Source",
+    "Full-Stack Web Developer",
+    "DevOps",
+    "Machine Learning",
+    "Technical Writer",
+    "Public Speaker"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MuhammadN_twts"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/muhammadnoorani/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://blog.muhammadnoorani.com/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/MuhammadNoorani"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MuhammadN_twts",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/muhammadnoorani/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/MuhammadNoorani",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Blog",
+      "url": "https://blog.muhammadnoorani.com/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Learning in public and crossed 100 followers",
+      "date": "January 2023",
+      "icon": "FaTwitter",
+      "color": "blue",
+      "description": "I share my journey of learning and building in public",
+      "url": "https://twitter.com/MuhammadN_twts"
+    },
+    {
+      "title": "My profile is being noticed on Linkedin",
+      "date": "April 2023",
+      "icon": "FaLinkedin",
+      "color": "blue",
+      "description": "Sharing my journey",
+      "url": "https://www.linkedin.com/in/muhammadnoorani/"
+    },
+    {
+      "title": "Crossed 1000 views on my Blog",
+      "date": "March 2023",
+      "icon": "SiHashnode",
+      "color": "Blue",
+      "description": "Do read my blogs, and give your feedbacks and reviews",
+      "url": "https://blog.muhammadnoorani.com/"
+    },
+    {
+      "title": "Started contributing to Open Source",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "color": "black",
+      "description": "You can find my projects that I work on and see my contributions to Open Source",
+      "url": "https://github.com/MuhammadNoorani"
+    }
+  ]
+}

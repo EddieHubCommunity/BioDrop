@@ -1,0 +1,21 @@
+{
+  "name": "Abdullah Moiz",
+  "bio": "Full Stack web developer || Footballer",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/abdullah-moiz-b55a8221b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Abdullah-moiz",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/abdullah.moiz.3158/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

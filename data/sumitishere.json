@@ -1,7 +1,6 @@
 {
   "name": "Sumit Mukharjee",
-  "type": "personal",
-  "bio": "Final Year CS Undergrad, Front End Developer",
+  "bio": "CS Undergrad",
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,33 +11,44 @@
     "Java"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/sumitisheree" },
-    { "icon": "FaGithub", "url": "https://github.com/sumitmukharjeeeeee" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sumitverse__"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/sumitishere"
+    },
     {
       "icon": "FaLinkedin",
-      "url": "https://www.linkedin.com/in/sumit-mukharjee-2b3769227/"
+      "url": "https://www.linkedin.com/in/sumit-mukharjee-623287280"
     }
   ],
   "links": [
     {
       "group": "Primary Socials",
       "name": "Twitter: Follow me",
-      "url": "https://twitter.com/sumitisheree",
+      "url": "https://twitter.com/sumitverse__",
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
     {
       "group": "Primary Socials",
       "name": "LinkedIn: Connect with me",
-      "url": "https://www.linkedin.com/in/sumit-mukharjee-2b3769227/",
+      "url": "https://www.linkedin.com/in/sumit-mukharjee-623287280",
       "icon": "FaLinkedin",
       "color": "#00ACEE"
     },
     {
       "group": "Primary Socials",
       "name": "GitHub: Collaborate on Open Source",
-      "url": "https://github.com/sumitmukharjeeeeee",
+      "url": "https://github.com/sumitishere",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Read My Tech Blogs",
+      "url": "https://sumitmukharjii.hashnode.dev/",
+      "icon": "SiHashnode"
     }
   ]
 }

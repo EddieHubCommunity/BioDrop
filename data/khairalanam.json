@@ -1,0 +1,36 @@
+{
+  "name": "Khair Alanam",
+  "bio": "Creative Web developer, UIUX Designer, Exploring tech in general, plays Minecraft",
+  "links": [
+    {
+      "name": "Let's connect on Linkedin",
+      "url": "https://www.linkedin.com/in/khair-alanam-b27b69221/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://www.twitter.com/khair_alanam",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/khairalanam",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my designs on Behance",
+      "url": "https://www.behance.net/khairalanam",
+      "icon": "FaBehance"
+    },
+    {
+      "name": "Check out my posts on Devto",
+      "url": "https://dev.to/khair_al_anam",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Check out my designs on Dribbble",
+      "url": "https://dribbble.com/khair_al_anam",
+      "icon": "FaDribbble"
+    }
+  ]
+}

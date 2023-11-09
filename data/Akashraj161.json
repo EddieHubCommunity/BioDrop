@@ -1,0 +1,63 @@
+{
+  "name": "Akash Raj",
+  "bio": "FrontEnd Developer",
+  "tags": ["JavaScript", "React.js"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rajakki11"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Akashraj161"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://akashshares.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Follow me on Twitter",
+      "url": "https://twitter.com/rajakki11",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/Akashraj161",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/akash-raj-145142173/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about JavaScript",
+      "url": "https://akashshares.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started writting Blog on JavaScript",
+      "date": "Feb 2023",
+      "icon": "SiHashnode",
+      "color": "black",
+      "description": "I started writting blog on JavaScript because lot of time it is interpreted wrong and people often say its hard to understand JS, but when I started learning it I fell in love with it so I thought to share my learning with Public.",
+      "url": "https://akashshares.hashnode.dev/"
+    },
+    {
+      "title": "Started my Open Source Journey",
+      "date": "April 2023",
+      "icon": "SiOpensourceinitiative",
+      "color": "black",
+      "description": "To learn and collabrate with different people I started my open source journey.",
+      "url": "https://github.com/Akashraj161"
+    }
+  ]
+}

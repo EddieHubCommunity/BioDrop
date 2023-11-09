@@ -1,0 +1,26 @@
+{
+  "name": "HelloFaizan",
+  "bio": "Open source enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/hellofaizandev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Visit my Portfollio",
+      "url": "https://hellofaizan.me/",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Follow me on Youtube",
+      "url": "https://www.youtube.com/hellofaizan",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Visit my Github profile",
+      "url": "https://github.com/hellofaizan",
+      "icon": "FaGithub"
+    }
+  ]
+}

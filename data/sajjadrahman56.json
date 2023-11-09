@@ -1,0 +1,21 @@
+{
+  "name": "Sajjad Rahman",
+  "bio": " **Flutter || ML **. Travel enthusiast",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sajjadrahman56",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://twitter.com/sajjadrahman56",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://twitter.com/sajjadrahman56",
+      "icon": "FaGithub"
+    }
+  ]
+}

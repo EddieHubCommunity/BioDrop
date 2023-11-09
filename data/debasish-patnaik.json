@@ -1,0 +1,21 @@
+{
+  "name": "Debasish Patnaik",
+  "bio": "Developer who loves to tackle challenging problems.",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/debasish-patnaik/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/debasish-patnaik",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/lazy_ryuzaki",
+      "icon": "FaTwitter"
+    }
+  ]
+}

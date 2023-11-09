@@ -1,0 +1,27 @@
+{
+  "name": "Akash Vadakkeveetil",
+  "bio": "Open source contributions and DevOps enthusiast",
+  "tags": ["Open Source", "Javascript", "Java", "DevOps"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Akash_V_V"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Akash-vadakkeveetil"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/akash-vadakkeveetil"
+    }
+  ],
+  "links": [
+    {
+      "group": "Blogs",
+      "name": "Learn more about Tech",
+      "url": "https://hashnode.com/@Akash-Vadakkeveetil",
+      "icon": "SiHashode"
+    }
+  ]
+}

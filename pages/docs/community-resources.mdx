@@ -1,0 +1,94 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+import ClipboardCopy from "@components/ClipboardCopy.js";
+import data from "@config/community-resources.json";
+
+## Community Resources
+
+#### To add community resources, please follow the steps below:
+
+1. Put the json as shown in the example in the `config/community-resources.json` file.
+
+These are from pairing sessions or creating content for example github repos, blogs, videos, livestreams etc (not Twitter).
+
+### Examples
+
+PAIRING on Discord
+
+<ClipboardCopy>
+```json
+{
+  "username": "stevenovak123",
+  "name": "Steve Dsouza",
+  "contribution": "Pair programmed on Discord",
+  "date": "2022/10/22",
+  "resource": {
+    "name": "#2060",
+    "url": "https://github.com/EddieHubCommunity/BioDrop/pull/2060"
+  }
+}
+```
+</ClipboardCopy>
+
+YouTube (or blog)
+
+<ClipboardCopy>
+```json
+{
+  "username": "eddiejaoude",
+  "name": "Eddie Jaoude",
+  "contribution": "YouTube",
+  "date": "2022/10/22",
+  "resource": {
+    "name": "Contributing Open Source",
+    "url": "https://www.youtube.com/watch?v=8B_JWf7pG20"
+  }
+}
+```
+</ClipboardCopy>
+
+## Contributions
+
+<div className="w-full overflow-auto">
+  <table>
+    <thead>
+      <tr>
+        <th>CONTRIBUTOR</th>
+        <th>CONTRIBUTION</th>
+        <th>DATE (YYYY/MM/DD)</th>
+        <th>RESOURCE LINK (PR, Blog, Video)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {data.map((item, index) => {
+        return (
+          <tr key={item.username + item.name + index}>
+            <td>
+              <a href={`https://github.com/${item.username}`}>{item.name}</a>
+            </td>
+            <td>{item.contribution}</td>
+            <td>{item.date}</td>
+            <td>
+              <a href={item.resource.url}>
+                {item.resource.name ? item.resource.name : item.resource.url}
+              </a>
+            </td>
+          </tr>
+        );
+      })}
+    </tbody>
+  </table>
+</div>
+
+export default ({ children }) => {
+  data.sort((a, b) => new Date(b.date) - new Date(a.date));
+  return (
+    <DocsLayout
+      title="BioDrop Contributors Changelog"
+      section="Getting started"
+      name="Community Resources"
+    >
+      {children}
+    </DocsLayout>
+  );
+};

@@ -1,14 +1,24 @@
 {
   "name": "Vincent Villafuerte",
-  "type": "personal",
   "bio": "GitHub Field Expert and Open Source Advocate that loves to interact with the Developer Community",
-
   "tags": ["Open Source", "Javascript", "React", "NextJS", "MDX", "DevRel"],
   "socials": [
-    { "icon": "FaLinkedIn", "url": "https://twitter.com/vinzvinci" },
-    { "icon": "FaGithub", "url": "https://github.com/vinzvinci" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/vinzvinci" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/@vinzvinci" }
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://twitter.com/vinzvinci"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/vinzvinci"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/vinzvinci"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@vinzvinci"
+    }
   ],
   "links": [
     {

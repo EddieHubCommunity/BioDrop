@@ -1,0 +1,32 @@
+{
+  "name": "Manuel Hoffmann",
+  "bio": "Hello! My name is Manuel, Im a dynamics 365 developer",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/manuel-hoffmann-04ba86170/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/CodingWithCard",
+      "icon": "FaGithub"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Wrote my first hello world",
+      "date": "September 2022",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "I always wanted to learn how to code, so I picked up Python"
+    },
+    {
+      "title": "My first job in IT!",
+      "date": "November 2022",
+      "icon": "FaLink",
+      "color": "green",
+      "description": "Junior Technical Consultant"
+    }
+  ]
+}

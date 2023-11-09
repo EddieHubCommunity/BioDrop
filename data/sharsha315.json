@@ -1,0 +1,21 @@
+{
+  "name": "Harsha S",
+  "bio": "Constant Learner",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sharsha315",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sharsha315",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/sharsha315",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import dynamic from "next/dynamic";
 
 function defaultIcon() {
-  return dynamic(() => import("react-icons/fa").then((mod) => mod.FaGlobe));
+  return dynamic(() => import("react-icons/fa6").then((mod) => mod.FaGlobe));
 }
 
 export default function getIcon(name = "FaGlobe") {
@@ -10,11 +10,11 @@ export default function getIcon(name = "FaGlobe") {
   switch (name.slice(0, 2)) {
     case "Fa":
       icon = dynamic(() =>
-        import("react-icons/fa").then((mod) => {
+        import("react-icons/fa6").then((mod) => {
           let node = mod[name];
           if (!node) node = defaultIcon();
           return node;
-        })
+        }),
       );
       break;
     case "Si":
@@ -23,7 +23,7 @@ export default function getIcon(name = "FaGlobe") {
           let node = mod[name];
           if (!node) node = defaultIcon();
           return node;
-        })
+        }),
       );
       break;
   }

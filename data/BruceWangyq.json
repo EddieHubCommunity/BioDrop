@@ -1,8 +1,6 @@
 {
   "name": "Bruce Wang",
-  "type": "personal",
   "bio": "Open Source DevRel | Front End Developer | Web3 Developer",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,9 +10,18 @@
     "DevRel"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/brucewangdev" },
-    { "icon": "FaGithub", "url": "https://github.com/brucewangyq" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@brucewangdev" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/brucewangdev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/brucewangyq"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@brucewangdev"
+    }
   ],
   "links": [
     {

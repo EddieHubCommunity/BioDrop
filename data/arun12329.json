@@ -1,0 +1,16 @@
+{
+  "name": "Arun lohar",
+  "bio": "Student At Techno INDIA NJR",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/arun12329",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/arun_lohar123/",
+      "icon": "Fa Instagram"
+    }
+  ]
+}

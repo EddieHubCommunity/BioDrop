@@ -1,8 +1,6 @@
 {
   "name": "Zaw Zaw Win",
-  "type": "personal",
   "bio": "Web Developer",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -18,7 +16,6 @@
   "milestones": [
     {
       "title": "Started Using Twiiter",
-
       "date": "June 2021",
       "icon": "FaTwitter",
       "color": "red",

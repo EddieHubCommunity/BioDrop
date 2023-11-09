@@ -1,0 +1,21 @@
+{
+  "name": "Regis NDIZIHIWE",
+  "bio": "Typescript and Flutter developer , coding for fun purpose but hourly 😊",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ndzhwr",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/_ndzhwr",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/ndzhwr",
+      "icon": "FaGithub"
+    }
+  ]
+}

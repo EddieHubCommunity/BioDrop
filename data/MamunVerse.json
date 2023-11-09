@@ -1,0 +1,32 @@
+{
+  "name": "Mamunur Rashid",
+  "bio": "Full Stack Web Developer. I Love TypeScript ❤ Node.js, Next.js, Nuxt.js",
+  "tags": ["Web Dev", "javascript", "typescript", "nextjs", "Open Source"],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/MamunVerse",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/MamunVerse/",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect me on Linkedin",
+      "url": "https://www.linkedin.com/in/mamunverse/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on YouTube",
+      "url": "https://www.youtube.com/@MamunVerse",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "Visite my Website",
+      "url": "https://mamunverse.com/",
+      "icon": "FaGlobeAmericas"
+    }
+  ]
+}

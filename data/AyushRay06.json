@@ -1,0 +1,17 @@
+{
+  "name": "Ayush Ray",
+  "bio": "DevOps| webdev| cloud| GDSC lead",
+  "tags": ["Open Source", "MERN", "Kubernaties", "AWS", "Docker"],
+  "socials": [
+    {
+      "name": "Follow me on X",
+      "url": "https://twitter.com/Ayush_a_ray",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/oyee_ayush/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

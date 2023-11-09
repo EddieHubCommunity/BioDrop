@@ -1,0 +1,21 @@
+{
+  "name": "Vishal Menariya",
+  "bio": "JAI SHREE RAM || JAI BAJRANG BALI",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/VishalM05333977",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/vishal_.menaria/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/vishal.menaria.3956/",
+      "icon": "FaFacebook"
+    }
+  ]
+}

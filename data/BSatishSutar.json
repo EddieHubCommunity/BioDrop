@@ -1,0 +1,94 @@
+{
+  "name": "Satish Sutar",
+  "bio": "Cloud Engineer | Cross-platform DevOps Engineer | MLOps Enthusiast | Travel enthusiast | Yoga & Tech aficionado",
+  "tags": [
+    "DevOps",
+    "Cloud",
+    "SRE",
+    "Open Source",
+    "Service Mesh",
+    "Platform Engineering",
+    "Python",
+    "Go"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/BSatishSutar"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@Satish-S"
+    },
+    {
+      "icon": "SiMedium",
+      "url": "https://medium.com/@CloudDevOpsEngineer"
+    }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/satish-sutar/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@CloudDevOpsEngineer",
+      "icon": "FaMedium"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/BSatishSutar",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://bsatishsutar.github.io/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "GitLab",
+      "url": "https://gitlab.com/SatishSutar",
+      "icon": "FaGitlab"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@Satish-S",
+      "icon": "FaHashnode"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Freelancing",
+      "date": "Jan 2022",
+      "icon": "FaDollarSign",
+      "color": "blue",
+      "description": "Started Content Writing",
+      "url": "https://hashnode.com/@Satish-S"
+    },
+    {
+      "title": "Joined Open Source",
+      "date": "March 2023",
+      "icon": "FaGithub",
+      "color": "red",
+      "description": "",
+      "url": "https://github.com/BSatishSutar"
+    },
+    {
+      "title": "Started Tech Blog, Newsletter",
+      "date": "Dec 2022",
+      "icon": "FaLinkedin",
+      "color": "blue",
+      "description": "Blogs on Cloud and DevOps",
+      "url": "https://www.linkedin.com/newsletters/7023169120795803648/"
+    },
+    {
+      "title": "Started Independent Newsletter",
+      "date": "Dec 2022",
+      "icon": "SiBeehiiv",
+      "color": "blue",
+      "description": "Cloud and DevOps",
+      "url": "https://cloud101-newsletter-09c659.beehiiv.com/"
+    }
+  ]
+}

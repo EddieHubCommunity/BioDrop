@@ -1,0 +1,37 @@
+{
+  "name": "Anant Choubey",
+  "bio": "I am a Full Stack Developer and I develop websites using MERN Stack Framework.",
+  "tags": ["MongoDB", "React.JS", "Express.JS", "Node.JS", "Git & Github"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/theanantchoubey"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/theanantchoubey"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/theanantchoubey",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow on GitHub",
+      "url": "https://github.com/theanantchoubey",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check My Leetcode Profile",
+      "url": "https://leetcode.com/anantchoubey",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Check My GeeksForGeeks Profile",
+      "url": "https://auth.geeksforgeeks.org/user/anantchoubey/",
+      "icon": "SiGeeksforgeeks"
+    }
+  ]
+}

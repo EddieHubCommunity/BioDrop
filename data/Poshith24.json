@@ -1,0 +1,36 @@
+{
+  "name": "Poshith24",
+  "bio": "love to code and hack stuff",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/poshith_kumar",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Poshith24/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/poshith_kumar24/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@poshith_kumar",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://poshith24.hashnode.dev/",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/yalamanchi-poshith-kumar-522b89212/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

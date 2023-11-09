@@ -1,0 +1,55 @@
+{
+  "name": "MD Soyeb",
+  "bio": "**Open Source** | Frontend Developer",
+  "tags": ["Open Source", "React.js", "JavaScript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/soyebtwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Soyeb01"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/soyebig"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://soyeb01.github.io/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Connect and grow network",
+      "url": "https://twitter.com/soyebtwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/Soyeb01",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect",
+      "url": "https://www.linkedin.com/in/md-soyeb",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me for behind the scenes",
+      "url": "https://www.instagram.com/soyebig",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "Portfolio - Know more about me",
+      "url": "https://soyeb01.github.io/",
+      "icon": "FaLink"
+    }
+  ]
+}

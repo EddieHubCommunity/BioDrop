@@ -1,0 +1,16 @@
+{
+  "name": "Chaitali Khangar",
+  "bio": "I'm a Ruby on Rails and Go lang developer with a passion for mentoring.",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/chaitali-khangar/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/chaitali-khangar/",
+      "icon": "FaGithub"
+    }
+  ]
+}

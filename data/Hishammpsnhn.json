@@ -1,0 +1,21 @@
+{
+  "name": "Mohammed Hisham",
+  "bio": "Self-taught js developer",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/mohammad-hisham-b14296228/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_hisham_mp/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Hishammpsnhn",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,11 +1,19 @@
 {
   "name": "Abdul Ahad",
-  "type": "personal",
   "bio": "Open Source | Full-stack Developer",
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/abdulahad077" },
-    { "icon": "FaGithub", "url": "https://github.com/abdulahad-07" },
-    { "icon": "FaYoutube", "url": "https://twitter.com/abdulahad077" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/abdulahad077"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/abdulahad-07"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://twitter.com/abdulahad077"
+    }
   ],
   "links": [
     {

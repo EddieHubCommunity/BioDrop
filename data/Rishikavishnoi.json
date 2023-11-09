@@ -1,0 +1,32 @@
+{
+  "name": "Rishika Vishnoi",
+  "bio": "Full Stack Developer | JavaScript | React | Open Source Enthusiast",
+  "tags": ["ReactJS", "Javascript", "OpenSource", "NodeJS"],
+  "links": [
+    {
+      "name": "Let's Connect",
+      "url": "https://www.linkedin.com/in/rishikavishnoi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Collabrate in Open Source",
+      "url": "https://github.com/Rishikavishnoi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/vishnoi_rishika",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Blog",
+      "url": "https://hashnode.com/@rishikavishnoi",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "Let's Subscribe",
+      "url": "https://www.youtube.com/@codingclass4805",
+      "icon": "FaYoutube"
+    }
+  ]
+}

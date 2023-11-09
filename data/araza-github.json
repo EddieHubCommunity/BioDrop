@@ -1,0 +1,21 @@
+{
+  "name": "Ahmed Raza",
+  "bio": "Salesforce Developer | Salesforce Certified Administrator | Social Media",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/araza_malik",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ahmedraza-12/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/_.ahmedraza._?igshid=ZDdkNTZiNTM=",
+      "icon": "FaInstagram"
+    }
+  ]
+}

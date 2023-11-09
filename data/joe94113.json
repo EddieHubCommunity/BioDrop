@@ -1,0 +1,50 @@
+{
+  "name": "Guan Zhi Wang",
+  "bio": "**Full Stack developer**",
+  "tags": ["Laravel", "Vue", "Python", "Machine-Learning", "JavaScript"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/joe94113"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/joe94113"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://joe94113.github.io"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/joe94113"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/joe94113",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Website",
+      "url": "https://joe94113.github.io",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/joe94113",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/joe94113",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/guan___zhi/",
+      "icon": "SiInstagram"
+    }
+  ]
+}

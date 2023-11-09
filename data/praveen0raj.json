@@ -1,0 +1,19 @@
+{
+  "name": "Praveen Raj",
+  "bio": "Open Source Enthusiast |  Developer | Architect",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Java",
+    "Golang",
+    "React",
+    "HTML",
+    "Spring Framework",
+    "Echo Framework",
+    "GitHub"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/prveenraj" },
+    { "icon": "FaGithub", "url": "https://github.com/praveen0raj" }
+  ]
+}

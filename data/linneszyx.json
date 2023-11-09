@@ -1,0 +1,52 @@
+{
+  "name": "Suryansh Upadhyay",
+  "bio": "Full-Stack Developer | Competitive Programmer | 5⭐(C++,MySQL) Hackkerrank",
+  "tags": [
+    "JavaScript",
+    "Open Source",
+    "Node.js",
+    "Linux",
+    "Machine Learning",
+    "DSA"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/linneszyx"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/linneszyx"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/linneszyx"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/linneszyx",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/linneszyx",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/suryansh-upadhyay/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me",
+      "url": "https://www.instagram.com/linneszyx",
+      "icon": "FaInstagram"
+    }
+  ]
+}

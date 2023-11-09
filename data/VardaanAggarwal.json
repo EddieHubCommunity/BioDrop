@@ -1,0 +1,43 @@
+{
+  "name": "Vardaan Aggarwal",
+  "bio": "**Open Source** | Full Stack Developer | Commudle Campus Leader",
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/VardaanAgg"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/VardaanAggarwal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/vardaanaggarwal"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "DevOps",
+    "ReactJS"
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/VardaanAgg",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/VardaanAggarwal",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/vardaanaggarwal",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

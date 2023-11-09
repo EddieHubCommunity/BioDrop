@@ -1,0 +1,26 @@
+{
+  "name": "Afolabi Mahmood Olalekan",
+  "bio": "Data Scientist • Technical writer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/afb_m1",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/in/afolabi-mahmood-olalekan",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/AFB-M",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://afb.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

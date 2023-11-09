@@ -1,0 +1,16 @@
+{
+  "name": "Rishabh Dwivedi",
+  "bio": "I am web devlopment enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Rishabhd626312?t=-gYCEcPEC2Px3jR90BsGwQ&s=09",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rishu6263",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

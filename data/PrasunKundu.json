@@ -1,0 +1,21 @@
+{
+  "name": "Prasun Kundu",
+  "bio": "Electrical engineer by degree developer by passion",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Prasunkundu11",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_praasun/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/PrasunKundu",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

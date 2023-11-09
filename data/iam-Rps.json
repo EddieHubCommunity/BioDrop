@@ -1,0 +1,71 @@
+{
+  "name": "Rishabh Pratap Singh",
+  "bio": "Open Source Contributor |**DevOps Enthusiast** |",
+  "tags": [
+    "Open Source",
+    "DevOps",
+    "Kubernetes",
+    "Cloud",
+    "Service Mesh",
+    "CI/CD",
+    "Git",
+    "YAML",
+    "Golang",
+    "AWS",
+    "LINUX",
+    "Java"
+  ],
+  "testimonials": ["Pradumnasaraf"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": " https://twitter.com/iamrps22"
+    },
+    {
+      "icon": "FaGithub",
+      "url": " https://github.com/iam-Rps "
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/__iamrps"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": " https://twitter.com/iamrps22",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Medium: My Blogs",
+      "url": " https://medium.com/@iamrps722",
+      "icon": "FaMedium"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": " https://github.com/iam-Rps",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": " https://www.linkedin.com/in/rishabh-pratap-singh-706b2221a",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Instagram: Quick technical tips",
+      "url": "https://www.instagram.com/__iamrps",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Hashnode",
+      "name": "Read my blogs",
+      "url": "https://hashnode.com/@Iamrps",
+      "icon": "FaLink"
+    }
+  ]
+}

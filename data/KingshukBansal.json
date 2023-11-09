@@ -1,0 +1,37 @@
+{
+  "name": "Kingshuk Bansal",
+  "bio": "An undergrad student pursuing B.Tech in Information Technology from Dr BR Ambedkar National Institute of Technology,Jalandhar",
+  "tags": ["Web Developer", "Video Editor", "Dancer"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kingshuk-bansal-8a6b33227/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/kingshuk_bansal/"
+    }
+  ],
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kingshuk-bansal-8a6b33227/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/kingshuk_bansal/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/KingshukBansal",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/KingshukBansal",
+      "icon": "FaGithub"
+    }
+  ]
+}

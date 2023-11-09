@@ -1,12 +1,16 @@
 {
   "name": "Avishkar Gunjal",
-  "type": "personal",
   "bio": "Full stack web developer | Android with React Native | currently exploring and learning **opensource** and **DevOps**",
-
   "tags": ["React", "NextJs", "React Native", "nodejs", "tailwindCSS"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/_4vii_" },
-    { "icon": "FaGithub", "url": "https://github.com/Avi-88" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_4vii_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Avi-88"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/avishkar-gunjal-30a344203/"

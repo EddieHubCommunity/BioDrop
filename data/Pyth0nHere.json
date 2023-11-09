@@ -1,0 +1,26 @@
+{
+  "name": "Majeed Mujawar",
+  "bio": "DevOps | Networking | Linux | Cloud",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/sudo_uwu",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/sudo_uwu/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/majeedmujawar01/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://www.github.com/Pyth0nHere",
+      "icon": "FaGithub"
+    }
+  ]
+}

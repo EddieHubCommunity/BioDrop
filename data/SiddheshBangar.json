@@ -1,8 +1,6 @@
 {
   "name": "Siddhesh Bangar",
-  "type": "personal",
   "bio": "I am an Undergraduate Researcher at IIIT-Delhi, a Data Science Practitioner, Content Creator and Technical Writer",
-
   "tags": [
     "Python",
     "Data Science",
@@ -10,8 +8,14 @@
     "Technical writing"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/siddddhesh" },
-    { "icon": "FaGithub", "url": "https://github.com/SiddheshBangar" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/siddddhesh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/SiddheshBangar"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/siddheshbangar/"
@@ -20,39 +24,44 @@
   "testimonials": ["Arindam200"],
   "links": [
     {
-      "name": "GitHub: For Data Science related projects",
+      "name": "GitHub: For Data Science related projects ✨",
       "url": "https://github.com/SiddheshBangar",
       "icon": "SiGithub"
     },
     {
-      "name": "Hashnode: Check out my blogs",
+      "name": "Hashnode: Check out my blogs ✍",
       "url": "https://sidddhesh.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
-      "name": "Medium: Check out my blogs",
+      "name": "Medium: Check out my blogs 📕",
       "url": "https://medium.com/@siddheshb008",
       "icon": "SiMedium"
     },
     {
-      "name": "Twitter: For Data Science related content",
+      "name": "Twitter: For Data Science related content 🧪",
       "url": "https://twitter.com/siddddhesh",
       "icon": "SiTwitter"
     },
     {
-      "name": "Instagram: Sharing life",
+      "name": "Instagram: Sharing life 🖼",
       "url": "https://www.instagram.com/thatsiddhesh/",
       "icon": "SiInstagram"
     },
     {
-      "name": "LinkedIn: Let's connect!",
+      "name": "LinkedIn: Let's connect! 🤝",
       "url": "https://www.linkedin.com/in/siddheshbangar/",
       "icon": "SiLinkedin"
     },
     {
-      "name": "You can Email me at",
+      "name": "You can Email me at 📧",
       "url": "siddheshb008@gmail.com",
       "icon": "SiGmail"
+    },
+    {
+      "name": "Buy me a coffee ☕",
+      "url": "https://www.buymeacoffee.com/siddddhesh",
+      "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [
@@ -65,7 +74,6 @@
     },
     {
       "title": "Started My Blog",
-
       "date": "January 2021",
       "icon": "FaMedium",
       "color": "grey",

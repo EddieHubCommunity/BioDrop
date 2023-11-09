@@ -1,0 +1,36 @@
+{
+  "name": "Amit Patnaik",
+  "bio": "Open source enthusiast.Looking to build great communities",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/amit-patnaik-ab2913203/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Amit-45",
+      "icon": "FaGit"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/amit_patnaik_45/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Amit452211",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://amitpatnaik.hashnode.dev/",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "For Project Realated Work",
+      "url": "https://www.instagram.com/the.tech.coder/",
+      "icon": "FaGit"
+    }
+  ]
+}

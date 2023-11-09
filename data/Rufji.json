@@ -1,0 +1,21 @@
+{
+  "name": "Rufai Mahmud",
+  "bio": "A Techaholic, exploring the contribution to open source and loves to help and be helped. A foodie",
+  "links": [
+    {
+      "name": "Follow me on Twitter, I will definiely follow back",
+      "url": "https://twitter.com/Rufai0021",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://linkedin.com/in/rufaimahmud",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check me out on Github",
+      "url": "https://github.com/Rufji",
+      "icon": "FaGithub"
+    }
+  ]
+}

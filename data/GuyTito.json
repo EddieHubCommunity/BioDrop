@@ -1,0 +1,21 @@
+{
+  "name": "Kofi Quist",
+  "bio": "Frontend developer craving open source contributions",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/guytito_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/guytito",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/kofiquist/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

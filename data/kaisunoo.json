@@ -1,0 +1,47 @@
+{
+  "name": "Kyla Caryl Españo",
+  "bio": "👩🏻‍💻InfoTech student @cspcofficial | 🌐Open Source Explorer",
+  "links": [
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/kyespano",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/kaisunoo",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/kaisunoo",
+      "icon": "SiLeetcode"
+    },
+    {
+      "name": "Google Developer",
+      "url": "https://g.dev/kaiespano",
+      "icon": "FaGoogle"
+    }
+  ],
+  "tags": ["Information Technology", "Student", "Open Source"],
+  "socials": [
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/kaisuno_o"
+    },
+    {
+      "icon": "SiInstagram",
+      "url": "https://www.instagram.com/kaisunoo"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "1st Pull Request Merged",
+      "date": "11 April 2023",
+      "icon": "SiGithub",
+      "color": "green",
+      "description": "My first(small) successful pr merged.",
+      "url": "https://github.com/kaisunoo/readme-typing-svg"
+    }
+  ]
+}

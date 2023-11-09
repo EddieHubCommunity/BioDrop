@@ -1,0 +1,36 @@
+{
+  "name": "Aneke Michael",
+  "bio": "Software Engineer & Cloud Enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/d1_codes",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/d1_codes",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Lets Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/aneke-michael-19718a1a4/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow Me on Github",
+      "url": "https://github.com/anekemichael/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Subscribe to My Channel on Youtube",
+      "url": "https://youtube.com/@geekybuds/",
+      "icon": "FaYoutube"
+    },
+    {
+      "name": "My Website",
+      "url": "https://anekemichael.vercel.app/",
+      "icon": "FaLink"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Robera Negussie ",
+  "bio": "Software Developer",
+  "tags": ["Open Source", "GSSoC'23", "Python", "Java", "Javascript", "Docker"],
+
+  "links": [
+    {
+      "name": "My Twitter Handle",
+      "url": "https://twitter.com/robera_n?s=09",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "My LinkedIn Profile",
+      "url": "https://www.linkedin.com/in/roberatoye/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My GitHub Account",
+      "url": "https://github.com/roberanegussie",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio Website",
+      "url": "https://roberaportfolio.netlify.app/",
+      "icon": "FaGlobe"
+    }
+  ]
+}
