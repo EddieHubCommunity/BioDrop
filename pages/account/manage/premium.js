@@ -60,11 +60,9 @@ export default function ManageSettings({
     settings.domain?.replaceAll("|", ".") || "",
   ); // TODO: use getter/setter instead
   const [enableForm] = useState(accountType === "premium" ? true : false);
-  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsDisabled(true);
     const res = await fetch(`${BASE_URL}/api/account/manage/settings`, {
       method: "PATCH",
       headers: {
@@ -73,7 +71,6 @@ export default function ManageSettings({
       body: JSON.stringify({ hideNavbar, hideFooter, domain }),
     });
     const updatedSettings = await res.json();
-    setIsDisabled(false)
 
     if (updatedSettings.message) {
       return setShowNotification({
@@ -164,7 +161,6 @@ export default function ManageSettings({
                       <Toggle
                         text1="Hide Navbar on your Profile"
                         enabled={enableForm && hideNavbar}
-                        disable={!enableForm || isDisabled}
                         setEnabled={setHideNavbar}
                       />
                     </div>
@@ -172,7 +168,6 @@ export default function ManageSettings({
                       <Toggle
                         text1="Hide Footer on your Profile"
                         enabled={enableForm && hideFooter}
-                        disable={!enableForm || isDisabled}
                         setEnabled={setHideFooter}
                       />
                     </div>
