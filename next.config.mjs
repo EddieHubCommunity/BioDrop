@@ -90,6 +90,9 @@ export default withSentryConfig(
 
       // custom
       automaticVercelMonitors: false,
+
+      // deploying to vercel error
+      autoInstrumentServerFunctions: false,
     },
   ),
 );
