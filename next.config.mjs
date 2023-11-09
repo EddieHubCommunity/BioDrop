@@ -53,12 +53,12 @@ const withMDX = createMDX({
   },
 });
 
-export default withSentryConfig(
-  withPWA({
-    dest: "public",
-    disable: !isProduction,
-    runtimeCaching,
-  })(
+export default withPWA({
+  dest: "public",
+  disable: !isProduction,
+  runtimeCaching,
+})(withSentryConfig(
+
     withMDX(nextConfig),
     {
       // For all available options, see:
