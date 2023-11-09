@@ -70,6 +70,10 @@ export const navigation = [
         name: "GitHub Repos with Forms",
         href: "/docs/how-to-guides/repos-forms",
       },
+      {
+        name: "Premium Features",
+        href: "/docs/how-to-guides/premium",
+      },
     ],
   },
   {
@@ -98,6 +102,15 @@ export const navigation = [
       { name: "Playwright", href: "/docs/contributing/automated-tests" },
       { name: "Commit Style", href: "/docs/contributing/commits" },
       { name: "Hacktoberfest", href: "/docs/contributing/hacktoberfest" },
+    ],
+  },
+  {
+    name: "Premium",
+    // icon: ChartPieIcon,
+    children: [
+      { name: "Auto", href: "/docs/premium/auto" },
+      { name: "Customisation", href: "/docs/premium/customisation" },
+      { name: "Custom Domain", href: "/docs/premium/domain" },
     ],
   },
   {

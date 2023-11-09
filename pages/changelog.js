@@ -12,6 +12,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Custom domains",
+      description:
+        "You can now add your own custom domain to your profile for further customisation",
+      type: "addition",
+      date: "2023-11-07",
+    },
+    {
       title: "Profile pronouns",
       description:
         "If you prefer you can add pronouns to your profile, this will appear next to your name",
