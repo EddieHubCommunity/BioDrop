@@ -18,9 +18,9 @@ export default function UserHorizontal({ profile, input }) {
         />
         <div className="flex-1 wrap">
           <div className="flex items-center space-x-3">
-            <h3 className="text-xl font-medium text-gray-900">
+            <h2 className="text-xl font-medium text-gray-900">
               {profile.username}
-            </h3>
+            </h2>
           </div>
           <Markdown
             disallowedElements={["a"]}

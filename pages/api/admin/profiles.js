@@ -67,9 +67,21 @@ export async function getProfiles(filter = "recently updated", limit = 100) {
       return profiles;
     }
   }
+
   if (filter === "isShadowBanned") {
     try {
       profiles = await Profile.find({ isShadowBanned: true })
+        .sort({ updatedAt: -1 })
+        .limit(limit);
+    } catch (e) {
+      logger.error(e, "failed loading profiles");
+      return profiles;
+    }
+  }
+
+  if (filter === "isDisabled") {
+    try {
+      profiles = await Profile.find({ isEnabled: false })
         .sort({ updatedAt: -1 })
         .limit(limit);
     } catch (e) {
