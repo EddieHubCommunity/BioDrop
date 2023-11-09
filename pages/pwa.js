@@ -5,7 +5,7 @@ export default function Pwa() {
   const installedFrom = localStorage["installedFrom"];
   if (typeof window !== "undefined" && window.localStorage) {
     if (installedFrom) {
-      router.push(`/${installedFrom}`);
+      router.push(installedFrom);
     } else {
       router.push("/");
     }
