@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState } from "react";
+import { useMemo, useState } from "react";
 import * as FaIcons from "react-icons/fa6";
 import * as SiIcons from "react-icons/si";
 import Input from "@components/form/Input";
@@ -43,42 +43,50 @@ const popularIcons = [
 ];
 
 export default function Icons() {
-  const [searchedIconNames, setSearchedIconNames] = useState([]);
   const [notFound, setNotFound] = useState();
-  const searchInputRef = useRef(null);
 
   const router = useRouter();
-  const [threeOrMore, setThreeOrMore] = useState(
-    router.query.keyword?.length >= 3 ? true : false,
-  );
   const keyword = router.query.keyword || "";
+  const [threeOrMore, setThreeOrMore] = useState(
+    keyword.length >= 3 ? true : false,
+  );
+  const [searchQuery, setSearchQuery] = useState(keyword);
 
-  const searchIcons = (value) => {
-    setSearchedIconNames([]);
-    if (value.length < 3) {
-      return setThreeOrMore(false);
-    }
-    setThreeOrMore(true);
-
-    const filteredIconNames = Object.keys(icons)
-      .filter((icon) => icon.includes(value.toLocaleLowerCase()))
-      .map((iconName) => icons[iconName]);
-    if (!filteredIconNames.length) {
-      return setNotFound(value);
-    }
-
-    if (filteredIconNames.length) {
-      setNotFound();
-    }
-
-    setSearchedIconNames(filteredIconNames);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (searchQuery.length === 0)
+      return router.replace({
+        pathname: "/icons",
+      });
+    router.replace({
+      pathname: "/icons",
+      query: { keyword: searchQuery },
+    });
   };
 
-  useLayoutEffect(() => {
-    searchIcons(keyword);
-    searchInputRef?.current.focus();
-  }, [keyword]);
+  const filterredIcons = useMemo(
+    (value = keyword) => {
+      if (value.length < 3) {
+        setThreeOrMore(false);
+        return popularIcons;
+      }
+      setThreeOrMore(true);
 
+      const filteredIconNames = Object.keys(icons)
+        .filter((icon) => icon.includes(value.toLocaleLowerCase()))
+        .map((iconName) => icons[iconName]);
+      if (!filteredIconNames.length) {
+        setNotFound(value);
+        return popularIcons;
+      }
+
+      if (filteredIconNames.length) {
+        setNotFound(false);
+      }
+      return filteredIconNames;
+    },
+    [keyword],
+  );
   return (
     <>
       <PageHead
@@ -88,22 +96,14 @@ export default function Icons() {
 
       <Page>
         <h1 className="text-4xl mb-4  font-bold">Search For Icons</h1>
-        <Input
-          placeholder="Search Icons (minimum 3 characters)"
-          ref={searchInputRef}
-          value={keyword}
-          name="keyword"
-          onChange={(e) => {
-            if (e.currentTarget.value.length === 0)
-              return router.replace({
-                pathname: "/icons",
-              });
-            router.replace({
-              pathname: "/icons",
-              query: { keyword: e.currentTarget.value },
-            });
-          }}
-        />
+        <form onSubmit={handleSubmit}>
+          <Input
+            placeholder="Search Icons (minimum 3 characters)"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.currentTarget.value)}
+            name="keyword"
+          />
+        </form>
         {threeOrMore && notFound && (
           <Alert type="error" message={`${notFound} not found`} />
         )}
@@ -114,13 +114,11 @@ export default function Icons() {
           />
         )}
         <ul className="flex flex-wrap gap-4 mt-4">
-          {(searchedIconNames.length ? searchedIconNames : popularIcons).map(
-            (iconName, index) => (
-              <li key={index}>
-                <IconCard iconName={iconName} />
-              </li>
-            ),
-          )}
+          {filterredIcons.map((iconName, index) => (
+            <li key={index}>
+              <IconCard iconName={iconName} />
+            </li>
+          ))}
         </ul>
       </Page>
     </>
