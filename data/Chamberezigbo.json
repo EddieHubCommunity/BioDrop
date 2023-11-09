@@ -1,10 +1,11 @@
 {
   "name": "Chamberlain Ezigbo",
+  "type": "personal",
   "bio": "JavaScript Engineer | Full-Stack Developer",
   "links": [
     {
       "name": "My portfolio site",
-      "url": "https://wondrous-churros-f6aea2.netlify.app",
+      "url": "https://chamberline.netlify.app",
       "icon": "FaLink"
     },
     {
@@ -24,7 +25,15 @@
     }
   ],
   "milestones": [
-    {
+         {
+      "title": "Form-Base-Website-Builder",
+      "date": "September 2023",
+      "icon": "FaGithub",
+      "color": "#3a3240",
+      "description": "FormCraft is a powerful and user-friendly online tool that empowers individuals and businesses to effortlessly create stunning landing pages and online profiles. With its intuitive interface, FormCraft streamlines the process of building professional online presences by seamlessly integrating social media links and contact information. Whether you're a small business owner, entrepreneur, or freelancer, FormCraft simplifies the path to establishing a compelling online image. No coding expertise is required, and the platform is designed to accommodate your growing needs as your business expands. Revolutionize your online presence with FormCraft and showcase your unique brand to the world.",
+      "url": "https://formcraft.netlify.app/"
+    },
+     {
       "title": "This JavaScript library helps to validate your frontend (HTML) forms using validation rules, sophisticated regular expressions and form input attributes.",
       "date": "May 2022",
       "icon": "FaGithub",
@@ -48,7 +57,7 @@
       "description": "Tailor's kit is a large database & productivity software that helps Tailors to save, manage, access client's data, and track client's orders from anywhere and at anytime with ease.",
       "url": "https://tailorskit.com/"
     },
-    {
+     {
       "title": "Started working for a IG Hub as intern",
       "date": "April 2021",
       "icon": "FaGithub",
