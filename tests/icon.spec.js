@@ -53,6 +53,8 @@ test("Icon search page shows results after typing 3 characters", async ({
 
   const input = page.locator("[name='keyword']");
   await input.fill("hand");
+  await page.locator("form button").click();
+
   await expect(page).toHaveURL("/icons?keyword=hand");
   const results = await page.locator("main ul li").count();
 
