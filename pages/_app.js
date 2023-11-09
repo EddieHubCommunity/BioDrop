@@ -11,6 +11,13 @@ export default function MyApp({
   pageProps: { session, ...pageProps },
 }) {
   const router = useRouter();
+
+  if (typeof window !== "undefined" && window.localStorage) {
+    window.addEventListener("appinstalled", () => {
+      localStorage["installedFrom"] = window.location.pathname;
+    });
+  }
+
   // Use the layout defined at the page level, if available
   const getLayout =
     Component.getLayout || ((page) => <MultiLayout>{page}</MultiLayout>);
