@@ -177,7 +177,7 @@ export default function Map({ data }) {
             <Button
               onClick={resetFilter}
               primary={true}
-              disable={selectedTags.size == 0 ? true : false}
+              disabled={selectedTags.size == 0 ? true : false}
             >
               Clear/Reset Filters
             </Button>

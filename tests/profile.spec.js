@@ -27,7 +27,7 @@ test("Tabs change correctly", async ({ page }) => {
   );
   await expect(page.locator("main")).not.toHaveText(/Top Teacher Award/);
   await page.getByRole("button", { name: /Milestones/ }).click();
-  await expect(page.locator("h3").first()).toHaveText(/Top Teacher Award/);
+  await expect(page.locator("h2").first()).toHaveText(/Top Teacher Award/);
 });
 
 test("Tabs have deep linking test milestone", async ({ page }) => {
@@ -36,7 +36,7 @@ test("Tabs have deep linking test milestone", async ({ page }) => {
   await expect(
     page.getByRole("button", { name: /Milestones/ }),
   ).toHaveAttribute("class", /border-tertiary-medium/);
-  await expect(page.locator("h3").first()).toHaveText(/Top Teacher Award/);
+  await expect(page.locator("h2").first()).toHaveText(/Top Teacher Award/);
 });
 
 test("Tabs have deep linking test repos", async ({ page }) => {
@@ -69,24 +69,24 @@ test("Profile views increase", async ({ page }) => {
   expect(startingViews.views).toEqual(endingViews.views - 3);
 });
 
-test("Link clicks increase", async ({page}) => {
-
+test("Link clicks increase", async ({ page }) => {
   await connectMongo();
-  await page.goto("/eddiejaoude");
-  
-  const startingLinks = await Link.find({ username: "eddiejaoude" })
-  const startingLink = startingLinks[0]
+  const username = "_test-profile-user-6";
+  await page.goto(username);
 
-  const previousClickCount = startingLink.clicks; 
-
-  const profileLink = page.locator('a').filter({ hasText: startingLink.name })
-
+  const startingLink = await Link.findOne({ username });
+  const profileLink = page.locator("a").filter({ hasText: startingLink.name });
   await profileLink.click();
   await page.waitForTimeout(1000);
-  const currentLink = await Link.findOne({ name: startingLink.name, username: "eddiejaoude" })
-  const updateCurrentLinkClicks = currentLink.clicks
-  
-  expect(updateCurrentLinkClicks).toEqual((previousClickCount + 1));
+
+  const previousClickCount = startingLink.clicks;
+  await profileLink.click();
+  await page.waitForTimeout(1000);
+
+  const currentLink = await Link.findOne({ username });
+  const updateCurrentLinkClicks = currentLink.clicks;
+
+  expect(updateCurrentLinkClicks).toEqual(previousClickCount + 2); // it is clicked twice above
 });
 
 test("Profile not found redirects to search page with error message", async ({

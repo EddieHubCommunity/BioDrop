@@ -1,0 +1,22 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
+import Alert from "@components/Alert.js";
+
+## Hide Navbar and Footer
+
+You can use the toggles to hide/show the Navbar and Footer from your Profile.
+
+To apply these changes click on the `Save` button.
+
+![Hide/Show Navbar and Footer](https://github.com/EddieHubCommunity/BioDrop/assets/624760/6a5cef77-f84c-403c-85f5-840b91a1379f)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);

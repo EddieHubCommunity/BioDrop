@@ -143,7 +143,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
             onChange={(e) => setUrl(e.target.value)}
             value={url}
           />
-          <Button disable={!url.length}>
+          <Button disabled={!url.length}>
             <DocumentPlusIcon className="h-5 w-5 mr-2" />
             Add Repo
           </Button>

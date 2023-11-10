@@ -2,9 +2,9 @@ export default function DataList({ title, subtitle, data }) {
   return (
     <div>
       <div className="px-4 sm:px-0">
-        <h3 className="text-base font-semibold leading-7 text-primary-high dark:text-primary-low">
+        <h2 className="text-base font-semibold leading-7 text-primary-high dark:text-primary-low">
           {title}
-        </h3>
+        </h2>
         <p className="mt-1 max-w-2xl text-sm leading-6 text-primary-high dark:text-primary-low">
           {subtitle}
         </p>
