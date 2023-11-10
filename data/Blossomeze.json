@@ -1,0 +1,44 @@
+{
+  "name": "Blossom Eze",
+  "bio": "Open Source Contributor | Frontend  | **GitHub** Star",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NodeJs",
+    "ReactJS",
+    "Technical Writing"
+  ],
+  "socials": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Blossomeze_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Read my blogs on Hashnode",
+      "url": "https://blossomeze.hashnode.dev/",
+      "icon": "FaHashnode"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Blossomeze",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/blossom-eze-76146923a",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Coding",
+      "date": "December 2021",
+      "icon": "FaDollarSign",
+      "color": "grey",
+      "description": "Started my own business",
+      "url": "https://blossomeze.vercel.app/"
+    }
+  ]
+}

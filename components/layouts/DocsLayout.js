@@ -70,6 +70,10 @@ export const navigation = [
         name: "GitHub Repos with Forms",
         href: "/docs/how-to-guides/repos-forms",
       },
+      {
+        name: "Premium Features",
+        href: "/docs/how-to-guides/premium",
+      },
     ],
   },
   {
@@ -98,6 +102,15 @@ export const navigation = [
       { name: "Playwright", href: "/docs/contributing/automated-tests" },
       { name: "Commit Style", href: "/docs/contributing/commits" },
       { name: "Hacktoberfest", href: "/docs/contributing/hacktoberfest" },
+    ],
+  },
+  {
+    name: "Premium",
+    // icon: ChartPieIcon,
+    children: [
+      { name: "Auto", href: "/docs/premium/auto" },
+      { name: "Customisation", href: "/docs/premium/customisation" },
+      { name: "Custom Domain", href: "/docs/premium/domain" },
     ],
   },
   {
@@ -132,7 +145,7 @@ export default function DocsLayout({ children, title, section, name }) {
 
         <div className="flex flex-grow flex-col sm:flex-row">
           <SideNav navigation={navigation} />
-          <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12">
+          <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12 overflow-auto">
             <MDXProvider components={ComponentStyle}>
               <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white prose">
                 {children}

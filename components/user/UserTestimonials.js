@@ -28,9 +28,9 @@ export default function UserTestimonials({ testimonials, BASE_URL }) {
                 />
               </div>
               <div className="flex-1 p-6 sm:hidden">
-                <h3 className="font-medium dark:text-primary-medium-low text-primary-high">
+                <h2 className="font-medium dark:text-primary-medium-low text-primary-high">
                   {testimonial.title}
-                </h3>
+                </h2>
                 <Link
                   href={`${BASE_URL}/${testimonial.username}`}
                   target="_blank"

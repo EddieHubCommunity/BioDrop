@@ -18,16 +18,6 @@ import ConfirmDialog from "@components/ConfirmDialog";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
 
   let repos = [];
@@ -153,7 +143,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
             onChange={(e) => setUrl(e.target.value)}
             value={url}
           />
-          <Button disable={!url.length}>
+          <Button disabled={!url.length}>
             <DocumentPlusIcon className="h-5 w-5 mr-2" />
             Add Repo
           </Button>

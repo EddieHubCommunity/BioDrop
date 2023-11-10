@@ -1,64 +1,45 @@
-# [2.37.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.2...v2.37.0) (2023-10-01)
+## [2.85.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.3...v2.85.4) (2023-11-10)
 
 
 ### Bug Fixes
 
-* accessibility on tags input ([#9181](https://github.com/EddieHubCommunity/BioDrop/issues/9181)) ([57c9a9f](https://github.com/EddieHubCommunity/BioDrop/commit/57c9a9f38fcb95b3a140a68e2ab789b8185daab6))
-* button override classes ([#9203](https://github.com/EddieHubCommunity/BioDrop/issues/9203)) ([00a1255](https://github.com/EddieHubCommunity/BioDrop/commit/00a1255100fb1ba3c95218448878435065fb4a61))
-* display more default icons [#8421](https://github.com/EddieHubCommunity/BioDrop/issues/8421) ([#9068](https://github.com/EddieHubCommunity/BioDrop/issues/9068)) ([5794d38](https://github.com/EddieHubCommunity/BioDrop/commit/5794d38b7aafd75321d932e450e9b289a11f60de)), closes [#8703](https://github.com/EddieHubCommunity/BioDrop/issues/8703) [#8684](https://github.com/EddieHubCommunity/BioDrop/issues/8684)
-* max func duration ([#9224](https://github.com/EddieHubCommunity/BioDrop/issues/9224)) ([a9e717b](https://github.com/EddieHubCommunity/BioDrop/commit/a9e717b5707f5ebae1d3cc9b7807ba724d8889a1))
-* max func duration move to file ([#9226](https://github.com/EddieHubCommunity/BioDrop/issues/9226)) ([530aeba](https://github.com/EddieHubCommunity/BioDrop/commit/530aeba72ee442d5acb667176f31304fc6cd316d))
-* min date for milestone  ([#9060](https://github.com/EddieHubCommunity/BioDrop/issues/9060)) ([f7e5c65](https://github.com/EddieHubCommunity/BioDrop/commit/f7e5c65f934f7a93870cf8d0412688ddc2c85402))
-* prettier update new rules applied ([#9195](https://github.com/EddieHubCommunity/BioDrop/issues/9195)) ([bd49241](https://github.com/EddieHubCommunity/BioDrop/commit/bd49241ae571f69af80d0e667d2be3dee6288066))
-* removed optional zod schema from name & bio ([#9205](https://github.com/EddieHubCommunity/BioDrop/issues/9205)) ([ed71dc2](https://github.com/EddieHubCommunity/BioDrop/commit/ed71dc2feeb0e04e51739cfe908e75cb47c003e9))
-* repo dedup ([#9212](https://github.com/EddieHubCommunity/BioDrop/issues/9212)) ([647d861](https://github.com/EddieHubCommunity/BioDrop/commit/647d86100ea71577d35678921f75a376c58ff80f))
-* repo usernames ([#9214](https://github.com/EddieHubCommunity/BioDrop/issues/9214)) ([264e957](https://github.com/EddieHubCommunity/BioDrop/commit/264e957508b273b36eb6bce6dd99965480a6f4f2))
-* squash merge release details ([#9193](https://github.com/EddieHubCommunity/BioDrop/issues/9193)) ([9169cf9](https://github.com/EddieHubCommunity/BioDrop/commit/9169cf97e40c8d477175091c10c8adf6985562de))
-* test to check repo tab ([#9217](https://github.com/EddieHubCommunity/BioDrop/issues/9217)) ([852ce32](https://github.com/EddieHubCommunity/BioDrop/commit/852ce329161ae15408400d9c0330621bdb8cf6ad))
+* markdown mdx dependencies by major version ([#9753](https://github.com/EddieHubCommunity/BioDrop/issues/9753)) ([697e547](https://github.com/EddieHubCommunity/BioDrop/commit/697e547e80df8721e3c24d116186d06d84795c25))
+
+
+
+## [2.85.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.2...v2.85.3) (2023-11-10)
+
+
+### Bug Fixes
+
+* profile settings domain ([#9758](https://github.com/EddieHubCommunity/BioDrop/issues/9758)) ([17d43e6](https://github.com/EddieHubCommunity/BioDrop/commit/17d43e6fb0095d96599e47f99e3a82a7b1840e9f))
+
+
+
+## [2.85.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.1...v2.85.2) (2023-11-08)
+
+
+### Bug Fixes
+
+* check custom domain first ([#9747](https://github.com/EddieHubCommunity/BioDrop/issues/9747)) ([2ce09be](https://github.com/EddieHubCommunity/BioDrop/commit/2ce09be20aca037b40549719a76cdc5d612574e7))
+
+
+
+## [2.85.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.0...v2.85.1) (2023-11-08)
+
+
+### Bug Fixes
+
+* heading strucuture fails WCAG 2.2AA ([#9631](https://github.com/EddieHubCommunity/BioDrop/issues/9631)) ([#9719](https://github.com/EddieHubCommunity/BioDrop/issues/9719)) ([ba6ea4f](https://github.com/EddieHubCommunity/BioDrop/commit/ba6ea4f0b2676ef72eb1abb907f55a6d3d5f750d)), closes [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581) [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581)
+
+
+
+# [2.85.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.5...v2.85.0) (2023-11-08)
 
 
 ### Features
 
-* dedup repos page ([#9210](https://github.com/EddieHubCommunity/BioDrop/issues/9210)) ([50f63cf](https://github.com/EddieHubCommunity/BioDrop/commit/50f63cf51ef49fc501c69e5e420f35c6ba751d35))
-* increase execution time for loading json files ([#9142](https://github.com/EddieHubCommunity/BioDrop/issues/9142)) ([b4d8c4b](https://github.com/EddieHubCommunity/BioDrop/commit/b4d8c4b1a97dbaad206ca0b62c286aa4186cf795))
-* onboarding landing page ([#9162](https://github.com/EddieHubCommunity/BioDrop/issues/9162)) ([d5330f2](https://github.com/EddieHubCommunity/BioDrop/commit/d5330f20bb8fc0e035793f6e18a98e3db1588522))
-
-
-
-## [2.23.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.1...v2.23.2) (2023-09-28)
-
-
-### Bug Fixes
-
-* no events warning to manage event page ([#9112](https://github.com/EddieHubCommunity/BioDrop/issues/9112)) ([be77dce](https://github.com/EddieHubCommunity/BioDrop/commit/be77dce74fde33c53f02f8948dd1ccd7aa68b4d2))
-* price on events ([#9157](https://github.com/EddieHubCommunity/BioDrop/issues/9157)) ([d98f008](https://github.com/EddieHubCommunity/BioDrop/commit/d98f00861193d6b5caef94983bae1cabcd877468))
-
-
-
-## [2.23.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.23.0...v2.23.1) (2023-09-27)
-
-
-### Bug Fixes
-
-* hide testimonials, tags, stats on mobile ([#9178](https://github.com/EddieHubCommunity/BioDrop/issues/9178)) ([92aa62f](https://github.com/EddieHubCommunity/BioDrop/commit/92aa62fefa6abd7067bc6978c704a3888db27d14)), closes [#9154](https://github.com/EddieHubCommunity/BioDrop/issues/9154)
-
-
-
-# [2.23.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.12...v2.23.0) (2023-09-27)
-
-
-### Features
-
-* tabs to url for deep nesting ([#9174](https://github.com/EddieHubCommunity/BioDrop/issues/9174)) ([7f28f65](https://github.com/EddieHubCommunity/BioDrop/commit/7f28f65f60b6831eb06a23d65740a32c4d73687a)), closes [#9007](https://github.com/EddieHubCommunity/BioDrop/issues/9007)
-
-
-
-## [2.22.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.22.11...v2.22.12) (2023-09-26)
-
-
-### Bug Fixes
-
-* improved testimonial importing output ([#9166](https://github.com/EddieHubCommunity/BioDrop/issues/9166)) ([341b3ab](https://github.com/EddieHubCommunity/BioDrop/commit/341b3abf29332c5d21b3c5fb12403ccf8801ad54))
+* custom domain ([#9436](https://github.com/EddieHubCommunity/BioDrop/issues/9436)) ([5418e2b](https://github.com/EddieHubCommunity/BioDrop/commit/5418e2ba9489d8d3143d4601a6535f511fd36546))
 
 
 

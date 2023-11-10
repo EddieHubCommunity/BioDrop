@@ -184,6 +184,17 @@ export default function Premium({ user }) {
             "Make your Profile standout with a Premium badge on your Profile",
           tiers: { Free: false, Premium: true },
         },
+        {
+          name: "Removed Button",
+          description:
+            'Automatically removes the "Create your Profile" button from your Profile',
+          tiers: { Free: false, Premium: true },
+        },
+        {
+          name: "Custom Domain",
+          description: "Use your own domain for your Profile",
+          tiers: { Free: false, Premium: true },
+        },
       ],
     },
     {
@@ -215,7 +226,7 @@ export default function Premium({ user }) {
         {
           name: "Discover",
           description:
-            "See a list of all those BioDrop Profiles which have been recently updated",
+            "See a list of all those BioDrop Profiles which have been recently updated on the Search Page",
           tiers: { Free: true, Premium: true },
         },
         // {
@@ -252,7 +263,7 @@ export default function Premium({ user }) {
           tiers: { Free: true, Premium: true },
         },
         {
-          name: "Total Daily Link Clicks (coming soon)",
+          name: "Total Daily Link Clicks",
           description:
             "Analytics on the total number of clicks for each individual link in your Profile per day over the last 30 days",
           tiers: { Free: false, Premium: true },
@@ -298,7 +309,7 @@ export default function Premium({ user }) {
   const badge = (
     text,
     classnames1 = "shadow-xl shadow-green-500/50",
-    classnames2 = "animate-ping",
+    classnames2 = "motion-safe:animate-ping",
   ) => (
     <span
       className={classNames(
@@ -359,7 +370,7 @@ export default function Premium({ user }) {
                 <p className="mb-4">{tier.description}</p>
                 <Button
                   primary={true}
-                  disable={tier.button.isDisabled()}
+                  disabled={tier.button.isDisabled()}
                   aria-describedby={tier.id}
                   href={tier.button.action()}
                   onClick={() => tier.button.onClick()}
@@ -462,7 +473,7 @@ export default function Premium({ user }) {
                         </div>
                         <p className="mb-4">{tier.description}</p>
                         <Button
-                          disable={tier.button.isDisabled()}
+                          disabled={tier.button.isDisabled()}
                           primary={true}
                           href={tier.button.action()}
                           onClick={() => tier.button.onClick()}

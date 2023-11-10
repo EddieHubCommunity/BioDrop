@@ -1,57 +1,83 @@
 {
-  "name": "SARVESH ASHOK DEVRUKHAKAR",
-  "bio": "**Student** | **Open Source** | **Freelance**",
-  "tags": [
-    "Open Source",
-    "Git",
-    "GitHub",
-    "Graphic Design",
-    "C",
-    "C++",
-    "JAVA",
-    "Python",
-    "Django",
-    "Vercel"
-  ],
-  "socials": [
-    {
-      "icon": "FaLinkedinIn",
-      "url": "https://www.linkedin.com/in/sadcoder"
-    },
-    {
-      "icon": "SiGithub",
-      "url": "https://github.com/SAD0XER"
-    },
-    {
-      "icon": "SiFiverr",
-      "url": "https://www.fiverr.com/paracoder"
-    }
-  ],
-  "links": [
-    {
-      "name": "Connect With Me On LinkedIn",
-      "url": "https://www.linkedin.com/in/sadcoder",
-      "icon": "FaLinkedinIn"
-    },
-    {
-      "name": "Let's Collaborate and Contribute on GitHub",
-      "url": "https://github.com/SAD0XER",
-      "icon": "SiGithub"
-    },
-    {
-      "name": "Join Me On Discord",
-      "url": "https://discord.com/users/1068163198051696750",
-      "icon": "SiDiscord"
-    },
-    {
-      "name": "Join My Telegram Channel",
-      "url": "https://t.me/PARA_C0DER",
-      "icon": "FaTelegramPlane"
-    },
-    {
-      "name": "Let's Learn Something New On SoloLearn",
-      "url": "https://www.sololearn.com/profile/18241219",
-      "icon": "SiSololearn"
-    }
-  ]
+    "name": "SARVESH ASHOK DEVRUKHAKAR",
+    "bio": "**Student** • **Open Source Contributor**",
+    "tags": [
+        "C",
+        "C++",
+        "Java",
+        "DSA",
+        "Python",
+        "Django",
+        "Open Source",
+        "Git",
+        "GitHub",
+        "Vercel",
+        "Data Structures and Algorithm"
+    ],
+    "socials": [
+        {
+            "icon": "FaLinkedinIn",
+            "url": "https://www.linkedin.com/in/sarveshdevrukhakar"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/SAD0XER"
+        }
+    ],
+    "links": [
+        {
+            "group": "My Technology Portfolio",
+            "name": "GitHub - Let's Collaborate and Contribute in Open Source and Build something Great!",
+            "url": "https://github.com/SAD0XER",
+            "icon": "SiGithub"
+        },
+        {
+            "group": "My Technology Portfolio",
+            "name": "LeetCode - My LeetCode Profile",
+            "url": "https://leetcode.com/SAD0XER",
+            "icon": "SiLeetcode"
+        },
+        {
+            "group": "My Technology Portfolio",
+            "name": "SoloLearn - Let's Learn Something On SoloLearn",
+            "url": "https://www.sololearn.com/profile/18241219",
+            "icon": "SiSololearn"
+        },
+        {
+            "group": "Socials",
+            "name": "LinkedIn - Connect with Me On LinkedIn and Let's Grow Together",
+            "url": "https://www.linkedin.com/in/sarveshdevrukhakar",
+            "icon": "SiLinkedin"
+        },
+        {
+            "group": "Socials",
+            "name": "Twitter - Tiw Tiw",
+            "url": "https://www.twitter.com/SAD0XER",
+            "icon": "FaXTwitter"
+        },
+        {
+            "group": "Socials",
+            "name": "Instagram - Follow me if you want to ;)",
+            "url": "https://www.instagram.com/sarveshdevrukhakar",
+            "icon": "FaInstagram"
+        },
+        {
+            "group": "Other",
+            "name": "Discord - Connect With Me On Discord",
+            "url": "https://discord.com/users/1068163198051696750",
+            "icon": "FaDiscord"
+        },
+        {
+            "group": "Other",
+            "name": "Spotify - Explore My Profile!",
+            "url": "https://open.spotify.com/user/31br6cokwd2t2lhbzyttqlhn52ne",
+            "icon": "SiSpotify"
+        },
+        {
+            "group": "Other",
+            "name": "YouTube - Channel Will Get Active Soon",
+            "url": "https://youtube.com/@ALL_R0UNDER",
+            "icon": "FaYoutube"
+        }
+    ]
 }

@@ -34,3 +34,21 @@ export default function dateFormat({
     new Date(formatDate),
   );
 }
+
+export function shortenDate({ date, formatStyle }) {
+  const milestoneDate = new Date(date);
+  const day = milestoneDate.getDate();
+  const month = milestoneDate.getMonth() + 1;
+  const year = milestoneDate.getFullYear();
+  switch (formatStyle) {
+    case "dd/mm/yyyy":
+      return `${day}/${month}/${year}`;
+    case "month/year":
+      return `${month}/${year}`;
+    case "year":
+      return `${year}`;
+    default:
+      return `${day}/${month}/${year}`;
+  }
+
+}
