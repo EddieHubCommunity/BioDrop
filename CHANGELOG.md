@@ -1,3 +1,12 @@
+## [2.85.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.3...v2.85.4) (2023-11-10)
+
+
+### Bug Fixes
+
+* markdown mdx dependencies by major version ([#9753](https://github.com/EddieHubCommunity/BioDrop/issues/9753)) ([697e547](https://github.com/EddieHubCommunity/BioDrop/commit/697e547e80df8721e3c24d116186d06d84795c25))
+
+
+
 ## [2.85.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.2...v2.85.3) (2023-11-10)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * custom domain ([#9436](https://github.com/EddieHubCommunity/BioDrop/issues/9436)) ([5418e2b](https://github.com/EddieHubCommunity/BioDrop/commit/5418e2ba9489d8d3143d4601a6535f511fd36546))
-
-
-
-## [2.84.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.4...v2.84.5) (2023-11-06)
-
-
-### Bug Fixes
-
-* test profiles ([#9739](https://github.com/EddieHubCommunity/BioDrop/issues/9739)) ([fc5ba2d](https://github.com/EddieHubCommunity/BioDrop/commit/fc5ba2d555f3558682834272edec48a9baff1b70))
 
 
 
