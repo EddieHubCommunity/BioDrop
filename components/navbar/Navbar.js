@@ -121,6 +121,7 @@ export default function Navbar() {
               className="flex-none hover:ring-2 hover:ring-tertiary-medium rounded-full mx-2"
               width={40}
               height={40}
+              onClick={() => setIsOpen(false)}
               src={`https://github.com/${session.username}.png`}
               alt="Account"
             />
