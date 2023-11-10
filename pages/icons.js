@@ -55,6 +55,7 @@ export default function Icons() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (searchQuery === keyword) return;
     if (searchQuery.length === 0)
       return router.replace({
         pathname: "/icons",
