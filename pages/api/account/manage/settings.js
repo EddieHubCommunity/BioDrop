@@ -112,12 +112,12 @@ export async function updateSettingsApi(context, username, data) {
   update.domain = update.domain.replaceAll(".", "|"); // TODO: use getter/setter instead
 
   // check if domain is already used
-  if (update.domain) {
+  if (data.domain && data.domain !== beforeUpdate.domain) {
     const domainCheck = await Profile.findOne({
       "settings.domain": update.domain,
     });
     if (domainCheck) {
-      const domainCheckError = `Domain "${update.domain}" is already in use for username: ${username}`;
+      const domainCheckError = `Domain "${data.domain}" is already in use for username: ${username}`;
       log.error(domainCheckError);
       return { error: domainCheckError };
     }
