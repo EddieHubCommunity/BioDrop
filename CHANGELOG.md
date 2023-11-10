@@ -1,3 +1,12 @@
+## [2.85.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.2...v2.85.3) (2023-11-10)
+
+
+### Bug Fixes
+
+* profile settings domain ([#9758](https://github.com/EddieHubCommunity/BioDrop/issues/9758)) ([17d43e6](https://github.com/EddieHubCommunity/BioDrop/commit/17d43e6fb0095d96599e47f99e3a82a7b1840e9f))
+
+
+
 ## [2.85.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.1...v2.85.2) (2023-11-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * test profiles ([#9739](https://github.com/EddieHubCommunity/BioDrop/issues/9739)) ([fc5ba2d](https://github.com/EddieHubCommunity/BioDrop/commit/fc5ba2d555f3558682834272edec48a9baff1b70))
-
-
-
-## [2.84.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.3...v2.84.4) (2023-11-05)
-
-
-### Bug Fixes
-
-* navbar menu z-index issue in mobile dark mode ([#9732](https://github.com/EddieHubCommunity/BioDrop/issues/9732)) ([78c8079](https://github.com/EddieHubCommunity/BioDrop/commit/78c807939a88b3ae49d68b507112db8e9ed404af))
 
 
 
