@@ -1,10 +1,4 @@
-import {
-  useEffect,
-  useState,
-  useCallback,
-  useRef,
-  useLayoutEffect,
-} from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
 import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
@@ -99,8 +93,10 @@ export default function Search({
       setNotFound(`${username} not found`);
     }
   }, [username]);
-  useLayoutEffect(() => {
-    searchInputRef.current?.focus();
+  useEffect(() => {
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
+    }
   }, []);
 
   useEffect(() => {
