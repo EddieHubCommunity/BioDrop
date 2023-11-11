@@ -3,7 +3,7 @@
   "short_name": "biodrop",
   "theme_color": "#FFFFFF",
   "background_color": "#FFFFFF",
-  "start_url": "/pwa",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "icons": [
