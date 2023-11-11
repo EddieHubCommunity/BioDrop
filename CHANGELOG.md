@@ -1,3 +1,12 @@
+## [2.85.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.4...v2.85.5) (2023-11-11)
+
+
+### Bug Fixes
+
+* icon search page improvements ([#9752](https://github.com/EddieHubCommunity/BioDrop/issues/9752)) ([fe1ed9e](https://github.com/EddieHubCommunity/BioDrop/commit/fe1ed9e50ad6590efb69523f7e4cc97b8eaed868)), closes [#9655](https://github.com/EddieHubCommunity/BioDrop/issues/9655)
+
+
+
 ## [2.85.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.3...v2.85.4) (2023-11-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * heading strucuture fails WCAG 2.2AA ([#9631](https://github.com/EddieHubCommunity/BioDrop/issues/9631)) ([#9719](https://github.com/EddieHubCommunity/BioDrop/issues/9719)) ([ba6ea4f](https://github.com/EddieHubCommunity/BioDrop/commit/ba6ea4f0b2676ef72eb1abb907f55a6d3d5f750d)), closes [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581) [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581)
-
-
-
-# [2.85.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.5...v2.85.0) (2023-11-08)
-
-
-### Features
-
-* custom domain ([#9436](https://github.com/EddieHubCommunity/BioDrop/issues/9436)) ([5418e2b](https://github.com/EddieHubCommunity/BioDrop/commit/5418e2ba9489d8d3143d4601a6535f511fd36546))
 
 
 
