@@ -40,6 +40,7 @@
   }
 
   .glow::after {
+    background-size: 100%; /* remove once animation is supported by MacOS */
     filter: blur(10px);
     opacity: 0.99;
   }
