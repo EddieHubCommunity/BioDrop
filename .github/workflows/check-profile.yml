@@ -26,7 +26,7 @@ jobs:
       # fail the job if the source is database
       - name: If 404 pass the job
         run: |
-          echo ${{ steps.myRequest.outputs.headers }}
+          echo ${{ steps.myRequest.outputs.response }}
           exit 0
 
       # fail the job if the source is database
