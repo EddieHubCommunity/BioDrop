@@ -1,3 +1,12 @@
+## [2.87.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.0...v2.87.1) (2023-11-12)
+
+
+### Bug Fixes
+
+* reduce bg-size on :after to fix safari bug ([#9770](https://github.com/EddieHubCommunity/BioDrop/issues/9770)) ([db657aa](https://github.com/EddieHubCommunity/BioDrop/commit/db657aa757b9ed99a8da82d371fc196d8f25557d))
+
+
+
 # [2.87.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.86.1...v2.87.0) (2023-11-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * icon search page improvements ([#9752](https://github.com/EddieHubCommunity/BioDrop/issues/9752)) ([fe1ed9e](https://github.com/EddieHubCommunity/BioDrop/commit/fe1ed9e50ad6590efb69523f7e4cc97b8eaed868)), closes [#9655](https://github.com/EddieHubCommunity/BioDrop/issues/9655)
-
-
-
-## [2.85.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.3...v2.85.4) (2023-11-10)
-
-
-### Bug Fixes
-
-* markdown mdx dependencies by major version ([#9753](https://github.com/EddieHubCommunity/BioDrop/issues/9753)) ([697e547](https://github.com/EddieHubCommunity/BioDrop/commit/697e547e80df8721e3c24d116186d06d84795c25))
 
 
 
