@@ -1,5 +1,6 @@
+import { useEffect, useState } from "react";
 import { IconContext } from "react-icons";
-import { FaEye, FaRegFaceSmileWink } from "react-icons/fa6";
+import { FaArrowsRotate, FaEye, FaRegFaceSmileWink } from "react-icons/fa6";
 import { remark } from "remark";
 import strip from "strip-markdown";
 import requestIp from "request-ip";
@@ -15,6 +16,7 @@ import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
 import UserPage from "@components/user/UserPage";
 import { abbreviateNumber } from "@services/utils/abbreviateNumbers";
+import Button from "@components/Button";
 
 export async function getServerSideProps(context) {
   const { req, res } = context;
@@ -70,6 +72,17 @@ export async function getServerSideProps(context) {
 }
 
 export default function User({ data, BASE_URL, isLoggedIn }) {
+  const [pwa, setPwa] = useState(false);
+
+  useEffect(() => {
+    if (
+      typeof window !== "undefined" &&
+      window.matchMedia("(display-mode: standalone)").matches
+    ) {
+      setPwa(true);
+    }
+  }, []);
+
   return (
     <>
       <PageHead
@@ -119,6 +132,22 @@ export default function User({ data, BASE_URL, isLoggedIn }) {
             </p>
           </div>
         </Link>
+      )}
+
+      {pwa && (
+        <Button
+          onClick={() => window.location.reload()}
+          overrideClassNames={true}
+          className="fixed top-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
+        >
+          <div className="flex px-4 py-2 bg-tertiary-medium text-primary-low items-center gap-1 rounded-full hover:bg-secondary-medium hover:drop-shadow-lg">
+            <IconContext.Provider
+              value={{ color: "white", style: { verticalAlign: "middle" } }}
+            >
+              <FaArrowsRotate />
+            </IconContext.Provider>
+          </div>
+        </Button>
       )}
     </>
   );
