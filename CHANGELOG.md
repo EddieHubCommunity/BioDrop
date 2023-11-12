@@ -1,3 +1,12 @@
+# [2.86.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.5...v2.86.0) (2023-11-12)
+
+
+### Features
+
+* nextjs pwa ([#9757](https://github.com/EddieHubCommunity/BioDrop/issues/9757)) ([663dd11](https://github.com/EddieHubCommunity/BioDrop/commit/663dd112ed24099da871268531043ffd40318d5f))
+
+
+
 ## [2.85.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.4...v2.85.5) (2023-11-11)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * check custom domain first ([#9747](https://github.com/EddieHubCommunity/BioDrop/issues/9747)) ([2ce09be](https://github.com/EddieHubCommunity/BioDrop/commit/2ce09be20aca037b40549719a76cdc5d612574e7))
-
-
-
-## [2.85.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.0...v2.85.1) (2023-11-08)
-
-
-### Bug Fixes
-
-* heading strucuture fails WCAG 2.2AA ([#9631](https://github.com/EddieHubCommunity/BioDrop/issues/9631)) ([#9719](https://github.com/EddieHubCommunity/BioDrop/issues/9719)) ([ba6ea4f](https://github.com/EddieHubCommunity/BioDrop/commit/ba6ea4f0b2676ef72eb1abb907f55a6d3d5f750d)), closes [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581) [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581)
 
 
 
