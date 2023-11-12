@@ -1,3 +1,12 @@
+## [2.86.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.86.0...v2.86.1) (2023-11-12)
+
+
+### Bug Fixes
+
+* github action for profile db check ([#9771](https://github.com/EddieHubCommunity/BioDrop/issues/9771)) ([8ccb18a](https://github.com/EddieHubCommunity/BioDrop/commit/8ccb18aee3ffe855a36cf2dcaf2c22433c2c89f3))
+
+
+
 # [2.86.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.5...v2.86.0) (2023-11-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile settings domain ([#9758](https://github.com/EddieHubCommunity/BioDrop/issues/9758)) ([17d43e6](https://github.com/EddieHubCommunity/BioDrop/commit/17d43e6fb0095d96599e47f99e3a82a7b1840e9f))
-
-
-
-## [2.85.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.1...v2.85.2) (2023-11-08)
-
-
-### Bug Fixes
-
-* check custom domain first ([#9747](https://github.com/EddieHubCommunity/BioDrop/issues/9747)) ([2ce09be](https://github.com/EddieHubCommunity/BioDrop/commit/2ce09be20aca037b40549719a76cdc5d612574e7))
 
 
 
