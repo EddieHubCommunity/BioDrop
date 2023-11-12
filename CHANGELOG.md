@@ -1,3 +1,12 @@
+## [2.87.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.1...v2.87.2) (2023-11-12)
+
+
+### Bug Fixes
+
+* login page logo ([#9777](https://github.com/EddieHubCommunity/BioDrop/issues/9777)) ([f3b4cc1](https://github.com/EddieHubCommunity/BioDrop/commit/f3b4cc17739dcefb5c82a2bf7025edf846fe54fc))
+
+
+
 ## [2.87.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.0...v2.87.1) (2023-11-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * nextjs pwa ([#9757](https://github.com/EddieHubCommunity/BioDrop/issues/9757)) ([663dd11](https://github.com/EddieHubCommunity/BioDrop/commit/663dd112ed24099da871268531043ffd40318d5f))
-
-
-
-## [2.85.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.4...v2.85.5) (2023-11-11)
-
-
-### Bug Fixes
-
-* icon search page improvements ([#9752](https://github.com/EddieHubCommunity/BioDrop/issues/9752)) ([fe1ed9e](https://github.com/EddieHubCommunity/BioDrop/commit/fe1ed9e50ad6590efb69523f7e4cc97b8eaed868)), closes [#9655](https://github.com/EddieHubCommunity/BioDrop/issues/9655)
 
 
 
