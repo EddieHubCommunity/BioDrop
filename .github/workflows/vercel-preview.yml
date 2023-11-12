@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - feat-custom-domain
+      - feat-pwa
 
 jobs:
   deploy:
