@@ -1,3 +1,12 @@
+# [2.87.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.86.1...v2.87.0) (2023-11-12)
+
+
+### Features
+
+* reload pwa ([#9773](https://github.com/EddieHubCommunity/BioDrop/issues/9773)) ([a6c841b](https://github.com/EddieHubCommunity/BioDrop/commit/a6c841b7c47f64368a17987c0713b89f66184e10))
+
+
+
 ## [2.86.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.86.0...v2.86.1) (2023-11-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * markdown mdx dependencies by major version ([#9753](https://github.com/EddieHubCommunity/BioDrop/issues/9753)) ([697e547](https://github.com/EddieHubCommunity/BioDrop/commit/697e547e80df8721e3c24d116186d06d84795c25))
-
-
-
-## [2.85.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.2...v2.85.3) (2023-11-10)
-
-
-### Bug Fixes
-
-* profile settings domain ([#9758](https://github.com/EddieHubCommunity/BioDrop/issues/9758)) ([17d43e6](https://github.com/EddieHubCommunity/BioDrop/commit/17d43e6fb0095d96599e47f99e3a82a7b1840e9f))
 
 
 
