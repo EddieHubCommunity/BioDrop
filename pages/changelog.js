@@ -12,6 +12,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "PWA support",
+      description:
+        "You can now have BioDrop on your mobile as an app, so your profile + QR code is available offline",
+      type: "addition",
+      date: "2023-11-12",
+    },
+    {
       title: "Custom domains",
       description:
         "You can now add your own custom domain to your profile for further customisation",
