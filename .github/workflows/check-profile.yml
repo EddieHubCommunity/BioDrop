@@ -32,7 +32,7 @@ jobs:
 
       # fail the job if the source is database
       - name: Check if source is database
-        if: fromJson(steps.myRequest.outputs.response).source == 'database'
+        if: steps.myRequest.outputs.response != '' && fromJson(steps.myRequest.outputs.response).source == 'database'
         run: |
           echo "${{ github.event.pull_request.user.login }}'s Profile is already in database"
           exit 1
