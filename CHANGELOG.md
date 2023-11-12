@@ -1,3 +1,12 @@
+## [2.87.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.2...v2.87.3) (2023-11-12)
+
+
+### Bug Fixes
+
+* disable pwa due to caching errors ([#9781](https://github.com/EddieHubCommunity/BioDrop/issues/9781)) ([f23dc7c](https://github.com/EddieHubCommunity/BioDrop/commit/f23dc7cd68a6c2b93282980edbf5da5970654860))
+
+
+
 ## [2.87.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.1...v2.87.2) (2023-11-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * github action for profile db check ([#9771](https://github.com/EddieHubCommunity/BioDrop/issues/9771)) ([8ccb18a](https://github.com/EddieHubCommunity/BioDrop/commit/8ccb18aee3ffe855a36cf2dcaf2c22433c2c89f3))
-
-
-
-# [2.86.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.5...v2.86.0) (2023-11-12)
-
-
-### Features
-
-* nextjs pwa ([#9757](https://github.com/EddieHubCommunity/BioDrop/issues/9757)) ([663dd11](https://github.com/EddieHubCommunity/BioDrop/commit/663dd112ed24099da871268531043ffd40318d5f))
 
 
 
