@@ -136,7 +136,7 @@ export default function User({ data, BASE_URL, isLoggedIn }) {
 
       {pwa && (
         <Button
-          onClick={window.location.reload()}
+          onClick={() => window.location.reload()}
           overrideClassNames={true}
           className="fixed top-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
         >
