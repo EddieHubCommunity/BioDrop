@@ -25,9 +25,8 @@ jobs:
 
       # fail the job if the source is database
       - name: If 404 pass the job
-        if: fromJson(steps.myRequest.outputs.response).code == 404
         run: |
-          echo "${{ github.event.pull_request.user.login }}'s Profile does not exist in the database"
+          echo ${{ steps.myRequest.outputs.headers }}
           exit 0
 
       # fail the job if the source is database
