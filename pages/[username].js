@@ -22,7 +22,7 @@ export async function getServerSideProps(context) {
   if ("embed" in context.query) {
     return {
       redirect: {
-        destination: `/api/profiles/${username}/embed?theme=${context.query.theme || undefined}`,
+        destination: `/api/profiles/${username}/embed?theme=${context.query.theme || "default"}`,
         permanent: true,
       },
     }
