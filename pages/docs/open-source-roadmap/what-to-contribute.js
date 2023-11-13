@@ -62,7 +62,7 @@ export default function DocsContribute() {
               <strong className="font-semibold">Documentation:</strong>{" "}
               Incorrect or out of date documentation is worse than no
               documentation because people rely on it. Going through the
-              documemtation and following along, you can spot errors and fix
+              documentation and following along, you can spot errors and fix
               them. Or you can add more information to the documentation.
             </span>
           </li>
@@ -94,6 +94,12 @@ export default function DocsContribute() {
             </span>
           </li>
         </ul>
+        <h2 className="mt-16 text-2xl font-bold tracking-tight text-primary-high dark:text-primary-low">
+          Code Reviews
+        </h2>
+        <p>
+          Code Reviews are another way to contribute as they help understand the codebase, share feedback that improves coding skills, catches bugs and increases collaboration among the community.
+        </p>
       </Page>
     </>
   );

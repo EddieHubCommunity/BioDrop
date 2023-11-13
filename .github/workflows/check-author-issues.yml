@@ -1,0 +1,47 @@
+name: "check author issues"
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  check-issue-author:
+    permissions:
+      issues: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: check author issue assignment choice
+        run: |
+          CHOICE=$(echo "${{ github.event.issue.body }}" | grep -A 3 "Do you want to work on this issue?\(\s*\)" | ( grep -oiE "yes" || echo "No" ))
+          echo "CHOICE=$CHOICE" >> $GITHUB_ENV
+
+      - name: check if issue author has assigned issues
+        if: env.CHOICE == 'Yes'
+        id: check-assignee
+        run: |
+          ISSUE_AUTHOR=${{ github.event.issue.user.login }}
+          ISSUES=$(curl \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            -s "https://api.github.com/search/issues?q=repo:${{ github.repository }}+is:open+is:issue+assignee:$ISSUE_AUTHOR" | jq .total_count)
+          echo "issue author $ISSUE_AUTHOR"
+          echo "has_issues=$(test $ISSUES -gt 0 && echo true || echo false)" >> $GITHUB_OUTPUT
+
+      - name: Update issue if author has assigned issues
+        if: steps.check-assignee.outputs.has_issues == 'true'
+        run: |
+          ISSUE_AUTHOR=${{ github.event.issue.user.login }}
+          ISSUE_NUMBER=${{ github.event.issue.number }}
+          ISSUE_URL="https://github.com/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER"
+          ASSIGNED_ISSUES_URL="https://github.com/$GITHUB_REPOSITORY/issues?q=is%3Aopen+is%3Aissue+assignee%3A$ISSUE_AUTHOR"
+          UPDATE_TEXT="ℹ️ **$ISSUE_AUTHOR** has some opened assigned issues: 🔧[View assigned issues]($ASSIGNED_ISSUES_URL)"
+          OLD_BODY="${{ github.event.issue.body }}"
+          BODY=$(jq --arg old_body "$OLD_BODY" --arg update_text "$UPDATE_TEXT" -n '{ body: ($old_body + "\n\n" + $update_text) }')
+          curl -L \
+          -X PATCH \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "X-GitHub-Api-Version: 2022-11-28" \
+          https://api.github.com/repos/$GITHUB_REPOSITORY/issues/$ISSUE_NUMBER \
+          -s -d "$BODY"

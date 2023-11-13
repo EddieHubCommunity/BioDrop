@@ -38,3 +38,10 @@ test-results/
 
 # vscode
 .vscode
+
+# Sentry Auth Token
+.sentryclirc
+
+# PWA
+public/sw.js*
+public/workbox-*.js*

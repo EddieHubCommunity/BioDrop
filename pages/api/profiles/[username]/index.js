@@ -43,7 +43,7 @@ export async function getUserApi(req, res, username, options = {}) {
   }
 
   let ipLookupProm;
-  if (options.ip) {
+  if (options.ip && !options.ip.match(/127\.0\.0\.1/)) {
     try {
       ipLookupProm = fetch(`https://api.iplocation.net/?ip=${options.ip}`);
     } catch (e) {
@@ -114,6 +114,9 @@ export async function getUserApi(req, res, username, options = {}) {
       ),
     socials: getProfile.links
       .filter((link) => link.isPinned)
+      .sort(
+        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE),
+      )
       .map((link) => ({
         _id: link._id,
         url: link.url,
@@ -164,7 +167,9 @@ export async function getUserApi(req, res, username, options = {}) {
       }
     });
 
-    getProfile.events = dateEvents;
+    getProfile.events = dateEvents.sort(
+      (a, b) => Number(new Date(a.date.start)) - Number(new Date(b.date.start)),
+    );
   } else {
     getProfile.events = [];
   }
@@ -198,7 +203,7 @@ export async function getUserApi(req, res, username, options = {}) {
       const referer = new URL(options.referer);
       increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
     }
-    if (options.ip) {
+    if (options.ip && !options.ip.match(/127\.0\.0\.1/)) {
       try {
         const ipLookupRes = await ipLookupProm;
         const ipLookup = await ipLookupRes.json();
@@ -225,7 +230,7 @@ export async function getUserApi(req, res, username, options = {}) {
         } catch (e) {
           log.error(
             e,
-            `failed to increment profile stats for username: ${username}`,
+            `failed to increment profile total stats for username: ${username}`,
           );
         }
       })(),
@@ -248,7 +253,7 @@ export async function getUserApi(req, res, username, options = {}) {
         } catch (e) {
           log.error(
             e,
-            "failed to increment profile stats for username: ${username}",
+            "failed to increment profile daily stats for username: ${username}",
           );
         }
       })(),

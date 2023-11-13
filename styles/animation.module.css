@@ -40,6 +40,7 @@
   }
 
   .glow::after {
+    background-size: 100%; /* remove once animation is supported in Safari and SafariOS */
     filter: blur(10px);
     opacity: 0.99;
   }

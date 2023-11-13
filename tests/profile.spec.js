@@ -3,7 +3,7 @@ import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
 import connectMongo from "@config/mongo";
-import { Profile } from "@models/index";
+import { Profile, Link } from "@models/index";
 
 test("Profile has title", async ({ page }) => {
   const username = "_test-profile-user-1";
@@ -27,7 +27,7 @@ test("Tabs change correctly", async ({ page }) => {
   );
   await expect(page.locator("main")).not.toHaveText(/Top Teacher Award/);
   await page.getByRole("button", { name: /Milestones/ }).click();
-  await expect(page.locator("h3").first()).toHaveText(/Top Teacher Award/);
+  await expect(page.locator("h2").first()).toHaveText(/Top Teacher Award/);
 });
 
 test("Tabs have deep linking test milestone", async ({ page }) => {
@@ -36,7 +36,7 @@ test("Tabs have deep linking test milestone", async ({ page }) => {
   await expect(
     page.getByRole("button", { name: /Milestones/ }),
   ).toHaveAttribute("class", /border-tertiary-medium/);
-  await expect(page.locator("h3").first()).toHaveText(/Top Teacher Award/);
+  await expect(page.locator("h2").first()).toHaveText(/Top Teacher Award/);
 });
 
 test("Tabs have deep linking test repos", async ({ page }) => {
@@ -69,8 +69,24 @@ test("Profile views increase", async ({ page }) => {
   expect(startingViews.views).toEqual(endingViews.views - 3);
 });
 
-test.fixme("Link clicks increase", async () => {
-  // will need DB integration
+test("Link clicks increase", async ({ page }) => {
+  await connectMongo();
+  const username = "_test-profile-user-6";
+  await page.goto(username);
+
+  const startingLink = await Link.findOne({ username });
+  const profileLink = page.locator("a").filter({ hasText: startingLink.name });
+  await profileLink.click();
+  await page.waitForTimeout(1000);
+
+  const previousClickCount = startingLink.clicks;
+  await profileLink.click();
+  await page.waitForTimeout(1000);
+
+  const currentLink = await Link.findOne({ username });
+  const updateCurrentLinkClicks = currentLink.clicks;
+
+  expect(updateCurrentLinkClicks).toEqual(previousClickCount + 2); // it is clicked twice above
 });
 
 test("Profile not found redirects to search page with error message", async ({

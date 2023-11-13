@@ -24,6 +24,8 @@ export default function PageHead(props) {
       <meta property="og:type" content={ogType} />
       <meta property="og:url" content={ogUrl} />
       <meta property="og:image" content={ogImage} />
+      <link rel="manifest" href="/manifest.json" />
+
       {children}
     </Head>
   );

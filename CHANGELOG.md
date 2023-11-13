@@ -1,45 +1,45 @@
-## [2.74.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.74.0...v2.74.1) (2023-10-14)
+## [2.87.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.3...v2.87.4) (2023-11-13)
 
 
 ### Bug Fixes
 
-* hide tabs with no data ([#9494](https://github.com/EddieHubCommunity/BioDrop/issues/9494)) ([3a42565](https://github.com/EddieHubCommunity/BioDrop/commit/3a4256556ba8a3928ac33a1eb9e44ff23ed434da))
+* pwa fix cache ([#9784](https://github.com/EddieHubCommunity/BioDrop/issues/9784)) ([0ee0fad](https://github.com/EddieHubCommunity/BioDrop/commit/0ee0fad958d76a87a751fe3fc1e189ff01dca032))
 
 
 
-# [2.74.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.73.0...v2.74.0) (2023-10-14)
+## [2.87.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.2...v2.87.3) (2023-11-12)
+
+
+### Bug Fixes
+
+* disable pwa due to caching errors ([#9781](https://github.com/EddieHubCommunity/BioDrop/issues/9781)) ([f23dc7c](https://github.com/EddieHubCommunity/BioDrop/commit/f23dc7cd68a6c2b93282980edbf5da5970654860))
+
+
+
+## [2.87.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.1...v2.87.2) (2023-11-12)
+
+
+### Bug Fixes
+
+* login page logo ([#9777](https://github.com/EddieHubCommunity/BioDrop/issues/9777)) ([f3b4cc1](https://github.com/EddieHubCommunity/BioDrop/commit/f3b4cc17739dcefb5c82a2bf7025edf846fe54fc))
+
+
+
+## [2.87.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.0...v2.87.1) (2023-11-12)
+
+
+### Bug Fixes
+
+* reduce bg-size on :after to fix safari bug ([#9770](https://github.com/EddieHubCommunity/BioDrop/issues/9770)) ([db657aa](https://github.com/EddieHubCommunity/BioDrop/commit/db657aa757b9ed99a8da82d371fc196d8f25557d))
+
+
+
+# [2.87.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.86.1...v2.87.0) (2023-11-12)
 
 
 ### Features
 
-* admin changelog filter user ([#9491](https://github.com/EddieHubCommunity/BioDrop/issues/9491)) ([eb864b6](https://github.com/EddieHubCommunity/BioDrop/commit/eb864b6a497f526c8b3d43cfbcbbe759acfdb869))
-
-
-
-# [2.73.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.10...v2.73.0) (2023-10-14)
-
-
-### Features
-
-* admin list premium users ([#9489](https://github.com/EddieHubCommunity/BioDrop/issues/9489)) ([000fbbc](https://github.com/EddieHubCommunity/BioDrop/commit/000fbbc92913a63e71fb901464b33dc87669d7a5))
-
-
-
-## [2.72.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.9...v2.72.10) (2023-10-14)
-
-
-### Bug Fixes
-
-* multiple re-render in profile page ([#9380](https://github.com/EddieHubCommunity/BioDrop/issues/9380)) ([9ef1fbe](https://github.com/EddieHubCommunity/BioDrop/commit/9ef1fbe7ced5b4c9f53c2d3aa84769a8c83712c0))
-
-
-
-## [2.72.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.72.8...v2.72.9) (2023-10-13)
-
-
-### Bug Fixes
-
-* search page to default to 21 results per page ([#9481](https://github.com/EddieHubCommunity/BioDrop/issues/9481)) ([71ae49e](https://github.com/EddieHubCommunity/BioDrop/commit/71ae49eb7b8768f42fe32cc76817a8c36c34f502))
+* reload pwa ([#9773](https://github.com/EddieHubCommunity/BioDrop/issues/9773)) ([a6c841b](https://github.com/EddieHubCommunity/BioDrop/commit/a6c841b7c47f64368a17987c0713b89f66184e10))
 
 
 

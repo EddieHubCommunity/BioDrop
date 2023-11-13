@@ -12,12 +12,14 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
-    const formattedDate = shortenDate({
-      date: milestone.date,
-      formatStyle: milestone.dateFormat,
-    });
-    setDate(formattedDate);
-  }, [milestone, milestone.dateFormat]);
+    if (milestone.date) {
+      const formattedDate = shortenDate({
+        date: milestone.date,
+        formatStyle: milestone.dateFormat,
+      });
+      setDate(formattedDate);
+    }
+  }, [milestone.date, milestone.dateFormat]);
 
   const DisplayIcon = getIcon(milestone.icon);
   const item = (milestone, isGoal) => {
@@ -34,14 +36,14 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
         )}
         <div className="flex-1 space-y-1">
           <div className="flex items-center justify-between">
-            <h3
+            <h2
               className={classNames(
                 isGoal && "opacity-70",
                 "text-sm font-medium",
               )}
             >
               <span>{milestone.title}</span>
-            </h3>
+            </h2>
             <p className={`text-sm flex gap-2 items-center ${colors}`}>
               {date}
               {milestone.url && (
