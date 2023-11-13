@@ -247,7 +247,7 @@ export default function Search({
           className="w-full"
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
-          <form onSubmit={handleSearchSubmit}>
+          <form onSubmit={handleSearchSubmit} className="w-full">
             <Input
               ref={searchInputRef}
               placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
