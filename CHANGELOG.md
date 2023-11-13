@@ -1,3 +1,12 @@
+## [2.87.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.3...v2.87.4) (2023-11-13)
+
+
+### Bug Fixes
+
+* pwa fix cache ([#9784](https://github.com/EddieHubCommunity/BioDrop/issues/9784)) ([0ee0fad](https://github.com/EddieHubCommunity/BioDrop/commit/0ee0fad958d76a87a751fe3fc1e189ff01dca032))
+
+
+
 ## [2.87.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.2...v2.87.3) (2023-11-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * reload pwa ([#9773](https://github.com/EddieHubCommunity/BioDrop/issues/9773)) ([a6c841b](https://github.com/EddieHubCommunity/BioDrop/commit/a6c841b7c47f64368a17987c0713b89f66184e10))
-
-
-
-## [2.86.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.86.0...v2.86.1) (2023-11-12)
-
-
-### Bug Fixes
-
-* github action for profile db check ([#9771](https://github.com/EddieHubCommunity/BioDrop/issues/9771)) ([8ccb18a](https://github.com/EddieHubCommunity/BioDrop/commit/8ccb18aee3ffe855a36cf2dcaf2c22433c2c89f3))
 
 
 
