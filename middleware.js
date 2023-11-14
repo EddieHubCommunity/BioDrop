@@ -31,13 +31,6 @@ export async function middleware(req) {
   );
   const hostedDomains = [ hostedDomain, `www.${hostedDomain}` ];
   const sessionRequired = [ "/account", "/api/account" ];
-  if (
-    !sessionRequired
-      .concat(adminRequired)
-      .some((path) => reqPathName.startsWith(path))
-  ) {
-    return NextResponse.next();
-  }
   // if custom domain + on root path
   if (!hostedDomains.includes(hostname) && reqPathName === "/") {
     console.log(`custom domain used: "${hostname}"`);
@@ -80,13 +73,20 @@ export async function middleware(req) {
     console.error(`custom domain NOT matched "${hostname}"`);
   }
 
+  // if not in sessionRequired or adminRequired, skip
+  if (
+    !sessionRequired
+      .concat(adminRequired)
+      .some((path) => reqPathName.startsWith(path))
+  ) {
+    return NextResponse.next();
+  }
+
   // Check token existence or validity
   const token = await getToken({
     req: req,
     secret: process.env.NEXTAUTH_SECRET,
   });
-
-  console.log(token)
 
   // if no token reject request
   if (!token) {
