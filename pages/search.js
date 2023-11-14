@@ -1,6 +1,5 @@
 import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
-import { usePathname, useSearchParams } from "next/navigation";
 import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
@@ -73,7 +72,7 @@ export default function Search({
   data: { tags, recentlyUpdatedUsers, filteredUsers },
   BASE_URL,
 }) {
-  const { replace, query } = useRouter();
+  const { replace, query, pathname } = useRouter();
   const { username, keyword, userSearchParam } = query;
   const [notFound, setNotFound] = useState();
   const [users, setUsers] = useState(
@@ -82,8 +81,6 @@ export default function Search({
   const [currentPage, setCurrentPage] = useState(1);
 
   const searchInputRef = useRef(null);
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
   const searchTerm = keyword || userSearchParam;
 
   useEffect(() => {
@@ -152,7 +149,7 @@ export default function Search({
   const handleSearchSubmit = async (e) => {
     e.preventDefault();
 
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams({ query: searchTerm });
 
     function removeComma(value) {
       return value.replace(/,(\s*),/g, ",").replace(/^,/, "");
@@ -162,15 +159,15 @@ export default function Search({
     );
 
     if (!searchInputVal) {
-      params.delete("userSearchParam");
+      params.delete("query");
     } else {
-      params.set("userSearchParam", searchInputVal);
+      params.set("query", searchInputVal);
     }
 
     replace(
       {
         pathname,
-        query: { userSearchParam: params.get("userSearchParam") },
+        query: { userSearchParam: params.get("query") },
       },
       undefined,
       { shallow: true },
@@ -178,18 +175,18 @@ export default function Search({
   };
 
   const handleSearchTag = (tagName) => {
-    const params = new URLSearchParams(searchParams);
+    const params = new URLSearchParams({ query: searchTerm });
     if (!userSearchParam) {
-      params.set("userSearchParam", tagName);
+      params.set("query", tagName);
     }
 
     if (userSearchParam) {
       if (searchTagNameInInput(userSearchParam, tagName)) {
         const terms = userSearchParam.split(",");
         const filteredTerms = terms.filter((item) => item.trim() !== tagName);
-        params.set("userSearchParam", filteredTerms);
+        params.set("query", filteredTerms);
       } else {
-        params.append("userSearchParam", tagName);
+        params.append("query", tagName);
       }
     }
 
@@ -197,7 +194,7 @@ export default function Search({
       {
         pathname,
         query: {
-          userSearchParam: params.getAll("userSearchParam").join(", "),
+          userSearchParam: params.getAll("query").join(", "),
         },
       },
       undefined,
