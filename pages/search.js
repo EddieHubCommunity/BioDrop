@@ -157,14 +157,14 @@ export default function Search({
     function removeComma(value) {
       return value.replace(/,(\s*),/g, ",").replace(/^,/, "");
     }
-    const searchTerm = removeComma(
+    const searchInputVal = removeComma(
       cleanSearchInput(searchInputRef.current.value),
     );
 
-    if (!searchTerm) {
+    if (!searchInputVal) {
       params.delete("userSearchParam");
     } else {
-      params.set("userSearchParam", searchTerm);
+      params.set("userSearchParam", searchInputVal);
     }
 
     replace(
