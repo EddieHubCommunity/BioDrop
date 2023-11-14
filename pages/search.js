@@ -109,7 +109,7 @@ export default function Search({
   }, []);
 
   useEffect(() => {
-    if (!keyword && !userSearchParam) {
+    if (!searchTerm) {
       replace(
         {
           pathname,
@@ -141,10 +141,10 @@ export default function Search({
       }
     }
 
-    if (username || keyword || userSearchParam) {
-      fetchUsers(username || keyword || userSearchParam);
+    if (username || searchTerm) {
+      fetchUsers(username || searchTerm);
     }
-  }, [username, keyword, userSearchParam]);
+  }, [username, searchTerm]);
 
   const handleSearchSubmit = async (e) => {
     e.preventDefault();
