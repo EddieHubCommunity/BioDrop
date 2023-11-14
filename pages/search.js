@@ -18,7 +18,7 @@ import {
 import { PROJECT_NAME } from "@constants/index";
 
 async function fetchUsersByKeyword(keyword) {
-  console.log(keyword)
+ 
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
       slug: keyword,
