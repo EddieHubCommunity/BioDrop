@@ -1,0 +1,20 @@
+{
+  "name": "Mazeed Khan",
+  "bio": "Open Source DevRel | Frontend Developer | **GitHub** Star",
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://shaik.mb666.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/shaik.mb666",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+]
+
+}
