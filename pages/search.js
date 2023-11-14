@@ -18,6 +18,7 @@ import {
 import { PROJECT_NAME } from "@constants/index";
 
 async function fetchUsersByKeyword(keyword) {
+  console.log(keyword)
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
       slug: keyword,
@@ -75,6 +76,7 @@ export default function Search({
   const router = useRouter();
   const { username, keyword, userSearchParam } = router.query;
   const [notFound, setNotFound] = useState();
+  const [loading, setLoading] = useState(false);
   const [users, setUsers] = useState(keyword ? filteredUsers : recentlyUpdatedUsers);
   const [inputValue, setInputValue] = useState(
     username || keyword || userSearchParam || "",
@@ -117,27 +119,8 @@ export default function Search({
     if (keyword && inputValue === keyword) {
       return;
     }
-
-    async function fetchUsers(value) {
-      try {
-        const res = await fetch(
-          `${BASE_URL}/api/search?${new URLSearchParams({
-            slug: value,
-          }).toString()}`,
-        );
-        const data = await res.json();
-        if (data.error) {
-          throw new Error(`${value} not found`);
-        }
-
-        setNotFound();
-        setUsers(data.users.sort(() => Math.random() - 0.5));
-        setCurrentPage(1);
-      } catch (err) {
-        setNotFound(err.message);
-        setUsers([]);
-      }
-    }
+    
+    setLoading(true);
 
     const timer = setTimeout(() => {
       router.replace(
@@ -150,10 +133,36 @@ export default function Search({
       );
       fetchUsers(inputValue);
     }, 500);
-
-    return () => clearTimeout(timer);
+    console.log(inputValue);
+    return () => {clearTimeout(timer)
+      
+    };
+    
   }, [inputValue]);
+  async function fetchUsers(value) {
+   
+    try {
+      setLoading(true);
+      const res = await fetch(
+        `${BASE_URL}/api/search?${new URLSearchParams({
+          slug: value,
+        }).toString()}`,
+      );
+      const data = await res.json();
+      if (data.error) {
+        throw new Error(`${value} not found`);
+      }
 
+      setNotFound();
+      setUsers(data.users.sort(() => Math.random() - 0.5));
+      setCurrentPage(1);
+    } catch (err) {
+      setNotFound(err.message);
+      setUsers([]);
+    }finally {
+      setLoading(false);
+    }
+  }
   useEffect(() => {
     const onKeyDownHandler = (e) => {
       if ((e.ctrlKey || e.metaKey) && e.key === "k") {
@@ -194,6 +203,7 @@ export default function Search({
   const indexOfLastUser = currentPage * usersPerPage;
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
   const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
+console.log(users,visibleUsers,inputValue)
 
   const paginate = useCallback((pageNumber) => {
     setCurrentPage(pageNumber);
@@ -244,23 +254,34 @@ export default function Search({
         {notFound && <Alert type="error" message={notFound} />}
         <ul
           role="list"
-          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 "
         >
-          {users.length < usersPerPage &&
+          {visibleUsers.length < usersPerPage && inputValue=="" ?
             users.map((user) => (
               <li key={user.username}>
                 <UserHorizontal profile={user} input={inputValue} />
               </li>
-            ))}
-
-          {users.length > usersPerPage &&
+            )):users.length > usersPerPage  &&
             visibleUsers.map((user) => (
               <li key={user.username}>
                 <UserHorizontal profile={user} input={inputValue} />
               </li>
-            ))}
+            ))
+          
+          }
+
+
         </ul>
 
+        {
+              loading &&(
+                <div className="flex items-center justify-center mt-8 w-[97%]">
+              
+                <div class=" animate-spin rounded-full border-opacity-25 h-10 w-10 border-4
+                 border-t-blue-500 " />
+              </div>
+              )
+            }
         {users.length > usersPerPage && (
           <Pagination
             currentPage={currentPage}
