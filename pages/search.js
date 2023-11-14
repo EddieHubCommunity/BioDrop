@@ -203,7 +203,7 @@ export default function Search({
   const indexOfLastUser = currentPage * usersPerPage;
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
   const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
-console.log(users,visibleUsers,inputValue)
+
 
   const paginate = useCallback((pageNumber) => {
     setCurrentPage(pageNumber);
