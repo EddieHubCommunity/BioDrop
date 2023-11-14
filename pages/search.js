@@ -84,6 +84,7 @@ export default function Search({
   const searchInputRef = useRef(null);
   const pathname = usePathname();
   const searchParams = useSearchParams();
+  const searchTerm = keyword || userSearchParam;
 
   useEffect(() => {
     if (username) {
@@ -111,7 +112,7 @@ export default function Search({
   }, []);
 
   useEffect(() => {
-    if (!userSearchParam) {
+    if (!keyword && !userSearchParam) {
       replace(
         {
           pathname,
@@ -233,8 +234,7 @@ export default function Search({
                   name={tag.name}
                   total={tag.total}
                   selected={
-                    userSearchParam &&
-                    searchTagNameInInput(userSearchParam, tag.name)
+                    searchTerm && searchTagNameInInput(searchTerm, tag.name)
                   }
                   onClick={() => handleSearchTag(tag.name)}
                 />
@@ -252,12 +252,12 @@ export default function Search({
               ref={searchInputRef}
               placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
               name="keyword"
-              defaultValue={userSearchParam}
+              defaultValue={searchTerm}
             />
           </form>
         </Badge>
 
-        {!userSearchParam && (
+        {!searchTerm && (
           <h2 className="mt-10 mb-4 text-2xl font-bold">
             Recently updated profiles
           </h2>
@@ -271,14 +271,14 @@ export default function Search({
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} input={userSearchParam} />
+                <UserHorizontal profile={user} input={searchTerm} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} input={userSearchParam} />
+                <UserHorizontal profile={user} input={searchTerm} />
               </li>
             ))}
         </ul>
