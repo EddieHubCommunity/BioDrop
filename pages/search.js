@@ -16,6 +16,7 @@ import {
   searchTagNameInInput,
 } from "@services/utils/search/tags";
 import { PROJECT_NAME } from "@constants/index";
+import Button from "@components/Button";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -251,6 +252,9 @@ export default function Search({
               name="keyword"
               defaultValue={searchTerm}
             />
+            <Button type="submit" className="mb-4">
+              Search
+            </Button>
           </form>
         </Badge>
 
