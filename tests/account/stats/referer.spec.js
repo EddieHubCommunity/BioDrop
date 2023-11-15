@@ -6,7 +6,7 @@ const premiumUser = {
   name: "Automated Test Premium User",
   email: "test-profile-user-6@test.com",
   username: "_test-profile-user-6",
-  type: "premium",
+  accountType: "premium",
 };
 
 test("Guest user cannot access premium referers stats", async ({ browser }) => {
