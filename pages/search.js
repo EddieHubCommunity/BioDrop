@@ -18,7 +18,6 @@ import {
 import { PROJECT_NAME } from "@constants/index";
 
 async function fetchUsersByKeyword(keyword) {
- 
   const res = await fetch(
     `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
       slug: keyword,
@@ -77,7 +76,9 @@ export default function Search({
   const { username, keyword, userSearchParam } = router.query;
   const [notFound, setNotFound] = useState();
   const [loading, setLoading] = useState(false);
-  const [users, setUsers] = useState(keyword ? filteredUsers : recentlyUpdatedUsers);
+  const [users, setUsers] = useState(
+    keyword ? filteredUsers : recentlyUpdatedUsers,
+  );
   const [inputValue, setInputValue] = useState(
     username || keyword || userSearchParam || "",
   );
@@ -119,7 +120,7 @@ export default function Search({
     if (keyword && inputValue === keyword) {
       return;
     }
-    
+
     setLoading(true);
 
     const timer = setTimeout(() => {
@@ -134,13 +135,11 @@ export default function Search({
       fetchUsers(inputValue);
     }, 500);
     console.log(inputValue);
-    return () => {clearTimeout(timer)
-      
+    return () => {
+      clearTimeout(timer);
     };
-    
   }, [inputValue]);
   async function fetchUsers(value) {
-   
     try {
       setLoading(true);
       const res = await fetch(
@@ -159,7 +158,7 @@ export default function Search({
     } catch (err) {
       setNotFound(err.message);
       setUsers([]);
-    }finally {
+    } finally {
       setLoading(false);
     }
   }
@@ -203,7 +202,6 @@ export default function Search({
   const indexOfLastUser = currentPage * usersPerPage;
   const indexOfFirstUser = indexOfLastUser - usersPerPage;
   const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
-
 
   const paginate = useCallback((pageNumber) => {
     setCurrentPage(pageNumber);
@@ -249,39 +247,39 @@ export default function Search({
           />
         </Badge>
 
-       {!inputValue && <h2 className="mt-10 mb-4 text-2xl font-bold">Recently updated profiles</h2>}
+        {!inputValue && (
+          <h2 className="mt-10 mb-4 text-2xl font-bold">
+            Recently updated profiles
+          </h2>
+        )}
 
         {notFound && <Alert type="error" message={notFound} />}
         <ul
           role="list"
           className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 "
         >
-          {visibleUsers.length < usersPerPage && inputValue=="" ?
-            users.map((user) => (
-              <li key={user.username}>
-                <UserHorizontal profile={user} input={inputValue} />
-              </li>
-            )):users.length > usersPerPage  &&
-            visibleUsers.map((user) => (
-              <li key={user.username}>
-                <UserHorizontal profile={user} input={inputValue} />
-              </li>
-            ))
-          
-          }
-
-
+          {visibleUsers.length < usersPerPage && inputValue == ""
+            ? users.map((user) => (
+                <li key={user.username}>
+                  <UserHorizontal profile={user} input={inputValue} />
+                </li>
+              ))
+            : users.length > usersPerPage &&
+              visibleUsers.map((user) => (
+                <li key={user.username}>
+                  <UserHorizontal profile={user} input={inputValue} />
+                </li>
+              ))}
         </ul>
 
-        {
-              loading &&(
-                <div className="flex items-center justify-center mt-8 w-[97%]">
-              
-                <div class=" animate-spin rounded-full border-opacity-25 h-10 w-10 border-4
-                 border-t-blue-500 " />
-              </div>
-              )
-            }
+        {loading && (
+          <div className="flex items-center justify-center mt-8 w-[97%]">
+            <div
+              class=" animate-spin rounded-full border-opacity-25 h-10 w-10 border-4
+                 border-t-blue-500 "
+            />
+          </div>
+        )}
         {users.length > usersPerPage && (
           <Pagination
             currentPage={currentPage}
