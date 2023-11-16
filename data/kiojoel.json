@@ -1,0 +1,19 @@
+{
+  "name": "Akinsanya Joel",
+  "bio": "Web Developer | Writer | Open Source"
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: Web Development",
+      "url": "https://www.biodrop.io/kiojoel",
+      "icon": "FaLink"
+    }
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Akinsanya__Joel",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+  ]
+}
