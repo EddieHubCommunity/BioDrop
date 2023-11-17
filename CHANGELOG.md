@@ -1,3 +1,12 @@
+## [2.87.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.4...v2.87.5) (2023-11-17)
+
+
+### Bug Fixes
+
+* tags with enter [#9103](https://github.com/EddieHubCommunity/BioDrop/issues/9103)  ([#9508](https://github.com/EddieHubCommunity/BioDrop/issues/9508)) ([978bc1a](https://github.com/EddieHubCommunity/BioDrop/commit/978bc1a29ad46862066141971615f246d59b06a1)), closes [#9459](https://github.com/EddieHubCommunity/BioDrop/issues/9459) [#9459](https://github.com/EddieHubCommunity/BioDrop/issues/9459)
+
+
+
 ## [2.87.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.3...v2.87.4) (2023-11-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * reduce bg-size on :after to fix safari bug ([#9770](https://github.com/EddieHubCommunity/BioDrop/issues/9770)) ([db657aa](https://github.com/EddieHubCommunity/BioDrop/commit/db657aa757b9ed99a8da82d371fc196d8f25557d))
-
-
-
-# [2.87.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.86.1...v2.87.0) (2023-11-12)
-
-
-### Features
-
-* reload pwa ([#9773](https://github.com/EddieHubCommunity/BioDrop/issues/9773)) ([a6c841b](https://github.com/EddieHubCommunity/BioDrop/commit/a6c841b7c47f64368a17987c0713b89f66184e10))
 
 
 
