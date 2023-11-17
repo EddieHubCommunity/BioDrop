@@ -1,19 +1,19 @@
-import { useRef } from "react";
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
 
-export default function TagsInput({ tags, onTagAdd, onTagRemove }) {
-  const inputRef = useRef(null);
+export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
+
 
   //key code
-  const { comma, backspace } = {
+  const { comma, backspace, enter } = {
     comma: 188,
     backspace: 8,
+    enter: 13,
   };
 
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
-    if (e.keyCode === comma || inputValue.endsWith(",")) {
+    if (e.keyCode === comma || inputValue.endsWith(",") || e.keyCode === enter) {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
         return;
