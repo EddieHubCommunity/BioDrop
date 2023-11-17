@@ -1,3 +1,12 @@
+# [2.88.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.5...v2.88.0) (2023-11-17)
+
+
+### Features
+
+* issue bug template steps to reproduce ([#9789](https://github.com/EddieHubCommunity/BioDrop/issues/9789)) ([5ac57ba](https://github.com/EddieHubCommunity/BioDrop/commit/5ac57bad5a685a5e688d972c95caa8c9e1a173dd))
+
+
+
 ## [2.87.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.4...v2.87.5) (2023-11-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * login page logo ([#9777](https://github.com/EddieHubCommunity/BioDrop/issues/9777)) ([f3b4cc1](https://github.com/EddieHubCommunity/BioDrop/commit/f3b4cc17739dcefb5c82a2bf7025edf846fe54fc))
-
-
-
-## [2.87.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.0...v2.87.1) (2023-11-12)
-
-
-### Bug Fixes
-
-* reduce bg-size on :after to fix safari bug ([#9770](https://github.com/EddieHubCommunity/BioDrop/issues/9770)) ([db657aa](https://github.com/EddieHubCommunity/BioDrop/commit/db657aa757b9ed99a8da82d371fc196d8f25557d))
 
 
 
