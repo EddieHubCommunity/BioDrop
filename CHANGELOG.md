@@ -1,3 +1,12 @@
+# [2.89.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.88.0...v2.89.0) (2023-11-17)
+
+
+### Features
+
+* account nav button use profile picture ([#9703](https://github.com/EddieHubCommunity/BioDrop/issues/9703)) ([2d15ac3](https://github.com/EddieHubCommunity/BioDrop/commit/2d15ac38b42660e4a28e5421592b2b6f290f4058))
+
+
+
 # [2.88.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.5...v2.88.0) (2023-11-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * disable pwa due to caching errors ([#9781](https://github.com/EddieHubCommunity/BioDrop/issues/9781)) ([f23dc7c](https://github.com/EddieHubCommunity/BioDrop/commit/f23dc7cd68a6c2b93282980edbf5da5970654860))
-
-
-
-## [2.87.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.1...v2.87.2) (2023-11-12)
-
-
-### Bug Fixes
-
-* login page logo ([#9777](https://github.com/EddieHubCommunity/BioDrop/issues/9777)) ([f3b4cc1](https://github.com/EddieHubCommunity/BioDrop/commit/f3b4cc17739dcefb5c82a2bf7025edf846fe54fc))
 
 
 
