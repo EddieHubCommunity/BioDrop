@@ -1,3 +1,12 @@
+## [2.89.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.0...v2.89.1) (2023-11-17)
+
+
+### Bug Fixes
+
+* docs nav refresh when using side nav [#9486](https://github.com/EddieHubCommunity/BioDrop/issues/9486) ([#9513](https://github.com/EddieHubCommunity/BioDrop/issues/9513)) ([81dde4e](https://github.com/EddieHubCommunity/BioDrop/commit/81dde4e27d4d5bbd06e07c5a69f35dc164f2c7be))
+
+
+
 # [2.89.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.88.0...v2.89.0) (2023-11-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * pwa fix cache ([#9784](https://github.com/EddieHubCommunity/BioDrop/issues/9784)) ([0ee0fad](https://github.com/EddieHubCommunity/BioDrop/commit/0ee0fad958d76a87a751fe3fc1e189ff01dca032))
-
-
-
-## [2.87.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.2...v2.87.3) (2023-11-12)
-
-
-### Bug Fixes
-
-* disable pwa due to caching errors ([#9781](https://github.com/EddieHubCommunity/BioDrop/issues/9781)) ([f23dc7c](https://github.com/EddieHubCommunity/BioDrop/commit/f23dc7cd68a6c2b93282980edbf5da5970654860))
 
 
 
