@@ -258,7 +258,7 @@ export default function Search({
           role="list"
           className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
         >
-          {visibleUsers.length < usersPerPage && inputValue == ""
+          {visibleUsers.length < usersPerPage && inputValue === ""
             ? users.map((user) => (
                 <li key={user.username}>
                   <UserHorizontal profile={user} input={inputValue} />
