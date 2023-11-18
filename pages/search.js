@@ -256,7 +256,7 @@ export default function Search({
         {notFound && <Alert type="error" message={notFound} />}
         <ul
           role="list"
-          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 "
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
         >
           {visibleUsers.length < usersPerPage && inputValue == ""
             ? users.map((user) => (
