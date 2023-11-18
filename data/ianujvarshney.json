@@ -1,0 +1,55 @@
+{
+    "name": "Anuj Varshney",
+    "bio": "Diving into React.js Mastery with Next.js ✨ | Simultaneously Giving Back to Open Source Projects | Setting Out on a Node.js Learning Adventure 🌿 🚀",
+    "tags": [
+        "javascript",
+        "React",
+        "Next",
+        "Node",
+        "Express",
+        "Bootstrap",
+        "Tailwind",
+        "MongoDB",
+        "Mongoose",
+        "Firebase",
+        "Git",
+        "Github",
+        "Open source"
+    ],
+    "socials": [
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/ianujvarshney"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/ianujvarshney"
+        }
+    ],
+    "links": [
+        {
+            "name": "Follow me on GitHub",
+            "url": "https://github.com/ianujvarshney",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/ianujvarshney",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "LinkedIn: Let's connect",
+            "url": "https://www.linkedin.com/in/ianujvarshney/",
+            "icon": "FaLinkedin"
+        }
+    ],
+    "milestones": [
+        {
+            "title": "Started Open Source project Biodrop",
+            "date": "2023",
+            "icon": "FaGithub",
+            "color": "green",
+            "description": "Connecting your audience with a single link: this project started on a YouTube livestream"
+        }
+    ]
+}
