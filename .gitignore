@@ -41,3 +41,7 @@ test-results/
 
 # Sentry Auth Token
 .sentryclirc
+
+# PWA
+public/sw.js*
+public/workbox-*.js*

@@ -1,45 +1,45 @@
-## [2.85.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.3...v2.85.4) (2023-11-10)
+## [2.89.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.1...v2.89.2) (2023-11-18)
 
 
 ### Bug Fixes
 
-* markdown mdx dependencies by major version ([#9753](https://github.com/EddieHubCommunity/BioDrop/issues/9753)) ([697e547](https://github.com/EddieHubCommunity/BioDrop/commit/697e547e80df8721e3c24d116186d06d84795c25))
+* homepage video ([#9799](https://github.com/EddieHubCommunity/BioDrop/issues/9799)) ([c029503](https://github.com/EddieHubCommunity/BioDrop/commit/c02950376893a8c370be914fb40390b38634416f))
 
 
 
-## [2.85.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.2...v2.85.3) (2023-11-10)
-
-
-### Bug Fixes
-
-* profile settings domain ([#9758](https://github.com/EddieHubCommunity/BioDrop/issues/9758)) ([17d43e6](https://github.com/EddieHubCommunity/BioDrop/commit/17d43e6fb0095d96599e47f99e3a82a7b1840e9f))
-
-
-
-## [2.85.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.1...v2.85.2) (2023-11-08)
+## [2.89.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.0...v2.89.1) (2023-11-17)
 
 
 ### Bug Fixes
 
-* check custom domain first ([#9747](https://github.com/EddieHubCommunity/BioDrop/issues/9747)) ([2ce09be](https://github.com/EddieHubCommunity/BioDrop/commit/2ce09be20aca037b40549719a76cdc5d612574e7))
+* docs nav refresh when using side nav [#9486](https://github.com/EddieHubCommunity/BioDrop/issues/9486) ([#9513](https://github.com/EddieHubCommunity/BioDrop/issues/9513)) ([81dde4e](https://github.com/EddieHubCommunity/BioDrop/commit/81dde4e27d4d5bbd06e07c5a69f35dc164f2c7be))
 
 
 
-## [2.85.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.85.0...v2.85.1) (2023-11-08)
-
-
-### Bug Fixes
-
-* heading strucuture fails WCAG 2.2AA ([#9631](https://github.com/EddieHubCommunity/BioDrop/issues/9631)) ([#9719](https://github.com/EddieHubCommunity/BioDrop/issues/9719)) ([ba6ea4f](https://github.com/EddieHubCommunity/BioDrop/commit/ba6ea4f0b2676ef72eb1abb907f55a6d3d5f750d)), closes [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581) [#9581](https://github.com/EddieHubCommunity/BioDrop/issues/9581)
-
-
-
-# [2.85.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.84.5...v2.85.0) (2023-11-08)
+# [2.89.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.88.0...v2.89.0) (2023-11-17)
 
 
 ### Features
 
-* custom domain ([#9436](https://github.com/EddieHubCommunity/BioDrop/issues/9436)) ([5418e2b](https://github.com/EddieHubCommunity/BioDrop/commit/5418e2ba9489d8d3143d4601a6535f511fd36546))
+* account nav button use profile picture ([#9703](https://github.com/EddieHubCommunity/BioDrop/issues/9703)) ([2d15ac3](https://github.com/EddieHubCommunity/BioDrop/commit/2d15ac38b42660e4a28e5421592b2b6f290f4058))
+
+
+
+# [2.88.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.5...v2.88.0) (2023-11-17)
+
+
+### Features
+
+* issue bug template steps to reproduce ([#9789](https://github.com/EddieHubCommunity/BioDrop/issues/9789)) ([5ac57ba](https://github.com/EddieHubCommunity/BioDrop/commit/5ac57bad5a685a5e688d972c95caa8c9e1a173dd))
+
+
+
+## [2.87.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.4...v2.87.5) (2023-11-17)
+
+
+### Bug Fixes
+
+* tags with enter [#9103](https://github.com/EddieHubCommunity/BioDrop/issues/9103)  ([#9508](https://github.com/EddieHubCommunity/BioDrop/issues/9508)) ([978bc1a](https://github.com/EddieHubCommunity/BioDrop/commit/978bc1a29ad46862066141971615f246d59b06a1)), closes [#9459](https://github.com/EddieHubCommunity/BioDrop/issues/9459) [#9459](https://github.com/EddieHubCommunity/BioDrop/issues/9459)
 
 
 

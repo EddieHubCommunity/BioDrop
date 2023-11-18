@@ -1,7 +1,9 @@
+import Image from "next/image";
 import { IconContext } from "react-icons";
-import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
 import va from "@vercel/analytics";
+import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
+
 import config from "@config/app.json";
 import { clientEnv } from "@config/schemas/clientSchema";
 import { getTodayStats } from "./api/statistics/today";
@@ -19,7 +21,6 @@ import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
-import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -233,7 +234,7 @@ export default function Home({
               </div>
             </div>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:mx-24">
-              <Button href="/docs" primary={true}>
+              <Button href="/docs/quickstart-forms" primary={true}>
                 Get started
               </Button>
               <Button href="/#section-features">Explore features</Button>
@@ -286,18 +287,12 @@ export default function Home({
                 </h3>
               </div>
             </div>
-            <div className="aspect-w-16 aspect-h-9">
-              <div
-                className="kartra_video_containeroxibVr4Q0NlF js_kartra_trackable_object"
-                data-kt-type="video"
-                data-kt-value="oxibVr4Q0NlF"
-                data-kt-owner="nkmvj7Xr"
-              ></div>
-              <Script
-                src="https://app.kartra.com/video/oxibVr4Q0NlF"
-                strategy="lazyOnload"
-              />
-            </div>
+            <Image
+              src="https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png"
+              alt="BioDrop screenshot of statistics"
+              width="600"
+              height="300"
+            />
           </div>
         </div>
       </div>
@@ -305,7 +300,7 @@ export default function Home({
       <CallToAction
         title="Ready to dive in?"
         description="Add your free Profile today!"
-        button1Link="/docs"
+        button1Link="/docs/quickstart-forms"
         button1Text="Get started"
         button2Link="/eddiejaoude"
         button2Text="Example"
