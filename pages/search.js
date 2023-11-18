@@ -82,7 +82,7 @@ export default function Search({
   const [currentPage, setCurrentPage] = useState(1);
 
   const searchInputRef = useRef(null);
-  const searchTerm = keyword || userSearchParam;
+  const searchTerm = username || keyword || userSearchParam;
 
   useEffect(() => {
     if (username) {
@@ -142,10 +142,10 @@ export default function Search({
       }
     }
 
-    if (username || searchTerm) {
-      fetchUsers(username || searchTerm);
+    if (searchTerm) {
+      fetchUsers(searchTerm);
     }
-  }, [username, searchTerm]);
+  }, [searchTerm]);
 
   const handleSearchSubmit = async (e) => {
     e.preventDefault();
