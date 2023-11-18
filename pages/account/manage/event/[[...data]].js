@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -57,6 +57,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState("");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
   const [tags, setTags] = useState(event.tags || []);
+  const tagInputRef = useRef(null);
 
   useEffect(() => {
     if (!isSpeaking) {
@@ -105,6 +106,9 @@ export default function ManageEvent({ BASE_URL, event }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
+    if (document.activeElement === tagInputRef.current) {
+      return;
+    }
     let alert = "created";
     let putEvent = {
       name,
@@ -336,6 +340,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onTagAdd={handleTagAdd}
                       onTagRemove={handleTagRemove}
                       tags={tags}
+                      inputRef={tagInputRef}
                     />
                     <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                       Separate tags with commas.
