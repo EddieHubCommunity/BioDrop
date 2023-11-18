@@ -134,7 +134,7 @@ export default function Search({
       );
       fetchUsers(inputValue);
     }, 500);
-    console.log(inputValue);
+    
     return () => {
       clearTimeout(timer);
     };
