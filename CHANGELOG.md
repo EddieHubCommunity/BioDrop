@@ -1,3 +1,12 @@
+## [2.89.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.1...v2.89.2) (2023-11-18)
+
+
+### Bug Fixes
+
+* homepage video ([#9799](https://github.com/EddieHubCommunity/BioDrop/issues/9799)) ([c029503](https://github.com/EddieHubCommunity/BioDrop/commit/c02950376893a8c370be914fb40390b38634416f))
+
+
+
 ## [2.89.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.0...v2.89.1) (2023-11-17)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * tags with enter [#9103](https://github.com/EddieHubCommunity/BioDrop/issues/9103)  ([#9508](https://github.com/EddieHubCommunity/BioDrop/issues/9508)) ([978bc1a](https://github.com/EddieHubCommunity/BioDrop/commit/978bc1a29ad46862066141971615f246d59b06a1)), closes [#9459](https://github.com/EddieHubCommunity/BioDrop/issues/9459) [#9459](https://github.com/EddieHubCommunity/BioDrop/issues/9459)
-
-
-
-## [2.87.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.3...v2.87.4) (2023-11-13)
-
-
-### Bug Fixes
-
-* pwa fix cache ([#9784](https://github.com/EddieHubCommunity/BioDrop/issues/9784)) ([0ee0fad](https://github.com/EddieHubCommunity/BioDrop/commit/0ee0fad958d76a87a751fe3fc1e189ff01dca032))
 
 
 
