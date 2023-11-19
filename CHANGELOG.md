@@ -1,3 +1,12 @@
+## [2.89.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.2...v2.89.3) (2023-11-19)
+
+
+### Bug Fixes
+
+* resolve mobile keyboard fluctuation during search ([#9248](https://github.com/EddieHubCommunity/BioDrop/issues/9248)) ([999602b](https://github.com/EddieHubCommunity/BioDrop/commit/999602bae3a2b267a68fd2d8e55282bbfe979501))
+
+
+
 ## [2.89.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.1...v2.89.2) (2023-11-18)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * issue bug template steps to reproduce ([#9789](https://github.com/EddieHubCommunity/BioDrop/issues/9789)) ([5ac57ba](https://github.com/EddieHubCommunity/BioDrop/commit/5ac57bad5a685a5e688d972c95caa8c9e1a173dd))
-
-
-
-## [2.87.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.4...v2.87.5) (2023-11-17)
-
-
-### Bug Fixes
-
-* tags with enter [#9103](https://github.com/EddieHubCommunity/BioDrop/issues/9103)  ([#9508](https://github.com/EddieHubCommunity/BioDrop/issues/9508)) ([978bc1a](https://github.com/EddieHubCommunity/BioDrop/commit/978bc1a29ad46862066141971615f246d59b06a1)), closes [#9459](https://github.com/EddieHubCommunity/BioDrop/issues/9459) [#9459](https://github.com/EddieHubCommunity/BioDrop/issues/9459)
 
 
 
