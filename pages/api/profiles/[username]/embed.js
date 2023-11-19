@@ -36,7 +36,6 @@ export default async function handler(req, res) {
         if (code === 'emoji') {
           return (`data:image/svg+xml;base64,${btoa(await loadEmoji("twemoji", getIconCode(segment)))}`)
         }
-        return;
       }
     },
   );
