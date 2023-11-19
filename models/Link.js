@@ -20,7 +20,7 @@ const LinkSchema = new mongoose.Schema(
     name: {
       type: String,
       required: true,
-      min: 2,
+      min: 1,
       max: 128,
     },
     url: {

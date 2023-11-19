@@ -213,7 +213,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       onChange={(e) => setName(e.target.value)}
                       value={name}
                       required
-                      minLength="2"
+                      minLength="1"
                       maxLength="128"
                     />
                     <p className="text-sm text-primary-low-medium">
