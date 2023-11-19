@@ -1,3 +1,12 @@
+## [2.89.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.3...v2.89.4) (2023-11-19)
+
+
+### Bug Fixes
+
+* pricing premium text ([#9806](https://github.com/EddieHubCommunity/BioDrop/issues/9806)) ([bd90bc7](https://github.com/EddieHubCommunity/BioDrop/commit/bd90bc7e50e7795c2e7dfd3f3b06298b64f0aadb))
+
+
+
 ## [2.89.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.2...v2.89.3) (2023-11-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * account nav button use profile picture ([#9703](https://github.com/EddieHubCommunity/BioDrop/issues/9703)) ([2d15ac3](https://github.com/EddieHubCommunity/BioDrop/commit/2d15ac38b42660e4a28e5421592b2b6f290f4058))
-
-
-
-# [2.88.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.5...v2.88.0) (2023-11-17)
-
-
-### Features
-
-* issue bug template steps to reproduce ([#9789](https://github.com/EddieHubCommunity/BioDrop/issues/9789)) ([5ac57ba](https://github.com/EddieHubCommunity/BioDrop/commit/5ac57bad5a685a5e688d972c95caa8c9e1a173dd))
 
 
 
