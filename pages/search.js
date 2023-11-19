@@ -16,6 +16,7 @@ import {
   searchTagNameInInput,
 } from "@services/utils/search/tags";
 import { PROJECT_NAME } from "@constants/index";
+import Button from "@components/Button";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -72,16 +73,16 @@ export default function Search({
   data: { tags, recentlyUpdatedUsers, filteredUsers },
   BASE_URL,
 }) {
-  const router = useRouter();
-  const { username, keyword, userSearchParam } = router.query;
+  const { replace, query, pathname } = useRouter();
+  const { username, keyword, userSearchParam } = query;
   const [notFound, setNotFound] = useState();
-  const [users, setUsers] = useState(keyword ? filteredUsers : recentlyUpdatedUsers);
-  const [inputValue, setInputValue] = useState(
-    username || keyword || userSearchParam || "",
+  const [users, setUsers] = useState(
+    keyword ? filteredUsers : recentlyUpdatedUsers,
   );
   const [currentPage, setCurrentPage] = useState(1);
 
   const searchInputRef = useRef(null);
+  const searchTerm = username || keyword || userSearchParam;
 
   useEffect(() => {
     if (username) {
@@ -95,26 +96,28 @@ export default function Search({
   }, []);
 
   useEffect(() => {
-    if (!inputValue) {
-      //Setting the users as null when the input field is empty
-      setUsers(recentlyUpdatedUsers);
-      //Removing the not found field when the input field is empty
-      setNotFound();
-      router.replace(
+    const onKeyDownHandler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDownHandler);
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDownHandler);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!searchTerm) {
+      replace(
         {
-          pathname: "/search",
+          pathname,
         },
         undefined,
         { shallow: true },
       );
-      return;
-    }
-
-    // checks if there is no keyword between 2 commas and removes the second comma and also checks if the input starts with comma and removes it.
-    setInputValue(inputValue.replace(/,(\s*),/g, ",").replace(/^,/, ""));
-
-    // If the inputValue has not changed and is the same as the keyword passed from the server
-    if (keyword && inputValue === keyword) {
       return;
     }
 
@@ -139,55 +142,65 @@ export default function Search({
       }
     }
 
-    const timer = setTimeout(() => {
-      router.replace(
-        {
-          pathname: "/search",
-          query: { userSearchParam: inputValue },
+    if (searchTerm) {
+      fetchUsers(searchTerm);
+    }
+  }, [searchTerm]);
+
+  const handleSearchSubmit = async (e) => {
+    e.preventDefault();
+
+    const params = new URLSearchParams({ query: searchTerm });
+
+    function removeComma(value) {
+      return value.replace(/,(\s*),/g, ",").replace(/^,/, "");
+    }
+    const searchInputVal = removeComma(
+      cleanSearchInput(searchInputRef.current.value),
+    );
+
+    if (!searchInputVal) {
+      params.delete("query");
+    } else {
+      params.set("query", searchInputVal);
+    }
+
+    replace(
+      {
+        pathname,
+        query: { userSearchParam: params.get("query") },
+      },
+      undefined,
+      { shallow: true },
+    );
+  };
+
+  const handleSearchTag = (tagName) => {
+    const params = new URLSearchParams({ query: searchTerm });
+    if (!userSearchParam) {
+      params.set("query", tagName);
+    }
+
+    if (userSearchParam) {
+      if (searchTagNameInInput(userSearchParam, tagName)) {
+        const terms = userSearchParam.split(",");
+        const filteredTerms = terms.filter((item) => item.trim() !== tagName);
+        params.set("query", filteredTerms);
+      } else {
+        params.append("query", tagName);
+      }
+    }
+
+    replace(
+      {
+        pathname,
+        query: {
+          userSearchParam: params.getAll("query").join(", "),
         },
-        undefined,
-        { shallow: true },
-      );
-      fetchUsers(inputValue);
-    }, 500);
-
-    return () => clearTimeout(timer);
-  }, [inputValue]);
-
-  useEffect(() => {
-    const onKeyDownHandler = (e) => {
-      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
-        e.preventDefault();
-        searchInputRef.current?.focus();
-      }
-    };
-    document.addEventListener("keydown", onKeyDownHandler);
-
-    return () => {
-      document.removeEventListener("keydown", onKeyDownHandler);
-    };
-  }, []);
-
-  const search = (keyword) => {
-    const cleanedInput = cleanSearchInput(inputValue);
-
-    if (!cleanedInput.length) {
-      return setInputValue(keyword);
-    }
-
-    const items = cleanedInput.split(", ");
-
-    if (cleanedInput.length) {
-      if (searchTagNameInInput(inputValue, keyword)) {
-        return setInputValue(
-          items.filter((item) => item.trim() !== keyword).join(", "),
-        );
-      }
-
-      return setInputValue([...items, keyword].join(", "));
-    }
-
-    setInputValue(keyword);
+      },
+      undefined,
+      { shallow: true },
+    );
   };
 
   const usersPerPage = 21;
@@ -218,8 +231,10 @@ export default function Search({
                   key={tag.name}
                   name={tag.name}
                   total={tag.total}
-                  selected={searchTagNameInInput(inputValue, tag.name)}
-                  onClick={() => search(tag.name)}
+                  selected={
+                    searchTerm && searchTagNameInInput(searchTerm, tag.name)
+                  }
+                  onClick={() => handleSearchTag(tag.name)}
                 />
               ))}
         </div>
@@ -230,16 +245,24 @@ export default function Search({
           className="w-full"
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
-          <Input
-            ref={searchInputRef}
-            placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
-            name="keyword"
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-          />
+          <form onSubmit={handleSearchSubmit} className="w-full">
+            <Input
+              ref={searchInputRef}
+              placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
+              name="keyword"
+              defaultValue={searchTerm}
+            />
+            <Button type="submit" className="mb-4">
+              Search
+            </Button>
+          </form>
         </Badge>
 
-       {!inputValue && <h2 className="mt-10 mb-4 text-2xl font-bold">Recently updated profiles</h2>}
+        {!searchTerm && (
+          <h2 className="mt-10 mb-4 text-2xl font-bold">
+            Recently updated profiles
+          </h2>
+        )}
 
         {notFound && <Alert type="error" message={notFound} />}
         <ul
@@ -249,14 +272,14 @@ export default function Search({
           {users.length < usersPerPage &&
             users.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} input={inputValue} />
+                <UserHorizontal profile={user} input={searchTerm} />
               </li>
             ))}
 
           {users.length > usersPerPage &&
             visibleUsers.map((user) => (
               <li key={user.username}>
-                <UserHorizontal profile={user} input={inputValue} />
+                <UserHorizontal profile={user} input={searchTerm} />
               </li>
             ))}
         </ul>
