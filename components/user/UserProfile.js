@@ -168,24 +168,16 @@ function UserProfile({ BASE_URL, data }) {
                     <option value="html">HTML</option>
                   </select>
                   <div className="flex flex-auto">
-                    {embedFormat === "md" && (
-                      <ClipboardCopy>
-                        <div className="dark:text-gray-300 border p-3 rounded-r-md h-full">
-                          <p className="truncate absolute max-w-[80%]">
-                            {`[![${data.username} | BioDrop](${BASE_URL}/${data.username}?embed)](${BASE_URL}/${data.username})`}
-                          </p>
-                        </div>
-                      </ClipboardCopy>
-                    )}
-                    {embedFormat === "html" && (
-                      <ClipboardCopy>
-                        <div className="dark:text-gray-300 border p-3 rounded-r-md h-full">
-                          <p className="truncate absolute max-w-[80%]">
-                            {`<a href="${BASE_URL}/${data.username}"><img src="${BASE_URL}/${data.username}?embed" alt="${data.username} | BioDrop" /></a>`}
-                          </p>
-                        </div>
-                      </ClipboardCopy>
-                    )}
+<ClipboardCopy>
+  <div className="dark:text-gray-300 border p-3 rounded-r-md h-full">
+    <p className="truncate absolute max-w-[80%]">
+      {embedFormat === "md" 
+        ? `[![${data.username} | BioDrop](${BASE_URL}/${data.username}?embed)](${BASE_URL}/${data.username})`
+        : `<a href="${BASE_URL}/${data.username}"><img src="${BASE_URL}/${data.username}?embed" alt="${data.username} | BioDrop" /></a>`
+      }
+    </p>
+  </div>
+</ClipboardCopy>
                   </div>
                 </div> 
               </div>
