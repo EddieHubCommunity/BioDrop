@@ -84,7 +84,7 @@ export default function Premium({ user }) {
             return "Upgrade";
           }
           if (!user.isLoggedIn) {
-            return "Sign up";
+            return "Join Premium plan";
           }
         },
         action: () => {
