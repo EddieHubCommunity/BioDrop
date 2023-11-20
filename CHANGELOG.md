@@ -1,3 +1,12 @@
+## [2.89.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.4...v2.89.5) (2023-11-20)
+
+
+### Bug Fixes
+
+* reduce link name length to min 1 ([#9805](https://github.com/EddieHubCommunity/BioDrop/issues/9805)) ([53e906a](https://github.com/EddieHubCommunity/BioDrop/commit/53e906ae4df720c3cd0e3505fe9e3e1720c99a37))
+
+
+
 ## [2.89.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.3...v2.89.4) (2023-11-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * docs nav refresh when using side nav [#9486](https://github.com/EddieHubCommunity/BioDrop/issues/9486) ([#9513](https://github.com/EddieHubCommunity/BioDrop/issues/9513)) ([81dde4e](https://github.com/EddieHubCommunity/BioDrop/commit/81dde4e27d4d5bbd06e07c5a69f35dc164f2c7be))
-
-
-
-# [2.89.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.88.0...v2.89.0) (2023-11-17)
-
-
-### Features
-
-* account nav button use profile picture ([#9703](https://github.com/EddieHubCommunity/BioDrop/issues/9703)) ([2d15ac3](https://github.com/EddieHubCommunity/BioDrop/commit/2d15ac38b42660e4a28e5421592b2b6f290f4058))
 
 
 
