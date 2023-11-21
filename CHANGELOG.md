@@ -1,3 +1,12 @@
+## [2.89.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.5...v2.89.6) (2023-11-21)
+
+
+### Bug Fixes
+
+* profile sub domain ([#9811](https://github.com/EddieHubCommunity/BioDrop/issues/9811)) ([159e219](https://github.com/EddieHubCommunity/BioDrop/commit/159e21902bc7390c63a666db9d80fcb316210fd1))
+
+
+
 ## [2.89.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.4...v2.89.5) (2023-11-20)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * homepage video ([#9799](https://github.com/EddieHubCommunity/BioDrop/issues/9799)) ([c029503](https://github.com/EddieHubCommunity/BioDrop/commit/c02950376893a8c370be914fb40390b38634416f))
-
-
-
-## [2.89.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.0...v2.89.1) (2023-11-17)
-
-
-### Bug Fixes
-
-* docs nav refresh when using side nav [#9486](https://github.com/EddieHubCommunity/BioDrop/issues/9486) ([#9513](https://github.com/EddieHubCommunity/BioDrop/issues/9513)) ([81dde4e](https://github.com/EddieHubCommunity/BioDrop/commit/81dde4e27d4d5bbd06e07c5a69f35dc164f2c7be))
 
 
 
