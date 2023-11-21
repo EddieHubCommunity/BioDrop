@@ -46,7 +46,7 @@ export default function UserLink({
         animations[link.animation] !== animations.glow &&
           "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
         isEnabled && getLinkAnimation.get(animations[link.animation]),
-        "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow",
+        "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow px-8 md:px-10",
       )}
       style={{
         "--hover-color": colors[link.icon],
@@ -99,7 +99,7 @@ export default function UserLink({
   );
 
   return (
-    <div className="flex flex-row gap-8 w-full">
+    <div className="flex flex-row gap-8 w-full ">
       {manage ? edit(link) : item(link)}
     </div>
   );

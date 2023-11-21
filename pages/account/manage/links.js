@@ -128,27 +128,33 @@ export default function ManageLinks({ BASE_URL, username, links }) {
         </div>
 
         {!linkList.length && <Alert type="info" message="No Links found" />}
+        
+        <div className="mt-2">
 
-        <ReactSortable
-          list={linkList}
-          setList={setLinkList}
-          disabled={!reorder}
-          ghostClass="border-2"
-          chosenClass="border-dashed"
-          dragClass="border-red-500"
-        >
-          {linkList.length &&
-            linkList.map((link) => (
-              <UserLink
-                BASE_URL={BASE_URL}
-                key={link._id}
-                link={link}
-                username={username}
-                manage={true}
-                isEnabled={link.isEnabled}
-              />
-            ))}
-        </ReactSortable>
+
+          <ReactSortable
+            list={linkList}
+            setList={setLinkList}
+            disabled={!reorder}
+            ghostClass="border-2"
+            chosenClass="border-dashed"
+            dragClass="border-red-500"
+          >
+            {linkList.length &&
+              linkList.map((link) => (
+                <UserLink
+                  BASE_URL={BASE_URL}
+                  key={link._id}
+                  link={link}
+                  username={username}
+                  manage={true}
+                  isEnabled={link.isEnabled}
+                />
+              ))}
+          </ReactSortable>
+
+        </div>
+
       </Page>
     </>
   );
