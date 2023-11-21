@@ -26,7 +26,7 @@
     "micro-cors": "^0.1.1",
     "mongoose": "^7.5.3",
     "next": "^13.5.4",
-    "next-auth": "^4.23.2",
+    "next-auth": "^4.24.5",
     "next-themes": "^0.2.1",
     "pino": "^8.15.4",
     "pino-pretty": "^10.2.2",
