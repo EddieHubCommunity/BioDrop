@@ -21,6 +21,7 @@ export async function middleware(req) {
   const protocol = process.env.NODE_ENV === "development" ? "http" : "https";
   const hostname = req.headers.get("host");
   const reqPathName = req.nextUrl.pathname;
+  const sessionRequired = [ "/account", "/api/account" ];
   const adminRequired = [ "/admin", "/api/admin" ];
   // Trailing slash is necessary to catch URL /account/statistics/* but not index page
   const premiumRequired = [ "/account/statistics/" ];
@@ -29,15 +30,15 @@ export async function middleware(req) {
     /http:\/\/|https:\/\//,
     "",
   );
-  const hostedDomains = [ hostedDomain, `www.${hostedDomain}` ];
-  const sessionRequired = [ "/account", "/api/account" ];
+  const hostedDomains = [hostedDomain, `www.${hostedDomain}`];
   // if custom domain + on root path
   if (!hostedDomains.includes(hostname) && reqPathName === "/") {
     console.log(`custom domain used: "${hostname}"`);
 
     let res;
     let profile;
-    let url = `${process.env.NEXT_PUBLIC_BASE_URL
+    let url = `${
+      process.env.NEXT_PUBLIC_BASE_URL
       }/api/search/${encodeURIComponent(hostname)}`;
     try {
       res = await fetch(url, {

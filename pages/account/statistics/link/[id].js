@@ -67,8 +67,8 @@ export default function Statistics({ data }) {
         )}
 
         {data.stats.length > 0 && (
-          <div className="mb-6 border dark:border-primary-medium">
-            <div className="px-4 py-5 mb-2 bg-white border-b border-primary-low dark:bg-primary-high dark:border-primary-medium sm:px-6">
+          <div className="border mb-6 dark:border-primary-medium">
+            <div className="border-b border-primary-low bg-white dark:bg-primary-high dark:border-primary-medium px-4 py-5 mb-2 sm:px-6">
               <h3 className="text-lg font-medium leading-6 text-primary-high">
                 Link clicks for {data.url}
               </h3>

@@ -41,7 +41,7 @@ export async function getServerSideProps(context) {
     stats = Object.keys(profile.stats.referers)
       .map((referer) => ({
         referer,
-        value: profile.stats.referers[ referer ],
+        value: profile.stats.referers[referer],
       }))
       .sort((a, b) => b.value - a.value);
   }
@@ -90,14 +90,14 @@ export default function Locations({ stats }) {
               </th>
             </tr>
           </thead>
-          <tbody className="bg-white divide-y divide-primary-low dark:divide-primary-medium dark:bg-primary-high">
+          <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
             {stats &&
               stats.map((item) => (
                 <tr key={item.referer}>
-                  <td className="py-4 pl-4 pr-3 text-sm font-medium md:whitespace-nowrap text-primary-high dark:text-primary-low sm:pl-6">
+                  <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6">
                     {item.referer.replaceAll("|", ".")}
                   </td>
-                  <td className="px-3 py-4 text-sm whitespace-nowrap text-primary-medium dark:text-primary-low">
+                  <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
                     {abbreviateNumber(item.value)}
                   </td>
                 </tr>
