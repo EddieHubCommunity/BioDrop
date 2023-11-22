@@ -1,3 +1,12 @@
+# [2.90.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.6...v2.90.0) (2023-11-22)
+
+
+### Features
+
+* admin stats for custom domains ([#9816](https://github.com/EddieHubCommunity/BioDrop/issues/9816)) ([c808cff](https://github.com/EddieHubCommunity/BioDrop/commit/c808cff4622705df632777b8c3442fa75af96bab))
+
+
+
 ## [2.89.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.5...v2.89.6) (2023-11-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * resolve mobile keyboard fluctuation during search ([#9248](https://github.com/EddieHubCommunity/BioDrop/issues/9248)) ([999602b](https://github.com/EddieHubCommunity/BioDrop/commit/999602bae3a2b267a68fd2d8e55282bbfe979501))
-
-
-
-## [2.89.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.1...v2.89.2) (2023-11-18)
-
-
-### Bug Fixes
-
-* homepage video ([#9799](https://github.com/EddieHubCommunity/BioDrop/issues/9799)) ([c029503](https://github.com/EddieHubCommunity/BioDrop/commit/c02950376893a8c370be914fb40390b38634416f))
 
 
 
