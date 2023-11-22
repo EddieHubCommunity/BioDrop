@@ -99,7 +99,7 @@ export default function UserLink({
   );
 
   return (
-    <div className="flex flex-row gap-8 w-full">
+    <div className="flex flex-row gap-8 w-full pl-4">
       {manage ? edit(link) : item(link)}
     </div>
   );
