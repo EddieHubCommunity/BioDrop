@@ -7,6 +7,7 @@ import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
 import { useTheme } from "next-themes";
 import { classNames } from "@services/utils/classNames";
+import Image from "next/image";
 
 import { FaGithub } from "react-icons/fa6";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
@@ -115,10 +116,16 @@ export default function Navbar() {
 
       {session && (
         <>
-          <NavLink
-            item={{ name: "Account", url: "/account/onboarding" }}
-            setIsOpen={setIsOpen}
-          />
+          <Link href="/account/onboarding" aria-label="Account">
+            <Image
+              className="flex-none hover:ring-2 hover:ring-tertiary-medium rounded-full mx-2"
+              width={40}
+              height={40}
+              onClick={() => setIsOpen(false)}
+              src={`https://github.com/${session.username}.png`}
+              alt="Account"
+            />
+          </Link>
           <NavLink
             item={{ name: "Logout", url: "/" }}
             setIsOpen={setIsOpen}

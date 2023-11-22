@@ -1,45 +1,45 @@
-## [2.87.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.3...v2.87.4) (2023-11-13)
+## [2.89.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.5...v2.89.6) (2023-11-21)
 
 
 ### Bug Fixes
 
-* pwa fix cache ([#9784](https://github.com/EddieHubCommunity/BioDrop/issues/9784)) ([0ee0fad](https://github.com/EddieHubCommunity/BioDrop/commit/0ee0fad958d76a87a751fe3fc1e189ff01dca032))
+* profile sub domain ([#9811](https://github.com/EddieHubCommunity/BioDrop/issues/9811)) ([159e219](https://github.com/EddieHubCommunity/BioDrop/commit/159e21902bc7390c63a666db9d80fcb316210fd1))
 
 
 
-## [2.87.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.2...v2.87.3) (2023-11-12)
-
-
-### Bug Fixes
-
-* disable pwa due to caching errors ([#9781](https://github.com/EddieHubCommunity/BioDrop/issues/9781)) ([f23dc7c](https://github.com/EddieHubCommunity/BioDrop/commit/f23dc7cd68a6c2b93282980edbf5da5970654860))
-
-
-
-## [2.87.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.1...v2.87.2) (2023-11-12)
+## [2.89.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.4...v2.89.5) (2023-11-20)
 
 
 ### Bug Fixes
 
-* login page logo ([#9777](https://github.com/EddieHubCommunity/BioDrop/issues/9777)) ([f3b4cc1](https://github.com/EddieHubCommunity/BioDrop/commit/f3b4cc17739dcefb5c82a2bf7025edf846fe54fc))
+* reduce link name length to min 1 ([#9805](https://github.com/EddieHubCommunity/BioDrop/issues/9805)) ([53e906a](https://github.com/EddieHubCommunity/BioDrop/commit/53e906ae4df720c3cd0e3505fe9e3e1720c99a37))
 
 
 
-## [2.87.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.87.0...v2.87.1) (2023-11-12)
+## [2.89.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.3...v2.89.4) (2023-11-19)
 
 
 ### Bug Fixes
 
-* reduce bg-size on :after to fix safari bug ([#9770](https://github.com/EddieHubCommunity/BioDrop/issues/9770)) ([db657aa](https://github.com/EddieHubCommunity/BioDrop/commit/db657aa757b9ed99a8da82d371fc196d8f25557d))
+* pricing premium text ([#9806](https://github.com/EddieHubCommunity/BioDrop/issues/9806)) ([bd90bc7](https://github.com/EddieHubCommunity/BioDrop/commit/bd90bc7e50e7795c2e7dfd3f3b06298b64f0aadb))
 
 
 
-# [2.87.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.86.1...v2.87.0) (2023-11-12)
+## [2.89.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.2...v2.89.3) (2023-11-19)
 
 
-### Features
+### Bug Fixes
 
-* reload pwa ([#9773](https://github.com/EddieHubCommunity/BioDrop/issues/9773)) ([a6c841b](https://github.com/EddieHubCommunity/BioDrop/commit/a6c841b7c47f64368a17987c0713b89f66184e10))
+* resolve mobile keyboard fluctuation during search ([#9248](https://github.com/EddieHubCommunity/BioDrop/issues/9248)) ([999602b](https://github.com/EddieHubCommunity/BioDrop/commit/999602bae3a2b267a68fd2d8e55282bbfe979501))
+
+
+
+## [2.89.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.1...v2.89.2) (2023-11-18)
+
+
+### Bug Fixes
+
+* homepage video ([#9799](https://github.com/EddieHubCommunity/BioDrop/issues/9799)) ([c029503](https://github.com/EddieHubCommunity/BioDrop/commit/c02950376893a8c370be914fb40390b38634416f))
 
 
 
