@@ -7,7 +7,7 @@ export default function Tag({ name, total, selected, onClick }) {
     <Badge
       content={abbreviateNumber(total)}
       display={!!total}
-      badgeClassName={"translate-x-1.5 -translate-y-1"}
+      badgeClassName={"translate-x-1.5 -translate-y-3"}
     >
       <button
         onClick={onClick}
