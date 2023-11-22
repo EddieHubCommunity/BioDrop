@@ -64,6 +64,15 @@ export async function getStatsApi() {
     logger.error(e, "failed to load totalChangelogs");
   }
 
+  let totalCustomDomains = 0;
+  try {
+    totalCustomDomains = await Profile.countDocuments({
+      "settings.domain": { $exists: true, $ne: "" },
+    });
+  } catch (e) {
+    logger.error(e, "failed to load totalCustomDomains profiles");
+  }
+
   return {
     statusCode: 200,
     stats: {
@@ -73,6 +82,7 @@ export async function getStatsApi() {
       totalProfilesDisabled: totalProfilesDisabled || 0,
       totalPremiumProfiles: totalPremiumProfiles || 0,
       totalChangelogs: totalChangelogs || 0,
+      totalCustomDomains: totalCustomDomains || 0,
     },
   };
 }
