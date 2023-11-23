@@ -1,7 +1,8 @@
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
+import Notification from "@components/Notification";
 
-export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
+export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef,showNotification, setShowNotification, }) {
 
 
   //key code
@@ -10,9 +11,20 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
     backspace: 8,
     enter: 13,
   };
-
+  const maxLength = 32;
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
+    if (inputValue.length >= maxLength && e.keyCode !== backspace) {
+      // '=' sign because in 32 char ',' sign does't count
+      setShowNotification({
+        show: true,
+        type: "error",
+        message: "Tag",
+        additionalMessage: "Tag limit exceeded",
+      });
+      return;
+    }
+
     if (e.keyCode === comma || inputValue.endsWith(",") || e.keyCode === enter) {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
@@ -57,6 +69,15 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
 
   return (
     <>
+     <Notification
+        show={showNotification.show}
+        type={showNotification.type}
+        onClose={() =>
+          setShowNotification({ ...showNotification, show: false })
+        }
+        message={showNotification.message}
+        additionalMessage={showNotification.additionalMessage}
+      />
       <label htmlFor="tags">Tags</label>
       <ul
         role="list"
