@@ -1,9 +1,14 @@
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
+import { ReactSortable } from "react-sortablejs";
 
-export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
-
-
+export default function TagsInput({
+  tags,
+  onTagAdd,
+  onTagRemove,
+  inputRef,
+  setTags,
+}) {
   //key code
   const { comma, backspace, enter } = {
     comma: 188,
@@ -13,7 +18,11 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
 
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
-    if (e.keyCode === comma || inputValue.endsWith(",") || e.keyCode === enter) {
+    if (
+      e.keyCode === comma ||
+      inputValue.endsWith(",") ||
+      e.keyCode === enter
+    ) {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
         return;
@@ -58,7 +67,11 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
   return (
     <>
       <label htmlFor="tags">Tags</label>
-      <ul
+      <ReactSortable
+        tag="ul"
+        list={tags}
+        setList={setTags}
+        swap
         role="list"
         className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium"
       >
@@ -74,7 +87,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
             onKeyDown={handleKeyDown}
           />
         </li>
-      </ul>
+      </ReactSortable>
     </>
   );
 }

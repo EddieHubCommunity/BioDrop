@@ -251,6 +251,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         onTagRemove={handleTagRemove}
                         tags={tags}
                         inputRef={tagInputRef}
+                        setTags={setTags}
                       />
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                         Separate tags with commas.
