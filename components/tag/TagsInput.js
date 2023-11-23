@@ -2,9 +2,14 @@ import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
 import Notification from "@components/Notification";
 
-export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef,showNotification, setShowNotification, }) {
-
-
+export default function TagsInput({
+  tags,
+  onTagAdd,
+  onTagRemove,
+  inputRef,
+  showNotification,
+  setShowNotification,
+}) {
   //key code
   const { comma, backspace, enter } = {
     comma: 188,
@@ -25,7 +30,11 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef,showNo
       return;
     }
 
-    if (e.keyCode === comma || inputValue.endsWith(",") || e.keyCode === enter) {
+    if (
+      e.keyCode === comma ||
+      inputValue.endsWith(",") ||
+      e.keyCode === enter
+    ) {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
         return;
@@ -69,7 +78,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef,showNo
 
   return (
     <>
-     <Notification
+      <Notification
         show={showNotification.show}
         type={showNotification.type}
         onClose={() =>
@@ -77,6 +86,8 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef,showNo
         }
         message={showNotification.message}
         additionalMessage={showNotification.additionalMessage}
+        showNotification={showNotification}
+        setShowNotification={setShowNotification}
       />
       <label htmlFor="tags">Tags</label>
       <ul
