@@ -47,7 +47,7 @@ export default function TagsInput({
   const tagItems = tags.map((tag, i) => (
     <li
       key={i}
-      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1"
+      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1 hover:cursor-move"
     >
       <span>{tag}</span>
       <button
