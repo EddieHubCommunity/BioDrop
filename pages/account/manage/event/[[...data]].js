@@ -345,7 +345,8 @@ export default function ManageEvent({ BASE_URL, event }) {
                       setShowNotification={setShowNotification}
                     />
                     <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                      Separate tags with commas (tags cannot be duplicated and max 32 characters).
+                      Separate tags with commas (tags cannot be duplicated and
+                      max 32 characters).
                     </p>
                   </div>
                 </div>

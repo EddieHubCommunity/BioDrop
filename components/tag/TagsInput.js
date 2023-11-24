@@ -86,7 +86,6 @@ export default function TagsInput({
         }
         message={showNotification.message}
         additionalMessage={showNotification.additionalMessage}
-       
       />
       <label htmlFor="tags">Tags</label>
       <ul
