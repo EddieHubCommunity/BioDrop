@@ -81,7 +81,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   const { pronouns } = config;
 
   const handleTagAdd = (newTag) => {
-    setTags((prevState) => [...prevState, newTag]);
+    setTags((prevState) => [...new Set([...prevState, newTag])]);
   };
 
   const handleTagRemove = (tagToRemove) => {
@@ -253,7 +253,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         inputRef={tagInputRef}
                       />
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        Separate tags with commas.
+                        Separate tags with commas (tags cannot be duplicated).
                       </p>
                     </div>
                   </div>
