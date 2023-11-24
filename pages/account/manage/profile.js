@@ -4,6 +4,8 @@ import path from "path";
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useRef, useState } from "react";
+import { remark } from "remark";
+import strip from "strip-markdown";
 
 import { clientEnv } from "@config/schemas/clientSchema";
 import config from "@config/app.json";
@@ -38,6 +40,14 @@ export async function getServerSideProps(context) {
     profile.name = session.user.name;
   }
 
+  try {
+    const processedBio = await remark().use(strip).process(profile.bio);
+    profile.cleanBio = processedBio.toString();
+  } catch (e) {
+    logger.error(e, `cannot strip markdown for: ${username}`);
+    profile.cleanBio = profile.bio;
+  }
+
   const filePath = path.join(process.cwd(), "data", username);
   let fileExists;
   try {
@@ -65,8 +75,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   const [isStatsPublic, setIsStatsPublic] = useState(
     profile.isStatsPublic ? true : false,
   );
-  const [bio, setBio] = useState(
-    profile.bio || "Have a look at my links below...",
+  const defaultBio = "Have a look at my links below...";
+  const [bio, setBio] = useState(profile.bio || defaultBio);
+  const [metaDescription, setMetaDescription] = useState(
+    profile.metaDescription || profile.cleanBio || defaultBio,
   );
   const [tags, setTags] = useState(profile.tags || ["EddieHub"]);
   const layouts = config.layouts.map((l) => {
@@ -101,7 +113,15 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ name, bio, tags, layout, pronoun, isStatsPublic }),
+      body: JSON.stringify({
+        name,
+        bio,
+        tags,
+        layout,
+        pronoun,
+        isStatsPublic,
+        metaDescription,
+      }),
     });
     const update = await res.json();
 
@@ -255,6 +275,18 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
                         Separate tags with commas (tags cannot be duplicated).
                       </p>
+                    </div>
+
+                    <div className="col-span-3 sm:col-span-4">
+                      <Textarea
+                        name="metaDescription"
+                        label="Meta Description"
+                        value={metaDescription}
+                        onChange={(e) => setMetaDescription(e.target.value)}
+                        required
+                        minLength="2"
+                        maxLength="160"
+                      />
                     </div>
                   </div>
                   <div className="mt-3">
