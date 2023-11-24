@@ -1,0 +1,29 @@
+{
+  "name": "Aishanya Alankrit",
+  "bio": "A Web developer | an Artist ",
+  "tags": [
+      "JavaScript",
+      "React JS",
+      "CSS",
+      "HTML",
+      "SQL",
+      "Excel",
+      "C++"
+  ],
+  "links": [
+    {
+      "group": "Socials primary",
+      "name" : "Linkdein",
+      "url": "https://www.linkedin.com/in/aishanya-alankrit-b7722616b/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials follow",
+      "name": "instagram: Follow me",
+      "url": "https://www.instagram.com/aishanyart/",
+      "icon": "FaInstagram",
+      "color": "#00ACEE"
+    }
+  ]
+  
+}
