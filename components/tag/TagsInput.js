@@ -2,7 +2,6 @@ import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
 import Notification from "@components/Notification";
 
-
 export default function TagsInput({
   tags,
   onTagAdd,
