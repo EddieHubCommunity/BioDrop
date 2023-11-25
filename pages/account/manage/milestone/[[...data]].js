@@ -152,8 +152,6 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
 
   })
 
-
-
   const {
     register,
     handleSubmit,
@@ -188,7 +186,6 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   console.log(errors);
 
   const onError = (errors,e) => {
-
     console.log(errors);
     return setShowNotification({
           show: true,
@@ -333,8 +330,17 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
             </div>
           </form>
           <div>
+
             <UserMilestone
-              milestone={milestoneWatch}
+              milestone={{
+                title: milestoneWatch[0] ,
+                description: milestoneWatch[1] ,
+                url: milestoneWatch[2] ,
+                icon: milestoneWatch[3] ,
+                date: milestoneWatch[4] ,
+                isGoal: milestoneWatch[5] || false,
+                dateFormat: milestoneWatch[6] || options[0].value
+              }}
               isGoal={isGoal}
             />
           </div>
