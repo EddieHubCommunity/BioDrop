@@ -8,9 +8,8 @@ import Edit from "@components/account/manage/Edit";
 import Markdown from "@components/Markdown";
 import { shortenDate } from "@services/utils/dateFormat";
 
-export default function UserMilestone({ milestone, isGoal, manage }) {
+export default function UserMilestone({ milestone,  manage }) {
   const [date, setDate] = useState(milestone.date);
-
   useEffect(() => {
     if (milestone.date) {
       const formattedDate = shortenDate({
@@ -22,11 +21,10 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
   }, [milestone.date, milestone.dateFormat]);
 
   const DisplayIcon = getIcon(milestone.icon);
-  const item = (milestone, isGoal) => {
-    const colors = isGoal
+  const item = () => {
+    const colors = milestone.isGoal
       ? "text-primary-medium/70 dark:text-primary-low-medium/[.83]"
       : "text-primary-medium dark:text-primary-low-medium";
-
     return (
       <div className="flex space-x-3 grow">
         {milestone.icon && (
@@ -38,7 +36,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
           <div className="flex items-center justify-between">
             <h2
               className={classNames(
-                isGoal && "opacity-70",
+                milestone.isGoal && "opacity-70",
                 "text-sm font-medium",
               )}
             >
@@ -65,17 +63,18 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
     );
   };
 
-  const edit = (milestone, isGoal) => (
+  const edit = () => (
     <Edit
       href={`/account/manage/milestone/${milestone._id}`}
       label={`${milestone.title} Milestone`}
     >
-      {item(milestone, isGoal)}
+      {item(milestone.isGoal)}
     </Edit>
   );
+
   return (
     <li className="flex flex-row gap-8 py-4 border-primary-low-medium">
-      {manage ? edit(milestone, isGoal) : item(milestone, isGoal)}
+      {manage ? edit() : item()}
     </li>
   );
 }

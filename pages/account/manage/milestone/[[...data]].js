@@ -66,55 +66,36 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     message: "",
     additionalMessage: "",
   });
-  const [description, setDescription] = useState(milestone.description || "");
-  const [url, setUrl] = useState(milestone.url || "");
-  const [icon, setIcon] = useState(milestone.icon || "");
-  const [date, setDate] = useState(milestone.date || "");
-  const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
-  const [dateFormat, setdateFormat] = useState(
-    milestone.dateFormat || options[0].value,
-  );
 
   const onSubmit = async (data) => {
-    console.log(data);
     let alert = "created";
-    // let putMilestone = {
-    //   title,
-    //   description,
-    //   url,
-    //   icon,
-    //   date,
-    //   isGoal,
-    //   dateFormat,
-    // };
-    // console.log(putMilestone);
-    // let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
-    // if (milestone._id) {
-    //   alert = "updated";
-    //   putMilestone = { ...putMilestone, _id: milestone._id };
-    //   apiUrl = `${BASE_URL}/api/account/manage/milestone/${milestone._id}`;
-    // }
-    // const res = await fetch(apiUrl, {
-    //   method: "PUT",
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   body: JSON.stringify(putMilestone),
-    // });
-    // const update = await res.json();
+    let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
+    let putMilestone = data;
+    if (milestone._id) {
+      alert = "updated";
+      putMilestone = { ...putMilestone, _id: milestone._id };
+      apiUrl = `${BASE_URL}/api/account/manage/milestone/${milestone._id}`;
+    }
+    const res = await fetch(apiUrl, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(putMilestone),
+    });
+    const update = await res.json();
+    if (update.message) {
+      return setShowNotification({
+        show: true,
+        type: "error",
+        message: "Milestone update failed",
+        additionalMessage: `Please check the fields: ${Object.keys(
+          update.message,
+        ).join(", ")}`,
+      });
+    }
 
-    // if (update.message) {
-    //   return setShowNotification({
-    //     show: true,
-    //     type: "error",
-    //     message: "Milestone update failed",
-    //     additionalMessage: `Please check the fields: ${Object.keys(
-    //       update.message,
-    //     ).join(", ")}`,
-    //   });
-    // }
-
-    // Router.push(`${BASE_URL}/account/manage/milestones?alert=${alert}`);
+    Router.push(`${BASE_URL}/account/manage/milestones?alert=${alert}`);
   };
 
   const deleteItem = async () => {
@@ -155,7 +136,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const {
     register,
     handleSubmit,
-    formState: { errors, isSubmitting },
+    formState: { errors },
     setValue,
     getValues,
     control,
@@ -175,24 +156,12 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
 
   const milestoneWatch = watch(['title', 'description', 'url', 'icon', 'date', 'isGoal', 'dateFormat']);
 
-  console.log(milestoneWatch);
-
   useEffect(() => {
     const parse = Date.parse(getValues("date"));
     if (!isNaN(parse)) {
       setValue("date", new Date(parse).toISOString().split("T")[0]);
     }
   }, [getValues("data"), milestone.date]);
-  console.log(errors);
-
-  const onError = (errors,e) => {
-    console.log(errors);
-    return setShowNotification({
-          show: true,
-          type: "error",
-          message: errors.message,
-        });
-  }
 
   return (
     <>
@@ -200,10 +169,8 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         title="Manage Milestone"
         description={`Here you can manage your ${PROJECT_NAME} milestone`}
       />
-
       <Page>
         <Navigation />
-
         <Notification
           show={showNotification.show}
           type={showNotification.type}
@@ -217,7 +184,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <form
             className="space-y-8 divide-y divide-primary-low-medium/30"
-            onSubmit={handleSubmit(onSubmit,onError)}
+            onSubmit={handleSubmit(onSubmit)}
             def
           >
             <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
@@ -287,6 +254,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="Select format"
                       options={options}
                     />
+                    {errors.dateFormat && <p className=" text-red-500 ">{errors.dateFormat.message}</p>}
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Controller
@@ -299,6 +267,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                         />
                       )}
                     />
+                    {errors.icon && <p className=" text-red-500 ">{errors.icon.message}</p>}
                     <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">
@@ -307,11 +276,17 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Toggle
-                      text1="Is this a future goal?"
-                      text2="Future Milestone"
-                      enabled={isGoal}
-                      setEnabled={setIsGoal}
+                    <Controller
+                      name="isGoal"
+                      control={control}
+                      render={({ field }) => (
+                        <Toggle
+                          text1="Is this a future goal?"
+                          text2="Future Milestone"
+                          enabled={field.value}
+                          setEnabled={field.onChange}
+                        />
+                      )}
                     />
                   </div>
                 </div>
@@ -333,15 +308,14 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
 
             <UserMilestone
               milestone={{
-                title: milestoneWatch[0] ,
-                description: milestoneWatch[1] ,
-                url: milestoneWatch[2] ,
-                icon: milestoneWatch[3] ,
-                date: milestoneWatch[4] ,
+                title: milestoneWatch[0],
+                description: milestoneWatch[1],
+                url: milestoneWatch[2],
+                icon: milestoneWatch[3],
+                date: milestoneWatch[4],
                 isGoal: milestoneWatch[5] || false,
                 dateFormat: milestoneWatch[6] || options[0].value
               }}
-              isGoal={isGoal}
             />
           </div>
         </div>
