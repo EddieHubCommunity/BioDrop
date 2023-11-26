@@ -1,19 +1,40 @@
 {
   "name": "Shailesh Thakur",
-  "displayStatsPublic": true,
-  "type": "personal",
-  "bio": "Currently a 2nd year Undergrad,interested in project and research internship from abroad",
-  "avatar": "https://github.com/shaileshthakur1.png"
+  "bio": "a driven **Pre-Final Year CSE Cybersecurity Student** interested in **Development** enthusiastic about **Open Source**, **Blockchain** and **DevOps**",
+   "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shylesstwts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shaileshthakur1"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shailesh-kumar-thakur/"
+    }
+  ],
   "links": [
     {
-      "name": "Follow me on Twitter",
-      "url": "hhttps://twitter.com/shylesstwts",
-      "icon": "FaTwitter"
+      "name": "Twitter: Follow Me",
+      "url": "https://twitter.com/shylesstwts",
+      "icon": "FaXTwitter"
     },
-{
-      "name": "Follow me on LinkedIn",
-      "url": "https://www.linkedin.com/in/shailesh-kumar-thakur-991316205/",
-      "icon": "FaLinkedIn"
-}
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/shailesh-kumar-thakur/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub: I try contributing everyday possible.",
+      "url": "https://github.com/shaileshthakur1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/_iamshyless_/",
+      "icon": "FaInstagram"
+    }
   ]
 }
