@@ -14,6 +14,7 @@ import {
   FaTriangleExclamation,
 } from "react-icons/fa6";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -66,11 +67,11 @@ export async function getServerSideProps(context) {
   ).toFixed(0);
 
   return {
-    props: { profile, progress },
+    props: { profile, progress, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Onboarding({ profile, progress }) {
+export default function Onboarding({ profile, progress, BASE_URL }) {
   const router = useRouter();
   const { data: session } = useSession();
   if (typeof window !== "undefined" && window.localStorage) {
@@ -164,6 +165,17 @@ export default function Onboarding({ profile, progress }) {
     premium: "You are now a premium user!",
     cancel: "You cancelled your subscription.",
   };
+
+  //TODO move this?
+  const deleteLinks = async () => {
+    await fetch(`${BASE_URL}/api/account/manage/delete/${profile.username}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  }
+    
   return (
     <>
       <PageHead
@@ -227,7 +239,7 @@ export default function Onboarding({ profile, progress }) {
           >
             {/* TODO: on click, show a indicator deltion is happening - success message after */}
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:mx-24">
-              <Button>
+              <Button onClick={() => deleteLinks()}>
                 Delete my Account
               </Button>
               <Button onClick={() => setShowModal(false)}>Go Back</Button>
