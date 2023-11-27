@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import * as FaIcons from "react-icons/fa6";
 import * as SiIcons from "react-icons/si";
+
 import Input from "@components/form/Input";
 import Alert from "@components/Alert";
 import IconCard from "@components/IconCard";
@@ -11,9 +12,17 @@ import { useRouter } from "next/router";
 import Button from "@components/Button";
 import { getPopularIcons } from "./api/icons";
 import Badge from "@components/Badge";
+import logger from "@config/logger";
 
 export async function getServerSideProps() {
-  const popularIcons = await getPopularIcons();
+  let popularIcons = [];
+
+  try {
+    popularIcons = await getPopularIcons();
+  } catch (e) {
+    logger.error(e, "Failed to load popular icons");
+  }
+
   return {
     props: { popularIcons },
   };
