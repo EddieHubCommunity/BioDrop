@@ -25,12 +25,17 @@ export async function getPopularIcons() {
         },
       },
       {
+        $match: {
+          _id: { $ne: null },
+        },
+      },
+      {
         $sort: {
           count: -1,
         },
       },
       {
-        $limit: 20,
+        $limit: 22,
       },
       {
         $project: { _id: 0, icon: "$_id", count: 1 },
