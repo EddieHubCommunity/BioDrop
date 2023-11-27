@@ -38,7 +38,6 @@ export async function getPopularIcons() {
     ]).exec();
   } catch (e) {
     logger.error(e, "Failed to load popular icons");
-    icons = [];
   }
 
   return JSON.parse(JSON.stringify(icons));
