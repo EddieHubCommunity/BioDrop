@@ -10,12 +10,13 @@ import { PROJECT_NAME } from "@constants/index";
 import { useRouter } from "next/router";
 import Button from "@components/Button";
 import { getPopularIcons } from "./api/icons";
+import Badge from "@components/Badge";
 
-export async function getServerSideProps(){
+export async function getServerSideProps() {
   const popularIcons = await getPopularIcons();
   return {
-    props: { popularIcons }
-  }
+    props: { popularIcons },
+  };
 }
 
 const icons = {};
@@ -27,7 +28,6 @@ Object.keys(FaIcons).forEach((key) => {
 Object.keys(SiIcons).forEach((key) => {
   icons[key.toLocaleLowerCase()] = key;
 });
-
 
 export default function Icons({ popularIcons }) {
   const [notFound, setNotFound] = useState();
@@ -42,7 +42,7 @@ export default function Icons({ popularIcons }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (searchQuery === keyword) {
-       return;
+      return;
     }
     if (searchQuery.length === 0)
       return router.replace({
@@ -64,7 +64,7 @@ export default function Icons({ popularIcons }) {
 
       const filteredIconNames = Object.keys(icons)
         .filter((icon) => icon.includes(value.toLocaleLowerCase()))
-        .map((iconName) => icons[iconName]);
+        .map((iconName) => ({ icon: icons[iconName] }));
       if (!filteredIconNames.length) {
         setNotFound(value);
         return popularIcons;
@@ -107,7 +107,13 @@ export default function Icons({ popularIcons }) {
         <ul className="flex flex-wrap gap-4 mt-4">
           {filterredIcons.map((iconName, index) => (
             <li key={index}>
-              <IconCard iconName={iconName} />
+              <Badge
+                content={iconName.count}
+                display={!!iconName.count}
+                badgeClassName={"translate-x-1/4 -translate-y-1/2"}
+              >
+                <IconCard iconName={iconName.icon} />
+              </Badge>
             </li>
           ))}
         </ul>

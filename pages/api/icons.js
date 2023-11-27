@@ -25,18 +25,18 @@ export async function getPopularIcons() {
         },
       },
       {
-        $sort:{
-            count: -1
-        }
+        $sort: {
+          count: -1,
+        },
       },
       {
-        $limit: 20
+        $limit: 20,
       },
       {
-        $project: { _id: 0, icon: "$_id"},
-      }
+        $project: { _id: 0, icon: "$_id", count: 1 },
+      },
     ]).exec();
-    icons = icons.map( icon => icon.icon )
+    // icons = icons.map((icon) => icon.icon);
   } catch (e) {
     logger.error(e, "Failed to load popular icons");
     icons = [];
