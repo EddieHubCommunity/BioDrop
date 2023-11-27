@@ -9,6 +9,15 @@ import PageHead from "@components/PageHead";
 import { PROJECT_NAME } from "@constants/index";
 import { useRouter } from "next/router";
 import Button from "@components/Button";
+import { getPopularIcons } from "./api/icons";
+import Badge from "@components/Badge";
+
+export async function getServerSideProps() {
+  const popularIcons = await getPopularIcons();
+  return {
+    props: { popularIcons },
+  };
+}
 
 const icons = {};
 
@@ -20,30 +29,7 @@ Object.keys(SiIcons).forEach((key) => {
   icons[key.toLocaleLowerCase()] = key;
 });
 
-const popularIcons = [
-  "FaGithub",
-  "FaTwitter",
-  "FaLinkedin",
-  "FaGit",
-  "FaXTwitter",
-  "FaInstagram",
-  "SiHashnode",
-  "FaLink",
-  "FaYoutube",
-  "FaGlobe",
-  "FaDev",
-  "FaDiscord",
-  "FaMedium",
-  "SiMedium",
-  "FaFacebook",
-  "FaGithubAlt",
-  "SiLinkedin",
-  "SiLeetcode",
-  "FaDollarSign",
-  "FaMastodon",
-];
-
-export default function Icons() {
+export default function Icons({ popularIcons }) {
   const [notFound, setNotFound] = useState();
 
   const router = useRouter();
@@ -56,7 +42,7 @@ export default function Icons() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (searchQuery === keyword) {
-       return;
+      return;
     }
     if (searchQuery.length === 0)
       return router.replace({
@@ -78,7 +64,7 @@ export default function Icons() {
 
       const filteredIconNames = Object.keys(icons)
         .filter((icon) => icon.includes(value.toLocaleLowerCase()))
-        .map((iconName) => icons[iconName]);
+        .map((iconName) => ({ icon: icons[iconName] }));
       if (!filteredIconNames.length) {
         setNotFound(value);
         return popularIcons;
@@ -89,7 +75,7 @@ export default function Icons() {
       }
       return filteredIconNames;
     },
-    [keyword],
+    [keyword, popularIcons],
   );
   return (
     <>
@@ -121,7 +107,13 @@ export default function Icons() {
         <ul className="flex flex-wrap gap-4 mt-4">
           {filterredIcons.map((iconName, index) => (
             <li key={index}>
-              <IconCard iconName={iconName} />
+              <Badge
+                content={iconName.count}
+                display={!!iconName.count}
+                badgeClassName={"translate-x-1/4 -translate-y-1/2"}
+              >
+                <IconCard iconName={iconName.icon} />
+              </Badge>
             </li>
           ))}
         </ul>
