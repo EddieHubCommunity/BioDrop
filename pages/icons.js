@@ -9,6 +9,14 @@ import PageHead from "@components/PageHead";
 import { PROJECT_NAME } from "@constants/index";
 import { useRouter } from "next/router";
 import Button from "@components/Button";
+import { getPopularIcons } from "./api/icons";
+
+export async function getServerSideProps(){
+  const popularIcons = await getPopularIcons();
+  return {
+    props: { popularIcons }
+  }
+}
 
 const icons = {};
 
@@ -20,30 +28,8 @@ Object.keys(SiIcons).forEach((key) => {
   icons[key.toLocaleLowerCase()] = key;
 });
 
-const popularIcons = [
-  "FaGithub",
-  "FaTwitter",
-  "FaLinkedin",
-  "FaGit",
-  "FaXTwitter",
-  "FaInstagram",
-  "SiHashnode",
-  "FaLink",
-  "FaYoutube",
-  "FaGlobe",
-  "FaDev",
-  "FaDiscord",
-  "FaMedium",
-  "SiMedium",
-  "FaFacebook",
-  "FaGithubAlt",
-  "SiLinkedin",
-  "SiLeetcode",
-  "FaDollarSign",
-  "FaMastodon",
-];
 
-export default function Icons() {
+export default function Icons({ popularIcons }) {
   const [notFound, setNotFound] = useState();
 
   const router = useRouter();
@@ -89,7 +75,7 @@ export default function Icons() {
       }
       return filteredIconNames;
     },
-    [keyword],
+    [keyword, popularIcons],
   );
   return (
     <>
