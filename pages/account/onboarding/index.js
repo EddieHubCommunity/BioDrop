@@ -155,7 +155,6 @@ export default function Onboarding({ profile, progress }) {
       description: "Delete your account",
       button: {
         name: "Delete Account",
-        href:"/account/manage/milestones"
       },
       click: true,
     },
@@ -220,14 +219,20 @@ export default function Onboarding({ profile, progress }) {
                   <h2 className="text-xl font-bold">{card.title}</h2>
                 </div>
                 <p>{card.description}</p>
-                <Button onClick={() => setShowModal(true)}>Open Modal</Button>
+                <Button onClick={() => setShowModal(true)}>Delete Account</Button>
                 
             <Modal
-            title="This is the deletion modal!"
             show={showModal}
             setShow={setShowModal}
           >
-            Hello Modal!
+            {/* TODO: on click, show a indicator deltion is happening - success message after */}
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:mx-24">
+              <Button>
+                Delete my Account
+              </Button>
+              <Button onClick={() => setShowModal(false)}>Go Back</Button>
+            </div>
+            <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-center text-primary-medium dark:text-primary-low mb-4">Warning! This cannot be reversed once you click Delete.</p>
           </Modal>
         
                 </div>
