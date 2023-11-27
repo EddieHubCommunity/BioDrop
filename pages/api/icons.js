@@ -36,7 +36,6 @@ export async function getPopularIcons() {
         $project: { _id: 0, icon: "$_id", count: 1 },
       },
     ]).exec();
-    // icons = icons.map((icon) => icon.icon);
   } catch (e) {
     logger.error(e, "Failed to load popular icons");
     icons = [];
