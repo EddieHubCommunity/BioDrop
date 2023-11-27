@@ -1,3 +1,12 @@
+## [2.91.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.0...v2.91.1) (2023-11-27)
+
+
+### Bug Fixes
+
+* popular icon search ([#9845](https://github.com/EddieHubCommunity/BioDrop/issues/9845)) ([0e0e1af](https://github.com/EddieHubCommunity/BioDrop/commit/0e0e1af966f7ef08b400fe132044441134ff6c06))
+
+
+
 # [2.91.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.90.1...v2.91.0) (2023-11-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * profile sub domain ([#9811](https://github.com/EddieHubCommunity/BioDrop/issues/9811)) ([159e219](https://github.com/EddieHubCommunity/BioDrop/commit/159e21902bc7390c63a666db9d80fcb316210fd1))
-
-
-
-## [2.89.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.4...v2.89.5) (2023-11-20)
-
-
-### Bug Fixes
-
-* reduce link name length to min 1 ([#9805](https://github.com/EddieHubCommunity/BioDrop/issues/9805)) ([53e906a](https://github.com/EddieHubCommunity/BioDrop/commit/53e906ae4df720c3cd0e3505fe9e3e1720c99a37))
 
 
 
