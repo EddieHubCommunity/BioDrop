@@ -2,7 +2,7 @@
 import { test, expect } from "@playwright/test";
 import AxeBuilder from "@axe-core/playwright";
 
-const defaultIcons = 20;
+const defaultIcons = 22;
 
 test("Icon search has title", async ({ page }) => {
   await page.goto("/icons");

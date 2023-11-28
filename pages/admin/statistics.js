@@ -32,6 +32,7 @@ export default function Statistics({ stats }) {
     { id: 4, name: "Profiles not enabled", value: stats.totalProfilesDisabled },
     { id: 5, name: "Premium Profiles", value: stats.totalPremiumProfiles },
     { id: 6, name: "Changelogs", value: stats.totalChangelogs },
+    { id: 6, name: "Custom Domains", value: stats.totalCustomDomains },
   ];
 
   return (
