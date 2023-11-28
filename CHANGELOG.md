@@ -1,3 +1,12 @@
+# [2.92.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.2...v2.92.0) (2023-11-28)
+
+
+### Features
+
+* character limit on tags ([#9762](https://github.com/EddieHubCommunity/BioDrop/issues/9762)) ([eac304e](https://github.com/EddieHubCommunity/BioDrop/commit/eac304e1d6070837ac99e91c31c24dc45caa00ad))
+
+
+
 ## [2.91.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.1...v2.91.2) (2023-11-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * duplicate tags issue using set constructor ([#9820](https://github.com/EddieHubCommunity/BioDrop/issues/9820)) ([bde2fe9](https://github.com/EddieHubCommunity/BioDrop/commit/bde2fe9fb21535bddad9580679bb5dc77a6a5536))
-
-
-
-# [2.90.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.6...v2.90.0) (2023-11-22)
-
-
-### Features
-
-* admin stats for custom domains ([#9816](https://github.com/EddieHubCommunity/BioDrop/issues/9816)) ([c808cff](https://github.com/EddieHubCommunity/BioDrop/commit/c808cff4622705df632777b8c3442fa75af96bab))
 
 
 
