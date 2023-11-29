@@ -12,7 +12,9 @@ This documentation explains how you can debug your BioDrop frontend and backend 
   message={
     <>
       <strong>NOTE: </strong>
-        This debugging setup is for a local development environment and will not work if you are running BioDrop using Docker Compose in your local setup. Additionally, it requires MongoDB to be available and running.
+      This debugging setup is for a local development environment and will not work
+      if you are running BioDrop using Docker Compose in your local setup. Additionally,
+      it requires MongoDB to be available and running.
     </>
   }
 />
@@ -21,6 +23,7 @@ This documentation explains how you can debug your BioDrop frontend and backend 
 
 1. If you don’t already have a `launch.json` file, create one in the `.vscode` directory at the root of the BioDrop project.
 2. Add the given JSON to the `.vscode/launch.json` file.
+
 <ClipboardCopy>
 ```json
 {
@@ -53,6 +56,7 @@ This documentation explains how you can debug your BioDrop frontend and backend 
 }
 ```
 </ClipboardCopy>
+
 3. Your environment is now ready for debugging.
 
 If you want to learn more about debugging in Next.js, you can refer to the <Link href="https://nextjs.org/docs/pages/building-your-application/configuring/debugging">official documentation.</Link>
@@ -62,19 +66,19 @@ If you want to learn more about debugging in Next.js, you can refer to the <Link
 ## Steps to debug
 
 1. **Set a breakpoint:** To begin the debugging process, set a breakpoint at the desired location in the code.
-![Set a breakpoint](https://user-images.githubusercontent.com/77712031/260256276-53dd36e2-7d81-45e8-a9ce-16b58d87c63f.png)
+   ![Set a breakpoint](https://user-images.githubusercontent.com/77712031/260256276-53dd36e2-7d81-45e8-a9ce-16b58d87c63f.png)
 2. **Identify breakpoints:** Observe the breakpoints you've set in the breakpoints section.
-![Identify breakpoints](https://user-images.githubusercontent.com/77712031/260256158-6ecc8f99-d3d9-4024-beb3-13c7228634c6.png)
+   ![Identify breakpoints](https://user-images.githubusercontent.com/77712031/260256158-6ecc8f99-d3d9-4024-beb3-13c7228634c6.png)
 3. **Debugging profiles:** Choose the appropriate debugging profile based on your use case. We have configured three profiles: Server Side, Client Side, and Full Stack. Select the profile that aligns with your debugging needs.
-![Debugging profiles](https://user-images.githubusercontent.com/77712031/260256294-3ab8d4ed-e89c-44f8-a1b3-a20d8745ad07.png)
+   ![Debugging profiles](https://user-images.githubusercontent.com/77712031/260256294-3ab8d4ed-e89c-44f8-a1b3-a20d8745ad07.png)
 4. **Start your application:** Click on the highlighted button to start a debugging session with the profile you've selected.
-![Start your application](https://user-images.githubusercontent.com/77712031/260256324-0d3d163f-9421-4ec5-88b3-30af092afc18.png)
+   ![Start your application](https://user-images.githubusercontent.com/77712031/260256324-0d3d163f-9421-4ec5-88b3-30af092afc18.png)
 5. **Check terminal:** Check the terminal to ensure that your VS Code IDE is successfully connected to the debugging port.
-![Check terminal](https://user-images.githubusercontent.com/77712031/260256320-6080bc5f-c81a-4bbd-8b6d-b86a18cb419f.png)
-6. **Begin debugging:**  Once the application is up and running, navigate to the desired flow that requires debugging. You will notice that the debug pointer stops at the first breakpoint. Now, you are ready to proceed with debugging.
-![Begin debugging](https://user-images.githubusercontent.com/77712031/260256328-2def8d15-f19f-47ae-9655-0315fa3e0086.png)
+   ![Check terminal](https://user-images.githubusercontent.com/77712031/260256320-6080bc5f-c81a-4bbd-8b6d-b86a18cb419f.png)
+6. **Begin debugging:** Once the application is up and running, navigate to the desired flow that requires debugging. You will notice that the debug pointer stops at the first breakpoint. Now, you are ready to proceed with debugging.
+   ![Begin debugging](https://user-images.githubusercontent.com/77712031/260256328-2def8d15-f19f-47ae-9655-0315fa3e0086.png)
 
->If your debugger not working as expected, we recommend referring to <Link href="https://nextjs.org/docs/pages/building-your-application/configuring/debugging">debugging in Next.js</Link> for extra information. You might need to make some adjustments to your configuration. Don't worry, with a bit of tweaking, it should work smoothly.
+> If your debugger not working as expected, we recommend referring to <Link href="https://nextjs.org/docs/pages/building-your-application/configuring/debugging">debugging in Next.js</Link> for extra information. You might need to make some adjustments to your configuration. Don't worry, with a bit of tweaking, it should work smoothly.
 
 If you are new to debugging in VS Code, we suggest referring to the documentation for <Link href="https://code.visualstudio.com/docs/editor/debugging">debugging in VS Code</Link>. You will find valuable resources to assist you.
 
@@ -87,3 +91,5 @@ export default ({ children }) => (
     {children}
   </DocsLayout>
 );
+
+;

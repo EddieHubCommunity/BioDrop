@@ -1,7 +1,8 @@
+import Image from "next/image";
 import { IconContext } from "react-icons";
-import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
 import va from "@vercel/analytics";
+import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
 
 import config from "@config/app.json";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -18,9 +19,8 @@ import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
 import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
-import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
+import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
-import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -31,7 +31,7 @@ export async function getStaticProps() {
 
   let alerts = structuredClone(config.alerts);
   if (
-    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
+    serverEnv.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
     serverEnv.NODE_ENV === "development" &&
     totalStats.users === 0
   ) {
@@ -156,7 +156,7 @@ export default function Home({
       name: PROJECT_NAME + " Map",
       description: "Discover people around the world from the BioDrop Map.",
       imageSrc:
-        "https://user-images.githubusercontent.com/109926117/234534991-d2d3468e-2d13-4088-ad38-39f2d0cfa63d.png",
+        "https://user-images.githubusercontent.com/43419831/279958647-a815844e-ca8e-48e1-8362-5cc1f48063d6.png",
       imageAlt: PROJECT_NAME + " screenshot of Map Page",
     },
     {
@@ -166,6 +166,15 @@ export default function Home({
       imageSrc:
         "https://user-images.githubusercontent.com/624760/263394464-1f60752c-00d2-4e41-bf74-fe598b14e9fa.png",
       imageAlt: "BioDrop screenshot of Repo Page",
+    },
+    {
+      premium: true,
+      name: "Your Profile Source and Country Statistics",
+      description:
+        "More in depth statistics about your Profile, including the source of the views and the country of the views.",
+      imageSrc:
+        "https://github.com/EddieHubCommunity/BioDrop/assets/624760/f662fa12-49db-4e69-9862-9bf9b4652420",
+      imageAlt: "BioDrop screenshot of Source and Country statistics Page",
     },
   ];
 
@@ -199,7 +208,11 @@ export default function Home({
     <>
       <PageHead />
 
-      <div className="bg-primary-low dark:bg-dark">
+      {alerts.map((alert, index) => (
+        <Alert key={index} type={alert.type} message={alert.message} />
+      ))}
+
+      <div className="bg-primary-low dark:bg-dark-2">
         <div className="px-6 py-12 sm:px-6 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-medium dark:text-primary-low sm:text-4xl">
@@ -209,7 +222,7 @@ export default function Home({
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-medium dark:text-primary-low mb-4">
               Showcase the content you create and your projects in one place
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-0 justify-center items-center divide-x-0 sm:divide-x">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-0 justify-center items-center divide-x-0 sm:divide-x divide-dark-2 dark:divide-primary-low">
               <div className="flex items-center gap-x-2 px-4">
                 <FaGithub /> Open Source
               </div>
@@ -220,8 +233,8 @@ export default function Home({
                 <FaDollarSign /> Free Tier Forever
               </div>
             </div>
-            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 mx-24">
-              <Button href="/docs" primary={true}>
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:mx-24">
+              <Button href="/docs/quickstart-forms" primary={true}>
                 Get started
               </Button>
               <Button href="/#section-features">Explore features</Button>
@@ -233,42 +246,36 @@ export default function Home({
                 width="600"
                 height="600"
                 alt="BioDrop demo image"
+                priority={true}
               />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark mb-8 p-8 drop-shadow-md">
-        {alerts.map((alert, index) => (
-          <Alert key={index} type={alert.type} message={alert.message} />
-        ))}
-
+      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark-2 mb-8 p-8 drop-shadow-md">
         <BasicCards
           data={[
             {
               name: "Active Users",
               current: total.active,
-              total: total.users,
               delta: today.users,
             },
             {
               name: "Profile Views",
               current: total.views,
-              total: total.views - today.views,
               delta: today.views,
             },
             {
               name: "Links Clicked",
               current: total.clicks,
-              total: total.clicks - today.clicks,
               delta: today.clicks,
             },
           ]}
         />
       </div>
 
-      <div className="bg-primary-low dark:bg-dark">
+      <div className="bg-primary-low dark:bg-dark-2">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-lg bg-primary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20 flex">
@@ -280,15 +287,12 @@ export default function Home({
                 </h3>
               </div>
             </div>
-            <div className="aspect-w-16 aspect-h-9">
-              <div
-                className="kartra_video_containeroxibVr4Q0NlF js_kartra_trackable_object"
-                data-kt-type="video"
-                data-kt-value="oxibVr4Q0NlF"
-                data-kt-owner="nkmvj7Xr"
-              ></div>
-              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF"></Script>
-            </div>
+            <Image
+              src="https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png"
+              alt="BioDrop screenshot of statistics"
+              width="600"
+              height="300"
+            />
           </div>
         </div>
       </div>
@@ -296,13 +300,13 @@ export default function Home({
       <CallToAction
         title="Ready to dive in?"
         description="Add your free Profile today!"
-        button1Link="/docs"
+        button1Link="/docs/quickstart-forms"
         button1Text="Get started"
         button2Link="/eddiejaoude"
         button2Text="Example"
       />
 
-      <div className="bg-primary-high dark:bg-black" id="section-features">
+      <div className="bg-primary-high dark:bg-dark-2" id="section-features">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
@@ -325,7 +329,7 @@ export default function Home({
                     featureIdx % 2 === 0
                       ? "lg:col-start-1"
                       : "lg:col-start-8 xl:col-start-9",
-                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
+                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4",
                   )}
                 >
                   <h3 className="text-lg sm:text-2xl font-bold text-primary-low">
@@ -334,13 +338,18 @@ export default function Home({
                   <p className="mt-2 text-sm sm:text-lg text-primary-low/70">
                     {feature.description}
                   </p>
+                  {feature.premium && (
+                    <p className="mt-2 text-xs sm:text-sm text-primary-low/50 italic">
+                      (Premium feature)
+                    </p>
+                  )}
                 </div>
                 <div
                   className={classNames(
                     featureIdx % 2 === 0
                       ? "lg:col-start-6 xl:col-start-5"
                       : "lg:col-start-1",
-                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
+                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8",
                   )}
                 >
                   <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
@@ -380,7 +389,7 @@ export default function Home({
       />
 
       <Link
-        href={BASE_GITHUB_PROJECT_URL + "/discussions"}
+        href="/docs/faqs"
         rel="noopener noreferrer"
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"

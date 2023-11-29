@@ -3,10 +3,10 @@ import AxeBuilder from "@axe-core/playwright";
 import { login, logout } from "../setup/auth";
 
 const adminUser = {
-  id: "66666666",
   name: "Automated Test Admin User",
   email: "test-admin-user@test.com",
   username: "_test-admin-user",
+  type: "free",
 };
 
 test("Guest user cannot access admin profiles", async ({ browser }) => {

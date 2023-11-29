@@ -3,6 +3,7 @@ import ClipboardCopy from "@components/ClipboardCopy.js";
 import Link from "@components/Link.js";
 import Youtube from "@components/embeds/Youtube.js";
 import Alert from "@components/Alert.js";
+import { BASE_WEBSITE_URL } from "@constants/index";
 
 ## Quickstart - creating your Profile through Forms
 
@@ -12,7 +13,7 @@ You can create your Profile by completing a Form on the BioDrop app.
 
 To do this, you need a GitHub account. If you do not have one yet, you can create one for free with an email address and password.
 
-1. Go to the [BioDrop homepage](https://biodrop.io/)
+1. Go to the <Link href={BASE_WEBSITE_URL} target="_blank" rel="noopener">BioDrop homepage</Link>
 
 2. Click on `Sign up`
 
@@ -53,6 +54,20 @@ You will see a notification at the top of the page which looks like this:
 ![BioDrop Form created Profile](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/8a14efae-3867-4304-b12f-ede862c24478)
 
 7. Your Profile will be then be available on your custom URL (BioDrop.io/eddiejaoude)
+
+<Alert
+  type="info"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      Your Profile with automatically be prepopulate with your basic GitHub information
+      and link to your GitHub profile. You can update this accordingly in the "name"
+      field or in the <Link href="/docs/how-to-guides/links-forms">
+        links
+      </Link> page.
+    </>
+  }
+/>
 
 ## Next steps
 

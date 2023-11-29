@@ -28,7 +28,7 @@ export const navigation = [
       { name: "Editing with JSON", href: "/docs/how-to-guides/editing-json" },
       { name: "Editing with Forms", href: "/docs/how-to-guides/editing-forms" },
       { name: "JSON to Forms", href: "/docs/how-to-guides/json-to-forms" },
-      { name: "BioDrop CLI", href: "/docs/environments/linkfree-cli" },
+      { name: "BioDrop CLI", href: "/docs/environments/biodrop-cli" },
       { name: "Available Icons", href: "/icons" },
     ],
   },
@@ -70,6 +70,10 @@ export const navigation = [
         name: "GitHub Repos with Forms",
         href: "/docs/how-to-guides/repos-forms",
       },
+      {
+        name: "Premium Features",
+        href: "/docs/how-to-guides/premium",
+      },
     ],
   },
   {
@@ -89,7 +93,10 @@ export const navigation = [
         href: "/docs/environments/environment-variables",
       },
       { name: "MongoDB Atlas", href: "/docs/environments/local-with-atlas" },
-      { name: "Debugging in VS Code", href: "/docs/environments/debugging-in-vscode" },
+      {
+        name: "Debugging in VS Code",
+        href: "/docs/environments/debugging-in-vscode",
+      },
       { name: "Reviewers", href: "/docs/contributing/reviewers" },
       { name: "Storybook", href: "/docs/contributing/storybook" },
       { name: "Playwright", href: "/docs/contributing/automated-tests" },
@@ -98,9 +105,19 @@ export const navigation = [
     ],
   },
   {
+    name: "Premium",
+    // icon: ChartPieIcon,
+    children: [
+      { name: "Auto", href: "/docs/premium/auto" },
+      { name: "Customisation", href: "/docs/premium/customisation" },
+      { name: "Custom Domain", href: "/docs/premium/domain" },
+    ],
+  },
+  {
     name: "Other",
     // icon: ChartPieIcon,
     children: [
+      { name: "Open Source Roadmap", href: "/docs/open-source-roadmap" },
       { name: "Profile Tips", href: "/docs/profile-tips" },
       { name: "Full Profile JSON example", href: "/docs/full-profile-example" },
       { name: "Map Information", href: "/docs/map" },
@@ -128,7 +145,7 @@ export default function DocsLayout({ children, title, section, name }) {
 
         <div className="flex flex-grow flex-col sm:flex-row">
           <SideNav navigation={navigation} />
-          <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12">
+          <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12 overflow-auto">
             <MDXProvider components={ComponentStyle}>
               <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white prose">
                 {children}

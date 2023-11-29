@@ -7,14 +7,12 @@ import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
 import { Milestone } from "@models/Profile/Milestone";
+import logChange from "@models/middlewares/logChange";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
-  if (!session) {
-    res.status(401).json({ message: "You must be logged in." });
-    return;
-  }
   const username = session.username;
+
   if (!["GET", "PUT", "DELETE"].includes(req.method)) {
     return res
       .status(400)
@@ -22,18 +20,25 @@ export default async function handler(req, res) {
   }
 
   const { data } = req.query;
+  const context = { req, res };
+
   let milestone = {};
   if (req.method === "GET") {
     milestone = await getMilestoneApi(username, data[0]);
   }
   if (req.method === "DELETE") {
-    milestone = await deleteMilestoneApi(username, data[0]);
+    milestone = await deleteMilestoneApi(context, username, data[0]);
   }
   if (req.method === "PUT") {
     if (data?.length && data[0]) {
-      milestone = await updateMilestoneApi(username, data[0], req.body);
+      milestone = await updateMilestoneApi(
+        context,
+        username,
+        data[0],
+        req.body,
+      );
     } else {
-      milestone = await addMilestoneApi(username, req.body);
+      milestone = await addMilestoneApi(context, username, req.body);
     }
   }
 
@@ -75,9 +80,16 @@ export async function getMilestoneApi(username, id) {
   return JSON.parse(JSON.stringify(getMilestone[0]));
 }
 
-export async function updateMilestoneApi(username, id, updateMilestone) {
+export async function updateMilestoneApi(
+  context,
+  username,
+  id,
+  updateMilestone,
+) {
   await connectMongo();
   const log = logger.child({ username });
+
+  const beforeUpdate = await getMilestoneApi(username, id);
 
   let getMilestone = {};
 
@@ -88,11 +100,12 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
       "title",
       "icon",
       "description",
+      "dateFormat",
     ]);
   } catch (e) {
     log.error(
       e,
-      `validation failed to update milestone for username: ${username}`
+      `validation failed to update milestone for username: ${username}`,
     );
     return { error: e.errors };
   }
@@ -109,7 +122,7 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
           "milestones.$": updateMilestone,
         },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     );
     getMilestone = await getMilestoneApi(username, id);
   } catch (e) {
@@ -118,12 +131,28 @@ export async function updateMilestoneApi(username, id, updateMilestone) {
     return { error };
   }
 
+  // Add to Changelog
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Milestone",
+      changesBefore: beforeUpdate,
+      changesAfter: await getMilestoneApi(username, id),
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Milestone changes in changelog for username: ${username}`,
+    );
+  }
+
   return JSON.parse(JSON.stringify(getMilestone));
 }
 
-export async function deleteMilestoneApi(username, id) {
+export async function deleteMilestoneApi(context, username, id) {
   await connectMongo();
   const log = logger.child({ username });
+
+  const beforeDelete = await getMilestoneApi(username, id);
 
   try {
     await Profile.findOneAndUpdate(
@@ -140,7 +169,7 @@ export async function deleteMilestoneApi(username, id) {
           },
         },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     );
   } catch (e) {
     const error = `failed to delete milestone for username: ${username}`;
@@ -148,10 +177,24 @@ export async function deleteMilestoneApi(username, id) {
     return { error };
   }
 
+  // Add to Changelog
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Milestone",
+      changesBefore: beforeDelete,
+      changesAfter: null,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Milestone changes in changelog for username: ${username}`,
+    );
+  }
+
   return JSON.parse(JSON.stringify({}));
 }
 
-export async function addMilestoneApi(username, addMilestone) {
+export async function addMilestoneApi(context, username, addMilestone) {
   await connectMongo();
   const log = logger.child({ username });
   let getMilestone = {};
@@ -163,11 +206,12 @@ export async function addMilestoneApi(username, addMilestone) {
       "title",
       "icon",
       "description",
+      "dateFormat",
     ]);
   } catch (e) {
     log.error(
       e,
-      `validation failed to add milestone for username: ${username}`
+      `validation failed to add milestone for username: ${username}`,
     );
     return { error: e.errors };
   }
@@ -185,13 +229,27 @@ export async function addMilestoneApi(username, addMilestone) {
         },
         $push: { milestones: { ...addMilestone, _id: id } },
       },
-      { upsert: true, new: true }
+      { upsert: true, new: true },
     );
     getMilestone = await getMilestoneApi(username, id);
   } catch (e) {
     const error = `failed to add milestone for username: ${username}`;
     log.error(e, error);
     return { error };
+  }
+
+  // Add to Changelog
+  try {
+    logChange(await getServerSession(context.req, context.res, authOptions), {
+      model: "Milestone",
+      changesBefore: null,
+      changesAfter: getMilestone,
+    });
+  } catch (e) {
+    log.error(
+      e,
+      `failed to record Milestone changes in changelog for username: ${username}`,
+    );
   }
 
   return JSON.parse(JSON.stringify(getMilestone));

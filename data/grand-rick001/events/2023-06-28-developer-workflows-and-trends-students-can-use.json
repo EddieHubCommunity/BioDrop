@@ -4,8 +4,8 @@
   "name": "Developer Workflows and Trends Students can use!",
   "description": "In this livestream, with Ruby Sattar being the host, we discussed some developer trends and workflows that would benefit students and juniors. I spoke about some noteworthy trends in web development, namely responsive web design, single page applications and progressive web apps. This was my first time doing a livestream and I really enjoyed the process getting to that point and I'm glad I got most of the things right.",
   "date": {
-  "start": "2023-06-28T17:00:00.000+00:00",
-  "end": "2023-06-28T18:00:00.000+00:00"
+    "start": "2023-06-28T17:00:00.000+00:00",
+    "end": "2023-06-28T18:00:00.000+00:00"
   },
   "url": "https://youtu.be/6-I--55YMTM",
   "userStatus": "speaking",

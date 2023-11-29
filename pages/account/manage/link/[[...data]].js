@@ -26,18 +26,9 @@ const animations = config.animations;
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const id = context.query.data ? context.query.data[0] : undefined;
+
   let link = {};
   if (id) {
     try {
@@ -68,14 +59,23 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
   const [animation, setAnimation] = useState(
-    link.animation || Object.keys(config.animations)[0]
+    link.animation || Object.keys(config.animations)[0],
   );
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     let method = "POST";
-    let putLink = { group, name, url, icon, isEnabled, isPinned, animation };
+    let selectedIcon = icon !== "" ? icon : "FaGlobe";
+    let putLink = {
+      group,
+      name,
+      url,
+      icon: selectedIcon,
+      isEnabled,
+      isPinned,
+      animation,
+    };
 
     let alert = "created";
     let apiUrl = `${BASE_URL}/api/account/manage/link`;
@@ -101,7 +101,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
         type: "error",
         message: "Link add/update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
@@ -213,7 +213,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       onChange={(e) => setName(e.target.value)}
                       value={name}
                       required
-                      minLength="2"
+                      minLength="1"
                       maxLength="128"
                     />
                     <p className="text-sm text-primary-low-medium">

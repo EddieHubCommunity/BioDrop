@@ -19,8 +19,15 @@ export async function getProfiles() {
   let profiles = [];
   try {
     profiles = await Profile.find(
-      { name: { $exists: true }, isEnabled: true },
-      ["_id", "bio", "name", "username", "avatar", "tags", "updatedAt"]
+      {
+        name: { $exists: true },
+        isEnabled: true,
+        $or: [
+          { isShadowBanned: { $exists: false } },
+          { isShadowBanned: { $eq: false } },
+        ],
+      },
+      ["_id", "bio", "name", "username", "avatar", "tags", "updatedAt"],
     )
       .sort({ updatedAt: -1 })
       .limit(9);

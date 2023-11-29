@@ -19,21 +19,28 @@ import ConfirmDialog from "@components/ConfirmDialog";
 import { PROJECT_NAME } from "@constants/index";
 import IconSearch from "@components/IconSearch";
 import Textarea from "@components/form/Textarea";
+import Select from "@components/form/Select";
+
+let options = [
+  {
+    value: "dd/mm/yyyy",
+    label: "dd/mm/yyyy",
+  },
+  {
+    value: "month/year",
+    label: "month/year",
+  },
+  {
+    value: "year",
+    label: "year",
+  },
+];
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const id = context.query.data ? context.query.data[0] : undefined;
+
   let milestone = {};
   if (id) {
     try {
@@ -62,6 +69,9 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const [icon, setIcon] = useState(milestone.icon || "");
   const [date, setDate] = useState(milestone.date || "");
   const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
+  const [dateFormat, setdateFormat] = useState(
+    milestone.dateFormat || options[0].value,
+  );
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -74,6 +84,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       icon,
       date,
       isGoal,
+      dateFormat,
     };
     let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
     if (milestone._id) {
@@ -96,7 +107,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         type: "error",
         message: "Milestone update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
@@ -112,7 +123,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     );
     const update = await res.json();
 
@@ -133,7 +144,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     if (!isNaN(parse)) {
       setDate(new Date(parse).toISOString().split("T")[0]);
     }
-  }, [milestone.date]);
+  }, [date, milestone.date]);
 
   return (
     <>
@@ -184,6 +195,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       For example: <i>GitHub Star</i>
                     </p>
                   </div>
+
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Textarea
                       name="description"
@@ -221,10 +233,18 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       onChange={(e) => setDate(e.target.value)}
                       value={date}
                       required
+                      min="1970-01-01"
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
                     </p>
+                    <Select
+                      name="layout"
+                      label="Select format"
+                      value={dateFormat}
+                      options={options}
+                      onChange={(e) => setdateFormat(e.target.value)}
+                    />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <IconSearch
@@ -263,7 +283,15 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
           </form>
           <div>
             <UserMilestone
-              milestone={{ title, description, url, icon, date, isGoal }}
+              milestone={{
+                title,
+                description,
+                url,
+                icon,
+                date,
+                isGoal,
+                dateFormat,
+              }}
               isGoal={isGoal}
             />
           </div>

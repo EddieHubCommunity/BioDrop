@@ -1,7 +1,7 @@
-[![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop) 
-![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Fbio-drop-biodrop-io%2Fuptime.json) 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/BioDrop)](https://github.com/EddieHubCommunity/BioDrop/releases) 
-![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/BioDrop) 
+[![Open in Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop)
+![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Fbio-drop-biodrop-io%2Fuptime.json)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/BioDrop)](https://github.com/EddieHubCommunity/BioDrop/releases)
+![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/BioDrop)
 
 **Project renamed from `LinkFree` to `BioDrop`**(please update your local git clones with the new remote name)
 
@@ -16,6 +16,16 @@ Your profile will have links to your social media and content. You can also add 
 Here is an example of a BioDrop Profile https://biodrop.io/eddiejaoude
 
 ![Example profile and statistics page on BioDrop with light and dark mode](https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png)
+
+## Hacktoberfest
+
+> [!IMPORTANT]  
+> Creating/Changing/Deleting your JSON Profile do **not** count towards hacktoberfest and will automatically be marked with the label `invalid` so that Hacktoberfest ignores your Pull Request
+> But this does not affect your Pull Request being accepted and merged into BioDrop
+
+All other Pull Requests will count towards Hacktoberfest.
+
+If you are a new contributor to this project, have a look out for issues that have the [Hacktoberfest](https://github.com/EddieHubCommunity/BioDrop/issues?q=is%3Aissue+is%3Aopen+label%3AHacktoberfest) label.
 
 ## Tech Stack
 
@@ -56,7 +66,7 @@ Read more in the official documentation - https://biodrop.io/docs/environments/g
 
 In the cloud-free development environment which will have all the dependencies you need (for example MongoDB).
 
-You can use Gitpod in the cloud [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop/)
+[![Open BioDrop in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop)
 
 Read more in the official documentation - https://biodrop.io/docs/environments/gitpod
 
@@ -69,7 +79,7 @@ This environment is fully on your computer and requires each dependency (for exa
 Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
 - [NodeJs](https://nodejs.org/en/download/) (Works with Node LTS version v18.16.1)
-- [MongoDB](https://www.mongodb.com/home)
+- [MongoDB](https://www.mongodb.com/home) (v6+)
 - Optional [NVM](https://github.com/nvm-sh/nvm): Switch Node version by using `nvm use` (on Windows, use `nvm use v18.16.1`). If this is not installed, run `nvm install v18.16.1`.
 
 #### Commands
