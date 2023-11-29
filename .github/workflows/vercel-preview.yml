@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - feat-reload-pwa
+      - feat-babblebey-embed-profile
 
 jobs:
   deploy:
