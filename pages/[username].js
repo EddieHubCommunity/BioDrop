@@ -26,10 +26,12 @@ export async function getServerSideProps(context) {
   if ("embed" in context.query) {
     return {
       redirect: {
-        destination: `/api/profiles/${username}/embed?theme=${context.query.theme || "default"}`,
+        destination: `/api/profiles/${username}/embed?theme=${
+          context.query.theme || "default"
+        }`,
         permanent: true,
       },
-    }
+    };
   }
 
   const { status, profile } = await getUserApi(req, res, username, {

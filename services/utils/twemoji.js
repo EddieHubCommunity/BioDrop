@@ -9,11 +9,11 @@
 const U200D = String.fromCharCode(8205);
 const UFE0Fg = /\uFE0F/g;
 
-export function getIconCode (char) {
+export function getIconCode(char) {
   return toCodePoint(!char.includes(U200D) ? char.replace(UFE0Fg, "") : char);
 }
 
-function toCodePoint (unicodeSurrogates) {
+function toCodePoint(unicodeSurrogates) {
   const r = [];
   let c = 0;
   let i = 0;
@@ -36,26 +36,20 @@ function toCodePoint (unicodeSurrogates) {
 
 export const apis = {
   twemoji: (code) =>
-    `https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/${
-      code.toLowerCase()
-    }.svg`,
+    `https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/${code.toLowerCase()}.svg`,
   openmoji: "https://cdn.jsdelivr.net/npm/@svgmoji/openmoji@2.0.0/svg/",
   blobmoji: "https://cdn.jsdelivr.net/npm/@svgmoji/blob@2.0.0/svg/",
   noto: "https://cdn.jsdelivr.net/gh/svgmoji/svgmoji/packages/svgmoji__noto/svg/",
   fluent: (code) =>
-    `https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/${
-      code.toLowerCase()
-    }_color.svg`,
+    `https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/${code.toLowerCase()}_color.svg`,
   fluentFlat: (code) =>
-    `https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/${
-      code.toLowerCase()
-    }_flat.svg`,
+    `https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/${code.toLowerCase()}_flat.svg`,
 };
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const emojiCache = {};
 
-export async function loadEmoji (type, code) {
+export async function loadEmoji(type, code) {
   const key = `${type}:${code}`;
 
   if (key in emojiCache) {
@@ -69,7 +63,9 @@ export async function loadEmoji (type, code) {
   const api = apis[type];
 
   if (typeof api === "function") {
-    return (emojiCache[key] = fetch(api(code)).then(async r => r.text()));
+    return (emojiCache[key] = fetch(api(code)).then(async (r) => r.text()));
   }
-  return (emojiCache[key] = fetch(`${api}${code.toUpperCase()}.svg`).then(async r => r.text()));
+  return (emojiCache[key] = fetch(`${api}${code.toUpperCase()}.svg`).then(
+    async (r) => r.text(),
+  ));
 }
