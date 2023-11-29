@@ -17,6 +17,7 @@ import Markdown from "@components/Markdown";
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
+  const [embedFormat, setEmbedFormat] = useState("md");
   const [premiumShow, setPremiumShow] = useState(false);
   const router = useRouter();
   const fallbackImageSize = 120;
@@ -155,6 +156,30 @@ function UserProfile({ BASE_URL, data }) {
                     {`${BASE_URL}/${data.username}`}
                   </p>
                 </ClipboardCopy>
+              </div>
+              <div className="mt-5 space-y-4 items-center justify-center w-full overflow-hidden">
+                <h5 className="font-medium text-lg">Embed Profile</h5>
+                <div className="flex">
+                  <select 
+                    className="w-fit flex-none dark:text-gray-300 border-white pr-8 focus:border-white focus:ring-0 bg-transparent border p-3 rounded-l-md"
+                    onChange={e => setEmbedFormat(e.currentTarget.value)}
+                  >
+                    <option value="md">Markdown</option>
+                    <option value="html">HTML</option>
+                  </select>
+                  <div className="flex flex-auto">
+<ClipboardCopy>
+  <div className="dark:text-gray-300 border p-3 rounded-r-md h-full">
+    <p className="truncate absolute max-w-[80%]">
+      {embedFormat === "md" 
+        ? `[![${data.username} | BioDrop](${BASE_URL}/${data.username}?embed)](${BASE_URL}/${data.username})`
+        : `<a href="${BASE_URL}/${data.username}"><img src="${BASE_URL}/${data.username}?embed" alt="${data.username} | BioDrop" /></a>`
+      }
+    </p>
+  </div>
+</ClipboardCopy>
+                  </div>
+                </div> 
               </div>
             </>
           )}
