@@ -31,6 +31,7 @@ export async function middleware(req) {
   const hostedDomains = [hostedDomain, `www.${hostedDomain}`];
 
   // if custom domain + on root path
+  console.log("--------", "domain: ", hostname, "path: ", reqPathName);
   if (!hostedDomains.includes(hostname) && reqPathName === "/") {
     console.log(`custom domain used: "${hostname}"`);
 
