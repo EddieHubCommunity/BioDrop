@@ -1,6 +1,7 @@
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
 import { ReactSortable } from "react-sortablejs";
+import Notification from "@components/Notification";
 
 export default function TagsInput({
   tags,
@@ -8,6 +9,8 @@ export default function TagsInput({
   onTagRemove,
   inputRef,
   setTags,
+  showNotification,
+  setShowNotification,
 }) {
   //key code
   const { comma, backspace, enter } = {
@@ -15,9 +18,20 @@ export default function TagsInput({
     backspace: 8,
     enter: 13,
   };
-
+  const maxLength = 32;
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
+    if (inputValue.length >= maxLength && e.keyCode !== backspace) {
+      // '=' sign because in 32 char ',' sign does't count
+      setShowNotification({
+        show: true,
+        type: "error",
+        message: "Tag",
+        additionalMessage: "Tag limit exceeded",
+      });
+      return;
+    }
+
     if (
       e.keyCode === comma ||
       inputValue.endsWith(",") ||
@@ -66,6 +80,15 @@ export default function TagsInput({
 
   return (
     <>
+      <Notification
+        show={showNotification.show}
+        type={showNotification.type}
+        onClose={() =>
+          setShowNotification({ ...showNotification, show: false })
+        }
+        message={showNotification.message}
+        additionalMessage={showNotification.additionalMessage}
+      />
       <label htmlFor="tags">Tags</label>
       <ReactSortable
         tag="ul"

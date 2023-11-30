@@ -1,45 +1,45 @@
-## [2.90.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.90.0...v2.90.1) (2023-11-23)
+## [2.92.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.92.0...v2.92.1) (2023-11-30)
 
 
 ### Bug Fixes
 
-* duplicate tags issue using set constructor ([#9820](https://github.com/EddieHubCommunity/BioDrop/issues/9820)) ([bde2fe9](https://github.com/EddieHubCommunity/BioDrop/commit/bde2fe9fb21535bddad9580679bb5dc77a6a5536))
+* dark mode confirm dialog box ([#9814](https://github.com/EddieHubCommunity/BioDrop/issues/9814)) ([3d07944](https://github.com/EddieHubCommunity/BioDrop/commit/3d07944ce85222d70b80cbde6e10af21e68e1bfb))
 
 
 
-# [2.90.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.6...v2.90.0) (2023-11-22)
+# [2.92.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.2...v2.92.0) (2023-11-28)
 
 
 ### Features
 
-* admin stats for custom domains ([#9816](https://github.com/EddieHubCommunity/BioDrop/issues/9816)) ([c808cff](https://github.com/EddieHubCommunity/BioDrop/commit/c808cff4622705df632777b8c3442fa75af96bab))
+* character limit on tags ([#9762](https://github.com/EddieHubCommunity/BioDrop/issues/9762)) ([eac304e](https://github.com/EddieHubCommunity/BioDrop/commit/eac304e1d6070837ac99e91c31c24dc45caa00ad))
 
 
 
-## [2.89.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.5...v2.89.6) (2023-11-21)
-
-
-### Bug Fixes
-
-* profile sub domain ([#9811](https://github.com/EddieHubCommunity/BioDrop/issues/9811)) ([159e219](https://github.com/EddieHubCommunity/BioDrop/commit/159e21902bc7390c63a666db9d80fcb316210fd1))
-
-
-
-## [2.89.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.4...v2.89.5) (2023-11-20)
+## [2.91.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.1...v2.91.2) (2023-11-27)
 
 
 ### Bug Fixes
 
-* reduce link name length to min 1 ([#9805](https://github.com/EddieHubCommunity/BioDrop/issues/9805)) ([53e906a](https://github.com/EddieHubCommunity/BioDrop/commit/53e906ae4df720c3cd0e3505fe9e3e1720c99a37))
+* null icons ([#9847](https://github.com/EddieHubCommunity/BioDrop/issues/9847)) ([c0021fa](https://github.com/EddieHubCommunity/BioDrop/commit/c0021fa10bb3b486fe12004c3b666eb425d3a3b0))
 
 
 
-## [2.89.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.3...v2.89.4) (2023-11-19)
+## [2.91.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.0...v2.91.1) (2023-11-27)
 
 
 ### Bug Fixes
 
-* pricing premium text ([#9806](https://github.com/EddieHubCommunity/BioDrop/issues/9806)) ([bd90bc7](https://github.com/EddieHubCommunity/BioDrop/commit/bd90bc7e50e7795c2e7dfd3f3b06298b64f0aadb))
+* popular icon search ([#9845](https://github.com/EddieHubCommunity/BioDrop/issues/9845)) ([0e0e1af](https://github.com/EddieHubCommunity/BioDrop/commit/0e0e1af966f7ef08b400fe132044441134ff6c06))
+
+
+
+# [2.91.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.90.1...v2.91.0) (2023-11-27)
+
+
+### Features
+
+* icon search show popular and badge counter ([#9843](https://github.com/EddieHubCommunity/BioDrop/issues/9843)) ([6ad83cd](https://github.com/EddieHubCommunity/BioDrop/commit/6ad83cd742777b02678762a0a860f026179dd095)), closes [#9819](https://github.com/EddieHubCommunity/BioDrop/issues/9819)
 
 
 
