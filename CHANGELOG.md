@@ -1,3 +1,12 @@
+## [2.92.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.92.0...v2.92.1) (2023-11-30)
+
+
+### Bug Fixes
+
+* dark mode confirm dialog box ([#9814](https://github.com/EddieHubCommunity/BioDrop/issues/9814)) ([3d07944](https://github.com/EddieHubCommunity/BioDrop/commit/3d07944ce85222d70b80cbde6e10af21e68e1bfb))
+
+
+
 # [2.92.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.2...v2.92.0) (2023-11-28)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * icon search show popular and badge counter ([#9843](https://github.com/EddieHubCommunity/BioDrop/issues/9843)) ([6ad83cd](https://github.com/EddieHubCommunity/BioDrop/commit/6ad83cd742777b02678762a0a860f026179dd095)), closes [#9819](https://github.com/EddieHubCommunity/BioDrop/issues/9819)
-
-
-
-## [2.90.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.90.0...v2.90.1) (2023-11-23)
-
-
-### Bug Fixes
-
-* duplicate tags issue using set constructor ([#9820](https://github.com/EddieHubCommunity/BioDrop/issues/9820)) ([bde2fe9](https://github.com/EddieHubCommunity/BioDrop/commit/bde2fe9fb21535bddad9580679bb5dc77a6a5536))
 
 
 
