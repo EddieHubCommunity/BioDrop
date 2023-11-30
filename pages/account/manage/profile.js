@@ -240,9 +240,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         minLength="2"
                         maxLength="256"
                       />
-                      <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        You can use Markdown syntax.
-                      </p>
+                      <div className="flex justify-between text-sm text-primary-medium-low dark:text-primary-low-high">
+                        <p>You can use Markdown syntax.</p>
+                        <p>{bio.length} / 256</p>
+                      </div>
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
