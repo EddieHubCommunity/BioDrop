@@ -217,7 +217,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       name="description"
                       placeholder="Description of your Milestone"
                     />
-                    {errors.description && <p className=" text-red-500 ">{errors.description.message}</p>}
+                    {errors.description && <p className="text-red-500">{errors.description.message}</p>}
                     <p className="text-sm text-primary-low-medium">
                       Describe this Milestone
                     </p>
