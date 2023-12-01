@@ -1,36 +1,127 @@
 {
   "name": "Michael Raymond",
-  "bio": "Just a guy trying to dev stuff",
+  "bio": "Support Team Lead @ LogicMonitor 🤖 | Flutter Developer 🐦 | Coffee Weirdo ☕ | Taco Enthusiast 🌮",
+  "tags": [
+    "flutter",
+    "dart",
+    "react",
+    "typescript"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithubAlt",
+      "url": "https://github.com/mjr2595"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/mjraymond"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/MFRayRay"
+    }
+  ],
   "links": [
     {
+      "group": "Portfolio",
+      "name": "My site and lil blog",
+      "url": "https://michaelraymond.dev",
+      "icon": "FaGlobe"
+    },
+    {
+      "group": "Portfolio",
+      "name": "Project: Nuron, a self-empowerment productivity app",
+      "url": "https://thenuronway.com/",
+      "icon": "FaCode"
+    },
+    {
+      "group": "Portfolio",
       "name": "Git over here",
       "url": "https://github.com/mjr2595",
       "icon": "FaGithubAlt"
     },
     {
-      "name": "Link with me",
+      "group": "Portfolio",
+      "name": "Link up so we can sync up",
       "url": "https://www.linkedin.com/in/mjraymond",
-      "icon": "FaLinkedinIn"
+      "icon": "FaLinkedin"
     },
     {
+      "group": "Community",
+      "name": "Gift of a Life Foundation",
+      "url": "https://goalfoundation.us/",
+      "icon": "FaGift"
+    },
+    {
+      "group": "Community",
+      "name": "Tech By Choice: Nonprofit helping people enter, stay, and thrive in tech!",
+      "url": "https://www.techbychoice.org/",
+      "icon": "FaFistRaised"
+    },
+    {
+      "group": "Community",
+      "name": "Code2College",
+      "url": "https://code2college.org/",
+      "icon": "FaGraduationCap"
+    },
+    {
+      "group": "Community",
+      "name": "DEV.to, but I don't blog (here)",
+      "url": "https://dev.to/michael_raymond",
+      "icon": "FaDev"
+    },
+    {
+      "group": "Just for Fun",
+      "name": "Dis my Discord",
+      "url": "https://discordapp.com/users/691148133580931143",
+      "icon": "FaDiscord"
+    },
+    {
+      "group": "Just for Fun",
+      "name": "Chirp Chirp",
+      "url": "https://twitter.com/MFRayRay",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Just for Fun",
+      "name": "I think Mastodon is still a thing",
+      "url": "https://universeodon.com/@michaeldon",
+      "icon": "FaMastodon"
+    },
+    {
+      "group": "Other Stuff",
       "name": "I got cred",
       "url": "https://www.credly.com/users/michael-raymond.ec76dad1/badges",
       "icon": "FaAward"
     },
     {
+      "group": "Other Stuff",
       "name": "Let's be pen pals",
       "url": "https://codepen.io/mjraymond",
       "icon": "FaCodepen"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Volunteering with Gift of a Life Foundation",
+      "date": "May 2010",
+      "icon": "FaGift",
+      "description": "Working on a mobile Flutter app Nuron",
+      "url": "August 2023"
     },
     {
-      "name": "I don't blog",
-      "url": "https://dev.to/michael_raymond",
-      "icon": "FaDev"
+      "title": "Graduated from Nucamp Coding Bootcamp",
+      "date": "April 2023",
+      "icon": "FaCampground",
+      "description": "Full Stack Web + Mobile Development with Honors",
+      "url": "https://www.nucamp.co/"
     },
     {
-      "name": "chirp chirp",
-      "url": "https://twitter.com/MFRayRay",
-      "icon": "FaTwitter"
+      "title": "Graduated University",
+      "date": "2016",
+      "icon": "FaGraduationCap",
+      "description": "UT Austin, Computer Science",
+      "url": "https://www.cs.utexas.edu/"
     }
   ]
 }
