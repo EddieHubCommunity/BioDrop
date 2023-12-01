@@ -252,6 +252,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         onTagRemove={handleTagRemove}
                         tags={tags}
                         inputRef={tagInputRef}
+                        setTags={setTags}
                         showNotification={showNotification}
                         setShowNotification={setShowNotification}
                       />

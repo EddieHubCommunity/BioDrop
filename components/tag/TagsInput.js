@@ -1,5 +1,6 @@
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
+import { ReactSortable } from "react-sortablejs";
 import Notification from "@components/Notification";
 
 export default function TagsInput({
@@ -7,6 +8,7 @@ export default function TagsInput({
   onTagAdd,
   onTagRemove,
   inputRef,
+  setTags,
   showNotification,
   setShowNotification,
 }) {
@@ -49,7 +51,7 @@ export default function TagsInput({
   const tagItems = tags.map((tag, i) => (
     <li
       key={i}
-      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1"
+      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1 hover:cursor-move"
     >
       <span>{tag}</span>
       <button
@@ -78,7 +80,11 @@ export default function TagsInput({
         additionalMessage={showNotification.additionalMessage}
       />
       <label htmlFor="tags">Tags</label>
-      <ul
+      <ReactSortable
+        tag="ul"
+        list={tags}
+        setList={setTags}
+        swap
         role="list"
         className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium"
       >
@@ -94,7 +100,7 @@ export default function TagsInput({
             onKeyDown={handleKeyDown}
           />
         </li>
-      </ul>
+      </ReactSortable>
     </>
   );
 }
