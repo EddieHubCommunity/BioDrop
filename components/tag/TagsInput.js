@@ -1,5 +1,6 @@
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
+import { ReactSortable } from "react-sortablejs";
 import Notification from "@components/Notification";
 
 export default function TagsInput({
@@ -7,19 +8,14 @@ export default function TagsInput({
   onTagAdd,
   onTagRemove,
   inputRef,
+  setTags,
   showNotification,
   setShowNotification,
 }) {
-  //key code
-  const { comma, backspace, enter } = {
-    comma: 188,
-    backspace: 8,
-    enter: 13,
-  };
   const maxLength = 32;
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
-    if (inputValue.length >= maxLength && e.keyCode !== backspace) {
+    if (inputValue.length >= maxLength && e.key !== "Backspace") {
       // '=' sign because in 32 char ',' sign does't count
       setShowNotification({
         show: true,
@@ -30,11 +26,7 @@ export default function TagsInput({
       return;
     }
 
-    if (
-      e.keyCode === comma ||
-      inputValue.endsWith(",") ||
-      e.keyCode === enter
-    ) {
+    if (e.key === "Comma" || inputValue.endsWith(",") || e.key === "Enter") {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
         return;
@@ -46,7 +38,7 @@ export default function TagsInput({
 
   const handleKeyDown = (e) => {
     if (
-      e.keyCode === backspace &&
+      e.key === "Backspace" &&
       inputRef.current?.value === "" &&
       tags.length > 0
     ) {
@@ -59,7 +51,7 @@ export default function TagsInput({
   const tagItems = tags.map((tag, i) => (
     <li
       key={i}
-      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1"
+      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1 hover:cursor-move"
     >
       <span>{tag}</span>
       <button
@@ -88,7 +80,11 @@ export default function TagsInput({
         additionalMessage={showNotification.additionalMessage}
       />
       <label htmlFor="tags">Tags</label>
-      <ul
+      <ReactSortable
+        tag="ul"
+        list={tags}
+        setList={setTags}
+        swap
         role="list"
         className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium"
       >
@@ -104,7 +100,7 @@ export default function TagsInput({
             onKeyDown={handleKeyDown}
           />
         </li>
-      </ul>
+      </ReactSortable>
     </>
   );
 }
