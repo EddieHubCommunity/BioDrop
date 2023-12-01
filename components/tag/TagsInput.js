@@ -10,16 +10,10 @@ export default function TagsInput({
   showNotification,
   setShowNotification,
 }) {
-  //key code
-  const { comma, backspace, enter } = {
-    comma: 188,
-    backspace: 8,
-    enter: 13,
-  };
   const maxLength = 32;
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
-    if (inputValue.length >= maxLength && e.keyCode !== backspace) {
+    if (inputValue.length >= maxLength && e.key !== "Backspace") {
       // '=' sign because in 32 char ',' sign does't count
       setShowNotification({
         show: true,
@@ -30,11 +24,7 @@ export default function TagsInput({
       return;
     }
 
-    if (
-      e.keyCode === comma ||
-      inputValue.endsWith(",") ||
-      e.keyCode === enter
-    ) {
+    if (e.key === "Comma" || inputValue.endsWith(",") || e.key === "Enter") {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
         return;
@@ -46,7 +36,7 @@ export default function TagsInput({
 
   const handleKeyDown = (e) => {
     if (
-      e.keyCode === backspace &&
+      e.key === "Backspace" &&
       inputRef.current?.value === "" &&
       tags.length > 0
     ) {
