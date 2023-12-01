@@ -1,3 +1,12 @@
+## [2.93.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.93.1...v2.93.2) (2023-12-01)
+
+
+### Bug Fixes
+
+* docs navbar stays open ([#9827](https://github.com/EddieHubCommunity/BioDrop/issues/9827)) ([5a1e4f2](https://github.com/EddieHubCommunity/BioDrop/commit/5a1e4f250870253432ebbc564edcbebd6d525bce))
+
+
+
 ## [2.93.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.93.0...v2.93.1) (2023-12-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dark mode confirm dialog box ([#9814](https://github.com/EddieHubCommunity/BioDrop/issues/9814)) ([3d07944](https://github.com/EddieHubCommunity/BioDrop/commit/3d07944ce85222d70b80cbde6e10af21e68e1bfb))
-
-
-
-# [2.92.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.2...v2.92.0) (2023-11-28)
-
-
-### Features
-
-* character limit on tags ([#9762](https://github.com/EddieHubCommunity/BioDrop/issues/9762)) ([eac304e](https://github.com/EddieHubCommunity/BioDrop/commit/eac304e1d6070837ac99e91c31c24dc45caa00ad))
 
 
 
