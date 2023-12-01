@@ -1,3 +1,12 @@
+## [2.93.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.93.0...v2.93.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* replace deprecated key code ([#9852](https://github.com/EddieHubCommunity/BioDrop/issues/9852)) ([2194f50](https://github.com/EddieHubCommunity/BioDrop/commit/2194f507a8a802f487e0cba46751b66d68dd71b6))
+
+
+
 # [2.93.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.92.2...v2.93.0) (2023-12-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * character limit on tags ([#9762](https://github.com/EddieHubCommunity/BioDrop/issues/9762)) ([eac304e](https://github.com/EddieHubCommunity/BioDrop/commit/eac304e1d6070837ac99e91c31c24dc45caa00ad))
-
-
-
-## [2.91.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.1...v2.91.2) (2023-11-27)
-
-
-### Bug Fixes
-
-* null icons ([#9847](https://github.com/EddieHubCommunity/BioDrop/issues/9847)) ([c0021fa](https://github.com/EddieHubCommunity/BioDrop/commit/c0021fa10bb3b486fe12004c3b666eb425d3a3b0))
 
 
 
