@@ -1,45 +1,45 @@
-# [2.92.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.2...v2.92.0) (2023-11-28)
+## [2.94.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.0...v2.94.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* changelog update ([#9867](https://github.com/EddieHubCommunity/BioDrop/issues/9867)) ([8caa8b0](https://github.com/EddieHubCommunity/BioDrop/commit/8caa8b0cde91666ffc441229b6b6bc674592a863))
+
+
+
+# [2.94.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.93.2...v2.94.0) (2023-12-01)
 
 
 ### Features
 
-* character limit on tags ([#9762](https://github.com/EddieHubCommunity/BioDrop/issues/9762)) ([eac304e](https://github.com/EddieHubCommunity/BioDrop/commit/eac304e1d6070837ac99e91c31c24dc45caa00ad))
+* re-ordering tags ([#9823](https://github.com/EddieHubCommunity/BioDrop/issues/9823)) ([8e3abe6](https://github.com/EddieHubCommunity/BioDrop/commit/8e3abe6c155661dab66f47310029181023cacf7a))
 
 
 
-## [2.91.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.1...v2.91.2) (2023-11-27)
-
-
-### Bug Fixes
-
-* null icons ([#9847](https://github.com/EddieHubCommunity/BioDrop/issues/9847)) ([c0021fa](https://github.com/EddieHubCommunity/BioDrop/commit/c0021fa10bb3b486fe12004c3b666eb425d3a3b0))
-
-
-
-## [2.91.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.91.0...v2.91.1) (2023-11-27)
+## [2.93.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.93.1...v2.93.2) (2023-12-01)
 
 
 ### Bug Fixes
 
-* popular icon search ([#9845](https://github.com/EddieHubCommunity/BioDrop/issues/9845)) ([0e0e1af](https://github.com/EddieHubCommunity/BioDrop/commit/0e0e1af966f7ef08b400fe132044441134ff6c06))
+* docs navbar stays open ([#9827](https://github.com/EddieHubCommunity/BioDrop/issues/9827)) ([5a1e4f2](https://github.com/EddieHubCommunity/BioDrop/commit/5a1e4f250870253432ebbc564edcbebd6d525bce))
 
 
 
-# [2.91.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.90.1...v2.91.0) (2023-11-27)
+## [2.93.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.93.0...v2.93.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* replace deprecated key code ([#9852](https://github.com/EddieHubCommunity/BioDrop/issues/9852)) ([2194f50](https://github.com/EddieHubCommunity/BioDrop/commit/2194f507a8a802f487e0cba46751b66d68dd71b6))
+
+
+
+# [2.93.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.92.2...v2.93.0) (2023-12-01)
 
 
 ### Features
 
-* icon search show popular and badge counter ([#9843](https://github.com/EddieHubCommunity/BioDrop/issues/9843)) ([6ad83cd](https://github.com/EddieHubCommunity/BioDrop/commit/6ad83cd742777b02678762a0a860f026179dd095)), closes [#9819](https://github.com/EddieHubCommunity/BioDrop/issues/9819)
-
-
-
-## [2.90.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.90.0...v2.90.1) (2023-11-23)
-
-
-### Bug Fixes
-
-* duplicate tags issue using set constructor ([#9820](https://github.com/EddieHubCommunity/BioDrop/issues/9820)) ([bde2fe9](https://github.com/EddieHubCommunity/BioDrop/commit/bde2fe9fb21535bddad9580679bb5dc77a6a5536))
+* show current character length on bio ([#9855](https://github.com/EddieHubCommunity/BioDrop/issues/9855)) ([ae5f8ef](https://github.com/EddieHubCommunity/BioDrop/commit/ae5f8ef6de867a0ec77830410e35f3fa4c0df416))
 
 
 

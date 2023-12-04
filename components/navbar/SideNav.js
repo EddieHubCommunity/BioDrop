@@ -32,7 +32,7 @@ export default function SideNav({ navigation }) {
                   {item.name}
                 </Link>
               ) : (
-                <Disclosure as="div">
+                <Disclosure defaultOpen={item.children.some(subItem => subItem.href === pathname)}>
                   {({ open }) => (
                     <>
                       <Disclosure.Button
