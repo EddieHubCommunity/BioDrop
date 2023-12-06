@@ -1,0 +1,16 @@
+{
+  "name": "Arujjwal Negi",
+  "bio": "OPEN SOURCE | WEB DEV",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "http://twitter.com/arujjval",
+      "icon": "FaTwitter"
+    }
+    {
+      "name": "LinkedIn",
+      "url": "http://linkedin.com/arujjwal-negi",
+      "icon": "FaTwitter"
+    }
+  ]
+}
