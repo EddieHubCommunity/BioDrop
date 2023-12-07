@@ -24,7 +24,7 @@ test("Logged in free user cannot access premium locations stats", async ({
   const context = await login(browser);
   const page = await context.newPage();
   await page.goto("/account/statistics/locations");
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("domcontentloaded");
   await expect(page).toHaveURL(/account\/onboarding/);
 });
 
@@ -34,7 +34,7 @@ test("Logged in premium user can access premium locations stats", async ({
   const context = await login(browser, premiumUser);
   const page = await context.newPage();
   await page.goto("/account/statistics/locations");
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("domcontentloaded");
   await expect(page).toHaveURL("/account/statistics/locations");
 });
 
