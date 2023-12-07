@@ -1,3 +1,12 @@
+# [2.95.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.3...v2.95.0) (2023-12-07)
+
+
+### Features
+
+* admin stats active users ([#9857](https://github.com/EddieHubCommunity/BioDrop/issues/9857)) ([29a142b](https://github.com/EddieHubCommunity/BioDrop/commit/29a142bf56044481da030f85fe47eefba3e8a661))
+
+
+
 ## [2.94.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.2...v2.94.3) (2023-12-07)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * re-ordering tags ([#9823](https://github.com/EddieHubCommunity/BioDrop/issues/9823)) ([8e3abe6](https://github.com/EddieHubCommunity/BioDrop/commit/8e3abe6c155661dab66f47310029181023cacf7a))
-
-
-
-## [2.93.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.93.1...v2.93.2) (2023-12-01)
-
-
-### Bug Fixes
-
-* docs navbar stays open ([#9827](https://github.com/EddieHubCommunity/BioDrop/issues/9827)) ([5a1e4f2](https://github.com/EddieHubCommunity/BioDrop/commit/5a1e4f250870253432ebbc564edcbebd6d525bce))
 
 
 
