@@ -22,7 +22,7 @@ test("Logged in user can access manage premium but has alert", async ({
   const context = await login(browser);
   const page = await context.newPage();
   await page.goto("/account/manage/premium");
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("domcontentloaded");
   await expect(page.locator("div.alert-warning")).toHaveText(
     /Please upgrade your account for these to take effect/,
   );
@@ -35,7 +35,7 @@ test("Logged in user can access manage premium but has no alert", async ({
   const context = await login(browser, premiumUser);
   const page = await context.newPage();
   await page.goto("/account/manage/premium");
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("domcontentloaded");
   await expect(page.locator("div.alert-warning")).toBeHidden();
   await expect(page).toHaveURL(/account\/manage\/premium/);
 });
