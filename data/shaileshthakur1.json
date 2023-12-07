@@ -1,0 +1,40 @@
+{
+  "name": "Shailesh Thakur",
+  "bio": "a driven **Pre-Final Year CSE Cybersecurity Student** interested in **Development** enthusiastic about **Open Source**, **Blockchain** and **DevOps**",
+   "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/shylesstwts"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shaileshthakur1"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/shailesh-kumar-thakur/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow Me",
+      "url": "https://twitter.com/shylesstwts",
+      "icon": "FaXTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/shailesh-kumar-thakur/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub: I try contributing everyday possible.",
+      "url": "https://github.com/shaileshthakur1",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/_iamshyless_/",
+      "icon": "FaInstagram"
+    }
+  ]
+}
