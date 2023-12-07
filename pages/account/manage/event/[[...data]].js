@@ -340,6 +340,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onTagAdd={handleTagAdd}
                       onTagRemove={handleTagRemove}
                       tags={tags}
+                      setTags={setTags}
                       inputRef={tagInputRef}
                       showNotification={showNotification}
                       setShowNotification={setShowNotification}

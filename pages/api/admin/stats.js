@@ -73,6 +73,26 @@ export async function getStatsApi() {
     logger.error(e, "failed to load totalCustomDomains profiles");
   }
 
+  let dateOneMonthAgo = new Date();
+  dateOneMonthAgo.setMonth(dateOneMonthAgo.getMonth() - 1); // 1 month ago
+  let dateSixMonthAgo = new Date();
+  dateSixMonthAgo.setMonth(dateSixMonthAgo.getMonth() - 6); // 6 month ago
+  let totalActiveProfiles = { "1month": 0, "6month": 0 };
+  try {
+    totalActiveProfiles["1month"] = await Profile.countDocuments({
+      updatedAt: { $gt: dateOneMonthAgo },
+    });
+  } catch (e) {
+    logger.error(e, "failed to load totalActiveProfiles profiles");
+  }
+  try {
+    totalActiveProfiles["6month"] = await Profile.countDocuments({
+      updatedAt: { $gt: dateSixMonthAgo },
+    });
+  } catch (e) {
+    logger.error(e, "failed to load totalActiveProfiles profiles");
+  }
+
   return {
     statusCode: 200,
     stats: {
@@ -83,6 +103,7 @@ export async function getStatsApi() {
       totalPremiumProfiles: totalPremiumProfiles || 0,
       totalChangelogs: totalChangelogs || 0,
       totalCustomDomains: totalCustomDomains || 0,
+      totalActiveProfiles: totalActiveProfiles,
     },
   };
 }

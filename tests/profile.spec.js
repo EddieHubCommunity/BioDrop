@@ -120,7 +120,7 @@ test("Link navigates", async ({ page }) => {
 test("redirect to search when tag clicked", async ({ page }) => {
   await page.goto("/_test-profile-user-6");
   await page.getByRole("button", { name: "Open Source" }).first().click();
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("domcontentloaded");
   await expect(page).toHaveURL("search?keyword=open%20source");
 });
 
