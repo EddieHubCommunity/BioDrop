@@ -260,9 +260,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         minLength="2"
                         maxLength="256"
                       />
-                      <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        You can use Markdown syntax.
-                      </p>
+                      <div className="flex justify-between text-sm text-primary-medium-low dark:text-primary-low-high">
+                        <p>You can use Markdown syntax.</p>
+                        <p>{bio.length} / 256</p>
+                      </div>
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
@@ -271,9 +272,13 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         onTagRemove={handleTagRemove}
                         tags={tags}
                         inputRef={tagInputRef}
+                        setTags={setTags}
+                        showNotification={showNotification}
+                        setShowNotification={setShowNotification}
                       />
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        Separate tags with commas (tags cannot be duplicated).
+                        Separate tags with commas (tags cannot be duplicated and
+                        max 32 characters).
                       </p>
                     </div>
 

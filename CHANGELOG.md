@@ -1,45 +1,45 @@
-## [2.90.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.90.0...v2.90.1) (2023-11-23)
-
-
-### Bug Fixes
-
-* duplicate tags issue using set constructor ([#9820](https://github.com/EddieHubCommunity/BioDrop/issues/9820)) ([bde2fe9](https://github.com/EddieHubCommunity/BioDrop/commit/bde2fe9fb21535bddad9580679bb5dc77a6a5536))
-
-
-
-# [2.90.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.6...v2.90.0) (2023-11-22)
+# [2.95.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.3...v2.95.0) (2023-12-07)
 
 
 ### Features
 
-* admin stats for custom domains ([#9816](https://github.com/EddieHubCommunity/BioDrop/issues/9816)) ([c808cff](https://github.com/EddieHubCommunity/BioDrop/commit/c808cff4622705df632777b8c3442fa75af96bab))
+* admin stats active users ([#9857](https://github.com/EddieHubCommunity/BioDrop/issues/9857)) ([29a142b](https://github.com/EddieHubCommunity/BioDrop/commit/29a142bf56044481da030f85fe47eefba3e8a661))
 
 
 
-## [2.89.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.5...v2.89.6) (2023-11-21)
-
-
-### Bug Fixes
-
-* profile sub domain ([#9811](https://github.com/EddieHubCommunity/BioDrop/issues/9811)) ([159e219](https://github.com/EddieHubCommunity/BioDrop/commit/159e21902bc7390c63a666db9d80fcb316210fd1))
-
-
-
-## [2.89.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.4...v2.89.5) (2023-11-20)
+## [2.94.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.2...v2.94.3) (2023-12-07)
 
 
 ### Bug Fixes
 
-* reduce link name length to min 1 ([#9805](https://github.com/EddieHubCommunity/BioDrop/issues/9805)) ([53e906a](https://github.com/EddieHubCommunity/BioDrop/commit/53e906ae4df720c3cd0e3505fe9e3e1720c99a37))
+* milestone icons ([#9870](https://github.com/EddieHubCommunity/BioDrop/issues/9870)) ([61a5c35](https://github.com/EddieHubCommunity/BioDrop/commit/61a5c35019c5dea184a3876709665783bf76ee68))
 
 
 
-## [2.89.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.3...v2.89.4) (2023-11-19)
+## [2.94.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.1...v2.94.2) (2023-12-07)
 
 
 ### Bug Fixes
 
-* pricing premium text ([#9806](https://github.com/EddieHubCommunity/BioDrop/issues/9806)) ([bd90bc7](https://github.com/EddieHubCommunity/BioDrop/commit/bd90bc7e50e7795c2e7dfd3f3b06298b64f0aadb))
+* playwright networkidle to domcontentloaded ([#9882](https://github.com/EddieHubCommunity/BioDrop/issues/9882)) ([18661a4](https://github.com/EddieHubCommunity/BioDrop/commit/18661a4800b1bfd7dafe2f339e70c5d91376f40b))
+
+
+
+## [2.94.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.0...v2.94.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* changelog update ([#9867](https://github.com/EddieHubCommunity/BioDrop/issues/9867)) ([8caa8b0](https://github.com/EddieHubCommunity/BioDrop/commit/8caa8b0cde91666ffc441229b6b6bc674592a863))
+
+
+
+# [2.94.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.93.2...v2.94.0) (2023-12-01)
+
+
+### Features
+
+* re-ordering tags ([#9823](https://github.com/EddieHubCommunity/BioDrop/issues/9823)) ([8e3abe6](https://github.com/EddieHubCommunity/BioDrop/commit/8e3abe6c155661dab66f47310029181023cacf7a))
 
 
 
