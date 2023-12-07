@@ -66,7 +66,7 @@ export async function getGroupLinkApi(username) {
   getGroupLink = getGroupLink[0].groups.filter((item) => item !== "");
 
   if (!getGroupLink || getGroupLink.length === 0) {
-    log.info(`Grouo not found for username: ${username}`);
+    log.info(`Group not found for username: ${username}`);
     return { error: "Group not found." };
   }
   return getGroupLink;
