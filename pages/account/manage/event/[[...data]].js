@@ -176,7 +176,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   };
 
   const handleTagAdd = (newTag) =>
-    setTags((prevState) => [...prevState, newTag]);
+    setTags((prevState) => [...new Set([...prevState, newTag])]);
   const handleTagRemove = (tagToRemove) =>
     setTags(tags.filter((tag) => tag !== tagToRemove));
 
@@ -340,10 +340,14 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onTagAdd={handleTagAdd}
                       onTagRemove={handleTagRemove}
                       tags={tags}
+                      setTags={setTags}
                       inputRef={tagInputRef}
+                      showNotification={showNotification}
+                      setShowNotification={setShowNotification}
                     />
                     <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                      Separate tags with commas.
+                      Separate tags with commas (tags cannot be duplicated and
+                      max 32 characters).
                     </p>
                   </div>
                 </div>

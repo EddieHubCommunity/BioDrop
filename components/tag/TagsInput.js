@@ -1,19 +1,32 @@
 import XMarkIcon from "@heroicons/react/20/solid/XMarkIcon";
 import Input from "../form/Input";
+import { ReactSortable } from "react-sortablejs";
+import Notification from "@components/Notification";
 
-export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
-
-
-  //key code
-  const { comma, backspace, enter } = {
-    comma: 188,
-    backspace: 8,
-    enter: 13,
-  };
-
+export default function TagsInput({
+  tags,
+  onTagAdd,
+  onTagRemove,
+  inputRef,
+  setTags,
+  showNotification,
+  setShowNotification,
+}) {
+  const maxLength = 32;
   const handleKeyUp = (e) => {
     const inputValue = inputRef.current.value;
-    if (e.keyCode === comma || inputValue.endsWith(",") || e.keyCode === enter) {
+    if (inputValue.length >= maxLength && e.key !== "Backspace") {
+      // '=' sign because in 32 char ',' sign does't count
+      setShowNotification({
+        show: true,
+        type: "error",
+        message: "Tag",
+        additionalMessage: "Tag limit exceeded",
+      });
+      return;
+    }
+
+    if (e.key === "Comma" || inputValue.endsWith(",") || e.key === "Enter") {
       const newTag = inputValue.trim().replace(/,/g, "");
       if (!newTag) {
         return;
@@ -25,7 +38,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
 
   const handleKeyDown = (e) => {
     if (
-      e.keyCode === backspace &&
+      e.key === "Backspace" &&
       inputRef.current?.value === "" &&
       tags.length > 0
     ) {
@@ -38,7 +51,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
   const tagItems = tags.map((tag, i) => (
     <li
       key={i}
-      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1"
+      className="flex items-center gap-x-1 text-sm p-1 font-mono border rounded-md line-clamp-1 hover:cursor-move"
     >
       <span>{tag}</span>
       <button
@@ -57,8 +70,21 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
 
   return (
     <>
+      <Notification
+        show={showNotification.show}
+        type={showNotification.type}
+        onClose={() =>
+          setShowNotification({ ...showNotification, show: false })
+        }
+        message={showNotification.message}
+        additionalMessage={showNotification.additionalMessage}
+      />
       <label htmlFor="tags">Tags</label>
-      <ul
+      <ReactSortable
+        tag="ul"
+        list={tags}
+        setList={setTags}
+        swap
         role="list"
         className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium"
       >
@@ -74,7 +100,7 @@ export default function TagsInput({ tags, onTagAdd, onTagRemove, inputRef }) {
             onKeyDown={handleKeyDown}
           />
         </li>
-      </ul>
+      </ReactSortable>
     </>
   );
 }
