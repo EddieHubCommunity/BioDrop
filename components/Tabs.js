@@ -4,14 +4,12 @@ import { classNames } from "@services/utils/classNames";
 export default function Tabs({ tabs, setTabs, selectedTab }) {
   return (
     <div>
-      <div className="sm:hidden">
+      <div className="sm:hidden mb-5">
         {tabs.length > 1 && (
           <Select
             name="tabs"
-            value={selectedTab?.name}
-            onChange={(e) =>
-              setTabs(tabs.find((tab) => tab.name === e.currentTarget.value))
-            }
+            value={selectedTab?.name || "Tabs"}
+            onChange={(e) => setTabs(tabs.find((tab) => tab.name === e))}
             className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium focus:border-secondary-medium focus:ring-secondary-medium"
             options={tabs.map((tab) => ({ label: tab.name, value: tab.name }))}
           />

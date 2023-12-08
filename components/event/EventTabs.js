@@ -3,22 +3,21 @@ import Select from "@components/form/Select";
 import { classNames } from "@services/utils/classNames";
 export function EventTabs({ tabs, eventType, setEventType }) {
   const changeTab = (e, value) => {
-    e.preventDefault();
     setEventType(value);
     if (!value) {
-      setEventType(tabs.find((tab) => tab.title === e.target.value).key);
+      setEventType(tabs.find((tab) => tab.title === e).key);
     }
   };
 
   return (
     <div>
-      <div className="sm:hidden">
+      <div className="sm:hidden mb-5 mt-5">
         <Select
           name="tabs"
           label="Select a tab"
           value={tabs.find((tab) => tab.key === eventType)?.title}
           onChange={(e) => changeTab(e)}
-          className="block w-full rounded-md border-primary-medium-low dark:bg-primary-medium dark:focus:border-secondary-low dark:focus:ring-secondary-low  focus:border-secondary-low focus:ring-secondary-low"
+          className="block w-full rounded-md border-primary-medium-low dark:focus:border-secondary-low dark:focus:ring-secondary-low  focus:border-secondary-low focus:ring-secondary-low"
           options={tabs.map((tab) => ({ label: tab.title, value: tab.title }))}
         />
       </div>

@@ -243,10 +243,10 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       label="Select format"
                       value={dateFormat}
                       options={options}
-                      onChange={(e) => setdateFormat(e.target.value)}
+                      onChange={(e) => setdateFormat(e)}
                     />
                   </div>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                  <div className="mt-3 sm:col-span-2 sm:mt-0">
                     <IconSearch
                       handleSelectedIcon={setIcon}
                       selectedIcon={icon}

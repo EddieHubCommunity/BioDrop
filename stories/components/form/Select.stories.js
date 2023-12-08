@@ -17,7 +17,7 @@ export const Basic = {
     label: "Test",
     name: "test",
     options: options,
-    onChange: (e) => console.log(e.target.value),
+    onChange: (e) => console.log(e),
     className: "",
   },
 };

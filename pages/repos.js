@@ -50,19 +50,14 @@ export default function Repos({ repos }) {
 
       <Page>
         <h1 className="text-4xl mb-4 font-bold">Community Repos</h1>
-        <div className=" flex justify-end">
+        <div className="flex justify-end mb-2">
           <Select
             name="event-type"
             value={router.query.sortBy || "favourites"}
             label="Sort by"
-            onChange={(e) =>
-              router.push(`/repos?sortBy=${e.currentTarget.value}`)
-            }
-            options={sortOptions.map((option) => ({
-              label: option.label,
-              value: option.value,
-            }))}
-            className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+            onChange={(e) => router.push(`/repos?sortBy=${e}`)}
+            options={sortOptions}
+            className="!w-48"
           />
         </div>
         <UserRepos repos={repos} />

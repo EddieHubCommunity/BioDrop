@@ -61,6 +61,16 @@ html:not(.dark) .dark-only {
   code {
     @apply dark:text-primary-low;
   }
+  /** Custom scrollbar for the Select Component **/
+  .select_scroll::-webkit-scrollbar {
+    @apply w-1 md:w-[6px];
+  }
+  .select_scroll::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .select_scroll::-webkit-scrollbar-thumb {
+    @apply bg-primary-low dark:bg-primary-medium-low rounded-sm;
+  }
 }
 
 @tailwind base;

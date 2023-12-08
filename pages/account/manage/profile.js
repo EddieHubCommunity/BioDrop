@@ -201,7 +201,8 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                           label="Profile Layout"
                           value={layout}
                           options={layouts}
-                          onChange={(e) => setLayout(e.target.value)}
+                          onChange={(e) => setLayout(e)}
+                          className="pl-6 font-normal"
                         />
                       </div>
                     </div>
@@ -224,9 +225,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         <Select
                           name="pronoun"
                           label="Pronouns"
-                          value={pronoun}
+                          value={pronoun || "Don't specify"}
                           options={pronouns}
-                          onChange={(e) => setPronoun(e.target.value)}
+                          onChange={(e) => setPronoun(e)}
+                          className="pl-6 font-normal"
                         />
                       </div>
                     </div>

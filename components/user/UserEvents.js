@@ -22,7 +22,7 @@ export default function UserEvents({
     { value: "past", name: "Past Events" },
   ];
   const handleEventTypeChange = (event) => {
-    setEventType(event.target.value);
+    setEventType(event);
   };
 
   const filterByEventType = (event, eventType) => {
@@ -81,14 +81,14 @@ export default function UserEvents({
       {eventsToShow.length > 0 && (
         <Select
           name="event-type"
-          value={eventType}
+          value={eventType || "future"}
           label="Select an event type"
           onChange={handleEventTypeChange}
           options={filteredEventOptions.map((option) => ({
             label: option.name,
             value: option.value,
           }))}
-          className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+          className="text-center mt-3"
         />
       )}
 

@@ -238,10 +238,10 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       label="Animation"
                       value={animation}
                       options={objectToLabelValueArray(animations)}
-                      onChange={(e) => setAnimation(e.target.value)}
+                      onChange={(e) => setAnimation(e)}
                     />
                   </div>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                  <div className="mt-5 sm:col-span-2 sm:mt-0">
                     <Toggle
                       text1="Enable?"
                       text2="hide/show link on profile"
