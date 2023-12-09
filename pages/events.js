@@ -97,7 +97,7 @@ export default function Events({ events }) {
         <EventTabs
           tabs={tabFilters}
           eventType={eventType}
-          setEventType={handleEventChange}
+          onEventTypeChange={handleEventChange}
         />
         <h2 className="text-md md:text-2xl text-lg text-primary-high font-bold md:mb-6 mb-3">
           {tabFilters.find((filter) => filter.key === eventType).description}
