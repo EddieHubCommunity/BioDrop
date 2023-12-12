@@ -269,7 +269,7 @@ export default function Home({
               Popular Features
             </h2>
             <p className="mt-4 text-primary-low/80 text-xl">
-              It's not just links...
+              It is not just links...
             </p>
           </div>
           <div className="mt-16 mb-8 space-y-16">
