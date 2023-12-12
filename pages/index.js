@@ -67,7 +67,7 @@ export default function Home({
       description:
         "Let people easily discover you and your links to your social accounts and content. Find out how many times your Profile has been viewed and your links clicked.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/217969141-08ba9803-6bd5-4f6e-89ab-03e04124c3c2.png",
+        "https://user-images.githubusercontent.com/70514712/287446257-c893fa30-742d-4dd1-8cb1-3c0fd6ffd6c2.png",
       imageAlt:
         PROJECT_NAME +
         " screenshot of the bio and social links in example profile",
@@ -77,7 +77,7 @@ export default function Home({
       description:
         "Search Profiles not just by name but also by tags. This is a great way to connect with people and grow your network.",
       imageSrc:
-        "https://user-images.githubusercontent.com/83087385/234587034-baaf983f-1a91-4d2c-b28c-e9f4c9bb9509.png",
+        "https://user-images.githubusercontent.com/73095526/285527203-ffe8b30a-c4e8-4f49-aaca-f63e0097e65d.png",
       imageAlt:
         PROJECT_NAME +
         " screenshot of search page using tags for searching profiles.",
