@@ -220,7 +220,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       For example: <i>Follow me on Twitter</i>
                     </p>
                   </div>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                  <div className="relative mt-1 sm:col-span-2 sm:mt-0">
                     <IconSearch
                       handleSelectedIcon={setIcon}
                       selectedIcon={icon}
