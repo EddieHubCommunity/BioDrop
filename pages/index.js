@@ -73,14 +73,6 @@ export default function Home({
         " screenshot of the bio and social links in example profile",
     },
     {
-      name: "Your Tags",
-      description:
-        "Make your Profile discoverable with tags that describe you.",
-      imageSrc:
-        "https://user-images.githubusercontent.com/84538727/215545233-86355c96-21d7-48f9-a641-6f0884f8098d.png",
-      imageAlt: PROJECT_NAME + " screenshot of the tags in example profile",
-    },
-    {
       name: "Search by Tags",
       description:
         "Search Profiles not just by name but also by tags. This is a great way to connect with people and grow your network.",
@@ -91,7 +83,7 @@ export default function Home({
         " screenshot of search page using tags for searching profiles.",
     },
     {
-      name: "Your QR code",
+      name: "QR code",
       description:
         "Make it easier to share your Profile when you meet people with your unique QR code.",
       imageSrc:
@@ -99,23 +91,14 @@ export default function Home({
       imageAlt: PROJECT_NAME + " screenshot of a QR code example",
     },
     {
-      name: "Your Links",
-      description:
-        "Let people discover all your great content in one place by adding links to your different socials, website, blog ... and more.",
-      imageSrc:
-        "https://user-images.githubusercontent.com/624760/217969126-c31be76a-6682-41a0-9fdf-8a235d1237f7.png",
-      imageAlt:
-        PROJECT_NAME + " screenshot of links section of an example profile",
-    },
-    {
-      name: PROJECT_NAME + " Statistics",
-      description: `View details of your ${PROJECT_NAME} profile, with views and url clicks.`,
+      name: "Statistics / Reporting",
+      description: `View details of your ${PROJECT_NAME} profile, with views, url clicks, referrer, geo location and daily link clicks.`,
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png",
       imageAlt: PROJECT_NAME + " screenshot of account statistics page",
     },
     {
-      name: "Your Milestones",
+      name: "Milestones",
       description:
         "Demonstrate the highlights of your career by adding Milestones to your Profile.",
       imageSrc:
@@ -125,27 +108,9 @@ export default function Home({
         " screenshot of milestones section of an example profile",
     },
     {
-      name: "Your Testimonials",
-      description: "Show off the great feedback you have received.",
-      imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063784-ae8dab1f-3f1e-41cc-83a5-94e69ee9e7ff.png",
-      imageAlt:
-        PROJECT_NAME +
-        " screenshot of testimonials section of an example profile",
-    },
-    {
-      name: "Your Events",
+      name: "Events",
       description:
-        "Hosting or attending events, let people know what you are up to.",
-      imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
-      imageAlt:
-        PROJECT_NAME + " screenshot of events section of an example profile",
-    },
-    {
-      name: "Community Events",
-      description:
-        "Upcoming events from the community Profiles will be displayed on this page also.",
+        "Add your Events to your Profile and see all events added by BioDrop users to a Community events page.",
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534986-ef4a6cd6-a22a-48f8-aa46-2dbd0f7a6403.png",
       imageAlt:
@@ -153,28 +118,19 @@ export default function Home({
         " screenshot of community events section in the Community Section tab",
     },
     {
-      name: PROJECT_NAME + " Map",
-      description: "Discover people around the world from the BioDrop Map.",
+      name: "User Map",
+      description: "Discover people around the World from the BioDrop Map.",
       imageSrc:
         "https://user-images.githubusercontent.com/43419831/279958647-a815844e-ca8e-48e1-8362-5cc1f48063d6.png",
       imageAlt: PROJECT_NAME + " screenshot of Map Page",
     },
     {
-      name: "Your GitHub Repositories (repos)",
+      name: "GitHub Repositories (repos)",
       description:
-        "Add your GitHub repos to your Profile and they appear on the community repo page.",
+        "Add your GitHub repos to your Profile and they will also appear on the Community Repos page.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/263394464-1f60752c-00d2-4e41-bf74-fe598b14e9fa.png",
       imageAlt: "BioDrop screenshot of Repo Page",
-    },
-    {
-      premium: true,
-      name: "Your Profile Source and Country Statistics",
-      description:
-        "More in depth statistics about your Profile, including the source of the views and the country of the views.",
-      imageSrc:
-        "https://github.com/EddieHubCommunity/BioDrop/assets/624760/f662fa12-49db-4e69-9862-9bf9b4652420",
-      imageAlt: "BioDrop screenshot of Source and Country statistics Page",
     },
   ];
 
@@ -310,15 +266,13 @@ export default function Home({
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
-              Features
+              Popular Features
             </h2>
             <p className="mt-4 text-primary-low/80 text-xl">
-              It is not just links... Take a look at the Features you can add to
-              customize your {PROJECT_NAME} Profile.
+              It is not just links...
             </p>
           </div>
-
-          <div className="mt-16 space-y-16">
+          <div className="mt-16 mb-8 space-y-16">
             {featuresDetails.map((feature, featureIdx) => (
               <div
                 key={feature.name}
@@ -365,6 +319,9 @@ export default function Home({
               </div>
             ))}
           </div>
+          <Button href="/pricing" primary={true}>
+            Full Feature list
+          </Button>
         </div>
       </div>
 
