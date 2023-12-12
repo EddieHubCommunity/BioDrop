@@ -107,6 +107,7 @@ export const navigation = [
       { name: "Auto", href: "/docs/premium/auto" },
       { name: "Customisation", href: "/docs/premium/customisation" },
       { name: "Custom Domain", href: "/docs/premium/domain" },
+      { name: "PWA", href: "/docs/premium/pwa" },
     ],
   },
   {
@@ -119,7 +120,6 @@ export const navigation = [
       { name: "Map Information", href: "/docs/map" },
       { name: "FAQs", href: "/docs/faqs" },
       { name: "Community Resources", href: "/docs/community-resources" },
-      { name: "Statistics", href: "/docs/how-to-guides/statistics" },
       { name: "Maintainers", href: "/docs/maintainers" },
     ],
   },
