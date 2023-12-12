@@ -1,3 +1,12 @@
+## [2.95.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.1...v2.95.2) (2023-12-12)
+
+
+### Bug Fixes
+
+* ui screenshots at homepage ([#9872](https://github.com/EddieHubCommunity/BioDrop/issues/9872)) ([cd475b0](https://github.com/EddieHubCommunity/BioDrop/commit/cd475b0aedf880af3583041d99c0bbd7419d7017))
+
+
+
 ## [2.95.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.0...v2.95.1) (2023-12-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * playwright networkidle to domcontentloaded ([#9882](https://github.com/EddieHubCommunity/BioDrop/issues/9882)) ([18661a4](https://github.com/EddieHubCommunity/BioDrop/commit/18661a4800b1bfd7dafe2f339e70c5d91376f40b))
-
-
-
-## [2.94.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.0...v2.94.1) (2023-12-01)
-
-
-### Bug Fixes
-
-* changelog update ([#9867](https://github.com/EddieHubCommunity/BioDrop/issues/9867)) ([8caa8b0](https://github.com/EddieHubCommunity/BioDrop/commit/8caa8b0cde91666ffc441229b6b6bc674592a863))
 
 
 
