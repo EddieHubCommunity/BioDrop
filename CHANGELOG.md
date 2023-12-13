@@ -1,3 +1,12 @@
+# [2.96.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.2...v2.96.0) (2023-12-13)
+
+
+### Features
+
+* progress bar background ([#9896](https://github.com/EddieHubCommunity/BioDrop/issues/9896)) ([7f6bb01](https://github.com/EddieHubCommunity/BioDrop/commit/7f6bb016637f529fd705e3620f7e32f39772f8c3))
+
+
+
 ## [2.95.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.1...v2.95.2) (2023-12-12)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * milestone icons ([#9870](https://github.com/EddieHubCommunity/BioDrop/issues/9870)) ([61a5c35](https://github.com/EddieHubCommunity/BioDrop/commit/61a5c35019c5dea184a3876709665783bf76ee68))
-
-
-
-## [2.94.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.1...v2.94.2) (2023-12-07)
-
-
-### Bug Fixes
-
-* playwright networkidle to domcontentloaded ([#9882](https://github.com/EddieHubCommunity/BioDrop/issues/9882)) ([18661a4](https://github.com/EddieHubCommunity/BioDrop/commit/18661a4800b1bfd7dafe2f339e70c5d91376f40b))
 
 
 
