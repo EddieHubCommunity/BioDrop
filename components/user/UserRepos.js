@@ -25,7 +25,7 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
 
   const saveOrder = async () => {
     const BASE_URL = clientEnv.NEXT_PUBLIC_BASE_URL;
-    const res = await fetch(`${BASE_URL}/api/account/manage/links`, {
+    const res = await fetch(`${BASE_URL}/api/account/manage/repos`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
