@@ -1,0 +1,26 @@
+{
+    "name": "Taiwo kazeem",
+    "bio": "A Full stack developer with over 3 years of experience working in health sector, logistic sector etc. I am also a proud contributor to many open source projects",
+    "links": [
+        {
+            "name": "Follow me on X",
+            "url": "https://x.com/kazeem_tk?t=WsVJjdrQ8UTpliRV5EH0CA&s=09",
+            "icon": "FaXTwitter"
+        },
+        {
+            "name": "Follow me on LinkedIn",
+            "url": "https://www.linkedin.com/in/taiwo-kazeem-595449159/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Follow me on Github",
+            "url": "https://www.github.com/alevel7",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "Follow me on Tublian",
+            "url": "https://www.tublian.com/profile/alevel7",
+            "icon": "FaLink"
+        }
+    ]
+}

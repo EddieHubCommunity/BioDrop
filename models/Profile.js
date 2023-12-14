@@ -12,6 +12,17 @@ const ProfileSchema = new Schema(
       type: mongoose.Schema.Types.ObjectId,
       ref: "Account",
     },
+    user: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
+    pronoun: {
+      type: String,
+      enum: {
+        values: config.pronouns.map((pronoun) => pronoun.value),
+        message: "{VALUE} is not a supported profile layout",
+      },
+    },
     source: {
       type: String,
       required: true,
@@ -30,6 +41,14 @@ const ProfileSchema = new Schema(
     isEnabled: {
       type: Boolean,
       default: true,
+    },
+    isShadowBanned: {
+      type: Boolean,
+      default: false,
+    },
+    isStatsPublic: {
+      type: Boolean,
+      default: false,
     },
     username: {
       type: String,
@@ -116,9 +135,31 @@ const ProfileSchema = new Schema(
       type: [EventSchema],
       default: [],
     },
+    settings: {
+      hideNavbar: {
+        type: Boolean,
+        default: false,
+      },
+      hideFooter: {
+        type: Boolean,
+        default: false,
+      },
+      domain: {
+        type: String,
+        default: "",
+        get: (v) => v.replaceAll("|", "."),
+        set: (v) => v.replaceAll(".", "|"),
+        validator: function (v) {
+          return /^[^https?:\/\/](?:www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}$/.test(
+            v,
+          );
+        },
+        message: (props) => `${props.value} is not a valid domain!`,
+      },
+    },
   },
-  { timestamps: true }
+  { timestamps: true, toJSON: { getters: true } },
 );
 
 module.exports =
-  mongoose.models.Profile || mongoose.model("Profile", ProfileSchema);
+  mongoose.models?.Profile || mongoose.model("Profile", ProfileSchema);

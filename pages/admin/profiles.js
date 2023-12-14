@@ -1,5 +1,3 @@
-import { authOptions } from "../api/auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
 import { clientEnv } from "@config/schemas/clientSchema";
 
 import logger from "@config/logger";
@@ -7,38 +5,18 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { getProfiles } from "../api/admin/profiles";
 
-import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import ChevronRightIcon from "@heroicons/react/20/solid/ChevronRightIcon";
 import Image from "next/image";
 import Link from "@components/Link";
 import { PROJECT_NAME } from "@constants/index";
+import Button from "@components/Button";
 
 export async function getServerSideProps(context) {
-  const session = await getServerSession(context.req, context.res, authOptions);
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
-  const username = session.username;
-
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return {
-      redirect: {
-        destination: "/404",
-        permanent: false,
-      },
-    };
-  }
-
   let profiles = [];
+  const { filter } = context.query;
   try {
-    profiles = await getProfiles();
+    profiles = await getProfiles(filter);
   } catch (e) {
     logger.error(e, "get users failed");
   }
@@ -60,6 +38,19 @@ export default function Users({ profiles }) {
       <Page>
         <Navigation />
         <h1 className="text-4xl mb-4 font-bold">Profiles</h1>
+
+        <div className="flex gap-4">
+          <Button href="/admin/profiles?filter=recently updated">
+            Recently updated
+          </Button>
+          <Button href="/admin/profiles?filter=by rank">By Rank</Button>
+          <Button href="/admin/profiles?filter=premium">Premium</Button>
+          <Button href="/admin/profiles?filter=isDisabled">Disabled</Button>
+          <Button href="/admin/profiles?filter=isShadowBanned">
+            Shadow Banned
+          </Button>
+        </div>
+
         <ul role="list" className="divide-y divide-primary-low">
           {profiles.map((profile) => (
             <li

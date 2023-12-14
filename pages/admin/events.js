@@ -8,34 +8,15 @@ import Page from "@components/Page";
 import PageHead from "@components/PageHead";
 import { getEvents } from "../api/admin/events";
 
-import { serverEnv } from "@config/schemas/serverSchema";
 import Navigation from "@components/admin/Navigation";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import { PROJECT_NAME } from "@constants/index";
+import Bulb from "@components/Bulb";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
-
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return {
-      redirect: {
-        destination: "/404",
-        permanent: false,
-      },
-    };
-  }
 
   let events = [];
   try {
@@ -84,7 +65,7 @@ export default function Events({ events }) {
     }
 
     setEventList(
-      eventList.map((event) => (event._id === _id ? updatedEvent : event))
+      eventList.map((event) => (event._id === _id ? updatedEvent : event)),
     );
 
     return setShowNotification({
@@ -137,9 +118,10 @@ export default function Events({ events }) {
                   <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
                     {event.name}
                   </p>
-                  <p className="mt-1 truncate text-xs leading-5 text-primary-medium dark:text-primary-low-medium">
-                    {event.username}
-                  </p>
+                  <div className="mt-1 truncate text-xs leading-5 text-primary-medium dark:text-primary-low-medium flex flex-row content-center gap-2 place-items-center">
+                    <Bulb isEnabled={!event.isShadowBanned} />
+                    <span>{event.username}</span>
+                  </div>
                 </div>
               </div>
               <div className="hidden sm:flex sm:flex-col sm:items-end">

@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+
 import config from "@config/app.json";
 
 const animations = Object.keys(config.animations);
@@ -19,8 +20,8 @@ const LinkSchema = new mongoose.Schema(
     name: {
       type: String,
       required: true,
-      min: 2,
-      max: 64,
+      min: 1,
+      max: 128,
     },
     url: {
       type: String,
@@ -57,7 +58,7 @@ const LinkSchema = new mongoose.Schema(
       max: 32,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 LinkSchema.index({ username: 1, url: 1 });

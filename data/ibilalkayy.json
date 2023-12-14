@@ -1,12 +1,12 @@
 {
   "name": "Bilal Khan",
-  "bio": "Bloop Founder, DevOps Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
+  "bio": "Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
 
-  "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
+  "tags": ["Backend", "Open Source", "DevOps", "Golang", "DevRel"],
   "socials": [
     {
       "icon": "FaGlobe",
-      "url": "https://ibilalkayy.github.io/digital-resume/"
+      "url": "https://ibilalkayy.com"
     },
     {
       "icon": "FaCircleNotch",
@@ -42,16 +42,16 @@
   "links": [
     {
       "name": "Portfolio: Hire me",
-      "url": "https://ibilalkayy.github.io/digital-resume/",
+      "url": "https://ibilalkayy.com",
       "icon": "FaGlobe"
     },
     {
-      "name": "Bloop: A Startup",
+      "name": "Bloop: A Project",
       "url": "https://bloop.gg/",
       "icon": "FaCircleNotch"
     },
     {
-      "name": "YouTube: Checkout my DevOps Videos",
+      "name": "YouTube: Checkout my Backend & DevOps Videos",
       "url": "https://www.youtube.com/@ibilalkayy",
       "icon": "SiYoutube"
     },
@@ -111,7 +111,7 @@
       "date": "Feb 3, 2023",
       "icon": "FaCircleNotch",
       "color": "black",
-      "description": "Started my Bloop startup",
+      "description": "Started my Bloop project",
       "url": "https://bloop.gg/"
     },
     {

@@ -1,0 +1,16 @@
+{
+  "name": "Yusuf Umar Faruq",
+  "bio": "Hey, i'm a Passionate Software Engineer specializing in Web Development",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Luwa-Dev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect!",
+      "url": "https://linkedin.com/in/luwa-dev",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -15,16 +15,6 @@ import { PROJECT_NAME } from "@constants/index";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
 
   let events = [];
@@ -69,14 +59,12 @@ export default function ManageEvents({ events }) {
         {alert && (
           <Alert type={alerts[alert].type} message={alerts[alert].message} />
         )}
-
         <Navigation />
         <Button href="/account/manage/event">
           <DocumentPlusIcon className="h-5 w-5 mr-2" />
           Add Event
         </Button>
-
-        <UserEvents events={events} manage={true} filter="all" />
+        <UserEvents events={events} manage={true} />
       </Page>
     </>
   );

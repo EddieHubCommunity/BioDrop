@@ -3,7 +3,7 @@ import Alert from "@components/Alert";
 
 export default function UserMilestones({ milestones, manage = false }) {
   const historicMilestones = milestones.filter(
-    (milestone) => !milestone.isGoal
+    (milestone) => !milestone.isGoal,
   );
 
   const futureMilestones = milestones.filter((milestone) => milestone.isGoal);
@@ -12,7 +12,6 @@ export default function UserMilestones({ milestones, manage = false }) {
       {!milestones?.length && (
         <Alert type="info" message="No Milestones found" />
       )}
-
       <ul role="list" className="divide-y divide-primary-low-medium mt-4">
         {milestones &&
           historicMilestones.map((milestone, key) => (

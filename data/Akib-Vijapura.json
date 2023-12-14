@@ -1,0 +1,57 @@
+{
+  "name": "Akib Vijapura",
+  "bio": "A Software developer with good problem-solving skills. And also able to perform well in a team with good communication skills and leadership skills.",
+  "tags": [
+    "Open Source",
+    "Full Stack",
+    "Javascript",
+    "TypeScript",
+    "Reactjs",
+    "Nodejs",
+    "DevOps"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/akib_vijapura"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "http://github.com/Akib-Vijapura"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/vijapura_akib/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/akib-vijapura/"
+    }
+  ],
+  "links": [
+     {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/akib-vijapura/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/akib_vijapura",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram - Follow me on Instagram",
+      "url": "https://www.instagram.com/vijapura_akib/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Work",
+      "name": "GitHub - Open for collaboration",
+      "url": "http://github.com/Akib-Vijapura",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
+import Image from "next/image";
 import { IconContext } from "react-icons";
-import Script from "next/script";
 import { MdHelpOutline } from "react-icons/md";
 import va from "@vercel/analytics";
+import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa6";
 
 import config from "@config/app.json";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -18,9 +19,8 @@ import CallToAction from "@components/CallToAction";
 import UserMini from "@components/user/UserMini";
 import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
-import { BASE_GITHUB_PROJECT_URL, PROJECT_NAME } from "@constants/index";
+import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
-import { FaDollarSign, FaGithub, FaLock } from "react-icons/fa";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -31,7 +31,7 @@ export async function getStaticProps() {
 
   let alerts = structuredClone(config.alerts);
   if (
-    process.env.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
+    serverEnv.NEXT_PUBLIC_VERCEL_ENV !== "production" &&
     serverEnv.NODE_ENV === "development" &&
     totalStats.users === 0
   ) {
@@ -67,31 +67,23 @@ export default function Home({
       description:
         "Let people easily discover you and your links to your social accounts and content. Find out how many times your Profile has been viewed and your links clicked.",
       imageSrc:
-        "https://user-images.githubusercontent.com/624760/217969141-08ba9803-6bd5-4f6e-89ab-03e04124c3c2.png",
+        "https://user-images.githubusercontent.com/70514712/287446257-c893fa30-742d-4dd1-8cb1-3c0fd6ffd6c2.png",
       imageAlt:
         PROJECT_NAME +
         " screenshot of the bio and social links in example profile",
-    },
-    {
-      name: "Your Tags",
-      description:
-        "Make your Profile discoverable with tags that describe you.",
-      imageSrc:
-        "https://user-images.githubusercontent.com/84538727/215545233-86355c96-21d7-48f9-a641-6f0884f8098d.png",
-      imageAlt: PROJECT_NAME + " screenshot of the tags in example profile",
     },
     {
       name: "Search by Tags",
       description:
         "Search Profiles not just by name but also by tags. This is a great way to connect with people and grow your network.",
       imageSrc:
-        "https://user-images.githubusercontent.com/83087385/234587034-baaf983f-1a91-4d2c-b28c-e9f4c9bb9509.png",
+        "https://user-images.githubusercontent.com/73095526/285527203-ffe8b30a-c4e8-4f49-aaca-f63e0097e65d.png",
       imageAlt:
         PROJECT_NAME +
         " screenshot of search page using tags for searching profiles.",
     },
     {
-      name: "Your QR code",
+      name: "QR code",
       description:
         "Make it easier to share your Profile when you meet people with your unique QR code.",
       imageSrc:
@@ -99,23 +91,14 @@ export default function Home({
       imageAlt: PROJECT_NAME + " screenshot of a QR code example",
     },
     {
-      name: "Your Links",
-      description:
-        "Let people discover all your great content in one place by adding links to your different socials, website, blog ... and more.",
-      imageSrc:
-        "https://user-images.githubusercontent.com/624760/217969126-c31be76a-6682-41a0-9fdf-8a235d1237f7.png",
-      imageAlt:
-        PROJECT_NAME + " screenshot of links section of an example profile",
-    },
-    {
-      name: PROJECT_NAME + " Statistics",
-      description: `View details of your ${PROJECT_NAME} profile, with views and url clicks.`,
+      name: "Statistics / Reporting",
+      description: `View details of your ${PROJECT_NAME} profile, with views, url clicks, referrer, geo location and daily link clicks.`,
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png",
       imageAlt: PROJECT_NAME + " screenshot of account statistics page",
     },
     {
-      name: "Your Milestones",
+      name: "Milestones",
       description:
         "Demonstrate the highlights of your career by adding Milestones to your Profile.",
       imageSrc:
@@ -125,27 +108,9 @@ export default function Home({
         " screenshot of milestones section of an example profile",
     },
     {
-      name: "Your Testimonials",
-      description: "Show off the great feedback you have received.",
-      imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063784-ae8dab1f-3f1e-41cc-83a5-94e69ee9e7ff.png",
-      imageAlt:
-        PROJECT_NAME +
-        " screenshot of testimonials section of an example profile",
-    },
-    {
-      name: "Your Events",
+      name: "Events",
       description:
-        "Hosting or attending events, let people know what you are up to.",
-      imageSrc:
-        "https://user-images.githubusercontent.com/624760/210063782-3e6ed687-7d1b-4a23-bd02-aa88968ad0ec.png",
-      imageAlt:
-        PROJECT_NAME + " screenshot of events section of an example profile",
-    },
-    {
-      name: "Community Events",
-      description:
-        "Upcoming events from the community Profiles will be displayed on this page also.",
+        "Add your Events to your Profile and see all events added by BioDrop users to a Community events page.",
       imageSrc:
         "https://user-images.githubusercontent.com/109926117/234534986-ef4a6cd6-a22a-48f8-aa46-2dbd0f7a6403.png",
       imageAlt:
@@ -153,16 +118,16 @@ export default function Home({
         " screenshot of community events section in the Community Section tab",
     },
     {
-      name: PROJECT_NAME + " Map",
-      description: "Discover people around the world from the BioDrop Map.",
+      name: "User Map",
+      description: "Discover people around the World from the BioDrop Map.",
       imageSrc:
-        "https://user-images.githubusercontent.com/109926117/234534991-d2d3468e-2d13-4088-ad38-39f2d0cfa63d.png",
+        "https://user-images.githubusercontent.com/43419831/279958647-a815844e-ca8e-48e1-8362-5cc1f48063d6.png",
       imageAlt: PROJECT_NAME + " screenshot of Map Page",
     },
     {
-      name: "Your GitHub Repositories (repos)",
+      name: "GitHub Repositories (repos)",
       description:
-        "Add your GitHub repos to your Profile and they appear on the community repo page.",
+        "Add your GitHub repos to your Profile and they will also appear on the Community Repos page.",
       imageSrc:
         "https://user-images.githubusercontent.com/624760/263394464-1f60752c-00d2-4e41-bf74-fe598b14e9fa.png",
       imageAlt: "BioDrop screenshot of Repo Page",
@@ -199,7 +164,11 @@ export default function Home({
     <>
       <PageHead />
 
-      <div className="bg-primary-low dark:bg-dark">
+      {alerts.map((alert, index) => (
+        <Alert key={index} type={alert.type} message={alert.message} />
+      ))}
+
+      <div className="bg-primary-low dark:bg-dark-2">
         <div className="px-6 py-12 sm:px-6 sm:py-24 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-medium dark:text-primary-low sm:text-4xl">
@@ -209,7 +178,7 @@ export default function Home({
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-primary-medium dark:text-primary-low mb-4">
               Showcase the content you create and your projects in one place
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 sm:gap-0 justify-center items-center divide-x-0 sm:divide-x">
+            <div className="flex flex-col sm:flex-row gap-4 sm:gap-0 justify-center items-center divide-x-0 sm:divide-x divide-dark-2 dark:divide-primary-low">
               <div className="flex items-center gap-x-2 px-4">
                 <FaGithub /> Open Source
               </div>
@@ -220,8 +189,8 @@ export default function Home({
                 <FaDollarSign /> Free Tier Forever
               </div>
             </div>
-            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 mx-24">
-              <Button href="/docs" primary={true}>
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:mx-24">
+              <Button href="/docs/quickstart-forms" primary={true}>
                 Get started
               </Button>
               <Button href="/#section-features">Explore features</Button>
@@ -233,42 +202,36 @@ export default function Home({
                 width="600"
                 height="600"
                 alt="BioDrop demo image"
+                priority={true}
               />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark mb-8 p-8 drop-shadow-md">
-        {alerts.map((alert, index) => (
-          <Alert key={index} type={alert.type} message={alert.message} />
-        ))}
-
+      <div className="bg-primary-low dark:drop-shadow-none dark:bg-dark-2 mb-8 p-8 drop-shadow-md">
         <BasicCards
           data={[
             {
               name: "Active Users",
               current: total.active,
-              total: total.users,
               delta: today.users,
             },
             {
               name: "Profile Views",
               current: total.views,
-              total: total.views - today.views,
               delta: today.views,
             },
             {
               name: "Links Clicked",
               current: total.clicks,
-              total: total.clicks - today.clicks,
               delta: today.clicks,
             },
           ]}
         />
       </div>
 
-      <div className="bg-primary-low dark:bg-dark">
+      <div className="bg-primary-low dark:bg-dark-2">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
           <div className="overflow-hidden rounded-lg bg-primary-high shadow-xl lg:grid lg:grid-cols-2 lg:gap-4">
             <div className="px-6 pt-8 pb-12 sm:px-12 sm:pt-12 lg:py-8 lg:pr-0 xl:py-16 xl:px-20 flex">
@@ -280,15 +243,12 @@ export default function Home({
                 </h3>
               </div>
             </div>
-            <div className="aspect-w-16 aspect-h-9">
-              <div
-                className="kartra_video_containeroxibVr4Q0NlF js_kartra_trackable_object"
-                data-kt-type="video"
-                data-kt-value="oxibVr4Q0NlF"
-                data-kt-owner="nkmvj7Xr"
-              ></div>
-              <Script src="https://app.kartra.com/video/oxibVr4Q0NlF"></Script>
-            </div>
+            <Image
+              src="https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png"
+              alt="BioDrop screenshot of statistics"
+              width="600"
+              height="300"
+            />
           </div>
         </div>
       </div>
@@ -296,25 +256,23 @@ export default function Home({
       <CallToAction
         title="Ready to dive in?"
         description="Add your free Profile today!"
-        button1Link="/docs"
+        button1Link="/docs/quickstart-forms"
         button1Text="Get started"
         button2Link="/eddiejaoude"
         button2Text="Example"
       />
 
-      <div className="bg-primary-high dark:bg-black" id="section-features">
+      <div className="bg-primary-high dark:bg-dark-2" id="section-features">
         <div className="mx-auto max-w-2xl py-12 px-4 sm:px-6 sm:py-12 lg:max-w-7xl lg:px-8">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-3xl font-bold tracking-tight text-primary-low sm:text-4xl">
-              Features
+              Popular Features
             </h2>
-            <p className="mt-4 text-primary-low text-xl">
-              It is not just links... Take a look at the Features you can add to
-              customize your {PROJECT_NAME} Profile.
+            <p className="mt-4 text-primary-low/80 text-xl">
+              It is not just links...
             </p>
           </div>
-
-          <div className="mt-16 space-y-16">
+          <div className="mt-16 mb-8 space-y-16">
             {featuresDetails.map((feature, featureIdx) => (
               <div
                 key={feature.name}
@@ -325,22 +283,27 @@ export default function Home({
                     featureIdx % 2 === 0
                       ? "lg:col-start-1"
                       : "lg:col-start-8 xl:col-start-9",
-                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4"
+                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4",
                   )}
                 >
-                  <h3 className="text-lg sm:text-2xl font-medium text-primary-low">
+                  <h3 className="text-lg sm:text-2xl font-bold text-primary-low">
                     {feature.name}
                   </h3>
-                  <p className="mt-2 text-sm sm:text-lg text-primary-low">
+                  <p className="mt-2 text-sm sm:text-lg text-primary-low/70">
                     {feature.description}
                   </p>
+                  {feature.premium && (
+                    <p className="mt-2 text-xs sm:text-sm text-primary-low/50 italic">
+                      (Premium feature)
+                    </p>
+                  )}
                 </div>
                 <div
                   className={classNames(
                     featureIdx % 2 === 0
                       ? "lg:col-start-6 xl:col-start-5"
                       : "lg:col-start-1",
-                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8"
+                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8",
                   )}
                 >
                   <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
@@ -356,6 +319,9 @@ export default function Home({
               </div>
             ))}
           </div>
+          <Button href="/pricing" primary={true}>
+            Full Feature list
+          </Button>
         </div>
       </div>
 
@@ -380,7 +346,7 @@ export default function Home({
       />
 
       <Link
-        href={BASE_GITHUB_PROJECT_URL + "/discussions"}
+        href="/docs/faqs"
         rel="noopener noreferrer"
         target="_blank"
         className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-medium"
