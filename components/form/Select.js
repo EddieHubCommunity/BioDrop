@@ -2,12 +2,13 @@ import { classNames } from "@services/utils/classNames";
 import Label from "./Label";
 
 export default function Select({
-  value,
+  value = "",
   onChange,
   options = [],
   label,
   name,
   className,
+  placeholder,
   ...restProps
 }) {
   return (
@@ -27,6 +28,11 @@ export default function Select({
         )}
         {...restProps}
       >
+        {placeholder && (
+          <option value="" disabled>
+            {placeholder}
+          </option>
+        )}
         {options.map((option) => (
           <option
             className="checked:text-secondary-high checked:font-bold dark:checked:text-secondary-low-high"
