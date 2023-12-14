@@ -1,34 +1,21 @@
 {
   "name": "Agcrismanto Budhi Praswastyka",
-  "bio": "Politics enthusiast turned **Cyber Security** | [**Aghea**](https://aghea.site/) Owner",
+  "bio": "Saya adalah seorang Pegiat Hukum, Freelance Developer dan Cybersecurity di salah satu perusahaan swasta asal Denmark. Saya juga mengisi waktu luang sebagai seorang Kurator di [**Musixmatch**](https://beta.musixmatch.com/profile/3vUCAOS6SiNrSMdRMbAM8EvCKrnTygTyiPWWefEaC2wia7zn3JR0eYly6gZxEdts1c3Oo5YlyGuKjPD8pwwqILd11bqAXVXozWLSauhDz465UT1bEpD5K0TM3t-0G-zOux6Lsk6jeQNIdFkDyxlw)",
   "tags": [
     "Personal",
     "Musician",
     "Programmer",
     "Politics",
-    "Lawyer",
-    "Father"
+    "Lawyer"
   ],
   "socials": [
-    {
-      "icon": "FaTwitter",
-      "url": "https://twitter.com/agcrisbp"
-    },
-    {
-      "icon": "FaGithub",
-      "url": "https://github.com/agcrisbp"
-    },
-    {
-      "icon": "FaInstagram",
-      "url": "https://www.instagram.com/adarkerkindofday"
-    },
     {
       "icon": "FaLink",
       "url": "https://agcrisbp.my.id/"
     },
     {
-      "icon": "FaDollarSign",
-      "url": "https://paypal.me/agcrisbp"
+      "icon": "FaLink",
+      "url": "https://m.agcrisbp.my.id/"
     }
   ]
 }
