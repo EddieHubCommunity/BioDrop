@@ -29,9 +29,9 @@ export async function updateReposOrderApi(username, data) {
   await connectMongo();
   const log = logger.child({ username });
 
-  data.map(async (repo, idx) => {
+  const repoList = await data.map(async (repo, idx) => {
     try {
-      await Profile.findOneAndUpdate(
+      return await Profile.findOneAndUpdate(
         {
           username,
           "repos._id": repo._id,
@@ -47,8 +47,11 @@ export async function updateReposOrderApi(username, data) {
     }
   });
 
+  const repos = await Promise.allSettled(repoList).then(() => { 
+    return getReposApi(username);
+  })
 
-  return JSON.parse(JSON.stringify(await getReposApi(username)));
+  return JSON.parse(JSON.stringify(repos));
 }
 
 export async function getReposApi(username) {
