@@ -142,20 +142,21 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
             </Button>
           )}
     </div>
-    <ul role="list" className="divide-y divide-primary-low">
       <ReactSortable
           list={reposList}
           setList={setReposList}
           disabled={!reorder}
+          tag="ul"
           ghostClass="border-2"
           chosenClass="border-dashed"
           dragClass="border-red-500"
+          className="divide-y divide-primary-low"
+          role="list"
         >
       {reposList.map((repo) => (
         <li key={repo._id}>{manage ? manageDelete(repo) : item(repo)}</li>
       ))}
       </ReactSortable>
-    </ul>
     </>
   );
 }
