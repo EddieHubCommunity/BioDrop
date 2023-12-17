@@ -1,0 +1,19 @@
+{
+  "name": "Michael Muliro",
+  "bio": "Open Source DevRel | Founder of **EddieHub** and [BioDrop](https://biodrop.io) | **GitHub** Star",
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://Muliro1.io",
+      "icon": "FaLink"
+    },
+        {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Muliro_Khaemba",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+  ]
+}
