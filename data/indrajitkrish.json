@@ -1,0 +1,24 @@
+{
+  "name": "Indrajit",
+  "bio": "MERN stack developer | Open source contributor and [BioDrop](https://www.biodrop.io/indrajitkrish) | https://github.com/indrajitkrish "
+  "links": [
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Follow me",
+      "url": "https://www.linkedin.com/in/indrajit-subramanian/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials Repo",
+      "name": "Github: Know my repos contribution",
+      "url": "https://github.com/indrajitkrish",
+      "icon": "FaGithub",
+},
+{
+  "group": "Socials discord",
+      "name": "Chit chat with me on discord!",
+      "url": "indrajit_s",
+      "icon": "FaDiscord",
+},
+  ]
+}
