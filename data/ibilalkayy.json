@@ -1,8 +1,8 @@
 {
   "name": "Bilal Khan",
-  "bio": "Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
+  "bio": "Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Sourcegraph, YouTuber & Blogger.",
 
-  "tags": ["Backend", "Open Source", "DevOps", "Golang", "DevRel"],
+  "tags": ["Backend", "Open Source", "DevOps", "Golang", "DevRel", "GitHub"],
   "socials": [
     {
       "icon": "FaGlobe",
@@ -41,44 +41,52 @@
   ],
   "links": [
     {
-      "name": "Portfolio: Hire me",
+      "group": "My Portfolio",
+      "name": "Site: Hire me",
       "url": "https://ibilalkayy.com",
       "icon": "FaGlobe"
     },
     {
-      "name": "Bloop: A Project",
-      "url": "https://bloop.gg/",
+      "group": "My Startup Newsletter",
+      "name": "Bloop Project",
+      "url": "https://bloop.gg",
       "icon": "FaCircleNotch"
     },
     {
-      "name": "YouTube: Checkout my Backend & DevOps Videos",
+      "group": "Donate and buy my services",
+      "name": "Buy Me a Coffee",
+      "url": "https://www.buymeacoffee.com/ibilalkayy",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube: Checkout my Tech and Startup Videos",
       "url": "https://www.youtube.com/@ibilalkayy",
       "icon": "SiYoutube"
     },
     {
-      "name": "GitHub: Checkout my Projects",
+      "group": "Socials",
+      "name": "GitHub: See my Projects",
       "url": "https://github.com/ibilalkayy",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials",
       "name": "Hashnode: Read my Blogs",
       "url": "https://ibilalkayy.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
+      "group": "Socials",
       "name": "Twitter: Follow me",
       "url": "https://twitter.com/ibilalkayy",
       "icon": "FaTwitter"
     },
     {
-      "name": "LinkedIn: Connect with me",
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect ",
       "url": "https://www.linkedin.com/in/ibilalkayy/",
       "icon": "FaLinkedin"
-    },
-    {
-      "name": "Buy Me a Coffee",
-      "url": "https://www.buymeacoffee.com/ibilalkayy",
-      "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [
@@ -107,11 +115,11 @@
       "url": "https://aws.amazon.com/developer/community/community-builders/"
     },
     {
-      "title": "Started Bloop",
-      "date": "Feb 3, 2023",
+      "title": "Started Bloop Newsletter",
+      "date": "Dec 15, 2023",
       "icon": "FaCircleNotch",
       "color": "black",
-      "description": "Started my Bloop project",
+      "description": "Started my Bloop newsletter",
       "url": "https://bloop.gg/"
     },
     {
