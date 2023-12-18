@@ -1,0 +1,13 @@
+{
+  "name": "Sudeep Agarwal",
+  "bio" : "Innovative Software Developer | JavaScript, ReactJS, Node.js, NextJS Enthusiast | Full Stack Developer | Outsystems Learner"
+  "links":[
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/sudeepagarwaljhs/",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+  ]
+}
