@@ -20,12 +20,14 @@ const getIconAnimation = new Map([
   [animations.iconGlow, styles.glow],
 ]);
 
+
 export default function UserLink({
   BASE_URL,
   link,
   username,
   isEnabled = true,
   manage = false,
+  rel
 }) {
   const DisplayIcon = getIcon(link.icon);
   let aria = "";
@@ -37,6 +39,12 @@ export default function UserLink({
   }
 
   const item = (link) => (
+    <>    
+    {rel && (
+      <span className="w-0 h-0 absolute left-[-9999px] overflow-hidden ">
+         <a rel={rel} href={link.url} />
+      </span> )} 
+    
     <Link
       href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
       target="_blank"
@@ -90,6 +98,8 @@ export default function UserLink({
       )}
       {manage && <Bulb isEnabled={isEnabled} />}
     </Link>
+    </>
+    
   );
 
   const edit = (link) => (

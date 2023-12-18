@@ -10,6 +10,12 @@ export default function UserLinks({ BASE_URL, links, username }) {
     return { ...acc, [group]: [...curGroup, obj] };
   }, {});
 
+  links.forEach(link => {
+    const regex = new RegExp("Mastodon", "i")
+    const match = regex.test(link.name)
+    if(match) link.rel = "me"
+  })
+
   return (
     <>
       {!links?.length && <Alert type="info" message="No Links found" />}
@@ -33,13 +39,14 @@ export default function UserLinks({ BASE_URL, links, username }) {
                   </div>
                 </div>
               )}
-              {Object.values(buckets[name]).map((link) => (
+              {Object.values(buckets[name]).map((link) => (                
                 <UserLink
                   BASE_URL={BASE_URL}
                   key={link._id}
                   link={link}
                   username={username}
                   isEnabled={link.isEnabled}
+                  rel={link.rel}
                 />
               ))}
             </div>
