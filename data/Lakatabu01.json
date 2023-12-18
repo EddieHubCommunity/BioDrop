@@ -1,0 +1,18 @@
+{
+  "name": "Lanre Bamgbade",
+  "bio": "Frontend developer | Opensource enthusiast",
+  "links": [
+    {
+      "group": "Socials",
+      "name": "X: follow me",
+      "url": "https://twitter.com/lakatabu01",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Linkedin: lets connect",
+      "url": "https://www.linkedin.com/in/bamgbade-olanrewaju-072a7a20a/",
+      "icon": "FaLinkedin",
+    },
+  ]
+}
