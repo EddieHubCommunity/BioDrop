@@ -1,0 +1,24 @@
+{
+  "name": "Emran Salah",
+  "bio": "Open Source Contributor | Full Stack Develper | IT Student",
+  "links": [
+    {
+      "group": "Socila Media",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/emran-salah-b904b626b/",
+      "icon": "SiLinkedin"
+    }, 
+    {
+      "group": "Social Media",
+      "name": "Twitter",
+      "url": "",
+      "icon": "FaXTwitter"
+    }, 
+    {
+      "group": "",
+      "name": "GitHub",
+      "url": "https://github.com/EmranSalah",
+      "icon": "FaGithub"
+    }
+  ],
+}
