@@ -80,27 +80,29 @@ export default function TagsInput({
         additionalMessage={showNotification.additionalMessage}
       />
       <label htmlFor="tags">Tags</label>
-      <ReactSortable
-        tag="ul"
-        list={tags}
-        setList={setTags}
-        swap
-        role="list"
-        className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium"
-      >
-        {tagItems}
-        <li className="flex-1 basis-1/5">
-          <Input
-            name="tags"
-            className="w-full text-sm rounded-md font-mono outline-none dark:bg-primary-high focus:ring-0 focus:border-tertiary-medium focus:outline-0 p-1 hover:border-tertiary-medium"
-            ref={inputRef}
-            type="text"
-            placeholder="type tag..."
-            onKeyUp={handleKeyUp}
-            onKeyDown={handleKeyDown}
-          />
-        </li>
-      </ReactSortable>
+      <div className="flex-1 basis-1/5 my-2">
+        <Input
+          name="tags"
+          className="w-full text-sm rounded-md font-mono outline-none dark:bg-primary-high focus:ring-0 focus:border-tertiary-medium focus:outline-0 p-1 hover:border-tertiary-medium p-2"
+          ref={inputRef}
+          type="text"
+          placeholder="type tag..."
+          onKeyUp={handleKeyUp}
+          onKeyDown={handleKeyDown}
+        />
+      </div>
+      {tagItems.length > 0 && (
+        <ReactSortable
+          tag="ul"
+          list={tags}
+          setList={setTags}
+          swap
+          role="list"
+          className="flex flex-wrap items-center gap-x-4 gap-y-2 border-primary-medium-low mt-3 border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 w-full dark:bg-primary-high focus-within:border-tertiary-medium hover:border-tertiary-medium"
+        >
+          {tagItems}
+        </ReactSortable>
+      )}
     </>
   );
 }
