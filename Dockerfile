@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:18-alpine
 LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/BioDrop
 
 WORKDIR /usr/src/app
