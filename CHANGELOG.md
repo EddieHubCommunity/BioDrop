@@ -1,3 +1,12 @@
+## [2.96.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.1...v2.96.2) (2023-12-18)
+
+
+### Bug Fixes
+
+* maintainers docs ([#9937](https://github.com/EddieHubCommunity/BioDrop/issues/9937)) ([67c8099](https://github.com/EddieHubCommunity/BioDrop/commit/67c8099085f4736d6ac9218905f9e7f66fc837da))
+
+
+
 ## [2.96.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.0...v2.96.1) (2023-12-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * docs for premium features ([#9895](https://github.com/EddieHubCommunity/BioDrop/issues/9895)) ([067f763](https://github.com/EddieHubCommunity/BioDrop/commit/067f7632b8f9a014406bae3cdb7e2e231ddc90ca))
-
-
-
-# [2.95.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.3...v2.95.0) (2023-12-07)
-
-
-### Features
-
-* admin stats active users ([#9857](https://github.com/EddieHubCommunity/BioDrop/issues/9857)) ([29a142b](https://github.com/EddieHubCommunity/BioDrop/commit/29a142bf56044481da030f85fe47eefba3e8a661))
 
 
 
