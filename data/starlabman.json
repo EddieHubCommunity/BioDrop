@@ -1,0 +1,48 @@
+{
+    "name": "Prasenjit Nayak",
+    "bio": "",
+    "tags": ["Open Source", "Content Educator", "Blockchain", "Javascript",  "Solidity"],
+    "milestones": [
+      {
+        "title": "Started Contributing to Open Source",
+        "date": "Janv 2020",
+        "icon": "FaGithub",
+        "color": "black",
+        "description": "I started contributing to GitHub",
+        "url": "https://github.com/starlabman"
+      }
+    ],
+    "links": [
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/starlabman",
+        "icon": "FaTwitter"
+      },
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/code.prasen/",
+        "icon": "FaInstagram"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/starlabman/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/starlabman",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Discord",
+        "url": "https://discord.com/users/starlabman",
+        "icon": "FaDiscord"
+      },
+      {
+        "name": "Stack Overflow",
+        "url": "https://stackoverflow.com/users/17071919/starlabman",
+        "icon": "FaStackOverflow"
+      }
+    ]
+  }
+  
