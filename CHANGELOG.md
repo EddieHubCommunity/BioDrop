@@ -1,3 +1,12 @@
+## [2.96.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.0...v2.96.1) (2023-12-18)
+
+
+### Bug Fixes
+
+* tags input and sort ([#9894](https://github.com/EddieHubCommunity/BioDrop/issues/9894)) ([a68b96d](https://github.com/EddieHubCommunity/BioDrop/commit/a68b96d548cdc82762075d121e0210ce50f48b4c))
+
+
+
 # [2.96.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.2...v2.96.0) (2023-12-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * admin stats active users ([#9857](https://github.com/EddieHubCommunity/BioDrop/issues/9857)) ([29a142b](https://github.com/EddieHubCommunity/BioDrop/commit/29a142bf56044481da030f85fe47eefba3e8a661))
-
-
-
-## [2.94.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.94.2...v2.94.3) (2023-12-07)
-
-
-### Bug Fixes
-
-* milestone icons ([#9870](https://github.com/EddieHubCommunity/BioDrop/issues/9870)) ([61a5c35](https://github.com/EddieHubCommunity/BioDrop/commit/61a5c35019c5dea184a3876709665783bf76ee68))
 
 
 
