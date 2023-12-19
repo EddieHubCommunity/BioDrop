@@ -1,3 +1,12 @@
+## [2.97.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.0...v2.97.1) (2023-12-19)
+
+
+### Bug Fixes
+
+* new profiles less than 10 ([#9962](https://github.com/EddieHubCommunity/BioDrop/issues/9962)) ([91378af](https://github.com/EddieHubCommunity/BioDrop/commit/91378af4620cd1ba7bf671109b42e4aabc8c4096))
+
+
+
 # [2.97.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.2...v2.97.0) (2023-12-19)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * progress bar background ([#9896](https://github.com/EddieHubCommunity/BioDrop/issues/9896)) ([7f6bb01](https://github.com/EddieHubCommunity/BioDrop/commit/7f6bb016637f529fd705e3620f7e32f39772f8c3))
-
-
-
-## [2.95.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.1...v2.95.2) (2023-12-12)
-
-
-### Bug Fixes
-
-* ui screenshots at homepage ([#9872](https://github.com/EddieHubCommunity/BioDrop/issues/9872)) ([cd475b0](https://github.com/EddieHubCommunity/BioDrop/commit/cd475b0aedf880af3583041d99c0bbd7419d7017))
 
 
 
