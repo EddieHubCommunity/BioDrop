@@ -1,0 +1,23 @@
+{
+  "name": "Obi Anthony",
+  "bio":"I am a Full Stack Developer",
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: Megagig Software Solution",
+      "url": "http://megagigsolution.com",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "http://twitter.com/megagigsolution",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "http://github.com/megagig",
+      "icon": "FaGithub"
+    }
+  ]
+ 
+}
