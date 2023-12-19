@@ -1,0 +1,58 @@
+{
+    "name": "Destiny Saturday",
+    "bio": "19 yrs old Full Stack Software Engineer, Still Learning and Building",
+    "socials": [
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/destinedcodes"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/destinedcodes"
+        },
+        {
+            "icon": "FaYoutube",
+            "url": "https://youtube.com/destinedcodes"
+        }
+    ],
+    "links": [
+        {
+            "group": "Portfolio",
+            "name": "Portfolio: DestinedCodes",
+            "url": "http://destinedcodes.me",
+            "icon": "FaLink"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://twitter.com/destinedcodes",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "YouTube: Watch me grow!",
+            "url": "https://youtube.com/destinedcodes",
+            "icon": "FaYoutube",
+            "color": "#FF0000"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "GitHub: Let's Collaborate",
+            "url": "https://github.com/destinedcodes",
+            "icon": "FaGithub"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "LinkedIn: Let's connect",
+            "url": "https://linkedin.com/in/destinedcodes",
+            "icon": "FaLinkedin"
+        },
+        {
+            "group": "DestinedCodes Community",
+            "name": "Blog: I am writing, I am reading",
+            "url": "http://blog.destinedcodes.me",
+            "icon": "FaLink"
+        }
+    ]
+}
