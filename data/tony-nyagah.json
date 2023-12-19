@@ -1,0 +1,26 @@
+{
+    "name": "Antony Nyagah",
+    "bio": "Fullstack Developer | Open Source Contributor | Upcoming Data Scientist",
+    "links": [
+        {
+            "name": "Webpage",
+            "url": "https://tony-nyagah.github.io/",
+            "icon": "FaGlobe"
+        },
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/NyagahTony",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "Connect with me on LinkedIn",
+            "url": "https://www.linkedin.com/in/antony-nyagah/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Follow me on GitHub",
+            "url": "https://github.com/tony-nyagah/",
+            "icon": "FaGithub"
+        }
+    ]
+}
