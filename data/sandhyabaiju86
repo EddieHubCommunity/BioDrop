@@ -1,0 +1,32 @@
+"name" : "sandhyabaiju86:,
+"bio" : "As a self-taught web developer, I've honed my skills through a passion for coding and a commitment to continuous learning."
+"Links" : [
+{
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/sandhya_baiju",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Linkedin: Connect",
+      "url": "https://www.linkedin.com/in/sandhya-baiju/",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Connect",
+      "url": "https://github.com/sandhyabaiju86",
+      "icon": "FaGithub",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Discord: Connect",
+      "url": "https://discord.com/sandhyabaiju",
+      "icon": "FaDiscord",
+      "color": "#00ACEE"
+    },
+]
