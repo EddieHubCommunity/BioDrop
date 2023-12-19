@@ -1,0 +1,52 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## Quick demo
+
+![BioDrop CLI demo](https://github.com/EddieHubCommunity/BioDrop/assets/51878265/bd016c84-e35a-4c88-86e0-ad4ffb114e8a)
+
+## What is BioDrop CLI?
+
+[**BioDrop CLI**](https://github.com/Pradumnasaraf/BioDrop-CLI) is a command line tool that helps us create a JSON and update an existing JSON file for your BioDrop profile. We can also give testimonials to other BioDrop profiles and add events.
+
+Also the **BioDrop CLI** is 100% Open Source, you can check it out [here](https://github.com/Pradumnasaraf/BioDrop-CLI) and leave a ⭐ if you like it and want to support it.
+
+## Installation and using the CLI
+
+1. Make sure you have forked and cloned the [BioDrop](https://github.com/EddieHubCommunity/BioDrop) repository and have installed the dependencies with
+
+```bash
+npm ci
+```
+
+2. To trigger the CLI, run the following command in the root directory of the project.
+
+```bash
+npm run cli
+```
+
+- When we run the above command it will run `npx biodrop-cli`. We use **npx** to run the CLI without installing it globally.
+
+3. You will then be prompted with several options. You can use the arrow keys to navigate and press enter to select the task you want to perform and then you will be prompted with the questions.
+
+![BioDrop CLI main prompt](https://user-images.githubusercontent.com/51878265/220891756-10861090-e719-4687-b4fb-f7bef2826934.png)
+
+4. Once you are done with the questions, it will create the JSON file depending on the task you selected. For example, if you selected `Create a BioDrop JSON file`, it will create a JSON file in the `data/` directory. You will also get a message in the terminal. Something similar to the following image.
+
+![BioDrop CLI JSON file created](https://user-images.githubusercontent.com/51878265/220895327-ebb3a616-eedf-4497-9663-081064168d93.png)
+
+5. Once the JSON file is created by the CLI, you can commit the changes by the commit message that starts with `data:` followed by your GitHub username (for example, `data: Pradumnasaraf`). Then you can push the changes to your forked repository and create a pull request.
+
+## Feedback
+
+If you find any kind of bug you can use the 5th option `🐛 Report a bug` in the main prompt to report the bug. You can also create an issue in the [BioDrop CLI](https://github.com/Pradumnasaraf/BioDrop-CLI/issues/new?assignees=&labels=bug&template=bug.yaml) repository.
+
+export default ({ children }) => (
+  <DocsLayout
+    title="Creating profile via BioDrop CLI"
+    section="Getting started"
+    name="BioDrop CLI"
+  >
+    {children}
+  </DocsLayout>
+);

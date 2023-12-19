@@ -1,0 +1,73 @@
+{
+  "name": "Mohan Vamsi Kurimeti",
+  "bio": "🚀 Fullstack Developer 🌐 | Node.js, Angular, GCP, AWS, Spring Boot | Docker enthusiast 🐳 | GitHub aficionado 💻 | Crafting exceptional digital experiences with style and precision ✨ Let's collaborate and build amazing things together! 🤝",
+  "tags": [
+    "Javascript",
+    "Typescript",
+    "Node JS",
+    "Angular",
+    "Primeng",
+    "Bootstrap",
+    "Prime Flex",
+    "Springnoot",
+    "Docker",
+    "Kubernetes",
+    "Networking",
+    "OWASP",
+    "Cybersecurity",
+    "Burpsuite",
+    "Kali Linux",
+    "N map",
+    "GCP",
+    "AWS",
+    "Github",
+    "Opensource"
+  ],
+  "links": [
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/kurimeti-mohan-vamsi",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://www.github.com/vamsikurimeti/",
+      "icon": "FaGithubSquare"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/vamsikurimeti",
+      "icon": "FaTwitterSquare"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/vamsikurimeti",
+      "icon": "SiInstagram"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@vamsikurimeti92",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Blogsite (WIX) ",
+      "url": "https://superconsciousmind.wixsite.com/superconsciousminded?fbclid=PAAabxuK9FaQMLyzATyv2pqQcfoXzdjdh7GgT7n2Up0MjU-jkAJW3USjT4dl8",
+      "icon": "FaWix"
+    },
+    {
+      "name": "AI Chat Bot",
+      "url": "https://open-ai-node-vamsikurimeti.vercel.app/",
+      "icon": "SiChatbot"
+    },
+    {
+      "name": "Daily Dev",
+      "url": "https://app.daily.dev/vamsikurimeti",
+      "icon": "FaInfinity"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://vamsikurimeti.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

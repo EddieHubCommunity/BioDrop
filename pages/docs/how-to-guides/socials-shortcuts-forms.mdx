@@ -1,0 +1,33 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
+
+## Social shortcuts - with Forms
+
+Add a shortcut to your favourite social media accounts at the top of your Profile.
+
+_Note: this must be one of your URLs links and will use the same icon from your link_
+
+![Example of BioDrop Social Shortcut icons](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/ba099bf6-d61a-4ee2-b8d5-09b2172f0b66)
+
+### Add Social shortcuts
+
+1. When adding or editing a link, for this to appear at the top of your Profile turn on the toggle at the bottom of the Form:
+
+![BioDrop Links Form](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/5cc517d7-1ad0-4d19-bb3c-b02301c2d803)
+
+2. Click Save
+
+3. The Social Shortcut will then be shown in your Profile on your custom URL (BioDrop.io/eddiejaoude)
+
+If you have not yet added links to your Profile or you want to edit an existing link, take a look at the [Links - with Forms](/docs/how-to-guides/links-forms)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Social Shortcuts Documentation"
+    section="Customising your Profile"
+    name="Social Shortcuts"
+  >
+    {children}
+  </DocsLayout>
+);

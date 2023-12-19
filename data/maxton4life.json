@@ -1,0 +1,42 @@
+{
+  "name": "Hameed Kareem",
+  "bio": "A Self-Taught DevOps Engineer Who is Passionate about Delivering Software Products at high velocity by Designing Solutions that help businesses grow.",
+  "tags": ["Linux", "Python", "CI/CD", "Docker", "Kubernetes"],
+
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/hameed__kareem"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/maxton4life"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@hameedkareem"
+    }
+  ],
+  "links": [
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/hameed__kareem",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on GitHub",
+      "url": "https://github.com/maxton4life",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/abdulhameed-abdulkareem123",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Open Source Blog",
+      "url": "https://hashnode.com/@hameedkareem",
+      "icon": "SiHashnode"
+    }
+  ]
+}

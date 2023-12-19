@@ -1,0 +1,38 @@
+{
+  "name": "Edward Njogu",
+  "bio": "Fullstack Developer",
+  "tags": [
+    "Javascript",
+    "Python",
+    "Django",
+    "Bootstrap",
+    "Full-stack"
+  ],
+  "socials": [
+    { "icon": "FaGlobe", "url": "https://njogued.me" },
+    { "icon": "FaGithub", "url": "https://github.com/njogued" },
+    { "icon": "FaMedium", "url": "https://medium.com/@njogued" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/edward-njogu-36b345122/" }
+  ],
+  "links": [{
+      "name": "Portfolio Website",
+      "url": "http://njogued.me",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/njogued",
+      "icon": "FaGithub"
+    },  
+    {
+      "name": "LinkedIn: Follow me",
+      "url": "https://www.linkedin.com/in/edward-njogu-36b345122/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Medium",
+      "url": "https://medium.com/@njogued",
+      "icon": "FaMedium"
+    }
+  ]
+}

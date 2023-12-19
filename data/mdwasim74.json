@@ -1,0 +1,17 @@
+{
+  "name": "md wasimuddin",
+  "bio": "Engineer turned **Data Analyst**. Travel enthusiast ",
+  "links": [
+    {
+      "name": "Follow me on Twittwer",
+      "url": "https://twitter.com/mdwasim747",
+      "icon": "FaTwitter"
+    },
+
+    {
+      "name": "Follow me on Twittwer",
+      "url": "www.linkedin.com/in/wasimuddin-md-1b9b06280",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,6 +1,13 @@
 {
   "name": "Rupesh Dubey",
-  "bio": "Open Source Enthusiast | Alpha ⭐ - Microsoft Learn Student Ambassador 🎓",
+  "bio": "Beta {β} - MLSA 🎓 || BCA' 25 Undergrad || Machine Learning Enthusiast || Community Driven || Building @ CodeYacht",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Python",
+    "Machine Learning",
+    "Communities"
+  ],
   "socials": [
     {
       "icon": "FaTwitter",
@@ -12,7 +19,7 @@
     },
     {
       "icon": "FaYoutube",
-      "url": "https://youtube.com/@rokrupesh"
+      "url": "https://youtube.com/@okrupesh"
     },
     {
       "icon": "FaLinkedin",
@@ -58,7 +65,7 @@
     },
     {
       "group": "Contact",
-      "name": "Mail me at",
+      "name": "Mail me here",
       "url": "mailto:contactrupeshdubey@gmail.com",
       "icon": "SiGmail",
       "color": "#FF651F"

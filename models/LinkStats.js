@@ -19,12 +19,16 @@ const linkStatsSchema = new mongoose.Schema(
       type: Date,
       default: new Date(),
     },
+    link: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Link",
+    },
     profile: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Profile",
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 linkStatsSchema.index({ username: 1, date: 1 });

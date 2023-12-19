@@ -1,0 +1,46 @@
+{
+  "name": "Aditya Joshi",
+  "bio": "**CS Engineer passionate about Building Systems and enjoys delving into the intricacies of **Networking****",
+  "tags": ["Golang", "Node.js", "MongoDB", "Machine Learning"],
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/adityjoshi/"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/adityjoshi_/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/adityjoshi"
+    }
+  ],
+  "links": [
+    {
+      "name": "AMA",
+      "url": "https://peerlist.io/aadityajoshi?tab=ama",
+      "icon": "FaCode"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/adityjoshi/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/adityjoshi",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/adityjoshi_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "CodeCrew",
+      "url": "https://github.com/adityjoshi/CodeCrew",
+      "icon": "FaRegFileCode"
+    }
+  ]
+}

@@ -11,12 +11,9 @@ export default function BreadCrumb({ section, name }) {
           <div>
             <Link
               href="/docs"
-              className="text-primary hover:text-primary-medium-low"
+              className="text-primary hover:text-tertiary-medium"
             >
-              <HomeIcon
-                className="h-5 w-5 flex-shrink-0"
-                aria-hidden="true"
-              />
+              <HomeIcon className="h-5 w-5 flex-shrink-0" aria-hidden="true" />
               <span className="sr-only">Docs</span>
             </Link>
           </div>
@@ -29,7 +26,7 @@ export default function BreadCrumb({ section, name }) {
             />
             <Link
               href={`/docs/#${section}`}
-              className="ml-4 text-sm font-medium text-primary hover:text-primary-medium-low"
+              className="ml-4 text-sm font-medium text-primary hover:text-tertiary-medium"
             >
               {section}
             </Link>
@@ -43,7 +40,7 @@ export default function BreadCrumb({ section, name }) {
             />
             <Link
               href="#"
-              className="ml-4 text-sm font-medium text-primary hover:text-primary-medium-low"
+              className="ml-4 text-sm font-medium text-primary hover:text-tertiary-medium"
             >
               {name}
             </Link>

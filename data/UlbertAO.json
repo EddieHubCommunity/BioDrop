@@ -1,0 +1,42 @@
+{
+  "name": "Suraj Pandey",
+  "bio": "Another Tech-Savvy in this corner",
+  "tags": [
+    "Open Source",
+    "Web Developer",
+    "Node.js",
+    "Angular",
+    "Azure Functions C#",
+    "SQL Server"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/iam8pandey"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/UlbertAO"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Share about my learnings",
+      "url": "https://twitter.com/iam8pandey",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/UlbertAO",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about things I know, I learn, I find interesting",
+      "url": "https://ulbertao.hashnode.dev",
+      "icon": "SiHashnode"
+    }
+  ]
+}

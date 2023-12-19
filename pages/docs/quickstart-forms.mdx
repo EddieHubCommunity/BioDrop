@@ -1,0 +1,87 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy.js";
+import Link from "@components/Link.js";
+import Youtube from "@components/embeds/Youtube.js";
+import Alert from "@components/Alert.js";
+import { BASE_WEBSITE_URL } from "@constants/index";
+
+## Quickstart - creating your Profile through Forms
+
+### Add your Profile
+
+You can create your Profile by completing a Form on the BioDrop app.
+
+To do this, you need a GitHub account. If you do not have one yet, you can create one for free with an email address and password.
+
+1. Go to the <Link href={BASE_WEBSITE_URL} target="_blank" rel="noopener">BioDrop homepage</Link>
+
+2. Click on `Sign up`
+
+![BioDrop homepage](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/ce980ed7-ad4d-42c0-886c-447a2e2ab936)
+
+3. Click on `Continue with GitHub`
+
+![BioDrop Forms login page](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/fdea7aa5-186f-4890-a6f0-54cd33b7bd7b)
+
+4. This will take you to the GitHub login page
+
+![GitHub log in page](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/d9ecab04-150f-403c-92be-16451812751d)
+
+5. After successful login to GitHub you will automatically be redirected back to BioDrop where you will see the Form:
+
+![BioDrop Form for new Profile](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/eaffc958-faff-4d4d-9ab9-1ed7fc9c7d39)
+
+| Field    | Description                                                                                                                                                    |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Username | This will be automatically populated with your GitHub username. This cannot be changed                                                                         |
+| Layout   | use the drop down to select which layout you would like                                                                                                        |
+| Bio      | Describe yourself in a few words who you are (you can use Markdown which will allow you to use the formatting styles like italic and bold)                     |
+| Tags     | Add searchable keywords for people to discover your Profile (they can be your area of expertise, interests or tech you use - such as `DevRel` or `Javascript`) |
+
+The following layouts are available:
+
+| Layout  | Description                                                  |
+| :------ | :----------------------------------------------------------- |
+| Classic | The different sections of your Profile will be shown in tabs |
+| Inline  | The contents of your Profile are displayed vertically        |
+
+Note: as you complete these fields the information will appear on the right hand side, which will allow you to preview how your Profile will look.
+
+6. Click `Save`
+
+You will see a notification at the top of the page which looks like this:
+
+![BioDrop Form created Profile](https://github.com/EddieHubCommunity/BioDrop/assets/82668196/8a14efae-3867-4304-b12f-ede862c24478)
+
+7. Your Profile will be then be available on your custom URL (BioDrop.io/eddiejaoude)
+
+<Alert
+  type="info"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      Your Profile with automatically be prepopulate with your basic GitHub information
+      and link to your GitHub profile. You can update this accordingly in the "name"
+      field or in the <Link href="/docs/how-to-guides/links-forms">
+        links
+      </Link> page.
+    </>
+  }
+/>
+
+## Next steps
+
+- How to <Link href="/docs/how-to-guides/editing-forms">edit and add more</Link> to your profile
+- Add <Link href="/docs/how-to-guides/socials-shortcuts-forms">social shortcuts</Link> to your profile
+- Add <Link href="/docs/how-to-guides/events-forms">events</Link> to your profile
+- Add <Link href="/docs/how-to-guides/testimonials-forms">testimonials</Link> to your profile
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop QuickStart Documentation"
+    section="Getting started"
+    name="QuickStart"
+  >
+    {children}
+  </DocsLayout>
+);

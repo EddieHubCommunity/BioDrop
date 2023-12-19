@@ -1,0 +1,26 @@
+{
+    "name": "Sarvjeet Singh",
+    "bio": "Software Engineer",
+    "tags": [
+        "Software Engineer",
+        "python",
+        "react",
+        "Javascript",
+        "Tensorflow",
+        "Data Science"
+    ],
+    "socials": [
+        {
+            "icon": "FaLink",
+            "url": "https://www.linkedin.com/in/sarvjeet-singh-6249551b7/"
+        }
+    ],
+    "links": [
+        {
+            "group": "portfolio",
+            "name": "My portfolio",
+            "url": "https://jeetcodes.netlify.app/",
+            "icon": "FaLink"
+        }
+    ]
+}

@@ -1,35 +1,45 @@
-## [1.144.15](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.14...v1.144.15) (2023-06-24)
+## [2.96.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.1...v2.96.2) (2023-12-18)
 
 
 ### Bug Fixes
 
-* update Linkfree CLI version ([#7779](https://github.com/EddieHubCommunity/LinkFree/issues/7779)) ([a9ec856](https://github.com/EddieHubCommunity/LinkFree/commit/a9ec856f2effa13e979acc7705854b8d002f7cf1))
+* maintainers docs ([#9937](https://github.com/EddieHubCommunity/BioDrop/issues/9937)) ([67c8099](https://github.com/EddieHubCommunity/BioDrop/commit/67c8099085f4736d6ac9218905f9e7f66fc837da))
 
 
 
-## [1.144.14](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.13...v1.144.14) (2023-06-24)
-
-
-
-## [1.144.13](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.12...v1.144.13) (2023-06-24)
+## [2.96.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.0...v2.96.1) (2023-12-18)
 
 
 ### Bug Fixes
 
-* switch to useRouter from next/router ([#7757](https://github.com/EddieHubCommunity/LinkFree/issues/7757)) ([daa37fa](https://github.com/EddieHubCommunity/LinkFree/commit/daa37fa74a99c29fda5fa87784104f8a2c356d56))
+* tags input and sort ([#9894](https://github.com/EddieHubCommunity/BioDrop/issues/9894)) ([a68b96d](https://github.com/EddieHubCommunity/BioDrop/commit/a68b96d548cdc82762075d121e0210ce50f48b4c))
 
 
 
-## [1.144.12](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.11...v1.144.12) (2023-06-24)
+# [2.96.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.2...v2.96.0) (2023-12-13)
+
+
+### Features
+
+* progress bar background ([#9896](https://github.com/EddieHubCommunity/BioDrop/issues/9896)) ([7f6bb01](https://github.com/EddieHubCommunity/BioDrop/commit/7f6bb016637f529fd705e3620f7e32f39772f8c3))
 
 
 
-## [1.144.11](https://github.com/EddieHubCommunity/LinkFree/compare/v1.144.10...v1.144.11) (2023-06-24)
+## [2.95.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.1...v2.95.2) (2023-12-12)
 
 
 ### Bug Fixes
 
-* update dependencies ([#7755](https://github.com/EddieHubCommunity/LinkFree/issues/7755)) ([c664a27](https://github.com/EddieHubCommunity/LinkFree/commit/c664a27ab88ce800ad84f46ddb2b940376d0f3fc))
+* ui screenshots at homepage ([#9872](https://github.com/EddieHubCommunity/BioDrop/issues/9872)) ([cd475b0](https://github.com/EddieHubCommunity/BioDrop/commit/cd475b0aedf880af3583041d99c0bbd7419d7017))
+
+
+
+## [2.95.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.0...v2.95.1) (2023-12-12)
+
+
+### Bug Fixes
+
+* docs for premium features ([#9895](https://github.com/EddieHubCommunity/BioDrop/issues/9895)) ([067f763](https://github.com/EddieHubCommunity/BioDrop/commit/067f7632b8f9a014406bae3cdb7e2e231ddc90ca))
 
 
 

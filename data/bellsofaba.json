@@ -1,0 +1,68 @@
+{
+  "name": "Jack Aba",
+  "bio": "**Software Developer**, Open Source Devotee, & Technical Writer",
+  "tags": [
+    "Open Source",
+    "Frontend Developer",
+    "React",
+    "Web3",
+    "Technical Writer"
+  ],
+  "links": [
+    {
+      "name": "Connect with me on Twitter",
+      "url": "https://twitter.com/bellsofaba",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Github",
+      "url": "https://github.com/bellsofaba",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/bellsofaba/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Connect with me on Instagram",
+      "url": "https://www.instagram.com/jhoq_/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Connect with me on Medium",
+      "url": "https://medium.com/@bellsofaba",
+      "icon": "SiMedium"
+    },
+    {
+      "name": "Connect with me on Dev.to",
+      "url": "https://dev.to/bellsofaba",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Connect with me on hashnode",
+      "url": "https://hashnode.com/@bellsofaba",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Connect with me on freeCodeCamp",
+      "url": "https://www.freecodecamp.org/Bellsofaba",
+      "icon": "FaFreeCodeCamp"
+    },
+    {
+      "name": "Connect with me on Fiverr",
+      "url": "https://www.fiverr.com/bellsofaba",
+      "icon": "SiFiverr"
+    },
+    {
+      "name": "Connect with me on Upwork",
+      "url": "https://www.upwork.com/freelancers/~0187fc2d56c6a80aa3",
+      "icon": "SiUpwork"
+    },
+    {
+      "name": "Connect with me on LearnWeb3",
+      "url": "https://learnweb3.io/u/Bellsofaba/",
+      "icon": ""
+    }
+  ]
+}

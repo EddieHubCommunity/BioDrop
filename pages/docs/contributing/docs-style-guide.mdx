@@ -1,0 +1,81 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## Style Guide
+
+### Inclusive Language
+
+Where possible use gender-neutral language.
+
+For example:
+
+> - **Recommended:** A maintainer should try to be kind yet constructive in **their** feedback.
+> - **Not recommended:** A maintainer should try to be kind yet constructive in **his** feedback.
+
+Avoid terms which may have offensive connotations.
+
+For example:
+
+> - **Recommended:** Contributors should push their Pull Requests to the **main** branch.
+> - **Not recommended:** Contributors should push their Pull Requests to the **master** branch.
+
+### Grammar & Punctuation
+
+#### Capitalisation
+
+Use uppercase to describe a product, a feature, the first letter of a sentence, or a person's name.
+
+For example:
+
+> - **Recommended:** We suggest you may want to look at our **Contributing** guide on **GitHub**.
+> - **Not recommended:** We suggest you may want to look at our **contributing** guide on **github**.
+
+### Clarity
+
+#### Abbreviations
+
+Do not assume that everyone understands abbreviations, always spell out the full term.
+
+For example:
+
+> - **Recommended:** I will merge your **Pull Request**.
+> - **Not recommended:** I will merge your **PR**.
+
+### Accessibility
+
+#### Images
+
+Use Alternative Text to describe images (Alt Text).
+
+#### Emojis
+
+1. Avoid using emojis as bullet points or numbered lists.
+
+For example:
+
+**Not this:**
+
+> - 1️⃣ Fork the repo
+> - 2️⃣ Visit the BioDrop repo
+
+**Use this:**
+
+> - **1.** Fork the repo
+> - **2️.** Visit the BioDrop repo
+
+2. Avoid using emojis in the middle of a sentence.
+
+   For example:
+
+   - **Not this:** There are 4️⃣ ways you can run the project
+   - **Use this:** There are **4** ways you can run the project
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Style Guide"
+    section="Contributing"
+    name="Docs Style Guide"
+  >
+    {children}
+  </DocsLayout>
+);

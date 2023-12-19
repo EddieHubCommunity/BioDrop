@@ -1,0 +1,27 @@
+{
+  "name": "Jasmin Rachel Patel",
+  "bio": "Front End Developer with a previous life in Arts & Museums. Now with @sky-uk at Leeds Dock... and a little too obsessed with my bikes.",
+  "tags": ["Javascript", "Typescript", "GraphQl", "Mountain Biking"],
+  "socials": [
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/jasminrachelpatel"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/minnypatel"
+    }
+  ],
+  "links": [
+    {
+      "name": "Instagram: Follow Me",
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/jasminrachelpatel"
+    },
+    {
+      "name": "Twitter: Follow Me",
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/minnypatel"
+    }
+  ]
+}

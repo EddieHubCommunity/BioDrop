@@ -1,9 +1,9 @@
 import UserLink from "./UserLink";
 import Alert from "@components/Alert";
 
-export default function UserLinks({ BASE_URL, data }) {
+export default function UserLinks({ BASE_URL, links, username }) {
   const defaultBucket = "Others";
-  const buckets = data.links?.reduce((acc, obj) => {
+  const buckets = links?.reduce((acc, obj) => {
     const group = obj.group || defaultBucket;
     const curGroup = acc[group] ?? [];
 
@@ -12,8 +12,9 @@ export default function UserLinks({ BASE_URL, data }) {
 
   return (
     <>
-      {!data.links && <Alert type="info" message="No links found" />}
-      {data.links && (
+      {!links?.length && <Alert type="info" message="No Links found" />}
+
+      {links?.length > 0 && (
         <>
           {Object.keys(buckets).map((name) => (
             <div key={name} className="flex flex-col items-center w-full">
@@ -37,7 +38,8 @@ export default function UserLinks({ BASE_URL, data }) {
                   BASE_URL={BASE_URL}
                   key={link._id}
                   link={link}
-                  username={data.username}
+                  username={username}
+                  isEnabled={link.isEnabled}
                 />
               ))}
             </div>

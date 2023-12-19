@@ -1,0 +1,15 @@
+{
+  "isVirtual": true,
+  "name": "AWS Builders Online Series",
+  "description": "Designed to enable you with core AWS concepts, step-by-step architectural best practices including demonstrations to help you get started and accelerate your success on AWS.",
+  "date": {
+    "start": "2023-07-17T10:00:00.000+05:30",
+    "end": "2023-07-17T13:15:00.000+05:30"
+  },
+  "url": "https://aws.amazon.com/events/builders-online-series/",
+  "price": {
+    "startingFrom": 0
+  },
+  "userStatus": "attending",
+  "speakingTopic": "AWS"
+}
