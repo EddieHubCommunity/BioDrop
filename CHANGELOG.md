@@ -1,3 +1,12 @@
+# [2.97.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.2...v2.97.0) (2023-12-19)
+
+
+### Features
+
+* admin list new profiles ([#9960](https://github.com/EddieHubCommunity/BioDrop/issues/9960)) ([a7fa8f5](https://github.com/EddieHubCommunity/BioDrop/commit/a7fa8f5b36bc57549ffaf4a62d7ad7214f5f36d5))
+
+
+
 ## [2.96.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.1...v2.96.2) (2023-12-18)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * ui screenshots at homepage ([#9872](https://github.com/EddieHubCommunity/BioDrop/issues/9872)) ([cd475b0](https://github.com/EddieHubCommunity/BioDrop/commit/cd475b0aedf880af3583041d99c0bbd7419d7017))
-
-
-
-## [2.95.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.0...v2.95.1) (2023-12-12)
-
-
-### Bug Fixes
-
-* docs for premium features ([#9895](https://github.com/EddieHubCommunity/BioDrop/issues/9895)) ([067f763](https://github.com/EddieHubCommunity/BioDrop/commit/067f7632b8f9a014406bae3cdb7e2e231ddc90ca))
 
 
 
