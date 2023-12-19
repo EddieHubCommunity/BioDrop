@@ -92,7 +92,7 @@ export async function getProfiles(filter = "recently updated", limit = 100) {
 
   if (filter === "new") {
     try {
-      profiles = await Profile.find({ isEnabled: true, views: { $lt: 20 } })
+      profiles = await Profile.find({ isEnabled: true, views: { $lt: 10 } })
         .sort({ updatedAt: -1 })
         .limit(limit);
     } catch (e) {
