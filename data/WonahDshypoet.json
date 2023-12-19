@@ -1,0 +1,21 @@
+{
+  "name": "Godwin Wonah",
+  "bio": "Software Developer",
+  "links": [
+    {
+      "name": "X",
+      "url": "https://X.com/shypoet__",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/godwin-wonah-9021371ab/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/WonahDshypoet",
+      "icon": "Fagithub"
+    }
+  ]
+}
