@@ -1,0 +1,35 @@
+{
+    "name": "Odo Peter Ebere",
+    "bio": "Software Engineer | Frontend Developer | [ALX](https://www.alxafrica.com/) Cohort 12 ",
+    "tags": [
+        "Open Source",
+        "NodeJS",
+        "JavaScript",
+        "TypeScript",
+        "NextJS",
+        "Tailwind CSS"
+    ],
+    "links": [
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://x.com/Odo_Peter_Ebere",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "LinkedIn: Connect with me",
+            "url": "https://linkedin.com/in/peter-odo-254aa026b",
+            "icon": "FaLinkedin",
+            "color": "#0E76A8"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "GitHub: Reach out",
+            "url": "https://github.com/Odo-Peter",
+            "icon": "FaGithub",
+            "color": "#C9510C"
+        }
+    ]
+}
