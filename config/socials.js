@@ -1,6 +1,6 @@
 "use client";
 
-import { BsTwitter, BsFacebook, BsLinkedin } from "react-icons/bs";
+import { BsTwitterX, BsFacebook, BsLinkedin } from "react-icons/bs";
 
 export const socials = [
   {
