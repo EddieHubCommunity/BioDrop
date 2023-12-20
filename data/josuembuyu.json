@@ -1,0 +1,25 @@
+{
+  "name": "Josué Mbuyu",
+  "bio": "Software Engineer | Specializing in Typescript, React, Next.js, Node | Open Source Enthusiast",
+  "tags" : [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "Tailwind CSS"
+  ],
+  "links": [
+    {
+      "url": "https://twitter.com/mbuyu_josue",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/josuembuyu",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://www.linkedin.com/in/josue-mbuyu/",
+      "icon": "FaLinkedinIn"
+    }
+  ]
+}
