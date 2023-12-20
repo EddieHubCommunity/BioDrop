@@ -1,4 +1,4 @@
-# Contributing Guide
+# Contributing Guidance
 
 [![BioDrop Contributing Guide](https://user-images.githubusercontent.com/82668196/242340741-a0124ead-97b6-488f-9271-10f2b0e1f577.jpg)](https://youtu.be/dfeSpGd8leU)
 
