@@ -1,0 +1,16 @@
+{
+  "name": "Ajayi Sunday",
+  "bio": "Open Source Javascript | Frontend Developer",
+  "links": [
+    {
+      "name": "Follow me on twitter",
+      "url": "https://twitter.com/ajayi_sajayi?t=omaSSRmpA38QRTSV-fzfaw&s=09",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "let's connect on linkedin",
+      "url": "https://www.linkedin.com/in/sunday-ajayi-a55220114?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

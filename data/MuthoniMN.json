@@ -1,0 +1,30 @@
+{
+  "name": "Michelle Ndiangui",
+  "bio": "Full-Stack Software Engineer | MERN | Technical Writer | Computer Science Student at Riara University",
+  "links": [
+    {
+      "name" : "Visit My Web Development Blog",
+      "url": "https://mitchcodes.hashnode.dev/",
+      "icon": "FaLink",
+      "color": "#FFCAE9"
+    }
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url" : "https://github.com/MuthoniMN"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url" : "https://www.linkedin.com/in/michelle-ndiangui/"
+    },
+    {
+      "icon": "FaTwitter",
+      "url" : "https://twitter.com/codebymitch"
+    },
+    {
+      "icon": "FaInstagram",
+      "url" : "https://www.instagram.com/codebymitch/"
+    }
+  ]
+}

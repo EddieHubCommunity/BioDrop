@@ -1,0 +1,24 @@
+{
+  "name": "Akpo Kenneth",
+  "bio": "Frontend Dev | Machine Learning Dev | Technical Writer",
+  "links": [
+    {
+      "group": "Social primary",
+      "name": "Twitter",
+      "url": "https://twitter.com/kenneth_akpo",
+      "icon": "FaXtwitter"
+    },
+     {
+      "group": "Social primary",
+      "name": "Linkedin",
+      "url": "https://linkedin.com/in/kenneth-akpo",
+      "icon": "FaLinkedin"
+    },
+     {
+      "group": "Social primary",
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@CoderofpH",
+      "icon": "FaHashnode"
+    }
+  ]
+}

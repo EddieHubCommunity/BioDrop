@@ -1,0 +1,35 @@
+{
+  "name": "Olamide Olanrewaju",
+  "bio": "Backend Developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Python",
+    "NodeJS",
+    "Express"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/olanrewajuolam6" },
+    { "icon": "FaGithub", "url": "https://github.com/Olyray" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/olyray/" }
+  ],
+  "links": [
+    {
+      "name": "Check out my Open Source conributions on GitHub",
+      "url": "https://github.com/Olyray",
+      "icon": "FaGithub",
+      "color": "#171515"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/olanrewajuolam6",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "name": "My profile on LinkedIn",
+      "url": "https://linkedin.com/in/olyray",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
