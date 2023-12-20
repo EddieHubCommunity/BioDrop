@@ -1,0 +1,30 @@
+{
+    "name": "Rohit Bagade",
+    "bio": "Web-developer and Designer, create clean and modest applications",
+    "tags": [
+        "ReactJs",
+        "NextJs",
+        "JavaScript",
+        "Dart",
+        "C++",
+        "Python",
+        "Open Source",
+        "Blender",
+        "Photoshop",
+        "Android Studio",
+        "TailwindCss",
+        "HTML"
+    ],
+    "links": [
+        {
+            "name": "Follow on Linkedin",
+            "url": "https://www.linkedin.com/in/rohit-bagade-webdev935/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Follow on Github",
+            "url": "https://github.com/Rohitbagade-cs",
+            "icon": "FaGithub"
+        }
+    ]
+}
