@@ -1,0 +1,19 @@
+{
+  "name": "Glenn Mark",
+  "bio": "Open Source contributor | Software engineer"
+      "links": [
+    {
+      "group": "ALX",
+      "name": "Alx Software Engineering Course",
+      "url": "https://www.alxafrica.com/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/quantum_G",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+  ]
+}
