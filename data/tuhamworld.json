@@ -16,6 +16,11 @@
       "name": "Follow me on Hashnode",
       "url": "https://tuhamworld.hashnode.dev",
       "icon": "SiHashnode"
+    },
+    {
+      "name": "Visit my Website",
+      "url": "https://tuhamworld.com",
+      "icon": "FaGlobe"
     }
   ]
 }
