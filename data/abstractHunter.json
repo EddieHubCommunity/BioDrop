@@ -1,0 +1,30 @@
+{
+  "name": "Daniel ATTITSOGBE",
+  "bio": "Have a look at my BioDrop Profile!",
+  "links": [
+    {
+      "group": "Dev",
+      "name": "My projects are here",
+      "url": "https://github.com/abstractHunter",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Social",
+      "name": "Follow me on X",
+      "url": "https://twitter.com/dan_attitsogbe",
+      "icon": "FaXTwitter"
+    },
+    {
+      "group": "Social",
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/yao-daniel-attitsogbe/",
+      "icon": "FaLinkedinIn"
+    },
+    {
+      "group": "Dev",
+      "name": "My Tublian profile",
+      "url": "https://www.tublian.com/profile/abstractHunter",
+      "icon": "FaGlobe"
+    },
+  ]
+}
