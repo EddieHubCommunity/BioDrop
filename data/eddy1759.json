@@ -1,0 +1,38 @@
+{
+    "name": "Edet Emmanuel Asuquo",
+    "bio": "Open Source Javascript | Data-Driven Backend Developer | Technical Writer ( Transforming Ideas into Seamless Experiences | Let's Innovate Together )",
+    "tags": ["Open Source", "MySQL", "PostgreSQL", "DevOps", "Express", "TypeScript", "Docker", "NOSQL"],
+    "links": [
+      {
+        "name": "Follow me on twitter",
+        "url": "https://twitter.com/eddyozone",
+        "icon": "FaTwitter"
+      },
+      {
+        "name": "let's connect on linkedin",
+        "url": "https://www.linkedin.com/in/edetasuquo/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "Check out my blog",
+        "url": "https://edet.hashnode.dev",
+        "icon": "FaGlobe"
+      },
+      {
+        "name": "Check out my github",
+        "url": "https://github.com/eddy1759",
+        "icon": "FaGithub"
+      }
+    ],
+    "milestones": [
+        {
+          "title": "Started Learning DevOps",
+          "date": "November 2022",
+          "icon": "FaDollarSign",
+          "color": "grey",
+          "description": "Started Learning DevOps",
+          "url": "https://github.com/eddy1759"
+        }
+    ]
+}
+  
