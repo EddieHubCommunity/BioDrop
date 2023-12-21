@@ -1,0 +1,19 @@
+{
+  "name": "Benard Simon",
+  "displayStatsPublic": true,
+  "type": "Personal",
+  "bio": "Frontend Developer | Educationist | Physicist",
+  "avatar": "https://github.com/BigBen-7.png",
+  "links": [
+    {
+      "name": "Follow me on twitter",
+      "url": "https://twitter.com/BighaBen_",
+      "icon": "FaTwitter"
+    },
+     {
+      "name": "Follow me on Github",
+      "url": "https://github.com/BigBen-7",
+      "icon": "FaGithub"
+    }
+  ]
+}
