@@ -1,0 +1,19 @@
+{
+  "name": "Sarah Adebayo",
+  "bio": "A Frontend Dev | Javascript, Typescript, Reactjs, Nextjs | Open Source Dev | Sign language Interpreter"
+    "links": [
+    {
+      "group": "Social Primary",
+      "name": "LinkedIn: Follow me",
+      "url": "http://linkedin.com/in/sarahadebayo",
+      "icon": "FaLinkedIn"
+    },
+      {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://x.com/PricelessFave?t=biaaxpzmwb4i-GYtwN6rmQ&s=08",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+  ]
+}
