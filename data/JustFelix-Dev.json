@@ -1,0 +1,25 @@
+{
+  "name": "Felix Owolabi",
+  "bio": " *Software Engineer* | [BioDrop](https://biodrop.io) | **GitHub** Star",
+  "tags": [
+     "Open Source",
+     "Javascript",
+     "TypeScript",
+     "Nodejs",
+     "Nextjs"
+  ],
+  "socials": [
+    {
+      "icons": "FaTwitter",
+      "url": "https://twitter.com/justfelix_dev"
+    },
+     {
+      "icons": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/justfelixowolabi/"
+    },
+     {
+      "icons": "FaGithub",
+      "url": "https://github.com/JustFelix-Dev"
+    }
+  ]
+}
