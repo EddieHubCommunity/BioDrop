@@ -1,0 +1,18 @@
+{
+     "name": "Ruffy sanni",
+    "bio": "I am software developer. I write programs using javascript, reactjs and c#",
+    "links": [
+        {
+            "group": "Socials Primary",
+            "name": "Ruffy sani",
+            "url": "https://twitter.com/sruffy07",
+            "icon": "FaTwitter"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "Rufai sanni",
+            "url": "https://www.linkedin.com/in/sanni-rufai/",
+            "icon": "FaLinkedIn"
+        }
+    ]
+}
