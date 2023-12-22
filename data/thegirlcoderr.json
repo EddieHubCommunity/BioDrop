@@ -1,0 +1,19 @@
+{
+  "name": "Linda Uchenwoke",
+  "bio": "A Frontend Developer building for the modern web. I also enjoy writing about technologies I work with on platforms like Hashnode, Devto etc.",
+    "links": [
+           {
+      "group": "Business",
+      "name": "Articles",
+      "url": "https://liinda.hashnode.dev/",
+     "icon": "FaLink"
+       },  
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/thegirlcoder",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+  ]
+}
