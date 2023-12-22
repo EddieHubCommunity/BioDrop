@@ -1,0 +1,30 @@
+{
+    "name": "Yash Tomar",
+    "bio": "Web-developer and Designer, create clean and modest applications",
+    "tags": [
+        "ReactJs",
+        "NextJs",
+        "JavaScript",
+        "Dart",
+        "C++",
+        "Python",
+        "Open Source",
+        "Blender",
+        "Photoshop",
+        "Android Studio",
+        "TailwindCss",
+        "HTML"
+    ],
+    "links": [
+        {
+            "name": "Follow on Linkedin",
+            "url": "https://www.linkedin.com/in/yash-tomar1708/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Follow on Github",
+            "url": "https://github.com/1708yash",
+            "icon": "FaGithub"
+        }
+    ]
+}

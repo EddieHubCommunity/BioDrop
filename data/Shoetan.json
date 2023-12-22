@@ -1,0 +1,48 @@
+{
+  "name": "Emmanuel Soetan",
+  "bio": "Software Developer @qataloog",
+  "tags": [
+    "Javascript",
+    "Next Js",
+    "Golang",
+    "Typescript",
+    "Docker",
+    "React Js"
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter - Tweets on findings as I learn and progress as a SWE",
+      "url": "https://twitter.com/SoetanDev",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub - Open for collaboration",
+      "url": "https://github.com/Shoetan",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn - Let's connect and grow together",
+      "url": "https://www.linkedin.com/in/emmanuelsoetan/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Blog - I write about Golang and Web Dev",
+      "url": "https://immanuelsoetan.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ],
+  "milestones":[
+    {
+      "title": "Got first tech job",
+      "date": "6th June 2023",
+      "icon": "FaBriefcase",
+      "color": "orange",
+      "description": "Got my first tech job at an Edtech startup",
+      "url": "https://qataloog.com"
+    }
+  ]
+}
