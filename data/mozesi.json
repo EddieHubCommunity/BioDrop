@@ -1,0 +1,80 @@
+{
+    "name": "mozesi",
+    "bio": "🧑‍💻 Software Engineer |Open Source | Laravel | Android |Project Management |Python | Data Analytics",
+    "tags": ["Open Source", "PHP", "Kotlin", "Laravel", "Livewire","Project Management","Python","Data Analytics"],
+    "socials": [
+      {
+        "icon": "FaTwitter",
+        "url": "https://twitter.com/MzeeChongoloka"
+      },
+      {
+        "icon": "FaGithub",
+        "url": "https://github.com/mozesi"
+      },
+      {
+        "icon": "FaLinkedin",
+        "url": "https://www.linkedin.com/in/moses-msukwa-a4909710a/"
+      }
+    ],
+    "links": [
+      {
+        "name": "Personal website",
+        "url": "https://mosesmsukwa.com/",
+        "icon": "FaCat",
+        "group": "Portfolio"
+      },
+      {
+        "name": "Blogger: blogs & tutorials",
+        "url": "https://mozesi.tech/",
+        "icon": "SiHashnode",
+        "group": "Primary"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/MzeeChongoloka",
+        "icon": "FaTwitter",
+        "group": "Socials",
+        "color": "#00ACEE"
+      },
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/mozesi",
+        "icon": "FaGithub",
+        "group": "Socials"
+      },
+      {
+        "name": "Follow me on LinkedIn",
+        "url": "https://www.linkedin.com/in/moses-msukwa-a4909710a/",
+        "icon": "FaLinkedin",
+        "group": "Socials"
+      }
+    ],
+    "testimonials": [""],
+    "milestones": [
+      {
+        "title": "Published my first Android App",
+        "date": "Sep 2019",
+        "icon": "FaAndroid",
+        "color": "green",
+        "description": "Sumu na Malombo gha Katolika.",
+        "url": "https://play.google.com/store/apps/details?id=com.kauzganga.apps.sumunamalombo&pcampaignid=web_share"
+      },
+      {
+        "title": "Started blogging",
+        "date": "Sep 2022",
+        "icon": "FaBlogger",
+        "color": "pink",
+        "description": "Started bloging on hashnode via custom domain.",
+        "url": "https://mozesi.tech/"
+      },
+      {
+        "title": "Open Source Contribution at CodeAcadamey",
+        "date": "Oct 2023",
+        "icon": "FaOpenSource",
+        "color": "blue",
+        "description": "Made my open source contribution at CodeAcademy docs.",
+        "url": "https://www.codecademy.com/resources/docs/php/string-functions/htmlspecialchars"
+      }
+    ]
+  }
+  
