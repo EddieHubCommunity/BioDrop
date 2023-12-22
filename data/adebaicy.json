@@ -1,10 +1,11 @@
 {
-  "name": "Oluwapelumi Adejumo",
-  "bio": "Lover of codes",
-  "links": [
-    {
-      "group": "Business",
-      "name": "Business: Adebaicy VTU",
-    }
-  ]
+    "name": "Oluwapelumi Adejumo",
+    "bio": "Student frontend developer. Problem Solving enthusiast. Exploring Open Source",
+    "links": [
+        {
+            "name": "See my tweets",
+            "url": "https://twitter.com/Adebaicy",
+            "icon": "FaTwitter"
+        }
+    ]
 }
