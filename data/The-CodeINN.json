@@ -1,0 +1,30 @@
+{
+  "name": "Richard Emijere",
+  "bio": "Explorer of the Code Universe 🚀 | Software Engineering Intern at Microsoft | Frontend Wizard | I turn bugs into features! 😎✨",
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/richard-emijere/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Portfolio",
+      "name": "GitHub",
+      "url": "https://github.com/The-CodeINN",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Micro-Blogging",
+      "name": "Twitter",
+      "url": "https://twitter.com/thecodeinn",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Tech Adventures",
+      "name": "Hashnode",
+      "url": "https://the-codeinn.hashnode.dev/",
+      "icon": "FaDev"
+    }
+  ]
+}

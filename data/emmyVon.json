@@ -1,0 +1,18 @@
+{
+    "name": "emmyVon",
+    "bio": "FrontEnd Developer | React Specialist | Newbie | Looking to make strong ground is the Tech space , very open and willing to learning",
+    "links": [
+        {
+            "group": "Twitter",
+            "name": "emmyDayvon",
+            "url": "https://twitter.com/emmyobiezuo",
+            "icon": "FaSquareXTwitter"
+        },
+        {
+            "group": "Linkedin",
+            "name": "Emmanuel Obiezuo",
+            "url": "https://www.linkedin.com/in/emmanuel-obiezuo-a0018a279/",
+            "icon": "FaLinkedin"
+        }
+    ]
+}

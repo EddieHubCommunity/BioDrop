@@ -1,0 +1,56 @@
+{
+    "name": "Russell Oje",
+    "bio": "Backend Development | Frontend Development | Open Source",
+    "tags": [
+        "Open Source",
+        "Backend",
+        "Frontend",
+        "JavaScript",
+        "PHP",
+        "Laravel"
+    ],
+    "Socials": [
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/tiny_ruxy"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/ruxy1212"
+        },
+        {
+            "icon": "FaLinkedin",
+            "url": "https://www.linkedin.com/in/ruxy1212"
+        },
+        {
+            "icon": "FaGlobe",
+            "url": "https://ruxy.me"
+        }
+    ],
+    "links": [
+        {
+            "group": "socials",
+            "name": "Twitter - Follow Me!",
+            "url": "https://twitter.com/tiny_ruxy",
+            "icon": "FaTwitter"
+        },
+        {
+            "group": "socials",
+            "name": "GitHub - Open Source",
+            "url": "https://github.com/ruxy1212",
+            "icon": "FaGithub"
+        },
+        {
+            "group": "socials",
+            "name": "LinkediIn - Let's connect!",
+            "url": "https://www.linkedin.com/in/ruxy1212",
+            "icon": "FaLinkedin"
+        },
+        {
+            "group": "socials",
+            "name": "My Portfolio",
+            "url": "https://ruxy.me",
+            "icon": "FaGlobe"
+        }
+    ]
+}

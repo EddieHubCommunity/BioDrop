@@ -173,6 +173,12 @@ export default function Premium({ user }) {
           tiers: { Free: true, Premium: true },
         },
         {
+          name: "Progressive Web App (PWA)",
+          description:
+            "Offline access to your Profile and QR code on your mobile home screen",
+          tiers: { Free: true, Premium: true },
+        },
+        {
           name: "Hide Header/Footer",
           description:
             "Make your Profile more your own by removing the BioDrop header and/or footer",
@@ -192,7 +198,8 @@ export default function Premium({ user }) {
         },
         {
           name: "Custom Domain",
-          description: "Use your own domain for your Profile",
+          description:
+            "Use your own domain for your Profile (sub domain not supported)",
           tiers: { Free: false, Premium: true },
         },
       ],
