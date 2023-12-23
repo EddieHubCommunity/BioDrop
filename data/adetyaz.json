@@ -1,0 +1,27 @@
+{
+  "name": "Adetayo Lasisi",
+  "bio": "Frontend Engineer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Web animations",
+    "Freelancing",
+    "React",
+    "Nextjs",
+    "Svelte"
+  ],
+  "socials": [
+    {"icon": "FaGithub", "url": "https://github.com/adetyaz"},
+    {"icon": "FaLink", "url": "https://www.linkedin.com/in/lasisi-adetayo-aab8b722a/"},
+    {"icon": "FaTwitter", "url": "https://twitter.com/babalasisi"}
+  ],
+  "links": [
+    {
+      "name": "Netsepio",
+      "url": "https://github.com/NetSepio/ChromiumExtension",
+      "icon": "FaGithub",
+      "group": "Projects"
+    }
+  ]
+}
