@@ -1,0 +1,32 @@
+{
+    "name": "Akintola, Richard Olaoluwa",
+    "bio": "Tublian Intern",
+    "tags": [
+        "Open Source",
+        "Python",
+        "C"
+    ],
+    "socials": [
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/AkintolaOlaolu6"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/AkintolaRichard"
+        }
+    ],
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/AkintolaOlaolu6",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "name": "Follow me on LinkedIn",
+            "url": "https://linkedin.com/in/richard-akintola",
+            "icon": "FaLinkedin"
+        }
+    ]
+}
