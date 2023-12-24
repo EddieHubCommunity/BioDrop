@@ -1,3 +1,12 @@
+## [2.97.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.1...v2.97.2) (2023-12-24)
+
+
+### Bug Fixes
+
+* json profile source action ([#10000](https://github.com/EddieHubCommunity/BioDrop/issues/10000)) ([966f61d](https://github.com/EddieHubCommunity/BioDrop/commit/966f61d7ef88c1a4fa094f236c60070c75949308))
+
+
+
 ## [2.97.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.0...v2.97.1) (2023-12-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * tags input and sort ([#9894](https://github.com/EddieHubCommunity/BioDrop/issues/9894)) ([a68b96d](https://github.com/EddieHubCommunity/BioDrop/commit/a68b96d548cdc82762075d121e0210ce50f48b4c))
-
-
-
-# [2.96.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.2...v2.96.0) (2023-12-13)
-
-
-### Features
-
-* progress bar background ([#9896](https://github.com/EddieHubCommunity/BioDrop/issues/9896)) ([7f6bb01](https://github.com/EddieHubCommunity/BioDrop/commit/7f6bb016637f529fd705e3620f7e32f39772f8c3))
 
 
 
