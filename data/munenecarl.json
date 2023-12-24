@@ -1,13 +1,7 @@
 {
   "name": "Carl Munene",
-  "bio": "Computer Scientist | Software Enigneer,
-  "tags": [
-    "Python",
-    "Javascript",
-    "Elixir",
-    "TypeScript",
-    "Go"
-  ],
+  "bio": "Computer Scientist | Software Enigneer",
+  "tags": ["Python", "Javascript", "Elixir", "TypeScript", "Go"],
   "socials": [
     {
       "icon": "FaTwitter",
