@@ -1,0 +1,20 @@
+{
+  "name":"Mutiat Bashua",
+  "bio":"Frontend Developer | Mobile App Developer | [Github Profile](https://github.com/MutiatBash)",
+  "links":[
+    {
+  "group":"Socials",
+  "name":"Twitter:",
+  "url":"https://twitter.com/dev_mutiah",
+  "icon":"FaTwitter",
+  "color":"#00ACEE"
+},
+     {
+  "group":"Socials",
+  "name":"LinkedIn:",
+  "url":"https://www.linkedin.com/in/mutiat-bashua",
+  "icon":"FaLinkedIn",
+  "color":"#00ACEE"
+}
+  ]
+}
