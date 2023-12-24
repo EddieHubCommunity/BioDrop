@@ -1,0 +1,21 @@
+{
+	"name": "Awwal Adetomiwa",
+	"bio": "Software engineer | Web developer | I make your ideas meet design",
+	"links": [
+		{
+			"name": "Follow me on GIthub",
+			"url": "https://github.com/MoMoAxe"
+			"icon": "FaGithub"
+		},
+		{
+			"name": "Follow me on Twitter",
+			"url": "https://twitter.com/MoMoAxe3"
+			"icon": "FaTwitter"
+		},
+		{
+			"name": "Follow me on LinkedIn",
+			"url": "https://www.linkedin.com/in/awwaladetomiwa/"
+			"icon": "FaLinkedIn"
+		}
+	]
+}
