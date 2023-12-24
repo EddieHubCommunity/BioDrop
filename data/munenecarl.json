@@ -1,0 +1,21 @@
+{
+  "name": "Carl Munene",
+  "bio": "Computer Scientist | Software Enigneer,
+  "tags": [
+    "Python",
+    "Javascript",
+    "Elixir",
+    "TypeScript",
+    "Go"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/carl_munene"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/munenecarl"
+    }
+  ]
+}
