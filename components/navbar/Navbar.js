@@ -137,7 +137,7 @@ export default function Navbar() {
   );
 
   return (
-    <header className="min-h-full" ref={navConRef}>
+    <header className="min-h-full sticky top-0 z-50" ref={navConRef}>
       <nav
         className={classNames(
           "relative top-0 bg-primary-high dark:bg-primary-medium",
