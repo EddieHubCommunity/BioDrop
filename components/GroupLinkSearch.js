@@ -28,10 +28,14 @@ function GroupLinkSearch({ selectedGroup, handleGroupSelection, groups }) {
       <Combobox.Input
         name="search-group"
         onChange={handleGroupChange}
-        className={`border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full dark:bg-primary-high hover:border-tertiary-medium focus:ring-0 focus:border-tertiary-medium focus:outline-0`}
+        className={
+          "border-2 transition-all duration-250 ease-linear rounded px-6 py-2 mb-2 block w-full dark:bg-primary-high hover:border-tertiary-medium focus:ring-0 focus:border-tertiary-medium focus:outline-0"
+        }
       />
       <Combobox.Options
-        className={`border-2 rounded border-tertiary-medium dark:bg-primary-medium`}
+        className={
+          "border-2 rounded border-tertiary-medium dark:bg-primary-medium"
+        }
       >
         {filteredGroup.length > 0 &&
           filteredGroup.map((group) => {
@@ -39,7 +43,9 @@ function GroupLinkSearch({ selectedGroup, handleGroupSelection, groups }) {
               <Combobox.Option
                 key={group}
                 value={group}
-                className={`px-3 py-2 flex items-center dark:hover:bg-tertiary-medium/60 hover:bg-secondary-low/40`}
+                className={
+                  "px-3 py-2 flex items-center dark:hover:bg-tertiary-medium/60 hover:bg-secondary-low/40"
+                }
               >
                 {group !== "" && <span>{group}</span>}
               </Combobox.Option>
