@@ -4,7 +4,7 @@ import { classNames } from "@services/utils/classNames";
 export default function Tabs({ tabs, setTabs, selectedTab }) {
   return (
     <div>
-      <div className="sm:hidden">
+      <div className="tablet:hidden">
         {tabs.length > 1 && (
           <Select
             name="tabs"
@@ -17,7 +17,7 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
           />
         )}
       </div>
-      <div className="hidden sm:block mb-4">
+      <div className="hidden tablet:block mb-4">
         <div className="border-b border-primary-medium-low">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (

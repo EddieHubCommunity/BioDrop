@@ -35,6 +35,9 @@ module.exports = {
           high: "#770d14",
         },
       },
+      screens: {
+        'tablet': '900px',
+      },
     },
   },
   corePlugins: {
