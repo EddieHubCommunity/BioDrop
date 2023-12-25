@@ -1,0 +1,20 @@
+{
+  "name": "Ritesh Raj",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "I am a Python Developer",
+  "avatar": "https://github.com/Riteshrajcloud.png"
+  "links": [
+    {
+    "name": "Connect With me on Linkedin",
+    "url" : "https://www.linkedin.com/in/ritesh-raj-a22356238/",
+    "icon": "fa-brands fa-linkedin"
+    },
+    {
+    "name": "Follow me on GitHub",
+    "url" : "https://www.github.com/Riteshrajcloud",
+    "icon": "FaGithubAlt"
+    }
+  ]
+}
+  
