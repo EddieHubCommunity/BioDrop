@@ -33,17 +33,18 @@ function GroupLinkSearch({ selectedGroup, handleGroupSelection, groups }) {
       <Combobox.Options
         className={`border-2 rounded border-tertiary-medium dark:bg-primary-medium`}
       >
-        {filteredGroup.map((group) => {
-          return (
-            <Combobox.Option
-              key={group}
-              value={group}
-              className={`px-3 py-2 flex items-center dark:hover:bg-tertiary-medium/60 hover:bg-secondary-low/40`}
-            >
-              {group !== "" && <span>{group}</span>}
-            </Combobox.Option>
-          );
-        })}
+        {filteredGroup.length > 0 &&
+          filteredGroup.map((group) => {
+            return (
+              <Combobox.Option
+                key={group}
+                value={group}
+                className={`px-3 py-2 flex items-center dark:hover:bg-tertiary-medium/60 hover:bg-secondary-low/40`}
+              >
+                {group !== "" && <span>{group}</span>}
+              </Combobox.Option>
+            );
+          })}
       </Combobox.Options>
     </Combobox>
   );
