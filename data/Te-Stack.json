@@ -1,0 +1,12 @@
+{
+  "name": "Quincy Oghenetejiri Ukumakube",
+  "bio": "Software Developer and Technical Writer"
+  "links": [
+    {
+      "group": "Business",
+      "name": "Personal Website",
+      "url": "https://quincyoghenetejiri.vercel.app/",
+      "icon": "FaLink"
+    }
+  ]
+}
