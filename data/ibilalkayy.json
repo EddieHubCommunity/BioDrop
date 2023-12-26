@@ -53,7 +53,13 @@
       "icon": "FaCircleNotch"
     },
     {
-      "group": "Donate and buy my services",
+      "group": "Donate and Buy My Consultation Services",
+      "name": "Take Life, Career Advice and Resume Review, etc",
+      "url": "https://cal.com/ibilalkayy",
+      "icon": "FaCalendar"
+    },
+    {
+      "group": "Donate and Buy My Consultation Services",
       "name": "Buy Me a Coffee",
       "url": "https://www.buymeacoffee.com/ibilalkayy",
       "icon": "SiBuymeacoffee"
