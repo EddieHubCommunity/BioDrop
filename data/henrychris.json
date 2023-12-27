@@ -1,0 +1,16 @@
+{
+    "name": "Henry Ihenacho",
+    "bio": "Fullstack Developer (.NET, React, TS) ",
+    "links": [
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/hiddenhenry",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/in/henry-ihenacho",
+            "icon": "FaLinkedIn"
+        }
+    ]
+}
