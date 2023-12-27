@@ -1,0 +1,26 @@
+{
+  "name": "Kyle Parsotan",
+  "bio": "Software Engineer | Founder of **ClimX** | Software Developer Intern",
+  "links": [
+    {
+      "group": "Software Engineering",
+      "name": "Profile",
+      "url": "http://kye-parsotan-portfolio.vercel.app",
+      "icon": "Profile"
+    },
+    {
+      "group": "Project",
+      "name": "The Bike Store",
+      "url": "https://the-bike-store.vercel.app",
+      "icon": "Fabike",
+      "color": "#00CAEE"
+    },
+    {
+      "group": "Socials Secondary",
+      "name": "Linkedin: Follow me",
+      "url": "https://www.linkedin.com/in/kyle-parsotan",
+      "icon": "Falinkedin",
+      "color": "#00ACEE"
+    },
+  ]
+}
