@@ -180,7 +180,6 @@ export default function Search({
     if (!userSearchParam) {
       params.set("query", tagName);
     }
-
     if (userSearchParam) {
       if (searchTagNameInInput(userSearchParam, tagName)) {
         const terms = userSearchParam.split(",");
@@ -201,6 +200,31 @@ export default function Search({
       undefined,
       { shallow: true },
     );
+  };
+
+  const handleClearFilter = () => {
+    const params = new URLSearchParams({ query: searchTerm });
+    params.forEach((e) => {
+      if (e !== "undefined") {
+        let currentTags = e.split(", ");
+        for (const tag of tags.slice(0, 10)) {
+          const tagName = tag.name;
+          const filteredTerms = currentTags.filter((item) => item !== tagName);
+          currentTags = filteredTerms;
+        }
+        params.set("query", currentTags);
+        replace(
+          {
+            pathname,
+            query: {
+              userSearchParam: params.getAll("query").join(", "),
+            },
+          },
+          undefined,
+          { shallow: true },
+        );
+      }
+    });
   };
 
   const usersPerPage = 21;
@@ -237,6 +261,15 @@ export default function Search({
                   onClick={() => handleSearchTag(tag.name)}
                 />
               ))}
+
+          <button
+            className="
+            flex flex-row p-1 m-2 rounded-lg text-sm text-black font-mono border-2 border-tertiary-medium
+             bg-tertiary-medium cursor-pointer shadow-none"
+            onClick={handleClearFilter}
+          >
+            clear
+          </button>
         </div>
 
         <Badge
