@@ -1,0 +1,30 @@
+{
+  "name": "Eboreime ThankGod",
+  "bio": "Open Source | Frontend Developer | React js | Next js | Typescript",
+  "links": [
+    {
+      "github": "Github",
+      "name": "Github Profile",
+      "url": "https://github.com/Tk-brainCodes",
+      "icon": "FaGithub"
+    },
+    {
+      "portfolio": "Portfolio",
+      "name": "My Website",
+      "url": "https://eboreime-thankgod.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "linkedin": "Linkedin",
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/eboreime-thankgod-34864a1b1/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "twitter": "Twitter",
+      "name": "Twitter",
+      "url": "https://twitter.com/tkworldclass",
+      "icon": "FaTwitter"
+    }
+  ]
+}
