@@ -1,0 +1,36 @@
+{
+  "name": "Jis G Jacob",
+  "displayStatusPublic": true,
+  "type": "public",
+  "bio": "Switched Off Lights.",
+  "avatar": "https://github.com/StudioKeys.png",
+  "tags": [
+    "Android",
+    "AOSP",
+    "Operating Systems",
+    "Java",
+    "Open Source"
+  ],
+  "socials": [
+    {
+      "icon": "FaSquareGithub",
+      "url": "https://github.com/StudioKeys"
+    },
+    {
+      "icon": "FaTelegram",
+      "url": "https://t.me/StudioKeys"
+    }
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/StudioKeys",
+      "icon": "FaSquareGithub"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://t.me/StudioKeys",
+      "icon": "FaTelegram"
+    },    
+  ]
+}
