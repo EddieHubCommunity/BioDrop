@@ -1,0 +1,13 @@
+{
+  "name": "Anochiwa Alfred",
+  "bio": "Software Engineer | Graphic Designer | Musicologist | Tutor and [BioDrop](https://www.biodrop.io/AnochiwaAlfred) | **GitHub** Star",
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/cryptalz",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+  ]
+}
