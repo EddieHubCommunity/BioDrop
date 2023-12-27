@@ -1,3 +1,12 @@
+## [2.97.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.2...v2.97.3) (2023-12-27)
+
+
+### Bug Fixes
+
+* cta from star to rate ([#10035](https://github.com/EddieHubCommunity/BioDrop/issues/10035)) ([f76c4da](https://github.com/EddieHubCommunity/BioDrop/commit/f76c4da8814dff617fd1c94cb61d4160b07c4e44))
+
+
+
 ## [2.97.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.1...v2.97.2) (2023-12-24)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * maintainers docs ([#9937](https://github.com/EddieHubCommunity/BioDrop/issues/9937)) ([67c8099](https://github.com/EddieHubCommunity/BioDrop/commit/67c8099085f4736d6ac9218905f9e7f66fc837da))
-
-
-
-## [2.96.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.0...v2.96.1) (2023-12-18)
-
-
-### Bug Fixes
-
-* tags input and sort ([#9894](https://github.com/EddieHubCommunity/BioDrop/issues/9894)) ([a68b96d](https://github.com/EddieHubCommunity/BioDrop/commit/a68b96d548cdc82762075d121e0210ce50f48b4c))
 
 
 
