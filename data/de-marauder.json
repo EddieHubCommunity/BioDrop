@@ -1,0 +1,26 @@
+{
+  "name":"Ezike Obiajulu (de-marauder)",
+  "bio":"Software and DevOps Engineer exploring the web seas",
+  "links": [
+    {
+      "name": "Linkedin",
+      "url": "https://linkedin.com/in/obiajulu-ezike",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://x.com/De_marauder",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/de-marauder",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio",
+      "url": "https://de-marauder.vercel.app",
+      "icon": "FaWeb"
+    }
+  ]
+}

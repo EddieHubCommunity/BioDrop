@@ -1,0 +1,26 @@
+{
+  "name": "Tunde Sanusi",
+  "bio": "I am a Frontend Engineer",
+  "links": [
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://linkedin.com/in/tuhamworld",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/tuhamworld",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Hashnode",
+      "url": "https://tuhamworld.hashnode.dev",
+      "icon": "SiHashnode"
+    },
+    {
+      "name": "Visit my Website",
+      "url": "https://tuhamworld.com",
+      "icon": "FaGlobe"
+    }
+  ]
+}

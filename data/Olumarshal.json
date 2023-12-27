@@ -1,0 +1,35 @@
+{
+  "name": "Marshal Olu",
+  "bio": "Node.js Backend Developer | AltSchool Alumni | **OpenSource** Contributor",
+  "tags": [
+    "Open Source",
+    "JavaScript",
+    "TypeScript",
+    "Cloud Computing",
+    "Devops",
+    "Databases"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Ng_Marshal"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Olumarshal"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/olumarshal"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Ng_Marshal",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    }
+  ]
+}

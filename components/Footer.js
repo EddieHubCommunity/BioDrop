@@ -70,7 +70,6 @@ export default function Footer() {
         href: "https://biodrop.substack.com/",
         external: true,
       },
-      { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
       {
@@ -231,7 +230,7 @@ export default function Footer() {
             onClick={() => va.track(`footer`, { link: "powered by EddieHub" })}
           >
             <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
-            Powered by EddieHub
+            Powered by EddieHub | v{app.version}
           </Link>
         </div>
       </div>

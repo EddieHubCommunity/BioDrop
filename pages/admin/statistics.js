@@ -33,6 +33,16 @@ export default function Statistics({ stats }) {
     { id: 5, name: "Premium Profiles", value: stats.totalPremiumProfiles },
     { id: 6, name: "Changelogs", value: stats.totalChangelogs },
     { id: 6, name: "Custom Domains", value: stats.totalCustomDomains },
+    {
+      id: 7,
+      name: "Active in last 1 month",
+      value: stats.totalActiveProfiles["1month"],
+    },
+    {
+      id: 8,
+      name: "Active in last 6 month",
+      value: stats.totalActiveProfiles["6month"],
+    },
   ];
 
   return (
