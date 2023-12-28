@@ -1,0 +1,19 @@
+{
+  "name": "Moyo-Made",
+  "bio": "Software Developer | JavaScript | React | Open to opportunities",
+   "links": [
+    {
+      "group": "Business",
+      "name": "Software Developer services",
+      "url": "http://madev7.netlify.app",
+      "icon": "FaLink"
+    },
+     {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/moyomadee7",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    }
+  ]
+}
