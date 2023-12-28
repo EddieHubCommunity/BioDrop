@@ -1,0 +1,24 @@
+{
+  "name": "Martins Olumide",
+  "bio": "Software Engineer (JavaScript & Python)",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "http://twitter.com/martinsolumide8",
+      "icon": "FaTwitter",
+      "color": "#4E764E"
+    },
+    {
+      "name": "Linkedin",
+      "url": "http://www.linkedin.com/in/martins100tmd",
+      "icon": "FaLinkedin",
+      "color": "#32251E"
+    },
+    {
+      "name": "Github",
+      "url": "http://github.com/Martins100-Tmd",
+      "icon": "FaGithub",
+      "color": "#000"
+    }
+  ]
+}
