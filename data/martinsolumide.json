@@ -1,0 +1,24 @@
+{
+  "name": "Martins100-Tmd",
+  "bio": "Software Engineer (https://github.com/Martins100-Tmd)"
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/martinsolumide8",
+      "icon": "FaTwitter",
+      "color": "#4E6A6A"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/martins100tmd",
+      "icon": "FaLinkedin",
+      "color": "#4E764E"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Martins100-Tmd",
+      "icon": "FaGithub",
+      "color": "#32251E"
+    }
+  ]
+}
