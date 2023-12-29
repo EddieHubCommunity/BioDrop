@@ -9,6 +9,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
+    "@hookform/resolvers": "^3.3.2",
     "@mdx-js/loader": "^3.0.0",
     "@mdx-js/react": "^3.0.0",
     "@next/mdx": "^14.0.1",
@@ -35,6 +36,7 @@
     "react": "^18.2.0",
     "react-children-utilities": "^2.9.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.48.2",
     "react-icons": "^4.11.0",
     "react-leaflet": "^4.2.1",
     "react-markdown": "^9.0.0",

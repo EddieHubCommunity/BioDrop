@@ -1,10 +1,12 @@
+import { forwardRef } from "react";
 import Label from "./Label";
 
-export default function Textarea({ name, value, label, ...restProps }) {
+const Textarea = forwardRef(({ name, value, label, ...restProps },ref) => {
   return (
     <div>
       <Label htmlFor={name}>{label}</Label>
       <textarea
+      ref={ref}
         rows={4}
         name={name}
         id={name}
@@ -14,4 +16,8 @@ export default function Textarea({ name, value, label, ...restProps }) {
       />
     </div>
   );
-}
+});
+
+Textarea.displayName="Textarea";
+
+export default Textarea;

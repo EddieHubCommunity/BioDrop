@@ -1,7 +1,10 @@
 import Router from "next/router";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { z } from "zod";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { Controller, useForm } from "react-hook-form";
 
 import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
@@ -63,30 +66,11 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     message: "",
     additionalMessage: "",
   });
-  const [title, setTitle] = useState(milestone.title || "");
-  const [description, setDescription] = useState(milestone.description || "");
-  const [url, setUrl] = useState(milestone.url || "");
-  const [icon, setIcon] = useState(milestone.icon || "");
-  const [date, setDate] = useState(milestone.date || "");
-  const [isGoal, setIsGoal] = useState(milestone.isGoal ? true : false);
-  const [dateFormat, setdateFormat] = useState(
-    milestone.dateFormat || options[0].value,
-  );
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
+  const onSubmit = async (data) => {
     let alert = "created";
-    let putMilestone = {
-      title,
-      description,
-      url,
-      icon,
-      date,
-      isGoal,
-      dateFormat,
-    };
     let apiUrl = `${BASE_URL}/api/account/manage/milestone/`;
+    let putMilestone = data;
     if (milestone._id) {
       alert = "updated";
       putMilestone = { ...putMilestone, _id: milestone._id };
@@ -100,7 +84,6 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
       body: JSON.stringify(putMilestone),
     });
     const update = await res.json();
-
     if (update.message) {
       return setShowNotification({
         show: true,
@@ -139,12 +122,46 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     return Router.push(`${BASE_URL}/account/manage/milestones?alert=deleted`);
   };
 
+  const mileStoneClientSchema = z.object({
+    url: z.string().optional(),
+    date: z.string().optional(),
+    dateFormat: z.string().default("dd/mm/yyyy"),
+    isGoal: z.boolean().optional(),
+    title: z.string().min(2).max(256),
+    icon: z.string().min(2).max(32).optional(),
+    description: z.string().min(2).max(512),
+
+  })
+
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+    setValue,
+    getValues,
+    control,
+    watch
+  } = useForm({
+    resolver: zodResolver(mileStoneClientSchema),
+    defaultValues: useMemo(() => ({
+      title: milestone.title || "",
+      description: milestone.description || "",
+      url: milestone.url || "",
+      icon: milestone.icon || "",
+      date: milestone.date || "",
+      isGoal: milestone.isGoal || false,
+      dateFormat: milestone.dateFormat || options[0].value
+    }), [milestone])
+  })
+
+  const milestoneWatch = watch(['title', 'description', 'url', 'icon', 'date', 'isGoal', 'dateFormat']);
+
   useEffect(() => {
-    const parse = Date.parse(date);
+    const parse = Date.parse(getValues("date"));
     if (!isNaN(parse)) {
-      setDate(new Date(parse).toISOString().split("T")[0]);
+      setValue("date", new Date(parse).toISOString().split("T")[0]);
     }
-  }, [date, milestone.date]);
+  }, [getValues("data"), milestone.date]);
 
   return (
     <>
@@ -152,10 +169,8 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         title="Manage Milestone"
         description={`Here you can manage your ${PROJECT_NAME} milestone`}
       />
-
       <Page>
         <Navigation />
-
         <Notification
           show={showNotification.show}
           type={showNotification.type}
@@ -169,7 +184,8 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
         <div className="relative mx-auto grid max-w-7xl grid-cols-1 gap-x-16 lg:grid-cols-2 lg:px-8 xl:gap-x-48">
           <form
             className="space-y-8 divide-y divide-primary-low-medium/30"
-            onSubmit={handleSubmit}
+            onSubmit={handleSubmit(onSubmit)}
+            def
           >
             <div className="space-y-8 divide-y divide-primary-low-medium/30 sm:space-y-5">
               <div className="space-y-6 sm:space-y-5">
@@ -182,15 +198,13 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                 <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      {...register("title")
+                      }
                       name="title"
                       label="Milestone Title"
-                      onChange={(e) => setTitle(e.target.value)}
-                      value={title}
                       placeholder="Title of your Milestone"
-                      required
-                      minLength="2"
-                      maxLength="256"
                     />
+                    {errors.title && <p className=" text-red-500 ">{errors.title.message}</p>}
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>GitHub Star</i>
                     </p>
@@ -198,59 +212,62 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
 
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Textarea
+                      {...register("description")
+                      }
                       name="description"
                       placeholder="Description of your Milestone"
-                      onChange={(e) => setDescription(e.target.value)}
-                      value={description}
-                      required
-                      minLength="2"
-                      maxLength="512"
                     />
+                    {errors.description && <p className="text-red-500">{errors.description.message}</p>}
                     <p className="text-sm text-primary-low-medium">
                       Describe this Milestone
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
-                      type="url"
+                      {...register("url")
+                      }
                       name="url"
                       label="URL"
-                      onChange={(e) => setUrl(e.target.value)}
-                      value={url}
                       placeholder="https://www.example.com"
-                      minLength="2"
-                      maxLength="256"
                     />
+                    {errors.url && <p className=" text-red-500 ">{errors.url.message}</p>}
                     <p className="text-sm text-primary-low-medium">
                       Link to more information (optional)
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Input
+                      {...register("date")}
                       type="date"
                       name="date"
                       label="Date"
-                      onChange={(e) => setDate(e.target.value)}
-                      value={date}
-                      required
                       min="1970-01-01"
                     />
+                    {errors.date && <p className=" text-red-500 ">{errors.date.message}</p>}
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>DD / MM / YYYY</i>
                     </p>
                     <Select
+                      {...register("dateFormat")
+                      }
                       name="layout"
                       label="Select format"
-                      value={dateFormat}
                       options={options}
-                      onChange={(e) => setdateFormat(e.target.value)}
                     />
+                    {errors.dateFormat && <p className=" text-red-500 ">{errors.dateFormat.message}</p>}
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <IconSearch
-                      handleSelectedIcon={setIcon}
-                      selectedIcon={icon}
+                    <Controller
+                      name="icon"
+                      control={control}
+                      render={({ field }) => (
+                        <IconSearch
+                          handleSelectedIcon={field.onChange}
+                          selectedIcon={field.value}
+                        />
+                      )}
                     />
+                    {errors.icon && <p className=" text-red-500 ">{errors.icon.message}</p>}
                     <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
                       <Link href="/icons" target="_blank">
@@ -259,11 +276,17 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                     </p>
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Toggle
-                      text1="Is this a future goal?"
-                      text2="Future Milestone"
-                      enabled={isGoal}
-                      setEnabled={setIsGoal}
+                    <Controller
+                      name="isGoal"
+                      control={control}
+                      render={({ field }) => (
+                        <Toggle
+                          text1="Is this a future goal?"
+                          text2="Future Milestone"
+                          enabled={field.value}
+                          setEnabled={field.onChange}
+                        />
+                      )}
                     />
                   </div>
                 </div>
@@ -282,17 +305,17 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
             </div>
           </form>
           <div>
+
             <UserMilestone
               milestone={{
-                title,
-                description,
-                url,
-                icon,
-                date,
-                isGoal,
-                dateFormat,
+                title: milestoneWatch[0],
+                description: milestoneWatch[1],
+                url: milestoneWatch[2],
+                icon: milestoneWatch[3],
+                date: milestoneWatch[4],
+                isGoal: milestoneWatch[5] || false,
+                dateFormat: milestoneWatch[6] || options[0].value
               }}
-              isGoal={isGoal}
             />
           </div>
         </div>

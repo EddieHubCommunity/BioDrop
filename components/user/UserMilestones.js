@@ -17,7 +17,6 @@ export default function UserMilestones({ milestones, manage = false }) {
           historicMilestones.map((milestone, key) => (
             <UserMilestone
               milestone={milestone}
-              isGoal={false}
               key={key}
               manage={manage}
             />
@@ -34,7 +33,6 @@ export default function UserMilestones({ milestones, manage = false }) {
         {futureMilestones.map((goal, key) => (
           <UserMilestone
             milestone={goal}
-            isGoal={true}
             key={key}
             manage={manage}
           />
