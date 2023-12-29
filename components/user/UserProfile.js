@@ -149,12 +149,28 @@ function UserProfile({ BASE_URL, data }) {
                   </Link>
                 ))}
               </div>
-              <div className=" flex items-center justify-center w-full overflow-hidden">
-                <ClipboardCopy>
-                  <p className="dark:text-gray-300 border p-3 rounded-md">
-                    {`${BASE_URL}/${data.username}`}
-                  </p>
-                </ClipboardCopy>
+              <div className="flex flex-col gap-4">
+                <div className="flex items-center justify-center w-full overflow-hidden">
+                  <ClipboardCopy>
+                    <p className="dark:text-gray-300 border p-3 rounded-md">
+                      {`${BASE_URL}/${data.username}`}
+                    </p>
+                  </ClipboardCopy>
+                </div>
+                <div className="flex items-center justify-center w-full overflow-hidden">
+                  <ClipboardCopy>
+                    <p className="dark:text-gray-300 border p-3 rounded-md">
+                      {`[![${data.username} | BioDrop](${BASE_URL}/${data.username}?embed)](${BASE_URL}/${data.username})`}
+                    </p>
+                  </ClipboardCopy>
+                </div>
+                <div className="flex items-center justify-center w-full overflow-hidden">
+                  <ClipboardCopy>
+                    <p className="dark:text-gray-300 border p-3 rounded-md">
+                      {`<a href="${BASE_URL}/${data.username}"><img src="${BASE_URL}/${data.username}?embed" alt="${data.username} | BioDrop" /></a>`}
+                    </p>
+                  </ClipboardCopy>
+                </div>
               </div>
             </>
           )}

@@ -23,6 +23,17 @@ export async function getServerSideProps(context) {
   const session = await getServerSession(req, res, authOptions);
   const username = context.query.username;
 
+  if ("embed" in context.query) {
+    return {
+      redirect: {
+        destination: `/api/profiles/${username}/embed?theme=${
+          context.query.theme || "default"
+        }`,
+        permanent: true,
+      },
+    };
+  }
+
   const { status, profile } = await getUserApi(req, res, username, {
     referer: req.headers.referer,
     ip: requestIp.getClientIp(req),
