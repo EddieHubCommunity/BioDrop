@@ -1,3 +1,12 @@
+## [2.97.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.5...v2.97.6) (2023-12-30)
+
+
+### Bug Fixes
+
+* alert info for dark mode ([#9902](https://github.com/EddieHubCommunity/BioDrop/issues/9902)) ([2e1ce65](https://github.com/EddieHubCommunity/BioDrop/commit/2e1ce6545f64e1b6ad7c1208715c540644d2f0d9))
+
+
+
 ## [2.97.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.4...v2.97.5) (2023-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * json profile source action ([#10000](https://github.com/EddieHubCommunity/BioDrop/issues/10000)) ([966f61d](https://github.com/EddieHubCommunity/BioDrop/commit/966f61d7ef88c1a4fa094f236c60070c75949308))
-
-
-
-## [2.97.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.0...v2.97.1) (2023-12-19)
-
-
-### Bug Fixes
-
-* new profiles less than 10 ([#9962](https://github.com/EddieHubCommunity/BioDrop/issues/9962)) ([91378af](https://github.com/EddieHubCommunity/BioDrop/commit/91378af4620cd1ba7bf671109b42e4aabc8c4096))
 
 
 
