@@ -1,3 +1,12 @@
+## [2.97.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.4...v2.97.5) (2023-12-30)
+
+
+### Bug Fixes
+
+* update action dependencies ([#10053](https://github.com/EddieHubCommunity/BioDrop/issues/10053)) ([aa1149b](https://github.com/EddieHubCommunity/BioDrop/commit/aa1149b91b07f3b81e6a7c424f0bee908a1678e2))
+
+
+
 ## [2.97.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.3...v2.97.4) (2023-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * new profiles less than 10 ([#9962](https://github.com/EddieHubCommunity/BioDrop/issues/9962)) ([91378af](https://github.com/EddieHubCommunity/BioDrop/commit/91378af4620cd1ba7bf671109b42e4aabc8c4096))
-
-
-
-# [2.97.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.2...v2.97.0) (2023-12-19)
-
-
-### Features
-
-* admin list new profiles ([#9960](https://github.com/EddieHubCommunity/BioDrop/issues/9960)) ([a7fa8f5](https://github.com/EddieHubCommunity/BioDrop/commit/a7fa8f5b36bc57549ffaf4a62d7ad7214f5f36d5))
 
 
 
