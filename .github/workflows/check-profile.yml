@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Make the API request corresponding to the pull request author and outputs the data of the user as JSON string
       - name: Make API request
