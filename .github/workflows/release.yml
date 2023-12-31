@@ -16,7 +16,7 @@ jobs:
 
     steps:
       # check out the repository with all releases
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
