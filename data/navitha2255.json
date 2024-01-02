@@ -1,0 +1,21 @@
+{
+  "name":"eddie jaoude (test)",
+  "displayStatsPublic":"true",
+  "type":"personal",
+  "bio":"iam a frontend developer",
+  "avatar":"https:github.com/eddiejaoude2.png",
+  "links":[
+    {
+      "name":"follow me twitter",
+      "url":"https://twitter.com/eddiejaoude",
+      "icon":"FaTwitter"
+    },
+    {
+    "name":"follow me github",
+      "url":"https://github.com/eddiejaoude2",
+      "icon":"FaGithubAlt"
+
+
+    },
+  ]
+}
