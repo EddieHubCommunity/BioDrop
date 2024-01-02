@@ -1,0 +1,30 @@
+{
+  "name": "Flesier",
+  "bio": "Software Engineer | MERN ",
+  "links": [
+    {
+      "group": "socials",
+      "name": "Linkedin: Follow me",
+      "url": "https://www.linkedin.com/in/flesier-onyango/",
+      "icon": "fa-LinkedIn"
+    },
+    {
+      "group": "GitHub",
+      "name": "Follow me",
+      "url": "https://github.com/Flesier",
+      "icon": "fa-GitHub"
+    },
+    {
+      "group": "Twitter",
+      "name": "Follow me",
+      "url": "https://twitter.com/Nyako_codes",
+      "icon": "fa-Twitter" 
+    },
+    {
+      "group": "Blog",
+      "name": "Follow me",
+      "url": "https://medium.com/@flesieronyango",
+      "icon": "fa-Medium" 
+    }
+  ]
+}
