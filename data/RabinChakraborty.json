@@ -1,0 +1,21 @@
+{
+  "name": "Rabin Chakraborty",
+  "bio": "Full Stack Developer | MERN Stack Developer | Open Source Enthusiast",
+  "socialMedia": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/rabin-chakraborty-935560245",
+      "logo": "FaLinkedin"
+    },
+    {
+      "platform": "Twitter",
+      "url": "https://twitter.com/Raabinnn",
+      "logo": "FaTwitter"
+    }
+  ],
+  "github": {
+    "url": "https://github.com/RabinChakraborty",
+    "label": "GitHub",
+    "logo": "FaGithub"
+  }
+}
