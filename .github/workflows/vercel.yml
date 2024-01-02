@@ -19,7 +19,7 @@ jobs:
     if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: install Vercel CLI
         run: npm install --global vercel@latest
       - name: pull Vercel environment information
@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: deploy
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: dorny/paths-filter@v2
         id: changes
         with:

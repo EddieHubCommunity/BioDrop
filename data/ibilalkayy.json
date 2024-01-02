@@ -1,6 +1,6 @@
 {
   "name": "Bilal Khan",
-  "bio": "Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Sourcegraph, YouTuber & Blogger.",
+  "bio": "Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Weaviate, YouTuber & Blogger.",
 
   "tags": ["Backend", "Open Source", "DevOps", "Golang", "DevRel", "GitHub"],
   "socials": [
@@ -53,13 +53,13 @@
       "icon": "FaCircleNotch"
     },
     {
-      "group": "Donate and Buy My Consultation Services",
-      "name": "Take Life, Career Advice and Resume Review, etc",
+      "group": "Donate or Take My Consultation",
+      "name": "Take Life, Career Advice and Resume Review",
       "url": "https://cal.com/ibilalkayy",
       "icon": "FaCalendar"
     },
     {
-      "group": "Donate and Buy My Consultation Services",
+      "group": "Donate or Take My Consultation",
       "name": "Buy Me a Coffee",
       "url": "https://www.buymeacoffee.com/ibilalkayy",
       "icon": "SiBuymeacoffee"
@@ -113,12 +113,28 @@
       "url": "https://hashnode.com/@ibilalkayy"
     },
     {
+      "title": "DoK Community",
+      "date": "Jan, 2023",
+      "icon": "SiKubernetes",
+      "color": "blue",
+      "description": "Became a DoK Community Explorer",
+      "url": "https://dok.community/"
+    },
+    {
       "title": "AWS Community Builder",
       "date": "Feb, 2023",
       "icon": "SiAmazonaws",
       "color": "blue",
       "description": "Became an AWS Community Builder",
       "url": "https://aws.amazon.com/developer/community/community-builders/"
+    },
+    {
+      "title": "Completed my Proctl Project",
+      "date": "Aug 6, 2023",
+      "icon": "FaCircleNotch",
+      "color": "black",
+      "description": "Completed my Proctl Project",
+      "url": "https://github.com/ibilalkayy/proctl"
     },
     {
       "title": "Started Bloop Newsletter",

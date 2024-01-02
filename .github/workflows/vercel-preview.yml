@@ -12,7 +12,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: install Vercel CLI
         run: npm install --global vercel@latest
       - name: pull Vercel environment information
