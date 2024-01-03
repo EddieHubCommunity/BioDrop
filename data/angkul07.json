@@ -1,0 +1,21 @@
+{
+    "name": "Angkul",
+    "bio": "Hi, I am Angkul. A 1st year college student and more than that a machine learning enthusiast. I have learnt C++, Python. I am just starting out my ML journey and want to share my learning with everyone. So, let's connect! :)",
+    "links": [
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/angkul07",
+            "icon": "FaSquareXTwitter"
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/angkul07/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Github",
+            "url": "https://github.com/angkul07",
+            "icon": "FaGithub"
+        }
+    ]
+}
