@@ -1,17 +1,89 @@
 {
   "name": "Ousman Ethmane",
+  "type": "personal",
+  "displayStatsPublic": true,
   "bio": "Passionate Front-End Developer | UI/UX Enthusiast | Building innovative web experiences",
-  "links": [
+  "avatar": "https://github.com/Ousman37.png",
+  "tags": [
+    "Open Source",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Git",
+    "GitHub",
+    "TypeScript"
+  ],
+  "evenTags": [
+    "Front-End Development",
+    "UI/UX Design",
+    "Responsive Web Design",
+    "Version Control",
+    "Web Development Tools",
+    "Problem Solving",
+    "Debugging",
+    "Team Collaboration"
+  ],
+  "socials": [
     {
-      "name": "Follow me on LinkedIn",
+      "name": "LinkedIn Follow me",
       "url": "https://www.linkedin.com/in/ethmane-ousman-34885844/",
-      "icon": "FaLink"
+      "icon": "fab fa-linkedin",
+      "color": "#0077B5"
     },
     {
-      "name": "Follow me on GitHub",
+      "name": "GitHub Follow me",
       "url": "https://github.com/Ousman37",
-      "icon": "FaGithub"
+      "icon": "fab fa-github",
+      "color": "#333"
+    },
+    {
+      "name": "Twitter Follow me",
+      "url": "https://twitter.com/Ethamne_dev",
+      "icon": "fab fa-twitter",
+      "color": "#1DA1F2"
     }
-  ]
+  ],
+  "testimonials": [
+    {
+      "author": "John Doe",
+      "position": "CEO, XYZ Company",
+      "quote": "Ousman is an incredibly talented front-end developer. His work has greatly improved our website's user experience."
+    },
+    {
+      "author": "Jane Smith",
+      "position": "UI/UX Designer, ABC Agency",
+      "quote": "Working with Ousman has been a pleasure. He has a keen eye for design and pays great attention to detail."
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn Follow me",
+      "url": "https://www.linkedin.com/in/ethmane-ousman-34885844/",
+      "icon": "fab fa-linkedin",
+      "color": "#0077B5"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub Follow me",
+      "url": "https://github.com/Ousman37",
+      "icon": "fab fa-github",
+      "color": "#333"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter Follow me",
+      "url": "https://twitter.com/Ethamne_dev",
+      "icon": "fab fa-twitter",
+      "color": "#1DA1F2"
+    }
+  ],
+  "callToAction": {
+    "text": "Contact Me",
+    "url": "mailto:ousman.didibela@gmail.com"
+  }
 }
+
 
