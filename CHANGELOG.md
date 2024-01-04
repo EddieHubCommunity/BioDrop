@@ -1,3 +1,12 @@
+## [2.97.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.6...v2.97.7) (2024-01-04)
+
+
+### Bug Fixes
+
+* rolled back mongoose version ([#10097](https://github.com/EddieHubCommunity/BioDrop/issues/10097)) ([8b13530](https://github.com/EddieHubCommunity/BioDrop/commit/8b13530294083b1578fba769436c20efa303c6cc))
+
+
+
 ## [2.97.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.5...v2.97.6) (2023-12-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * cta from star to rate ([#10035](https://github.com/EddieHubCommunity/BioDrop/issues/10035)) ([f76c4da](https://github.com/EddieHubCommunity/BioDrop/commit/f76c4da8814dff617fd1c94cb61d4160b07c4e44))
-
-
-
-## [2.97.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.1...v2.97.2) (2023-12-24)
-
-
-### Bug Fixes
-
-* json profile source action ([#10000](https://github.com/EddieHubCommunity/BioDrop/issues/10000)) ([966f61d](https://github.com/EddieHubCommunity/BioDrop/commit/966f61d7ef88c1a4fa094f236c60070c75949308))
 
 
 
