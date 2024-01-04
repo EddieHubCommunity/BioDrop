@@ -203,28 +203,16 @@ export default function Search({
   };
 
   const handleClearFilter = () => {
-    const params = new URLSearchParams({ query: searchTerm });
-    params.forEach((e) => {
-      if (e !== "undefined") {
-        let currentTags = e.split(", ");
-        for (const tag of tags.slice(0, 10)) {
-          const tagName = tag.name;
-          const filteredTerms = currentTags.filter((item) => item !== tagName);
-          currentTags = filteredTerms;
-        }
-        params.set("query", currentTags);
-        replace(
-          {
-            pathname,
-            query: {
-              userSearchParam: params.getAll("query").join(", "),
-            },
-          },
-          undefined,
-          { shallow: true },
-        );
-      }
-    });
+    replace(
+      {
+        pathname,
+        query: {
+          userSearchParam: {},
+        },
+      },
+      undefined,
+      { shallow: true },
+    );
   };
 
   const usersPerPage = 21;
