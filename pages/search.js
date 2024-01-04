@@ -203,16 +203,21 @@ export default function Search({
   };
 
   const handleClearFilter = () => {
-    replace(
-      {
-        pathname,
-        query: {
-          userSearchParam: {},
-        },
-      },
-      undefined,
-      { shallow: true },
-    );
+    const params = new URLSearchParams({ query: searchTerm });
+    params.forEach((userSearchQueries) => {
+      if (userSearchQueries !== "undefined") {
+        replace(
+          {
+            pathname,
+            query: {
+              userSearchParam: {},
+            },
+          },
+          undefined,
+          { shallow: true },
+        );
+      }
+    });
   };
 
   const usersPerPage = 21;
