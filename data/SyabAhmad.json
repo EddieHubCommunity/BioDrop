@@ -1,0 +1,18 @@
+{
+  "name": "Syed Syab",
+  "bio": "Syed Syab, A Software Engineer, working on Data Science",
+  "links": [
+    {
+      "group": "Social",
+      "name": "Social:",
+      "url": "http://linkedin.com/in/SyedSyab",
+      "icon": "FaLinkedIn"
+    },
+    {
+      "group": "Social",
+      "name": "Social:",
+      "url": "http://x.com/SyedSyab",
+      "icon": "FaX"
+    }
+  ]
+}
