@@ -1,3 +1,12 @@
+## [2.97.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.7...v2.97.8) (2024-01-05)
+
+
+### Bug Fixes
+
+* mongoose validate error and upgrade ([#10102](https://github.com/EddieHubCommunity/BioDrop/issues/10102)) ([052f076](https://github.com/EddieHubCommunity/BioDrop/commit/052f0765369dd86dfe25e1461d506e73540d1fea))
+
+
+
 ## [2.97.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.6...v2.97.7) (2024-01-04)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update dependencies ([#10052](https://github.com/EddieHubCommunity/BioDrop/issues/10052)) ([b32e369](https://github.com/EddieHubCommunity/BioDrop/commit/b32e369b1cdd08aeea7cc6662ffa84bd62b4b40f))
-
-
-
-## [2.97.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.2...v2.97.3) (2023-12-27)
-
-
-### Bug Fixes
-
-* cta from star to rate ([#10035](https://github.com/EddieHubCommunity/BioDrop/issues/10035)) ([f76c4da](https://github.com/EddieHubCommunity/BioDrop/commit/f76c4da8814dff617fd1c94cb61d4160b07c4e44))
 
 
 
