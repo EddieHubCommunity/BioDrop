@@ -26,19 +26,19 @@
     {
       "name": "LinkedIn Follow me",
       "url": "https://www.linkedin.com/in/ethmane-ousman-34885844/",
-      "icon": "fab fa-linkedin",
+      "icon": "FaLinkedin", 
       "color": "#0077B5"
     },
     {
       "name": "GitHub Follow me",
       "url": "https://github.com/Ousman37",
-      "icon": "fab fa-github",
+       "icon": "FaGithub",
       "color": "#333"
     },
     {
       "name": "Twitter Follow me",
       "url": "https://twitter.com/Ethamne_dev",
-      "icon": "fab fa-twitter",
+       "icon": "FaTwitter",
       "color": "#1DA1F2"
     }
   ],
@@ -59,21 +59,21 @@
       "group": "Socials Primary",
       "name": "LinkedIn Follow me",
       "url": "https://www.linkedin.com/in/ethmane-ousman-34885844/",
-      "icon": "fab fa-linkedin",
+      "icon": "FaLinkedin",
       "color": "#0077B5"
     },
     {
       "group": "Socials Primary",
       "name": "GitHub Follow me",
       "url": "https://github.com/Ousman37",
-      "icon": "fab fa-github",
+       "icon": "FaGithub",
       "color": "#333"
     },
     {
       "group": "Socials Primary",
       "name": "Twitter Follow me",
       "url": "https://twitter.com/Ethamne_dev",
-      "icon": "fab fa-twitter",
+       "icon": "FaTwitter",
       "color": "#1DA1F2"
     }
   ],
