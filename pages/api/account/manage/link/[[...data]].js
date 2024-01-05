@@ -60,19 +60,20 @@ export async function addLinkApi(context, username, data) {
   const log = logger.child({ username });
 
   let getLink = {};
-  const errors = await Link.validate(data, [
-    "group",
-    "name",
-    "icon",
-    "url",
-    "animation",
-  ]);
-  if (errors) {
+  try {
+    await Link.validate(data, [
+      "group",
+      "name",
+      "icon",
+      "url",
+      "animation",
+    ]);
+  } catch(error) {
     log.error(
-      errors,
+      error.errors,
       `validation failed to add link for username: ${username}`,
     );
-    return { error: errors.errors };
+    return { error: error.errors };
   }
 
   try {
@@ -135,19 +136,20 @@ export async function updateLinkApi(context, username, id, data) {
 
   let getLink = {};
 
-  const errors = await Link.validate(data, [
-    "group",
-    "name",
-    "icon",
-    "url",
-    "animation",
-  ]);
-  if (errors) {
+  try {
+    await Link.validate(data, [
+      "group",
+      "name",
+      "icon",
+      "url",
+      "animation",
+    ]);
+  } catch (error) {
     log.error(
-      errors,
+      error.errors,
       `validation failed to update link for username: ${username}`,
     );
-    return { error: errors.errors };
+    return { error: error.errors };
   }
 
   try {
