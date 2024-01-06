@@ -1,7 +1,7 @@
 {
   "name": "Ousman Ethmane",
   "bio": "Passionate Front-End Developer | UI/UX Enthusiast | Building innovative web experiences",
-  "tags": [
+ "tags": [
     "Open Source",
     "HTML",
     "CSS",
@@ -10,9 +10,7 @@
     "Node.js",
     "Git",
     "GitHub",
-    "TypeScript"
-  ],
-  "evenTags": [
+    "TypeScript",
     "Front-End Development",
     "UI/UX Design",
     "Responsive Web Design",
@@ -22,6 +20,7 @@
     "Debugging",
     "Team Collaboration"
   ],
+  
   "socials": [
     {
       "name": "LinkedIn Follow me",
