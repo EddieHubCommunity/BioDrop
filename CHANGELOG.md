@@ -1,3 +1,12 @@
+## [2.97.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.8...v2.97.9) (2024-01-07)
+
+
+### Bug Fixes
+
+* version description in bug template ([#9947](https://github.com/EddieHubCommunity/BioDrop/issues/9947))([#9946](https://github.com/EddieHubCommunity/BioDrop/issues/9946)) ([5083539](https://github.com/EddieHubCommunity/BioDrop/commit/5083539cf6820b852104b41e43be59e1eca2a9d1))
+
+
+
 ## [2.97.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.7...v2.97.8) (2024-01-05)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update action dependencies ([#10053](https://github.com/EddieHubCommunity/BioDrop/issues/10053)) ([aa1149b](https://github.com/EddieHubCommunity/BioDrop/commit/aa1149b91b07f3b81e6a7c424f0bee908a1678e2))
-
-
-
-## [2.97.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.3...v2.97.4) (2023-12-30)
-
-
-### Bug Fixes
-
-* update dependencies ([#10052](https://github.com/EddieHubCommunity/BioDrop/issues/10052)) ([b32e369](https://github.com/EddieHubCommunity/BioDrop/commit/b32e369b1cdd08aeea7cc6662ffa84bd62b4b40f))
 
 
 
