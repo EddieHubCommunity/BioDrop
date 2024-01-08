@@ -1,3 +1,30 @@
+## [2.97.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.8...v2.97.9) (2024-01-07)
+
+
+### Bug Fixes
+
+* version description in bug template ([#9947](https://github.com/EddieHubCommunity/BioDrop/issues/9947))([#9946](https://github.com/EddieHubCommunity/BioDrop/issues/9946)) ([5083539](https://github.com/EddieHubCommunity/BioDrop/commit/5083539cf6820b852104b41e43be59e1eca2a9d1))
+
+
+
+## [2.97.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.7...v2.97.8) (2024-01-05)
+
+
+### Bug Fixes
+
+* mongoose validate error and upgrade ([#10102](https://github.com/EddieHubCommunity/BioDrop/issues/10102)) ([052f076](https://github.com/EddieHubCommunity/BioDrop/commit/052f0765369dd86dfe25e1461d506e73540d1fea))
+
+
+
+## [2.97.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.6...v2.97.7) (2024-01-04)
+
+
+### Bug Fixes
+
+* rolled back mongoose version ([#10097](https://github.com/EddieHubCommunity/BioDrop/issues/10097)) ([8b13530](https://github.com/EddieHubCommunity/BioDrop/commit/8b13530294083b1578fba769436c20efa303c6cc))
+
+
+
 ## [2.97.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.5...v2.97.6) (2023-12-30)
 
 
@@ -13,33 +40,6 @@
 ### Bug Fixes
 
 * update action dependencies ([#10053](https://github.com/EddieHubCommunity/BioDrop/issues/10053)) ([aa1149b](https://github.com/EddieHubCommunity/BioDrop/commit/aa1149b91b07f3b81e6a7c424f0bee908a1678e2))
-
-
-
-## [2.97.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.3...v2.97.4) (2023-12-30)
-
-
-### Bug Fixes
-
-* update dependencies ([#10052](https://github.com/EddieHubCommunity/BioDrop/issues/10052)) ([b32e369](https://github.com/EddieHubCommunity/BioDrop/commit/b32e369b1cdd08aeea7cc6662ffa84bd62b4b40f))
-
-
-
-## [2.97.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.2...v2.97.3) (2023-12-27)
-
-
-### Bug Fixes
-
-* cta from star to rate ([#10035](https://github.com/EddieHubCommunity/BioDrop/issues/10035)) ([f76c4da](https://github.com/EddieHubCommunity/BioDrop/commit/f76c4da8814dff617fd1c94cb61d4160b07c4e44))
-
-
-
-## [2.97.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.1...v2.97.2) (2023-12-24)
-
-
-### Bug Fixes
-
-* json profile source action ([#10000](https://github.com/EddieHubCommunity/BioDrop/issues/10000)) ([966f61d](https://github.com/EddieHubCommunity/BioDrop/commit/966f61d7ef88c1a4fa094f236c60070c75949308))
 
 
 
