@@ -214,7 +214,19 @@ export default function Footer() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-primary-low-high hover:text-primary-low"
+                  className={
+                    item.name == "LinkedIn"
+                      ? "text-primary-low-high hover:text-sky-600"
+                      : item.name == "Twitter"
+                        ? "text-primary-low-high hover:text-black"
+                        : item.name == "Instagram"
+                          ? "text-primary-low-high hover:text-rose-600"
+                          : item.name == "GitHub"
+                            ? "text-primary-low-high hover:text-black"
+                            : item.name == "YouTube"
+                              ? "text-primary-low-high hover:text-rose-600"
+                              : ""
+                  }
                   target={item.external ? "_blank" : "_self"}
                   onClick={() => va.track(`socials`, { link: item.name })}
                 >
