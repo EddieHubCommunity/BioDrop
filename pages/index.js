@@ -246,6 +246,7 @@ export default function Home({
             <Image
               src="https://user-images.githubusercontent.com/109926117/234534981-9db096eb-dc79-4310-a7a6-e7fd46799dff.png"
               alt="BioDrop screenshot of statistics"
+              className="w-full"
               width="600"
               height="300"
             />
