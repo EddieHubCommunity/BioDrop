@@ -1,0 +1,17 @@
+{
+  "name": "Tunde Wey",
+  "bio": "Backend(NodeJS) Developer | Open Source Dev | YouTuber",
+  "links": [
+    {
+      "youtube channel": "DevWithExcel",
+      "url": "https://www.youtube.com/channel/UCu5QppNJATuxuwWvdeO3PpA",
+      "icon": "FaLink"
+    },
+    {
+      "LinkedIn": "DevWithExcel",
+      "url": "https://www.linkedin.com/in/tunde-wey/",
+      "icon": "FaLinkedIn",
+      "color": "#00ACEE"
+    }
+  ]
+}

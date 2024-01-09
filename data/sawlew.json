@@ -1,0 +1,26 @@
+{
+    "name": "Soliu Adeosun",
+    "bio": "A Frontend Developer | Passionate about bringing your web app to live",
+    "links": [
+        {
+            "group": "Portfolio",
+            "name": "Portfolio",
+            "url": "http://soliu.netlify.app",
+            "icon": "FaLink"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://twitter.com/sawlew",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "LinkedIn: Connect with me",
+            "url": "https://linkedin.com/in/sawlew",
+            "icon": "FaLinkedin",
+            "color": "#00ACEE"
+        }
+    ]
+}

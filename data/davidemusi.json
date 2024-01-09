@@ -1,0 +1,18 @@
+{
+  "name": "David Okon",
+  "bio": "Open Source Tublian | Python Developer | **GitHub** Beta",
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/DavidEmusi",
+      "icon": "FaXTwitter",
+      "color": "#00ACEE" 
+    },
+    {
+      "name": "Github: Follow me on Github",
+      "url": "https://github.com/davidemusi",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,45 +1,45 @@
-## [2.97.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.0...v2.97.1) (2023-12-19)
+## [2.97.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.8...v2.97.9) (2024-01-07)
 
 
 ### Bug Fixes
 
-* new profiles less than 10 ([#9962](https://github.com/EddieHubCommunity/BioDrop/issues/9962)) ([91378af](https://github.com/EddieHubCommunity/BioDrop/commit/91378af4620cd1ba7bf671109b42e4aabc8c4096))
+* version description in bug template ([#9947](https://github.com/EddieHubCommunity/BioDrop/issues/9947))([#9946](https://github.com/EddieHubCommunity/BioDrop/issues/9946)) ([5083539](https://github.com/EddieHubCommunity/BioDrop/commit/5083539cf6820b852104b41e43be59e1eca2a9d1))
 
 
 
-# [2.97.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.2...v2.97.0) (2023-12-19)
-
-
-### Features
-
-* admin list new profiles ([#9960](https://github.com/EddieHubCommunity/BioDrop/issues/9960)) ([a7fa8f5](https://github.com/EddieHubCommunity/BioDrop/commit/a7fa8f5b36bc57549ffaf4a62d7ad7214f5f36d5))
-
-
-
-## [2.96.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.1...v2.96.2) (2023-12-18)
+## [2.97.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.7...v2.97.8) (2024-01-05)
 
 
 ### Bug Fixes
 
-* maintainers docs ([#9937](https://github.com/EddieHubCommunity/BioDrop/issues/9937)) ([67c8099](https://github.com/EddieHubCommunity/BioDrop/commit/67c8099085f4736d6ac9218905f9e7f66fc837da))
+* mongoose validate error and upgrade ([#10102](https://github.com/EddieHubCommunity/BioDrop/issues/10102)) ([052f076](https://github.com/EddieHubCommunity/BioDrop/commit/052f0765369dd86dfe25e1461d506e73540d1fea))
 
 
 
-## [2.96.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.0...v2.96.1) (2023-12-18)
+## [2.97.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.6...v2.97.7) (2024-01-04)
 
 
 ### Bug Fixes
 
-* tags input and sort ([#9894](https://github.com/EddieHubCommunity/BioDrop/issues/9894)) ([a68b96d](https://github.com/EddieHubCommunity/BioDrop/commit/a68b96d548cdc82762075d121e0210ce50f48b4c))
+* rolled back mongoose version ([#10097](https://github.com/EddieHubCommunity/BioDrop/issues/10097)) ([8b13530](https://github.com/EddieHubCommunity/BioDrop/commit/8b13530294083b1578fba769436c20efa303c6cc))
 
 
 
-# [2.96.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.95.2...v2.96.0) (2023-12-13)
+## [2.97.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.5...v2.97.6) (2023-12-30)
 
 
-### Features
+### Bug Fixes
 
-* progress bar background ([#9896](https://github.com/EddieHubCommunity/BioDrop/issues/9896)) ([7f6bb01](https://github.com/EddieHubCommunity/BioDrop/commit/7f6bb016637f529fd705e3620f7e32f39772f8c3))
+* alert info for dark mode ([#9902](https://github.com/EddieHubCommunity/BioDrop/issues/9902)) ([2e1ce65](https://github.com/EddieHubCommunity/BioDrop/commit/2e1ce6545f64e1b6ad7c1208715c540644d2f0d9))
+
+
+
+## [2.97.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.4...v2.97.5) (2023-12-30)
+
+
+### Bug Fixes
+
+* update action dependencies ([#10053](https://github.com/EddieHubCommunity/BioDrop/issues/10053)) ([aa1149b](https://github.com/EddieHubCommunity/BioDrop/commit/aa1149b91b07f3b81e6a7c424f0bee908a1678e2))
 
 
 
