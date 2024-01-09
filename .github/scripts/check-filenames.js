@@ -1,12 +1,6 @@
 let fileNames = process.env.FILENAMES.split(" ");
-const baseFileNames = process.env.BASE_FILENAMES.split(" ");
 const user = process.env.USERNAME;
 let exitCode = 0;
-
-// Remove files not changed in this PR from list
-if (baseFileNames.length > 0) {
-  fileNames = fileNames.filter((file) => !baseFileNames.includes(file));
-}
 
 if (fileNames.length > 0) {
   fileNames.forEach((file) => {
