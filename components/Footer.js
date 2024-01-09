@@ -15,6 +15,14 @@ import { BASE_GITHUB_PROJECT_URL, BASE_GITHUB_URL } from "@constants/index";
 import LogoWide from "@public/logos/LogoWide";
 
 export default function Footer() {
+  const socialIconClassMappings = {
+    "LinkedIn": "text-primary-low-high hover:text-sky-600",
+    "Twitter": "text-primary-low-high hover:text-black",
+    "Instagram": "text-primary-low-high hover:text-rose-600",
+    "GitHub": "text-primary-low-high hover:text-black",
+    "YouTube": "text-primary-low-high hover:text-rose-600",
+  };
+
   const navigation = {
     solutions: [
       { name: "Search", href: "/search", external: false },
@@ -214,19 +222,7 @@ export default function Footer() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={
-                    item.name == "LinkedIn"
-                      ? "text-primary-low-high hover:text-sky-600"
-                      : item.name == "Twitter"
-                        ? "text-primary-low-high hover:text-black"
-                        : item.name == "Instagram"
-                          ? "text-primary-low-high hover:text-rose-600"
-                          : item.name == "GitHub"
-                            ? "text-primary-low-high hover:text-black"
-                            : item.name == "YouTube"
-                              ? "text-primary-low-high hover:text-rose-600"
-                              : ""
-                  }
+                  const className={socialIconClassMappings[item.name] || ""}
                   target={item.external ? "_blank" : "_self"}
                   onClick={() => va.track(`socials`, { link: item.name })}
                 >
