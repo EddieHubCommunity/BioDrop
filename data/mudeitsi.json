@@ -1,0 +1,11 @@
+{
+    "name": "Minayo Esere",
+    "bio": "Entry-Level Full-Stack Developer | Figma(UI/UX design & prototyping) HTML, CSS, JavaScript, Python, Flask&Jinja, SQL-MySQL",
+    "links": [
+        {
+            "name": "Follow on Twitter",
+            "url": "https://twitter.com/devmudeizi",
+            "icon": "FaTwitter"
+        }
+    ]
+}
