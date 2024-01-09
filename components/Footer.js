@@ -222,7 +222,7 @@ export default function Footer() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  const className={socialIconClassMappings[item.name] || ""}
+                  className={socialIconClassMappings[item.name] || ""}
                   target={item.external ? "_blank" : "_self"}
                   onClick={() => va.track(`socials`, { link: item.name })}
                 >
