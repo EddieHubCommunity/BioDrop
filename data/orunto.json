@@ -1,0 +1,12 @@
+{
+  "name": "Orunto Eniola",
+  "bio": "Tech bro in transit",
+  "links": [
+    {
+      "group": "Portfolio",
+      "name": "My Website",
+      "url": "http://orunto-dot-dev.vercel.app",
+      "icon": "FaLink"
+    }
+  ]
+}
