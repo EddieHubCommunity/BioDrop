@@ -9,10 +9,7 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
 import Navigation from "@components/account/manage/Navigation";
-import {
-  getGroupLinkApi,
-  getLinkApi,
-} from "pages/api/account/manage/link/[[...data]]";
+import { getLinkApi } from "pages/api/account/manage/link/[[...data]]";
 import Input from "@components/form/Input";
 import UserLink from "@components/user/UserLink";
 import Toggle from "@components/form/Toggle";
@@ -24,7 +21,6 @@ import IconSearch from "@components/IconSearch";
 import Select from "@components/form/Select";
 import config from "@config/app.json";
 import { objectToLabelValueArray } from "@services/utils/objectToLabelValueArray";
-import GroupLinkSearch from "@components/GroupLinkSearch";
 
 const animations = config.animations;
 
@@ -34,12 +30,6 @@ export async function getServerSideProps(context) {
   const id = context.query.data ? context.query.data[0] : undefined;
 
   let link = {};
-  let groups = [];
-  try {
-    groups = await getGroupLinkApi(username);
-  } catch (e) {
-    logger.error(e, `Group ${id} failed for username: ${username}`);
-  }
   if (id) {
     try {
       link = await getLinkApi(username, id);
@@ -49,11 +39,11 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { username, link, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL, groups },
+    props: { username, link, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function ManageLink({ BASE_URL, username, link, groups }) {
+export default function ManageLink({ BASE_URL, username, link }) {
   const [open, setOpen] = useState(false);
   const [showNotification, setShowNotification] = useState({
     show: false,
@@ -180,10 +170,13 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
 
                 <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <GroupLinkSearch
-                      groups={groups}
-                      handleGroupSelection={setGroup}
-                      selectedGroup={group}
+                    <Input
+                      name="group"
+                      label="Group"
+                      onChange={(e) => setGroup(e.target.value)}
+                      value={group}
+                      minLength="2"
+                      maxLength="64"
                     />
                     <p className="text-sm text-primary-low-medium">
                       You can{" "}
