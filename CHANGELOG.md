@@ -1,3 +1,17 @@
+# [2.98.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.9...v2.98.0) (2024-01-11)
+
+
+### Bug Fixes
+
+* remove avatar & type keys from json files. ([#10120](https://github.com/EddieHubCommunity/BioDrop/issues/10120)) ([08d22bc](https://github.com/EddieHubCommunity/BioDrop/commit/08d22bc1908d8bff0025fdda11f016964d9a95d8))
+
+
+### Features
+
+* group suggestions for users link  ([#9878](https://github.com/EddieHubCommunity/BioDrop/issues/9878)) ([87265a1](https://github.com/EddieHubCommunity/BioDrop/commit/87265a1f3ec7a13c5189937885f6669278bd8d91))
+
+
+
 ## [2.97.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.8...v2.97.9) (2024-01-07)
 
 
@@ -31,15 +45,6 @@
 ### Bug Fixes
 
 * alert info for dark mode ([#9902](https://github.com/EddieHubCommunity/BioDrop/issues/9902)) ([2e1ce65](https://github.com/EddieHubCommunity/BioDrop/commit/2e1ce6545f64e1b6ad7c1208715c540644d2f0d9))
-
-
-
-## [2.97.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.4...v2.97.5) (2023-12-30)
-
-
-### Bug Fixes
-
-* update action dependencies ([#10053](https://github.com/EddieHubCommunity/BioDrop/issues/10053)) ([aa1149b](https://github.com/EddieHubCommunity/BioDrop/commit/aa1149b91b07f3b81e6a7c424f0bee908a1678e2))
 
 
 
