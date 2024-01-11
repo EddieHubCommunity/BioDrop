@@ -44,7 +44,6 @@ export default async function handler(req, res) {
 export async function getLinkApi(username, id) {
   await connectMongo();
   const log = logger.child({ username });
-
   let getLink = await Link.findOne({ username, _id: id });
 
   if (!getLink) {
@@ -53,6 +52,24 @@ export async function getLinkApi(username, id) {
   }
 
   return JSON.parse(JSON.stringify(getLink));
+}
+
+export async function getGroupLinkApi(username) {
+  await connectMongo();
+  const log = logger.child({ username });
+  let getGroupLink = [];
+  getGroupLink = await Link.aggregate([
+    { $match: { username } },
+    { $group: { _id: null, groups: { $addToSet: "$group" } } },
+    { $project: { _id: 0, groups: 1 } },
+  ]).exec();
+  getGroupLink = getGroupLink[0].groups.filter((item) => item !== "");
+
+  if (!getGroupLink || getGroupLink.length === 0) {
+    log.info(`Group not found for username: ${username}`);
+    return { error: "Group not found." };
+  }
+  return getGroupLink;
 }
 
 export async function addLinkApi(context, username, data) {
