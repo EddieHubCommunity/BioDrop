@@ -56,7 +56,6 @@ export async function getLinkApi(username, id) {
 
 export async function getGroupLinkApi(username) {
   await connectMongo();
-  const log = logger.child({ username });
   let getGroupLink = [];
   getGroupLink = await Link.aggregate([
     { $match: { username } },
