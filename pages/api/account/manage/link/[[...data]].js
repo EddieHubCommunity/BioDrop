@@ -64,11 +64,6 @@ export async function getGroupLinkApi(username) {
     { $project: { _id: 0, groups: 1 } },
   ]).exec();
   getGroupLink = getGroupLink[0].groups.filter((item) => item !== "");
-
-  if (!getGroupLink || getGroupLink.length === 0) {
-    log.info(`Group not found for username: ${username}`);
-    return { error: "Group not found." };
-  }
   return getGroupLink;
 }
 

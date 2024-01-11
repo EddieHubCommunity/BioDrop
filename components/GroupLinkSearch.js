@@ -15,8 +15,9 @@ function GroupLinkSearch({ selectedGroup, handleGroupSelection, groups }) {
 
   const filteredGroup =
     query === ""
-      ? groups.slice(0, 5)
-      : groups
+      ? groups.length > 0 && groups.slice(0, 5)
+      : groups.length > 0 &&
+        groups
           .filter((group) => {
             return group.toLowerCase().includes(query.toLowerCase());
           })
