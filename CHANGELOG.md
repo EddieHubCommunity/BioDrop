@@ -1,3 +1,12 @@
+## [2.99.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.1...v2.99.2) (2024-01-12)
+
+
+### Bug Fixes
+
+* login url in the navbar ([#9893](https://github.com/EddieHubCommunity/BioDrop/issues/9893)) ([fd0567b](https://github.com/EddieHubCommunity/BioDrop/commit/fd0567bffda11586225d5fbbc7c59caca7d22394))
+
+
+
 ## [2.99.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.0...v2.99.1) (2024-01-12)
 
 
@@ -36,15 +45,6 @@
 ### Features
 
 * group suggestions for users link  ([#9878](https://github.com/EddieHubCommunity/BioDrop/issues/9878)) ([87265a1](https://github.com/EddieHubCommunity/BioDrop/commit/87265a1f3ec7a13c5189937885f6669278bd8d91))
-
-
-
-## [2.97.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.8...v2.97.9) (2024-01-07)
-
-
-### Bug Fixes
-
-* version description in bug template ([#9947](https://github.com/EddieHubCommunity/BioDrop/issues/9947))([#9946](https://github.com/EddieHubCommunity/BioDrop/issues/9946)) ([5083539](https://github.com/EddieHubCommunity/BioDrop/commit/5083539cf6820b852104b41e43be59e1eca2a9d1))
 
 
 
