@@ -28,6 +28,7 @@ Before working on an existing Issue please follow these steps:
 1. **only** start working on this Issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used
 1. do **not** enable GitHub Actions on your fork
 1. reference the Issue in your Pull Request (for example `closes #123`)
+1. please do **not** force push to your PR branch, this makes it very difficult to re-review - commits will be squashed when merged
 
 > Notes:
 >

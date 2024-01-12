@@ -11,6 +11,7 @@ export default function MyApp({
   pageProps: { session, ...pageProps },
 }) {
   const router = useRouter();
+
   // Use the layout defined at the page level, if available
   const getLayout =
     Component.getLayout || ((page) => <MultiLayout>{page}</MultiLayout>);

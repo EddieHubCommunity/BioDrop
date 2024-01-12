@@ -3,7 +3,7 @@ import path from "path";
 
 import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 import { clientEnv } from "@config/schemas/clientSchema";
 import config from "@config/app.json";
@@ -77,10 +77,12 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     };
   });
 
+  const tagInputRef = useRef(null);
+
   const { pronouns } = config;
 
   const handleTagAdd = (newTag) => {
-    setTags((prevState) => [...prevState, newTag]);
+    setTags((prevState) => [...new Set([...prevState, newTag])]);
   };
 
   const handleTagRemove = (tagToRemove) => {
@@ -91,6 +93,9 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsDisabled(true);
+    if (document.activeElement === tagInputRef.current) {
+      return;
+    }
     const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
       method: "PUT",
       headers: {
@@ -236,9 +241,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         minLength="2"
                         maxLength="256"
                       />
-                      <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        You can use Markdown syntax.
-                      </p>
+                      <div className="flex justify-between text-sm text-primary-medium-low dark:text-primary-low-high">
+                        <p>You can use Markdown syntax.</p>
+                        <p>{bio.length} / 256</p>
+                      </div>
                     </div>
 
                     <div className="col-span-3 sm:col-span-4">
@@ -246,9 +252,14 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
                         onTagAdd={handleTagAdd}
                         onTagRemove={handleTagRemove}
                         tags={tags}
+                        inputRef={tagInputRef}
+                        setTags={setTags}
+                        showNotification={showNotification}
+                        setShowNotification={setShowNotification}
                       />
                       <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                        Separate tags with commas.
+                        Separate tags with commas (tags cannot be duplicated and
+                        max 32 characters).
                       </p>
                     </div>
                   </div>

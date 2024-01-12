@@ -1,0 +1,16 @@
+  {
+  "name": "Eugene Onuoha",
+  "bio": "Full-Stack Developer | Med Student | Interior Design Enthusiast",
+   "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/eugene4545",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/se_sam72",
+      "icon": "FaTwitter"
+    }
+   ]
+}

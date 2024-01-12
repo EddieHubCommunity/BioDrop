@@ -1,4 +1,4 @@
-name: JSON Profile API check
+name: JSON Profile source check
 
 on:
   pull_request:
@@ -11,7 +11,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # Make the API request corresponding to the pull request author and outputs the data of the user as JSON string
       - name: Make API request
@@ -24,8 +24,15 @@ jobs:
           method: "GET"
 
       # fail the job if the source is database
-      - name: Check if source is database
-        if: fromJson(steps.myRequest.outputs.response).source == 'database'
+      - name: If 404 pass the job
+        if: steps.myRequest.outputs.response == ''
         run: |
-          echo "${{ github.event.pull_request.user.login }}'s Profile is already in database"
+          echo "${{ github.event.pull_request.user.login }}'s Profile does not exist in database"
+          exit 0
+
+      # fail the job if the source is database
+      - name: Check if source is database
+        if: steps.myRequest.outputs.response != '' && fromJson(steps.myRequest.outputs.response).source == 'database'
+        run: |
+          echo "${{ github.event.pull_request.user.login }}'s Profile is already in database - you are already using forms, please continue to use them"
           exit 1

@@ -20,7 +20,7 @@ body:
   - type: input
     attributes:
       label: Version of BioDrop (for example "v1.2.3")
-      description: Can be found in the lower right corner of the web interface in the footer.
+      description: Can be found in the footer of the BioDrop.io website.
     validations:
       required: true
   - type: textarea
@@ -28,6 +28,28 @@ body:
     attributes:
       label: Description
       description: A clear description of the bug you have found. Please include relevant information and resources (for example the steps to reproduce the bug)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description:  To help us recreate the bug, provide a numbered list of the exact steps taken to trigger the buggy behavior.
+      value:  | 
+        If you know the steps, follow the below format and provide steps to reproduce
+
+        For example:
+
+        1. Go to <replace your> page.
+        1. On top right side, close to the <Account> menu
+        1. Some menu are not working properly.
+        1. Continue...
+
+        If you don't know exact steps, include any relevant details like:
+
+        - What page you were on...
+        - What you were trying to do...
+        - What went wrong...
     validations:
       required: true
   - type: textarea

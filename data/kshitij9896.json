@@ -1,7 +1,7 @@
 {
-  "name": "Kshitij Bansod",
-  "bio": "Full Stack Web Developer | Designer | Author ",
-  "tags": ["Front-End Developer", "UI/UX"],
+  "name": "Kshitij7",
+  "bio": "Software Developer | UI/UX Developer ",
+  "tags": ["Full Stack Web Developer", "Content Writer"],
   "socials": [
     {
       "icon": "FaTwitter",
@@ -10,21 +10,13 @@
     {
       "icon": "FaGithub",
       "url": "https://github.com/kshitij9896"
-    },
-    {
-      "icon": "FaDev",
-      "url": "https://dev.to/kshitij9896"
-    },
-    {
-      "icon": "FaBlog",
-      "url": "https://www.showwcase.com/thisiskshitijbansod"
     }
   ],
   "links": [
     {
       "group": "Services",
       "name": "Can Help You With",
-      "url": "https://thisiskshitijbansod.netlify.app",
+      "url": "https://thisiskshitijbansod.vercel.app",
       "icon": "FaGlobe"
     },
     {
@@ -63,6 +55,12 @@
       "group": "Socials",
       "name": "Let's Connect On Showwcase",
       "url": "https://www.showwcase.com/thisiskshitijbansod",
+      "icon": "FaBlog"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Connect On Holopin",
+      "url": "https://www.holopin.io/@kshitij9896",
       "icon": "FaBlog"
     }
   ]

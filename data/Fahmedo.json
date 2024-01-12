@@ -1,0 +1,30 @@
+{
+  "name": "Faruq Ahmed Olaitan",
+  "bio": "Open Source Enthusiast | Frontend Engineer",
+  "links": [
+    {
+      "group": "Social primary",
+      "name": "X: Follow me",
+      "url": "https://twitter.com/da_horlie",
+      "icon": "FaXTwitter"
+    },
+    {
+      "group": "Social primary",
+      "name": "LinkedIn: Follow me",
+      "url": "https://www.linkedin.com/in/ahmed-faruq-6116a4232/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social primary",
+      "name": "Instagram: Follow me",
+      "url": "https://www.instagram.com/ola_kanbayi/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Social primary",
+      "name": "GitHub: Follow me",
+      "url": "https://github.com/Fahmedo",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Munir Abdullahi",
+  "bio": "Technical Writer | Backend Engineer | Emerging DevOps Enginer",
+  "links": [
+    {
+      "group": "My Links",
+      "name": "Hashnode",
+      "url": "https://hashnode.com/@iamaamunir",
+      "icon": "Hashnode"
+    },
+    {
+      "group": "My Links",
+      "name": "GitHub",
+      "url":"https://github.com/iamaamunir",
+      "icon":"GitHub"
+    },
+    {
+      "group":"My Links",
+      "name":"Twitter",
+      "url":"https://twitter.com/iamaamunir",
+      "icon":"Twiitter"
+    }
+  ]
+}

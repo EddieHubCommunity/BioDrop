@@ -1,5 +1,5 @@
 import Router from "next/router";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
@@ -58,6 +58,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
   const [tags, setTags] = useState(event.tags || []);
   const [isDisabled, setIsDisabled] = useState(false);
+  const tagInputRef = useRef(null);
 
   useEffect(() => {
     if (!isSpeaking) {
@@ -107,6 +108,9 @@ export default function ManageEvent({ BASE_URL, event }) {
     e.preventDefault();
     setIsDisabled(true);
 
+    if (document.activeElement === tagInputRef.current) {
+      return;
+    }
     let alert = "created";
     let putEvent = {
       name,
@@ -175,7 +179,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   };
 
   const handleTagAdd = (newTag) =>
-    setTags((prevState) => [...prevState, newTag]);
+    setTags((prevState) => [...new Set([...prevState, newTag])]);
   const handleTagRemove = (tagToRemove) =>
     setTags(tags.filter((tag) => tag !== tagToRemove));
 
@@ -339,9 +343,14 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onTagAdd={handleTagAdd}
                       onTagRemove={handleTagRemove}
                       tags={tags}
+                      setTags={setTags}
+                      inputRef={tagInputRef}
+                      showNotification={showNotification}
+                      setShowNotification={setShowNotification}
                     />
                     <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                      Separate tags with commas.
+                      Separate tags with commas (tags cannot be duplicated and
+                      max 32 characters).
                     </p>
                   </div>
                 </div>

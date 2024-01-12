@@ -18,10 +18,9 @@ export default function Roadmap() {
       actionText: "See full list",
       description: "Enjoy these exciting new features right now!",
       features: [
-        "New branding and design",
         "Show more detailed statistics",
-        "Premium features",
-        "Dark mode",
+        "Favourite GitHub repos",
+        "Custom domains",
       ],
       mostPopular: false,
       icon: (
@@ -41,7 +40,7 @@ export default function Roadmap() {
       actionText: "Issue list",
       description:
         "Features that are currently being worked on or will be soon.",
-      features: ["Custom domains", "New web app design"],
+      features: ["External widgets", "More customisation"],
       mostPopular: true,
       icon: (
         <ComputerDesktopIcon
@@ -51,7 +50,7 @@ export default function Roadmap() {
       ),
     },
     {
-      name: "Coming soon",
+      name: "Roadmap",
       id: "release-future",
       href:
         BASE_GITHUB_PROJECT_URL +
@@ -62,8 +61,6 @@ export default function Roadmap() {
       features: [
         "Follow other Profiles",
         "Notifications",
-        "Advanced analytics",
-        "Badges",
         "More customisation",
       ],
       mostPopular: false,

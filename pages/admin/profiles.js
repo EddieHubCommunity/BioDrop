@@ -43,6 +43,7 @@ export default function Users({ profiles }) {
           <Button href="/admin/profiles?filter=recently updated">
             Recently updated
           </Button>
+          <Button href="/admin/profiles?filter=new">New</Button>
           <Button href="/admin/profiles?filter=by rank">By Rank</Button>
           <Button href="/admin/profiles?filter=premium">Premium</Button>
           <Button href="/admin/profiles?filter=isDisabled">Disabled</Button>

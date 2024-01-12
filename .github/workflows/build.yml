@@ -23,8 +23,8 @@ jobs:
       matrix:
         step: [lint, build]
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "18"
           cache: "npm"
@@ -47,8 +47,8 @@ jobs:
         shardIndex: [1, 2, 3, 4, 5]
         shardTotal: [5]
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "18"
           cache: "npm"

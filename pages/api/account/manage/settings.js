@@ -112,12 +112,12 @@ export async function updateSettingsApi(context, username, data) {
   update.domain = update.domain.replaceAll(".", "|"); // TODO: use getter/setter instead
 
   // check if domain is already used
-  if (update.domain) {
+  if (data.domain && data.domain !== beforeUpdate.domain) {
     const domainCheck = await Profile.findOne({
       "settings.domain": update.domain,
     });
     if (domainCheck) {
-      const domainCheckError = `Domain "${update.domain}" is already in use for username: ${username}`;
+      const domainCheckError = `Domain "${data.domain}" is already in use for username: ${username}`;
       log.error(domainCheckError);
       return { error: domainCheckError };
     }
@@ -199,38 +199,6 @@ export async function updateSettingsApi(context, username, data) {
 
     // add new custom domain
     if (data.domain) {
-      log.info(
-        `attempting to add domain "${data.domain}" to the team for: ${username}`,
-      );
-      let domainAddRes;
-      const domainAddUrl = `https://api.vercel.com/v5/domains?teamId=${serverEnv.VERCEL_TEAM_ID}`;
-      const domainAddUrlError = `failed to add new team custom domain "${data.domain}" for username: ${username}`;
-      let domainAddJson;
-      try {
-        domainAddRes = await fetch(domainAddUrl, {
-          method: "POST",
-          headers: {
-            Authorization: `Bearer ${serverEnv.VERCEL_AUTH_TOKEN}`,
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ name: data.domain }),
-        });
-        domainAddJson = await domainAddRes.json();
-        if (domainAddJson.error) {
-          updateDomain(username, beforeUpdate.domain);
-          log.error(domainAddUrlError);
-          return { error: domainAddUrlError };
-        }
-        log.info(
-          domainAddJson,
-          `domain ${data.domain} added to team for: ${username}`,
-        );
-      } catch (e) {
-        updateDomain(username, beforeUpdate.domain);
-        log.error(e, domainAddUrlError);
-        return { error: domainAddUrlError };
-      }
-
       log.info(
         `attempting to add domain "${data.domain}" to the project for: ${username}`,
       );
