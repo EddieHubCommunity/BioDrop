@@ -1,3 +1,12 @@
+## [2.99.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.0...v2.99.1) (2024-01-12)
+
+
+### Bug Fixes
+
+* manage save button prevent multiple clicks ([#9713](https://github.com/EddieHubCommunity/BioDrop/issues/9713)) ([59da077](https://github.com/EddieHubCommunity/BioDrop/commit/59da07795083ee6a9ca8a5f77cb6acd67e904cbd))
+
+
+
 # [2.99.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.98.1...v2.99.0) (2024-01-12)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * version description in bug template ([#9947](https://github.com/EddieHubCommunity/BioDrop/issues/9947))([#9946](https://github.com/EddieHubCommunity/BioDrop/issues/9946)) ([5083539](https://github.com/EddieHubCommunity/BioDrop/commit/5083539cf6820b852104b41e43be59e1eca2a9d1))
-
-
-
-## [2.97.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.7...v2.97.8) (2024-01-05)
-
-
-### Bug Fixes
-
-* mongoose validate error and upgrade ([#10102](https://github.com/EddieHubCommunity/BioDrop/issues/10102)) ([052f076](https://github.com/EddieHubCommunity/BioDrop/commit/052f0765369dd86dfe25e1461d506e73540d1fea))
 
 
 
