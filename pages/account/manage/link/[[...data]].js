@@ -71,10 +71,12 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
   const [animation, setAnimation] = useState(
     link.animation || Object.keys(config.animations)[0],
   );
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setIsDisabled(true);
+    
     let method = "POST";
     let selectedIcon = icon !== "" ? icon : "FaGlobe";
     let putLink = {
@@ -106,6 +108,7 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
     const update = await res.json();
 
     if (update.message || !update) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
@@ -272,7 +275,7 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>
