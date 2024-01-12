@@ -352,7 +352,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true} disable={isDisabled}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>
