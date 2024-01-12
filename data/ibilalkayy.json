@@ -13,8 +13,16 @@
       "url": "https://bloop.gg/"
     },
     {
+      "icon": "FaEnvelope",
+      "url": "https://bloopsite.beehiiv.com/subscribe"
+    },
+    {
       "icon": "SiYoutube",
-      "url": "https://www.youtube.com/@ibilalkayy"
+      "url": "https://www.youtube.com/@coderoamer"
+    },
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@pageroamer"
     },
     {
       "icon": "FaGithub",
@@ -26,7 +34,7 @@
     },
     {
       "icon": "FaTwitter",
-      "url": "https://twitter.com/ibilalkayy"
+      "url": "https://x.com/ibilalkayy"
     },
     {
       "icon": "SiBuymeacoffee",
@@ -54,6 +62,12 @@
     },
     {
       "group": "My Startup",
+      "name": "YouTube: Checkout my Startup Videos",
+      "url": "https://www.youtube.com/@pageroamer",
+      "icon": "SiYoutube"
+    },
+    {
+      "group": "My Startup",
       "name": "Newsletter",
       "url": "https://bloopsite.beehiiv.com/subscribe",
       "icon": "FaEnvelope"
@@ -72,8 +86,8 @@
     },
     {
       "group": "Socials",
-      "name": "YouTube: Checkout my Tech and Startup Videos",
-      "url": "https://www.youtube.com/@ibilalkayy",
+      "name": "YouTube: Checkout my Tech Videos",
+      "url": "https://www.youtube.com/@coderoamer",
       "icon": "SiYoutube"
     },
     {
@@ -91,24 +105,32 @@
     {
       "group": "Socials",
       "name": "Twitter: Follow me",
-      "url": "https://twitter.com/ibilalkayy",
+      "url": "https://x.com/ibilalkayy",
       "icon": "FaTwitter"
     },
     {
       "group": "Socials",
-      "name": "LinkedIn: Let's connect ",
+      "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/ibilalkayy/",
       "icon": "FaLinkedin"
     }
   ],
   "milestones": [
     {
-      "title": "Started YouTube",
+      "title": "Started Startup YouTube Channel",
+      "date": "Jun 12, 2024",
+      "icon": "SiYoutube",
+      "color": "red",
+      "description": "Started creating startup content",
+      "url": "https://www.youtube.com/@pageroamer"
+    },
+    {
+      "title": "Started Tech YouTube Channel",
       "date": "Jun 26, 2020",
       "icon": "SiYoutube",
       "color": "red",
-      "description": "Started creating content",
-      "url": "https://www.youtube.com/@ibilalkayy/"
+      "description": "Started creating tech content",
+      "url": "https://www.youtube.com/@coderoamer"
     },
     {
       "title": "Started Hashnode",
