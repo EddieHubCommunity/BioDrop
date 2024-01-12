@@ -1,8 +1,8 @@
 {
   "name": "Bilal Khan",
-  "bio": "Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Weaviate, YouTuber & Blogger.",
+  "bio": "Startup Founder, Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Weaviate, YouTuber & Blogger.",
 
-  "tags": ["Backend", "Open Source", "DevOps", "Golang", "DevRel", "GitHub"],
+  "tags": ["Startup", "Backend", "Open Source", "DevOps", "Golang", "DevRel", "GitHub"],
   "socials": [
     {
       "icon": "FaGlobe",
@@ -47,10 +47,16 @@
       "icon": "FaGlobe"
     },
     {
-      "group": "My Startup Newsletter",
-      "name": "Bloop Project",
+      "group": "My Startup",
+      "name": "Website",
       "url": "https://bloop.gg",
       "icon": "FaCircleNotch"
+    },
+    {
+      "group": "My Startup",
+      "name": "Newsletter",
+      "url": "https://bloopsite.beehiiv.com/subscribe",
+      "icon": "FaEnvelope"
     },
     {
       "group": "Donate or Take My Consultation",
@@ -137,12 +143,20 @@
       "url": "https://github.com/ibilalkayy/proctl"
     },
     {
-      "title": "Started Bloop Newsletter",
-      "date": "Dec 15, 2023",
+      "title": "Created Bloop Website",
+      "date": "Jan 12, 2024",
       "icon": "FaCircleNotch",
       "color": "black",
-      "description": "Started my Bloop newsletter",
+      "description": "Created a simple Bloop website",
       "url": "https://bloop.gg/"
+    },
+    {
+      "title": "Started Bloop Newsletter",
+      "date": "Dec 15, 2023",
+      "icon": "FaEnvelope",
+      "color": "black",
+      "description": "Started my Bloop newsletter",
+      "url": "https://bloopsite.beehiiv.com/subscribe"
     },
     {
       "title": "Created 60 Days Of DevOps Videos",
