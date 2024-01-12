@@ -1,45 +1,50 @@
-## [2.97.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.5...v2.97.6) (2023-12-30)
+## [2.99.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.1...v2.99.2) (2024-01-12)
 
 
 ### Bug Fixes
 
-* alert info for dark mode ([#9902](https://github.com/EddieHubCommunity/BioDrop/issues/9902)) ([2e1ce65](https://github.com/EddieHubCommunity/BioDrop/commit/2e1ce6545f64e1b6ad7c1208715c540644d2f0d9))
+* login url in the navbar ([#9893](https://github.com/EddieHubCommunity/BioDrop/issues/9893)) ([fd0567b](https://github.com/EddieHubCommunity/BioDrop/commit/fd0567bffda11586225d5fbbc7c59caca7d22394))
 
 
 
-## [2.97.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.4...v2.97.5) (2023-12-30)
-
-
-### Bug Fixes
-
-* update action dependencies ([#10053](https://github.com/EddieHubCommunity/BioDrop/issues/10053)) ([aa1149b](https://github.com/EddieHubCommunity/BioDrop/commit/aa1149b91b07f3b81e6a7c424f0bee908a1678e2))
-
-
-
-## [2.97.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.3...v2.97.4) (2023-12-30)
+## [2.99.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.0...v2.99.1) (2024-01-12)
 
 
 ### Bug Fixes
 
-* update dependencies ([#10052](https://github.com/EddieHubCommunity/BioDrop/issues/10052)) ([b32e369](https://github.com/EddieHubCommunity/BioDrop/commit/b32e369b1cdd08aeea7cc6662ffa84bd62b4b40f))
+* manage save button prevent multiple clicks ([#9713](https://github.com/EddieHubCommunity/BioDrop/issues/9713)) ([59da077](https://github.com/EddieHubCommunity/BioDrop/commit/59da07795083ee6a9ca8a5f77cb6acd67e904cbd))
 
 
 
-## [2.97.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.2...v2.97.3) (2023-12-27)
+# [2.99.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.98.1...v2.99.0) (2024-01-12)
+
+
+### Features
+
+* link group suggestions  ([#10127](https://github.com/EddieHubCommunity/BioDrop/issues/10127)) ([3de1e09](https://github.com/EddieHubCommunity/BioDrop/commit/3de1e09cd74019ce60cfde1dc24a790fca1c54a8))
+
+
+
+## [2.98.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.98.0...v2.98.1) (2024-01-12)
 
 
 ### Bug Fixes
 
-* cta from star to rate ([#10035](https://github.com/EddieHubCommunity/BioDrop/issues/10035)) ([f76c4da](https://github.com/EddieHubCommunity/BioDrop/commit/f76c4da8814dff617fd1c94cb61d4160b07c4e44))
+* optimized event filtering ([#9889](https://github.com/EddieHubCommunity/BioDrop/issues/9889)) ([b318c05](https://github.com/EddieHubCommunity/BioDrop/commit/b318c0548377babe855998650cb94b6ab301c1b7))
 
 
 
-## [2.97.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.1...v2.97.2) (2023-12-24)
+# [2.98.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.9...v2.98.0) (2024-01-11)
 
 
 ### Bug Fixes
 
-* json profile source action ([#10000](https://github.com/EddieHubCommunity/BioDrop/issues/10000)) ([966f61d](https://github.com/EddieHubCommunity/BioDrop/commit/966f61d7ef88c1a4fa094f236c60070c75949308))
+* remove avatar & type keys from json files. ([#10120](https://github.com/EddieHubCommunity/BioDrop/issues/10120)) ([08d22bc](https://github.com/EddieHubCommunity/BioDrop/commit/08d22bc1908d8bff0025fdda11f016964d9a95d8))
+
+
+### Features
+
+* group suggestions for users link  ([#9878](https://github.com/EddieHubCommunity/BioDrop/issues/9878)) ([87265a1](https://github.com/EddieHubCommunity/BioDrop/commit/87265a1f3ec7a13c5189937885f6669278bd8d91))
 
 
 
