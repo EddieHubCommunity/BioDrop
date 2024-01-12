@@ -268,7 +268,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true} disable={isDisabled}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>
