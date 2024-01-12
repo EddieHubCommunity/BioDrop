@@ -1,3 +1,12 @@
+## [2.98.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.98.0...v2.98.1) (2024-01-12)
+
+
+### Bug Fixes
+
+* optimized event filtering ([#9889](https://github.com/EddieHubCommunity/BioDrop/issues/9889)) ([b318c05](https://github.com/EddieHubCommunity/BioDrop/commit/b318c0548377babe855998650cb94b6ab301c1b7))
+
+
+
 # [2.98.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.9...v2.98.0) (2024-01-11)
 
 
@@ -36,15 +45,6 @@
 ### Bug Fixes
 
 * rolled back mongoose version ([#10097](https://github.com/EddieHubCommunity/BioDrop/issues/10097)) ([8b13530](https://github.com/EddieHubCommunity/BioDrop/commit/8b13530294083b1578fba769436c20efa303c6cc))
-
-
-
-## [2.97.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.5...v2.97.6) (2023-12-30)
-
-
-### Bug Fixes
-
-* alert info for dark mode ([#9902](https://github.com/EddieHubCommunity/BioDrop/issues/9902)) ([2e1ce65](https://github.com/EddieHubCommunity/BioDrop/commit/2e1ce6545f64e1b6ad7c1208715c540644d2f0d9))
 
 
 
