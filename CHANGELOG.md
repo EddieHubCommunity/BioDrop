@@ -1,3 +1,12 @@
+## [2.99.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.3...v2.99.4) (2024-01-13)
+
+
+### Bug Fixes
+
+* placeholder to select element ([#9905](https://github.com/EddieHubCommunity/BioDrop/issues/9905)) ([efbe58a](https://github.com/EddieHubCommunity/BioDrop/commit/efbe58abe4f986269f1d3f88f3834edc763321da))
+
+
+
 ## [2.99.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.2...v2.99.3) (2024-01-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * link group suggestions  ([#10127](https://github.com/EddieHubCommunity/BioDrop/issues/10127)) ([3de1e09](https://github.com/EddieHubCommunity/BioDrop/commit/3de1e09cd74019ce60cfde1dc24a790fca1c54a8))
-
-
-
-## [2.98.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.98.0...v2.98.1) (2024-01-12)
-
-
-### Bug Fixes
-
-* optimized event filtering ([#9889](https://github.com/EddieHubCommunity/BioDrop/issues/9889)) ([b318c05](https://github.com/EddieHubCommunity/BioDrop/commit/b318c0548377babe855998650cb94b6ab301c1b7))
 
 
 
