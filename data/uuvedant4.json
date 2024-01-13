@@ -1,0 +1,44 @@
+{
+    "name": "Vedant Yetekar",
+    "bio": "Software Engineer",
+    "socials": [
+        {
+            "icon": "FaXTwitter",
+            "url": "https://twitter.com/__vedant4"
+        },
+        {
+            "icon": "FaLinkedinIn",
+            "url": "https://www.linkedin.com/in/vedant-yetekar-497949218/"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "hhttps://github.com/uuvedant4"
+        },
+        {
+            "icon": "SiGeeksforgeeks",
+            "url": "https://auth.geeksforgeeks.org/user/vedantyetekar"
+        },
+        {
+            "icon": "FaLink",
+            "url": "http://vedantyetekar.vercel.app/"
+        },
+        {
+            "icon": "SiGmail",
+            "url": "mailto:uuvedant4@gmail.com"
+        }
+    ],
+    "links": [
+        {
+            "group": "npm-packages",
+            "name": "use-lru-cache",
+            "url": "https://www.npmjs.com/package/use-lru-cache",
+            "icon": "FaNpm"
+        },
+        {
+            "group": "npm-packages",
+            "name": "use-clipboard-copier",
+            "url": "https://www.npmjs.com/package/use-clipboard-copier",
+            "icon": "FaNpm"
+        }
+    ]
+}

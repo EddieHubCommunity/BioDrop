@@ -1,0 +1,16 @@
+{
+  "name": "Gokul Nath M",
+  "bio": "Machine Learning Engineer",
+  "links": [
+    {
+      "name": "Linkedin: Follow me",
+      "url": "https://www.linkedin.com/in/gokul-nath-m-975634200/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github: Follow me",
+      "url": "https://github.com/gokul8747",
+      "icon": "FaGithub"
+    }
+  ]
+}

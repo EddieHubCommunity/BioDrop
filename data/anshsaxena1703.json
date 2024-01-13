@@ -1,0 +1,34 @@
+{
+  "name": "Ansh Saxena",
+  "bio": "Open Source Developer | Full Stack Developer | Video Editor",
+  "tags" : [
+    "Open Source",
+    "Web Development",
+    "Cloud Computing",
+    "Machine Learning"
+  ],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/anshsaxena1703"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/anshsaxena1703/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Social Primary",
+      "name": "LinkedIn: Follow me",
+      "url": "https://www.linkedin.com/in/anshsaxena1703/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social Primary",
+      "name": "Github: Follow me",
+      "url": "https://github.com/anshsaxena1703",
+      "icon": "FaGithub"
+    }
+  ]
+}

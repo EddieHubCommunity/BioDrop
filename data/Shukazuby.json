@@ -1,0 +1,32 @@
+{
+    "name": "Zubaidat Shuka",
+    "bio": "Backend Developer",
+    "links": [
+        {
+            "group": "Website",
+            "name": "Portfolio: My website",
+            "url": "https://shuka-zuby.vercel.app/",
+            "icon": "FaLink"
+        },
+        {
+            "group": "Social Networking",
+            "name": "Linkedin: Connect with me",
+            "url": "https://www.linkedin.com/in/zubaidat-shuka",
+            "icon": "FaLinkedIn"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://www.linkedin.com/in/zubaidat-shuka",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "Instagram: Follow me",
+            "url": "https://instagram.com/zubaidat_shuka?igshid=NTc4MTIwNjQ2YQ",
+            "icon": "FaInstagram",
+            "color": "#00ACEE"
+        }
+    ]
+}

@@ -57,6 +57,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState("");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
   const [tags, setTags] = useState(event.tags || []);
+  const [isDisabled, setIsDisabled] = useState(false);
   const tagInputRef = useRef(null);
 
   useEffect(() => {
@@ -105,6 +106,7 @@ export default function ManageEvent({ BASE_URL, event }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsDisabled(true);
 
     if (document.activeElement === tagInputRef.current) {
       return;
@@ -138,6 +140,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     const update = await res.json();
 
     if (update.message) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
@@ -358,7 +361,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>
