@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3 # Uploads repository content to the runner to ensure config file available
+      - uses: actions/checkout@v4 # Uploads repository content to the runner to ensure config file available
         with:
           sparse-checkout: |
             .github/config/labeler.yml
