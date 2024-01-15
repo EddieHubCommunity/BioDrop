@@ -1,0 +1,41 @@
+{
+  "name": "Prashanth Bokkala",
+  "bio": "I'm a passionate frontend developer on a journey to master React. Currently immersed in the world of web development, I enjoy crafting user-friendly interfaces that bring ideas to life. Eager to learn and contribute, I'm dedicated to staying on top of the latest technologies. Let's build something amazing together!",
+  "tags": [
+    "frontend",
+    "JavaScript",
+    "open source",
+    "web development"
+  ],
+  "socials": [
+    {
+      "icon": "SiLinkedin",
+      "url": "https://www.linkedin.com/in/prashanth-bokkala-1b2008261"
+    },
+     {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/prashanth.bokkala"
+    },
+    {
+      "icon": "FaSquareGithub",
+      "url": "https://github.com/Prashanth-bokkala"
+    }
+  ],
+  "links": [
+    {
+      "name": "follow me on Instagram",
+      "url": "https://instagram.com/prashanth.bokkala",
+      "icon": "FaInstagram"
+    },
+     {
+      "name": "follow me on linkedin",
+      "url": "https://www.linkedin.com/in/prashanth-bokkala-1b2008261",
+      "icon": "SiLinkedin"
+    },
+    {
+      "name": "follow me on Github",
+      "url": "https://github.com/Prashanth-bokkala",
+      "icon": "FaSquareGithub"
+    }
+  ]
+}

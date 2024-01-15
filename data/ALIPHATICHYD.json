@@ -1,0 +1,13 @@
+{
+  "name": "Fuad ALIPHATIC",
+  "bio": "Software Engineer | Product Manager | Public Speaker",
+"links": [
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ALIPHATICHYD",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    }
+]
+}

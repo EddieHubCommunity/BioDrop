@@ -1,45 +1,45 @@
-## [2.97.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.1...v2.97.2) (2023-12-24)
+## [2.99.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.3...v2.99.4) (2024-01-13)
 
 
 ### Bug Fixes
 
-* json profile source action ([#10000](https://github.com/EddieHubCommunity/BioDrop/issues/10000)) ([966f61d](https://github.com/EddieHubCommunity/BioDrop/commit/966f61d7ef88c1a4fa094f236c60070c75949308))
+* placeholder to select element ([#9905](https://github.com/EddieHubCommunity/BioDrop/issues/9905)) ([efbe58a](https://github.com/EddieHubCommunity/BioDrop/commit/efbe58abe4f986269f1d3f88f3834edc763321da))
 
 
 
-## [2.97.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.0...v2.97.1) (2023-12-19)
+## [2.99.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.2...v2.99.3) (2024-01-12)
 
 
 ### Bug Fixes
 
-* new profiles less than 10 ([#9962](https://github.com/EddieHubCommunity/BioDrop/issues/9962)) ([91378af](https://github.com/EddieHubCommunity/BioDrop/commit/91378af4620cd1ba7bf671109b42e4aabc8c4096))
+* space between add link and first link [#9822](https://github.com/EddieHubCommunity/BioDrop/issues/9822) ([#9943](https://github.com/EddieHubCommunity/BioDrop/issues/9943)) ([0bcce23](https://github.com/EddieHubCommunity/BioDrop/commit/0bcce23511935336953d040d846f7a37ab931c1c)), closes [#9406](https://github.com/EddieHubCommunity/BioDrop/issues/9406)
 
 
 
-# [2.97.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.2...v2.97.0) (2023-12-19)
+## [2.99.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.1...v2.99.2) (2024-01-12)
+
+
+### Bug Fixes
+
+* login url in the navbar ([#9893](https://github.com/EddieHubCommunity/BioDrop/issues/9893)) ([fd0567b](https://github.com/EddieHubCommunity/BioDrop/commit/fd0567bffda11586225d5fbbc7c59caca7d22394))
+
+
+
+## [2.99.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.0...v2.99.1) (2024-01-12)
+
+
+### Bug Fixes
+
+* manage save button prevent multiple clicks ([#9713](https://github.com/EddieHubCommunity/BioDrop/issues/9713)) ([59da077](https://github.com/EddieHubCommunity/BioDrop/commit/59da07795083ee6a9ca8a5f77cb6acd67e904cbd))
+
+
+
+# [2.99.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.98.1...v2.99.0) (2024-01-12)
 
 
 ### Features
 
-* admin list new profiles ([#9960](https://github.com/EddieHubCommunity/BioDrop/issues/9960)) ([a7fa8f5](https://github.com/EddieHubCommunity/BioDrop/commit/a7fa8f5b36bc57549ffaf4a62d7ad7214f5f36d5))
-
-
-
-## [2.96.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.1...v2.96.2) (2023-12-18)
-
-
-### Bug Fixes
-
-* maintainers docs ([#9937](https://github.com/EddieHubCommunity/BioDrop/issues/9937)) ([67c8099](https://github.com/EddieHubCommunity/BioDrop/commit/67c8099085f4736d6ac9218905f9e7f66fc837da))
-
-
-
-## [2.96.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.96.0...v2.96.1) (2023-12-18)
-
-
-### Bug Fixes
-
-* tags input and sort ([#9894](https://github.com/EddieHubCommunity/BioDrop/issues/9894)) ([a68b96d](https://github.com/EddieHubCommunity/BioDrop/commit/a68b96d548cdc82762075d121e0210ce50f48b4c))
+* link group suggestions  ([#10127](https://github.com/EddieHubCommunity/BioDrop/issues/10127)) ([3de1e09](https://github.com/EddieHubCommunity/BioDrop/commit/3de1e09cd74019ce60cfde1dc24a790fca1c54a8))
 
 
 
