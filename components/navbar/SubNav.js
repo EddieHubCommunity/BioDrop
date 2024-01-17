@@ -12,5 +12,12 @@ export default function SubNav({ tabs }) {
     });
   };
 
-  return <Tabs tabs={tabs} setTabs={changeTab} selectedTab={selectedTab} />;
+  return (
+    <Tabs
+      tabs={tabs}
+      setTabs={changeTab}
+      selectedTab={selectedTab}
+      placeholder="Choose a category"
+    />
+  );
 }
