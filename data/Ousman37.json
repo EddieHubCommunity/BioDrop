@@ -1,7 +1,7 @@
 {
   "name": "Ousman Ethmane",
   "bio": "Passionate Front-End Developer | UI/UX Enthusiast | Building innovative web experiences",
- "tags": [
+  "tags": [
     "Open Source",
     "HTML",
     "CSS",
@@ -20,24 +20,23 @@
     "Debugging",
     "Team Collaboration"
   ],
-  
   "socials": [
     {
       "name": "LinkedIn Follow me",
       "url": "https://www.linkedin.com/in/ethmane-ousman-34885844/",
-      "icon": "FaLinkedin", 
+      "icon": "FaLinkedin",
       "color": "#0077B5"
     },
     {
       "name": "GitHub Follow me",
       "url": "https://github.com/Ousman37",
-       "icon": "FaGithub",
+      "icon": "FaGithub",
       "color": "#333"
     },
     {
       "name": "Twitter Follow me",
       "url": "https://twitter.com/Ethamne_dev",
-       "icon": "FaTwitter",
+      "icon": "FaTwitter",
       "color": "#1DA1F2"
     }
   ],
@@ -65,14 +64,14 @@
       "group": "Socials Primary",
       "name": "GitHub Follow me",
       "url": "https://github.com/Ousman37",
-       "icon": "FaGithub",
+      "icon": "FaGithub",
       "color": "#333"
     },
     {
       "group": "Socials Primary",
       "name": "Twitter Follow me",
       "url": "https://twitter.com/Ethamne_dev",
-       "icon": "FaTwitter",
+      "icon": "FaTwitter",
       "color": "#1DA1F2"
     }
   ],
@@ -81,5 +80,3 @@
     "url": "mailto:ousman.didibela@gmail.com"
   }
 }
-
-
