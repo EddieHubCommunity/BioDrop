@@ -4,6 +4,7 @@ import { getServerSession } from "next-auth/next";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 import Profile from "@models/Profile";
+import { get } from "sortablejs";
 
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
@@ -17,7 +18,6 @@ export default async function handler(req, res) {
   if(req.method === "GET"){
     data = await getReposApi(username);
   }
-  //const data = await getReposApi(username);
   if(req.method === "PATCH"){
     data = await updateReposOrderApi(username, req.body);
   }
@@ -46,7 +46,7 @@ export async function updateReposOrderApi(username, data) {
       log.error(e, `failed to update repo order for username: ${username}`);
     }
   });
-
+  
   const repos = await Promise.allSettled(repoList).then(() => { 
     return getReposApi(username);
   })
