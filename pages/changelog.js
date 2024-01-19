@@ -12,6 +12,13 @@ export default function Changelog() {
   };
   const changes = [
     {
+      title: "Tag reordering",
+      description:
+        "Profile and Event tags can now be reordered by dragging and dropping",
+      type: "addition",
+      date: "2023-12-01",
+    },
+    {
       title: "PWA support",
       description:
         "You can now have BioDrop on your mobile as an app, so your profile + QR code is available offline",

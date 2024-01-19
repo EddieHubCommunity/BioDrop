@@ -1,0 +1,46 @@
+{
+    "name": "Abdou-Raouf ATARMLA",
+    "bio": "22 yrs old Software Engineer",
+    "socials": [
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/raouf_code"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/fless-lab"
+        },
+        {
+            "icon": "FaYoutube",
+            "url": "https://www.youtube.com/@raoufcode"
+        }
+    ],
+    "links": [
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://twitter.com/raouf_code",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "YouTube: Watch me grow!",
+            "url": "https://youtube.com/@raoufcode",
+            "icon": "FaYoutube",
+            "color": "#FF0000"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "GitHub: Let's Collaborate",
+            "url": "https://github.com/fless-lab",
+            "icon": "FaGithub"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "LinkedIn: Let's connect",
+            "url": "https://www.linkedin.com/in/abdou-raouf-atarmla/",
+            "icon": "FaLinkedin"
+        }
+    ]
+}

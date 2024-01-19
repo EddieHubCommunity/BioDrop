@@ -1,45 +1,45 @@
-## [2.90.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.90.0...v2.90.1) (2023-11-23)
+## [2.99.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.3...v2.99.4) (2024-01-13)
 
 
 ### Bug Fixes
 
-* duplicate tags issue using set constructor ([#9820](https://github.com/EddieHubCommunity/BioDrop/issues/9820)) ([bde2fe9](https://github.com/EddieHubCommunity/BioDrop/commit/bde2fe9fb21535bddad9580679bb5dc77a6a5536))
+* placeholder to select element ([#9905](https://github.com/EddieHubCommunity/BioDrop/issues/9905)) ([efbe58a](https://github.com/EddieHubCommunity/BioDrop/commit/efbe58abe4f986269f1d3f88f3834edc763321da))
 
 
 
-# [2.90.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.6...v2.90.0) (2023-11-22)
+## [2.99.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.2...v2.99.3) (2024-01-12)
+
+
+### Bug Fixes
+
+* space between add link and first link [#9822](https://github.com/EddieHubCommunity/BioDrop/issues/9822) ([#9943](https://github.com/EddieHubCommunity/BioDrop/issues/9943)) ([0bcce23](https://github.com/EddieHubCommunity/BioDrop/commit/0bcce23511935336953d040d846f7a37ab931c1c)), closes [#9406](https://github.com/EddieHubCommunity/BioDrop/issues/9406)
+
+
+
+## [2.99.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.1...v2.99.2) (2024-01-12)
+
+
+### Bug Fixes
+
+* login url in the navbar ([#9893](https://github.com/EddieHubCommunity/BioDrop/issues/9893)) ([fd0567b](https://github.com/EddieHubCommunity/BioDrop/commit/fd0567bffda11586225d5fbbc7c59caca7d22394))
+
+
+
+## [2.99.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.0...v2.99.1) (2024-01-12)
+
+
+### Bug Fixes
+
+* manage save button prevent multiple clicks ([#9713](https://github.com/EddieHubCommunity/BioDrop/issues/9713)) ([59da077](https://github.com/EddieHubCommunity/BioDrop/commit/59da07795083ee6a9ca8a5f77cb6acd67e904cbd))
+
+
+
+# [2.99.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.98.1...v2.99.0) (2024-01-12)
 
 
 ### Features
 
-* admin stats for custom domains ([#9816](https://github.com/EddieHubCommunity/BioDrop/issues/9816)) ([c808cff](https://github.com/EddieHubCommunity/BioDrop/commit/c808cff4622705df632777b8c3442fa75af96bab))
-
-
-
-## [2.89.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.5...v2.89.6) (2023-11-21)
-
-
-### Bug Fixes
-
-* profile sub domain ([#9811](https://github.com/EddieHubCommunity/BioDrop/issues/9811)) ([159e219](https://github.com/EddieHubCommunity/BioDrop/commit/159e21902bc7390c63a666db9d80fcb316210fd1))
-
-
-
-## [2.89.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.4...v2.89.5) (2023-11-20)
-
-
-### Bug Fixes
-
-* reduce link name length to min 1 ([#9805](https://github.com/EddieHubCommunity/BioDrop/issues/9805)) ([53e906a](https://github.com/EddieHubCommunity/BioDrop/commit/53e906ae4df720c3cd0e3505fe9e3e1720c99a37))
-
-
-
-## [2.89.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.89.3...v2.89.4) (2023-11-19)
-
-
-### Bug Fixes
-
-* pricing premium text ([#9806](https://github.com/EddieHubCommunity/BioDrop/issues/9806)) ([bd90bc7](https://github.com/EddieHubCommunity/BioDrop/commit/bd90bc7e50e7795c2e7dfd3f3b06298b64f0aadb))
+* link group suggestions  ([#10127](https://github.com/EddieHubCommunity/BioDrop/issues/10127)) ([3de1e09](https://github.com/EddieHubCommunity/BioDrop/commit/3de1e09cd74019ce60cfde1dc24a790fca1c54a8))
 
 
 

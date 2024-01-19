@@ -5,17 +5,20 @@
     {
       "name": "Twitter",
       "url": "https://twitter.com/martinsolumide8",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "color": "#4E464E"
     },
     {
       "name": "Github",
       "url": "https://github.com/Martins100-Tmd",
-      "icon": "FaGithub"
+      "icon": "FaGithub",
+      "color": "#32251E"
     },
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/martins100tmd",
-      "icon": "FaLinkedin"
+      "icon": "FaLinkedin",
+      "color": "#000"
     }
   ]
 }

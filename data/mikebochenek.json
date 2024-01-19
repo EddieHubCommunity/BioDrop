@@ -1,0 +1,26 @@
+{
+    "name": "Mike Bochenek",
+    "bio": "student of life, world citizen, avid reader, software developer",
+    "links": [
+        {
+            "name": "Follow on Twitter and idolize my tweets",
+            "url": "https://twitter.com/mikebochenek",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "Connect with me on LinkedIn or just admire my profile",
+            "url": "https://www.linkedin.com/in/mikebochenek",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "Connect with me on GitHub or view my public code",
+            "url": "https://github.com/mikebochenek",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "Follow me on Insta or just take a quick look",
+            "url": "https://www.instagram.com/bochenek.mike/",
+            "icon": "FaInstagram"
+        }
+    ]
+}

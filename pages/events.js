@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { FaListUl, FaMicrophoneLines } from "react-icons/fa6";
 import { MdOutlineOnlinePrediction, MdOutlinePeople } from "react-icons/md";
 import { TbCoin, TbCoinOff } from "react-icons/tb";
@@ -10,6 +10,7 @@ import Page from "@components/Page";
 import { EventTabs } from "@components/event/EventTabs";
 import PageHead from "@components/PageHead";
 import { PROJECT_NAME } from "@constants/index";
+import { getFilteredEvents } from "@services/utils/event/filterEvent";
 
 export async function getServerSideProps() {
   let events = await getEvents();
@@ -20,14 +21,25 @@ export async function getServerSideProps() {
 }
 
 export default function Events({ events }) {
-  let categorizedEvents = {
-    all: events,
-    virtual: events.filter((event) => event.isVirtual === true),
-    inPerson: events.filter((event) => event.isInPerson === true),
-    cfpOpen: events.filter((event) => event.date.cfpOpen === true),
-    free: events.filter((event) => event.price?.startingFrom === 0),
-    paid: events.filter((event) => event.price?.startingFrom > 0),
+  const [eventType, setEventType] = useState("all");
+  const [eventsToShow, setEventsToShow] = useState(events);
+
+  const categorizedEvents = useMemo(() => {
+    return {
+      all: events,
+      virtual: events.filter((event) => event.isVirtual),
+      inPerson: events.filter((event) => event.isInPerson),
+      cfpOpen: events.filter((event) => event.date.cfpOpen),
+      free: events.filter((event) => event.price?.startingFrom === 0),
+      paid: events.filter((event) => event.price?.startingFrom > 0),
+    };
+  }, [events]);
+
+  const handleEventChange = (eventTypeVal) => {
+    setEventType(eventTypeVal);
+    setEventsToShow(getFilteredEvents(events, eventTypeVal));
   };
+
   const tabFilters = [
     {
       title: "Show all",
@@ -73,8 +85,6 @@ export default function Events({ events }) {
     },
   ];
 
-  const [eventType, setEventType] = useState("all");
-
   return (
     <>
       <PageHead
@@ -87,13 +97,13 @@ export default function Events({ events }) {
         <EventTabs
           tabs={tabFilters}
           eventType={eventType}
-          setEventType={setEventType}
+          onEventTypeChange={handleEventChange}
         />
         <h2 className="text-md md:text-2xl text-lg text-primary-high font-bold md:mb-6 mb-3">
           {tabFilters.find((filter) => filter.key === eventType).description}
         </h2>
         <ul role="list" className="mt-6">
-          {categorizedEvents[eventType]?.map((event) => (
+          {eventsToShow.map((event) => (
             <EventCard
               event={event}
               usernames={event.usernames}
