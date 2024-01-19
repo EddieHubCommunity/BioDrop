@@ -1,0 +1,36 @@
+{
+    "name":"Vrushabh Gawas",
+    "bio":"Frontend Developer | DevOps Enthusiast",
+    "tags":["Open Source","Java","Dsa","JavaScript","Web Development","DevOps"],
+    "socials":[
+        {
+            "icon":"FaGithub",
+            "url":"https://github.com/vrushabhgawas14"
+        },
+        {
+            "icon":"FaTwitter",
+            "url":"https://www.twitter.com/Vrushabhgawas04"
+        },
+        {
+            "icon":"FaLinkedin",
+            "url":"https://www.linkedin.com/in/vrushabhgawas/"
+        }
+    ],
+    "links":[
+        {
+            "name":"Github: Open Source Contribution and Projects.",
+            "url":"https://github.com/vrushabhgawas14",
+            "icon":"FaGithub"
+        },
+        {
+            "name":"LinkedIn: Let's Connect!",
+            "url":"https://www.linkedin.com/in/vrushabhgawas/",
+            "icon":"FaLinkedin"
+        },
+        {
+            "name":"Twitter",
+            "url":"https://www.twitter.com/Vrushabhgawas04",
+            "icon":"FaTwitter"
+        }
+    ]
+}
