@@ -1,7 +1,7 @@
 import Select from "@components/form/Select";
 import { classNames } from "@services/utils/classNames";
 
-export default function Tabs({ tabs, setTabs, selectedTab }) {
+export default function Tabs({ tabs, setTabs, selectedTab, placeholder }) {
   return (
     <div>
       <div className="sm:hidden">
@@ -9,6 +9,7 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
           <Select
             name="tabs"
             value={selectedTab?.name}
+            placeholder={placeholder}
             onChange={(e) =>
               setTabs(tabs.find((tab) => tab.name === e.currentTarget.value))
             }
