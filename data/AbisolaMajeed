@@ -1,0 +1,21 @@
+{
+    "name": "Abisola Majeed",
+    "bio": "Software Developer",
+    "tags": [
+        "PHP",
+        "Laravel",
+        "SQL"
+    ],
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/Abisolamajeed?s=09",
+            "icon": "FaTwitter"
+        },
+        {
+            "name": "Follow me on LinkedIn",
+            "url": "https://www.linkedin.com/in/abisola-majeed",
+            "icon": "FaLinkedin"
+        }
+    ]
+}
