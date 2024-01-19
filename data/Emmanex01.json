@@ -1,0 +1,27 @@
+{
+  "name": "Nwanosike Tochukwu Emmanuel",
+  "bio": "Open Source contributor | Frontend dev",
+   "links": [
+   {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Emmanue56879580",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+  {
+      "group": "Socials Primary",
+      "name": "Linkedin: Follow me",
+      "url": "https://www.linkedin.com/in/tochukwu-nwanosike-360326247",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+     {
+      "group": "Socials Primary",
+      "name": "Facebook: Follow me",
+      "url": "https://www.facebook.com/profile.php?id=100005547499281&mibextid=2JQ9oc",
+      "icon": "FaFacebook",
+      "color": "#00ACEE"
+    }
+  ]
+}

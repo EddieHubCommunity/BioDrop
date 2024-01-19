@@ -31,7 +31,7 @@ export default function UserMilestone({ milestone, isGoal, manage }) {
       <div className="flex space-x-3 grow">
         {milestone.icon && (
           <DisplayIcon
-            className={`h-8 w-8 rounded-full ${manage ? "ml-12" : "ml-0"}`}
+            className={`h-8 w-8 ${manage ? "ml-12" : "ml-0"}`}
           />
         )}
         <div className="flex-1 space-y-1">

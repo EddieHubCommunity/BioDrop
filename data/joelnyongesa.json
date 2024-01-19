@@ -1,0 +1,58 @@
+{
+  "name": "Joel Nyongesa",
+  "bio": "Full Stack Software Developer | Open Source",
+  "tags": [
+    "Open Source",
+    "Full Stack",
+    "Front-end",
+    "Back-end",
+    "JavaScript",
+    "Python",
+    "React",
+    "Flask"
+  ],
+  "socials": [
+    {"icon": "FaTwitter", "url": "https://twitter.com/jknyongesa"},
+    {"icon": "FaLinkedin", "url": "https://linkedin.com/in/jknyongesa"},
+    {"icon": "FaGithub", "url": "https://github.com/joelnyongesa"}
+  ],
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Email",
+      "url": "https://mailto:joelnyongesa148@gmail.com",
+      "icon": "MdEmail",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/intent/user?screen_name=jknyongesa",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Follow me",
+      "url": "https://github.com/joelnyongesa",
+      "icon": "FaGithub",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Lets Connect",
+      "url": "https://linkedin.com/in/jknyongesa",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started contributing to Open Source",
+      "date": "December 2023",
+      "icon": "FaCode",
+      "description": "Started contributing to open source projects",
+      "link": "https:github.com/joelnyongesa"
+    }
+  ]
+}

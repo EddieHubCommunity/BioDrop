@@ -100,7 +100,7 @@ export default function Navbar() {
       {!session && (
         <>
           <NavLink
-            item={{ name: "Login", url: "/login" }}
+            item={{ name: "Login", url: "/auth/signin" }}
             setIsOpen={setIsOpen}
             onClick={(e) => {
               e.preventDefault();

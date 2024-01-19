@@ -44,7 +44,6 @@ export default async function handler(req, res) {
 export async function getLinkApi(username, id) {
   await connectMongo();
   const log = logger.child({ username });
-
   let getLink = await Link.findOne({ username, _id: id });
 
   if (!getLink) {
@@ -55,24 +54,37 @@ export async function getLinkApi(username, id) {
   return JSON.parse(JSON.stringify(getLink));
 }
 
+export async function getGroupLinkApi(username) {
+  await connectMongo();
+  let getGroupLink = [];
+  getGroupLink = await Link.aggregate([
+    { $match: { username } },
+    { $group: { _id: null, groups: { $addToSet: "$group" } } },
+    { $project: { _id: 0, groups: 1 } },
+  ]).exec();
+  getGroupLink = getGroupLink[0].groups.filter((item) => item !== "");
+  return getGroupLink;
+}
+
 export async function addLinkApi(context, username, data) {
   await connectMongo();
   const log = logger.child({ username });
 
   let getLink = {};
-  const errors = await Link.validate(data, [
-    "group",
-    "name",
-    "icon",
-    "url",
-    "animation",
-  ]);
-  if (errors) {
+  try {
+    await Link.validate(data, [
+      "group",
+      "name",
+      "icon",
+      "url",
+      "animation",
+    ]);
+  } catch(error) {
     log.error(
-      errors,
+      error.errors,
       `validation failed to add link for username: ${username}`,
     );
-    return { error: errors.errors };
+    return { error: error.errors };
   }
 
   try {
@@ -135,19 +147,20 @@ export async function updateLinkApi(context, username, id, data) {
 
   let getLink = {};
 
-  const errors = await Link.validate(data, [
-    "group",
-    "name",
-    "icon",
-    "url",
-    "animation",
-  ]);
-  if (errors) {
+  try {
+    await Link.validate(data, [
+      "group",
+      "name",
+      "icon",
+      "url",
+      "animation",
+    ]);
+  } catch (error) {
     log.error(
-      errors,
+      error.errors,
       `validation failed to update link for username: ${username}`,
     );
-    return { error: errors.errors };
+    return { error: error.errors };
   }
 
   try {

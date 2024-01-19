@@ -15,7 +15,7 @@ test("Navigate to the Search page", async ({ page }) => {
     .getByRole("navigation")
     .getByRole("link", { name: "Search" })
     .click();
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("domcontentloaded");
   await expect(page.locator("h1")).toHaveText("Search");
 });
 
@@ -81,7 +81,7 @@ test("Search term persistence after navigating back", async ({ page }) => {
 
   // 2. Navigate to profile
   await expect(page).toHaveURL(`/search?userSearchParam=${searchTerm}`);
-  await page.waitForLoadState("networkidle");
+  await page.waitForLoadState("domcontentloaded");
   await page.locator(`a h2:has-text('${searchTerm}')`).click();
   await page.waitForURL(`/${searchTerm}`);
 

@@ -1,0 +1,32 @@
+{
+    "name": "Alege Emmanuel Oluwasegun",
+    "bio": "Open Sourcer | Frontend Engineer | Technical Writer",
+    "tags": [
+        "Open Source",
+        "Javascript",
+        "Typescript",
+        "NextJS",
+        "TailwindCSS"
+    ],
+    "links": [
+        {
+            "name": "Follow my Open Source on GitHub",
+            "url": "https://github.com/codeinn001",
+            "icon": "FaGithub",
+            "color": "#171515"
+        },
+        {
+            "group": "Business",
+            "name": "Business: Frontend Development",
+            "url": "https://codeinn.com",
+            "icon": "FaLink"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://twitter.com/alegeboss",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        }
+    ]
+}
