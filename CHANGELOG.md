@@ -1,3 +1,12 @@
+## [2.99.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.4...v2.99.5) (2024-01-19)
+
+
+### Bug Fixes
+
+* old socials twitter icon to X ([#9972](https://github.com/EddieHubCommunity/BioDrop/issues/9972)) ([6eb7ef4](https://github.com/EddieHubCommunity/BioDrop/commit/6eb7ef4bc39d4bc7c7c063f98432a9b41bd7c8d2))
+
+
+
 ## [2.99.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.3...v2.99.4) (2024-01-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * manage save button prevent multiple clicks ([#9713](https://github.com/EddieHubCommunity/BioDrop/issues/9713)) ([59da077](https://github.com/EddieHubCommunity/BioDrop/commit/59da07795083ee6a9ca8a5f77cb6acd67e904cbd))
-
-
-
-# [2.99.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.98.1...v2.99.0) (2024-01-12)
-
-
-### Features
-
-* link group suggestions  ([#10127](https://github.com/EddieHubCommunity/BioDrop/issues/10127)) ([3de1e09](https://github.com/EddieHubCommunity/BioDrop/commit/3de1e09cd74019ce60cfde1dc24a790fca1c54a8))
 
 
 
