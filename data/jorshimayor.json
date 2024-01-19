@@ -1,0 +1,23 @@
+{
+    "name": "Joshua Obafemi",
+    "bio": "Web3 Advocate || Technical Writer || Software Engineer",
+    "tags": [
+        "OpenSource",
+        "Nextjs",
+        "MERN",
+        "Web3",
+        "LinkFree"
+    ],
+    "socials": [
+        {
+            "name": "Follow on Twitter",
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/jorshimayor"
+        },
+        {
+            "name": "Connect with me on LinkedIn",
+            "icon": "FaLinkedin",
+            "url": "https://linkedin.com/in/jorshimayor"
+        }
+    ]
+}

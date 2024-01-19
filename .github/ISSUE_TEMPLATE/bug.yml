@@ -20,7 +20,7 @@ body:
   - type: input
     attributes:
       label: Version of BioDrop (for example "v1.2.3")
-      description: Can be found in the lower right corner of the web interface in the footer.
+      description: Can be found in the footer of the BioDrop.io website.
     validations:
       required: true
   - type: textarea

@@ -1,0 +1,51 @@
+{
+  "name": "Nnodim Obinna Brian",
+  "bio": "Back-end Developer",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "TypeScript",
+    "React",
+    "Node.js"
+  ],
+  "socials": [
+    {
+      "url": "https://twitter.com/nnodim_obinna",
+      "icon": "FaTwitter"
+    },
+    {
+      "url": "https://github.com/nnodim",
+      "icon": "FaGithub"
+    },
+    {
+      "url": "https://www.linkedin.com/in/obinna-nnodim/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "links": [
+    {
+      "group": "Portfolio",
+      "name": "Portfolio: view my Portfolio",
+      "url": "https://portfolio-gamma-tan-66.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/nnodim_obinna",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Github: Let's collaborate",
+      "url": "https://github.com/nnodim",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "Linkedin: Connect with me",
+      "url": "https://www.linkedin.com/in/obinna-nnodim/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

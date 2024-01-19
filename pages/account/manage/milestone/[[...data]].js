@@ -72,9 +72,11 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const [dateFormat, setdateFormat] = useState(
     milestone.dateFormat || options[0].value,
   );
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsDisabled(true);
 
     let alert = "created";
     let putMilestone = {
@@ -102,6 +104,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     const update = await res.json();
 
     if (update.message) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
@@ -274,7 +277,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>
