@@ -1,3 +1,4 @@
+[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=EddieHubCommunity&name=BioDrop)](https://repo-rater.eddiehub.io/rate?owner=EddieHubCommunity&name=BioDrop)
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop)
 ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Fbio-drop-biodrop-io%2Fuptime.json)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/BioDrop)](https://github.com/EddieHubCommunity/BioDrop/releases)

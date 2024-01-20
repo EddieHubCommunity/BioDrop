@@ -1,12 +1,12 @@
 import Link from "@components/Link";
 import Select from "@components/form/Select";
 import { classNames } from "@services/utils/classNames";
-export function EventTabs({ tabs, eventType, setEventType }) {
+export function EventTabs({ tabs, eventType, onEventTypeChange }) {
   const changeTab = (e, value) => {
     e.preventDefault();
-    setEventType(value);
+    onEventTypeChange(value);
     if (!value) {
-      setEventType(tabs.find((tab) => tab.title === e.target.value).key);
+      onEventTypeChange(tabs.find((tab) => tab.title === e.target.value).key);
     }
   };
 

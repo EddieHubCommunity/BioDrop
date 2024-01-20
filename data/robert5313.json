@@ -1,0 +1,16 @@
+{
+  "name": "Robert Kimaiyo",
+  "bio": "Backend developer",
+  "tags": [
+    "Open Source",
+    "Python",
+    "Javascript",
+    "Typescript"
+  ],
+  "socials": [
+    { "icon": "FaTwitter",
+      "url": "https://twitter.com/Kimaiyo6Robert" },
+    { "icon": "FaGithub",
+      "url": "https://github.com/robert5313" }
+  ]
+}
