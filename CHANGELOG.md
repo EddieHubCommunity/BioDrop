@@ -1,3 +1,12 @@
+## [2.99.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.6...v2.99.7) (2024-01-21)
+
+
+### Bug Fixes
+
+* quality of profile main picture ([#10160](https://github.com/EddieHubCommunity/BioDrop/issues/10160)) ([db3bb82](https://github.com/EddieHubCommunity/BioDrop/commit/db3bb82294900816e25ae5daaf60f40d23d2b8d2))
+
+
+
 ## [2.99.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.5...v2.99.6) (2024-01-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * space between add link and first link [#9822](https://github.com/EddieHubCommunity/BioDrop/issues/9822) ([#9943](https://github.com/EddieHubCommunity/BioDrop/issues/9943)) ([0bcce23](https://github.com/EddieHubCommunity/BioDrop/commit/0bcce23511935336953d040d846f7a37ab931c1c)), closes [#9406](https://github.com/EddieHubCommunity/BioDrop/issues/9406)
-
-
-
-## [2.99.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.1...v2.99.2) (2024-01-12)
-
-
-### Bug Fixes
-
-* login url in the navbar ([#9893](https://github.com/EddieHubCommunity/BioDrop/issues/9893)) ([fd0567b](https://github.com/EddieHubCommunity/BioDrop/commit/fd0567bffda11586225d5fbbc7c59caca7d22394))
 
 
 
