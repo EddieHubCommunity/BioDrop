@@ -40,7 +40,7 @@ function UserProfile({ BASE_URL, data }) {
           onClick={() => (qrShow ? setQrShow(false) : setQrShow(true))}
         >
           <FallbackImage
-            src={`https://github.com/${data.username}.png`}
+            src={`https://github.com/${data.username}.png?q=100`}
             alt={`Profile picture of ${data.name}`}
             width={fallbackImageSize}
             height={fallbackImageSize}
