@@ -1,3 +1,12 @@
+## [2.99.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.5...v2.99.6) (2024-01-21)
+
+
+### Bug Fixes
+
+* navbar and tabs overflow ([#9891](https://github.com/EddieHubCommunity/BioDrop/issues/9891)) ([#10023](https://github.com/EddieHubCommunity/BioDrop/issues/10023)) ([6583729](https://github.com/EddieHubCommunity/BioDrop/commit/658372944f6d3de1058128700860a7ad2a7b1c92))
+
+
+
 ## [2.99.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.4...v2.99.5) (2024-01-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * login url in the navbar ([#9893](https://github.com/EddieHubCommunity/BioDrop/issues/9893)) ([fd0567b](https://github.com/EddieHubCommunity/BioDrop/commit/fd0567bffda11586225d5fbbc7c59caca7d22394))
-
-
-
-## [2.99.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.0...v2.99.1) (2024-01-12)
-
-
-### Bug Fixes
-
-* manage save button prevent multiple clicks ([#9713](https://github.com/EddieHubCommunity/BioDrop/issues/9713)) ([59da077](https://github.com/EddieHubCommunity/BioDrop/commit/59da07795083ee6a9ca8a5f77cb6acd67e904cbd))
 
 
 
