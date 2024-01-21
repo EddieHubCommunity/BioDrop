@@ -1,3 +1,12 @@
+## [2.99.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.7...v2.99.8) (2024-01-21)
+
+
+### Bug Fixes
+
+* icon dropdown shifts layout for suggestions ([#9898](https://github.com/EddieHubCommunity/BioDrop/issues/9898)) ([5f86013](https://github.com/EddieHubCommunity/BioDrop/commit/5f860131d7f395f262c0728ec7e70ca9534a1e3c))
+
+
+
 ## [2.99.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.6...v2.99.7) (2024-01-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * placeholder to select element ([#9905](https://github.com/EddieHubCommunity/BioDrop/issues/9905)) ([efbe58a](https://github.com/EddieHubCommunity/BioDrop/commit/efbe58abe4f986269f1d3f88f3834edc763321da))
-
-
-
-## [2.99.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.2...v2.99.3) (2024-01-12)
-
-
-### Bug Fixes
-
-* space between add link and first link [#9822](https://github.com/EddieHubCommunity/BioDrop/issues/9822) ([#9943](https://github.com/EddieHubCommunity/BioDrop/issues/9943)) ([0bcce23](https://github.com/EddieHubCommunity/BioDrop/commit/0bcce23511935336953d040d846f7a37ab931c1c)), closes [#9406](https://github.com/EddieHubCommunity/BioDrop/issues/9406)
 
 
 
