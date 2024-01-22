@@ -76,7 +76,7 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsDisabled(true);
-    
+
     let method = "POST";
     let selectedIcon = icon !== "" ? icon : "FaGlobe";
     let putLink = {
@@ -290,8 +290,9 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
             )}
             <UserLink
               BASE_URL={BASE_URL}
-              link={{ name, url, icon, animation }}
+              link={{ _id: link._id, name, url, icon, animation }}
               username={username}
+              url={url}
             />
           </div>
         </div>
