@@ -1,3 +1,12 @@
+## [2.99.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.8...v2.99.9) (2024-01-22)
+
+
+### Bug Fixes
+
+* manage link preview click ([#10164](https://github.com/EddieHubCommunity/BioDrop/issues/10164)) ([261c30c](https://github.com/EddieHubCommunity/BioDrop/commit/261c30c367ecd5d91042385dd58524357eb65c20))
+
+
+
 ## [2.99.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.7...v2.99.8) (2024-01-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * old socials twitter icon to X ([#9972](https://github.com/EddieHubCommunity/BioDrop/issues/9972)) ([6eb7ef4](https://github.com/EddieHubCommunity/BioDrop/commit/6eb7ef4bc39d4bc7c7c063f98432a9b41bd7c8d2))
-
-
-
-## [2.99.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.3...v2.99.4) (2024-01-13)
-
-
-### Bug Fixes
-
-* placeholder to select element ([#9905](https://github.com/EddieHubCommunity/BioDrop/issues/9905)) ([efbe58a](https://github.com/EddieHubCommunity/BioDrop/commit/efbe58abe4f986269f1d3f88f3834edc763321da))
 
 
 
