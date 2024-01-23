@@ -48,7 +48,7 @@ const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
     remarkPlugins: [remarkGfm],
-    rehypePlugins: [[rehypePrettyCode, {theme: "github-dark", defaultLang: "plaintext"}]],
+    rehypePlugins: [[rehypePrettyCode, {theme: "dracula", defaultLang: "plaintext"}]],
     providerImportSource: "@mdx-js/react",
   },
 });
