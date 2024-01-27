@@ -6,6 +6,7 @@ import StarIcon from "@heroicons/react/20/solid/StarIcon";
 import PencilIcon from "@heroicons/react/20/solid/PencilIcon";
 import ExclamationCircleIcon from "@heroicons/react/20/solid/ExclamationCircleIcon";
 import dateFormat from "@services/utils/dateFormat";
+import UserAvatarGroup from "@components/avatar/UserAvatarGroup";
 
 export default function UserRepos({ manage = false, confirmDelete, repos }) {
   const item = (repo) => (
@@ -32,9 +33,12 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
             {repo.description}
           </p>
           {repo.usernames && (
-            <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
-              Added by {repo.usernames.join(", ")}
-            </p>
+            <div>
+              <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
+                Added by
+              </p>
+              <UserAvatarGroup users={repo.usernames} />
+            </div>
           )}
         </div>
       </div>
