@@ -8,6 +8,7 @@ import {
 } from "@services/utils/event/filterEvent";
 
 const allEventOptions = [
+  { value: "", name: "options" },
   { value: "all", name: "All Events" },
   { value: "future", name: "Future Events" },
   { value: "ongoing", name: "Ongoing Events" },
