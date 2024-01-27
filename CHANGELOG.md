@@ -1,3 +1,12 @@
+## [2.99.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.9...v2.99.10) (2024-01-27)
+
+
+### Bug Fixes
+
+* show events select ([#10186](https://github.com/EddieHubCommunity/BioDrop/issues/10186)) ([6ad2504](https://github.com/EddieHubCommunity/BioDrop/commit/6ad250452f32a0cb801b3f39f2c4ab8d4fc8cc0a))
+
+
+
 ## [2.99.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.8...v2.99.9) (2024-01-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * navbar and tabs overflow ([#9891](https://github.com/EddieHubCommunity/BioDrop/issues/9891)) ([#10023](https://github.com/EddieHubCommunity/BioDrop/issues/10023)) ([6583729](https://github.com/EddieHubCommunity/BioDrop/commit/658372944f6d3de1058128700860a7ad2a7b1c92))
-
-
-
-## [2.99.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.4...v2.99.5) (2024-01-19)
-
-
-### Bug Fixes
-
-* old socials twitter icon to X ([#9972](https://github.com/EddieHubCommunity/BioDrop/issues/9972)) ([6eb7ef4](https://github.com/EddieHubCommunity/BioDrop/commit/6eb7ef4bc39d4bc7c7c063f98432a9b41bd7c8d2))
 
 
 
