@@ -59,7 +59,6 @@ export default function ManageRepos({ BASE_URL, repos }) {
       body: JSON.stringify({ url }),
     });
     const updatedRepos = await res.json();
-
     if (updatedRepos.message) {
       setIsDisabled(false);
       return setShowNotification({
@@ -72,7 +71,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
 
     const resRepos = await fetch(`${BASE_URL}/api/account/manage/repos`);
     const listRepos = await resRepos.json();
-
+    console.log(listRepos);
     setRepoList(listRepos);
     setUrl("");
     return setShowNotification({

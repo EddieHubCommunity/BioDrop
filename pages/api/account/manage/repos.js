@@ -28,9 +28,9 @@ export async function updateReposOrderApi(username, data) {
   await connectMongo();
   const log = logger.child({ username });
 
-  const repoList = await data.map(async (repo, idx) => {
+  const repoList =  data.map(async (repo, idx) => {
     try {
-      return await Profile.findOneAndUpdate(
+      return  Profile.findOneAndUpdate(
         {
           username,
           "repos._id": repo._id,

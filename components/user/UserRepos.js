@@ -7,7 +7,7 @@ import PencilIcon from "@heroicons/react/20/solid/PencilIcon";
 import ExclamationCircleIcon from "@heroicons/react/20/solid/ExclamationCircleIcon";
 import dateFormat from "@services/utils/dateFormat";
 import { ReactSortable } from "react-sortablejs";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { clientEnv } from "@config/schemas/clientSchema";
 import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
 import Button from "@components/Button";
@@ -31,6 +31,10 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
     setReposListPrevious(updatedRepos);
     setReorder(false);
   };
+  useEffect(()=>{
+    setReposList(repos)
+  },[repos]);
+
   
   const item = (repo) => (
     <div className="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-primary-low dark:hover:bg-primary-medium transition-all duration-100 sm:px-6 lg:px-8">
