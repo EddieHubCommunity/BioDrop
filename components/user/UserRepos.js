@@ -22,7 +22,6 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
         <div className="min-w-0 flex-auto">
           <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
             <Link href={repo.url} target="_blank">
-              <span className="absolute inset-x-0 -top-px bottom-0" />
               {repo.owner}/{repo.name}
             </Link>{" "}
             <span className="hidden md:inline">
