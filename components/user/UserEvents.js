@@ -53,7 +53,7 @@ export default function UserEvents({
         <Alert type="info" message="No Events found" />
       )}
 
-      {eventsToShow.length > 0 && (
+      {events.length > 0 && (
         <Select
           name="event-type"
           value={eventType}
