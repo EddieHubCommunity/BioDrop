@@ -17,6 +17,10 @@
       "url": "https://bloopsite.beehiiv.com/subscribe"
     },
     {
+      "icon": "SiUpwork",
+      "url": "https://www.upwork.com/freelancers/~018c7195997cd6f925"
+    },
+    {
       "icon": "SiYoutube",
       "url": "https://www.youtube.com/@coderoamer"
     },
@@ -53,6 +57,12 @@
       "name": "Site: Hire me",
       "url": "https://ibilalkayy.com",
       "icon": "FaGlobe"
+    },
+    {
+      "group": "My Portfolio",
+      "name": "Upwork",
+      "url": "https://www.upwork.com/freelancers/~018c7195997cd6f925",
+      "icon": "SiUpwork"
     },
     {
       "group": "My Startup",
@@ -116,6 +126,14 @@
     }
   ],
   "milestones": [
+    {
+      "title": "Started Freelancing work on Upwork",
+      "date": "Jun 20, 2024",
+      "icon": "SiUpwork",
+      "color": "red",
+      "description": "Started Freelancing work on Upwork",
+      "url": "https://www.upwork.com/freelancers/~018c7195997cd6f925"
+    },
     {
       "title": "Started Startup YouTube Channel",
       "date": "Jun 12, 2024",
