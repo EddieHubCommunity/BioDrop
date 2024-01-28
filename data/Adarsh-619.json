@@ -1,0 +1,55 @@
+{
+    "name": "Adarsh Patra",
+    "bio": "**Software Development Engineer** | **Open Source** Contributor | Passionate **Seeker** of Knowledge",
+    "tags": [
+        "Open Source",
+        "Java",
+        "Python",
+        "C++",
+        "SpringBoot",
+        "Django",
+        "React",
+        "mongoDB"
+    ],
+    "socials": [
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/Adarsh-619"
+        },
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/adarshP619"
+        },
+        {
+            "icon": "FaInstagram",
+            "url": "https://www.instagram.com/adarsh.619/"
+        }
+    ],
+    "links": [
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://twitter.com/adarshP619",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "GitHub: Let's Get Started Together",
+            "url": "https://github.com/Adarsh-619",
+            "icon": "FaGithub"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "LinkedIn: Let's connect",
+            "url": "https://www.linkedin.com/in/adarsh-patra/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "group": "Socials Secondary",
+            "name": "Make me Friend @ Instagram",
+            "url": "https://www.instagram.com/adarsh.619/",
+            "icon": "FaInstagram"
+        }
+    ]
+}
