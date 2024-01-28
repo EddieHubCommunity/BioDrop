@@ -8,6 +8,7 @@ import {
 } from "@services/utils/event/filterEvent";
 
 const allEventOptions = [
+  { value: "", name: "options" },
   { value: "all", name: "All Events" },
   { value: "future", name: "Future Events" },
   { value: "ongoing", name: "Ongoing Events" },
@@ -53,7 +54,7 @@ export default function UserEvents({
         <Alert type="info" message="No Events found" />
       )}
 
-      {eventsToShow.length > 0 && (
+      {events.length > 0 && (
         <Select
           name="event-type"
           value={eventType}
