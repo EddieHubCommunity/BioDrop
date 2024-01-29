@@ -1,8 +1,8 @@
 {
   "name": "Bilal Khan",
-  "bio": "Startup Founder, Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Weaviate, YouTuber & Blogger.",
+  "bio": "Founder, Freelancer, Backend Engineer, Go Developer | AWS Community Builder, Open Source Contributor at Weaviate, YouTuber & Blogger.",
 
-  "tags": ["Startup", "Backend", "Open Source", "DevOps", "Golang", "DevRel", "GitHub"],
+  "tags": ["Startup", "Freelance", "Backend", "Open Source", "DevOps", "Golang", "DevRel", "GitHub"],
   "socials": [
     {
       "icon": "FaGlobe",
@@ -15,6 +15,10 @@
     {
       "icon": "FaEnvelope",
       "url": "https://bloopsite.beehiiv.com/subscribe"
+    },
+    {
+      "icon": "SiUpwork",
+      "url": "https://www.upwork.com/freelancers/~018c7195997cd6f925"
     },
     {
       "icon": "SiYoutube",
@@ -53,6 +57,12 @@
       "name": "Site: Hire me",
       "url": "https://ibilalkayy.com",
       "icon": "FaGlobe"
+    },
+    {
+      "group": "My Portfolio",
+      "name": "Upwork Profile",
+      "url": "https://www.upwork.com/freelancers/~018c7195997cd6f925",
+      "icon": "SiUpwork"
     },
     {
       "group": "My Startup",
@@ -117,6 +127,14 @@
   ],
   "milestones": [
     {
+      "title": "Started Freelancing work on Upwork",
+      "date": "Jun 20, 2024",
+      "icon": "SiUpwork",
+      "color": "green",
+      "description": "Started Freelancing work on Upwork",
+      "url": "https://www.upwork.com/freelancers/~018c7195997cd6f925"
+    },
+    {
       "title": "Started Startup YouTube Channel",
       "date": "Jun 12, 2024",
       "icon": "SiYoutube",
@@ -152,7 +170,7 @@
       "title": "AWS Community Builder",
       "date": "Feb, 2023",
       "icon": "SiAmazonaws",
-      "color": "blue",
+      "color": "yellow",
       "description": "Became an AWS Community Builder",
       "url": "https://aws.amazon.com/developer/community/community-builders/"
     },
