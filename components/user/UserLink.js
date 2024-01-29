@@ -26,6 +26,7 @@ export default function UserLink({
   username,
   isEnabled = true,
   manage = false,
+  url,
 }) {
   const DisplayIcon = getIcon(link.icon);
   let aria = "";
@@ -38,7 +39,9 @@ export default function UserLink({
 
   const item = (link) => (
     <Link
-      href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
+      href={
+        url ? url : `${BASE_URL}/api/profiles/${username}/links/${link._id}`
+      }
       target="_blank"
       rel="noopener noreferrer"
       className={classNames(
