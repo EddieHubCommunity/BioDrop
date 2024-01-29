@@ -1,0 +1,21 @@
+{
+  "name": "Shagun Sharma",
+  "bio": "Docker 🐳 | MERN Stack Dev 🔥 | Alum @Masai | React/Next.js 🌐 | MongoDB | TypeScript/JavaScript ✨ | Express.js/Node.js | Mongoose | React Redux | Tailwind Css ☀️ | Material UI | Jest | Git",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/i_nicck",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/shagunsharma6677",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/shagun-s67/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
