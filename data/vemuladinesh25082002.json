@@ -1,0 +1,12 @@
+{
+    "name": "Vemula Dinesh",
+    "bio": "I am a NIT Bopal Student",
+    "links": [
+        {
+            "group": "Business",
+            "name": "Linkedin",
+            "url": "https://www.linkedin.com/in/vemula-dinesh/",
+            "icon": "FaLinkedin"
+        }
+    ]
+}

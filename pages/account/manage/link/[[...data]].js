@@ -76,7 +76,7 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsDisabled(true);
-    
+
     let method = "POST";
     let selectedIcon = icon !== "" ? icon : "FaGlobe";
     let putLink = {
@@ -230,7 +230,7 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
                       For example: <i>Follow me on Twitter</i>
                     </p>
                   </div>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                  <div className="relative mt-1 sm:col-span-2 sm:mt-0">
                     <IconSearch
                       handleSelectedIcon={setIcon}
                       selectedIcon={icon}
@@ -290,8 +290,9 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
             )}
             <UserLink
               BASE_URL={BASE_URL}
-              link={{ name, url, icon, animation }}
+              link={{ _id: link._id, name, url, icon, animation }}
               username={username}
+              url={url}
             />
           </div>
         </div>
