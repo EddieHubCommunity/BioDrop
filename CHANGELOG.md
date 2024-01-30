@@ -1,3 +1,12 @@
+## [2.99.11](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.10...v2.99.11) (2024-01-30)
+
+
+### Bug Fixes
+
+* code highlighter to rehype-pretty-code ([#10172](https://github.com/EddieHubCommunity/BioDrop/issues/10172)) ([b396607](https://github.com/EddieHubCommunity/BioDrop/commit/b396607d83110bb19a632ca68c1ccccc98483faa))
+
+
+
 ## [2.99.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.9...v2.99.10) (2024-01-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * quality of profile main picture ([#10160](https://github.com/EddieHubCommunity/BioDrop/issues/10160)) ([db3bb82](https://github.com/EddieHubCommunity/BioDrop/commit/db3bb82294900816e25ae5daaf60f40d23d2b8d2))
-
-
-
-## [2.99.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.5...v2.99.6) (2024-01-21)
-
-
-### Bug Fixes
-
-* navbar and tabs overflow ([#9891](https://github.com/EddieHubCommunity/BioDrop/issues/9891)) ([#10023](https://github.com/EddieHubCommunity/BioDrop/issues/10023)) ([6583729](https://github.com/EddieHubCommunity/BioDrop/commit/658372944f6d3de1058128700860a7ad2a7b1c92))
 
 
 
