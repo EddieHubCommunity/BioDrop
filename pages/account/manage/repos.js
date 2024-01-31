@@ -71,7 +71,6 @@ export default function ManageRepos({ BASE_URL, repos }) {
 
     const resRepos = await fetch(`${BASE_URL}/api/account/manage/repos`);
     const listRepos = await resRepos.json();
-    console.log(listRepos);
     setRepoList(listRepos);
     setUrl("");
     return setShowNotification({
