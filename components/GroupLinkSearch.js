@@ -35,7 +35,7 @@ function GroupLinkSearch({ selectedGroup, handleGroupSelection, groups }) {
       />
       <Combobox.Options
         className={
-          "border-2 rounded border-tertiary-medium dark:bg-primary-medium"
+          "absolute z-10 w-full border-2 rounded border-tertiary-medium dark:bg-primary-medium"
         }
       >
         {filteredGroup.length > 0 &&
