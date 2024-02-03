@@ -1,3 +1,12 @@
+## [2.99.13](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.12...v2.99.13) (2024-02-03)
+
+
+### Bug Fixes
+
+* git-auto-commit-action to v5 ([#10213](https://github.com/EddieHubCommunity/BioDrop/issues/10213)) ([074c2b2](https://github.com/EddieHubCommunity/BioDrop/commit/074c2b20e963fdd5041e0d168316ef4c4989b027))
+
+
+
 ## [2.99.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.11...v2.99.12) (2024-02-01)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * manage link preview click ([#10164](https://github.com/EddieHubCommunity/BioDrop/issues/10164)) ([261c30c](https://github.com/EddieHubCommunity/BioDrop/commit/261c30c367ecd5d91042385dd58524357eb65c20))
-
-
-
-## [2.99.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.7...v2.99.8) (2024-01-21)
-
-
-### Bug Fixes
-
-* icon dropdown shifts layout for suggestions ([#9898](https://github.com/EddieHubCommunity/BioDrop/issues/9898)) ([5f86013](https://github.com/EddieHubCommunity/BioDrop/commit/5f860131d7f395f262c0728ec7e70ca9534a1e3c))
 
 
 
