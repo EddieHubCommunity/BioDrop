@@ -1,11 +1,11 @@
 import { withSentryConfig } from "@sentry/nextjs";
 import remarkGfm from "remark-gfm";
-import remarkPrism from "remark-prism";
+import rehypePrettyCode from "rehype-pretty-code";
 import createMDX from "@next/mdx";
 import withPWA from "next-pwa";
 import runtimeCaching from "next-pwa/cache.js";
 
-const isProduction = process.env.NODE_ENV === "production";
+//const isProduction = process.env.NODE_ENV === "production";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -47,8 +47,8 @@ const nextConfig = {
 const withMDX = createMDX({
   extension: /\.mdx?$/,
   options: {
-    remarkPlugins: [remarkGfm, [remarkPrism, { transformInlineCode: true }]],
-    rehypePlugins: [],
+    remarkPlugins: [remarkGfm],
+    rehypePlugins: [[rehypePrettyCode, {theme: "dracula", defaultLang: "plaintext"}]],
     providerImportSource: "@mdx-js/react",
   },
 });
