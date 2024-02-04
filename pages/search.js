@@ -255,14 +255,15 @@ export default function Search({
                 />
               ))}
 
-          <button
+          <Button
+            overrideClassNames={true}
             className="
             flex flex-row p-1 m-2 rounded-lg text-sm text-black font-mono border-2 border-tertiary-medium
              bg-tertiary-medium cursor-pointer shadow-none"
             onClick={handleClearFilter}
           >
             clear
-          </button>
+          </Button>
         </div>
 
         <Badge
