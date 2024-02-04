@@ -1,8 +1,6 @@
 {
   "name": "Tobiloba Adedeji",
-  "type": "personal",
   "bio": "Frontend Engineer,Open source enthusiast and Accessibility Advocate",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -154,11 +152,12 @@
   ],
   "testimonials": [
     "MadhuSaini22",
-    "krshkun",
+    "xkrishguptaa",
     "shubhsharma19",
     "oyenolaphilipinc",
     "Shukla007",
     "Ellah120",
-    "AliReza1083"
+    "AliReza1083",
+    "loftwah"
   ]
 }

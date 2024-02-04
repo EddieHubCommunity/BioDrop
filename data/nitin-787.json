@@ -1,0 +1,21 @@
+{
+  "name": "Nitin Sharma",
+  "bio": "Playing with linux **Flutter dev**. Travel enthusiast & Cosmic Historian Extraordinaire",
+  "links": [
+    {
+      "name": "wanna collab on github",
+      "url": "https://github.com/nitin-787",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/nitin787/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Venturing into Code's Cosmos: Follow me on Instagram!b",
+      "url": "https://www.instagram.com/random__potato_/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

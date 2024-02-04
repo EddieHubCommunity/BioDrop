@@ -1,12 +1,16 @@
 {
   "name": "Krishna Kumar",
-  "type": "personal",
   "bio": "**Software Developer** | Open Source | DevOps Enthusiasts",
-
   "tags": ["Java", "Scala", "javascript", "Open Source", "Spring Framework"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/krishnapro_" },
-    { "icon": "FaGithub", "url": "https://github.com/Krishnapro" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/krishnapro_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Krishnapro"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/krishnakumar25/"

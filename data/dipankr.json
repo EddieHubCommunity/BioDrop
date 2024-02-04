@@ -1,8 +1,6 @@
 {
   "name": "Dipanker Kumar",
-  "type": "personal",
   "bio": "Full-Stack Engineer | Open Source Enthusiast",
-
   "tags": [
     "Java",
     "SQL",
@@ -14,8 +12,14 @@
     "Open Source"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/_dipankr" },
-    { "icon": "FaGithub", "url": "https://github.com/dipankr" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_dipankr"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/dipankr"
+    }
   ],
   "links": [
     {

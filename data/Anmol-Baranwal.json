@@ -1,8 +1,6 @@
 {
   "name": "Anmol Baranwal",
-  "type": "personal",
   "bio": "**Full Stack** Developer | **Open Source** Enthusiast | **GitHub** Addict | Technical Writer | UI/UX Designer ",
-
   "tags": [
     "Full-stack Developer",
     "Javascript",
@@ -14,13 +12,22 @@
     "UI/UX"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/Anmol-Baranwal" },
-    { "icon": "FaDev", "url": "https://github.com/Anmol-Baranwal" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Anmol-Baranwal"
+    },
+    {
+      "icon": "FaDev",
+      "url": "https://github.com/Anmol-Baranwal"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/Anmol-Baranwal/"
     },
-    { "icon": "FaDribbble", "url": "https://dribbble.com/Anmol-Baranwal/" }
+    {
+      "icon": "FaDribbble",
+      "url": "https://dribbble.com/Anmol-Baranwal/"
+    }
   ],
   "links": [
     {

@@ -1,0 +1,27 @@
+{
+  "name": "Carlos Leret",
+  "bio": "Former construction manager, now building blocks of code instead bricks. Photography enthusiast",
+  "links": [
+    {
+      "name": "Follow me on Instagram!",
+      "url": "https://www.instagram.com/l.legren/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "This is my GitHub!",
+      "url": "https://www.github.com/l-legren",
+      "icon": "FaGithubAlt"
+    },
+    {
+      "name": "Personal Webpage",
+      "url": "https://www-leret-dev-com.onrender.com/",
+      "icon": "MdWebAsset"
+    },
+    {
+      "name": "Connect me on LinkedIn",
+      "url": "https://www.linkedin.com/in/carlos-leret/",
+      "icon": "FaLinkedinIn"
+    }
+  ],
+  "tags": ["Javascript", "Typescript", "React", "NextJS"]
+}

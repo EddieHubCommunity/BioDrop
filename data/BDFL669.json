@@ -1,0 +1,60 @@
+{
+  "name": "Nigel Lowa",
+  "bio": "A technical writer and data analysis protoge with a penchant for developing responsive, dynamic applications",
+  "tags": ["Open Source", "JavaScript", "React", "Python", "R"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/botyliciouss"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/BDFL669"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/nigel-okoth-104609206/"
+    }
+  ],
+  "testimonials": [],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "group": "Socials Primary",
+      "url": "https://twitter.com/botyliciouss",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/BDFL669",
+      "icon": "FaGitHub"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/nigel-okoth-104609206/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Blogging on Dev.to",
+      "date": "Feb 2022",
+      "icon": "SiHashnode",
+      "color": "Blue",
+      "description": "Wrote my 10th article on Dev.to",
+      "url": "https://dev.to/anvilicious"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/botyliciouss",
+      "icon": "FaTwitter",
+      "title": "Started Open Source Contribution",
+      "date": "June 2022",
+      "color": "red",
+      "description": "Learning while contributing | Contributions List"
+    }
+  ]
+}

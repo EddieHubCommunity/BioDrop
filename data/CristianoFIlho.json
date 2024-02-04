@@ -1,8 +1,6 @@
 {
   "name": "Cristiano Filho",
-  "type": "personal",
   "bio": "Open Source CristianoFIlho | Developer of **freelancer** | **GitHub** CristianoFIlho",
-
   "tags": [
     "Open Source",
     "Python",
@@ -13,14 +11,19 @@
     "Salesforce"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/crisfilho98" },
-    { "icon": "FaGithub", "url": "https://github.com/CristianoFIlho" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/crisfilho98"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/CristianoFIlho"
+    },
     {
       "icon": "FaYoutube",
       "url": "https://www.youtube.com/channel/UC_JLEdjlXG6BfRPvT4_yHEQ"
     }
   ],
-
   "links": [
     {
       "name": "Business: Cristiano Filho Services",

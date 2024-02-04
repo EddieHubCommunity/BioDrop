@@ -1,0 +1,21 @@
+{
+  "name": "Gekko Wrld",
+  "bio": "Partly gekko, partly human! Building software with the speed and agility of a gekko. Join me in my quest to conquer the digital wrld, one byte at a time!",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/gekkowrld",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/gekkowrld",
+      "icon": "SiGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://linkedin.com/in/gekkowrld",
+      "icon": "SiLinkedin"
+    }
+  ]
+}

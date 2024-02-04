@@ -1,9 +1,6 @@
 {
   "name": "Leo Rajan",
-  "type": "personal",
-
   "bio": "Data Analyst: Power BI | SQL | Data Analysis | Data Modelling| Python ",
-
   "socials": [
     {
       "icon": "FaGithub",
@@ -13,7 +10,6 @@
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/leo-rajan/"
     },
-
     {
       "icon": "FaLink",
       "url": "https://leo7736.github.io/LeoRajan.github.io/"

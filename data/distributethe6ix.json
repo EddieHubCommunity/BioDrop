@@ -1,6 +1,5 @@
 {
   "name": "Marino Wijay",
-  "type": "personal",
   "bio": "**DevRel Dojo** | Platform Advocate @ Solo.io | DevOps | Kubernetes | Service Mesh | Cloud-Native Open Source",
   "tags": [
     "DevRel",
@@ -11,11 +10,19 @@
     "Networking"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/virtualized6ix" },
-    { "icon": "FaGithub", "url": "https://github.com/distributethe6ix" },
-    { "icon": "FaLinkedIn", "url": "https://www.linkedin.com/in/mwijay/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/virtualized6ix"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/distributethe6ix"
+    },
+    {
+      "icon": "FaLinkedIn",
+      "url": "https://www.linkedin.com/in/mwijay/"
+    }
   ],
-
   "links": [
     {
       "name": "DevRel thoughts, Kubernetes, Service Mesh, and Fun",

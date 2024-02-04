@@ -1,8 +1,6 @@
 {
   "name": "Julio Velezmoro",
-  "type": "personal",
   "bio": "Open Source | MERN | Frontend Developer",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -12,8 +10,14 @@
     "Sass"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Lakorthus" },
-    { "icon": "FaGithub", "url": "https://github.com/Lakorthus" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Lakorthus"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Lakorthus"
+    }
   ],
   "links": [
     {

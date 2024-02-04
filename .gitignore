@@ -11,6 +11,7 @@
 
 # misc
 .DS_Store
+.idea/
 *.pem
 
 # debug
@@ -29,7 +30,7 @@ yarn-error.log*
 # testing
 /playwright-report/
 /playwright/.cache/
-data/_test-*.json
+data/_test-*
 test-results/
 
 # storybook
@@ -37,3 +38,10 @@ test-results/
 
 # vscode
 .vscode
+
+# Sentry Auth Token
+.sentryclirc
+
+# PWA
+public/sw.js*
+public/workbox-*.js*

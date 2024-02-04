@@ -1,8 +1,6 @@
 {
   "name": "Wasiq Amjad Bhamla",
-  "type": "personal",
   "bio": "Open Source Advocate | Freelancer | Blogger | Mentor | Trainer",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -16,10 +14,22 @@
     "GitHub Actions"
   ],
   "socials": [
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/@WasiqBhamla" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/WasiqBhamla" },
-    { "icon": "FaGithub", "url": "https://github.com/WasiqB" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/wasiqbhamla" }
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@WasiqBhamla"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/WasiqBhamla"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/WasiqB"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/wasiqbhamla"
+    }
   ],
   "links": [
     {
@@ -69,7 +79,6 @@
     },
     {
       "title": "coteafs-appium",
-
       "date": "April 2017",
       "icon": "FaGithub",
       "color": "black",

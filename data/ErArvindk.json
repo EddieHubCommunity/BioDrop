@@ -1,12 +1,16 @@
 {
   "name": "Arvind Kumar",
-  "type": "personal",
   "bio": " Computer Science Student | fullstack developer | DSA | A geek |learner",
-
   "tags": ["Javascript", "HTML", "CSS", "Python", "DSA", "Web dev"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/erarvind_k" },
-    { "icon": "FaGithub", "url": "https://github.com/ErArvindk" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/erarvind_k"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ErArvindk"
+    },
     {
       "icon": "FaYoutube",
       "url": "https://www.youtube.com/@freetime_official"
@@ -15,9 +19,11 @@
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/arvind-kumar-1189bb263/"
     },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/er_arvind.k/" }
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/er_arvind.k/"
+    }
   ],
-
   "links": [
     {
       "group": "Socials Primary",

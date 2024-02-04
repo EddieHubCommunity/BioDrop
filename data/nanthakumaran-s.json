@@ -1,6 +1,5 @@
 {
   "name": "Nanthakumaran S",
-  "type": "personal",
   "bio": "Software Developer | **Cloud** & **DevOps** Enthusiast | Open Source Beginner",
   "tags": [
     "Open Source",
@@ -11,12 +10,23 @@
     "React.js"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/nanthakumaran_" },
-    { "icon": "FaGithub", "url": "https://github.com/nanthakumaran-s" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/nanthakumaran-s" },
-    { "icon": "FaGlobe", "url": "https://nanthakumaran.com" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nanthakumaran_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nanthakumaran-s"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/nanthakumaran-s"
+    },
+    {
+      "icon": "FaGlobe",
+      "url": "https://nanthakumaran.com"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",

@@ -1,6 +1,5 @@
 {
   "name": "Tushar Jagi",
-  "type": "personal",
   "bio": "JavaScript developer | **MERN Stack** | Open Source | Enthusiast in BlockChain",
   "tags": [
     "Open Source",
@@ -13,8 +12,14 @@
     "BlockChain"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/tusharjagi" },
-    { "icon": "FaGithub", "url": "https://github.com/Tusharjagi" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/tusharjagi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Tusharjagi"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/tushar-jagi-519025215/"

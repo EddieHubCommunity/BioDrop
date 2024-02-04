@@ -1,0 +1,21 @@
+{
+  "name": "Pravin Mallya",
+  "bio": "Developer and gamer at heart exploring open-source. I love music and mukbangs too!",
+  "links": [
+    {
+      "name": "My Linkedin",
+      "url": "https://www.linkedin.com/in/pravin-mallya-b44a94221/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "My Github",
+      "url": "https://github.com/mallyapravin",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "My Twitter",
+      "url": "https://twitter.com/mallya_pravin/",
+      "icon": "FaTwitter"
+    }
+  ]
+}

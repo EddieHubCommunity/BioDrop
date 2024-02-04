@@ -1,0 +1,21 @@
+{
+  "name": "Vishnu M",
+  "bio": "Full Stack Developer | Linux Enthusiast | Python Developer | React | Freelance ",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Vishnu_311",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/vishnu-311/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/vishnu-31",
+      "icon": "FaGithub"
+    }
+  ]
+}

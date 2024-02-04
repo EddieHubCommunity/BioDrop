@@ -1,8 +1,6 @@
 {
   "name": "Victor Eke",
-  "type": "personal",
   "bio": "Frontend web developer, technical writer who is passionate about web development and open-source",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -30,7 +28,6 @@
     },
     {
       "title": "Participated in OSCA",
-
       "date": "September 2021",
       "icon": "FaGithub",
       "color": "#F2994A",

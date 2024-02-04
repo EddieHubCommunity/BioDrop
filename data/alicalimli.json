@@ -1,12 +1,20 @@
 {
   "name": "Ali Calimli",
-  "type": "personal",
   "bio": "Frontend Developer | Content Creator",
   "tags": ["React", "Javascript", "Typescript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/alicalimli_dev" },
-    { "icon": "FaGithub", "url": "https://github.com/alicalimli" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/alicalimli/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/alicalimli_dev"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/alicalimli"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/alicalimli/"
+    }
   ],
   "links": [
     {

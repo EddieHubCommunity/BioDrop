@@ -24,8 +24,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: "18"
 
@@ -57,7 +57,7 @@ jobs:
           DATA_DATE: ${{ steps.date.outputs.time }}
       - name: validate JSON
         run: jq . "data/${{ steps.issue-parser.outputs.issueparser_name }}/testimonials/${{ github.actor }}.json"
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Testimonial for '${{ steps.issue-parser.outputs.issueparser_name }}' by '${{ github.actor }}'"
 
@@ -80,4 +80,4 @@ jobs:
         uses: YiiGuxing/close-issue@v2.1.0
         with:
           comment: |
-            Testimonial added for @${{ steps.issue-parser.outputs.issueparser_name }}. Thank you for your contribution! @${{ steps.issue-parser.outputs.issueparser_name }} if you wish to add it your LinkFree profile please follow the instructions in the docs https://linkfree.eddiehub.io/docs/how-to-guides/testimonials
+            Testimonial added for @${{ steps.issue-parser.outputs.issueparser_name }}. Thank you for your contribution! @${{ steps.issue-parser.outputs.issueparser_name }} if you wish to add it your BioDrop profile please follow the instructions in the docs for json https://biodrop.io/docs/how-to-guides/testimonials-json or for forms https://biodrop.io/docs/how-to-guides/testimonials-forms

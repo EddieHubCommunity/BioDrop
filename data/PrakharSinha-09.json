@@ -1,8 +1,6 @@
 {
   "name": "Prakhar Sinha",
-  "type": "personal",
   "bio": "Tech Enthusiast | Open Source | Web Development(MERN) | Java | DSA",
-
   "tags": [
     "Web Developer",
     "Open Source",
@@ -16,7 +14,6 @@
     "DSA",
     "MongoDB"
   ],
-
   "socials": [
     {
       "icon": "FaTwitter",
@@ -27,7 +24,6 @@
       "url": "https://github.com/PrakharSinha-09"
     }
   ],
-
   "links": [
     {
       "group": "Primary Socials",

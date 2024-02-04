@@ -1,0 +1,26 @@
+{
+  "name": "Aditya Gupta",
+  "bio": "A **Self-Taught** Developer & Student",
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/adisuyash",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram: For DMs",
+      "url": "https://www.instagram.com/adiisuyash",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://www.github.com/adisuyash",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/adisuyash",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

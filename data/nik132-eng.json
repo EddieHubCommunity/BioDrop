@@ -1,17 +1,24 @@
 {
   "name": "Nikunj Rohit",
-  "type": "personal",
   "bio": "Student of LDCE'23 IT || WEB3 enthusiast || Open source || Trying to code Everyday",
-
   "tags": ["Open Source", "Web3", "UG-IT'23", "Learning in Public 2023"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/nikunj_rohit10" },
-    { "icon": "FaGithub", "url": "http://github.com/nik132-eng" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nikunj_rohit10"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "http://github.com/nik132-eng"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/nikunj-rohit/"
     },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@rohit105" }
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@rohit105"
+    }
   ],
   "links": [
     {

@@ -1,0 +1,43 @@
+{
+  "name": "Bikram Behera",
+  "bio": "I am a MERNstack Developer. Programming enthusiast, touch typing & Love to learn new things",
+  "tags": [
+    "Open Source",
+    "MOngodb",
+    "Node js",
+    "React js",
+    "Express js",
+    "Java"
+  ],
+  "milestones": [
+    {
+      "title": "Started Contributing to Open Source",
+      "date": "Oct 2021",
+      "icon": "FaGithub",
+      "description": "I started contributing to GitHub",
+      "url": "https://github.com/beherabikram"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/BikramB45875872",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/btw_its.bikram/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/bikram-behera-4783b1259/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/beherabikram",
+      "icon": "FaGithub"
+    }
+  ]
+}

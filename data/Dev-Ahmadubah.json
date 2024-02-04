@@ -1,12 +1,16 @@
 {
   "name": "Ahmad Uba Ahmad",
-  "type": "personal",
   "bio": "Front-end Engineer | Reactjs | Open source",
-
   "tags": ["Reactjs", "Open source", "Tailwindcss", "javascript", "Css"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ahmadubahh" },
-    { "icon": "FaGithub", "url": "https://github.com/Dev-Ahmadubah" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ahmadubahh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Dev-Ahmadubah"
+    }
   ],
   "links": [
     {

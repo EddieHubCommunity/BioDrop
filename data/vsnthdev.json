@@ -1,8 +1,6 @@
 {
   "name": "Vasanth Srivatsa",
-  "type": "personal",
   "bio": "Computer geek 👨‍💻 I make videos 📹 on YouTube & tweet 🐦 about JavaScript.",
-
   "links": [
     {
       "name": "Watch my high-quality 📹 technical tutorials",
@@ -28,7 +26,6 @@
   "milestones": [
     {
       "title": "Started YouTube channel",
-
       "date": "February 2017",
       "icon": "FaYoutube",
       "color": "red",

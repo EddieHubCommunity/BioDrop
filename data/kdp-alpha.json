@@ -1,0 +1,16 @@
+{
+  "name": "Karan Pawar",
+  "bio": "Unleashing the power of pixels and code, I am a digital sorcerer crafting realms of innovation and functionality. With a keyboard as my wand and a screen as my canvas, I conjure elegant solutions to complex problems.",
+  "links": [
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/karan-pawar-007/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/kdp-alpha",
+      "icon": "FaGithub"
+    }
+  ]
+}

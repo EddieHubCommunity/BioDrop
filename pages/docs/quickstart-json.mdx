@@ -1,0 +1,215 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy.js";
+import Link from "@components/Link.js";
+import Youtube from "@components/embeds/Youtube.js";
+import Alert from "@components/Alert.js";
+
+## Quickstart: creating your Profile with JSON
+
+<Youtube
+  url="https://www.youtube.com/embed/05HEeCQSKRE"
+  title="BioDrop Quickstart Video"
+></Youtube>
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>HIGHLY IMPORTANT</strong>: the following fields mentioned in the
+      video are no longer required
+      <ul>
+        <li>avatar</li>
+        <li>type</li>
+        <li>displayStatsPublic</li>
+      </ul>
+      <i>This is shown correctly below in the screenshots and code examples</i>
+    </>
+  }
+/>
+
+### Add your Profile
+
+There are 4 ways you can add your Profile with json, but for this Quickstart we will use the GitHub UI.
+
+To do this, you need a GitHub account. If you do not have one yet, you can create one for free with an email address and password.
+
+1. Log in to your GitHub Account
+2. Visit the <Link target="_blank" href="https://github.com/EddieHubCommunity/BioDrop">BioDrop repo</Link>
+
+![BioDrop GitHub repo](https://github.com/EddieHubCommunity/BioDrop/assets/624760/e00b3df3-f55e-46ca-bb02-9e3603947f48)
+
+3. If you wish to be kept up to date with the repo, hit that "Star" at the top right
+
+![Start BioDrop](https://github.com/EddieHubCommunity/BioDrop/assets/23141638/53747c7b-5948-434a-be92-eb58ab26a74b)
+
+4. Click on Fork
+
+![create a new fork](https://github.com/EddieHubCommunity/BioDrop/assets/23141638/d6e7b2df-e7d8-4877-aea5-9821bc8df904)
+
+5. Accept the default fork name, click on 'Create fork'. A forked copy of the BioDrop project is now open in your GitHub account
+
+![Forked BioDrop](https://github.com/EddieHubCommunity/BioDrop/assets/23141638/d1b74078-9905-42e7-9b4b-b8c40ebf8425)
+
+![BioDrop form](https://github.com/EddieHubCommunity/BioDrop/assets/624760/4985be8d-67a4-4eb3-ab1b-3e666089c707)
+
+6. Click add file and select "create new file"
+
+![Create new file](https://user-images.githubusercontent.com/51131670/210201815-9c56ca28-19e8-4ef9-9934-6014d5262624.png)
+
+7. In the file path at the top, add `data/` followed by your GitHub username, exactly as it appears including capitalization if any, and then append `.json` to it.
+
+For example for username **"eddiejaoude"**:
+
+> - _**Correct**_: `BioDrop/data/eddiejaoude.json` (this example: no capitalization in filename)
+> - _**Incorrect**_: `BioDrop/data/EddieJaoude.json` (filename capitalization does not match username)
+
+![create json file](https://github.com/EddieHubCommunity/BioDrop/assets/624760/0f837e97-b079-4380-b451-8dfe23206842)
+
+8. For the file contents use the json structure below:
+
+<ClipboardCopy>
+```json
+{
+  "name": "Eddie Jaoude",
+  "bio": "Open Source DevRel | Founder of **EddieHub** and [BioDrop](https://biodrop.io) | **GitHub** Star"
+}
+```
+</ClipboardCopy>
+
+| field | type   | description                                                 |
+| :---- | :----- | :---------------------------------------------------------- |
+| name  | string | Your display name on your Profile                           |
+| bio   | string | Your description about yourself (you can use markdown here) |
+
+9. Now add links to your social media and other content (for example: website) so they appear on your Profile.
+
+<ClipboardCopy>
+```json
+{
+  "name": "Eddie Jaoude",
+  "bio": "Open Source DevRel | Founder of **EddieHub** and [BioDrop](https://biodrop.io) | **GitHub** Star",
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "FaLink"
+    }
+  ]
+}
+```
+</ClipboardCopy>
+
+_note: do not have duplicate links (url)_
+
+| field | type   | description                                                                                                                                                           |
+| :---- | :----- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| name  | string | The display name for the button                                                                                                                                       |
+| url   | string | Full url to the resource                                                                                                                                              |
+| icon  | string | The icon you would like displayed. We support the following icon sets: **Fa** and **Si** from React Icons. You can search available [icons](https://biodrop.io/icons) |
+
+![propose new file](https://user-images.githubusercontent.com/82668196/279686426-e47b89c9-f28e-4f06-a2d2-94a69bb386e2.png)
+
+To add more links, add another object inside the links collection. For example:
+
+<ClipboardCopy>
+```json
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/eddiejaoude",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+]
+```
+</ClipboardCopy>
+
+10. Scroll to the bottom and commit new file by adding the commit message that starts `data: ` followed by your GitHub username (for example `data: eddiejaoude`)
+
+You can skip `optional extended message`
+
+<Alert
+  type="info"
+  message={
+    <>
+      <strong>NOTE</strong>: Please use our online{" "}
+      <Link href="https://biodrop.io/playground">Playground</Link> tool to check
+      your JSON file is <i>valid</i> before committing your pull request.
+    </>
+  }
+/>
+
+11. Click `create new branch` and you can use the default name provided
+12. Then, click `Propose changes`
+
+![propose new file](https://github.com/EddieHubCommunity/BioDrop/assets/23141638/8b21ad42-3648-4cf8-a76e-909b0af636f1)
+
+<Alert
+  type="warning"
+  message={
+    <>
+      13. <strong>HIGHLY IMPORTANT</strong>: Click compare across forks and you
+      will see 4 drop downs
+    </>
+  }
+/>
+
+| Dropdown     | Description                          | Example values              |
+| :----------- | :----------------------------------- | :-------------------------- |
+| 1st dropdown | Base repository (destination)        | `EddieHubCommunity/BioDrop` |
+| 2nd dropdown | Base repository branch (destination) | `main`                      |
+| 3rd dropdown | Your repository (source)             | `your-username/BioDrop`     |
+| 4th dropdown | Your repository branch (source)      | `your-username-patch-1`     |
+
+The first dropdown for the `base` repository (destination) should be set to `EddieHubCommunity/BioDrop` not your username `your-username/BioDrop`.
+
+![compare across forks](https://user-images.githubusercontent.com/79744258/213963791-7234e636-fef2-4ed9-9eb3-eacef04b0239.jpeg)
+
+14. Click `Create pull request`
+15. The description will be filled with a template, please fill in the appropriate sections
+
+![create pull request](https://github.com/EddieHubCommunity/BioDrop/assets/23141638/2835ed3c-c305-404d-8294-8bde72a937f2)
+
+16. Click `Create pull request`
+
+17. Now you need to wait to have your Pull Request (changes) reviewed
+
+![pull request](https://github.com/EddieHubCommunity/BioDrop/assets/624760/806b369d-4e8f-442b-be35-802a71afaed8)
+
+An approving review from one of BioDrop's maintainers will show a green check mark next to their id.
+
+![maintainer review](https://user-images.githubusercontent.com/35927536/217060602-ba3678d1-f655-4805-a47d-e40f1ddcd59f.png)
+
+18. You will receive a GitHub notification when you have a comment, review, or your Pull Request has been merged
+19. Once merged, your profile will be available a few minutes later, with your custom BioDrop URL <Link href="https://biodrop.io/eddiejaoude">BioDrop.io/eddiejaoude </Link>
+
+
+## Example Profiles
+
+Looking for inspiration? You can view the <Link href="/docs/full-profile-example">full profile docs</Link> for an example.
+
+## Next steps
+
+- How to <Link href="/docs/how-to-guides/editing-json">edit and add more</Link> to your profile
+- Add <Link href="/docs/how-to-guides/socials-shortcuts-json">social shortcuts</Link> to your profile
+- Add <Link href="/docs/how-to-guides/tags-json">tags</Link> to your profile
+- Add <Link href="/docs/how-to-guides/events-json">events</Link> to your profile
+- Add <Link href="/docs/how-to-guides/testimonials-json">testimonials</Link> to your profile
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop QuickStart Documentation"
+    section="Getting started"
+    name="QuickStart"
+  >
+    {children}
+  </DocsLayout>
+);

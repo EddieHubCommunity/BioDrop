@@ -1,6 +1,5 @@
 {
   "name": "Rupali Haldiya",
-  "type": "personal",
   "bio": "Full stack JavaScript Developer | Open Source Advocate",
   "tags": [
     "Open Source",
@@ -11,13 +10,22 @@
     "Typescript"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/rupali_codes" },
-    { "icon": "FaGithub", "url": "https://github.com/rupali-codes" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/rupali_codes"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/rupali-codes"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/rupali-codes/"
     },
-    { "icon": "SiHashnode", "url": "https://rupali.hashnode.dev/" }
+    {
+      "icon": "SiHashnode",
+      "url": "https://rupali.hashnode.dev/"
+    }
   ],
   "links": [
     {

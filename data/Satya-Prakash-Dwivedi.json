@@ -1,0 +1,54 @@
+{
+  "name": "Satya Prakash Dwivedi",
+  "bio": "Open source , devOps , development , Teacher",
+  "tags": ["Open source", "development", "devOps", "java", "go lang"],
+  "Socials": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Satyastwt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_.satya_01/",
+      "icon": "FaInstagram"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Satya-Prakash-Dwivedi"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@satyapd01"
+    }
+  ],
+  "links": [
+    {
+      "group": "Primary Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/Satyastwt",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "LinkedIn: Connect with me",
+      "url": "https://linkedin.com/in/satya-prakash-dwivedi-555771232/",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "YouTube: Tech Stuff and singing and self improvement",
+      "url": "https://youtube.com/@satyapd01",
+      "icon": "FaYoutube",
+      "color": "#FF0000"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Satya-Prakash-Dwivedi",
+      "icon": "FaGithub"
+    }
+  ]
+}

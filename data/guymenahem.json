@@ -1,8 +1,6 @@
 {
   "name": "Guy Menahem - The Good Guy",
-  "type": "personal",
   "bio": "Spreading Cloud-Native Knowledge & Adoption 🚀 | SA @ Komodor",
-
   "tags": [
     "Open Source",
     "Python",
@@ -16,10 +14,22 @@
     "k8s"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/the_good_guym" },
-    { "icon": "FaGithub", "url": "https://github.com/guymenahem" },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/@the_good_guy" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/guy-menahem/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/the_good_guym"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/guymenahem"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/@the_good_guy"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/guy-menahem/"
+    }
   ],
   "links": [
     {

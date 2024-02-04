@@ -1,8 +1,6 @@
 {
   "name": "CodingSpecies",
-  "type": "personal",
   "bio": "Making Apps using React.js | Working on web and software engineering 👩‍💻 | Maintaining my organisation, App-Choreography 📛",
-
   "tags": [
     "javascript",
     "react.js",
@@ -13,7 +11,10 @@
     "graphic design"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/CodingSpecies" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/CodingSpecies"
+    }
   ],
   "links": [
     {

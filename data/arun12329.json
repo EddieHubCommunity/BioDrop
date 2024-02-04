@@ -1,9 +1,7 @@
 {
   "name": "Arun lohar",
-  "type": "personal",
   "bio": "Student At Techno INDIA NJR",
-  
-   "links": [
+  "links": [
     {
       "name": "Follow me on Github",
       "url": "https://github.com/arun12329",
@@ -16,5 +14,3 @@
     }
   ]
 }
-
- 

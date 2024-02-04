@@ -1,18 +1,28 @@
 {
   "name": "Julia Furst Morgado",
-  "type": "personal",
   "bio": "DevOps DevRel | Open Source Enthusiast | AWS Community Builder",
-
   "tags": ["DevOps", "Cloud Native", "Cloud Computing", "Open Source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/juliafmorgado" },
-    { "icon": "FaGithub", "url": "https://github.com/juliafmorgado" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/juliafmorgado"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/juliafmorgado"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/juliafmorgado"
     },
-    { "icon": "FaYoutube", "url": "https://www.youtube.com/c/JuliaFMorgado" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/juliafmorgado/" }
+    {
+      "icon": "FaYoutube",
+      "url": "https://www.youtube.com/c/JuliaFMorgado"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/juliafmorgado/"
+    }
   ],
   "testimonials": ["eddiejaoude", "payalpm"],
   "links": [

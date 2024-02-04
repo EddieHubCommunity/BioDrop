@@ -1,15 +1,12 @@
 {
   "name": "Govamarket",
-  "type": "personal",
   "bio": "I am a frontend developer",
-
   "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/Govamarket",
       "icon": "FaTwitter"
     },
-
     {
       "name": "Follow me on Github",
       "url": "https://github.com/Govamarket",

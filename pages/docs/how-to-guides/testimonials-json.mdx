@@ -1,0 +1,58 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import ClipboardCopy from "@components/ClipboardCopy";
+import Link from "@components/Link";
+
+## Testimonials - with JSON
+
+Show off the great feedback you have received.
+
+![BioDrop Testimonial Profile example](https://github.com/EddieHubCommunity/BioDrop/assets/71211731/d29cef22-85af-47b7-b6c1-f3b4fb4033e2)
+
+### Giving a Testimonial
+
+You can share a testimonial for another BioDrop user by visiting the [Issues Tab](https://github.com/EddieHubCommunity/BioDrop/issues) of the BioDrop project. Create a new issue with the type `🏆 Testimonial`, and this will generate a GitHub issue where you can provide your testimonial.
+
+The issue will look like this:
+
+![BioDrop testimonial issue](https://github.com/EddieHubCommunity/BioDrop/assets/71211731/4edff4fe-11ce-4f8a-98f0-665e9f129456)
+
+**NOTE**: Don't have a BioDrop account but want to give a testimonial? Do not worry! Log in to your GitHub account (if you don't have one, check out <Link href="https://www.eddiejaoude.io/course-github-profile-landing">Eddie's Course</Link> to help you) and follow the steps above.
+
+### Manually adding a Testimonial
+
+Also you can add a Testimonial manually by creating the `json` file `data/USERNAME/testimonials/YOUR-USERNAME.json` with the content:
+
+<ClipboardCopy>
+```json
+{
+  "title": "Founder of an Amazing Community",
+  "description": "Eddie founded EddieHub, an opensource community, which sparked my interest in all things FOSS and FOSH. Eddie's YouTube videos are also inspiring, especially the livestreams, where one can really see the community come together. My number one recommendation to anyone who's starting their opensource journey :sparkles:",
+  "date": "2022-26-11"
+}
+```
+</ClipboardCopy>
+
+### Including a Testimonial on your Profile
+
+If you receive a Testimonial, you can include this in the Testimonial section of your Profile.
+
+You can do this by including the usernames of the testimonials you wish to show on your profile with the following `json` code:
+
+```js
+"testimonials": [
+  "CBID2",
+  "Akshu-on-github",
+  "ZeeMonk-pixel",
+  "krupalitrivedi"
+]
+```
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Testimonials Documentation"
+    section="Customising your Profile"
+    name="Testimonials"
+  >
+    {children}
+  </DocsLayout>
+);

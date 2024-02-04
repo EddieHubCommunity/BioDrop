@@ -1,9 +1,7 @@
 {
   "name": "Kunal Verma",
-  "type": "personal",
   "bio": "**Open Source** | Frontend WebDeveloper",
-  "tags": ["Open Source", "MERN", "Tailwind", "Next Js", "MySQL"],
-
+  "tags": ["Open Source", "Typescript", "MERN", "Tailwind", "Next Js", "MySQL"],
   "socials": [
     { "icon": "FaTwitter", "url": "https://twitter.com/KunalVerma2468" },
     { "icon": "FaGithub", "url": "https://github.com/kunal00000" },
@@ -41,6 +39,31 @@
       "name": "Instagram",
       "url": "https://www.instagram.com/kunaahl",
       "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Postman Student Expert",
+      "date": "May 2023",
+      "icon": "SiPostman",
+      "color": "orange",
+      "description": "Became a Postman Student Expert after completing the API Fundamentals"
+    },
+    {
+      "title": "Started Tech Blog",
+      "date": "January 2023",
+      "icon": "SiHashnode",
+      "color": "blue",
+      "description": "Documenting my Journey through blogs",
+      "url": "https://hashnode.com/@kunalverma2468/"
+    },
+    {
+      "title": "Completed Hacktoberfest 2022",
+      "date": "October 2022",
+      "icon": "SiOpensourceinitiative",
+      "color": "grey",
+      "description": "Participated in my first ever Hacktoberfest and completed it.",
+      "url": "https://github.com/kunal00000"
     }
   ]
 }

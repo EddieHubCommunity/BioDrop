@@ -1,0 +1,39 @@
+{
+  "name": "Lokesh Kumar",
+  "bio": "Cybersecurity Enthusiast into DFIR, CTI and cloud security.",
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/exzekai"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/exzekai"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/exzekai"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/exzekai"
+    }
+  ],
+  "links": [
+    {
+      "name": "My Blog",
+      "url": "https://exzekai.com/",
+      "icon": "FaBlog"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://linkedin.com/in/exzekai",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow on Twitter",
+      "url": "https://twitter.com/exzekai",
+      "icon": "FaTwitter"
+    }
+  ]
+}

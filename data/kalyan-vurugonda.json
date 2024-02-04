@@ -1,14 +1,21 @@
 {
   "name": "Kalyan Vurugonda",
-  "type": "personal",
   "bio": "Web Dev | DevOps & Open Source Enthusiast",
   "tags": ["Web Dev", "DevOps", "Open Source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/kalyanstwt" },
-    { "icon": "FaGithub", "url": "https://github.com/kalyan-vurugonda" },
-    { "icon": "SiHashnode", "url": "https://kalyanvurugonda.hashnode.dev/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/kalyanstwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kalyan-vurugonda"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://kalyanvurugonda.hashnode.dev/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",

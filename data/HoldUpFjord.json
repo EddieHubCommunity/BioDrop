@@ -1,8 +1,6 @@
 {
   "name": "Dominick J Monaco",
-  "type": "personal",
   "bio": "Conservation Tech turned Software Engineer. Interested in contributing to community, climate change solutions, and dinner parties",
-
   "tags": [
     "100Devs",
     "Green-tech",
@@ -12,7 +10,6 @@
     "React",
     "MongoDb"
   ],
-
   "links": [
     {
       "name": "Follow my stream of consciousness",

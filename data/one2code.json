@@ -1,0 +1,21 @@
+{
+  "name": "Travis Bennett",
+  "bio": "Full-stack developer, turning a decade of Lean Six Sigma into performance-driven solutions on the web.  HackForLA | Website | Engineering | Lucky-Parking, EOT Core | Maintainer ",
+  "links": [
+    {
+      "name": "Follow my journey on Twitter as I build in public!",
+      "url": "https://twitter.com/travis_codez",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.instagram.com/eddieandsaraexplore/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Want to see my progress on the EOT project, and what we are doing at HackForLA? Click the link below!",
+      "url": "https://www.github.com/one2code",
+      "icon": "FaGithub"
+    }
+  ]
+}

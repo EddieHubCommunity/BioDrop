@@ -1,0 +1,43 @@
+{
+  "name": "Leon Nunes",
+  "bio": "Tinkerer, DevOps, Linux and everything here and there",
+  "socials": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mediocreDevops",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Twitch",
+      "url": "https://twitch.tv/leon_nunes",
+      "icon": "FaTwitch"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://linkedin.com/in/leon-nunes",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mediocreDevops",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Twitch",
+      "url": "https://twitch.tv/leon_nunes",
+      "icon": "FaTwitch"
+    },
+    {
+      "name": "Read my blogs at Dev.to",
+      "url": "https://dev.to/mediocreDevops",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Github profile here!",
+      "url": "https://github.com/afro-coder",
+      "icon": "FaGithub"
+    }
+  ]
+}

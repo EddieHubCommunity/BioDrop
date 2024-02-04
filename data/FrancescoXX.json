@@ -1,8 +1,6 @@
 {
   "name": "Francesco Ciulla",
-  "type": "personal",
   "bio": "Developer Advocate at daily.dev, Docker Captain, Public Speaker, Community Builder",
-
   "links": [
     {
       "name": "YouTube",
@@ -93,9 +91,18 @@
     "MsAkiNom"
   ],
   "socials": [
-    { "icon": "SiYoutube", "url": "https://www.youtube.com/@francescociulla" },
-    { "icon": "SiDiscord", "url": "https://discord.com/invite/ns5x8bTz25" },
-    { "icon": "SiTwitter", "url": "https://twitter.com/FrancescoCiull4" }
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@francescociulla"
+    },
+    {
+      "icon": "SiDiscord",
+      "url": "https://discord.com/invite/ns5x8bTz25"
+    },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/FrancescoCiull4"
+    }
   ],
   "milestones": [
     {

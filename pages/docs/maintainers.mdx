@@ -1,0 +1,88 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Link from "@components/Link";
+
+## Maintainers
+
+### Criteria for becoming a Maintainer
+
+1. You are a member of the EddieHub Community
+2. You have a BioDrop Profile which contains all the sections referred to in the Full Profile Example: https://biodrop.io/docs/full-profile-example
+3. You are active on the EddieHub Discord in helping other members of the community, particularly in the #contributor-support channel
+4. You have a consistent track record of:
+   i. reviewing Profile Pull Requests to the BioDrop Project. This includes:
+
+   - adding value in your comments
+   - helping authors with any difficulties they have
+   - referencing the official documentation when appropriate
+   - your tone and language is in line with that used in EddieHub
+     ii. creating Issues which have been approved as adding value to the project
+     iii. successfully have Pull Requests merged in relation to an Issue created either by you or another contributor (this does not include Profiles)
+
+You will be contacted via DM on Discord to invite you to become a maintainer on the BioDrop project.
+
+We will ask you to confirm that you are happy to be given this role and have the capacity to become a maintainer. If you confirm you are happy to proceed then we will start the Onboarding process.
+
+### Role
+
+1. Profiles: comment, review and merge
+2. Issues
+
+- Assigning: once the label is `status: ready for dev` please assign to a contributor in accordance with the [Contributing Guide](https://github.com/EddieHubCommunity/BioDrop/blob/main/CONTRIBUTING.md).
+- Bugs: if you agree that the bug is valid then please change the label from `status: awaiting triage` to `status: ready for dev`.
+
+3. Documentation: whilst this always need improving we want to avoid contributions which are aimed only at chasing green squares (for example: making changes that add no value), and we want to ensure that the Documentation remains in the same style and standard. Example: fixing typos adds value, but changing a word from British English (the style used) to American English does not.
+4. Features: so that the project remains manageable, we have a steady roll out of Features and Pull Requests are not left open for too long - please do not remove the `status: awaiting triage` label and assign.
+
+5. Keeping the conversation going
+
+A big part of being a Maintainer on this project is reviewing and merging Profile PRs and we also want you to contribute with new ideas through Issues, and putting them into place. However as a Maintainer we are looking for you to help us with keeping the project moving and making sure that we do not have a backlog of Pull Requests and Issues.
+
+This includes:
+
+- identifying and closing any duplicate Pull Requests and Issues
+- reminding contributors of our Contributing Guide
+
+_Note: Keep an eye on the `⁠#repository-maintainers` channel on Discord where we make maintainer decisions._
+
+### Review
+
+We will consistently review how you are doing as a Maintainer and here are things we will consider:
+
+- are you consistent (this does not mean you need to be involved every day)
+- are you welcoming and supportive to new contributors
+- are your comments clear to the author of the PR/Issue
+- do your comments make it easier for the author to make the necessary changes and for another maintainer to accept/merge the PR (e.g. inline comments with code change suggestions)
+- are you able to firmly and professionally enforce our Contributing Guide and Code of Conduct
+
+### Recognition
+
+At this time we are unable to provide financial compensation to our Maintainers, but we are keen to be able to reward our Maintainers where we can.
+
+By becoming a Maintainer you will have access to:
+
+- Invitation to Discord Maintainers channel
+- Invitation to participate in Maintainers calls
+- Unofficial mentorship from other Maintainers
+- BioDrop and LinkedIn recommendation from Eddie
+- Badge (coming soon)
+- Free upgrade to BioDrop Premium
+
+### Renew
+
+A project's maintainers are integral to keep it going and progressing. We do realise that this is a voluntary position and whilst Maintainers may have the time availability now, this may not be the case in the future.
+
+At the time, we have chosen not to have a specific duration for the role, however:
+
+- if there is no consistent activity by the Maintainer for an extended period of time, they will be removed from the role and and notified (this does not preclude them from becoming a Maintainer on the project again in the future).
+- if at any time a Maintainer wishes to no longer have this role, then they can DM `eddiejaoude` to be removed
+
+### Resources
+
+- [Contributing Guide](https://github.com/EddieHubCommunity/BioDrop/blob/main/CONTRIBUTING.md)
+- [Reviewers Docs](/docs/contributing/reviewers)
+
+export default ({ children }) => (
+  <DocsLayout title="BioDrop Maintainers" section="Extra" name="Maintainers">
+    {children}
+  </DocsLayout>
+);

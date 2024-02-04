@@ -1,0 +1,56 @@
+{
+  "name": "Deepak",
+  "bio": "Web Alchemist 🧙‍♂️ | Crafting Digital Elixirs with JavaScript  🪄 | Exploring the Open Source Realm 💫",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "Reactjs",
+    "NextJs",
+    "Nodejs"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/itsdevdeepak"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/itsdevdeepak"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/itsdevdeepak"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://itsdevdeepak.me"
+    },
+    {
+      "icon": "FaDollarSign",
+      "url": "https://github.com/sponsors/itsdevdeepak"
+    }
+  ],
+  "links": [
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://itsdevdeepak.me",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/itsdevdeepak",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/itsdevdeepak",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itsdevdeepak",
+      "icon": "FaTwitter"
+    }
+  ]
+}

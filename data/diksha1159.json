@@ -1,0 +1,17 @@
+{
+  "name": "Diksha Jadhav",
+  "bio": "Just a CS student trying to learn new exciting stuff",
+
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Diksha_587",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/diksha1159",
+      "icon": "FaGithub"
+    }
+  ]
+}

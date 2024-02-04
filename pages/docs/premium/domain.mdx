@@ -1,0 +1,65 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Alert from "@components/Alert.js";
+
+## Custom Domain
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      When using your custom domain, the Navbar and Footer will be hidden by default.
+    </>
+  }
+/>
+
+Customise even further by using your own domain for your BioDrop Profile. Currently subdomains are not supported.
+
+### 1. Go to your domain registrar
+
+(for example: Namecheap, GoDaddy, Google Domains, 123Reg etc).
+
+You will need to update your domain's DNS to point to BioDrop.
+
+You can do this by adding an `A` record for your apex domain `@` that points to `76.76.21.21`.
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      These changes can take up to 48 hours to have an effect.
+    </>
+  }
+/>
+
+![DNS screenshot](https://github.com/EddieHubCommunity/BioDrop/assets/624760/cc5e696a-8c98-4aa2-b92d-1d5c4d68ef18)
+
+### 2. Add your domain to BioDrop
+
+In the Premium tab on the "Create & Manage your Profile", add the domain you want to use in the `input` form field.
+
+![Premium Page example](https://github.com/EddieHubCommunity/BioDrop/assets/624760/468d3be0-e8c2-4be2-85d5-26436c8aa0ab)
+
+### Common errors
+
+We use Vercel and if you are using the same domain on Vercel already this will cause an error. For example if you want to add these subdomains to your BioDrop Profile `bio.foo.bar` or `contact.foo.bar`
+
+To fix this please follow these steps:
+
+1.  If you have already added your custom domain to BioDrop, remove the custom domain `bio.foo.bar` from BioDrop's input domain field.
+2.  Then on Vercel add `foo.bar` and follow the instructions on Vercel.
+3.  Then on BioDrop domain input field add `bio.foo.bar`.
+4.  You will have to set a TXT record in your DNS to prove ownership of the domain
+
+![Vercel domain error](https://github.com/EddieHubCommunity/BioDrop/assets/624760/f86b2d00-c583-4d24-bb13-175d678b7360)
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);

@@ -1,0 +1,82 @@
+{
+  "name": "Nicholas Chang",
+  "bio": "Platform Engineer, | Blogger, Azure and Community Advocate",
+  "tags": [
+    "Azure",
+    "Azure DevOps",
+    "Terraform",
+    "DevOps",
+    "Cloud Native",
+    "Github"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/nick_cloudops"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/NickAzureDevops"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "http://www.linkedin.com/in/nicholas-chang-41b83052"
+    }
+  ],
+  "links": [
+    {
+      "group": "Content creation",
+      "name": "Tech Blog",
+      "url": "https://nicholaschangblog.com",
+      "icon": "SiDarkreader"
+    },
+    {
+      "group": "Content creation",
+      "name": "Sessionize",
+      "url": "https://sessionize.com/nicholas-chang",
+      "icon": "SiSessionize"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's Connect",
+      "url": "http://www.linkedin.com/in/nicholas-chang-41b83052",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Twitter: Let's Tweet",
+      "url": "https://twitter.com/nick_cloudops",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's Collaborate",
+      "url": "https://github.com/NickAzureDevops",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Content creation",
+      "name": "Youtube",
+      "url": "https://youtube.com/@learnazurewithnick",
+      "icon": "SiDarkreader"
+    },
+    {
+      "group": "Support",
+      "name": "BuyMeACoffee:",
+      "url": "https://www.buymeacoffee.com/nicholas.chang",
+      "icon": "FaCat"
+    },
+    {
+      "group": "Socials",
+      "name": "Mastodon",
+      "url": "https://hachyderm.io/web/@nick_cloudops",
+      "icon": "FaCloud"
+    },
+    {
+      "group": "Socials",
+      "name": "Certifications",
+      "url": "https://www.credly.com/users/nicholas-chang.280d1eca/badges",
+      "icon": "FaCloud"
+    }
+  ]
+}

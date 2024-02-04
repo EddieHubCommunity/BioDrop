@@ -1,0 +1,29 @@
+{
+  "name": "Frank Alimimian",
+  "bio": "Fullstack Django **developer** **open sourse**",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Django",
+    "Django rest framework",
+    "MySQL"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://github.com/Franklyn883"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/franklynose"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "linkedin.com/in/franklynose883/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@Franklynose"
+    }
+  ]
+}

@@ -1,8 +1,6 @@
 {
   "name": "Ankit Anand",
-  "type": "personal",
   "bio": "**Java Developer** | **Git + GitHub** | **Open Source Contributor at Mozilla** ",
-
   "tags": [
     "Java",
     "Python",
@@ -12,7 +10,6 @@
     "Mozilla",
     "Open Source"
   ],
-
   "socials": [
     {
       "icon": "FaTwitter",
@@ -31,7 +28,6 @@
       "url": "https://www.linkedin.com/in/ankit-anand-b22588a3/"
     }
   ],
-
   "links": [
     {
       "name": "Ankit's Website - I won't mind you checking me out!",

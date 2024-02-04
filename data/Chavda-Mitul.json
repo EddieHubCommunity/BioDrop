@@ -1,0 +1,11 @@
+{
+  "name": "Mitul Chavda",
+  "bio": "Hey I am Fullstack developer",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/mitul_tweets",
+      "icon": "FaTwitter"
+    }
+  ]
+}

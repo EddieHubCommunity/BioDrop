@@ -1,6 +1,5 @@
 {
   "name": "Aamir Shaikh",
-  "type": "personal",
   "bio": "23 🧑‍💻 | Associate Consultant @Atos | Full-stack Developer 💻 | Open Source | Cloud & DevOps enthusiast ⚡️",
   "tags": [
     "JavaScript",
@@ -13,14 +12,19 @@
     "Open Source"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/aamirxShaikh" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/AamirxShaikh" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/aamirxShaikh"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AamirxShaikh"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/aamir-shaikh-291934182"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

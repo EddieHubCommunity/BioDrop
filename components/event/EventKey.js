@@ -1,5 +1,6 @@
 import { IconContext } from "react-icons";
-import { FaMicrophoneAlt } from "react-icons/fa";
+import { FaMicrophoneLines } from "react-icons/fa6";
+import { TbCoin, TbCoinOff } from "react-icons/tb";
 import {
   MdOutlineOnlinePrediction,
   MdOutlinePeople,
@@ -8,7 +9,7 @@ import {
 } from "react-icons/md";
 import { RiCalendarTodoFill } from "react-icons/ri";
 
-export default function EventKey({ categorisedEvents, onToggleEventType }) {
+export default function EventKey({ categorizedEvents, onToggleEventType }) {
   const filters = [
     {
       title: "All future events",
@@ -26,7 +27,7 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       title: "CFP open",
       description: "You can submit a talk to this conference",
       key: "cfpOpen",
-      icon: FaMicrophoneAlt,
+      icon: FaMicrophoneLines,
     },
     {
       title: "In person",
@@ -46,6 +47,18 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
       key: "past",
       icon: MdOutlineDoneAll,
     },
+    {
+      title: "Free",
+      description: "These events are free to attend",
+      key: "free",
+      icon: TbCoinOff,
+    },
+    {
+      title: "Paid",
+      description: "These events are paid to attend",
+      key: "paid",
+      icon: TbCoin,
+    },
   ];
 
   return (
@@ -63,13 +76,15 @@ export default function EventKey({ categorisedEvents, onToggleEventType }) {
           </div>
           <div className="min-w-0 flex-1">
             <span className="absolute inset-0" aria-hidden="true" />
-            <p className="text-sm font-medium text-primary-high dark:text-white">{filter.title}</p>
+            <p className="text-sm font-medium text-primary-high dark:text-white">
+              {filter.title}
+            </p>
             <p className="truncate text-sm text-primary-medium dark:text-primary-low-high">
               {filter.description}
             </p>
           </div>
           <div className="text-2xl font-semibold">
-            {categorisedEvents[filter.key].length}
+            {categorizedEvents[filter.key].length}
           </div>
         </div>
       ))}

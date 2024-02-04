@@ -1,0 +1,26 @@
+{
+  "name": "Austin Comer",
+  "bio": "Front-end developer | Pursuing a career of crafting engaging digital experiences that solve real-world problems and provide authentic value.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/austinmcomer",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/austincomer/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/austincomer",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "View My Website",
+      "url": "https://austincomer.dev",
+      "icon": "FaHome"
+    }
+  ]
+}

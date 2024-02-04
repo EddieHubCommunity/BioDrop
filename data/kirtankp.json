@@ -1,0 +1,89 @@
+{
+  "name": "Kirtan Patel",
+  "bio": "**Software Developer** | **Open Source**",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NodeJS",
+    "ReactJS",
+    "NextJS",
+    "Java"
+  ],
+  "links": [
+    {
+      "group": "Projects",
+      "name": "Photo Gallery",
+      "url": "https://photo-gallery-kirtankp.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Help Desk",
+      "url": "https://help-desk-ockzj4k2f-kirtankp.vercel.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Lift Simulator",
+      "url": "https://lustrous-belekoy-8d19c1.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "News",
+      "url": "https://64d3a5aa765d6c74ad77a50f--flourishing-concha-24375f.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Dynamic Todo Application",
+      "url": "https://todo-app-df29.onrender.com/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Projects",
+      "name": "Landing Page Using ReactJS",
+      "url": "https://lustrous-pavlova-7875d9.netlify.app/",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "GitHub",
+      "url": "https://github.com/kirtankp/",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Primary Socials",
+      "name": "Twitter",
+      "url": "https://twitter.com/kirtan__kp/",
+      "icon": "FaXTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/kirtankp/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Stack Overflow",
+      "url": "https://stackoverflow.com/users/22300650/kirtan-patel",
+      "icon": "FaLink"
+    }
+  ],
+  "socials": [
+    {
+      "icon": "FaXTwitter",
+      "url": "https://twitter.com/kirtan__kp/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/kirtankp/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/kirtankp/"
+    }
+  ]
+}

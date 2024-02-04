@@ -1,0 +1,33 @@
+{
+  "name": "Williams Michael",
+  "bio": "Software Engineer and Product Designer",
+  "links": [
+    {
+      "group": "Github",
+      "name": "Github: Check out my Commits!",
+        "url": "http://Github.com/phatwillis",
+      "icon": "FaGithub"
+    },
+     {
+      "group": "  Twitter",
+      "name": "Twitter: Follow Me on Twitter!",
+        "url": "http://Twitter.com/ogaga_williams",
+      "icon": "FaTwitter",
+       "color": "#000000"
+    },
+     {
+      "group": "Linkedin",
+      "name": "Linkedin: Let's Connect!",
+        "url": "https://www.linkedin.com/in/williams-michael-63686023a",
+      "icon": "FaLinkedin",
+       "color": "#000000"
+    },
+    {
+      "group": "Behance",
+      "name": "Behance: Check out my Designs!",
+        "url": "https://www.behance.net/williamsmicheal",
+      "icon": "FaBehance",
+      "color": "#000000"
+    }
+  ]
+}

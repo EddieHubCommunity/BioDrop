@@ -1,15 +1,16 @@
 {
   "name": "Sheri Richardson",
-  "type": "personal",
   "bio": "Open Source Enthusiast! Frontend developer from The Netherlands who enjoys working with the JAM Stack.",
-
   "tags": ["javascript", "gatsbyjs", "nextjs", "react", "open source", "css"],
   "socials": [
     {
       "icon": "FaTwitter",
       "url": "https://twitter.com/shericodes"
     },
-    { "icon": "FaGithub", "url": "https://github.com/shericodes" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/shericodes"
+    }
   ],
   "links": [
     {

@@ -1,0 +1,64 @@
+{
+  "name": "Peter Samuel",
+  "bio": "Open Source Contributor | Web Developer | Technical Writer | Freelance Analyst ",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "ReactJs",
+    "NextJs",
+    "PowerBi",
+    "MYSQL",
+    "EXCEL"
+  ],
+  "links": [
+    {
+      "name": "Github",
+      "url": "https://github.com/Petsamuel",
+      "icon": "FaGithub"
+    },
+    {
+      "name": " Twitter",
+      "url": "https://twitter.com/bieefilled",
+      "icon": "FaTwitter"
+    },
+
+    {
+      "name": " LinkedIn",
+      "url": "https://www.linkedin.com/in/bieefilled",
+      "icon": "FaLinkedIn"
+    }
+  ],
+  "socials": [
+    {
+      "name": "Github",
+      "url": "https://github.com/Petsamuel",
+      "icon": "FaGithub"
+    },
+    {
+      "name": " Twitter",
+      "url": "https://twitter.com/bieefilled",
+      "icon": "FaTwitter"
+    },
+
+    {
+      "name": " LinkedIn",
+      "url": "https://www.linkedin.com/in/bieefilled",
+      "icon": "FaLinkedIn"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started Open Source",
+      "date": "October 2022",
+      "icon": "FaGithub",
+      "description": " Collaborate with teams to develop open-source projects"
+    },
+    {
+      "title": "Joined EddieHub Community",
+      "date": "May 2023",
+      "icon": "FaGithub",
+      "description": "Engage with the open-source community through Contribution, forums, discussions, and conferences."
+    }
+  ]
+}

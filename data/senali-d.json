@@ -1,12 +1,16 @@
 {
   "name": "Senali Dilumika",
-  "type": "personal",
   "bio": "Frontend Developer | Fan of Open Source | **Python** Enthusiast",
-
   "tags": ["Open Source", "Javascript", "Typescript", "ReactJS", "Python"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/senali_d" },
-    { "icon": "FaGithub", "url": "https://github.com/senali-d" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/senali_d"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/senali-d"
+    }
   ],
   "links": [
     {

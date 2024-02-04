@@ -1,0 +1,15 @@
+{
+  "name": "Test User Name 5",
+  "bio": "Test user bio 5",
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" }
+  ],
+  "links": [
+    {
+      "group": "Business",
+      "name": "Business: DevRel Services",
+      "url": "http://eddiejaoude.io",
+      "icon": "FaLink"
+    }
+  ]
+}

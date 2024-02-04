@@ -1,0 +1,58 @@
+{
+  "name": "Ashutosh Hota",
+  "bio": "Full-Stack Web developer, who loves to solve real-world problems with code",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "Python",
+    "AI/ML"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ashutoshtwt07"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ashutosh-hota-a389a7244/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ashutsoh1729"
+    }
+  ],
+  "links": [
+    {
+      "group": "Socials",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/ashutoshtwt07",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: Let's Collaborate on Open Source",
+      "url": "https://github.com/Ashutsoh1729",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/ashutosh-hota-a389a7244/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Socials",
+      "name": "Instagram: Chillout",
+      "url": "https://www.instagram.com/ashutosh_hota_07/",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Socials",
+      "name": "Mail: For Business",
+      "url": "mailto:ashutoshhota1729@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ]
+}

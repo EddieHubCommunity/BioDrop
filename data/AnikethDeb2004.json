@@ -1,0 +1,16 @@
+{
+  "name": "Aniketh Deb",
+  "bio": "Open SOurce Dev/Contributor | Tech Member at **TPHxSRMIST** | & **SRMKZILLA**",
+  "links": [  
+      {
+      "name": "Follow me on Twitter",
+        "url": "https://twitter.com/aniketh_deb",
+        "icon": "FaTwitter"
+      },
+    {
+      "name": "Follow me on GitHub",
+        "url": "https://github.com/AnikethDeb2004",
+        "icon": "FaGithubAlt"
+    }
+  ]
+}

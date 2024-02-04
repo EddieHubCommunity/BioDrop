@@ -1,6 +1,5 @@
 {
   "name": "Siddharth Talesara",
-  "type": "personal",
   "bio": "Frontend Developer | ReactJs ~ Next.js | Open Source contributor 🎯 | Open for opportunity 🙂 | Gardner",
   "tags": [
     "Open Source",
@@ -97,7 +96,6 @@
       "color": "blue",
       "description": "Started part-time freelancing by joining Rightlabs and making my own money!"
     },
-
     {
       "isGoal": true,
       "title": "Land my first full time job as a Frontend Developer before 2024",

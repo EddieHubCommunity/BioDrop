@@ -1,6 +1,5 @@
 {
   "name": "Ajay",
-  "type": "personal",
   "tags": [
     "HTML",
     "CSS",
@@ -15,14 +14,19 @@
     "Open Source"
   ],
   "bio": "**Full-Stack Web Developer** | **MERN Stack Developer** | **Tech Enthusiast**",
-
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/Ajay84sia" },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ajay84sia"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/ajay-84sia/"
     },
-    { "icon": "FaTwitter", "url": "https://twitter.com/ajay84sia" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ajay84sia"
+    }
   ],
   "links": [
     {

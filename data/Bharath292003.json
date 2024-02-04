@@ -1,0 +1,42 @@
+{
+  "name": "G balaji bharath",
+  "bio": "Final year undergrad | Aspiring full stack developer | Java | Open source enthusiast | Building in public",
+  "tags": ["Java", "Javascript", "React", "Open Source"],
+  "socials": [
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Bharath292003"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/bharath292003"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/bharath292003",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Linkedin: Connect with me",
+      "url": "https://www.linkedin.com/in/balaji-bharath-g-101a5820b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/Bharath292003",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Portfolio: Checkout my portfolio and let's connect",
+      "url": "https://bharath292003.github.io/React-personal-portfolio/",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Instagram: Follow me",
+      "url": "https://www.instagram.com/bharath__1446/",
+      "icon": "FaInstagramSquare"
+    }
+  ]
+}

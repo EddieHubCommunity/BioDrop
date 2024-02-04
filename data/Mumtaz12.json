@@ -1,9 +1,7 @@
 {
   "name": "Mohammad Mumtaz",
-  "type": "personal",
   "bio": "Web Developer, Student",
   "tags": ["Open Source", "Content Writer", "Blogging", "Full Stack Developer"],
-
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -36,7 +34,6 @@
       "icon": "SiHashnode"
     }
   ],
-
   "milestones": [
     {
       "title": "Joined Open Source",

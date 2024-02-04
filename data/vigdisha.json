@@ -1,0 +1,21 @@
+{
+  "name": "Disha Vig",
+  "bio": "Final year student of computer science engineering",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/coffeebreath18",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/disha-vig/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow my github account",
+      "url": "https://github.com/vigdisha",
+      "icon": "FaGithub"
+    }
+  ]
+}

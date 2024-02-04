@@ -1,6 +1,5 @@
 {
   "name": "Shivang Parmar",
-  "type": "personal",
   "bio": "Learning to Build ✨ | Front-End Developer 💻 | UI/UX 🎨 | Hackathon Enthusiast | Exploring Web3 🛰️ | ",
   "links": [
     {
@@ -13,7 +12,7 @@
       "url": "https://www.linkedin.com/in/shivang-parmar/",
       "icon": "FaLinkedin"
     },
-     {
+    {
       "name": "Checkout my GitHub",
       "url": "https://github.com/imsp18",
       "icon": "FaGithub"

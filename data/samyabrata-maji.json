@@ -1,8 +1,6 @@
 {
   "name": "Samyabrata Maji",
-  "type": "personal",
   "bio": "Student • Web developer  • Open Source Enthusiast • UI/UX designer • Technical Blogger",
-
   "tags": [
     "Web Development",
     "React",
@@ -13,11 +11,26 @@
     "Kotlin"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/samyabrata-maji" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/sammaji15" },
-    { "icon": "SiHashnode", "url": "https://sammaji.hashnode.dev" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/samyabrata-maji" },
-    { "icon": "FaInstgram", "url": "https://instagram.com/sammaji15" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/samyabrata-maji"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/sammaji15"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://sammaji.hashnode.dev"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/samyabrata-maji"
+    },
+    {
+      "icon": "FaInstgram",
+      "url": "https://instagram.com/sammaji15"
+    }
   ],
   "links": [
     {

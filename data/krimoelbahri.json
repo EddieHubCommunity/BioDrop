@@ -1,0 +1,17 @@
+{
+  "name": "Karim Guezlane",
+  "bio": "Math teacher diving into web developement",
+
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/karim-guezlane/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/krimoelbahri",
+      "icon": "FaGithub"
+    }
+  ]
+}

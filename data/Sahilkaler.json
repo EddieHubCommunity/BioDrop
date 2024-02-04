@@ -1,0 +1,27 @@
+{
+  "name": "Sahil Kaler",
+  "bio": " Tech enthusiast, Anime, College Student and learning new Techs",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/sahilkalerrr",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/Sahilkaler",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/sahil-kaler/",
+      "icon": "FaLinkedin"
+    },
+
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/sahilkalerrr/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

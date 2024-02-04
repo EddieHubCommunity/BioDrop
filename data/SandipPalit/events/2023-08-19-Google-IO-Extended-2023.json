@@ -1,0 +1,18 @@
+{
+  "userStatus": "speaking",
+  "speakingTopic": "Simple ML for Sheets",
+  "isVirtual": false,
+  "isInPerson": true,
+  "color": "blue",
+  "name": "Google I/O Extended 2023 by GDG Cloud Kolkata",
+  "description": "Google I/O Extended is an annual event organized by Google that takes place alongside the main Google I/O conference. It is designed to bring the Google I/O experience to developers and technology enthusiasts who cannot attend the main event in person. The purpose of Google I/O Extended is to foster a sense of community, share knowledge, and provide access to the latest technologies.",
+  "date": {
+    "start": "2023-08-19T11:00:00.000+05:30",
+    "end": "2023-08-19T17:00:00.000+05:30"
+  },
+  "url": "https://gdg.community.dev/events/details/google-gdg-cloud-kolkata-presents-google-io-extended-2023-by-gdg-cloud-kolkata/",
+  "location": {
+    "city": "Kolkata",
+    "country": "India"
+  }
+}

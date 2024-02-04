@@ -1,134 +1,228 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useCallback, useRef } from "react";
 import { useRouter } from "next/router";
-
-import UserCard from "@components/user/UserCard";
+import UserHorizontal from "@components/user/UserHorizontal";
 import Alert from "@components/Alert";
 import Page from "@components/Page";
 import PageHead from "@components/PageHead";
-import Tag from "@components/Tag";
+import Tag from "@components/tag/Tag";
 import Badge from "@components/Badge";
 import logger from "@config/logger";
-import Input from "@components/form/input";
+import Input from "@components/form/Input";
+import { getTags } from "./api/discover/tags";
+import { getProfiles } from "./api/discover/profiles";
+import Pagination from "@components/Pagination";
+import {
+  cleanSearchInput,
+  searchTagNameInInput,
+} from "@services/utils/search/tags";
+import { PROJECT_NAME } from "@constants/index";
+import Button from "@components/Button";
 
-export async function getServerSideProps(context) {
-  let data = {
-    users: [],
-    tags: [],
-  };
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/users`);
-    data.users = await res.json();
-  } catch (e) {
-    logger.error(e, "ERROR search users");
-  }
+async function fetchUsersByKeyword(keyword) {
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/api/search?${new URLSearchParams({
+      slug: keyword,
+    }).toString()}`,
+  );
 
+  const searchData = await res.json();
+  return searchData.users || [];
+}
+
+async function fetchRecentlyUpdatedUsers() {
+  const users = await getProfiles();
+  return users;
+}
+
+async function fetchTags() {
   try {
-    const res = await fetch(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/tags`
-    );
-    data.tags = await res.json();
+    return await getTags();
   } catch (e) {
     logger.error(e, "ERROR loading tags");
+    return [];
+  }
+}
+
+export async function getServerSideProps(context) {
+  const { keyword } = context.query;
+
+  let serverProps = {
+    tags: [],
+    filteredUsers: [],
+    recentlyUpdatedUsers: [],
+  };
+
+  try {
+    if (keyword) {
+      serverProps.filteredUsers = await fetchUsersByKeyword(keyword);
+    } else {
+      serverProps.recentlyUpdatedUsers = await fetchRecentlyUpdatedUsers();
+    }
+  } catch (e) {
+    logger.error(e, "ERROR fetching users");
   }
 
+  serverProps.tags = await fetchTags();
+
   return {
-    props: { data },
+    props: { data: serverProps, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Search({ data }) {
-  let { users, tags } = data;
-  const router = useRouter();
-  const { username, keyword } = router.query;
-  const [filteredUsers, setFilteredUsers] = useState([]);
+export default function Search({
+  data: { tags, recentlyUpdatedUsers, filteredUsers },
+  BASE_URL,
+}) {
+  const { replace, query, pathname } = useRouter();
+  const { username, keyword, userSearchParam } = query;
   const [notFound, setNotFound] = useState();
-  const [inputValue, setInputValue] = useState(username || keyword || "");
+  const [users, setUsers] = useState(
+    keyword ? filteredUsers : recentlyUpdatedUsers,
+  );
+  const [currentPage, setCurrentPage] = useState(1);
 
-  let results = [];
+  const searchInputRef = useRef(null);
+  const searchTerm = username || keyword || userSearchParam;
 
   useEffect(() => {
     if (username) {
-      setNotFound(username);
+      setNotFound(`${username} not found`);
     }
   }, [username]);
-
-  const filterData = (value) => {
-    const valueLower = value.toLowerCase();
-    const terms = valueLower.split(",");
-
-    results = users.filter((user) => {
-      if (user.name.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-      if (user.username.toLowerCase().includes(valueLower)) {
-        return true;
-      }
-
-      let userTags = user.tags?.map((tag) => tag.toLowerCase());
-
-      if (terms.every((keyword) => userTags?.includes(keyword))) {
-        return true;
-      }
-
-      return false;
-    });
-
-    if (!results.length) {
-      setNotFound(value);
+  useEffect(() => {
+    if (searchInputRef.current) {
+      searchInputRef.current.focus();
     }
-
-    if (results.length) {
-      setNotFound();
-    }
-
-    setFilteredUsers(results.sort(() => Math.random() - 0.5));
-  };
-
-  const search = (keyword) => {
-    if (!inputValue.length) {
-      return setInputValue(keyword);
-    }
-
-    const items = inputValue.split(",");
-    if (inputValue.length) {
-      if (items.includes(keyword)) {
-        return setInputValue(
-          items.filter((item) => item !== keyword).join(",")
-        );
-      }
-
-      return setInputValue([...items, keyword].join(","));
-    }
-
-    setInputValue(keyword);
-  };
+  }, []);
 
   useEffect(() => {
-    if (!inputValue) {
-      //Setting the users as null when the input field is empty
-      setFilteredUsers([]);
-      //Removing the not found field when the input field is empty
-      setNotFound();
+    const onKeyDownHandler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === "k") {
+        e.preventDefault();
+        searchInputRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", onKeyDownHandler);
+
+    return () => {
+      document.removeEventListener("keydown", onKeyDownHandler);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!searchTerm) {
+      replace(
+        {
+          pathname,
+        },
+        undefined,
+        { shallow: true },
+      );
       return;
     }
 
-    const timer = setTimeout(() => {
-      filterData(inputValue);
-    }, 500);
+    async function fetchUsers(value) {
+      try {
+        const res = await fetch(
+          `${BASE_URL}/api/search?${new URLSearchParams({
+            slug: value,
+          }).toString()}`,
+        );
+        const data = await res.json();
+        if (data.error) {
+          throw new Error(`${value} not found`);
+        }
 
-    return () => clearTimeout(timer);
-  }, [inputValue]);
+        setNotFound();
+        setUsers(data.users.sort(() => Math.random() - 0.5));
+        setCurrentPage(1);
+      } catch (err) {
+        setNotFound(err.message);
+        setUsers([]);
+      }
+    }
+
+    if (searchTerm) {
+      fetchUsers(searchTerm);
+    }
+  }, [searchTerm]);
+
+  const handleSearchSubmit = async (e) => {
+    e.preventDefault();
+
+    const params = new URLSearchParams({ query: searchTerm });
+
+    function removeComma(value) {
+      return value.replace(/,(\s*),/g, ",").replace(/^,/, "");
+    }
+    const searchInputVal = removeComma(
+      cleanSearchInput(searchInputRef.current.value),
+    );
+
+    if (!searchInputVal) {
+      params.delete("query");
+    } else {
+      params.set("query", searchInputVal);
+    }
+
+    replace(
+      {
+        pathname,
+        query: { userSearchParam: params.get("query") },
+      },
+      undefined,
+      { shallow: true },
+    );
+  };
+
+  const handleSearchTag = (tagName) => {
+    const params = new URLSearchParams({ query: searchTerm });
+    if (!userSearchParam) {
+      params.set("query", tagName);
+    }
+
+    if (userSearchParam) {
+      if (searchTagNameInInput(userSearchParam, tagName)) {
+        const terms = userSearchParam.split(",");
+        const filteredTerms = terms.filter((item) => item.trim() !== tagName);
+        params.set("query", filteredTerms);
+      } else {
+        params.append("query", tagName);
+      }
+    }
+
+    replace(
+      {
+        pathname,
+        query: {
+          userSearchParam: params.getAll("query").join(", "),
+        },
+      },
+      undefined,
+      { shallow: true },
+    );
+  };
+
+  const usersPerPage = 21;
+  const indexOfLastUser = currentPage * usersPerPage;
+  const indexOfFirstUser = indexOfLastUser - usersPerPage;
+  const visibleUsers = users.slice(indexOfFirstUser, indexOfLastUser);
+
+  const paginate = useCallback((pageNumber) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo({ top: 150, behavior: "smooth" });
+  }, []);
 
   return (
     <>
       <PageHead
-        title="LinkFree Search Users"
-        description="Search LinkFree user directory by name, tags, skills, languages"
+        title={`${PROJECT_NAME} Search Users`}
+        description={`Search ${PROJECT_NAME} user directory by name, tags, skills, languages`}
       />
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Search</h1>
+        <h1 className="mb-4 text-4xl font-bold">Search</h1>
 
-        <div className="flex flex-wrap justify-center space-x-3 mb-4">
+        <div className="flex flex-wrap justify-center mb-4 space-x-3">
           {tags &&
             tags
               .slice(0, 10)
@@ -137,38 +231,69 @@ export default function Search({ data }) {
                   key={tag.name}
                   name={tag.name}
                   total={tag.total}
-                  selected={inputValue
-                    .toLowerCase()
-                    .split(",")
-                    .includes(tag.name.toLowerCase())}
-                  onClick={() => search(tag.name)}
+                  selected={
+                    searchTerm && searchTagNameInInput(searchTerm, tag.name)
+                  }
+                  onClick={() => handleSearchTag(tag.name)}
                 />
               ))}
         </div>
 
         <Badge
-          content={filteredUsers.length}
-          display={!!filteredUsers}
+          content={users.length}
+          display={!!users}
           className="w-full"
           badgeClassName={"translate-x-2/4 -translate-y-1/2"}
         >
-          <Input
-            placeholder="Search user by name or tags; eg: open source,reactjs"
-            className="border-2 hover:border-tertiary-medium transition-all dark:bg-primary-high duration-250 ease-linear rounded px-6 py-2 mb-4 block w-full"
-            name="keyword"
-            value={inputValue}
-            onChange={(e) => setInputValue(e.target.value)}
-          />
+          <form onSubmit={handleSearchSubmit} className="w-full">
+            <Input
+              ref={searchInputRef}
+              placeholder="Search user by name or tags; eg: open source, reactjs or places; eg: London, New York"
+              name="keyword"
+              defaultValue={searchTerm}
+            />
+            <Button type="submit" className="mb-4">
+              Search
+            </Button>
+          </form>
         </Badge>
 
-        {notFound && <Alert type="error" message={`${notFound} not found`} />}
-        <ul className="flex flex-wrap gap-3 justify-center mt-[3rem]">
-          {filteredUsers.map((user) => (
-            <li key={user.username}>
-              <UserCard profile={user} />
-            </li>
-          ))}
+        {!searchTerm && (
+          <h2 className="mt-10 mb-4 text-2xl font-bold">
+            Recently updated profiles
+          </h2>
+        )}
+
+        {notFound && <Alert type="error" message={notFound} />}
+        <ul
+          role="list"
+          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+        >
+          {users.length < usersPerPage &&
+            users.map((user) => (
+              <li key={user.username}>
+                <UserHorizontal profile={user} input={searchTerm} />
+              </li>
+            ))}
+
+          {users.length > usersPerPage &&
+            visibleUsers.map((user) => (
+              <li key={user.username}>
+                <UserHorizontal profile={user} input={searchTerm} />
+              </li>
+            ))}
         </ul>
+
+        {users.length > usersPerPage && (
+          <Pagination
+            currentPage={currentPage}
+            data={users}
+            perPage={usersPerPage}
+            paginate={paginate}
+            startIndex={indexOfFirstUser}
+            endIndex={indexOfLastUser}
+          />
+        )}
       </Page>
     </>
   );

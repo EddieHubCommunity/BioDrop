@@ -1,0 +1,43 @@
+name: Deploy to Vercel Preview
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - feat-reload-pwa
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: install Vercel CLI
+        run: npm install --global vercel@latest
+      - name: pull Vercel environment information
+        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+      - name: build project artifacts
+        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+      - name: deploy preview + assign beta domain
+        run: |
+          OUTPUT=$(du --inodes -d 5 .vercel/output)
+          echo "$OUTPUT"
+          LAST=$(echo "$OUTPUT" | tail -n 1)
+          PERCENTAGE=$(echo "$LAST" | awk 'BEGIN {maxtotal=15000} { printf "%.2f%%", ($1/maxtotal*100) }')
+          echo "Vercel file usage percentage" >> $GITHUB_STEP_SUMMARY
+          echo "$PERCENTAGE" >> $GITHUB_STEP_SUMMARY
+          du -h -d 3 .vercel/output/functions/en
+          vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }} > domain.txt
+          vercel alias --scope ${{ secrets.VERCEL_TEAM_ID }} --token ${{ secrets.VERCEL_TOKEN }} set `cat domain.txt` biodrop-preview.vercel.app
+
+  load-data:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: load json files
+        if: steps.changes.outputs.data == 'true'
+        run: curl -L -f https://biodrop-preview.vercel.app/api/system/reload?secret=${{ secrets.BIODROP_API_SECRET_PREVIEW }}
+      - name: load testimonial files
+        if: steps.changes.outputs.data == 'true'
+        run: curl -L -f https://biodrop-preview.vercel.app/api/system/testimonials-forms?secret=${{ secrets.BIODROP_API_SECRET_PREVIEW }}

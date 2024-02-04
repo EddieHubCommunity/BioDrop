@@ -1,6 +1,5 @@
 {
   "name": "Samarth Dhawan",
-  "type": "personal",
   "bio": "Love to learn new things",
   "tags": [
     "Open Source",
@@ -10,7 +9,6 @@
     "Data Science",
     "Web-3"
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -34,8 +32,14 @@
     }
   ],
   "socials": [
-    { "icon": "SiTwitter", "url": "https://twitter.com/samd_twts" },
-    { "icon": "SiGithub", "url": "https://github.com/samarth8765" },
+    {
+      "icon": "SiTwitter",
+      "url": "https://twitter.com/samd_twts"
+    },
+    {
+      "icon": "SiGithub",
+      "url": "https://github.com/samarth8765"
+    },
     {
       "icon": "SiLinkedin",
       "url": "https://www.linkedin.com/in/samarthdhawan2911/"

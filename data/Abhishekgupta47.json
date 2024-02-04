@@ -1,14 +1,21 @@
 {
   "name": "Abhishek Gupta",
-  "type": "personal",
   "bio": "BCA Graduate | Fullstack Web development | Open-Source Advocate | Consistent Learner",
   "tags": ["Open Source", "Java", "Fullstack", "Web3"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AGupta047" },
-    { "icon": "FaGithub", "url": "https://github.com/Abhishekgupta47" },
-    { "icon": "FaInstagram", "url": "https://instagram.com/learner392001/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AGupta047"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Abhishekgupta47"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/learner392001/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

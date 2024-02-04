@@ -1,8 +1,6 @@
 {
   "name": "RotrixX",
-  "type": "personal",
   "bio": "Full-Stack webdev and Open Source lover!",
-
   "tags": [
     "javascript",
     "golang",
@@ -14,8 +12,14 @@
     "tailwindcss"
   ],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/RotrixLOL" },
-    { "icon": "FaTwitter", "url": "https://twitter.com/RotrixxLOL" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/RotrixLOL"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/RotrixxLOL"
+    }
   ],
   "links": [
     {

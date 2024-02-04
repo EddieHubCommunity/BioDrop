@@ -1,0 +1,16 @@
+{
+  "name": "Ashish Khare",
+  "bio": "An avid learner and binary tree lover.",
+  "links": [
+    {
+      "name": "The Tech Home",
+      "url": "https://twitter.com/ashishk1331",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/hugekontrast/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

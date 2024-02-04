@@ -1,8 +1,6 @@
 {
   "name": "Peter Macdonald",
-  "type": "personal",
   "bio": "Open Source Evangelist, Software Engineering, DevOps",
-
   "tags": [
     "Open Source",
     "Rust",
@@ -16,9 +14,18 @@
     "DevOps"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/_PeterM_" },
-    { "icon": "FaGithub", "url": "https://github.com/Parsifal-M" },
-    { "icon": "FaMastodon", "url": "https://hachyderm.io/@parcifal" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_PeterM_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Parsifal-M"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://hachyderm.io/@parcifal"
+    }
   ],
   "links": [
     {

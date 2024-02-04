@@ -6,18 +6,18 @@ export default {
 
 export const Basic = {
   args: {
-    path: "https://linkfree.eddiehub.io/docs",
+    path: "https://biodrop.io/docs",
     item: {
-      url: "https://linkfree.eddiehub.io/docs",
-      name: "Docs"
+      url: "https://biodrop.io/docs",
+      name: "Docs",
     },
     mode: "",
-  }
+  },
 };
 
 export const Mobile = {
   args: {
     ...Basic.args,
-    mode: "mobile"
-  }
-}
+    mode: "mobile",
+  },
+};

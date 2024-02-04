@@ -1,0 +1,37 @@
+{
+  "name": "Adeola Abdulramon",
+  "bio": "Physics Teacher now **Frontend Developer**. ",
+  "tags": ["Frontend Developer", "Open Source Contributor", "Volunteer"],
+  "socials": [
+    {
+      "icons": "FaTwitter",
+      "url": "https://twitter.com/AdeolaAbdulram"
+    },
+    {
+      "icons": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/adeolaabdulramon/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/AdeolaAbdulram",
+      "icons": "FaTwitter"
+    },
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/adeolaabdulramon/",
+      "icons": "FaLinkedin"
+    },
+    {
+      "name": "Facebook",
+      "url": "http://facebook.com/AdeolatoSuccess",
+      "icons": "FaFacebook"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/KrownWealth/",
+      "icons": "FaGithub"
+    }
+  ]
+}

@@ -1,19 +1,21 @@
 {
   "name": "Aakshita",
-  "type": "personal",
   "bio": "**On my way to become a Devops architect**",
-
   "tags": ["Devops", "Xebia", "Btech"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/aakshita_singh" },
-    { "icon": "FaGithub", "url": "https://github.com/aakshitaa" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/aakshita_singh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/aakshitaa"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/aakshita-singh-44794b227/"
     }
   ],
-
   "links": [
     {
       "name": "GitHub: Let's collaborate",

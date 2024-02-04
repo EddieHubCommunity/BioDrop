@@ -1,19 +1,25 @@
 {
   "name": "Kunal Singh",
-  "type": "personal",
   "bio": "**Engineering undergrad** | **Blogger** | **Music Producer** | **Bringing imagination to life**",
   "tags": ["Open Source", "DevOps", "Linux", "Docker", "Kubernetes"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/_ikunalsingh" },
-    { "icon": "FaGithub", "url": "https://github.com/iKunal-Singh" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/ikunalsingha" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_ikunalsingh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iKunal-Singh"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ikunalsingha"
+    },
     {
       "icon": "FaSoundcloud",
       "url": "https://soundcloud.com/kunal-singh-558758897"
     }
   ],
-
   "links": [
     {
       "name": "Follow for daily lit 🔥 tweets",

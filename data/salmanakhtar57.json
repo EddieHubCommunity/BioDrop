@@ -1,31 +1,34 @@
 {
   "name": "Salman Akhtar",
-  "type": "personal",
-  "bio": "Web Developer | Content Writer",
-
+  "bio": "Python Developer | Technical Writer | AI/ML Enthusiast",
   "links": [
     {
-      "name": "Follow me on Twitter",
+      "name": "Twitter",
       "url": "https://twitter.com/salman_codes",
       "icon": "FaTwitter"
     },
     {
-      "name": "Follow me on Github",
+      "name": "Github",
       "url": "https://github.com/salmanakhtar57",
       "icon": "FaGithub"
     },
     {
-      "name": "Follow me on LinkedIn",
+      "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/salman-akhtar-09a210198/",
       "icon": "FaLinkedinIn"
     },
     {
-      "name": "Follow me on Medium",
+      "name": "Medium Articles",
       "url": "https://salman1234.medium.com/",
       "icon": "FaMediumM"
     },
     {
-      "name": "Follow me on Substack",
+      "name": "Polywork Profile",
+      "url": "https://www.polywork.com/salman_akhtar",
+      "icon": "SiPolywork"
+    },
+    {
+      "name": "Subscribe to my newsletter",
       "url": "https://salman1.substack.com/",
       "icon": "SiSubstack"
     }

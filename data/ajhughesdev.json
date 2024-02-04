@@ -1,7 +1,42 @@
 {
   "name": "Andrew J Hughes",
-  "type": "personal",
-  "bio": "Frontend web developer | he, him",
+  "socials": [
+    {
+      "icon": "FaGithubSquare",
+      "url": "https://github.com/ajhughesdev"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/ajhughesdev"
+    },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ajhughesev"
+    },
+    {
+      "icon": "FaMastodon",
+      "url": "https://mastodon.ajhughes.dev/@ajhughesdev"
+    }
+  ],
+  "bio": "Web developer based in Louisville, KY | he, him",
+  "tags": [
+    "React",
+    "TypeScript",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Frontend",
+    "Django",
+    "Python",
+    "REST API",
+    "PostCSS",
+    "Pixel Perfect",
+    "WordPress",
+    "Blazor",
+    "C#",
+    "ASP.NET Core",
+    "Razor"
+  ],
   "links": [
     {
       "name": "GitHub",
@@ -10,7 +45,7 @@
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/ajhughesdev",
+      "url": "https://www.linkedin.com/in/ajhughesdev",
       "icon": "FaLinkedIn"
     },
     {

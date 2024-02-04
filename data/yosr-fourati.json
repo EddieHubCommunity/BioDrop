@@ -1,0 +1,16 @@
+{
+  "name": "Yosr Fourati",
+  "bio": "Software Engineering Student at Medtech and Enthusiastic Web/Mobile Developer",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/yosr-fourati",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/yosr-fourati-27b914211/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

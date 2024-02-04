@@ -1,0 +1,16 @@
+{
+  "name": "Tanmay Joshi",
+  "bio": "Passionate student on a quest to master the art of software development. 🚀",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": " https://twitter.com/tanmayjoshi73",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": " https://github.com/Tanmay-Joshi73",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

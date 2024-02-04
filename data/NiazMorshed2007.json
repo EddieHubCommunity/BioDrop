@@ -1,11 +1,16 @@
 {
   "name": "Niaz Morshed",
-  "type": "personal",
   "bio": "Frontend Developer | ReactJs ~ Next.js | Open Source contributor 🎯 | Open for opportunity 🙂",
   "tags": ["Open Source", "Javascript", "Typescript", "React", "NextJS"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/niazmorshed_" },
-    { "icon": "FaGithub", "url": "https://github.com/NiazMorshed2007" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/niazmorshed_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/NiazMorshed2007"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/niazmorsheddev"

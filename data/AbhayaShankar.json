@@ -1,0 +1,120 @@
+{
+  "name": "Abhaya Shankar",
+  "bio": "Professional Web Developer | React JS | Next JS | Open Source Contributor | Freelance",
+  "tags": [
+    "Front-End",
+    "Javascript",
+    "ReactJS",
+    "NextJS",
+    "Open Source",
+    "Freelance"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/AbhayaShankar2" },
+    { "icon": "FaGithub", "url": "https://github.com/AbhayaShankar" },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/abhayashankar/"
+    }
+  ],
+  "links": [
+    {
+      "group": "Projects",
+      "name": "Estate Empires",
+      "url": "https://estates-empire.vercel.app/",
+      "icon": "FaJsSquare"
+    },
+    {
+      "group": "Projects",
+      "name": "Abhaya's Blog",
+      "url": "https://abhayablog.vercel.app/",
+      "icon": "FaBlogger"
+    },
+    {
+      "group": "Projects",
+      "name": "Animxstore",
+      "url": "https://animxstore.vercel.app/",
+      "icon": "FaAppStore"
+    },
+    {
+      "group": "Projects",
+      "name": "Cinetrek",
+      "url": "https://cinetrek.netlify.app/",
+      "icon": "FaLaptop"
+    },
+    {
+      "group": "Socials",
+      "name": "Let's Talk on Twitter",
+      "url": "https://twitter.com/AbhayaShankar2",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials",
+      "name": "Collaborate on Github",
+      "url": "https://github.com/AbhayaShankar",
+      "icon": "FaGithub",
+      "color": "#212121"
+    },
+    {
+      "group": "Socials",
+      "name": "Connect on Linkedin",
+      "url": "https://www.linkedin.com/in/abhayashankar/",
+      "icon": "FaLinkedin",
+      "color": "#204ecf"
+    },
+    {
+      "group": "Socials",
+      "name": "Abhaya : Discord",
+      "url": "discordapp.com/users/Abhaya1289#3250",
+      "icon": "FaDiscord"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "The Beginning...",
+      "date": "October 2022",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "The time I started web development - HTML, CSS, JS"
+    },
+    {
+      "title": "Started building Projects using Vanilla JS",
+      "date": "December 2022",
+      "icon": "FaCode",
+      "color": "green",
+      "description": "Started building Vanilla JS Projects"
+    },
+    {
+      "title": "Started React JS",
+      "date": "January 2023",
+      "icon": "FaReact",
+      "color": "green",
+      "description": "Build some good Projects using ReactJs - Animxstore, Scrollify and Cinetrek "
+    },
+    {
+      "title": "First Freelance",
+      "date": "February 2023",
+      "icon": "FaFreebsd",
+      "color": "green",
+      "description": "Got my First Freelance experience - worked for 2 months. Got exceptionally good feedback.",
+      "url": "https://scrollify.vercel.app/"
+    },
+    {
+      "title": "First Open Source Contribution",
+      "date": "May 2023",
+      "icon": "FaOsi",
+      "color": "green",
+      "description": "First open Source contribution is exceptionally satisfying...",
+      "url": "https://free-hit.vercel.app/"
+    },
+    {
+      "isGoal": true,
+      "title": "Deep dive into open source community",
+      "date": "2023",
+      "icon": "FaGithub",
+      "color": "green",
+      "description": "Wanted to get real with typescript and contribute to open source."
+    }
+  ]
+}

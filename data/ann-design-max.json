@@ -1,8 +1,6 @@
 {
   "name": "Anastestia Onyekaba",
-  "type": "personal",
   "bio": "UI/UX Designer | Frontend Developer | Co-Founder of N&S Tech | Open Source Enthusiast!",
-
   "links": [
     {
       "name": "Follow me on GitHub ",
@@ -34,7 +32,6 @@
     {
       "title": "Started Freelancing",
       "date": "May 2019",
-
       "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started freelancing on Upwork",
@@ -43,7 +40,6 @@
     {
       "title": "Upwork's Rising Talent",
       "date": "April 2020",
-
       "icon": "FaDollarSign",
       "color": "grey",
       "description": "Became a Rising Talent on Upwork with 3 Completed Jobs sucessfully rated a 5 Star",
@@ -52,7 +48,6 @@
     {
       "title": "Co-Founded N&S Tech",
       "date": "Feb 2021",
-
       "icon": "FaDollarSign",
       "color": "grey",
       "description": "Started A Tech Agency with a Team of Quality Developers and Designers",
@@ -61,7 +56,6 @@
     {
       "title": "Upwork's Top Rated Talent",
       "date": "May 2021",
-
       "icon": "FaDollarSign",
       "color": "grey",
       "description": "Became a Top Rated Talent on Upwork with over 10 Completed Jobs sucessfully rated a 5 Star",

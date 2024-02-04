@@ -1,0 +1,37 @@
+{
+  "name": "Wasim Reja",
+  "bio": "Full Stack Developer | MERN | Open Source",
+  "tags": ["Open Source", "Javascript", "Typescript", "React", "NextJS"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/_wasimreja"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/wasimreja"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/wasimreja",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check out my Portfolio",
+      "url": "https://wasimreja.vercel.app",
+      "icon": "FaLink"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/_wasimreja",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/wasimreja",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

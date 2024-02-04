@@ -1,8 +1,6 @@
 {
   "name": "Yash Dewasthale",
-  "type": "personal",
   "bio": "**Open-Source** Advocate | Founder of [**BuildersChain**](https://github.com/BuildersChain) | Data Scientist-Data Engineer | **Freelance** Developer | Web3 Enthusiast",
-
   "tags": [
     "Open Source",
     "Python",
@@ -16,14 +14,24 @@
     "freelancer",
     "Web3"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/dew_yashtwt" },
-    { "icon": "FaGithub", "url": "https://github.com/yashdev9274" },
-    { "icon": "FaLinkedin", "url": "https://linkedin.com/in/yash-dewasthale" },
-    { "icon": "FaInstagram", "url": "https://www.instagram.com/progradecode/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/dew_yashtwt"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/yashdev9274"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/in/yash-dewasthale"
+    },
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/progradecode/"
+    }
   ],
-
   "links": [
     {
       "group": "Business",
@@ -31,7 +39,6 @@
       "url": "https://www.upwork.com/freelancers/~01e912bba335089b60",
       "icon": "FaBusinessTime"
     },
-
     {
       "group": "Socials",
       "name": "GitHub - Check out my work",
@@ -68,7 +75,6 @@
       "url": "https://www.youtube.com/@theEtherTimes",
       "icon": "FaYoutube"
     },
-
     {
       "group": "Open Source Projects",
       "name": "Only source you will need to become Data Scientist - Data Engineer",

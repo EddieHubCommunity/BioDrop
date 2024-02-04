@@ -1,0 +1,23 @@
+{
+  "isVirtual": false,
+  "isInPerson": true,
+  "name": "Doon Tech Community - June'23 Meetup",
+  "description": "Join us for an engaging and insightful meetup as we navigate the world of cloud computing while meeting with our fellow community members from Dehradun and beyond.",
+  "date": {
+    "start": "2023-06-17T16:00:00.000+00:00",
+    "end": "2023-06-17T17:00:00.000+00:00",
+    "cfpClose": "2022-10-09T17:00:00.000+00:00"
+  },
+  "url": "https://lu.ma/dtc-june23",
+  "price": {
+    "startingFrom": 0
+  },
+  "location": {
+    "road": "108, Haridwar Rd, Drone Puri, Ajabpur Kalan",
+    "city": "Dehradun",
+    "state": "Uttarakhand",
+    "country": "India"
+  },
+  "userStatus": "attending",
+  "speakingTopic": "Cloud Computing"
+}

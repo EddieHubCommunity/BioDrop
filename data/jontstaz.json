@@ -1,11 +1,16 @@
 {
   "name": "Jonte",
-  "type": "personal",
   "bio": "I'm an API Solutions Engineer based in Melbourne with experience in API Development, DevSecOps, Cloud Security, and Algorithmic Trading Systems. Currently working as a Solutions Engineer for a major fintech company.",
   "tags": ["Open Source", "Python", "JavaScript", "PHP", "DevSecOps"],
   "socials": [
-    { "icon": "FaGithub", "url": "https://github.com/jontstaz" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/jontedez/" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/jontstaz"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jontedez/"
+    }
   ],
   "links": [
     {

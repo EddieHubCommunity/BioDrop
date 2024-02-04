@@ -1,6 +1,5 @@
 {
   "name": "Aniket Dubey",
-  "type": "personal",
   "bio": "Java 🧠 | Full Stack Developer 💻 | Open Source 🔮 ",
   "tags": [
     "Open Source",
@@ -11,6 +10,20 @@
     "Express",
     "MongoDb",
     "Tailwind"
+  ],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ANIKET__DUBEY"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Aniket1026"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aniket-dubey-b39902208/"
+    }
   ],
   "links": [
     {

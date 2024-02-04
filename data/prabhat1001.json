@@ -1,0 +1,26 @@
+{
+  "name": "Prabhat Saraswat",
+  "bio": "Creative Frontend developer, skilled in React, JavaScript, HTML, CSS etc. I am passionate about building responsive and appealing user interfaces (UI).",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/PrabhatSar10",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/prabhatkumarsaraswat/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/prabhat1001",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Hashnode",
+      "url": "https://prabhat1001.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

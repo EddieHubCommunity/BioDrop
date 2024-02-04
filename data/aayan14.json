@@ -1,0 +1,18 @@
+{
+    "name": "Aayan Singh",
+    "bio": "Graduated for BMS Institute of Technology | Worked at Mphasis",
+    "links": [
+        {
+            "group": "Linkedin",
+            "name": "Connect with me",
+            "url": "https://www.linkedin.com/in/aayan-singh-20088b189/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "group": "Github",
+            "name": "Connect with me",
+            "url": "https://github.com/aayan14",
+            "icon": "FaGithub"
+        }
+    ]
+}

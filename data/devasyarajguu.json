@@ -1,0 +1,22 @@
+{
+  "name": "Devasya Rajguru",
+  "bio": "Hey it's me Devasya Rajguru. I have a keen interest in Web development and have a huge fascination in Open Source and technology.",
+
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/RajguruDevasya",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/devasyarajguru",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/devasya-rajguru-1a38b0211/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Yassine Atik",
+  "bio": "Fullstack Web Developer : PHP | LARAVEL  ,  REACT | NEXT.JS",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/IamYassineAtik",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Connect",
+      "url": "https://www.linkedin.com/in/yassineatik/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check my GitHub",
+      "url": "https://github.com/yassineatik/",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Check me on Instagram",
+      "url": "https://instagram.com/yassine_atikk",
+      "icon": "FaInstagram"
+    }
+  ],
+  "tags": [
+    "Open Source",
+    "FullStack",
+    "Javascript",
+    "Typescript",
+    "NextJS",
+    "React",
+    "Laravel",
+    "PHP"
+  ],
+  "socials": [
+    { "icon": "FaTwitter", "url": "https://twitter.com/IamYassineAtik" },
+    { "icon": "FaGithub", "url": "https://github.com/yassineatik" },
+    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/yassineatik/" },
+    { "icon": "SiGmail", "url": "mailto:atikyassine4@gmail.com" }
+  ]
+}

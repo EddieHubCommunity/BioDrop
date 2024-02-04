@@ -1,10 +1,10 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require("@axe-core/playwright").default;
+import AxeBuilder from "@axe-core/playwright";
 
 test("Map has title", async ({ page }) => {
   await page.goto("/map");
-  await expect(page).toHaveTitle(/LinkFree Users Around The World/);
+  await expect(page).toHaveTitle(/BioDrop Users Around The World/);
 });
 
 test("Map displays markers after visiting profiles", async ({ page }) => {

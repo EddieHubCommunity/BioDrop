@@ -1,0 +1,21 @@
+{
+  "name": "Debak Roy",
+  "bio": "Hello there! My name is Debak Roy and I am an undergrad student. I am passionate about Web Development and Machine Learning, and love to build websites and explore about different AIs emerging. May the Force be with you!",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/RoyDebak",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/slayeh17",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/debak-roy-464827249/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

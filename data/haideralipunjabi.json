@@ -1,8 +1,6 @@
 {
   "name": "Haider Ali Punjabi",
-  "type": "personal",
   "bio": "Software Developer | Open Source & Linux Enthusiast",
-
   "tags": [
     "Open Source",
     "Javascript",
@@ -13,8 +11,14 @@
     "FitDevs"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/HAliPunjabi" },
-    { "icon": "FaGithub", "url": "https://github.com/haideralipunjabi" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/HAliPunjabi"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/haideralipunjabi"
+    }
   ],
   "links": [
     {

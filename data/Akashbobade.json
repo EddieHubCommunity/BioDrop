@@ -1,14 +1,21 @@
 {
   "name": "Akash Bobade",
-  "type": "personal",
   "bio": "Full Stack Blockchain Developer | Open Source | ",
   "tags": ["reactJs", "Open Source", "Technical Writer", "Web3"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/akashgotnochill" },
-    { "icon": "FaGithub", "url": "https://github.com/Akashbobade" },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@akashgotnochill" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/akashgotnochill"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Akashbobade"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@akashgotnochill"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

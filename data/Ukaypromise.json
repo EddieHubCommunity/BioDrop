@@ -1,8 +1,6 @@
 {
   "name": "Promise Uka",
-  "type": "personal",
   "bio": "Full-Stack Developer, Open-source enthusiast. Stack: JavaScript | TypeScript | Ruby | React | Redux | Rails | Node | Express. Open to opportunities!",
-
   "tags": [
     "Ruby on Rails",
     "Javascript",
@@ -13,13 +11,20 @@
     "PostgreSQL",
     "Open Source"
   ],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/PromiseUkay" },
-    { "icon": "FaGithub", "url": "https://github.com/Ukaypromise" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/promiseuka/" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/PromiseUkay"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ukaypromise"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/promiseuka/"
+    }
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -42,7 +47,6 @@
       "icon": "FaGithub"
     }
   ],
-
   "milestones": [
     {
       "title": "Started Freelancing",

@@ -1,14 +1,21 @@
 {
   "name": "Shreya Purohit",
-  "type": "personal",
   "bio": "Data Analyst | Technical Writer",
   "tags": ["Data Science", "Data Analytics", "Technical Writing", "SQL"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/eyeshreya" },
-    { "icon": "FaLink", "url": "https://shreyapurohit.now.sh" },
-    { "icon": "FaGithub", "url": "https://github.com/ieshreya" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/eyeshreya"
+    },
+    {
+      "icon": "FaLink",
+      "url": "https://shreyapurohit.now.sh"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/ieshreya"
+    }
   ],
-
   "links": [
     {
       "name": "Threads on data analytics",

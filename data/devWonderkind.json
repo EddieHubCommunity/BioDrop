@@ -1,0 +1,45 @@
+{
+  "name": "Aakanksha Chahal",
+  "bio": "Frontend developer | Open Source",
+  "tags": ["Open Source", "Javascript", "TailwindCSS", "ReactJS", "Typescript"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/devWonderkind"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/devWonderkind"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/devWonderkind/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://aakankshachahal.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Check out my GitHub",
+      "url": "https://github.com/devWonderkind",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/devWonderkind",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/devWonderkind/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Check out my blog",
+      "url": "https://aakankshachahal.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

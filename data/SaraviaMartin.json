@@ -1,0 +1,41 @@
+{
+  "name": "Saravia Juan Martin",
+  "bio": "Front-end Developer **Student**. Writer & Human",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/juan_martin444",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/juan.martinsaravia/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/martin.saraviadasilva/",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/juanmartin96/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/SaraviaMartin",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Casino Online",
+      "url": "https://apuestaya.net",
+      "icon": "FaDice"
+    },
+    {
+      "name": "Portafolio",
+      "url": "https://portafolio-jm.vercel.app/",
+      "icon": "FaChrome"
+    }
+  ]
+}

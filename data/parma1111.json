@@ -1,8 +1,6 @@
 {
   "name": "Parma Ram",
-  "type": "personal",
   "bio": "Full Stack Web Developer | Exploring Tech | Open Source Enthusiast!",
-
   "tags": [
     "Open Source",
     "Web Developer",
@@ -14,13 +12,22 @@
     "NodeJS"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/BuldakParma" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/BuldakParma"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/parma-ram-349b16228/"
     },
-    { "icon": "FaGithub", "url": "https://github.com/parma1111" },
-    { "icon": "SiHashnode", "url": "https://hashnode.com/@ParmaRam" }
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/parma1111"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://hashnode.com/@ParmaRam"
+    }
   ],
   "links": [
     {

@@ -1,0 +1,35 @@
+{
+  "name": "Kayode  Oluwole",
+  "bio": "FrontEnd Developer, Technical Writer. Photographer",
+  "tags": ["Open Source", "Javascript", "Technical Writing"],
+  "socials": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/afrokayie",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on instagram",
+      "url": "https://instagram.com/afrokayie",
+      "icon": "FaInstagram"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/afrokayie",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/afrokayie",
+      "icon": "FaInstagram"
+    },
+
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/oluwole-kayode-a16957209/",
+      "icon": "FaLinkedIn"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Luc Ferrara",
+  "bio": "Computer Science student at Northeastern University.",
+  "links": [
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/luc.ferrara/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Snapchat",
+      "url": "https://t.snapchat.com/IFTq69Sy",
+      "icon": "FaSnapchat"
+    },
+    {
+      "name": "Chess.com",
+      "url": "https://www.chess.com/member/luc120",
+      "icon": "FaChessKing"
+    },
+    {
+      "name": "Lichess",
+      "url": "https://lichess.org/@/Luc120",
+      "icon": "SiLichess"
+    }
+  ]
+}

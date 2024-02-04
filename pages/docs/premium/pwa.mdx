@@ -1,0 +1,36 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Alert from "@components/Alert.js";
+
+## Progressive Web App (PWA)
+
+BioDrop is a Progressive Web App (PWA) which gives you offline access to your Profile and QR code.
+
+### Installation
+
+To install BioDrop on your device, follow the steps below:
+
+1. Open the BioDrop app in your mobile internet browser.
+2. In the share menu, scroll down and tap to "Add to Home Screen".
+3. Follow the prompts to install BioDrop on your device.
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      For a better experience, we recommend using a custom domain for your Profile
+      and visiting this url in your mobile internet browser when installing BioDrop
+      PWA - this will remove the header and footer from your Profile.
+    </>
+  }
+/>
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);

@@ -1,0 +1,21 @@
+{
+  "name": "Heby T Paul",
+  "bio": "Full Stack Web Developer, Opensource Enthusiast, MERN Stack Developer",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/heby_t",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/hebytpaul/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/hebypaul",
+      "icon": "FaGithub"
+    }
+  ]
+}

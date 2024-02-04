@@ -1,0 +1,21 @@
+{
+  "name": "Kedar Makode",
+  "bio": "JavaScript ninja with a penchant for turning coffee into code and debugging into a puzzle-solving adventure",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kedarmakode/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/Kedar__98",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/kedar1998",
+      "icon": "FaGithub"
+    }
+  ]
+}

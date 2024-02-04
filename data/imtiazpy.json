@@ -1,29 +1,31 @@
 {
   "name": "Imtiaz Ahmed",
-  "type": "personal",
   "bio": "**Freelance Software Developer**",
-
   "tags": ["Python", "JavaScript", "TypeScript", "NextJS", "Django", "Wagtail"],
   "links": [
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/imtiazpy",
-      "icon": "FaTwitter"
+      "icon": "FaTwitter",
+      "group": "Socials"
     },
     {
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/imtiazpy",
-      "icon": "FaInstagram"
+      "icon": "FaInstagram",
+      "group": "Socials"
     },
     {
       "name": "Follow me on Linkedin",
       "url": "https://linkedin.com/in/imtiazpy",
-      "icon": "FaLinkedin"
+      "icon": "FaLinkedin",
+      "group": "Socials"
     },
     {
       "name": "Checkout my Github",
       "url": "https://github.com/imtiazpy",
-      "icon": "FaGithub"
+      "icon": "FaGithub",
+      "group": "Socials"
     },
     {
       "name": "Checkout my Codepen",
@@ -31,9 +33,22 @@
       "icon": "FaCodepen"
     },
     {
+      "name": "Leetcode",
+      "url": "https://leetcode.com/imtiaz_py/",
+      "icon": "SiLeetcode",
+      "group": "Problem Solving"
+    },
+    {
       "name": "Hackerrank",
       "url": "https://www.hackerrank.com/imtiazpy",
-      "icon": "FaHackerrank"
+      "icon": "FaHackerrank",
+      "group": "Problem Solving"
+    },
+    {
+      "name": "Codingame",
+      "url": "https://www.codingame.com/profile/7701d9d93ca66b54c5446d59a827eb6c2169474",
+      "icon": "SiCodingame",
+      "group": "Problem Solving"
     }
   ],
   "milestones": [
@@ -52,6 +67,14 @@
       "color": "grey",
       "description": "I started freelancing as a full-time Fullstack web developer in January 2022. I have gained experience in Web Development through both part-time and full-time freelancing. I am able to work independently and deliver high-quality results within tight deadlines, having the autonomy to manage my own time and workload.",
       "url": "https://www.upwork.com/freelancers/~01838636f6b962f97a?viewMode=1&s=1110580755057594368"
+    },
+    {
+      "title": "Contributed to open source for the first time",
+      "date": "Jan 2023",
+      "icon": "FaCode",
+      "color": "grey",
+      "description": "The project I contributed to is designed to assist developers in troubleshooting errors that occur while running git commands. It provides users with helpful solutions to address specific errors.",
+      "url": "https://github-error-solve.vercel.app/"
     }
   ]
 }

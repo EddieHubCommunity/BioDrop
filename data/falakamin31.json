@@ -1,8 +1,6 @@
 {
   "name": "Falak Amin",
-  "type": "personal",
   "bio": "Frontend Web Developer (Html, Css, Vanilla Javascript, React.js, Nodejs) open source contributor",
-
   "links": [
     {
       "name": "Follow me on GitHub",
@@ -23,7 +21,6 @@
   "milestones": [
     {
       "title": "Started Open Source Contribution",
-
       "date": "September 2021",
       "icon": "FaGithub",
       "color": "green",

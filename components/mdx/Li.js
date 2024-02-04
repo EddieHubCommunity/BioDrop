@@ -1,3 +1,3 @@
 export default function Li(props) {
-  return <li className="w-full break-all" {...props}></li>;
+  return <li className="w-full" {...props}></li>;
 }

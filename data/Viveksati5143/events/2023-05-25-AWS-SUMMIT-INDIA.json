@@ -1,0 +1,15 @@
+{
+  "isVirtual": true,
+  "name": "AWS SUMMIT INDIA",
+  "description": "Free online conference that brings the cloud computing community together to connect, collaborate, and learn about AWS and the cloud. Join for an immersive virtual experience as we bring to you educational content on the latest developments in cloud technology so you can build tomorrow, today. Discover how the cloud empowers builders and businesses to innovate at scale. Sessions will be delivered by AWS subject matter experts and customers and can be customized to your individual needs and experience.",
+  "date": {
+    "start": "2023-05-25T10:00:00.000+05:30",
+    "end": "2023-05-25T13:15:00.000+05:30"
+  },
+  "url": "https://aws.amazon.com/events/summits/india/",
+  "price": {
+    "startingFrom": 0
+  },
+  "userStatus": "attending",
+  "speakingTopic": "AWS"
+}

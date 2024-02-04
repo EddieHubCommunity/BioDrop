@@ -1,19 +1,28 @@
 {
   "name": "Nikhil Raikwar",
-  "type": "personal",
   "bio": "Full Stack Developer || **OpenSource Enthusiast** || Technical Writer ",
-
   "tags": ["Open Source", "Javascript", "Python", "NextJS", "DevOps", "DevRel"],
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/NikhilRaikwarr" },
-    { "icon": "FaGithub", "url": "https://github.com/NikhilRaikwar" },
-    { "icon": "FaYoutube", "url": "https://youtube.com/@nikhilaicodes6700" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/NikhilRaikwarr"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/NikhilRaikwar"
+    },
+    {
+      "icon": "FaYoutube",
+      "url": "https://youtube.com/@nikhilaicodes6700"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/nikhilraikwar16/"
     },
-    { "icon": "FaInstagram", "url": "https://instagram.com/nikhilraikwar_18" }
+    {
+      "icon": "FaInstagram",
+      "url": "https://instagram.com/nikhilraikwar_18"
+    }
   ],
   "links": [
     {
@@ -22,7 +31,6 @@
       "url": "https://github.com/NikhilRaikwar",
       "icon": "FaGithub"
     },
-
     {
       "group": "Socials Primary",
       "name": "Twitter: Follow me",
@@ -30,28 +38,24 @@
       "icon": "FaTwitter",
       "color": "#00ACEE"
     },
-
     {
       "group": "Socials Primary",
       "name": "Instagram: Follow me",
       "url": "https://instagram.com/nikhilraikwar_18",
       "icon": "FaInstagram"
     },
-
     {
       "group": "Socials Primary",
       "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/nikhilraikwar16/",
       "icon": "FaLinkedin"
     },
-
     {
       "group": "Nikhil Raikwar Community",
       "name": "CodeCrushers: Discord",
       "url": "https://discord.gg/wUkFFPdg3f",
       "icon": "FaDiscord"
     },
-
     {
       "group": "Socials Primary",
       "name": "YouTube: Learn more about Open Source",

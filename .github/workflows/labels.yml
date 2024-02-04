@@ -1,0 +1,89 @@
+name: Label PRs
+
+on:
+  - pull_request_target
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  label:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4 # Uploads repository content to the runner to ensure config file available
+        with:
+          sparse-checkout: |
+            .github/config/labeler.yml
+          sparse-checkout-cone-mode: false
+      - uses: actions/labeler@v4
+        with:
+          configuration-path: .github/config/labeler.yml
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          dot: true
+          sync-labels: true
+
+  issue-linked:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: octokit/graphql-action@v2.x
+        id: get_linked_issue
+        with:
+          query: |
+            query issue($owner:String!,$repo:String!,$pr:Int!) {
+              repository(owner:$owner,name:$repo) {
+                pullRequest(number: $pr) {
+                  closingIssuesReferences (first: 1) {
+                    nodes {
+                      number
+                      assignees(first: 1) {
+                        nodes {
+                          login
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          variables: |
+            owner: ${{ github.repository_owner }}
+            repo: ${{ github.event.repository.name }}
+            pr: ${{ github.event.pull_request.number}}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Count linked issues
+        id: count_nodes
+        env:
+          GH_DETAILS: ${{ steps.get_linked_issue.outputs.data }}
+        run: |
+          GH_COUNT=$(echo "$GH_DETAILS" | jq '.repository.pullRequest.closingIssuesReferences.nodes | length')
+          echo "count=$GH_COUNT" >> "$GITHUB_OUTPUT"
+          echo "count=$GH_COUNT"
+      - name: Check assignee count
+        id: assignee_ct
+        if: steps.count_nodes.outputs.count > 0
+        env:
+          GH_DETAILS: ${{ steps.get_linked_issue.outputs.data }}
+        run: |
+          GH_ASSIGNCT=$(echo "$GH_DETAILS" | jq '.repository.pullRequest.closingIssuesReferences.nodes[0].assignees.nodes | length')
+          echo "count=$GH_ASSIGNCT" >> "$GITHUB_OUTPUT"
+          echo "count=$GH_ASSIGNCT"
+      - name: Check assignee
+        id: assignee
+        if: steps.count_nodes.outputs.count > 0 && steps.assignee_ct.outputs.count > 0
+        env:
+          GH_DETAILS: ${{ steps.get_linked_issue.outputs.data }}
+        run: |
+          GH_ASSIGN=$(echo "$GH_DETAILS" | jq -r '.repository.pullRequest.closingIssuesReferences.nodes[0].assignees.nodes[0].login')
+          echo "name=$GH_ASSIGN" >> "$GITHUB_OUTPUT"
+          echo "name=$GH_ASSIGN"
+          echo "${{ github.actor }}"
+      - name: Add issue-linked label
+        if: steps.count_nodes.outputs.count > 0 && steps.assignee_ct.outputs.count > 0 && github.actor == steps.assignee.outputs.name
+        run: |
+          gh pr edit ${{ github.event.pull_request.number}} --add-label 'issue linked' --repo $GITHUB_REPOSITORY
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,17 +1,21 @@
 {
   "name": "Atharva Raut",
-  "type": "personal",
   "bio": "Full Stack Developer | Open Source Enthusiast",
   "tags": ["Open Source", "Content Writer", "Blogging"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/Atharva_23_" },
-    { "icon": "FaGithub", "url": "https://github.com/AtharvaRaut2002" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/Atharva_23_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/AtharvaRaut2002"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/atharva-raut-856b52205/"
     }
   ],
-
   "links": [
     {
       "name": "Follow me on GitHub",

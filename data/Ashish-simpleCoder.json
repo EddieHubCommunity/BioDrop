@@ -1,0 +1,17 @@
+{
+  "name": "Ashish Prajapati",
+  "bio": "Web Developer in JavaScript | ReactJS | Typescript-React",
+  "tags": ["Typescript", "Javascript", "ReactJS", "Open Source"],
+  "links": [
+    {
+      "name": "Connect on LinkedIn",
+      "url": "https://www.linkedin.com/in/ashish-prajapati-002154193/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Ashish-simpleCoder",
+      "icon": "FaGit"
+    }
+  ]
+}

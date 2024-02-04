@@ -1,6 +1,5 @@
 {
   "name": "Nayan M.K",
-  "type": "personal",
   "bio": "trying to consume less and create more.",
   "links": [
     {
@@ -8,7 +7,6 @@
       "url": "https://www.instagram.com/tf.nayan/",
       "icon": "FaInstagram"
     },
-
     {
       "name": "Here's my GitHub",
       "url": "https://github.com/threesquaree",

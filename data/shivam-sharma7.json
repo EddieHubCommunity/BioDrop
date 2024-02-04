@@ -1,8 +1,6 @@
 {
   "name": "Shivam Sharma",
-  "type": "personal",
   "bio": "Contributor @kubesimplify @Hyperfoil | Full Stack Web | Computer Science Student.",
-
   "links": [
     {
       "name": "Follow me on Twitter",
@@ -14,13 +12,11 @@
       "url": "https://github.com/shivam-sharma7",
       "icon": "FaGithub"
     },
-
     {
       "name": "Blog",
       "url": "https://shivam-sharma.hashnode.dev/",
       "icon": "SiHashnode"
     },
-
     {
       "name": "LinkedIn",
       "url": "https://www.linkedin.com/in/meshivamsharma/",

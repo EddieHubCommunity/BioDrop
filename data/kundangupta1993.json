@@ -1,8 +1,6 @@
 {
   "name": "Kundan Gupta",
-  "type": "personal",
   "bio": "Artist By Choice, Engineer By Default | Front-End Developer",
-
   "tags": [
     "Open Source",
     "Html",
@@ -12,7 +10,6 @@
     "photoshop",
     "React"
   ],
-
   "links": [
     {
       "name": "Follow me on Twitter",

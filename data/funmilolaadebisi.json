@@ -1,0 +1,21 @@
+{
+  "name": "Funmilola Adebisi",
+  "bio": "A developer that loves creating beautiful things for the web",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/__lolaog",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/funmilola-adebisi-072aa21a5/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/funmilolaadebisi",
+      "icon": "FaGithub"
+    }
+  ]
+}

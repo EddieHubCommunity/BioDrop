@@ -1,0 +1,28 @@
+import DocsLayout from "@components/layouts/DocsLayout.js";
+import Alert from "@components/Alert.js";
+
+## Mobile App
+
+<Alert
+  type="warning"
+  message={
+    <>
+      <strong>NOTE: </strong>
+      Use your custom domsin to get the best experience on mobile, this will show your profile directly when opening the app
+    </>
+  }
+/>
+
+We use PWA (Progressive Mobile App) to make it easier for you to access your profile on mobile.
+
+### 1. Visit to your custom domain
+
+export default ({ children }) => (
+  <DocsLayout
+    title="BioDrop Links Documentation"
+    section="Customising your Profile"
+    name="Links"
+  >
+    {children}
+  </DocsLayout>
+);

@@ -1,12 +1,16 @@
 {
   "name": "Jisan Mia",
-  "type": "personal",
   "bio": "Front-End Developer — JavaScript, React.js, Next.js",
-
   "tags": ["NextJS", "Typescript", "Javascript", "TailwindCSS", "Open Source"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/JisanMia4" },
-    { "icon": "FaGithub", "url": "https://github.com/Jisan-mia" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/JisanMia4"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Jisan-mia"
+    }
   ],
   "links": [
     {

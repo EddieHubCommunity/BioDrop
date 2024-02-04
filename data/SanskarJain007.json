@@ -1,12 +1,16 @@
 {
   "name": "Sanskar Jain",
-  "type": "personal",
   "bio": "Open Source Enthusiast| Front-end Developer",
-
   "tags": ["javascript", "HTML", "CSS", "DSA"],
   "socials": [
-    { "icon": "twitter", "url": "https://twitter.com/imsanskarjain" },
-    { "icon": "github", "url": "https://github.com/SanskarJain007" }
+    {
+      "icon": "twitter",
+      "url": "https://twitter.com/imsanskarjain"
+    },
+    {
+      "icon": "github",
+      "url": "https://github.com/SanskarJain007"
+    }
   ],
   "links": [
     {

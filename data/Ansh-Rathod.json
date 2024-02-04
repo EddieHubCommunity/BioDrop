@@ -1,12 +1,16 @@
 {
   "name": "Ansh Rathod",
-  "type": "personal",
   "bio": "Full-Stack developer | Flutter | Nextjs",
-
   "tags": ["flutter", "nodejs", "dart", "javascript", "typescript"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/AnshhRathod" },
-    { "icon": "FaGithub", "url": "https://github.com/Ansh-Rathod" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/AnshhRathod"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Ansh-Rathod"
+    }
   ],
   "links": [
     {

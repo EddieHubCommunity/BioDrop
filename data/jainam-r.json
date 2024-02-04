@@ -1,0 +1,16 @@
+{
+  "name": "Jainam Rambhia",
+  "bio": "Love Open Source :)",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/RambhiaJainam",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/jainam-r/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

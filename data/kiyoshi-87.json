@@ -1,0 +1,26 @@
+{
+  "name": "Ayan Sarma",
+  "bio": "B.Tech Undergrad student. Interested in cloud technologies.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/asarma_twt",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/kiyoshi-87",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ayan-sarma87",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/ayan_srma/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Rohit Agrawal",
+  "bio": "Hi, I’m Rohit Agrawal. I am pursuing data science and am learning Unity for game development ,B.tech - Computer Science Engeering",
+  "links": [
+    {
+      "name": "Follow me on Linedin",
+      "url": "https://www.linkedin.com/in/rohit-agrawal-27285824a/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/rohitagr0310",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/_rohitagar2610_/",
+      "icon": "FaInstagram"
+    }
+  ],
+  "testimonials": ["jainankit0811"]
+}

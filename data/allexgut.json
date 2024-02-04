@@ -1,0 +1,11 @@
+{
+  "name": "Alexander Dimitrov",
+  "bio": "Web Developer looking to contribute to open source projects in my free time. :)",
+  "links": [
+    {
+      "name": "Check out my GitHub account",
+      "url": "https://github.com/allexgut",
+      "icon": "FaGithub"
+    }
+  ]
+}

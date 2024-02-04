@@ -1,6 +1,5 @@
 {
   "name": "Yash Sharma",
-  "type": "personal",
   "bio": "**Open Source**  Enthusiast | DevOps Engineer",
   "tags": [
     "Open Source",
@@ -14,7 +13,13 @@
     "Terraform"
   ],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/yash1_" },
-    { "icon": "FaGithub", "url": "https://github.com/wasup-yash" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/yash1_"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/wasup-yash"
+    }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "isVirtual": true,
+  "isInPerson": true,
+  "name": "DockerCon 2023",
+  "description": "Listed as one of the top developer conferences in the world, this conference sets the standard for a highly-concentrated learning experience that will show developers what’s new, and what’s possible with the #1 most-desired and #1 most-used developer tool, Docker.",
+  "date": {
+    "start": "2023-10-03T10:00:00.000+05:30",
+    "end": "2023-10-05T13:15:00.000+05:30"
+  },
+  "url": "https://www.dockercon.com/2023/home?i=P4wpe7F2b2Q_F3eVb7M-_JQOXdr99KRV",
+  "price": {
+    "startingFrom": 1199
+  },
+  "userStatus": "attending",
+  "speakingTopic": "Docker"
+}

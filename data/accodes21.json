@@ -1,12 +1,16 @@
 {
   "name": "Aarya Chopkar",
-  "type": "personal",
   "bio": "Frontend Developer | Open Source Enthusiast | Python Dev | CSE Student",
-
   "tags": ["Open Source", "Javascript", "ReactJS", "Python"],
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/ChopkarAarya" },
-    { "icon": "FaGithub", "url": "https://github.com/accodes21" },
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/ChopkarAarya"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/accodes21"
+    },
     {
       "icon": "FaLinkedin",
       "url": "https://www.linkedin.com/in/aarya-chopkar-581aa2228/"

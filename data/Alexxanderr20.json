@@ -1,0 +1,17 @@
+{
+  "name": "Edward Munoz",
+  "bio": "Aspiring software engineer who is focused on a front-end tech stack, but is open to any kind of software stack to learn and grow.",
+  "links": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/edward-alex-munoz/",
+      "icon": "FaLinkedin"
+    },
+
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Edward_Munoz21",
+      "icon": "FaTwitter"
+    }
+  ]
+}

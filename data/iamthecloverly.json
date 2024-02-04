@@ -1,12 +1,19 @@
 {
   "name": "SriBalaji",
-  "type": "personal",
   "bio": "Developer Advocate | **CyberSecurity** | Tech enthusiast",
-
   "socials": [
-    { "icon": "FaTwitter", "url": "https://twitter.com/thecloverly" },
-    { "icon": "FaGithub", "url": "https://github.com/iamthecloverly" },
-    { "icon": "FaLinkedin", "url": "https://www.linkedin.com/in/thecloverly" }
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/thecloverly"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/iamthecloverly"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/thecloverly"
+    }
   ],
   "links": [
     {

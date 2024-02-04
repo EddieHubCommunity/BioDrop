@@ -1,0 +1,22 @@
+{
+  "name": "Sarthak Negi",
+  "bio": "devOps enthusiast , learning webd , open source advocate!",
+  "tags": ["Sarthak", "Open Source", "GitHub", "Community", "Collaboration"],
+  "links": [
+    {
+      "name": "Follow me on twitter",
+      "url": "https://twitter.com/sarthaknegi009",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Contribute to Open Source in our GitHub Organisation",
+      "url": "https://github.com/sarthaksarthak9",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "LinkedIn Organisation",
+      "url": "https://www.linkedin.com/in/sarthak-negi-4923a6259/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
