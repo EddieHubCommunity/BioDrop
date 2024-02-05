@@ -106,7 +106,6 @@ export default function ManageEvent({ BASE_URL, event }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // setIsDisabled(true);
     
     if (document.activeElement === tagInputRef.current) {
       return;
