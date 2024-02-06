@@ -19,7 +19,7 @@ export default function AvatarGroup({
       className={classNames(
         "flex flex-wrap items-center",
         className,
-        showAllItems && "gap-1.5",
+        showAllItems && "gap-1",
       )}
     >
       {displayedItems.map((item) => (
