@@ -8,6 +8,7 @@ export default function UserAvatarGroup({ users }) {
       borderedItems
       items={users.map((username) => ({
         id: username,
+        username,
         image: getUserAvatar(username),
         alt: `Profile picture of ${username}`,
         href: `/${username}`,

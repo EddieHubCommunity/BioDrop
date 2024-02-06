@@ -5,6 +5,7 @@ import { classNames } from "@services/utils/classNames";
 export default function Avatar({
   alt,
   src,
+  username,
   size = 100,
   href,
   radius = "full",
@@ -22,6 +23,7 @@ export default function Avatar({
         )}
         src={src}
         alt={alt}
+        fallback={username}
         width={size}
         height={size}
       />
@@ -35,6 +37,7 @@ export default function Avatar({
       )}
       src={src}
       alt={alt}
+      fallback={username}
       width={size}
       height={size}
     />

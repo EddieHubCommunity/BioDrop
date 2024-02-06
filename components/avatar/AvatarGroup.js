@@ -32,6 +32,7 @@ export default function AvatarGroup({
             href={item.href || undefined}
             alt={item.alt}
             src={item.image}
+            username={item.username}
             isBordered={borderedItems}
             borderColor={itemsBorderColor}
           />
