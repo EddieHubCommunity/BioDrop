@@ -12,6 +12,7 @@ export default function AvatarGroup({
 }) {
   const [showAllItems, setShowAllItems] = useState(false);
   const displayedItems = showAllItems ? items : items.slice(0, afterTruncate);
+  const moreItemsCount = items.slice(afterTruncate - 1, -1).length;
 
   return (
     <ul
@@ -42,7 +43,7 @@ export default function AvatarGroup({
             onClick={() => setShowAllItems(true)}
             className="text-xs ml-1 hover:underline"
           >
-            {`+${items.slice(afterTruncate - 1, -1).length} more`}
+            {`+${moreItemsCount} more`}
           </button>
         </li>
       )}
