@@ -32,12 +32,12 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
             {repo.description}
           </p>
           {repo.usernames && (
-            <div>
+            <>
               <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
                 Added by
               </p>
               <UserAvatarGroup users={repo.usernames} />
-            </div>
+            </>
           )}
         </div>
       </div>
