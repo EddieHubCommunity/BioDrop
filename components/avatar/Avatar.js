@@ -5,27 +5,13 @@ import { classNames } from "@services/utils/classNames";
 export default function Avatar({
   alt,
   src,
-  size = "md",
+  size = 100,
   href,
   radius = "full",
   isBordered,
   borderColor = "primary-low",
   className,
 }) {
-  const getAvatarSize = () => {
-    switch (size) {
-      case "sm":
-        return 25;
-      case "md":
-        return 50;
-      case "lg":
-        return 75;
-
-      default:
-        return 100;
-    }
-  };
-
   return href ? (
     <Link href={href}>
       <FallbackImage
@@ -36,8 +22,8 @@ export default function Avatar({
         )}
         src={src}
         alt={alt}
-        width={typeof size !== "number" ? getAvatarSize() : size}
-        height={typeof size !== "number" ? getAvatarSize() : size}
+        width={size}
+        height={size}
       />
     </Link>
   ) : (
@@ -49,8 +35,8 @@ export default function Avatar({
       )}
       src={src}
       alt={alt}
-      width={typeof size !== "number" ? getAvatarSize() : size}
-      height={typeof size !== "number" ? getAvatarSize() : size}
+      width={size}
+      height={size}
     />
   );
 }

@@ -4,7 +4,7 @@ import getUserAvatar from "@services/github/getUserAvatar";
 export default function UserAvatarGroup({ users }) {
   return (
     <AvatarGroup
-      itemsSize="sm"
+      itemsSize={20}
       borderedItems
       items={users.map((username) => ({
         id: username,
