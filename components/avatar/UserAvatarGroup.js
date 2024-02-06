@@ -9,7 +9,7 @@ export default function UserAvatarGroup({ users }) {
       items={users.map((username) => ({
         id: username,
         image: getUserAvatar(username),
-        alt: username,
+        alt: `Profile picture of ${username}`,
         href: `/${username}`,
       }))}
     />
