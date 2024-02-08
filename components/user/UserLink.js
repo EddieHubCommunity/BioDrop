@@ -95,7 +95,6 @@ export default function UserLink({
       )}
       {manage && <Bulb isEnabled={isEnabled} />}
       </div>
-
     </Link>
   );
 
