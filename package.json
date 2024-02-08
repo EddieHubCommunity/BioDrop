@@ -20,6 +20,7 @@
     "autoprefixer": "^10.4.16",
     "dotenv": "^16.3.1",
     "file-saver": "^2.0.5",
+    "flagsmith": "^3.22.0",
     "husky": "^8.0.3",
     "leaflet": "^1.9.4",
     "micro": "^10.0.1",

@@ -21,6 +21,7 @@ import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
+import FeatureFlagAlert from "@components/FeatureFlagAlert";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -163,7 +164,7 @@ export default function Home({
   return (
     <>
       <PageHead />
-
+      <FeatureFlagAlert/>
       {alerts.map((alert, index) => (
         <Alert key={index} type={alert.type} message={alert.message} />
       ))}
