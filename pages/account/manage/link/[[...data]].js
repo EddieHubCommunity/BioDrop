@@ -9,7 +9,10 @@ import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
 import Navigation from "@components/account/manage/Navigation";
-import { getLinkApi } from "pages/api/account/manage/link/[[...data]]";
+import {
+  getGroupLinkApi,
+  getLinkApi,
+} from "pages/api/account/manage/link/[[...data]]";
 import Input from "@components/form/Input";
 import UserLink from "@components/user/UserLink";
 import Toggle from "@components/form/Toggle";
@@ -21,24 +24,22 @@ import IconSearch from "@components/IconSearch";
 import Select from "@components/form/Select";
 import config from "@config/app.json";
 import { objectToLabelValueArray } from "@services/utils/objectToLabelValueArray";
+import GroupLinkSearch from "@components/GroupLinkSearch";
 
 const animations = config.animations;
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const id = context.query.data ? context.query.data[0] : undefined;
+
   let link = {};
+  let groups = [];
+  try {
+    groups = await getGroupLinkApi(username);
+  } catch (e) {
+    logger.error(e, `Group ${id} failed for username: ${username}`);
+  }
   if (id) {
     try {
       link = await getLinkApi(username, id);
@@ -48,11 +49,11 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { username, link, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
+    props: { username, link, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL, groups },
   };
 }
 
-export default function ManageLink({ BASE_URL, username, link }) {
+export default function ManageLink({ BASE_URL, username, link, groups }) {
   const [open, setOpen] = useState(false);
   const [showNotification, setShowNotification] = useState({
     show: false,
@@ -70,9 +71,11 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [animation, setAnimation] = useState(
     link.animation || Object.keys(config.animations)[0],
   );
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsDisabled(true);
 
     let method = "POST";
     let selectedIcon = icon !== "" ? icon : "FaGlobe";
@@ -105,6 +108,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
     const update = await res.json();
 
     if (update.message || !update) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
@@ -179,13 +183,10 @@ export default function ManageLink({ BASE_URL, username, link }) {
 
                 <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
-                      name="group"
-                      label="Group"
-                      onChange={(e) => setGroup(e.target.value)}
-                      value={group}
-                      minLength="2"
-                      maxLength="64"
+                    <GroupLinkSearch
+                      groups={groups}
+                      handleGroupSelection={setGroup}
+                      selectedGroup={group}
                     />
                     <p className="text-sm text-primary-low-medium">
                       You can{" "}
@@ -222,14 +223,14 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       onChange={(e) => setName(e.target.value)}
                       value={name}
                       required
-                      minLength="2"
+                      minLength="1"
                       maxLength="128"
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>Follow me on Twitter</i>
                     </p>
                   </div>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                  <div className="relative mt-1 sm:col-span-2 sm:mt-0">
                     <IconSearch
                       handleSelectedIcon={setIcon}
                       selectedIcon={icon}
@@ -274,7 +275,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>
@@ -289,8 +290,9 @@ export default function ManageLink({ BASE_URL, username, link }) {
             )}
             <UserLink
               BASE_URL={BASE_URL}
-              link={{ name, url, icon, animation }}
+              link={{ _id: link._id, name, url, icon, animation }}
               username={username}
+              url={url}
             />
           </div>
         </div>

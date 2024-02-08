@@ -1,0 +1,42 @@
+{
+  "name": "Olaniyi Oluwaseyi",
+  "bio": " Back-End Engineer ",
+   "tags": [
+    "Open Source",
+    "Javascript",
+     "AWS",
+     "Database",
+    "CI/CD",
+    "Freelancing"
+  ],
+  "socials": [
+    {"icon": "FaGithub", "url":"https://github.com/Hydradaboss"},
+    {"icon": "FaLink", "url": "https://www.linkedin.com/in/oluwaseyi-olaniyi-38a553270/"}
+  ],
+  "links":[
+    {
+      "name": "Nasa Launch API",
+      "url": "https://github.com/Hydradaboss/ZTM_Master_Course_Implementaion",
+      "icon": "FaGithub",
+      "group": "Projects"
+    },
+      {
+      "name": "E-Commerce Website",
+      "url": "https://github.com/Hydradaboss/Ecommerce-Backend",
+      "icon": "FaGithub",
+      "group": "Projects"
+    },
+      {
+      "name": "Recipe shop",
+      "url": "https://github.com/Hydradaboss/recipe-shop",
+      "icon": "FaGithub",
+      "group": "Projects"
+      },
+      {
+      "name": "Chat App",
+      "url": "https://github.com/Hydradaboss/chat_backend",
+      "icon": "FaGithub",
+      "group": "Projects"
+    }
+  ]
+}

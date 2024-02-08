@@ -7,6 +7,10 @@ function defaultIcon() {
 export default function getIcon(name = "FaGlobe") {
   let icon;
 
+  if (!name) {
+    return defaultIcon();
+  }
+
   switch (name.slice(0, 2)) {
     case "Fa":
       icon = dynamic(() =>

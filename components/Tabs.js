@@ -1,15 +1,15 @@
 import Select from "@components/form/Select";
 import { classNames } from "@services/utils/classNames";
 
-export default function Tabs({ tabs, setTabs, selectedTab }) {
+export default function Tabs({ tabs, setTabs, selectedTab, placeholder }) {
   return (
     <div>
-      <div className="sm:hidden">
+      <div className="lg:hidden">
         {tabs.length > 1 && (
           <Select
             name="tabs"
             value={selectedTab?.name}
-            label="Select a tab"
+            placeholder={placeholder}
             onChange={(e) =>
               setTabs(tabs.find((tab) => tab.name === e.currentTarget.value))
             }
@@ -18,7 +18,7 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
           />
         )}
       </div>
-      <div className="hidden sm:block mb-4">
+      <div className="hidden lg:block mb-4">
         <div className="border-b border-primary-medium-low">
           <nav className="-mb-px flex" aria-label="Tabs">
             {tabs.map((tab) => (
@@ -30,7 +30,7 @@ export default function Tabs({ tabs, setTabs, selectedTab }) {
                   selectedTab?.name === tab.name
                     ? "border-tertiary-medium "
                     : "border-transparent text-primary-medium dark:text-primary-low dark:hover:text-tertiary-medium  hover:text-tertiary-medium hover:border-tertiary-medium",
-                  `justify-center text-base group flex border-b-2 py-4 font-medium grow`,
+                  `justify-center text-base group flex border-b-2 py-4 font-medium grow items-center`,
                 )}
               >
                 {tab.icon && (

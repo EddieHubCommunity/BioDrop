@@ -18,16 +18,6 @@ import ConfirmDialog from "@components/ConfirmDialog";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
 
   let repos = [];
@@ -56,9 +46,11 @@ export default function ManageRepos({ BASE_URL, repos }) {
   });
   const [repoList, setRepoList] = useState(repos || []);
   const [url, setUrl] = useState("");
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsDisabled(true);
     const res = await fetch(`${BASE_URL}/api/account/manage/repo`, {
       method: "POST",
       headers: {
@@ -69,6 +61,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
     const updatedRepos = await res.json();
 
     if (updatedRepos.message) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
@@ -153,7 +146,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
             onChange={(e) => setUrl(e.target.value)}
             value={url}
           />
-          <Button disable={!url.length}>
+          <Button disabled={!url.length || isDisabled}>
             <DocumentPlusIcon className="h-5 w-5 mr-2" />
             Add Repo
           </Button>

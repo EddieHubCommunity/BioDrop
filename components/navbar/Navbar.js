@@ -7,6 +7,7 @@ import NavLink from "@components/navbar/NavLink";
 import Link from "@components/Link";
 import { useTheme } from "next-themes";
 import { classNames } from "@services/utils/classNames";
+import Image from "next/image";
 
 import { FaGithub } from "react-icons/fa6";
 import SunIcon from "@heroicons/react/20/solid/SunIcon";
@@ -89,10 +90,6 @@ export default function Navbar() {
       url: "/repos",
     },
     {
-      name: "Discover",
-      url: "/discover",
-    },
-    {
       name: "Pricing",
       url: "/pricing",
     },
@@ -103,7 +100,7 @@ export default function Navbar() {
       {!session && (
         <>
           <NavLink
-            item={{ name: "Login", url: "/login" }}
+            item={{ name: "Login", url: "/auth/signin" }}
             setIsOpen={setIsOpen}
             onClick={(e) => {
               e.preventDefault();
@@ -119,10 +116,16 @@ export default function Navbar() {
 
       {session && (
         <>
-          <NavLink
-            item={{ name: "Account", url: "/account/onboarding" }}
-            setIsOpen={setIsOpen}
-          />
+          <Link href="/account/onboarding" aria-label="Account">
+            <Image
+              className="flex-none hover:ring-2 hover:ring-tertiary-medium rounded-full mx-2"
+              width={40}
+              height={40}
+              onClick={() => setIsOpen(false)}
+              src={`https://github.com/${session.username}.png`}
+              alt="Account"
+            />
+          </Link>
           <NavLink
             item={{ name: "Logout", url: "/" }}
             setIsOpen={setIsOpen}
@@ -151,7 +154,7 @@ export default function Navbar() {
                   <LogoWide onClick={() => setIsOpen(false)} width={128} />
                 </Link>
               </div>
-              <div className="hidden md:block">
+              <div className="hidden lg:block">
                 <ul className="ml-10 flex items-baseline space-x-4">
                   {primary.map((item) => (
                     <li key={item.name}>
@@ -165,7 +168,7 @@ export default function Navbar() {
                 </ul>
               </div>
             </div>
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <div className="flex items-center gap-3">
                 {renderThemeChanger()}
                 <Link
@@ -184,7 +187,7 @@ export default function Navbar() {
                 {authControls()}
               </div>
             </div>
-            <div className="-mr-2 flex md:hidden">
+            <div className="-mr-2 flex lg:hidden">
               <button
                 onClick={() => setIsOpen(isOpen ? false : true)}
                 type="button"
@@ -233,7 +236,7 @@ export default function Navbar() {
             isOpen
               ? "transform translate-y-0 opacity-100"
               : "transform -translate-y-96 opacity-0",
-            "md:hidden z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full",
+            "md:hidden dark:z-50 z-20 absolute t-0 bg-primary-medium transition-all duration-700 ease-in-out w-full",
           )}
           id="mobile-menu"
         >

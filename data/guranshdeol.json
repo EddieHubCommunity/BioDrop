@@ -1,0 +1,45 @@
+{
+  "name": "Guransh Deol",
+  "bio": "a driven **Pre-Final Year CSE student** with a passion for **Open Source**, **Web Development** and **DevOps**",
+   "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/guranshdeol"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/guranshdeol"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/guranshdeol/"
+    }
+  ],
+  "links": [
+    {
+      "name": "Twitter: Follow Me",
+      "url": "https://twitter.com/guranshdeol",
+      "icon": "FaXTwitter"
+    },
+    {
+      "name": "LinkedIn: Let's connect",
+      "url": "https://www.linkedin.com/in/guranshdeol/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub: I maintain really well!",
+      "url": "https://github.com/guranshdeol",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/guranshdeol/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "Buy me a Coffee",
+      "url": "https://www.buymeacoffee.com/guranshdeol",
+      "icon": "SiBuymeacoffee"
+    }
+  ]
+}

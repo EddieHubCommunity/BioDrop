@@ -1,29 +1,12 @@
-import { authOptions } from "../auth/[...nextauth]";
-import { getServerSession } from "next-auth/next";
-
-import { serverEnv } from "@config/schemas/serverSchema";
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
 
 import { Changelog, Profile, User } from "@models/index";
 
 export default async function handler(req, res) {
-  const session = await getServerSession(req, res, authOptions);
-
-  if (!session) {
-    return res.status(401).json({});
-  }
-
   if (!["GET"].includes(req.method)) {
     return res.status(400).json({ error: "Invalid request: GET required" });
   }
-
-  const username = session.username;
-
-  if (!serverEnv.ADMIN_USERS.includes(username)) {
-    return res.status(401).json({});
-  }
-
   const { statusCode, stats } = await getStatsApi();
   return res.status(statusCode).json(stats);
 }
@@ -81,6 +64,35 @@ export async function getStatsApi() {
     logger.error(e, "failed to load totalChangelogs");
   }
 
+  let totalCustomDomains = 0;
+  try {
+    totalCustomDomains = await Profile.countDocuments({
+      "settings.domain": { $exists: true, $ne: "" },
+    });
+  } catch (e) {
+    logger.error(e, "failed to load totalCustomDomains profiles");
+  }
+
+  let dateOneMonthAgo = new Date();
+  dateOneMonthAgo.setMonth(dateOneMonthAgo.getMonth() - 1); // 1 month ago
+  let dateSixMonthAgo = new Date();
+  dateSixMonthAgo.setMonth(dateSixMonthAgo.getMonth() - 6); // 6 month ago
+  let totalActiveProfiles = { "1month": 0, "6month": 0 };
+  try {
+    totalActiveProfiles["1month"] = await Profile.countDocuments({
+      updatedAt: { $gt: dateOneMonthAgo },
+    });
+  } catch (e) {
+    logger.error(e, "failed to load totalActiveProfiles profiles");
+  }
+  try {
+    totalActiveProfiles["6month"] = await Profile.countDocuments({
+      updatedAt: { $gt: dateSixMonthAgo },
+    });
+  } catch (e) {
+    logger.error(e, "failed to load totalActiveProfiles profiles");
+  }
+
   return {
     statusCode: 200,
     stats: {
@@ -90,6 +102,8 @@ export async function getStatsApi() {
       totalProfilesDisabled: totalProfilesDisabled || 0,
       totalPremiumProfiles: totalPremiumProfiles || 0,
       totalChangelogs: totalChangelogs || 0,
+      totalCustomDomains: totalCustomDomains || 0,
+      totalActiveProfiles: totalActiveProfiles,
     },
   };
 }

@@ -1,0 +1,36 @@
+{
+    "name": "Alois Seckar",
+    "bio": "Senior application developer @ Eviden | Prague, Czechia",
+    "tags": [
+      "Java",
+      "JavaScript",
+      "TypeScript",
+      "Vue.js",
+      "Nuxt",
+      "HTML",
+      "CSS"
+    ],
+    "links": [
+      {
+        "name": "Github",
+        "url": "https://github.com/AloisSeckar",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/alois-seckar/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "Dev.to",
+        "url": "https://dev.to/aloisseckar",
+        "icon": "FaBlog"
+      },
+      {
+        "name": "Homepage (Czech)",
+        "url": "http://alois-seckar.cz/",
+        "icon": "FaHome"
+      }
+    ]
+  }
+  

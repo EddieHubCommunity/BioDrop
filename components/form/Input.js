@@ -51,6 +51,7 @@ const Input = forwardRef(
           id={name}
           name={name}
           value={value}
+          disabled={disabled}
           onKeyDown={handleKeydown}
           {...restProps}
         />

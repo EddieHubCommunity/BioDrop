@@ -16,6 +16,9 @@ const envSchema = z.object({
   NEXT_PUBLIC_VERCEL_ENV: z.string().optional(),
   STRIPE_SECRET_KEY: z.string().optional(),
   STRIPE_WEBHOOK_SECRET: z.string().optional(),
+  VERCEL_PROJECT_ID: z.string().optional(),
+  VERCEL_TEAM_ID: z.string().optional(),
+  VERCEL_AUTH_TOKEN: z.string().optional(),
 });
 
 const serverEnv = envSchema.safeParse(process.env);

@@ -21,13 +21,14 @@ Before **creating** an Issue for `features`/`bugs`/`improvements` please follow 
 
 Before working on an existing Issue please follow these steps:
 
-1. only ask to be assigned 1 issue at a time
+1. only ask to be assigned 1 **open** issue at a time
 1. look out for the Issue label `status: ready for dev` (if it does not have this label, your work might not be accepted)
 1. comment asking for the issue to be assigned to you (do not tag maintainers on GitHub or Discord as all maintainers receive your comment notifications)
 1. after the Issue is assigned to you, you can start working on it
 1. **only** start working on this Issue (and open a Pull Request) when it has been assigned to you - this will prevent confusion, multiple people working on the same issue and work not being used
 1. do **not** enable GitHub Actions on your fork
 1. reference the Issue in your Pull Request (for example `closes #123`)
+1. please do **not** force push to your PR branch, this makes it very difficult to re-review - commits will be squashed when merged
 
 > Notes:
 >

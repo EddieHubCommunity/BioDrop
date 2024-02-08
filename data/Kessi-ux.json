@@ -1,0 +1,18 @@
+{
+  "name": "Uchenyi Kesandu",
+  "bio": "Backend Engineer",
+  "links": [
+    {
+      "group": "Social media",
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/uchekes",
+      "icon": "SiLinkedin"
+    },
+    {
+      "group": "Social media",
+      "name": "Follow me on Github",
+      "url": "https://github.com/Kessi-ux",
+      "icon": "FaGithub"
+    }
+  ]
+}

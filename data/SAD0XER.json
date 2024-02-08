@@ -1,79 +1,50 @@
 {
-    "name": "SARVESH ASHOK DEVRUKHAKAR",
-    "bio": "**Student** • **Open Source Contributor** • **Amature Freelancer**",
+    "name": "SARVESH DEVRUKHAKAR",
+    "bio": "**Student**",
     "tags": [
-        "C",
-        "C++",
-        "Java",
-        "DSA",
-        "Python",
-        "Django",
-        "Open Source",
-        "Git",
-        "GitHub",
-        "Vercel",
-        "Data Structures and Algorithm"
+        "Technology",
+        "Open-Source"
     ],
     "socials": [
         {
-            "icon": "FaLinkedin",
+            "icon": "FaLinkedinIn",
             "url": "https://www.linkedin.com/in/sarveshdevrukhakar"
         },
         {
             "icon": "FaGithub",
             "url": "https://github.com/SAD0XER"
-        },
-        {
-            "icon": "FaXTwitter",
-            "url": "https://www.twitter.com/SAD0XER"
-        },
-        {
-            "icon": "FaInstagram",
-            "url": "https://www.instagram.com/sarveshdevrukhakar"
         }
     ],
     "links": [
         {
-            "group": "Technology Portfolio",
-            "name": "GitHub - Let's Collaborate and Contribute in Open Source on GitHub",
+            "name": "LinkedIn Profile",
+            "url": "https://www.linkedin.com/in/sarveshdevrukhakar",
+            "icon": "FaLinkedinIn"
+        },
+        {
+            "name": "GitHub Profile",
             "url": "https://github.com/SAD0XER",
             "icon": "SiGithub"
         },
         {
-            "group": "Technology Portfolio",
-            "name": "SoloLearn - Let's Learn Something On SoloLearn",
+            "name": "LeetCode Profile",
+            "url": "https://leetcode.com/SAD0XER",
+            "icon": "SiLeetcode"
+        },
+        {
+            "name": "HackerRank Profile",
+            "url": "https://www.hackerrank.com/profile/SAD0XER",
+            "icon": "SiHackerrank"
+        },
+        {
+            "name": "HackerEarth Profile",
+            "url": "https://www.hackerearth.com/@SAD0XER",
+            "icon": "SiHackerearth"
+        },
+        {
+            "name": "SoloLearn Profile",
             "url": "https://www.sololearn.com/profile/18241219",
             "icon": "SiSololearn"
-        },
-        {
-            "group": "Socials",
-            "name": "LinkedIn - Connect with Me On LinkedIn and Let's Grow Together",
-            "url": "https://www.linkedin.com/in/sarveshdevrukhakar",
-            "icon": "SiLinkedin"
-        },
-        {
-            "group": "Socials",
-            "name": "Twitter - Tiw Tiw",
-            "url": "https://www.twitter.com/SAD0XER",
-            "icon": "FaSquareXTwitter"
-        },
-        {
-            "group": "Socials",
-            "name": "Instagram - Follow me if you want to ;)",
-            "url": "https://www.instagram.com/sarveshdevrukhakar",
-            "icon": "FaSquareInstagram"
-        },
-        {
-            "group": "Other",
-            "name": "Discord - Connect With Me On Discord",
-            "url": "https://discord.com/users/1068163198051696750",
-            "icon": "FaDiscord"
-        },
-        {
-            "group": "Other",
-            "name": "YouTube - Channerl Will Get Active Soon",
-            "url": "https://youtube.com/@ALL_R0UNDER",
-            "icon": "FaYoutube"
         }
     ]
 }

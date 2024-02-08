@@ -22,7 +22,7 @@ export default function Footer() {
       { name: "Map", href: "/map", external: false },
       { name: "Login", href: "/auth/signin", external: false },
       {
-        name: "Open Souce Roadmap",
+        name: "Open Source Roadmap",
         href: "/docs/open-source-roadmap",
         external: false,
       },
@@ -45,7 +45,7 @@ export default function Footer() {
         href: BASE_GITHUB_PROJECT_URL + "/blob/main/CONTRIBUTING.md",
         external: true,
       },
-      { name: "Road map", href: "/roadmap", external: false },
+      { name: "BioDrop Roadmap", href: "/roadmap", external: false },
     ],
     community: [
       {
@@ -70,7 +70,6 @@ export default function Footer() {
         href: "https://biodrop.substack.com/",
         external: true,
       },
-      { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
       {
@@ -206,22 +205,24 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 border-t border-white/10 pt-8 flex flex-col md:flex-row   items-center justify-between">
-          <div className="flex pb-4 md:pb-0 items-center justify-center space-x-6 md:order-2">
-            <p className=" text-xs leading-5 text-primary-low-high  md:mt-0">
+          <div className="flex pb-4 md:pb-0 items-center justify-center gap-x-6 md:order-2 flex-wrap">
+            <p className=" text-xs leading-5 text-primary-low-high  md:mt-0 whitespace-nowrap">
               100% Open Source on GitHub
             </p>
-            {navigation.social.map((item) => (
-              <Link
-                key={item.name}
-                href={item.href}
-                className="text-primary-low-high hover:text-primary-low"
-                target={item.external ? "_blank" : "_self"}
-                onClick={() => va.track(`socials`, { link: item.name })}
-              >
-                <span className="sr-only">{item.name}</span>
-                <item.icon className="h-6 w-6" aria-hidden="true" />
-              </Link>
-            ))}
+            <div className="flex items-center justify-center space-x-6 py-2">
+              {navigation.social.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="text-primary-low-high hover:text-primary-low"
+                  target={item.external ? "_blank" : "_self"}
+                  onClick={() => va.track(`socials`, { link: item.name })}
+                >
+                  <span className="sr-only">{item.name}</span>
+                  <item.icon className="h-6 w-6" aria-hidden="true" />
+                </Link>
+              ))}
+            </div>
           </div>
           <Link
             href={BASE_GITHUB_PROJECT_URL}
@@ -229,7 +230,7 @@ export default function Footer() {
             onClick={() => va.track(`footer`, { link: "powered by EddieHub" })}
           >
             <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
-            Powered by EddieHub
+            Powered by EddieHub | v{app.version}
           </Link>
         </div>
       </div>

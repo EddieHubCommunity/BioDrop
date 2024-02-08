@@ -38,18 +38,9 @@ let options = [
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const id = context.query.data ? context.query.data[0] : undefined;
+
   let milestone = {};
   if (id) {
     try {
@@ -81,9 +72,11 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
   const [dateFormat, setdateFormat] = useState(
     milestone.dateFormat || options[0].value,
   );
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsDisabled(true);
 
     let alert = "created";
     let putMilestone = {
@@ -111,6 +104,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
     const update = await res.json();
 
     if (update.message) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
@@ -255,7 +249,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       onChange={(e) => setdateFormat(e.target.value)}
                     />
                   </div>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                  <div className="relative mt-1 sm:col-span-2 sm:mt-0">
                     <IconSearch
                       handleSelectedIcon={setIcon}
                       selectedIcon={icon}
@@ -283,7 +277,7 @@ export default function ManageMilestone({ BASE_URL, milestone }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>

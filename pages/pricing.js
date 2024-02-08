@@ -84,7 +84,7 @@ export default function Premium({ user }) {
             return "Upgrade";
           }
           if (!user.isLoggedIn) {
-            return "Sign up";
+            return "Join Premium plan";
           }
         },
         action: () => {
@@ -173,6 +173,12 @@ export default function Premium({ user }) {
           tiers: { Free: true, Premium: true },
         },
         {
+          name: "Progressive Web App (PWA)",
+          description:
+            "Offline access to your Profile and QR code on your mobile home screen",
+          tiers: { Free: true, Premium: true },
+        },
+        {
           name: "Hide Header/Footer",
           description:
             "Make your Profile more your own by removing the BioDrop header and/or footer",
@@ -182,6 +188,18 @@ export default function Premium({ user }) {
           name: "Premium Badge",
           description:
             "Make your Profile standout with a Premium badge on your Profile",
+          tiers: { Free: false, Premium: true },
+        },
+        {
+          name: "Removed Button",
+          description:
+            'Automatically removes the "Create your Profile" button from your Profile',
+          tiers: { Free: false, Premium: true },
+        },
+        {
+          name: "Custom Domain",
+          description:
+            "Use your own domain for your Profile (sub domain not supported)",
           tiers: { Free: false, Premium: true },
         },
       ],
@@ -215,7 +233,7 @@ export default function Premium({ user }) {
         {
           name: "Discover",
           description:
-            "See a list of all those BioDrop Profiles which have been recently updated",
+            "See a list of all those BioDrop Profiles which have been recently updated on the Search Page",
           tiers: { Free: true, Premium: true },
         },
         // {
@@ -359,7 +377,7 @@ export default function Premium({ user }) {
                 <p className="mb-4">{tier.description}</p>
                 <Button
                   primary={true}
-                  disable={tier.button.isDisabled()}
+                  disabled={tier.button.isDisabled()}
                   aria-describedby={tier.id}
                   href={tier.button.action()}
                   onClick={() => tier.button.onClick()}
@@ -462,7 +480,7 @@ export default function Premium({ user }) {
                         </div>
                         <p className="mb-4">{tier.description}</p>
                         <Button
-                          disable={tier.button.isDisabled()}
+                          disabled={tier.button.isDisabled()}
                           primary={true}
                           href={tier.button.action()}
                           onClick={() => tier.button.onClick()}
