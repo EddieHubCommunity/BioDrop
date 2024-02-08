@@ -190,7 +190,6 @@ export default function Home({
               </div>
             </div>
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:mx-24">
-
               <Button href="/docs/quickstart-forms" primary={true}>
                 Get started
               </Button>
