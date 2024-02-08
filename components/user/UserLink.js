@@ -69,8 +69,7 @@ export default function UserLink({
         )}
       </span>
       <span className="grow">{link.name}</span>
-
-
+        
       <div className="flex justify-end flex-wrap right-0 gap-2 items-center">
       {manage && link.isPinned && (
         <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
