@@ -1,3 +1,12 @@
+## [2.99.14](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.13...v2.99.14) (2024-02-11)
+
+
+### Bug Fixes
+
+* security contact info ([#10228](https://github.com/EddieHubCommunity/BioDrop/issues/10228)) ([b219a97](https://github.com/EddieHubCommunity/BioDrop/commit/b219a97c447052b55733082819dc5566ee55a187))
+
+
+
 ## [2.99.13](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.12...v2.99.13) (2024-02-03)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * show events select ([#10186](https://github.com/EddieHubCommunity/BioDrop/issues/10186)) ([6ad2504](https://github.com/EddieHubCommunity/BioDrop/commit/6ad250452f32a0cb801b3f39f2c4ab8d4fc8cc0a))
-
-
-
-## [2.99.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.8...v2.99.9) (2024-01-22)
-
-
-### Bug Fixes
-
-* manage link preview click ([#10164](https://github.com/EddieHubCommunity/BioDrop/issues/10164)) ([261c30c](https://github.com/EddieHubCommunity/BioDrop/commit/261c30c367ecd5d91042385dd58524357eb65c20))
 
 
 
