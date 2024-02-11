@@ -1,3 +1,12 @@
+## [2.99.15](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.14...v2.99.15) (2024-02-11)
+
+
+### Bug Fixes
+
+* CoC contact link ([#10230](https://github.com/EddieHubCommunity/BioDrop/issues/10230)) ([a2b8e47](https://github.com/EddieHubCommunity/BioDrop/commit/a2b8e47b5ad1bd1ddc1bff6a5ad0a3a2b96787cc))
+
+
+
 ## [2.99.14](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.13...v2.99.14) (2024-02-11)
 
 
@@ -33,15 +42,6 @@
 ### Bug Fixes
 
 * code highlighter to rehype-pretty-code ([#10172](https://github.com/EddieHubCommunity/BioDrop/issues/10172)) ([b396607](https://github.com/EddieHubCommunity/BioDrop/commit/b396607d83110bb19a632ca68c1ccccc98483faa))
-
-
-
-## [2.99.10](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.9...v2.99.10) (2024-01-27)
-
-
-### Bug Fixes
-
-* show events select ([#10186](https://github.com/EddieHubCommunity/BioDrop/issues/10186)) ([6ad2504](https://github.com/EddieHubCommunity/BioDrop/commit/6ad250452f32a0cb801b3f39f2c4ab8d4fc8cc0a))
 
 
 
