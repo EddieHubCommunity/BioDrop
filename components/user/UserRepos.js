@@ -112,7 +112,7 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
   return (
     <>
     <div className="flex gap-4">
-    {!reorder && (
+    {!reorder && manage && (
           <Button
             onClick={() => setReorder(true)}
             disabled={reposList.length < 2}

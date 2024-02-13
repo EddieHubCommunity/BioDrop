@@ -69,6 +69,12 @@ export async function getUserApi(req, res, username, options = {}) {
             sortBy: { date: -1 },
           },
         },
+        repos: {
+          $sortArray: {
+            input: "$repos",
+            sortBy: { order: 1 },
+          },
+        },
       },
     },
     {
