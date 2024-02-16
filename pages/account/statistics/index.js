@@ -206,7 +206,7 @@ export default function Statistics({ data, profile, BASE_URL }) {
           <tbody className="divide-y divide-primary-low dark:divide-primary-medium bg-white dark:bg-primary-high">
             {data.links &&
               data.links.individual.map((link) => (
-                <tr key={link.url}>
+                <tr key={link._id}>
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6 text-ellipsis overflow-hidden">
                     {session && session.accountType === "premium" && (
                       <Link href={`/account/statistics/link/${link._id}`}>
