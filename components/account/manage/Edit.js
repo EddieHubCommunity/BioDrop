@@ -1,6 +1,6 @@
 import PencilIcon from "@heroicons/react/24/outline/PencilIcon";
 
-export default function Edit({ href, label = "", children, className }) {
+export default function Edit({ href, label = "", children, className = "" }) {
   return (
     <div className="relative w-full">
       <a
