@@ -42,7 +42,7 @@ export default function UserLink({
     <>    
     {rel && (
       <span className="w-0 h-0 absolute left-[-9999px] overflow-hidden ">
-         <a rel={rel} href={link.url} />
+         <a rel={rel} href={link.url} title="mastodon verification link" aria-label="hidden mastodon link to get verified on mastodon" />
       </span> )} 
     
     <Link
