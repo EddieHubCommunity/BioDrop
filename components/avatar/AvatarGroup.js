@@ -16,6 +16,7 @@ export default function AvatarGroup({
 
   return (
     <ul
+      role="list"
       className={classNames(
         "flex flex-wrap items-center",
         className,
