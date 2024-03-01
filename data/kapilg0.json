@@ -1,0 +1,27 @@
+{
+  "name": "Kapil Gupta",
+  "bio": "I am software Engineer with 3.8 years of experience in Nodejs, angular, mongodb, express." 
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Follow me",
+      "url": "https://www.linkedin.com/in/kapil-gupta-42947316b",
+      "icon": "FaLinkedinIn",
+      "color": "#00ACEE
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url":  "https://x.com/KG161997",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Github: Follow me",
+      "url":  "https://github.com/kapilG0/kapilG0",
+      "icon": "FaGithub",
+      "color": "#00ACEE"
+    },
+    ]
+}
