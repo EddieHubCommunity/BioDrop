@@ -1,45 +1,45 @@
-## [2.99.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.7...v2.99.8) (2024-01-21)
+## [2.99.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.16...v2.99.17) (2024-03-02)
 
 
 ### Bug Fixes
 
-* icon dropdown shifts layout for suggestions ([#9898](https://github.com/EddieHubCommunity/BioDrop/issues/9898)) ([5f86013](https://github.com/EddieHubCommunity/BioDrop/commit/5f860131d7f395f262c0728ec7e70ca9534a1e3c))
+* dropdown suggestions visibility ([#10232](https://github.com/EddieHubCommunity/BioDrop/issues/10232)) ([51b9c12](https://github.com/EddieHubCommunity/BioDrop/commit/51b9c12d7e177a9fec3eebb039291e640f3437c2))
 
 
 
-## [2.99.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.6...v2.99.7) (2024-01-21)
-
-
-### Bug Fixes
-
-* quality of profile main picture ([#10160](https://github.com/EddieHubCommunity/BioDrop/issues/10160)) ([db3bb82](https://github.com/EddieHubCommunity/BioDrop/commit/db3bb82294900816e25ae5daaf60f40d23d2b8d2))
-
-
-
-## [2.99.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.5...v2.99.6) (2024-01-21)
+## [2.99.16](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.15...v2.99.16) (2024-02-13)
 
 
 ### Bug Fixes
 
-* navbar and tabs overflow ([#9891](https://github.com/EddieHubCommunity/BioDrop/issues/9891)) ([#10023](https://github.com/EddieHubCommunity/BioDrop/issues/10023)) ([6583729](https://github.com/EddieHubCommunity/BioDrop/commit/658372944f6d3de1058128700860a7ad2a7b1c92))
+* bump nvmrc to support NextJS min requirements ([#10225](https://github.com/EddieHubCommunity/BioDrop/issues/10225)) ([4dd228f](https://github.com/EddieHubCommunity/BioDrop/commit/4dd228fc268b98b9f5a2952290da424a73eaa00b))
 
 
 
-## [2.99.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.4...v2.99.5) (2024-01-19)
-
-
-### Bug Fixes
-
-* old socials twitter icon to X ([#9972](https://github.com/EddieHubCommunity/BioDrop/issues/9972)) ([6eb7ef4](https://github.com/EddieHubCommunity/BioDrop/commit/6eb7ef4bc39d4bc7c7c063f98432a9b41bd7c8d2))
-
-
-
-## [2.99.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.3...v2.99.4) (2024-01-13)
+## [2.99.15](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.14...v2.99.15) (2024-02-11)
 
 
 ### Bug Fixes
 
-* placeholder to select element ([#9905](https://github.com/EddieHubCommunity/BioDrop/issues/9905)) ([efbe58a](https://github.com/EddieHubCommunity/BioDrop/commit/efbe58abe4f986269f1d3f88f3834edc763321da))
+* CoC contact link ([#10230](https://github.com/EddieHubCommunity/BioDrop/issues/10230)) ([a2b8e47](https://github.com/EddieHubCommunity/BioDrop/commit/a2b8e47b5ad1bd1ddc1bff6a5ad0a3a2b96787cc))
+
+
+
+## [2.99.14](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.13...v2.99.14) (2024-02-11)
+
+
+### Bug Fixes
+
+* security contact info ([#10228](https://github.com/EddieHubCommunity/BioDrop/issues/10228)) ([b219a97](https://github.com/EddieHubCommunity/BioDrop/commit/b219a97c447052b55733082819dc5566ee55a187))
+
+
+
+## [2.99.13](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.12...v2.99.13) (2024-02-03)
+
+
+### Bug Fixes
+
+* git-auto-commit-action to v5 ([#10213](https://github.com/EddieHubCommunity/BioDrop/issues/10213)) ([074c2b2](https://github.com/EddieHubCommunity/BioDrop/commit/074c2b20e963fdd5041e0d168316ef4c4989b027))
 
 
 
