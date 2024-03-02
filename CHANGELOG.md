@@ -1,3 +1,12 @@
+## [2.99.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.16...v2.99.17) (2024-03-02)
+
+
+### Bug Fixes
+
+* dropdown suggestions visibility ([#10232](https://github.com/EddieHubCommunity/BioDrop/issues/10232)) ([51b9c12](https://github.com/EddieHubCommunity/BioDrop/commit/51b9c12d7e177a9fec3eebb039291e640f3437c2))
+
+
+
 ## [2.99.16](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.15...v2.99.16) (2024-02-13)
 
 
@@ -31,17 +40,6 @@
 ### Bug Fixes
 
 * git-auto-commit-action to v5 ([#10213](https://github.com/EddieHubCommunity/BioDrop/issues/10213)) ([074c2b2](https://github.com/EddieHubCommunity/BioDrop/commit/074c2b20e963fdd5041e0d168316ef4c4989b027))
-
-
-
-## [2.99.12](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.11...v2.99.12) (2024-02-01)
-
-
-### Bug Fixes
-
-* delete data/https: directory ([#10205](https://github.com/EddieHubCommunity/BioDrop/issues/10205)) ([8e56685](https://github.com/EddieHubCommunity/BioDrop/commit/8e5668594c051e896150a34d131663eea2801f9f))
-* delete data/TobySolutions directory ([#10206](https://github.com/EddieHubCommunity/BioDrop/issues/10206)) ([a06b043](https://github.com/EddieHubCommunity/BioDrop/commit/a06b043b875968b8eb4be6d8f9ece61f042ace8b))
-* gh action paths-filter version ([#10202](https://github.com/EddieHubCommunity/BioDrop/issues/10202)) ([ff28958](https://github.com/EddieHubCommunity/BioDrop/commit/ff28958b125bd25b5466f6663d40d5360796a61b))
 
 
 
