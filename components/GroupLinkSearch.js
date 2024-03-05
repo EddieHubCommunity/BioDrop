@@ -35,7 +35,7 @@ function GroupLinkSearch({ selectedGroup, handleGroupSelection, groups }) {
       />
       <Combobox.Options
         className={
-          "border-2 rounded border-tertiary-medium dark:bg-primary-medium"
+          "absolute z-10 w-full border-2 rounded border-tertiary-medium dark:bg-primary-medium"
         }
       >
         {filteredGroup.length > 0 &&
@@ -45,7 +45,7 @@ function GroupLinkSearch({ selectedGroup, handleGroupSelection, groups }) {
                 key={group}
                 value={group}
                 className={
-                  "px-3 py-2 flex items-center dark:hover:bg-tertiary-medium/60 hover:bg-secondary-low/40"
+                  "px-3 py-2 flex items-center bg-white dark:bg-primary-medium dark:hover:bg-tertiary-medium/60 hover:bg-secondary-low/100"
                 }
               >
                 {group !== "" && <span>{group}</span>}
