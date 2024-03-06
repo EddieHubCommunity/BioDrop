@@ -7,6 +7,7 @@ on:
       - components/**
       - config/**
       - tailwind.config.js
+      - playwright.config.js
       - package.json
       - next.config.mjs
       - models/**
@@ -58,6 +59,3 @@ jobs:
         run: npx playwright install chromium
       - name: run tests
         run: npx playwright test --shard=${{ matrix.shardIndex }}/${{ matrix.shardTotal }}
-      - uses: test-summary/action@v2.0
-        with:
-          paths: "results.xml"
