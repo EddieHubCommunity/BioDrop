@@ -1,0 +1,42 @@
+{
+  "name": "Soniya Prasad",
+  "bio": "Undergraduate Software Engineer | Beta Microsoft Learn Student Ambassador | Intern at Tublian",
+  "links": [
+    {
+      "group": "Social",
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/prasad_soniya",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "Social",
+      "name": "Follow me on Instagram",
+      "url": "https://www.instagram.com/soniyaprasadsig",
+      "icon": "FaInstagram"
+    },
+    {
+      "group": "Social",
+      "name": "Follow me on YouTube",
+      "url": "https://youtube.com/@prasad_soniya?si=G9hTcjoXzOl46fTc",
+      "icon": "FaYoutube"
+    },
+    {
+      "group": "Social",
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/your_linkedin_profile",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "Social",
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/soniyaprasad77",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "Social",
+      "name": "Follow me on Stack Overflow",
+      "url": "https://stackoverflow.com/users/17251755/soniya-prasad",
+      "icon": "FaStackOverflow"
+    }
+  ]
+}
