@@ -1,0 +1,19 @@
+{
+  "name": "Emmanuel Nwafor",
+  "bio": "Backend Developer | JavaScript/TypeScript | Python | PHP",
+  "links": [
+    {
+      "group": "Personal",
+      "name": "Personal Website",
+      "url": "http://emmo.tech",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/emma_nwafor1",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+  ]
+}
