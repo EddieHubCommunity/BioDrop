@@ -6,17 +6,24 @@
       {
         "name": "Follow me on GitHub",
         "url": "https://github.com/RitaDee",
-        "icon": "github"
+        "icon": "FaGithub",
+        "color": "#171515"
+      },
+      {
+        "name": "Donate to me on GitHub Sponsors",
+        "url": "https://github.com/sponsors/RitaDee",
+        "icon": "FaDollarSign"
       },
       {
         "name": "Follow me on Twitter",
         "url": "https://twitter.com/durdana_dee",
-        "icon": "twitter"
+        "icon": "FaTwitter",
+        "color": "#00ACEE"
       },
       {
         "name": "Check out my website",
         "url": "https://ritadaniel.me",
-        "icon": "globe"
+        "icon": "FaLink"
       },
       {
         "name": "Read my Blogs",
@@ -37,7 +44,7 @@
       {
       "name": "Follow me on LinkedIn",
       "url": "https://www.linkedin.com/in/rita-daniel/",
-      "icon": "LinkedIn"
+      "icon": "FaLinkedin"
     }
     ]
 }
