@@ -1,0 +1,13 @@
+{
+    "name": "Hariharan",
+    "bio": "MERN Full Stack Developer. |💻 Creates dynamic web apps.| 📚 Values clean code and learning.| 🤝 Enjoys team problem-solving.| 🎯 Open to contribute.",
+    "links": [
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://twitter.com/hari_haran_js",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        }
+    ]
+}
