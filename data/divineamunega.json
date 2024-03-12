@@ -1,0 +1,14 @@
+{
+    "name": "Eddie Jaoude",
+    "bio": "Tech Visionary | Fullstack web and mobile engineer.",
+
+    "links": [
+        {
+          "group": "Socials Primary",
+          "name": "Twitter: Follow me",
+          "url": "https://twitter.com/divineamunega",
+          "icon": "FaTwitter",
+          "color": "#00ACEE"
+        }
+    ]
+  }
