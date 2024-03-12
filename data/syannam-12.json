@@ -1,0 +1,22 @@
+{
+  "name": "Sravana Jyothi Yannam",
+  "bio": "Student | Open Source Contributor"
+}
+{
+  "name": "Sravana Jyothi Yannam",
+  "bio": "Student | Open Source Contributor",
+  "links": [
+    {
+      "group": "GitHub",
+      "name": "GitHub: Collaborate on Open Source",
+      "url": "https://github.com/syannam-12",
+      "icon": "FaGithub"
+    }
+     {
+      "group": "LinkedIn",
+      "name": "LinkedIn: Let's Connect",
+      "url": "https://www.linkedin.com/in/sravana-jyothi-yannam/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
