@@ -269,12 +269,13 @@ export default function Search({
           </h2>
         )}
 
-        {notFound && <Alert type="error" message={notFound} />}
         {
           isLoading ? (
             <div className="h-72">
               <Loading />
             </div>
+          ) : notFound ? (
+            <Alert type="error" message={notFound} />
           ) : (
             <>
               <ul
