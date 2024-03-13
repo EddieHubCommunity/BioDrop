@@ -281,19 +281,11 @@ export default function Search({
                 role="list"
                 className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
               >
-                {users.length < usersPerPage &&
-                  users.map((user) => (
-                    <li key={user.username}>
-                      <UserHorizontal profile={user} input={searchTerm} />
-                    </li>
-                  ))}
-
-                {users.length > usersPerPage &&
-                  visibleUsers.map((user) => (
-                    <li key={user.username}>
-                      <UserHorizontal profile={user} input={searchTerm} />
-                    </li>
-                  ))}
+                {(visibleUsers ?? []).map((user) => (
+                  <li key={user.username}>
+                    <UserHorizontal profile={user} input={searchTerm} />
+                  </li>
+                ))}
               </ul>
 
               {users.length > usersPerPage && (
