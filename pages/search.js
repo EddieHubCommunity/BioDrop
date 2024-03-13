@@ -17,6 +17,7 @@ import {
 } from "@services/utils/search/tags";
 import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
+import Loading from "@components/Loading";
 
 async function fetchUsersByKeyword(keyword) {
   const res = await fetch(
@@ -76,6 +77,7 @@ export default function Search({
   const { replace, query, pathname } = useRouter();
   const { username, keyword, userSearchParam } = query;
   const [notFound, setNotFound] = useState();
+  const [isLoading, setIsLoading] = useState(false);
   const [users, setUsers] = useState(
     keyword ? filteredUsers : recentlyUpdatedUsers,
   );
@@ -122,6 +124,7 @@ export default function Search({
     }
 
     async function fetchUsers(value) {
+      setIsLoading(true)
       try {
         const res = await fetch(
           `${BASE_URL}/api/search?${new URLSearchParams({
@@ -136,9 +139,11 @@ export default function Search({
         setNotFound();
         setUsers(data.users.sort(() => Math.random() - 0.5));
         setCurrentPage(1);
+        setIsLoading(false)
       } catch (err) {
         setNotFound(err.message);
         setUsers([]);
+        setIsLoading(false)
       }
     }
 
@@ -265,35 +270,45 @@ export default function Search({
         )}
 
         {notFound && <Alert type="error" message={notFound} />}
-        <ul
-          role="list"
-          className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
-        >
-          {users.length < usersPerPage &&
-            users.map((user) => (
-              <li key={user.username}>
-                <UserHorizontal profile={user} input={searchTerm} />
-              </li>
-            ))}
+        {
+          isLoading ? (
+            <div className="h-72">
+              <Loading />
+            </div>
+          ) : (
+            <>
+              <ul
+                role="list"
+                className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3"
+              >
+                {users.length < usersPerPage &&
+                  users.map((user) => (
+                    <li key={user.username}>
+                      <UserHorizontal profile={user} input={searchTerm} />
+                    </li>
+                  ))}
 
-          {users.length > usersPerPage &&
-            visibleUsers.map((user) => (
-              <li key={user.username}>
-                <UserHorizontal profile={user} input={searchTerm} />
-              </li>
-            ))}
-        </ul>
+                {users.length > usersPerPage &&
+                  visibleUsers.map((user) => (
+                    <li key={user.username}>
+                      <UserHorizontal profile={user} input={searchTerm} />
+                    </li>
+                  ))}
+              </ul>
 
-        {users.length > usersPerPage && (
-          <Pagination
-            currentPage={currentPage}
-            data={users}
-            perPage={usersPerPage}
-            paginate={paginate}
-            startIndex={indexOfFirstUser}
-            endIndex={indexOfLastUser}
-          />
-        )}
+              {users.length > usersPerPage && (
+                <Pagination
+                  currentPage={currentPage}
+                  data={users}
+                  perPage={usersPerPage}
+                  paginate={paginate}
+                  startIndex={indexOfFirstUser}
+                  endIndex={indexOfLastUser}
+                />
+              )}
+            </>
+          )
+        }
       </Page>
     </>
   );
