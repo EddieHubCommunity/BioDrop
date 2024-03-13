@@ -1,0 +1,12 @@
+{
+  "name": "Jai",
+  "bio": "Programmer | Ethical Hacker",
+  "links": [
+    {
+      "group": "Coding",
+      "name": "Github Profile",
+      "url": "http://github.com/DarkTechPirate",
+      "icon": "FaLink"
+    }
+  ]
+}
