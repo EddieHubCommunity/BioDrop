@@ -63,7 +63,7 @@ export default function Icons({ popularIcons }) {
     });
   };
 
-  const filterredIcons = useMemo(
+  const filteredIcons = useMemo(
     (value = keyword) => {
       if (value.length < 3) {
         setThreeOrMore(false);
@@ -114,7 +114,7 @@ export default function Icons({ popularIcons }) {
           />
         )}
         <ul className="flex flex-wrap gap-4 mt-4">
-          {filterredIcons.map((iconName, index) => (
+          {filteredIcons.map((iconName, index) => (
             <li key={index}>
               <Badge
                 content={iconName.count}
