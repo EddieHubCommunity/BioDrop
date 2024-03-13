@@ -1,3 +1,12 @@
+## [2.99.18](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.17...v2.99.18) (2024-03-13)
+
+
+### Bug Fixes
+
+* typo in icon.js ([#10256](https://github.com/EddieHubCommunity/BioDrop/issues/10256)) ([d7b4ec6](https://github.com/EddieHubCommunity/BioDrop/commit/d7b4ec6a115b57e934a3582541cdd2d8896d8973))
+
+
+
 ## [2.99.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.16...v2.99.17) (2024-03-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * security contact info ([#10228](https://github.com/EddieHubCommunity/BioDrop/issues/10228)) ([b219a97](https://github.com/EddieHubCommunity/BioDrop/commit/b219a97c447052b55733082819dc5566ee55a187))
-
-
-
-## [2.99.13](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.12...v2.99.13) (2024-02-03)
-
-
-### Bug Fixes
-
-* git-auto-commit-action to v5 ([#10213](https://github.com/EddieHubCommunity/BioDrop/issues/10213)) ([074c2b2](https://github.com/EddieHubCommunity/BioDrop/commit/074c2b20e963fdd5041e0d168316ef4c4989b027))
 
 
 
