@@ -16,6 +16,16 @@
       "name": "GitHub",
       "url": "https://www.github.com/sharsha315",
       "icon": "FaGithub"
+    },
+    {
+      "name": "Dev.to",
+      "url": "https://dev.to/sharsha315",
+      "icon": "FaDev"
+    },
+    {
+      "name": "Tublian",
+      "url": "https://www.tublian.com/profile/sharsha315",
+      "icon": "FaLink"
     }
   ]
 }
