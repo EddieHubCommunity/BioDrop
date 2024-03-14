@@ -1,0 +1,21 @@
+{
+    "name": "Shubham Kumar",
+    "bio": "MERN Developer. |💻 Machine Learning Enthuastic.| 📚 problem solver.| 🎯 Open to contribute.",
+    "links": [
+       {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Shubh1777",
+      "icon": "SiTwitter"
+    },
+    {
+      "name": "Checkout my Open source journey",
+      "url": "https://github.com/shubh1777",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on LinkedIn",
+      "url": "https://www.linkedin.com/in/shubham-kumar1777/",
+      "icon": "SiLinkedin"
+    },
+    ]
+}
