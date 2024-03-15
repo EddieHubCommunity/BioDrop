@@ -1,0 +1,20 @@
+{
+  "name": "Azra Naseri",
+  "bio": "Frontend developer | JavaScript | react |Java | open source contributor",
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/AzraNaseri",
+      "icon": "FaGithub"
+      
+    }
+  ],
+  "social": [
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/azra-naseri/",
+      "icon": "FaLinkedinIn"
+      
+    }
+  ]
+}
