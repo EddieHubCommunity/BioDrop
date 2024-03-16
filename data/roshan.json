@@ -1,0 +1,26 @@
+{
+  "name": "Roshan Kawale",
+  "bio": "An enthusiastic Tech Student. I am currently learning MERN Stack webapp development.",
+  "links": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/roshan-kawale-a45a2a229/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/roshan-Kawale",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/_roshan_kawale_",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:roshankawale2003@gmail.com",
+      "icon": "FaEnvelope"
+    }
+  ]
+}
