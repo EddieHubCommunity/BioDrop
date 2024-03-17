@@ -1,0 +1,56 @@
+{
+    "name": "Olibhia Ghosh",
+    "bio": "Open Source Enthusiast | Web Development | Technical Blogger | DSA | Excited to learn , grow and build in public",
+    "tags": ["Open Source", "Frontend developer", "Web Development", "DSA", "Python" , "JAVA", "MySQL"],
+    "socials": [
+      {
+        "icon": "FaGithub",
+        "url": "https://github.com/OlibhiaGhosh"
+      },
+      {
+        "icon": "SiHashnode",
+        "url": "https://olibhia.hashnode.dev/"
+      },
+      {
+        "icon": "FaTwitter",
+        "url": "https://twitter.com/OlibhiaGhosh"
+      }
+    ],
+    "links": [
+      {
+        "name": "Follow me on GitHub",
+        "url": "https://github.com/OlibhiaGhosh",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/OlibhiaGhosh",
+        "icon": "FaTwitter"
+      },
+      {
+        "name": "Connect with me on LinkedIn",
+        "url": "https://www.linkedin.com/in/olibhiaghosh/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "Check out my blogs on Hashnode",
+        "url": "https://olibhia.hashnode.dev/",
+        "icon": "SiHashnode"
+      },
+      {
+        "name": "Check out my blogs on dev.to",
+        "url": "https://dev.to/olibhiaghosh",
+        "icon": "FaDev"
+      }
+    ],
+    "milestones": [
+      {
+        "title": "Started Technical Blogging",
+        "date": "8 January 2024",
+        "icon": "SiHashnode",
+        "color": "blue",
+        "description": "Sharing my Journey and knowledge through Blogging",
+        "url": "https://olibhia.hashnode.dev/"
+      }
+    ]
+  }
