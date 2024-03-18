@@ -1,0 +1,22 @@
+{
+    "name": "Rajesh Jonnalagadda",
+    "bio": "I am a Backend Software Engineer",
+    "links": [
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/rajesh-jonnalagadda-763232115/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/rajeshj11",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:rajeshjonnalagadda48@gmail.com",
+        "icon": "FaEnvelope"
+      }
+    ]
+  }
+  
