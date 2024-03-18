@@ -1,14 +1,11 @@
 {
   "name": "DEBAJYOTI GHOSH",
   "bio": "Passionate Aspirant with experience in HTML, CSS, JavaScript, React JS and AWS. detail-oriented with the ability to create compelling user interfaces.",
-  "type": "personal",
-  "displayStatsPublic": true,
-  "avatar": "https://drive.google.com/file/d/11tSsS3e06z-rnH_I3x9fNEuSLwySvJad/view?usp=sharing",
   "links": [
     {
       "name": "WEBSITE",
       "url": "https://convolexa-2503.web.app/",
-      "icon": "https://static.vecteezy.com/system/resources/thumbnails/016/716/181/small_2x/website-3d-icon-png.png"
+      "icon": "FaSpider"
     }
   ]
 }
