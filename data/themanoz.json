@@ -1,0 +1,20 @@
+{
+    "name": "Manoj Kumar",
+    "bio": "Devops & Open source enthusiast",
+    "links": [
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://twitter.com/the_manoz",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "group": "Socials Primary",
+            "name": "Github: Collaborate on Open Source",
+            "url": "https://github.com/themanoz",
+            "icon": "FaGithub",
+            "color": "#00ACEE"
+        }
+    ]
+}

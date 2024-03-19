@@ -1,0 +1,16 @@
+{
+  "name": "Gabriel Giani",
+  "bio": "I am a fullstack developer and a junior at Florida Atlantic University studying computer science.",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/GabrielGianiDev",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/Gabriel-Giani",
+      "icon": "FaGithubAlt"
+    }
+  ]
+}

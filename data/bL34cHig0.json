@@ -1,0 +1,59 @@
+{
+  "name": "Habeeb Kareem",
+  "bio": "Aspiring Pentester | IT graduate | Open-Source Enthusiast",
+  "tags": ["Open Source", "Python"],
+  "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/itskhabib"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/bL34cHig0"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://linkedin.com/ha-bib"
+    }
+  ],
+  "links": [
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/bL34cHig0",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itskhabib",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/ha-bib/",
+      "icon": "FaLinkedin"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Became a Technical Writer volunteer for CYSED",
+      "date": "9/10/2023",
+      "icon": "SiHappycow",
+      "description": "Published two cyber security articles for CYSED's cyber security awarness campaign #NACSAM23",
+      "url": "https://cysed.org/blog/"
+    },
+    {
+      "title": "Started my first open source project",
+      "date": "9/6/2023",
+      "icon": "FaFaceGrinStars",
+      "description": "This project is a curated list of cyber security resources for like minded offensive security enthusiasts and professionals",
+      "url": "https://github.com/bL34cHig0/Pentest-Resources-Cheat-Sheets"
+    },
+    {
+      "title": "Started my first volunteering gig",
+      "date": "7/10/2023",
+      "icon": "FaStar",
+      "description": "Worked on the notification service for Fehris; an online bookstore",
+      "url": "https://fehris.com/"
+    }
+  ]
+}

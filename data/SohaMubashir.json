@@ -1,0 +1,16 @@
+{
+  "name": "Soha Mubashir",
+  "bio": "Web Developer | Python and JavaScript enthusiast | Open Source",
+  "links": [
+    {
+      "name": "Follow on GitHub",
+      "url": "https://github.com/SohaMubashir",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow on Linkedin",
+      "url": "https://www.linkedin.com/in/soha-mubashir-196r",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

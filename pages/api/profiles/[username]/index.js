@@ -1,11 +1,13 @@
 import { authOptions } from "../../auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
+import { ObjectId } from "bson";
 
 import connectMongo from "@config/mongo";
 import logger from "@config/logger";
-import { Profile, Stats, ProfileStats } from "@models/index";
+import { Profile, Stats, ProfileStats, User } from "@models/index";
 
 import getLocation from "@services/github/getLocation";
+import dateFormat from "@services/utils/dateFormat";
 
 export default async function handler(req, res) {
   const username = req.query.username;
@@ -19,8 +21,9 @@ export default async function handler(req, res) {
   return res.status(status).json(profile);
 }
 
-export async function getUserApi(req, res, username) {
+export async function getUserApi(req, res, username, options = {}) {
   await connectMongo();
+  const today = new Date();
   let isOwner = false;
   const session = await getServerSession(req, res, authOptions);
   if (session && session.username === username) {
@@ -39,12 +42,34 @@ export async function getUserApi(req, res, username) {
     };
   }
 
-  await getLocation(username, getProfile);
+  let ipLookupProm;
+  if (options.ip && !options.ip.match(/127\.0\.0\.1/)) {
+    try {
+      ipLookupProm = fetch(`https://api.iplocation.net/?ip=${options.ip}`);
+    } catch (e) {
+      log.error(e, `failed to get country for ip: ${options.ip}`);
+    }
+  }
+
+  let checks = [];
+
+  checks.push(getLocation(username, getProfile));
+  await Promise.allSettled(checks);
 
   const log = logger.child({ username });
   getProfile = await Profile.aggregate([
     {
       $match: { username },
+    },
+    {
+      $set: {
+        milestones: {
+          $sortArray: {
+            input: "$milestones",
+            sortBy: { date: -1 },
+          },
+        },
+      },
     },
     {
       $addFields: {
@@ -78,13 +103,20 @@ export async function getUserApi(req, res, username) {
       },
     },
   ]);
-
   getProfile = getProfile[0];
+
   getProfile = {
     ...getProfile,
-    links: getProfile.links.filter((link) => link.isEnabled),
+    links: getProfile.links
+      .filter((link) => link.isEnabled)
+      .sort(
+        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE),
+      ),
     socials: getProfile.links
       .filter((link) => link.isPinned)
+      .sort(
+        (a, b) => (a.order ?? Number.MAX_VALUE) - (b.order ?? Number.MAX_VALUE),
+      )
       .map((link) => ({
         _id: link._id,
         url: link.url,
@@ -92,26 +124,38 @@ export async function getUserApi(req, res, username) {
       })),
   };
 
+  let getUser = {};
+  if (getProfile.user) {
+    getUser = await User.findOne({ _id: new ObjectId(getProfile.user) });
+
+    getProfile = {
+      ...getProfile,
+      accountType: getUser.type || "free",
+    };
+  } else {
+    getProfile = {
+      ...getProfile,
+      accountType: "free",
+    };
+  }
+  delete getProfile.user;
+
   if (getProfile.events) {
     let dateEvents = [];
-    const today = new Date();
+
     getProfile.events.map((event) => {
       let cleanEvent = JSON.parse(JSON.stringify(event));
-      const dateTimeStyle = {
-        dateStyle: "full",
-        timeStyle: "long",
-      };
       try {
         const start = new Date(event.date.start);
         const end = new Date(event.date.end);
-        cleanEvent.date.startFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(start);
-        cleanEvent.date.endFmt = new Intl.DateTimeFormat(
-          "en-GB",
-          dateTimeStyle
-        ).format(end);
+        cleanEvent.date.startFmt = dateFormat({
+          format: "long",
+          date: event.date.start,
+        });
+        cleanEvent.date.endFmt = dateFormat({
+          format: "long",
+          date: event.date.end,
+        });
 
         cleanEvent.date.cfpOpen =
           event.date.cfpClose && new Date(event.date.cfpClose) > today;
@@ -123,13 +167,15 @@ export async function getUserApi(req, res, username) {
       }
     });
 
-    getProfile.events = dateEvents;
+    getProfile.events = dateEvents.sort(
+      (a, b) => Number(new Date(a.date.start)) - Number(new Date(b.date.start)),
+    );
   } else {
     getProfile.events = [];
   }
 
   let updates = [];
-  const date = new Date();
+  const date = today;
   date.setHours(1, 0, 0, 0);
 
   if (!isOwner) {
@@ -143,14 +189,30 @@ export async function getUserApi(req, res, username) {
             {
               $inc: { users: 1 },
             },
-            { upsert: true }
+            { upsert: true },
           );
           log.info(`app profile stats incremented for username: ${username}`);
         } catch (e) {
           log.error(e, `app profile stats failed for ${username}`);
         }
-      })()
+      })(),
     );
+
+    let increment = { views: 1 };
+    if (options.referer) {
+      const referer = new URL(options.referer);
+      increment[`stats.referers.${referer.hostname.replaceAll(".", "|")}`] = 1;
+    }
+    if (options.ip && !options.ip.match(/127\.0\.0\.1/)) {
+      try {
+        const ipLookupRes = await ipLookupProm;
+        const ipLookup = await ipLookupRes.json();
+        increment[`stats.countries.${ipLookup.country_code2}`] = 1;
+      } catch (e) {
+        increment[`stats.countries.-`] = 1;
+        log.error(e, `failed to get country for ip: ${options.ip}`);
+      }
+    }
 
     updates.push(
       (async () => {
@@ -160,17 +222,18 @@ export async function getUserApi(req, res, username) {
               username,
             },
             {
-              $inc: { views: 1 },
-            }
+              $inc: increment,
+            },
+            { timestamps: false },
           );
           log.info(`stats incremented for username: ${username}`);
         } catch (e) {
           log.error(
             e,
-            `failed to increment profile stats for username: ${username}`
+            `failed to increment profile total stats for username: ${username}`,
           );
         }
-      })()
+      })(),
     );
 
     updates.push(
@@ -182,18 +245,18 @@ export async function getUserApi(req, res, username) {
               date,
             },
             {
-              $inc: { views: 1 },
+              $inc: increment,
             },
-            { upsert: true }
+            { upsert: true },
           );
           log.info(`profile daily stats incremented for username: ${username}`);
         } catch (e) {
           log.error(
             e,
-            "failed to increment profile stats for username: ${username}"
+            "failed to increment profile daily stats for username: ${username}",
           );
         }
-      })()
+      })(),
     );
   }
 
@@ -207,16 +270,16 @@ export async function getUserApi(req, res, username) {
           {
             $inc: { views: 1 },
           },
-          { upsert: true }
+          { upsert: true },
         );
         log.info(`app daily stats incremented for username: ${username}`);
       } catch (e) {
         log.error(
           e,
-          `failed incrementing platform stats for username: ${username}`
+          `failed incrementing platform stats for username: ${username}`,
         );
       }
-    })()
+    })(),
   );
 
   await Promise.allSettled(updates);
@@ -225,6 +288,6 @@ export async function getUserApi(req, res, username) {
     JSON.stringify({
       status: 200,
       profile: getProfile,
-    })
+    }),
   );
 }

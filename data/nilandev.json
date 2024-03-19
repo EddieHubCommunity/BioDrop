@@ -1,0 +1,49 @@
+{
+  "name": "Nilanchala",
+  "bio": "Solution architect. 15 years of product development experience in Java, Spring, Spring boot, SOA, Microservices & Cloud.",
+  "tags": [
+    "Open Source",
+    "Java",
+    "Spring",
+    "Spring Boot",
+    "Python",
+    "Django",
+    "AWS",
+    "Flutter"
+  ],
+   "socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/asknilan"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/nilandev"
+    },
+     {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/nilanchala/"
+    }
+  ],  
+  "links": [   
+    {
+      "name": "Check out my website",
+      "url": "https://stacktips.com",
+      "icon": "FaGlobe"
+    },
+    {
+      "name": "Subscribe to my YouTube Channel",
+      "url": "https://youtube.com/@TheTechMojo",
+      "icon": "FaYoutube"
+    },
+     {
+      "name": "Subscribe to my YouTube Channel",
+      "url": "https://stackoverflow.com/users/2090887/nilanchala",
+      "icon": "FaStackOverflow"
+    }, {
+      "name": "Read my articles on DEV.to",
+      "url": "https://dev.to/nilan",
+      "icon": "FaDev"
+    }
+  ]
+}

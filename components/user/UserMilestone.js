@@ -1,58 +1,81 @@
 import { useEffect, useState } from "react";
-import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaUpRightFromSquare } from "react-icons/fa6";
+import { classNames } from "@services/utils/classNames";
 
 import getIcon from "@components/Icon";
 import Link from "@components/Link";
-import Edit from "@components/account/manage/edit";
+import Edit from "@components/account/manage/Edit";
+import Markdown from "@components/Markdown";
+import { shortenDate } from "@services/utils/dateFormat";
 
 export default function UserMilestone({ milestone, isGoal, manage }) {
   const [date, setDate] = useState(milestone.date);
 
   useEffect(() => {
-    const parse = Date.parse(date);
-    if (!isNaN(parse)) {
-      setDate(new Date(parse).toLocaleDateString());
+    if (milestone.date) {
+      const formattedDate = shortenDate({
+        date: milestone.date,
+        formatStyle: milestone.dateFormat,
+      });
+      setDate(formattedDate);
     }
-  }, [milestone.date]);
+  }, [milestone.date, milestone.dateFormat]);
 
   const DisplayIcon = getIcon(milestone.icon);
-  const item = (milestone) => (
-    <div className="flex space-x-3 grow">
-      {milestone.icon && <DisplayIcon className="h-8 w-8 rounded-full" />}
-      <div className="flex-1 space-y-1">
-        <div className="flex items-center justify-between">
-          <h3 className="text-sm font-medium flex gap-2 items-center">
-            <span>{milestone.title}</span>
-            {milestone.url && (
-              <Link href={milestone.url} target="_blank">
-                <FaExternalLinkAlt />
-              </Link>
-            )}
-          </h3>
-          <p className="text-sm text-primary-medium dark:text-primary-medium-low">
-            {date}
-          </p>
-        </div>
-        <ReactMarkdown className="text-sm text-primary-medium dark:text-primary-medium-low">
-          {milestone.description}
-        </ReactMarkdown>
-      </div>
-    </div>
-  );
+  const item = (milestone, isGoal) => {
+    const colors = isGoal
+      ? "text-primary-medium/70 dark:text-primary-low-medium/[.83]"
+      : "text-primary-medium dark:text-primary-low-medium";
 
-  const edit = (milestone) => (
-    <Edit href={`/account/manage/milestone/${milestone._id}`}>
-      {item(milestone)}
+    return (
+      <div className="flex space-x-3 grow">
+        {milestone.icon && (
+          <DisplayIcon
+            className={`h-8 w-8 ${manage ? "ml-12" : "ml-0"}`}
+          />
+        )}
+        <div className="flex-1 space-y-1">
+          <div className="flex items-center justify-between">
+            <h2
+              className={classNames(
+                isGoal && "opacity-70",
+                "text-sm font-medium",
+              )}
+            >
+              <span>{milestone.title}</span>
+            </h2>
+            <p className={`text-sm flex gap-2 items-center ${colors}`}>
+              {date}
+              {milestone.url && (
+                <Link
+                  href={milestone.url}
+                  aria-label="Milestone Related Link"
+                  target="_blank"
+                >
+                  <FaUpRightFromSquare />
+                </Link>
+              )}
+            </p>
+          </div>
+          <Markdown className={`text-sm ${colors}`}>
+            {milestone.description}
+          </Markdown>
+        </div>
+      </div>
+    );
+  };
+
+  const edit = (milestone, isGoal) => (
+    <Edit
+      href={`/account/manage/milestone/${milestone._id}`}
+      label={`${milestone.title} Milestone`}
+    >
+      {item(milestone, isGoal)}
     </Edit>
   );
   return (
-    <li
-      className={`flex flex-row gap-8 py-4 ${
-        isGoal ? "opacity-50" : ""
-      } border-primary-low-medium`}
-    >
-      {manage ? edit(milestone) : item(milestone)}
+    <li className="flex flex-row gap-8 py-4 border-primary-low-medium">
+      {manage ? edit(milestone, isGoal) : item(milestone, isGoal)}
     </li>
   );
 }

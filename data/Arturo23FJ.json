@@ -1,0 +1,33 @@
+{
+    "name": "Viktor Turkovics",
+    "bio": "Junior Java Developer | Open Source Contributor",
+    "links": [
+        {
+            "name": "Let's connect on LinkedIn",
+            "url": "https://www.linkedin.com/in/viktor-turkovics-954702196/",
+            "icon": "FaLinkedin"
+        },
+        {
+            "name": "My Github Profile",
+            "url": "https://github.com/Arturo23FJ",
+            "icon": "FaGithub"
+        }
+    ],
+    "tags": [
+        "Open Source",
+        "Java",
+        "Junior Developer",
+        "Spring Boot",
+        "Github"
+    ],
+    "socials": [
+        {
+            "icon": "FaLinkedin",
+            "url": "https://www.linkedin.com/in/viktor-turkovics-954702196/"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/Arturo23FJ"
+        }
+    ]
+}

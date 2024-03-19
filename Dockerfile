@@ -1,5 +1,5 @@
 FROM node:18
-LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/LinkFree
+LABEL org.opencontainers.image.source https://github.com/eddiehubcommunity/BioDrop
 
 WORKDIR /usr/src/app
 

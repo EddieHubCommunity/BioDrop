@@ -1,50 +1,61 @@
 {
   "name": "Jugaad",
-  "bio": "Hello World, I'm a **tech** oriented **graphics designer**.",
-  "tags": ["Open Source", "Adobe Creative Suite", "HTML", "CSS"],
+  "bio": "Hello World, I'm a **tech** oriented **graphic designer**.",
+  "tags": [
+    "Open Source",
+    "Adobe Creative Suite",
+    "HTML",
+    "CSS"
+  ],
   "socials": [
     {
       "icon": "FaLinkedin",
-      "url": "https://www.linkedin.com/in/jugaad/"
+      "url": "https://dub.sh/pqTJjgG"
     },
     {
       "icon": "FaInstagram",
-      "url": "https://www.instagram.com/jugaaaadd/"
+      "url": "https://dub.sh/FDrlE9P"
     },
     {
-      "icon": "FaGithub",
-      "url": "https://github.com/jugaaadd"
+      "icon": "FaMedium",
+      "url": "https://dub.sh/o0lQQbX"
     }
   ],
   "links": [
     {
       "group": "Design Portfolio",
       "name": "Behance - My creative world.",
-      "url": "https://www.behance.net/Jugaad",
+      "url": "https://dub.sh/YM45cld",
       "icon": "FaBehance"
     },
     {
       "group": "Digital Store",
       "name": "Gumroad - Passive project in free time.",
-      "url": "https://jugaadd.gumroad.com/",
+      "url": "https://dub.sh/K0sIKGT",
       "icon": "SiGumroad"
+    },
+    {
+      "group": "Tech Writer",
+      "name": "Medium - Your tech writer",
+      "url": "https://dub.sh/o0lQQbX",
+      "icon": "FaMedium"
     },
     {
       "group": "Socials",
       "name": "Instagram - Your privacy guide, tech news, finance & much more.",
-      "url": "https://www.instagram.com/jugaaaadd/",
+      "url": "https://dub.sh/FDrlE9P",
       "icon": "FaInstagram"
     },
     {
       "group": "Socials",
       "name": "LinkedIn - Let's connect.",
-      "url": "https://www.linkedin.com/in/jugaad/",
+      "url": "https://dub.sh/pqTJjgG",
       "icon": "FaLinkedin"
     },
     {
       "group": "Tech Universe",
       "name": "Github - Where world create softwares.",
-      "url": "https://github.com/jugaaadd",
+      "url": "https://dub.sh/31Ll6HO",
       "icon": "FaGithub"
     }
   ]

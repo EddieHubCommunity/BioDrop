@@ -1,12 +1,7 @@
 import UserLink from "./UserLink";
 import Alert from "@components/Alert";
 
-export default function UserLinks({
-  BASE_URL,
-  links,
-  username,
-  manage = false,
-}) {
+export default function UserLinks({ BASE_URL, links, username }) {
   const defaultBucket = "Others";
   const buckets = links?.reduce((acc, obj) => {
     const group = obj.group || defaultBucket;
@@ -17,8 +12,9 @@ export default function UserLinks({
 
   return (
     <>
-      {!links?.length && <Alert type="info" message="No links found" />}
-      {links?.length && (
+      {!links?.length && <Alert type="info" message="No Links found" />}
+
+      {links?.length > 0 && (
         <>
           {Object.keys(buckets).map((name) => (
             <div key={name} className="flex flex-col items-center w-full">
@@ -28,9 +24,9 @@ export default function UserLinks({
                   key={name}
                 >
                   <div className="-ml-2 -mt-2 flex flex-wrap items-baseline">
-                    <h3 className="ml-2 mt-2 text-lg font-medium leading-6 dark:text-primary-low text-primary-high">
+                    <h2 className="ml-2 mt-2 text-lg font-medium leading-6 dark:text-primary-low text-primary-high">
                       {name}
-                    </h3>
+                    </h2>
                     <p className="ml-2 mt-1 truncate text-sm dark:text-primary-low-high text-primary-medium">
                       ({buckets[name].length})
                     </p>
@@ -43,7 +39,6 @@ export default function UserLinks({
                   key={link._id}
                   link={link}
                   username={username}
-                  manage={manage}
                   isEnabled={link.isEnabled}
                 />
               ))}

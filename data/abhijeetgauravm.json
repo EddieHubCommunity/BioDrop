@@ -1,0 +1,21 @@
+{
+  "name": "Abhijeet Gaurav",
+  "bio": "Open Source Enthusiast!, Loves talk about DevOps and Frontend Development",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/abhijeetgauravm",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/abhijeetgauravm",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Linkedin",
+      "url": "https://www.linkedin.com/in/abhijeet-gaurav-971b01a4/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

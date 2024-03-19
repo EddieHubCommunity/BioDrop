@@ -1,0 +1,40 @@
+{
+  "name": "Gulam Mustafa",
+  "bio": "Techie Teacher at Techie Tessie.",
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Gulam-Mustafa231999",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/GulamMu79035761",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/gulam-mustafa-706933257",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on Facebook",
+      "url": "https://www.facebook.com/gulam.mustafa.3781",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/gulammustafa954",
+      "icon": "FaInstagram"
+    }
+  ],
+  "milestones": [
+    {
+      "title": "Started learning javaScript",
+      "date": "July 2023",
+      "icon": "FaJavaScript",
+      "description": "Learning new technology",
+      "url": "https://www.youtube.com/techietessie"
+    }
+  ]
+}

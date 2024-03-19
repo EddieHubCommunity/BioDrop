@@ -1,6 +1,7 @@
 {
   "name": "Dushmanta",
-  "bio": "Passionate web developer | Open-source enthusiast | Love football",
+  "bio": "Passionate software engineer",
+  "tags": ["JavaScript", "React", "Tailwind", "Next.js", "Laravel", "FilamnetPHP"],
   "links": [
     {
       "name": "LinkedIn",

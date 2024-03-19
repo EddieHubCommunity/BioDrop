@@ -10,13 +10,13 @@ concurrency:
 
 jobs:
   format:
-    if: github.repository == 'EddieHubCommunity/LinkFree'
+    if: github.repository == 'EddieHubCommunity/BioDrop'
     runs-on: ubuntu-latest
     name: Format Files
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
           node-version: "18"
           cache: "npm"
@@ -24,11 +24,11 @@ jobs:
       - run: npm ci
 
       - name: Prettier
-        run: npx prettier --write data/*.json
+        run: npx prettier --write data/**/*.json
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         id: format-files
         with:
           commit_message: "style: format files"

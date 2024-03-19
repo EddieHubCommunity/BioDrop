@@ -1,0 +1,19 @@
+{
+  "name": "Karen Jean Louis",
+  "bio": "Software Engineer",
+  "links": [
+    {
+      "group": "Business",
+      "name": "Karen Kreative",
+      "url": "https://karenjeanlouis.netlify.app",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Twitter: Follow me",
+      "url": "https://twitter.com/limebee18",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    }
+  ]
+}

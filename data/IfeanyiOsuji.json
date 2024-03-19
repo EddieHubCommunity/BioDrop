@@ -1,0 +1,31 @@
+{
+  "name": "Ifeanyi Osuji",
+  "bio": "Software engineer with passion for coding, problem solving... I love Java for enterprise applications and python for problem solving and analysis. Open minded and always willing to improve on existing skills.",
+  "links": [
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/IfeanyiOsuji19",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ifeanyi-osuji-661a9690/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/ifeanyi.n.osuji",
+      "icon": "FaFacebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/oindubuisi/",
+      "icon": "FaInstagram"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://www.github.com/IfeanyiOsuji",
+      "icon": "FaGithub"
+    }
+  ]
+}

@@ -10,6 +10,11 @@
   ],
   "links": [
     {
+      "name": "Empathy PHP Framework",
+      "url": "https://empathy.sh",
+      "icon": "FaLink"
+    },
+    {
       "name": "Portfolio",
       "url": "https://www.mikejw.co.uk",
       "icon": "FaLink"
@@ -73,12 +78,11 @@
       "description": "Three repositories captured belonging to the Open Source Empathy PHP MVC framework project that I began in 2008."
     },
     {
-      "isGoal": true,
-      "title": "Website for all docs/resources for Empathy PHP Framework",
+      "title": "Created website for all docs/resources for the Empathy PHP Framework",
       "date": "2023",
       "icon": "FaGithub",
       "color": "green",
-      "description": "I have finally began the process of documenting the code in markdown files within respective GitHub repos. Now there needs to be a new website to act as a hub for these resources."
+      "description": "I finally began the process of documenting the code in markdown files within respective GitHub repos. There was then a need for a new website to act as a hub for these resources."
     }
   ]
 }

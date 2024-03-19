@@ -3,34 +3,43 @@ import { useState } from "react";
 import { authOptions } from "../../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
 import Button from "@components/Button";
-import Navigation from "@components/account/manage/navigation";
-import { getLinkApi } from "pages/api/account/manage/link/[[...data]]";
+import Navigation from "@components/account/manage/Navigation";
+import {
+  getGroupLinkApi,
+  getLinkApi,
+} from "pages/api/account/manage/link/[[...data]]";
 import Input from "@components/form/Input";
 import UserLink from "@components/user/UserLink";
 import Toggle from "@components/form/Toggle";
 import Notification from "@components/Notification";
 import Link from "@components/Link";
 import ConfirmDialog from "@components/ConfirmDialog";
+import { PROJECT_NAME } from "@constants/index";
+import IconSearch from "@components/IconSearch";
+import Select from "@components/form/Select";
+import config from "@config/app.json";
+import { objectToLabelValueArray } from "@services/utils/objectToLabelValueArray";
+import GroupLinkSearch from "@components/GroupLinkSearch";
+
+const animations = config.animations;
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
-
-  if (!session) {
-    return {
-      redirect: {
-        destination: "/auth/signin",
-        permanent: false,
-      },
-    };
-  }
-
   const username = session.username;
   const id = context.query.data ? context.query.data[0] : undefined;
+
   let link = {};
+  let groups = [];
+  try {
+    groups = await getGroupLinkApi(username);
+  } catch (e) {
+    logger.error(e, `Group ${id} failed for username: ${username}`);
+  }
   if (id) {
     try {
       link = await getLinkApi(username, id);
@@ -40,11 +49,11 @@ export async function getServerSideProps(context) {
   }
 
   return {
-    props: { username, link, BASE_URL: process.env.NEXT_PUBLIC_BASE_URL },
+    props: { username, link, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL, groups },
   };
 }
 
-export default function ManageLink({ BASE_URL, username, link }) {
+export default function ManageLink({ BASE_URL, username, link, groups }) {
   const [open, setOpen] = useState(false);
   const [showNotification, setShowNotification] = useState({
     show: false,
@@ -59,15 +68,31 @@ export default function ManageLink({ BASE_URL, username, link }) {
   const [icon, setIcon] = useState(link.icon || "");
   const [isEnabled, setIsEnabled] = useState(link.isEnabled ? true : false);
   const [isPinned, setIsPinned] = useState(link.isPinned ? true : false);
+  const [animation, setAnimation] = useState(
+    link.animation || Object.keys(config.animations)[0],
+  );
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsDisabled(true);
 
     let method = "POST";
-    let putLink = { group, name, url, icon, isEnabled, isPinned };
+    let selectedIcon = icon !== "" ? icon : "FaGlobe";
+    let putLink = {
+      group,
+      name,
+      url,
+      icon: selectedIcon,
+      isEnabled,
+      isPinned,
+      animation,
+    };
 
+    let alert = "created";
     let apiUrl = `${BASE_URL}/api/account/manage/link`;
     if (edit) {
+      alert = "updated";
       method = "PUT";
       putLink = { ...putLink, _id: link._id };
       apiUrl = `${BASE_URL}/api/account/manage/link/${link._id}`;
@@ -83,25 +108,19 @@ export default function ManageLink({ BASE_URL, username, link }) {
     const update = await res.json();
 
     if (update.message || !update) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
         message: "Link add/update failed",
         additionalMessage: `Please check the fields: ${Object.keys(
-          update.message
+          update.message,
         ).join(", ")}`,
       });
     }
 
-    Router.push(`${BASE_URL}/account/manage/link/${update._id}`);
     setEdit(true);
-
-    return setShowNotification({
-      show: true,
-      type: "success",
-      message: "Link added/updated",
-      additionalMessage: "Your Link has been added/updated successfully",
-    });
+    Router.push(`${BASE_URL}/account/manage/links?alert=${alert}`);
   };
 
   const deleteItem = async () => {
@@ -122,14 +141,14 @@ export default function ManageLink({ BASE_URL, username, link }) {
       });
     }
 
-    return Router.push(`${BASE_URL}/account/manage/links`);
+    return Router.push(`${BASE_URL}/account/manage/links?alert=deleted`);
   };
 
   return (
     <>
       <PageHead
         title="Manage Links"
-        description="Here you can manage your LinkFree links"
+        description={`Here you can manage your ${PROJECT_NAME} links`}
       />
 
       <Page>
@@ -163,14 +182,11 @@ export default function ManageLink({ BASE_URL, username, link }) {
                 </div>
 
                 <div className="sm:grid sm:grid-cols-3 sm:items-start sm:gap-4 sm:border-t sm:border-primary-low-medium/30 sm:pt-5">
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
-                      name="group"
-                      label="Group"
-                      onChange={(e) => setGroup(e.target.value)}
-                      value={group}
-                      minLength="2"
-                      maxLength="64"
+                  <div className="relative mt-1 sm:col-span-2 sm:mt-0">
+                    <GroupLinkSearch
+                      groups={groups}
+                      handleGroupSelection={setGroup}
+                      selectedGroup={group}
                     />
                     <p className="text-sm text-primary-low-medium">
                       You can{" "}
@@ -207,22 +223,17 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       onChange={(e) => setName(e.target.value)}
                       value={name}
                       required
-                      minLength="2"
-                      maxLength="64"
+                      minLength="1"
+                      maxLength="128"
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>Follow me on Twitter</i>
                     </p>
                   </div>
-                  <div className="mt-1 sm:col-span-2 sm:mt-0">
-                    <Input
-                      name="icon"
-                      label="Icon"
-                      onChange={(e) => setIcon(e.target.value)}
-                      value={icon}
-                      required
-                      minLength="2"
-                      maxLength="32"
+                  <div className="relative mt-1 sm:col-span-2 sm:mt-0">
+                    <IconSearch
+                      handleSelectedIcon={setIcon}
+                      selectedIcon={icon}
                     />
                     <p className="text-sm text-primary-low-medium">
                       Search for available{" "}
@@ -230,6 +241,15 @@ export default function ManageLink({ BASE_URL, username, link }) {
                         Icons
                       </Link>
                     </p>
+                  </div>
+                  <div className="mt-1 sm:col-span-2 sm:mt-0">
+                    <Select
+                      name="animation"
+                      label="Animation"
+                      value={animation}
+                      options={objectToLabelValueArray(animations)}
+                      onChange={(e) => setAnimation(e.target.value)}
+                    />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
                     <Toggle
@@ -255,7 +275,7 @@ export default function ManageLink({ BASE_URL, username, link }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>
@@ -270,8 +290,9 @@ export default function ManageLink({ BASE_URL, username, link }) {
             )}
             <UserLink
               BASE_URL={BASE_URL}
-              link={{ name, url, icon }}
+              link={{ _id: link._id, name, url, icon, animation }}
               username={username}
+              url={url}
             />
           </div>
         </div>

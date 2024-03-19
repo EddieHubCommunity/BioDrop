@@ -1,40 +1,45 @@
-## [1.149.9](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.8...v1.149.9) (2023-07-03)
+## [2.99.18](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.17...v2.99.18) (2024-03-13)
 
 
 ### Bug Fixes
 
-* responsive background color for manage profile ([#7941](https://github.com/EddieHubCommunity/LinkFree/issues/7941)) ([a5cd37a](https://github.com/EddieHubCommunity/LinkFree/commit/a5cd37a2aa442179c0124c948011e12de81250a1))
+* typo in icon.js ([#10256](https://github.com/EddieHubCommunity/BioDrop/issues/10256)) ([d7b4ec6](https://github.com/EddieHubCommunity/BioDrop/commit/d7b4ec6a115b57e934a3582541cdd2d8896d8973))
 
 
 
-## [1.149.8](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.7...v1.149.8) (2023-07-03)
-
-
-### Bug Fixes
-
-* hot reload with docker compose up ([#7644](https://github.com/EddieHubCommunity/LinkFree/issues/7644)) ([9b541b6](https://github.com/EddieHubCommunity/LinkFree/commit/9b541b6f1988e948b06db65d2b0520caf355d39a))
-
-
-
-## [1.149.7](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.6...v1.149.7) (2023-07-03)
+## [2.99.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.16...v2.99.17) (2024-03-02)
 
 
 ### Bug Fixes
 
-* manage testimonial dark mode ([#7936](https://github.com/EddieHubCommunity/LinkFree/issues/7936)) ([9992f1d](https://github.com/EddieHubCommunity/LinkFree/commit/9992f1dea4bf9720c1cf4b8d2b48c814f6f437d7))
+* dropdown suggestions visibility ([#10232](https://github.com/EddieHubCommunity/BioDrop/issues/10232)) ([51b9c12](https://github.com/EddieHubCommunity/BioDrop/commit/51b9c12d7e177a9fec3eebb039291e640f3437c2))
 
 
 
-## [1.149.6](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.5...v1.149.6) (2023-07-03)
+## [2.99.16](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.15...v2.99.16) (2024-02-13)
 
 
 ### Bug Fixes
 
-* negative value for event ticket price ([#7893](https://github.com/EddieHubCommunity/LinkFree/issues/7893)) ([675f64e](https://github.com/EddieHubCommunity/LinkFree/commit/675f64e3d080001accdb014d0bfbca19c8573511))
+* bump nvmrc to support NextJS min requirements ([#10225](https://github.com/EddieHubCommunity/BioDrop/issues/10225)) ([4dd228f](https://github.com/EddieHubCommunity/BioDrop/commit/4dd228fc268b98b9f5a2952290da424a73eaa00b))
 
 
 
-## [1.149.5](https://github.com/EddieHubCommunity/LinkFree/compare/v1.149.4...v1.149.5) (2023-07-03)
+## [2.99.15](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.14...v2.99.15) (2024-02-11)
+
+
+### Bug Fixes
+
+* CoC contact link ([#10230](https://github.com/EddieHubCommunity/BioDrop/issues/10230)) ([a2b8e47](https://github.com/EddieHubCommunity/BioDrop/commit/a2b8e47b5ad1bd1ddc1bff6a5ad0a3a2b96787cc))
+
+
+
+## [2.99.14](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.13...v2.99.14) (2024-02-11)
+
+
+### Bug Fixes
+
+* security contact info ([#10228](https://github.com/EddieHubCommunity/BioDrop/issues/10228)) ([b219a97](https://github.com/EddieHubCommunity/BioDrop/commit/b219a97c447052b55733082819dc5566ee55a187))
 
 
 

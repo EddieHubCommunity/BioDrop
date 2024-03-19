@@ -1,13 +1,13 @@
 {
   "name": "Aqib Javid Bhat",
-  "bio": "Exploration stage - *Open to learning* | **Open Source Enthusiast**",
+  "bio": "**GitHub Campus Expert** | Exploration stage - *Open to learning* | **Open Source Enthusiast**",
   "socials": [
     {
       "icon": "FaGithub",
       "url": "https://github.com/aqib-m31"
     },
     {
-      "icon": "FaTwitter",
+      "icon": "FaXTwitter",
       "url": "https://twitter.com/aqib_m31"
     }
   ],
@@ -20,10 +20,10 @@
     {
       "name": "Follow me on Twitter",
       "url": "https://twitter.com/aqib_m31",
-      "icon": "FaTwitter"
+      "icon": "FaXTwitter"
     },
     {
-      "name": "Let's connect via LinkedIn",
+      "name": "Let's connect!",
       "url": "https://www.linkedin.com/in/aqibm31/",
       "icon": "FaLinkedin"
     },
@@ -31,7 +31,12 @@
       "name": "Follow me on Instagram",
       "url": "https://instagram.com/aqib_m31",
       "icon": "FaInstagram"
+    },
+    {
+      "name": "Join Dev Wizards",
+      "url": "https://discord.gg/mP8WuPVR2N",
+      "icon": "FaDiscord"
     }
   ],
-  "tags": ["Open Source", "Avid Learner", "Programmer"]
+  "tags": ["Open Source", "GitHub Campus Expert", "Programmer"]
 }

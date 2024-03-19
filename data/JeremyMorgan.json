@@ -1,0 +1,77 @@
+{
+  "name": "Jeremy Morgan",
+  "bio": "Training Architect at Kode Kloud. I'm a blogger, author, and overall geek. Passionate about learning and teaching.",
+  "links": [
+      {
+          "name": "My Tech Blog",
+          "url": "https://www.jeremymorgan.com",
+          "icon": "SiBlog"
+      },
+      {
+          "name": "Twitter",
+          "url": "https://twitter.com/JeremyCMorgan",
+          "icon": "SiTwitter"
+      },
+      {
+          "name": "YouTube",
+          "url": "https://www.youtube.com/jeremymorgan",
+          "icon": "SiYoutube"
+      },
+      {
+          "name": "Let's Connect on Linkedin!",
+          "url": "https://www.linkedin.com/in/jeremycmorgan/",
+          "icon": "SiLinkedin"
+      },
+      {
+          "name": "Dev.to",
+          "url": "https://dev.to/jeremycmorgan",
+          "icon": "FaDev"
+      },
+      {
+          "name": "GitHub Profile",
+          "url": "https://github.com/JeremyMorgan",
+          "icon": "SiGithub"
+      },
+      {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/jeremycmorgan",
+          "icon": "SiInstagram"
+      },
+      {
+          "name": "TikTok",
+          "url": "https://www.tiktok.com/@jeremycmorgan",
+          "icon": "SiTiktok"
+      },
+      {
+          "name": "Twitch",
+          "url": "https://www.twitch.tv/jeremymorgan",
+          "icon": "SiTwitch"
+      }
+  ],
+  "tags": [
+      "Open Source",
+      "Linux",
+      "Python",
+      "Go",
+      "DevOps",
+      "C#",
+      ".NET",
+      "GenerativeAI",
+      "AI",
+      "Developer"
+  ],
+  "socials": [
+      {
+          "icon": "SiTwitter",
+          "url": "https://twitter.com/JeremyCMorgan"
+      },
+      {
+          "icon": "SiYoutube",
+          "url": "https://www.youtube.com/JeremyMorgan"
+      },
+      {
+          "icon": "SiLinkedIn",
+          "url": "https://www.linkedin.com/in/jeremycmorgan/"
+      }
+  ]
+}

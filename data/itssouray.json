@@ -1,0 +1,26 @@
+{
+  "name": "Sourav Gupta",
+  "bio": "Hie, i'm a Full Stact Developer ",
+  "links": [
+    {
+      "name": "Follow mr on github",
+      "url": "https://github.com/itssouray",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Connect with me on Linkedin",
+      "url": "https://www.linkedin.com/in/sourav-gupta-70b83a20b/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Follow me on twitter",
+      "url": "https://twitter.com/Thisissouray",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Read my blog on Dev Community",
+      "url": "https://dev.to/thisissouray",
+      "icon": "FaDev"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 // @ts-check
 import { test, expect } from "@playwright/test";
-const AxeBuilder = require("@axe-core/playwright").default;
+import AxeBuilder from "@axe-core/playwright";
 
 test("docs page has title", async ({ page }) => {
   await page.goto("/docs");
@@ -12,6 +12,7 @@ test("docs has quickstart link", async ({ page }) => {
   const getStarted = page.locator('h3:has-text("Quickstart")');
 
   await getStarted.click();
+  await page.waitForLoadState("domcontentloaded");
 
   await expect(page).toHaveURL(/quickstart/);
 });

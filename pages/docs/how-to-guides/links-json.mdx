@@ -6,18 +6,18 @@ import Link from "@components/Link";
 
 Let people discover all your great content in one place by adding links to your social media account and other resources.
 
-![LinkFree Profile links example](https://user-images.githubusercontent.com/624760/209361460-61d05252-24ce-4417-86b4-72e18f8fec54.png)
+![BioDrop Profile links example](https://user-images.githubusercontent.com/624760/209361460-61d05252-24ce-4417-86b4-72e18f8fec54.png)
 
 1. Find your `json` file in the `data` folder using your GitHub username, for example `data/sarajaoude.json`
 
-_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing">Editing Guide</Link>_
+_If you need help on how to edit this file, please see the <Link href="/docs/how-to-guides/editing-json">Editing Guide</Link>_
 
 2. Add a collection called `links` at the root of your `json` file which will contain one or more objects that must have three fields `name`, `url` and `icon`.
 
 This is an example of a single link object:
 
 <ClipboardCopy>
-```js
+```json
 {
   "name": "Follow me on Twitter",
   "url": "https://twitter.com/SaraJaoude",
@@ -54,7 +54,7 @@ For example:
 ```
 </ClipboardCopy>
 
-3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing">Editing Guide</Link>
+3. Now you can commit your file and create a Pull Request, for more details please see <Link href="/docs/how-to-guides/editing-json">Editing Guide</Link>
 
 _Clicks on these social shortcuts that match any of your links will also increment their respective counters_
 
@@ -90,11 +90,11 @@ To place your links into groups, you can use labels such as `Business` or `Socia
 </ClipboardCopy>
 
 Here is how the links with grouping will appear on your Profile:
-![LinkFree profile with grouped links](https://user-images.githubusercontent.com/624760/214538171-099cac71-d2f7-49a8-b3bb-2747506a1bac.png)
+![BioDrop profile with grouped links](https://user-images.githubusercontent.com/624760/214538171-099cac71-d2f7-49a8-b3bb-2747506a1bac.png)
 
 export default ({ children }) => (
   <DocsLayout
-    title="LinkFree Links Documentation"
+    title="BioDrop Links Documentation"
     section="Customising your Profile"
     name="Links"
   >

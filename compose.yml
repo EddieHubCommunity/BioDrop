@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  biodrop:
+    container_name: biodrop
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: biodrop-app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - mongodb
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    networks:
+      - biodrop-network
+
+  mongodb:
+    image: mongo:6.0
+    container_name: mongodb
+    networks:
+      - biodrop-network
+    volumes:
+      - mongodb:/data/db
+    ports:
+      - "27017:27017"
+
+networks:
+  biodrop-network:
+    driver: bridge
+
+volumes:
+  mongodb:

@@ -1,20 +1,28 @@
 {
   "name": "Bilal Khan",
-  "bio": "Bloop Founder, DevOps Guy, & a Go Developer | AWS Community Builder, Open Source Contributor at Canonical, and a Content Creator on YouTube & Hashnode.",
+  "bio": "Startup Founder, Backend Engineer, & a Go Developer | AWS Community Builder, Open Source Contributor at Weaviate, YouTuber & Blogger.",
 
-  "tags": ["Founder", "Open Source", "DevOps", "Golang", "DevRel"],
+  "tags": ["Startup", "Backend", "Open Source", "DevOps", "Golang", "DevRel", "GitHub"],
   "socials": [
     {
       "icon": "FaGlobe",
-      "url": "https://ibilalkayy.github.io/digital-resume/"
+      "url": "https://ibilalkayy.com"
     },
     {
       "icon": "FaCircleNotch",
       "url": "https://bloop.gg/"
     },
     {
+      "icon": "FaEnvelope",
+      "url": "https://bloopsite.beehiiv.com/subscribe"
+    },
+    {
       "icon": "SiYoutube",
-      "url": "https://www.youtube.com/@ibilalkayy"
+      "url": "https://www.youtube.com/@coderoamer"
+    },
+    {
+      "icon": "SiYoutube",
+      "url": "https://www.youtube.com/@pageroamer"
     },
     {
       "icon": "FaGithub",
@@ -26,7 +34,7 @@
     },
     {
       "icon": "FaTwitter",
-      "url": "https://twitter.com/ibilalkayy"
+      "url": "https://x.com/ibilalkayy"
     },
     {
       "icon": "SiBuymeacoffee",
@@ -41,54 +49,88 @@
   ],
   "links": [
     {
-      "name": "Portfolio: Hire me",
-      "url": "https://ibilalkayy.github.io/digital-resume/",
+      "group": "My Portfolio",
+      "name": "Site: Hire me",
+      "url": "https://ibilalkayy.com",
       "icon": "FaGlobe"
     },
     {
-      "name": "Bloop: A Startup",
-      "url": "https://bloop.gg/",
+      "group": "My Startup",
+      "name": "Website",
+      "url": "https://bloop.gg",
       "icon": "FaCircleNotch"
     },
     {
-      "name": "YouTube: Checkout my DevOps Videos",
-      "url": "https://www.youtube.com/@ibilalkayy",
+      "group": "My Startup",
+      "name": "YouTube: Checkout my Startup Videos",
+      "url": "https://www.youtube.com/@pageroamer",
       "icon": "SiYoutube"
     },
     {
-      "name": "GitHub: Checkout my Projects",
+      "group": "My Startup",
+      "name": "Newsletter",
+      "url": "https://bloopsite.beehiiv.com/subscribe",
+      "icon": "FaEnvelope"
+    },
+    {
+      "group": "Donate or Take My Consultation",
+      "name": "Take Life, Career Advice and Resume Review",
+      "url": "https://cal.com/ibilalkayy",
+      "icon": "FaCalendar"
+    },
+    {
+      "group": "Donate or Take My Consultation",
+      "name": "Buy Me a Coffee",
+      "url": "https://www.buymeacoffee.com/ibilalkayy",
+      "icon": "SiBuymeacoffee"
+    },
+    {
+      "group": "Socials",
+      "name": "YouTube: Checkout my Tech Videos",
+      "url": "https://www.youtube.com/@coderoamer",
+      "icon": "SiYoutube"
+    },
+    {
+      "group": "Socials",
+      "name": "GitHub: See my Projects",
       "url": "https://github.com/ibilalkayy",
       "icon": "FaGithub"
     },
     {
+      "group": "Socials",
       "name": "Hashnode: Read my Blogs",
       "url": "https://ibilalkayy.hashnode.dev/",
       "icon": "SiHashnode"
     },
     {
+      "group": "Socials",
       "name": "Twitter: Follow me",
-      "url": "https://twitter.com/ibilalkayy",
+      "url": "https://x.com/ibilalkayy",
       "icon": "FaTwitter"
     },
     {
-      "name": "LinkedIn: Connect with me",
+      "group": "Socials",
+      "name": "LinkedIn: Let's connect",
       "url": "https://www.linkedin.com/in/ibilalkayy/",
       "icon": "FaLinkedin"
-    },
-    {
-      "name": "Buy Me a Coffee",
-      "url": "https://www.buymeacoffee.com/ibilalkayy",
-      "icon": "SiBuymeacoffee"
     }
   ],
   "milestones": [
     {
-      "title": "Started YouTube",
+      "title": "Started Startup YouTube Channel",
+      "date": "Jun 12, 2024",
+      "icon": "SiYoutube",
+      "color": "red",
+      "description": "Started creating startup content",
+      "url": "https://www.youtube.com/@pageroamer"
+    },
+    {
+      "title": "Started Tech YouTube Channel",
       "date": "Jun 26, 2020",
       "icon": "SiYoutube",
       "color": "red",
-      "description": "Started creating content",
-      "url": "https://www.youtube.com/@ibilalkayy/"
+      "description": "Started creating tech content",
+      "url": "https://www.youtube.com/@coderoamer"
     },
     {
       "title": "Started Hashnode",
@@ -99,6 +141,14 @@
       "url": "https://hashnode.com/@ibilalkayy"
     },
     {
+      "title": "DoK Community",
+      "date": "Jan, 2023",
+      "icon": "SiKubernetes",
+      "color": "blue",
+      "description": "Became a DoK Community Explorer",
+      "url": "https://dok.community/"
+    },
+    {
       "title": "AWS Community Builder",
       "date": "Feb, 2023",
       "icon": "SiAmazonaws",
@@ -107,12 +157,28 @@
       "url": "https://aws.amazon.com/developer/community/community-builders/"
     },
     {
-      "title": "Started Bloop",
-      "date": "Feb 3, 2023",
+      "title": "Completed my Proctl Project",
+      "date": "Aug 6, 2023",
       "icon": "FaCircleNotch",
       "color": "black",
-      "description": "Started my Bloop startup",
+      "description": "Completed my Proctl Project",
+      "url": "https://github.com/ibilalkayy/proctl"
+    },
+    {
+      "title": "Created Bloop Website",
+      "date": "Jan 12, 2024",
+      "icon": "FaCircleNotch",
+      "color": "black",
+      "description": "Created a simple Bloop website",
       "url": "https://bloop.gg/"
+    },
+    {
+      "title": "Started Bloop Newsletter",
+      "date": "Dec 15, 2023",
+      "icon": "FaEnvelope",
+      "color": "black",
+      "description": "Started my Bloop newsletter",
+      "url": "https://bloopsite.beehiiv.com/subscribe"
     },
     {
       "title": "Created 60 Days Of DevOps Videos",

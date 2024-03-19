@@ -1,0 +1,49 @@
+{
+  "name": "Jagan",
+  "bio": "Open Source | DevOps ",
+  "tags": ["Open Source", "DevOps"],
+  "Socials": [
+    {
+      "icon": "FaTwitter",
+      "url": "https://twitter.com/jagan_1607"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Jagan-07"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/jagan-t-839147223/"
+    },
+    {
+      "icon": "SiHashnode",
+      "url": "https://j-code.hashnode.dev/"
+    }
+  ],
+  "links": [
+    {
+      "group": "socials",
+      "name": "Twitter - Learning in Public!",
+      "url": "https://twitter.com/jagan_1607",
+      "icon": "FaTwitter"
+    },
+    {
+      "group": "socials",
+      "name": "GitHub - Open Source",
+      "url": "https://github.com/Jagan-07",
+      "icon": "FaGithub"
+    },
+    {
+      "group": "socials",
+      "name": "LinkediIn - Let's connect!",
+      "url": "https://www.linkedin.com/in/jagan-t-839147223/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "group": "socials",
+      "name": "Hashnode - Blog",
+      "url": "https://j-code.hashnode.dev/",
+      "icon": "SiHashnode"
+    }
+  ]
+}

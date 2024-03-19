@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { getServerSession } from "next-auth/next";
 import { signIn } from "next-auth/react";
 
@@ -7,12 +6,13 @@ import { authOptions } from "pages/api/auth/[...nextauth]";
 import { BsGithub } from "react-icons/bs";
 import Button from "@components/Button";
 import Link from "@components/Link";
+import Logo from "@public/logos/Logo";
 
 export async function getServerSideProps(context) {
   const session = await getServerSession(context.req, context.res, authOptions);
 
   if (session) {
-    return { redirect: { destination: "/account/statistics" } };
+    return { redirect: { destination: "/account/onboarding" } };
   }
 
   return {
@@ -25,13 +25,7 @@ export default function SignIn() {
     <div className="flex min-h-screen items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
       <div className="w-full max-w-sm space-y-8 min-w-max">
         <Link href="/">
-          <Image
-            width={100}
-            height={100}
-            className="mx-auto h-64 w-auto"
-            src="/logo512.png"
-            alt="LinkFree logo"
-          />
+          <Logo className="w-1/2" />
         </Link>
         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-primary-medium flex flex-col">
           <span>Connect to YOUR audience</span>

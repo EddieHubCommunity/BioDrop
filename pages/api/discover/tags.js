@@ -1,4 +1,5 @@
 import logger from "@config/logger";
+import connectMongo from "@config/mongo";
 import Profile from "@models/Profile";
 
 export default async function handler(req, res) {
@@ -12,6 +13,7 @@ export default async function handler(req, res) {
   res.status(200).json(tags);
 }
 export async function getTags(location = false) {
+  await connectMongo();
   let tags = [];
 
   const matchQuery = location

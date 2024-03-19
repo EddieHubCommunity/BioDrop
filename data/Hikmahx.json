@@ -1,0 +1,34 @@
+{
+    "name": "Hikmah Yousuph",
+    "bio": "Software Developer | Technical Writer | MERN | Full-Stack",
+    "tags": [
+        "Open Source",
+        "Javascript",
+        "Typescript",
+        "MERN",
+        "Python"
+    ],
+    "socials": [
+        {
+            "icon": "FaTwitter",
+            "url": "https://twitter.com/hikmahx_"
+        },
+        {
+            "icon": "FaGithub",
+            "url": "https://github.com/hikmahx"
+        }
+    ],
+    "links": [
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/hikmahx_",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        },
+        {
+            "name": "Follow me on LinkedIn",
+            "url": "https://www.linkedin.com/in/hikmah-yousuph",
+            "icon": "FaLinkedin"
+        }
+    ]
+}

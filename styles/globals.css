@@ -1,5 +1,3 @@
-@import "./onedark.css";
-
 * {
   box-sizing: border-box;
 }
@@ -8,8 +6,18 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
 }
 
 a {
@@ -17,9 +25,47 @@ a {
   text-decoration: none;
 }
 
-code.language-unknown::before,
-code.language-unknown::after {
+code[data-language]::before,
+code[data-language]::after {
   content: "";
+}
+
+pre[data-language],
+code[data-language] {
+  font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: break-all;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+:not(pre) > code[data-language] {
+  padding: 0.3em 0.4em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+
+pre[data-language] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+}
+
+html.dark .light-only {
+  display: none;
+}
+
+html:not(.dark) .dark-only {
+  display: none;
 }
 
 @layer base {

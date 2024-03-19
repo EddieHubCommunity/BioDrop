@@ -1,6 +1,5 @@
 import UserTestimonials from "@components/user/UserTestimonials";
-import profile from "./profile.json"
-
+import profile from "./profile.json";
 
 export default {
   component: UserTestimonials,
@@ -9,6 +8,6 @@ export default {
 export const Basic = {
   args: {
     testimonials: profile.testimonials,
-    BASE_URL: "https://linkfree.eddiehub.io"
-  }
+    BASE_URL: "https://biodrop.io",
+  },
 };
