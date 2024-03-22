@@ -1,3 +1,12 @@
+## [2.99.19](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.18...v2.99.19) (2024-03-22)
+
+
+### Bug Fixes
+
+* padding around 'Select a tab' label in mobile view ([#10150](https://github.com/EddieHubCommunity/BioDrop/issues/10150)) ([#10191](https://github.com/EddieHubCommunity/BioDrop/issues/10191)) ([c8e2bcf](https://github.com/EddieHubCommunity/BioDrop/commit/c8e2bcf42b0369ab7612c5b6acb6a1ecf5686249))
+
+
+
 ## [2.99.18](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.17...v2.99.18) (2024-03-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * CoC contact link ([#10230](https://github.com/EddieHubCommunity/BioDrop/issues/10230)) ([a2b8e47](https://github.com/EddieHubCommunity/BioDrop/commit/a2b8e47b5ad1bd1ddc1bff6a5ad0a3a2b96787cc))
-
-
-
-## [2.99.14](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.13...v2.99.14) (2024-02-11)
-
-
-### Bug Fixes
-
-* security contact info ([#10228](https://github.com/EddieHubCommunity/BioDrop/issues/10228)) ([b219a97](https://github.com/EddieHubCommunity/BioDrop/commit/b219a97c447052b55733082819dc5566ee55a187))
 
 
 
