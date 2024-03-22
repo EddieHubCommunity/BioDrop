@@ -180,7 +180,6 @@ export default function Search({
     if (!userSearchParam) {
       params.set("query", tagName);
     }
-
     if (userSearchParam) {
       if (searchTagNameInInput(userSearchParam, tagName)) {
         const terms = userSearchParam.split(",");
@@ -201,6 +200,24 @@ export default function Search({
       undefined,
       { shallow: true },
     );
+  };
+
+  const handleClearFilter = () => {
+    const params = new URLSearchParams({ query: searchTerm });
+    params.forEach((userSearchQueries) => {
+      if (userSearchQueries !== "undefined") {
+        replace(
+          {
+            pathname,
+            query: {
+              userSearchParam: {},
+            },
+          },
+          undefined,
+          { shallow: true },
+        );
+      }
+    });
   };
 
   const usersPerPage = 21;
@@ -237,6 +254,16 @@ export default function Search({
                   onClick={() => handleSearchTag(tag.name)}
                 />
               ))}
+
+          <Button
+            overrideClassNames={true}
+            className="
+            flex flex-row p-1 m-2 rounded-lg text-sm text-black font-mono border-2 border-tertiary-medium
+             bg-tertiary-medium cursor-pointer shadow-none"
+            onClick={handleClearFilter}
+          >
+            clear
+          </Button>
         </div>
 
         <Badge
