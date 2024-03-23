@@ -1,0 +1,12 @@
+{
+ "name": "Farzana",
+ "bio": "Computer Science Student | Passionate about **Data Science** and **Open Source** | Always Learning",
+ "links": [
+    {
+      "group": "Professional",
+      "name": "My LinkedIn Profile",
+      "url": "https://www.linkedin.com/in/farzana-abdulzada-5382a7295/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}
