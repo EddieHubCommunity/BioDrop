@@ -44,17 +44,22 @@ export default function UserLink({
       }
       target="_blank"
       rel="noopener noreferrer"
-      className={classNames(
+      className={
+        classNames(
         animations[link.animation] === animations.iconGlow && "z-0",
         animations[link.animation] !== animations.glow &&
           "dark:hover:bg-secondary-low/40 hover:bg-secondary-low/40",
         isEnabled && getLinkAnimation.get(animations[link.animation]),
-        "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-row gap-4 items-center dark:bg-primary-medium grow",
-      )}
+        "relative rounded-full border border-primary-medium-low dark:border-primary-medium-low dark:hover:border-[color:var(--hover-color)] hover:border-[color:var(--hover-color)] hover:shadow-xl p-4 my-2 w-full content-start flex flex-col md:flex-row gap-2 items-center dark:bg-primary-medium grow",
+      )
+
+    }
       style={{
         "--hover-color": colors[link.icon],
       }}
     >
+
+      <div className="grow flex items-center space-x-4">
       <span className="relative">
         <span
           style={{ color: colors[link.icon] }}
@@ -69,6 +74,9 @@ export default function UserLink({
         )}
       </span>
       <span className="grow">{link.name}</span>
+      </div>
+
+      <div className="flex items-center space-x-4">
       {manage && link.isPinned && (
         <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
           Pinned
@@ -92,6 +100,8 @@ export default function UserLink({
         </span>
       )}
       {manage && <Bulb isEnabled={isEnabled} />}
+      </div>
+      
     </Link>
   );
 
