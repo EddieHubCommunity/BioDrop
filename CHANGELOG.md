@@ -1,3 +1,12 @@
+## [2.99.20](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.19...v2.99.20) (2024-03-23)
+
+
+### Bug Fixes
+
+* repos page header to single line ([#10173](https://github.com/EddieHubCommunity/BioDrop/issues/10173)) ([ffc4243](https://github.com/EddieHubCommunity/BioDrop/commit/ffc42430a88018903da1df2aebe0942a56619650))
+
+
+
 ## [2.99.19](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.18...v2.99.19) (2024-03-22)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * bump nvmrc to support NextJS min requirements ([#10225](https://github.com/EddieHubCommunity/BioDrop/issues/10225)) ([4dd228f](https://github.com/EddieHubCommunity/BioDrop/commit/4dd228fc268b98b9f5a2952290da424a73eaa00b))
-
-
-
-## [2.99.15](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.14...v2.99.15) (2024-02-11)
-
-
-### Bug Fixes
-
-* CoC contact link ([#10230](https://github.com/EddieHubCommunity/BioDrop/issues/10230)) ([a2b8e47](https://github.com/EddieHubCommunity/BioDrop/commit/a2b8e47b5ad1bd1ddc1bff6a5ad0a3a2b96787cc))
 
 
 
