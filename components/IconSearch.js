@@ -37,7 +37,7 @@ function IconSearch({ selectedIcon, handleSelectedIcon }) {
             <Combobox.Option
               key={icon}
               value={icon}
-              className={`px-3 py-2 flex items-center dark:hover:bg-tertiary-medium/60 hover:bg-secondary-low/40`}
+              className={`px-3 py-2 flex items-center bg-white dark:bg-primary-medium dark:hover:bg-tertiary-medium/60 hover:bg-secondary-low/100`}
             >
               <Icon className="h-5 w-5 mr-2 fill-grey-700 inline align-center justify-center" />{" "}
               <span>{icon}</span>

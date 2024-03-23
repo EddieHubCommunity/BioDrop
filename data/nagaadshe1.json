@@ -1,0 +1,27 @@
+{
+  "name": "Ahmed Abdi Muse",
+  "bio": "🔒 Cybersecurity zealot & Open Source advocate 🌐 | Passionate about JS, HTML, CSS, Java, C++ | Constantly contributing to open source | Let's code for a safer digital world! 🚀🔐",
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "LinkedIn: Connect with me",
+      "url": "https://my.linkedin.com/in/ahmed-abdi-muse",
+      "icon": "FaLinkedin",
+      "color": "#0077B5"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "GitHub: Check out my projects",
+      "url": "https://github.com/nagaadshe1",
+      "icon": "FaGithub",
+      "color": "#4078c0"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Telegram: Message me",
+      "url": "https://t.me/Muse_Ahmed1",
+      "icon": "FaTelegram",
+      "color": "#0088cc"
+    }
+  ]
+}
