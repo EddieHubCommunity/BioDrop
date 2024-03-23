@@ -1,3 +1,12 @@
+# [2.100.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.20...v2.100.0) (2024-03-23)
+
+
+### Features
+
+* reorder our repos ([#9912](https://github.com/EddieHubCommunity/BioDrop/issues/9912)) ([2609779](https://github.com/EddieHubCommunity/BioDrop/commit/260977940249e585ceacfb1c1e4924dcdd5f6036))
+
+
+
 ## [2.99.20](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.19...v2.99.20) (2024-03-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dropdown suggestions visibility ([#10232](https://github.com/EddieHubCommunity/BioDrop/issues/10232)) ([51b9c12](https://github.com/EddieHubCommunity/BioDrop/commit/51b9c12d7e177a9fec3eebb039291e640f3437c2))
-
-
-
-## [2.99.16](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.15...v2.99.16) (2024-02-13)
-
-
-### Bug Fixes
-
-* bump nvmrc to support NextJS min requirements ([#10225](https://github.com/EddieHubCommunity/BioDrop/issues/10225)) ([4dd228f](https://github.com/EddieHubCommunity/BioDrop/commit/4dd228fc268b98b9f5a2952290da424a73eaa00b))
 
 
 
