@@ -106,8 +106,7 @@ export default function ManageEvent({ BASE_URL, event }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsDisabled(true);
-
+    
     if (document.activeElement === tagInputRef.current) {
       return;
     }
@@ -239,6 +238,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
                       placeholder="Description of the event from their website"
+                      required
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
