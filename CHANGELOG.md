@@ -1,3 +1,12 @@
+## [2.100.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.0...v2.100.1) (2024-03-25)
+
+
+### Bug Fixes
+
+* dependencies update ([#10308](https://github.com/EddieHubCommunity/BioDrop/issues/10308)) ([43b5fdc](https://github.com/EddieHubCommunity/BioDrop/commit/43b5fdc4e3da4711451f151fb430ff0f9762d22a))
+
+
+
 # [2.100.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.20...v2.100.0) (2024-03-23)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * typo in icon.js ([#10256](https://github.com/EddieHubCommunity/BioDrop/issues/10256)) ([d7b4ec6](https://github.com/EddieHubCommunity/BioDrop/commit/d7b4ec6a115b57e934a3582541cdd2d8896d8973))
-
-
-
-## [2.99.17](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.16...v2.99.17) (2024-03-02)
-
-
-### Bug Fixes
-
-* dropdown suggestions visibility ([#10232](https://github.com/EddieHubCommunity/BioDrop/issues/10232)) ([51b9c12](https://github.com/EddieHubCommunity/BioDrop/commit/51b9c12d7e177a9fec3eebb039291e640f3437c2))
 
 
 
