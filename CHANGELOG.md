@@ -1,3 +1,12 @@
+## [2.100.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.1...v2.100.2) (2024-03-25)
+
+
+### Bug Fixes
+
+* revert husky to regular dependency ([#10310](https://github.com/EddieHubCommunity/BioDrop/issues/10310)) ([cccd62f](https://github.com/EddieHubCommunity/BioDrop/commit/cccd62f39b721b529aa9f626b07859cd53461fc4))
+
+
+
 ## [2.100.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.0...v2.100.1) (2024-03-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * padding around 'Select a tab' label in mobile view ([#10150](https://github.com/EddieHubCommunity/BioDrop/issues/10150)) ([#10191](https://github.com/EddieHubCommunity/BioDrop/issues/10191)) ([c8e2bcf](https://github.com/EddieHubCommunity/BioDrop/commit/c8e2bcf42b0369ab7612c5b6acb6a1ecf5686249))
-
-
-
-## [2.99.18](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.17...v2.99.18) (2024-03-13)
-
-
-### Bug Fixes
-
-* typo in icon.js ([#10256](https://github.com/EddieHubCommunity/BioDrop/issues/10256)) ([d7b4ec6](https://github.com/EddieHubCommunity/BioDrop/commit/d7b4ec6a115b57e934a3582541cdd2d8896d8973))
 
 
 
