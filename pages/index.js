@@ -21,6 +21,7 @@ import ThemedImage from "@components/ThemedImage";
 import { serverEnv } from "@config/schemas/serverSchema";
 import { PROJECT_NAME } from "@constants/index";
 import Button from "@components/Button";
+import useElementOnScreen from "@components/useElementOnScreen";
 
 export async function getStaticProps() {
   const pageConfig = config.isr.homepage;
@@ -160,6 +161,14 @@ export default function Home({
     },
   ];
 
+  const featureRefs = featuresDetails.map(() => {
+    return useElementOnScreen({
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.4,
+    });
+  });
+
   return (
     <>
       <PageHead />
@@ -275,16 +284,26 @@ export default function Home({
           <div className="mt-16 mb-8 space-y-16">
             {featuresDetails.map((feature, featureIdx) => (
               <div
+                ref={featureRefs[featureIdx][0]}
                 key={feature.name}
-                className="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
+                className="flex flex-col-reverse overflow-x-hidden lg:grid lg:grid-cols-12 lg:items-center lg:gap-x-8"
               >
                 <div
-                  className={classNames(
+                  className={`
+                  ${
                     featureIdx % 2 === 0
-                      ? "lg:col-start-1"
-                      : "lg:col-start-8 xl:col-start-9",
-                    "mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4",
-                  )}
+                      ? `lg:col-start-1 ${
+                          featureRefs[featureIdx][1]
+                            ? "animate-fade-right"
+                            : ""
+                        }`
+                      : `lg:col-start-8 xl:col-start-9 ${
+                          featureRefs[featureIdx][1]
+                            ? "animate-fade-left"
+                            : ""
+                        }`
+                  }
+                  mt-6 lg:mt-0 opacity-0 lg:row-start-1 lg:col-span-5 xl:col-span-4`}
                 >
                   <h3 className="text-lg sm:text-2xl font-bold text-primary-low">
                     {feature.name}
@@ -299,12 +318,21 @@ export default function Home({
                   )}
                 </div>
                 <div
-                  className={classNames(
-                    featureIdx % 2 === 0
-                      ? "lg:col-start-6 xl:col-start-5"
-                      : "lg:col-start-1",
-                    "flex-auto lg:row-start-1 lg:col-span-7 xl:col-span-8",
-                  )}
+                  className={`
+                    ${
+                      featureIdx % 2 === 0
+                        ? `lg:col-start-6 xl:col-start-5 ${
+                            featureRefs[featureIdx][1]
+                              ? "animate-fade-left"
+                              : ""
+                          }`
+                        : `lg:col-start-1 ${
+                            featureRefs[featureIdx][1]
+                              ? "animate-fade-right"
+                              : ""
+                          }`
+                    }
+                    flex-auto lg:row-start-1 opacity-0 lg:col-span-7 xl:col-span-8`}
                 >
                   <div className="aspect-w-5 aspect-h-2 overflow-hidden rounded-lg bg-primary-low relative">
                     <ThemedImage

@@ -35,6 +35,33 @@ module.exports = {
           high: "#770d14",
         },
       },
+      keyframes: {
+        "fade-left": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(100px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        "fade-right": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-100px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+      },
+      animation: {
+        "fade-left": "fade-left 0.5s both",
+        "fade-right": "fade-right 0.5s both",
+      },
+      
     },
   },
   corePlugins: {
