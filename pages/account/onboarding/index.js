@@ -2,6 +2,7 @@ import { authOptions } from "../../api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
 import { useRouter } from "next/router";
 import { useSession } from "next-auth/react";
+import { useState } from "react";
 import {
   FaGithub,
   FaLink,
@@ -10,8 +11,10 @@ import {
   FaTent,
   FaCertificate,
   FaArrowUpRightFromSquare,
+  FaTriangleExclamation,
 } from "react-icons/fa6";
 
+import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
 import PageHead from "@components/PageHead";
 import Page from "@components/Page";
@@ -19,6 +22,7 @@ import { getUserApi } from "pages/api/profiles/[username]";
 import { PROJECT_NAME } from "@constants/index";
 import Card from "@components/Card";
 import Button from "@components/Button";
+import Modal from "@components/Modal";
 import Navigation from "@components/account/manage/Navigation";
 import ProgressBar from "@components/statistics/ProgressBar";
 import Alert from "@components/Alert";
@@ -46,6 +50,7 @@ export async function getServerSideProps(context) {
     "testimonials",
     "events",
     "repos",
+    "delete"
   ];
   let progress = {
     percentage: 0,
@@ -62,11 +67,11 @@ export async function getServerSideProps(context) {
   ).toFixed(0);
 
   return {
-    props: { profile, progress },
+    props: { profile, progress, BASE_URL: clientEnv.NEXT_PUBLIC_BASE_URL },
   };
 }
 
-export default function Onboarding({ profile, progress }) {
+export default function Onboarding({ profile, progress, BASE_URL }) {
   const router = useRouter();
   const { data: session } = useSession();
   if (typeof window !== "undefined" && window.localStorage) {
@@ -82,6 +87,7 @@ export default function Onboarding({ profile, progress }) {
       router.push("/api/stripe");
     }
   }
+  const [showModal, setShowModal] = useState(false);
 
   const cards = [
     {
@@ -144,12 +150,32 @@ export default function Onboarding({ profile, progress }) {
       },
       isEdit: profile.milestones && profile.milestones.length > 0,
     },
+    {
+      icon: FaTriangleExclamation,
+      title: "Delete Account",
+      description: "Delete your account",
+      button: {
+        name: "Delete Account",
+      },
+      click: true,
+    },
   ];
 
   const alerts = {
     premium: "You are now a premium user!",
     cancel: "You cancelled your subscription.",
   };
+
+  //TODO move this?
+  const deleteLinks = async () => {
+    await fetch(`${BASE_URL}/api/account/manage/delete/${profile.username}`, {
+      method: "DELETE",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+  }
+    
   return (
     <>
       <PageHead
@@ -198,17 +224,42 @@ export default function Onboarding({ profile, progress }) {
         >
           {cards.map((card) => (
             <li key={card.title}>
+              {card.click ?
+              <div className="flex flex-col items-center border-2 h-[14rem] overflow-hidden rounded-lg shadow-lg transition duration-350 p-4 gap-3  duration-500 ease-in-out hover:border-tertiary-medium border-tertiary-medium">
+              <div className="flex gap-4 content-center items-center justify-items-start grow">
+                  <card.icon className="h-16 w-16" />
+                  <h2 className="text-xl font-bold">{card.title}</h2>
+                </div>
+                <p>{card.description}</p>
+                <Button onClick={() => setShowModal(true)}>Delete Account</Button>
+                
+            <Modal
+            show={showModal}
+            setShow={setShowModal}
+          >
+            {/* TODO: on click, show a indicator deltion is happening - success message after */}
+            <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 sm:mx-24">
+              <Button onClick={() => deleteLinks()}>
+                Delete my Account
+              </Button>
+              <Button onClick={() => setShowModal(false)}>Go Back</Button>
+            </div>
+            <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-center text-primary-medium dark:text-primary-low mb-4">Warning! This cannot be reversed once you click Delete.</p>
+          </Modal>
+        
+                </div>
+                :
               <Card href={card.button.href} active={!card.isEdit}>
                 <div className="flex gap-4 content-center items-center justify-items-start grow">
                   <card.icon className="h-16 w-16" />
                   <h2 className="text-xl font-bold">{card.title}</h2>
                 </div>
                 <p>{card.description}</p>
-                {card.isEdit && <Button>Edit</Button>}
-                {!card.isEdit && (
-                  <Button primary={true}>+ {card.button.name}</Button>
-                )}
+                {card.isEdit ? <Button>Edit</Button>
+                : <Button primary={true}>+ {card.button.name}</Button>
+                }
               </Card>
+}
             </li>
           ))}
         </ul>
