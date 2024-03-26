@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { IconContext } from "react-icons";
 import { FaArrowsRotate, FaEye, FaRegFaceSmileWink } from "react-icons/fa6";
-import { remark } from "remark";
-import strip from "strip-markdown";
 import requestIp from "request-ip";
 import { authOptions } from "./api/auth/[...nextauth]";
 import { getServerSession } from "next-auth/next";
@@ -44,14 +42,6 @@ export async function getServerSideProps(context) {
 
   logger.info(`data loaded for username: ${username}`);
 
-  try {
-    const processedBio = await remark().use(strip).process(profile.bio);
-    profile.cleanBio = processedBio.toString();
-  } catch (e) {
-    logger.error(e, `cannot strip markdown for: ${username}`);
-    profile.cleanBio = profile.bio;
-  }
-
   // override hiding navbar and footer if custom domain matches
   if (
     profile.settings?.domain &&
@@ -87,9 +77,9 @@ export default function User({ data, BASE_URL, isLoggedIn }) {
     <>
       <PageHead
         title={data.name}
-        description={data.cleanBio}
+        description={data.metaDescription}
         ogTitle={data.name}
-        ogDescription={data.cleanBio}
+        ogDescription={data.metaDescription}
         ogUrl={`https://biodrop.io/${data.username}`}
         ogImage={`https://github.com/${data.username}.png`}
         ogType="image/png"

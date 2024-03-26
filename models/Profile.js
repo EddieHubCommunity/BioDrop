@@ -67,6 +67,12 @@ const ProfileSchema = new Schema(
       min: 2,
       max: 256,
     },
+    metaDescription: {
+      type: String,
+      required: false,
+      min: 2,
+      max: 160,
+    },
     tags: {
       type: [String],
       default: [],
