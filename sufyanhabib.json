@@ -1,0 +1,46 @@
+{
+  "name": "Abubakar Habib",
+  "bio": "Happiness comes when your work and words are of benefit to yourself and others.",
+  "tags":[
+    "JavaScript",
+    "React",
+    "CSS",
+    "HTML",
+    "Java",
+    "GitHub",
+  ],
+  "socials":[
+  { "icon": "FaTwitter", "url": "https://twitter.com/sufyanhabib1" },
+  { "icon": "FaGithub", "url": "https://github.com/sufyanhabib" },
+  { "icon": "Facodepen", "url": "https://codepen.io/sufyanhabib" }
+],
+  "links":[
+     {
+       "name": "Github: Collaborate on Open Source",
+       "icon": "FaGithub",
+       "url": "https://github.com/sufyanhabib"
+     },
+    {
+       "name": "LinkedIn: Let's connect",
+       "icon": "FaLinkedin",
+       "url": "https://www.linkedin.com/in/abubakar-habib-58010b142"
+     },
+    {
+       "name": "Codepen: Show-off",
+       "icon": "FaCodepen",
+       "url": "https://codepen.io/sufyanhabib"
+     },
+    {
+       "name": "Twitter: Follow me",
+       "icon": "FaXTwitter",
+       "url": "https://twitter.com/sufyanhabib1",
+       "color": "#00ACEE"
+     },
+    {
+       "name": "Instagram: Follow me",
+       "icon": "FaInstagram",
+       "url": "https://www.instagram.com/sufyanhabib80/"
+     }
+    
+  ]
+}
