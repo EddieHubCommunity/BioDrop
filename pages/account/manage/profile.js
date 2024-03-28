@@ -94,6 +94,7 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
     e.preventDefault();
     setIsDisabled(true);
     if (document.activeElement === tagInputRef.current) {
+      setIsDisabled(false);
       return;
     }
     const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
