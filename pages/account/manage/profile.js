@@ -92,11 +92,10 @@ export default function Profile({ BASE_URL, profile, fileExists }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsDisabled(true);
     if (document.activeElement === tagInputRef.current) {
-      setIsDisabled(false);
       return;
     }
+    setIsDisabled(true);
     const res = await fetch(`${BASE_URL}/api/account/manage/profile`, {
       method: "PUT",
       headers: {
