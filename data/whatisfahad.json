@@ -1,0 +1,20 @@
+{
+  "name": "Fahad Siddiqui",
+  "bio": "Front End Developer | Java | C++ | C | C#",
+  "tags": [
+    "Open Source",
+    "Java",
+    "HTML / CSS",
+    "C++ /C /C#",
+  ],
+  "socials": [
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/m_fahadsiddiqui/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/whatisfahad"
+    }
+  ]
+}
