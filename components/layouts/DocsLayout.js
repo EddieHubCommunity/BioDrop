@@ -1,11 +1,14 @@
 import { MDXProvider } from "@mdx-js/react";
 import Head from "next/head";
-
+import { useState } from "react";
 import BreadCrumb from "@components/BreadCrumb";
 import Page from "@components/Page";
 import { ComponentStyle } from "@components/mdx/ComponentStyle";
 import SideNav from "@components/navbar/SideNav";
 import { PROJECT_NAME } from "@constants/index";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import SideDrawer from "@components/navbar/SideDrawer";
+import { IoMdClose } from "react-icons/io";
 
 export const navigation = [
   {
@@ -23,7 +26,7 @@ export const navigation = [
   },
   {
     name: "Getting Started",
-    // icon: FolderIcon,
+    // icon: FolderDocumentationIcon,
     children: [
       { name: "Editing with JSON", href: "/docs/how-to-guides/editing-json" },
       { name: "Editing with Forms", href: "/docs/how-to-guides/editing-forms" },
@@ -126,6 +129,7 @@ export const navigation = [
 ];
 
 export default function DocsLayout({ children, title, section, name }) {
+  const [showSideNav, setShowSideNav] = useState(false);
   return (
     <>
       <Head>
@@ -140,7 +144,18 @@ export default function DocsLayout({ children, title, section, name }) {
         <BreadCrumb section={section} name={name} />
 
         <div className="flex flex-grow flex-col sm:flex-row">
-          <SideNav navigation={navigation} />
+        <div className={`p-3 z-50 bg-primary-high text-white md:hidden rounded-full dark:text-gray-400 cursor-pointer fixed bottom-5 right-5`}
+        onClick={() => setShowSideNav(!showSideNav)}
+        >
+       {
+        showSideNav ? <IoMdClose className="w-7 h-7"/> : <HiOutlineMenuAlt3 className="w-7 h-7"/>
+       }
+        </div>  
+        {
+          showSideNav && 
+          <SideDrawer navigation={navigation} showSideNav={showSideNav} setShowSideNav={setShowSideNav}/>
+        }
+        <SideNav navigation={navigation} />
           <div className="float-none my-0 w-[100%] sm:w-[65%] md:w-[68%] lg:w-[100%] mt-12 overflow-auto">
             <MDXProvider components={ComponentStyle}>
               <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 dark:text-white prose">

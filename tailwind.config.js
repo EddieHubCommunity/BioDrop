@@ -56,10 +56,55 @@ module.exports = {
             transform: "translateX(0)",
           },
         },
+        "navbar-animation": { 
+          "0%": {
+            opacity: "0.7",
+            transform: "translateY(-10px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+
+          },
+        },
+        "sideBar-in": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(-80%)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+        },
+        "sideBar-out": {
+          "0%": {
+            opacity: "1",
+            transform: "translateX(0)",
+          },
+          "100%": {
+            opacity: "0",
+            transform: "translateX(-80%)",
+          },
+        },
+        "fade-up": { 
+          "0%": {
+            opacity: "0",
+            transform: "translateY(10px)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0)",
+          },
+        },
       },
       animation: {
         "fade-left": "fade-left 0.5s both",
         "fade-right": "fade-right 0.5s both",
+        "navbar-animation": "navbar-animation 0.5s both",
+        "sideBar-in": "sideBar-in 0.5s both",
+        "sideBar-out": "sideBar-out 0.5s both",
+        "fade-up": "fade-up 0.5s both",
       },
       
     },

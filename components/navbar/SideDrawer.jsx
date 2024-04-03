@@ -5,12 +5,12 @@ import { useRouter } from "next/router";
 import { classNames } from "@services/utils/classNames";
 import Link from "@components/Link";
 
-export default function SideNav({ navigation }) {
+export default function SideNav({ navigation, showSideNav, setShowSideNav }) {
   const { pathname } = useRouter();
   return (
     <ul
       role="list"
-      className="sm:w-64 hidden flex-none md:block rounded border border-primary-high dark:border-primary-low sm:border-none mt-4 sm:mt-12"
+      className={`sm:w-64 overflow-auto flex-none fixed h-screen top-0 px-4 left-0 w-[80%] bg-primary-medium z-40 rounded border border-primary-high dark:border-primary-low border-t-0 sm:border-none mt-3 rounded-t-none sm:mt-12 ${showSideNav ? "animate-sideBar-in" : "animate-sideBar-out"}`}
     >
       <li>
         <ul role="list">
@@ -63,6 +63,7 @@ export default function SideNav({ navigation }) {
                           <li key={subItem.name}>
                             {/* 44px */}
                             <Link
+                              onClick={() => setShowSideNav(false)}
                               href={subItem.href}
                               className={classNames(
                                 subItem.href.toLowerCase() == pathname &&

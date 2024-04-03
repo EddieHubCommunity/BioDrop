@@ -24,7 +24,21 @@ export default function Navbar() {
   const { data: session } = useSession();
   const { systemTheme, theme, setTheme } = useTheme();
 
+
+    const [stickyClass, setStickyClass] = useState(false);
+
+    function stickNavbar() {
+        let windowHeight = window.scrollY;
+        if (windowHeight > 80) {
+          console.log(windowHeight)
+            setStickyClass(true);
+        } else {
+            setStickyClass(false);
+        }
+    }
+
   useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
     setMounted(true);
   }, []);
 
@@ -137,7 +151,7 @@ export default function Navbar() {
   );
 
   return (
-    <header className="min-h-full" ref={navConRef}>
+    <header className={`min-h-full ${stickyClass && "sticky top-0 z-50 animate-navbar-animation"}`} ref={navConRef}>
       <nav
         className={classNames(
           "relative top-0 bg-primary-high dark:bg-primary-medium",
