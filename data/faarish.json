@@ -1,0 +1,15 @@
+  "links": [
+    {
+      "group": "Social Media",
+      "name": "Linked In",
+      "url": "http://linkedin.com/salman-farish",
+      "icon": "FaLink"
+    },
+    {
+      "group": "Contact",
+      "name": "Email me",
+      "url": "mailto:farishchuppi@gmail.com?subject=Contacting%20you%20from%20Github%20or%20BioDrop%20",
+      "icon": "FaGmail",
+      "color": "#00ACEE"
+    },
+]
