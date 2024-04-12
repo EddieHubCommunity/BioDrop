@@ -209,12 +209,22 @@ export default function Statistics({ data, profile, BASE_URL }) {
                 <tr key={link._id}>
                   <td className="md:whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-primary-high dark:text-primary-low sm:pl-6 text-ellipsis overflow-hidden">
                     {session && session.accountType === "premium" && (
-                      <Link href={`/account/statistics/link/${link._id}`}>
+                      <a
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         {link.url}
-                      </Link>
+                      </a>
                     )}
                     {session && session.accountType === "free" && (
-                      <>{link.url}</>
+                      <a
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {link.url}
+                      </a>
                     )}
                   </td>
                   <td className="whitespace-nowrap px-3 py-4 text-sm text-primary-medium dark:text-primary-low">
