@@ -1,5 +1,5 @@
 import va from "@vercel/analytics";
-import { useSession } from 'next-auth/react';
+
 import {
   FaLinkedin,
   FaGithub,
@@ -15,15 +15,12 @@ import { BASE_GITHUB_PROJECT_URL, BASE_GITHUB_URL } from "@constants/index";
 import LogoWide from "@public/logos/LogoWide";
 
 export default function Footer() {
-  const { data: session, status } = useSession();
-  const loading = status === 'loading';
   const navigation = {
     solutions: [
       { name: "Search", href: "/search", external: false },
       { name: "Events", href: "/events", external: false },
       { name: "Map", href: "/map", external: false },
-      // Only include the "Login" link if the user is not logged in
-      ...(!session && !loading ? [{ name: "Login", href: "/auth/signin", external: false }] : []),
+      { name: "Login", href: "/auth/signin", external: false },
       {
         name: "Open Source Roadmap",
         href: "/docs/open-source-roadmap",
