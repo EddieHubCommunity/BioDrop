@@ -1,0 +1,27 @@
+{
+  "name": "Chee Yong Lee",
+  "bio": "Full stack project abandoner, also known as joeleeofficial",
+  "tags": ["FullStack", "Vuejs", "Javascript", "OpenSource", "TailwindCSS", "NodeJS", "Python", "CyberSecurity"],
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/itscheeyong",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Let's Connect on Linkedin",
+      "url": "https://my.linkedin.com/in/joeleeofficial",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/leecheeyong",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Instagram",
+      "url": "https://instagram.com/cheeyong_08",
+      "icon": "FaInstagram"
+    }
+  ]
+}
