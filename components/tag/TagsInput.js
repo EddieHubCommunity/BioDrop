@@ -28,7 +28,16 @@ export default function TagsInput({
 
     if (e.key === "Comma" || inputValue.endsWith(",") || e.key === "Enter") {
       const newTag = inputValue.trim().replace(/,/g, "");
-      if (!newTag) {
+      if (!newTag){
+        return;
+      }
+      if (tags.some(tag => tag.trim() === newTag.trim())) {
+        setShowNotification({
+          show: true,
+          type: "error",
+          message: "Tag",
+          additionalMessage: "Tag Duplicate",
+        });
         return;
       }
       onTagAdd(newTag);
