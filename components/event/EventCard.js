@@ -170,10 +170,8 @@ export default function EventCard({ manage, event, usernames }) {
   );
 
   return (
-    <div className="sticky top-0">
-      <li className="flex flex-row gap-8 w-full">
-        {manage ? edit(event) : item(event)}
-      </li>
-    </div>
+    <li className="flex flex-row gap-8 w-full">
+      {manage ? edit(event) : item(event)}
+    </li>
   );
 }
