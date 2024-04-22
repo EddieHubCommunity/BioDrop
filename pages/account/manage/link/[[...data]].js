@@ -226,7 +226,6 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
                       required
                       minLength="1"
                       maxLength="128"
-                      title="This link cannot be edited because it is predefined by the system."
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>Follow me on Twitter</i>
