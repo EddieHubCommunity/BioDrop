@@ -42,7 +42,7 @@ export default function Navbar() {
           onClick={() => setTheme("light")}
           aria-label="Toggle Theme"
         >
-          <SunIcon className="h-5 w-5 text-primary-low hover:text-secondary-low" />
+          <SunIcon className="h-5 w-5 text-primary-low hover:text-secondary-low dark:hover:text-tertiary-medium" />
         </button>
       );
     }
@@ -179,7 +179,7 @@ export default function Navbar() {
                 >
                   <div className="relative p-2">
                     <FaGithub
-                      className="text-primary-low hover:text-secondary-low"
+                      className="text-primary-low hover:text-secondary-low dark:hover:text-tertiary-medium"
                       aria-label="GitHub"
                     />
                   </div>
