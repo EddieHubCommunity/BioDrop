@@ -73,6 +73,7 @@ export async function updateProfileApi(
     name: data.name,
     isStatsPublic: data.isStatsPublic,
     bio: data.bio,
+    metaDescription: data.metaDescription,
     pronoun: data.pronoun,
     tags: data.tags
       .filter((tag) => Boolean(tag.trim()))
@@ -85,6 +86,7 @@ export async function updateProfileApi(
       "layout",
       "name",
       "bio",
+      "metaDescription",
       "isStatsPublic",
     ]);
   } catch (e) {
