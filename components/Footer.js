@@ -20,7 +20,6 @@ export default function Footer() {
       { name: "Search", href: "/search", external: false },
       { name: "Events", href: "/events", external: false },
       { name: "Map", href: "/map", external: false },
-      { name: "Login", href: "/auth/signin", external: false },
       {
         name: "Open Source Roadmap",
         href: "/docs/open-source-roadmap",
