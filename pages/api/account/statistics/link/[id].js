@@ -15,10 +15,6 @@ export default async function handler(req, res) {
       .json({ error: "Invalid request: GET request required" });
   }
 
-  if (session.accountType !== "premium") {
-    res.status(401).json({ message: "You must have a Premium account." });
-  }
-
   const data = await getStatsForLink(session.username, req.query.id);
   if (data.error) {
     res.status(400).json({ error: data.error });

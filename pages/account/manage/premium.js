@@ -59,7 +59,7 @@ export default function ManageSettings({
   const [domain, setDomain] = useState(
     settings.domain?.replaceAll("|", ".") || "",
   ); // TODO: use getter/setter instead
-  const [enableForm] = useState(accountType === "premium" ? true : false);
+  const [enableForm] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
