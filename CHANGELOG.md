@@ -1,3 +1,12 @@
+## [2.100.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.2...v2.100.3) (2024-05-05)
+
+
+### Bug Fixes
+
+* archive alert message ([#10366](https://github.com/EddieHubCommunity/BioDrop/issues/10366)) ([8f52efc](https://github.com/EddieHubCommunity/BioDrop/commit/8f52efc97943ccb5796604726a0b71b1520f156c))
+
+
+
 ## [2.100.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.1...v2.100.2) (2024-03-25)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * repos page header to single line ([#10173](https://github.com/EddieHubCommunity/BioDrop/issues/10173)) ([ffc4243](https://github.com/EddieHubCommunity/BioDrop/commit/ffc42430a88018903da1df2aebe0942a56619650))
-
-
-
-## [2.99.19](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.18...v2.99.19) (2024-03-22)
-
-
-### Bug Fixes
-
-* padding around 'Select a tab' label in mobile view ([#10150](https://github.com/EddieHubCommunity/BioDrop/issues/10150)) ([#10191](https://github.com/EddieHubCommunity/BioDrop/issues/10191)) ([c8e2bcf](https://github.com/EddieHubCommunity/BioDrop/commit/c8e2bcf42b0369ab7612c5b6acb6a1ecf5686249))
 
 
 
