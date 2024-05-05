@@ -1,11 +1,12 @@
 {
   "version": "2.100.2",
-  "alerts": [],
-  "layouts": [
-    "classic",
-    "inline",
-    "column-2"
+  "alerts": [
+    {
+      "type": "warning",
+      "message": "From 10 June 2024 BioDrop will be archived. You will not be able to use your Profile from 10 June so remember to stop using your BioDrop url before then."
+    }
   ],
+  "layouts": ["classic", "inline", "column-2"],
   "pronouns": [
     {
       "label": "Don't specify",
