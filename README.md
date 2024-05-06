@@ -4,6 +4,7 @@
 > ### Profile
 > You will not be able to use your Profile from 10 June so remember to stop using your BioDrop url before then
 > You will not be able to access your Dashboard (meaning you will not be able to see any Stats or make changes to your Profile)
+> All database data will be deleted
 > 
 > ### GitHub Repo
 > 
