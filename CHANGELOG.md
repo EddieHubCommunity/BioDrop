@@ -1,3 +1,12 @@
+## [2.100.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.3...v2.100.4) (2024-05-06)
+
+
+### Bug Fixes
+
+* archive website message about db deletion ([#10369](https://github.com/EddieHubCommunity/BioDrop/issues/10369)) ([57badca](https://github.com/EddieHubCommunity/BioDrop/commit/57badcab79555f2d6bbd7d8f977b958a6acb3241))
+
+
+
 ## [2.100.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.2...v2.100.3) (2024-05-05)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * reorder our repos ([#9912](https://github.com/EddieHubCommunity/BioDrop/issues/9912)) ([2609779](https://github.com/EddieHubCommunity/BioDrop/commit/260977940249e585ceacfb1c1e4924dcdd5f6036))
-
-
-
-## [2.99.20](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.19...v2.99.20) (2024-03-23)
-
-
-### Bug Fixes
-
-* repos page header to single line ([#10173](https://github.com/EddieHubCommunity/BioDrop/issues/10173)) ([ffc4243](https://github.com/EddieHubCommunity/BioDrop/commit/ffc42430a88018903da1df2aebe0942a56619650))
 
 
 
