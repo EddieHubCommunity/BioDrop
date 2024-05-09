@@ -6,6 +6,8 @@ export default function Button({
   disabled = false,
   className,
   overrideClassNames = false,
+  href,
+  onClick,
   children,
   ...restProps
 }) {
@@ -34,6 +36,8 @@ export default function Button({
 
   const button = (
     <button
+    href={href}
+    onClick={onClick}
       className={
         overrideClassNames ? className : classNames(defaultClassName, className)
       }
