@@ -1,0 +1,16 @@
+{
+  "name": "Marvin Romero",
+  "bio": "Have a look at my BioDrop Profile!",
+  "links": [
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/marvin-romero-fullstack/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Marsmarv",
+      "icon": "FaGithub"
+    }
+  ]
+}
