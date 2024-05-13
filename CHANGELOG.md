@@ -1,3 +1,12 @@
+# [2.101.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.4...v2.101.0) (2024-05-13)
+
+
+### Features
+
+* premium plan for all ([#10361](https://github.com/EddieHubCommunity/BioDrop/issues/10361)) ([bb4383d](https://github.com/EddieHubCommunity/BioDrop/commit/bb4383dbebe033e7b87f89799c4127cffee98d56))
+
+
+
 ## [2.100.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.3...v2.100.4) (2024-05-06)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * dependencies update ([#10308](https://github.com/EddieHubCommunity/BioDrop/issues/10308)) ([43b5fdc](https://github.com/EddieHubCommunity/BioDrop/commit/43b5fdc4e3da4711451f151fb430ff0f9762d22a))
-
-
-
-# [2.100.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.99.20...v2.100.0) (2024-03-23)
-
-
-### Features
-
-* reorder our repos ([#9912](https://github.com/EddieHubCommunity/BioDrop/issues/9912)) ([2609779](https://github.com/EddieHubCommunity/BioDrop/commit/260977940249e585ceacfb1c1e4924dcdd5f6036))
 
 
 
