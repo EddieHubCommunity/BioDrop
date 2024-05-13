@@ -1,3 +1,12 @@
+## [2.101.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.0...v2.101.1) (2024-05-13)
+
+
+### Bug Fixes
+
+* remove create profile button ([#10375](https://github.com/EddieHubCommunity/BioDrop/issues/10375)) ([e0e90a7](https://github.com/EddieHubCommunity/BioDrop/commit/e0e90a7ced6901c68dd063ed1d656dc5b6233d84))
+
+
+
 # [2.101.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.4...v2.101.0) (2024-05-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * revert husky to regular dependency ([#10310](https://github.com/EddieHubCommunity/BioDrop/issues/10310)) ([cccd62f](https://github.com/EddieHubCommunity/BioDrop/commit/cccd62f39b721b529aa9f626b07859cd53461fc4))
-
-
-
-## [2.100.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.0...v2.100.1) (2024-03-25)
-
-
-### Bug Fixes
-
-* dependencies update ([#10308](https://github.com/EddieHubCommunity/BioDrop/issues/10308)) ([43b5fdc](https://github.com/EddieHubCommunity/BioDrop/commit/43b5fdc4e3da4711451f151fb430ff0f9762d22a))
 
 
 
