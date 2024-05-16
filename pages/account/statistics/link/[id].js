@@ -19,14 +19,6 @@ const DynamicChart = dynamic(
 export async function getServerSideProps(context) {
   const { req, res } = context;
   const session = await getServerSession(req, res, authOptions);
-  if (session.accountType !== "premium") {
-    return {
-      redirect: {
-        destination: "/account/onboarding",
-        permanent: false,
-      },
-    };
-  }
 
   const username = session.username;
   const { status, profile } = await getUserApi(req, res, username);

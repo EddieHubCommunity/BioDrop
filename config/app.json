@@ -1,6 +1,11 @@
 {
-  "version": "2.100.2",
-  "alerts": [],
+  "version": "2.101.1",
+  "alerts": [
+    {
+      "type": "warning",
+      "message": "From 10 June 2024 BioDrop will be archived and the database will be deleted. You will not be able to use your Profile from 10 June so remember to stop using your BioDrop url before then."
+    }
+  ],
   "layouts": [
     "classic",
     "inline",
