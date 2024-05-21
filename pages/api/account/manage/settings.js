@@ -78,7 +78,7 @@ export async function getSettingsApi(username) {
   let getProfile = await Profile.findOne({ username }, ["settings"]);
 
   if (!getProfile) {
-    log.info(`peofile not found for username: ${username}`);
+    log.info(`profile not found for username: ${username}`);
     return { error: "Profile not found." };
   }
 
