@@ -1,0 +1,19 @@
+{
+  "name": "Nathaniel Chitnis",
+  "displayStatsPublic": true,
+  "type": "personal",
+  "bio": "A Self-Learning Developer who is intrested in Open Source",
+  "avatar": "https://github.com/nhelchitnis.png",
+  "links": [
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/ChitnisNathan",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on Github",
+      "url": "https://github.com/nhelchitnis",
+      "icon": "FaGithub"
+    }
+  ]
+}
