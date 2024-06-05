@@ -17,7 +17,7 @@ jobs:
           sparse-checkout: |
             .github/config/labeler.yml
           sparse-checkout-cone-mode: false
-      - uses: actions/labeler@v4
+      - uses: actions/labeler@v5
         with:
           configuration-path: .github/config/labeler.yml
           repo-token: ${{ secrets.GITHUB_TOKEN }}
