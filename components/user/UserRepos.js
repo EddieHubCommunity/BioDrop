@@ -6,6 +6,7 @@ import StarIcon from "@heroicons/react/20/solid/StarIcon";
 import PencilIcon from "@heroicons/react/20/solid/PencilIcon";
 import ExclamationCircleIcon from "@heroicons/react/20/solid/ExclamationCircleIcon";
 import dateFormat from "@services/utils/dateFormat";
+import UserAvatarGroup from "@components/avatar/UserAvatarGroup";
 import { ReactSortable } from "react-sortablejs";
 import { useState, useEffect } from "react";
 import { clientEnv } from "@config/schemas/clientSchema";
@@ -50,7 +51,6 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
         <div className="min-w-0 flex-auto">
           <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
             <Link href={repo.url} target="_blank">
-              <span className="absolute inset-x-0 -top-px bottom-0" />
               {repo.owner}/{repo.name}
             </Link>{" "}
             <span className="hidden md:inline">
@@ -61,9 +61,12 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
             {repo.description}
           </p>
           {repo.usernames && (
-            <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
-              Added by {repo.usernames.join(", ")}
-            </p>
+            <>
+              <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
+                Added by
+              </p>
+              <UserAvatarGroup users={repo.usernames} />
+            </>
           )}
         </div>
       </div>
