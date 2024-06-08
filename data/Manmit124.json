@@ -1,0 +1,36 @@
+{
+    "name": "Manmit Tiwade",
+    "bio": "Full-Stack Software Developer | React | Nextjs | JavaScript || Typescript || MongoDB",
+    "tags": [
+        "Javascript",
+        "Typescript",
+        "Nextjs",
+        "REACT",
+        "TailwindCSS",       
+        "MongoDB",
+        "Express"
+      ],
+    "links": [
+      {
+        "group": "Social",
+        "name": "Follow me on Twitter",
+        "url": "https://twitter.com/Manmit124",
+        "icon": "FaTwitter"
+      },
+      {
+        "group": "Social",
+        "name": "Connect with me on LinkedIn",
+        "url": "https://www.linkedin.com/in/manmit-tiwade-a75371232/",
+        "icon": "FaLinkedin"
+      },
+      {
+        "group": "Social",
+        "name": "Follow me on Github ",
+        "url": "https://github.com/Manmit124",
+        "icon": "FaGithub"
+      }
+    
+     
+    ]
+  }
+  

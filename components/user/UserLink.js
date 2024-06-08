@@ -26,6 +26,7 @@ export default function UserLink({
   username,
   isEnabled = true,
   manage = false,
+  url,
 }) {
   const DisplayIcon = getIcon(link.icon);
   let aria = "";
@@ -38,7 +39,9 @@ export default function UserLink({
 
   const item = (link) => (
     <Link
-      href={`${BASE_URL}/api/profiles/${username}/links/${link._id}`}
+      href={
+        url ? url : `${BASE_URL}/api/profiles/${username}/links/${link._id}`
+      }
       target="_blank"
       rel="noopener noreferrer"
       className={classNames(
@@ -52,7 +55,7 @@ export default function UserLink({
         "--hover-color": colors[link.icon],
       }}
     >
-      <span className="relative">
+      <span className="relative ml-10">
         <span
           style={{ color: colors[link.icon] }}
           className={getIconAnimation.get(animations[link.animation])}
@@ -66,6 +69,8 @@ export default function UserLink({
         )}
       </span>
       <span className="grow">{link.name}</span>
+        
+      <div className="flex justify-end flex-wrap right-0 gap-2 items-center">
       {manage && link.isPinned && (
         <span className="inline-flex items-center rounded-md px-2 py-1 text-xs font-medium bg-secondary-low text-secondary-high-high ring-1 ring-inset ring-secondary-high/10">
           Pinned
@@ -89,17 +94,18 @@ export default function UserLink({
         </span>
       )}
       {manage && <Bulb isEnabled={isEnabled} />}
+      </div>
     </Link>
   );
 
   const edit = (link) => (
-    <Edit href={`/account/manage/link/${link._id}`} label={`${link.name} Link`}>
+    <Edit className={"mt-5 ml-4"} href={`/account/manage/link/${link._id}`} label={`${link.name} Link`}>
       {item(link)}
     </Edit>
   );
 
   return (
-    <div className="flex flex-row gap-8 w-full">
+    <div className="flex flex-row gap-8 w-full mt-6">
       {manage ? edit(link) : item(link)}
     </div>
   );

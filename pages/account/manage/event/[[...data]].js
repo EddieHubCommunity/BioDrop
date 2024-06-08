@@ -57,6 +57,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   const [endDate, setEndDate] = useState("");
   const [speakingTopic, setspeakingTopic] = useState(event.speakingTopic || "");
   const [tags, setTags] = useState(event.tags || []);
+  const [isDisabled, setIsDisabled] = useState(false);
   const tagInputRef = useRef(null);
 
   useEffect(() => {
@@ -105,7 +106,7 @@ export default function ManageEvent({ BASE_URL, event }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    
     if (document.activeElement === tagInputRef.current) {
       return;
     }
@@ -138,6 +139,7 @@ export default function ManageEvent({ BASE_URL, event }) {
     const update = await res.json();
 
     if (update.message) {
+      setIsDisabled(false);
       return setShowNotification({
         show: true,
         type: "error",
@@ -176,7 +178,7 @@ export default function ManageEvent({ BASE_URL, event }) {
   };
 
   const handleTagAdd = (newTag) =>
-    setTags((prevState) => [...prevState, newTag]);
+    setTags((prevState) => [...new Set([...prevState, newTag])]);
   const handleTagRemove = (tagToRemove) =>
     setTags(tags.filter((tag) => tag !== tagToRemove));
 
@@ -236,6 +238,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onChange={(e) => setDescription(e.target.value)}
                       value={description}
                       placeholder="Description of the event from their website"
+                      required
                     />
                   </div>
                   <div className="mt-1 sm:col-span-2 sm:mt-0">
@@ -340,10 +343,14 @@ export default function ManageEvent({ BASE_URL, event }) {
                       onTagAdd={handleTagAdd}
                       onTagRemove={handleTagRemove}
                       tags={tags}
+                      setTags={setTags}
                       inputRef={tagInputRef}
+                      showNotification={showNotification}
+                      setShowNotification={setShowNotification}
                     />
                     <p className="text-sm text-primary-medium-low dark:text-primary-low-high">
-                      Separate tags with commas.
+                      Separate tags with commas (tags cannot be duplicated and
+                      max 32 characters).
                     </p>
                   </div>
                 </div>
@@ -354,7 +361,7 @@ export default function ManageEvent({ BASE_URL, event }) {
                       DELETE
                     </Button>
                   )}
-                  <Button type="submit" primary={true}>
+                  <Button type="submit" primary={true} disabled={isDisabled}>
                     SAVE
                   </Button>
                 </div>

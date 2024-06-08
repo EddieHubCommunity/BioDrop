@@ -6,10 +6,40 @@ import StarIcon from "@heroicons/react/20/solid/StarIcon";
 import PencilIcon from "@heroicons/react/20/solid/PencilIcon";
 import ExclamationCircleIcon from "@heroicons/react/20/solid/ExclamationCircleIcon";
 import dateFormat from "@services/utils/dateFormat";
+import UserAvatarGroup from "@components/avatar/UserAvatarGroup";
+import { ReactSortable } from "react-sortablejs";
+import { useState, useEffect } from "react";
+import { clientEnv } from "@config/schemas/clientSchema";
+import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
+import Button from "@components/Button";
 
 export default function UserRepos({ manage = false, confirmDelete, repos }) {
+
+  const [reposList, setReposList] = useState(repos || []);
+  const [reorder, setReorder] = useState(false);
+  const [reposListPrevious, setReposListPrevious] = useState(repos || []);
+  const saveOrder = async () => {
+    const BASE_URL = clientEnv.NEXT_PUBLIC_BASE_URL;
+    const res = await fetch(`${BASE_URL}/api/account/manage/repos`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(reposList),
+    });
+    const updatedRepos = await res.json();
+    setReposList(updatedRepos);
+    setReposListPrevious(updatedRepos);
+    setReorder(false);
+  };
+  useEffect(()=>{
+    setReposList(repos)
+  },[repos]);
+
+  
   const item = (repo) => (
     <div className="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-primary-low dark:hover:bg-primary-medium transition-all duration-100 sm:px-6 lg:px-8">
+     
       <div className="flex gap-x-4">
         <FallbackImage
           className="h-12 w-12 flex-none rounded-full bg-primary-low"
@@ -21,7 +51,6 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
         <div className="min-w-0 flex-auto">
           <p className="text-sm font-semibold leading-6 text-primary-high dark:text-primary-low">
             <Link href={repo.url} target="_blank">
-              <span className="absolute inset-x-0 -top-px bottom-0" />
               {repo.owner}/{repo.name}
             </Link>{" "}
             <span className="hidden md:inline">
@@ -32,9 +61,12 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
             {repo.description}
           </p>
           {repo.usernames && (
-            <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
-              Added by {repo.usernames.join(", ")}
-            </p>
+            <>
+              <p className="mt-1 flex text-xs leading-5 text-primary-high dark:text-primary-low italic">
+                Added by
+              </p>
+              <UserAvatarGroup users={repo.usernames} />
+            </>
           )}
         </div>
       </div>
@@ -81,10 +113,47 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
   );
 
   return (
-    <ul role="list" className="divide-y divide-primary-low">
-      {repos.map((repo) => (
+    <>
+    <div className="flex gap-4">
+    {!reorder && manage && (
+          <Button
+            onClick={() => setReorder(true)}
+            disabled={reposList.length < 2}
+          >
+            <ArrowPathIcon className="h-5 w-5 mr-2" />
+            REORDER
+          </Button>
+        )}
+        {reorder && (
+          <Button
+            onClick={() => {
+              setReorder(false);
+              setReposList(reposListPrevious);
+            }}
+          >
+            CANCEL
+          </Button>
+        )}
+        {reorder && (
+            <Button primary={true} onClick={() => saveOrder()}>
+              SAVE
+            </Button>
+          )}
+    </div>
+      <ReactSortable
+          list={reposList}
+          setList={setReposList}
+          disabled={!reorder}
+          tag="ul"
+          ghostClass="border-2"
+          chosenClass="border-dashed"
+          dragClass="border-red-500"
+          className="divide-y divide-primary-low"
+        >
+      {reposList.map((repo) => (
         <li key={repo._id}>{manage ? manageDelete(repo) : item(repo)}</li>
       ))}
-    </ul>
+      </ReactSortable>
+    </>
   );
 }

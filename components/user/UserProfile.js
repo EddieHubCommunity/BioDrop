@@ -3,6 +3,7 @@ import { FaShare } from "react-icons/fa6";
 import { QRCodeCanvas } from "qrcode.react";
 import { saveAs } from "file-saver";
 import { useRouter } from "next/router";
+import { toPng } from "html-to-image";
 
 import FallbackImage from "@components/FallbackImage";
 import UserSocial from "./UserSocials";
@@ -14,6 +15,19 @@ import Modal from "@components/Modal";
 import ClipboardCopy from "@components/ClipboardCopy";
 import { socials } from "@config/socials";
 import Markdown from "@components/Markdown";
+import { renderToString } from "react-dom/server";
+import QRcodeWallpaper from "./QRcodeWallpaper";
+
+const renderQRCodeWallpaperToString = (BASE_URL, data) => {
+  const qrCodeElement = React.createElement(QRcodeWallpaper, {
+    BASE_URL: BASE_URL,
+    data: data,
+  });
+
+  const qrCodeString = renderToString(qrCodeElement);
+
+  return qrCodeString;
+};
 
 function UserProfile({ BASE_URL, data }) {
   const [qrShow, setQrShow] = useState(false);
@@ -30,6 +44,26 @@ function UserProfile({ BASE_URL, data }) {
       saveAs(blob, `biodrop-${data.username}.png`),
     );
 
+  const downloadWallpaper = async () => {
+    try {
+      const qrCodeString = renderQRCodeWallpaperToString(BASE_URL, data);
+
+      const container = document.createElement("div");
+      container.innerHTML = qrCodeString;
+
+      const dataUrl = await toPng(container, {
+        cacheBust: false,
+        backgroundColor: "#122640",
+        width: 1080,
+        height: 1920,
+      });
+
+      saveAs(dataUrl, `Biodrop-Wallpaper-${data.username}.png`);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
   return (
     <>
       <div className="flex justify-center items-center flex-col md:flex-row gap-x-6">
@@ -40,7 +74,7 @@ function UserProfile({ BASE_URL, data }) {
           onClick={() => (qrShow ? setQrShow(false) : setQrShow(true))}
         >
           <FallbackImage
-            src={`https://github.com/${data.username}.png`}
+            src={`https://github.com/${data.username}.png?q=100`}
             alt={`Profile picture of ${data.name}`}
             width={fallbackImageSize}
             height={fallbackImageSize}
@@ -125,6 +159,13 @@ function UserProfile({ BASE_URL, data }) {
               {qrShow && (
                 <Button primary={true} onClick={downloadQR}>
                   Download QR code
+                </Button>
+              )}
+            </div>
+            <div className="w-full px-2 mx-auto flex justify-center mb-4">
+              {qrShow && (
+                <Button primary={true} onClick={downloadWallpaper}>
+                  Export as Wallpaper
                 </Button>
               )}
             </div>

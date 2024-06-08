@@ -1,0 +1,16 @@
+{
+    "name": "Md Waqar Tabish",
+    "bio": "Full Stack turned Creative Freelance Developer | Vector Art @illustrator & @Vectornator | Technical Writer -Tutorialspoint",
+    "links": [
+        {
+            "name": "Follow me on GitHub",
+            "url": "https://github.com/WaqarTabish2807",
+            "icon": "FaGithub"
+        },
+        {
+            "name": "Follow me on Twitter",
+            "url": "https://twitter.com/iamwaqs",
+            "icon": "FaTwitter"
+        }
+    ]
+}

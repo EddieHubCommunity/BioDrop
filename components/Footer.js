@@ -1,5 +1,5 @@
 import va from "@vercel/analytics";
-
+import { useSession } from 'next-auth/react';
 import {
   FaLinkedin,
   FaGithub,
@@ -15,12 +15,15 @@ import { BASE_GITHUB_PROJECT_URL, BASE_GITHUB_URL } from "@constants/index";
 import LogoWide from "@public/logos/LogoWide";
 
 export default function Footer() {
+  const { data: session, status } = useSession();
+  const loading = status === 'loading';
   const navigation = {
     solutions: [
       { name: "Search", href: "/search", external: false },
       { name: "Events", href: "/events", external: false },
       { name: "Map", href: "/map", external: false },
-      { name: "Login", href: "/auth/signin", external: false },
+      // Only include the "Login" link if the user is not logged in
+      ...(!session && !loading ? [{ name: "Login", href: "/auth/signin", external: false }] : []),
       {
         name: "Open Source Roadmap",
         href: "/docs/open-source-roadmap",
@@ -70,7 +73,6 @@ export default function Footer() {
         href: "https://biodrop.substack.com/",
         external: true,
       },
-      { name: `v${app.version}`, href: "/roadmap", external: false },
     ],
     legal: [
       {
@@ -231,7 +233,7 @@ export default function Footer() {
             onClick={() => va.track(`footer`, { link: "powered by EddieHub" })}
           >
             <RocketLaunchIcon className="h-6 w-6" aria-hidden="true" />
-            Powered by EddieHub
+            Powered by EddieHub | v{app.version}
           </Link>
         </div>
       </div>

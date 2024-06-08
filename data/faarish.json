@@ -1,0 +1,26 @@
+{
+  "name": "Salman Farish",
+  "bio": "Aspiring Open Source Developer | Tech Enthusiast",
+"links": [
+    {
+      "group": "Contact",
+      "name": "Email",
+      "url": "mailto:salman.farish@hotmail.com?subject=Contacting%20you%20from%20your%20BioDrop%20profile&body=Hello%2C%20I%20am%0A",
+      "icon": "SiGmail"
+    },
+    {
+      "group": "Socials Primary",
+      "name": "Linked In: Let's connect",
+      "url": "https://linkedin.com/salman-farish",
+      "icon": "FaLinkedin",
+      "color": "#00ACEE"
+    },
+  {
+      "group": "Socials",
+      "name": "Git Hub",
+      "url": "https://github.com/faarish",
+      "icon": "FaGithub",
+      "color": "#00ACEE"
+    }
+]
+}
