@@ -1,3 +1,12 @@
+## [2.101.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.2...v2.101.3) (2024-06-08)
+
+
+### Bug Fixes
+
+* uneditable url field to have title info ([#10348](https://github.com/EddieHubCommunity/BioDrop/issues/10348)) ([10a80de](https://github.com/EddieHubCommunity/BioDrop/commit/10a80dec4f5d4ffa3b2e7fed0ecc65689157db9f))
+
+
+
 ## [2.101.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.1...v2.101.2) (2024-06-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * archive website message about db deletion ([#10369](https://github.com/EddieHubCommunity/BioDrop/issues/10369)) ([57badca](https://github.com/EddieHubCommunity/BioDrop/commit/57badcab79555f2d6bbd7d8f977b958a6acb3241))
-
-
-
-## [2.100.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.2...v2.100.3) (2024-05-05)
-
-
-### Bug Fixes
-
-* archive alert message ([#10366](https://github.com/EddieHubCommunity/BioDrop/issues/10366)) ([8f52efc](https://github.com/EddieHubCommunity/BioDrop/commit/8f52efc97943ccb5796604726a0b71b1520f156c))
 
 
 
