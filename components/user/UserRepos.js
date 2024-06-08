@@ -13,7 +13,6 @@ import ArrowPathIcon from "@heroicons/react/24/outline/ArrowPathIcon";
 import Button from "@components/Button";
 
 export default function UserRepos({ manage = false, confirmDelete, repos }) {
-
   const [reposList, setReposList] = useState(repos || []);
   const [reorder, setReorder] = useState(false);
   const [reposListPrevious, setReposListPrevious] = useState(repos || []);
@@ -32,13 +31,11 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
     setReorder(false);
   };
   useEffect(() => {
-    setReposList(repos)
+    setReposList(repos);
   }, [repos]);
-
 
   const item = (repo) => (
     <div className="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-primary-low dark:hover:bg-primary-medium transition-all duration-100 sm:px-6 lg:px-8">
-
       <div className="flex gap-x-4">
         <FallbackImage
           className="h-12 w-12 flex-none rounded-full bg-primary-low"

@@ -48,7 +48,7 @@ export async function updateReposOrderApi(username, data) {
 
   const repos = await Promise.allSettled(repoList).then(() => {
     return getReposApi(username);
-  })
+  });
 
   return JSON.parse(JSON.stringify(repos));
 }
