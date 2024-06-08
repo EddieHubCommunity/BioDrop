@@ -1,0 +1,13 @@
+{
+    "name": "Sasank Tanikella",
+    "bio": "Software Development Intern | Full Stack | AI/Blockchain | Currently in Job search",
+    "links": [
+        {
+            "group": "Socials Primary",
+            "name": "Twitter: Follow me",
+            "url": "https://twitter.com/shashanktanikel",
+            "icon": "FaTwitter",
+            "color": "#00ACEE"
+        }
+    ]
+}

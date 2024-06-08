@@ -7,6 +7,7 @@ const RepoSchema = new Schema({
     min: 2,
     max: 256,
   },
+  order: Number,
   name: {
     type: String,
     required: true,

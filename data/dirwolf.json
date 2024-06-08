@@ -1,0 +1,21 @@
+{
+  "name": "Dhruv rawat",
+  "bio": "Computer science undergrad",
+  "links": [
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/dhruv-rawat-aa8305220/",
+      "icon": "FaLinkedin"
+    },
+    {
+      "name": "Youtube",
+      "url": "https://www.youtube.com/channel/UCuLxLMEyO8NambbHWwA5rew",
+      "icon": "FaYoutube"
+    },
+      {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/_dhruv.rawat_/",
+      "icon": "FaInstagram"
+    }
+  ]
+}

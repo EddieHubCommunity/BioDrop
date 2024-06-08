@@ -1,0 +1,13 @@
+{
+  "name": "Kevin Oluda",
+  "bio": "Software engineer | Open Source DevRel | Fullstack developer",
+  "links": [
+	{
+    "group": "Socials Primary",
+    "name": "Twitter: Follow me",
+    "icon": "FaTwitter",
+    "color": "#00ACEE",
+		"url": "https://twitter.com/oluda_kevin"
+}
+  ]
+}

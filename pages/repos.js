@@ -49,8 +49,8 @@ export default function Repos({ repos }) {
       />
 
       <Page>
-        <h1 className="text-4xl mb-4 font-bold">Community Repos</h1>
-        <div className=" flex justify-end">
+        <div className="flex flex-col items-center justify-between sm:flex-row mb-2">
+          <h1 className="text-4xl mb-2 font-bold sm:mb-0">Community Repos</h1>
           <Select
             name="event-type"
             value={router.query.sortBy || "favourites"}
@@ -62,7 +62,7 @@ export default function Repos({ repos }) {
               label: option.label,
               value: option.value,
             }))}
-            className="inline text-center text-sm font-medium leading-6 text-primary-high sm:pt-1.5"
+            className="inline text-center text-sm font-medium leading-6 text-primary-high mb-0"
           />
         </div>
         <UserRepos repos={repos} />

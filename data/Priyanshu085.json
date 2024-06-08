@@ -1,0 +1,30 @@
+{
+  "name": "Priyanshu",
+  "bio": "Intern@Tublian || Full Stack Developer || 🎓 Executive @GDSC || 🖥️ Contributor @Hacktoberfest-23 || 2 ⭐ @CodeChef || ⭐Quick Learner || 1648 @leetcode",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "NextJS",
+    "Full Stack Web Development",
+    "Machine Learning",
+    "Competitive Programming",
+    "DevOps"
+  ],
+  "links": [
+    {
+      "name": "Follow me on GitHub",
+      "url": "https://github.com/Priyanshu085",
+      "icon": "FaGithub"
+    },
+    {
+      "name": "Follow me on Twitter",
+      "url": "https://twitter.com/Priyanshux085",
+      "icon": "FaTwitter"
+    },
+    {
+      "name": "Follow me on LinkedIn",
+      "url": "https://www.linkedin.com/in/priyanshu085/",
+      "icon": "FaLinkedin"
+    }
+  ]
+}

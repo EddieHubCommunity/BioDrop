@@ -1,0 +1,26 @@
+{
+  "name": "Aditya Shekhar",
+  "bio": "Front End Developer | Javascript | React",
+  "tags": [
+    "Open Source",
+    "Javascript",
+    "Typescript",
+    "React",
+    "C++",
+    "Web Development"
+  ],
+  "socials": [
+    {
+      "icon": "FaInstagram",
+      "url": "https://www.instagram.com/aditya.2701/"
+    },
+    {
+      "icon": "FaLinkedin",
+      "url": "https://www.linkedin.com/in/aditya7682/"
+    },
+    {
+      "icon": "FaGithub",
+      "url": "https://github.com/Aditya-76"
+    }
+  ]
+}

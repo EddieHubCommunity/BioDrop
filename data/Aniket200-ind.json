@@ -1,0 +1,22 @@
+{
+  "name": "Aniket Botre",
+  "bio": "Passionate about creating digital experiences, I am Aniket, a 20-year-old self-taught web developer based in Mumbai, India. With a solid foundation in HTML, CSS, and JavaScript, I have expanded my expertise to include a range of languages and frameworks, from Python to Node.js.",
+  "tags": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "NextJS",
+    "Rust",
+    "Tailwind CSS"
+  ],
+  "socials": [
+    {
+      "icons": "FaGithub",
+      "url": "https://github.com/Aniket200-ind"
+    },
+    {
+        "icon": "FaLinkedin",
+        "url": "https://www.linkedin.com/in/aniket-botre-9608901b8/"
+    }
+  ]
+}
