@@ -1,3 +1,12 @@
+## [2.101.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.1...v2.101.2) (2024-06-08)
+
+
+### Bug Fixes
+
+* type in settings.js ([#10378](https://github.com/EddieHubCommunity/BioDrop/issues/10378)) ([f296ab2](https://github.com/EddieHubCommunity/BioDrop/commit/f296ab2d47555fe967b57ec7173e54f9b2eef039))
+
+
+
 ## [2.101.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.0...v2.101.1) (2024-05-13)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * archive alert message ([#10366](https://github.com/EddieHubCommunity/BioDrop/issues/10366)) ([8f52efc](https://github.com/EddieHubCommunity/BioDrop/commit/8f52efc97943ccb5796604726a0b71b1520f156c))
-
-
-
-## [2.100.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.1...v2.100.2) (2024-03-25)
-
-
-### Bug Fixes
-
-* revert husky to regular dependency ([#10310](https://github.com/EddieHubCommunity/BioDrop/issues/10310)) ([cccd62f](https://github.com/EddieHubCommunity/BioDrop/commit/cccd62f39b721b529aa9f626b07859cd53461fc4))
 
 
 
