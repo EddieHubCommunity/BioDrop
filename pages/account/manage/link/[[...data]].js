@@ -211,6 +211,7 @@ export default function ManageLink({ BASE_URL, username, link, groups }) {
                       required
                       minLength="2"
                       maxLength="256"
+                      title="The URL cannot be edited as this would effect your stats. You can disable this link and create another link."
                     />
                     <p className="text-sm text-primary-low-medium">
                       For example: <i>https://twitter.com/eddiejaoude</i>
