@@ -1,3 +1,12 @@
+# [2.102.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.3...v2.102.0) (2024-06-08)
+
+
+### Features
+
+* navbar hover effect ([#10305](https://github.com/EddieHubCommunity/BioDrop/issues/10305)) ([#10355](https://github.com/EddieHubCommunity/BioDrop/issues/10355)) ([a475c61](https://github.com/EddieHubCommunity/BioDrop/commit/a475c6173a3cf2aeb367233578b1736a769e2fae))
+
+
+
 ## [2.101.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.2...v2.101.3) (2024-06-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * premium plan for all ([#10361](https://github.com/EddieHubCommunity/BioDrop/issues/10361)) ([bb4383d](https://github.com/EddieHubCommunity/BioDrop/commit/bb4383dbebe033e7b87f89799c4127cffee98d56))
-
-
-
-## [2.100.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.3...v2.100.4) (2024-05-06)
-
-
-### Bug Fixes
-
-* archive website message about db deletion ([#10369](https://github.com/EddieHubCommunity/BioDrop/issues/10369)) ([57badca](https://github.com/EddieHubCommunity/BioDrop/commit/57badcab79555f2d6bbd7d8f977b958a6acb3241))
 
 
 
