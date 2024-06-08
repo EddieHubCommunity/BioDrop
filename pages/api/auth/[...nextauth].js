@@ -60,6 +60,12 @@ export const authOptions = {
         token.id = profile.id;
         token.username = profile.login;
       }
+      const user = await User.findOne({ _id: token.sub });
+      if (user) {
+        token.accountType = user.type;
+      } else {
+        token.accountType = "free";
+      }
       return token;
     },
     async session({ session, token }) {
