@@ -20,6 +20,7 @@
     "autoprefixer": "^10.4.19",
     "dotenv": "^16.4.5",
     "file-saver": "^2.0.5",
+    "html-to-image": "^1.11.11",
     "husky": "^9.0.11",
     "leaflet": "^1.9.4",
     "micro": "^10.0.1",
