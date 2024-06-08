@@ -31,14 +31,14 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
     setReposListPrevious(updatedRepos);
     setReorder(false);
   };
-  useEffect(()=>{
+  useEffect(() => {
     setReposList(repos)
-  },[repos]);
+  }, [repos]);
 
-  
+
   const item = (repo) => (
     <div className="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-primary-low dark:hover:bg-primary-medium transition-all duration-100 sm:px-6 lg:px-8">
-     
+
       <div className="flex gap-x-4">
         <FallbackImage
           className="h-12 w-12 flex-none rounded-full bg-primary-low"
@@ -111,8 +111,8 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
 
   return (
     <>
-    <div className="flex gap-4">
-    {!reorder && manage && (
+      <div className="flex gap-4">
+        {!reorder && manage && (
           <Button
             onClick={() => setReorder(true)}
             disabled={reposList.length < 2}
@@ -132,24 +132,24 @@ export default function UserRepos({ manage = false, confirmDelete, repos }) {
           </Button>
         )}
         {reorder && (
-            <Button primary={true} onClick={() => saveOrder()}>
-              SAVE
-            </Button>
-          )}
-    </div>
+          <Button primary={true} onClick={() => saveOrder()}>
+            SAVE
+          </Button>
+        )}
+      </div>
       <ReactSortable
-          list={reposList}
-          setList={setReposList}
-          disabled={!reorder}
-          tag="ul"
-          ghostClass="border-2"
-          chosenClass="border-dashed"
-          dragClass="border-red-500"
-          className="divide-y divide-primary-low"
-        >
-      {reposList.map((repo) => (
-        <li key={repo._id}>{manage ? manageDelete(repo) : item(repo)}</li>
-      ))}
+        list={reposList}
+        setList={setReposList}
+        disabled={!reorder}
+        tag="ul"
+        ghostClass="border-2"
+        chosenClass="border-dashed"
+        dragClass="border-red-500"
+        className="divide-y divide-primary-low"
+      >
+        {reposList.map((repo) => (
+          <li key={repo._id}>{manage ? manageDelete(repo) : item(repo)}</li>
+        ))}
       </ReactSortable>
     </>
   );

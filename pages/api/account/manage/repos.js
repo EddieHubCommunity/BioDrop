@@ -8,16 +8,16 @@ import Profile from "@models/Profile";
 export default async function handler(req, res) {
   const session = await getServerSession(req, res, authOptions);
 
-  if(!["GET","PATCH"].includes(req.method)){
+  if (!["GET", "PATCH"].includes(req.method)) {
     return res.status(400).json({ error: "Invalid request: GET required" });
   }
 
   const username = session.username;
   let data = [];
-  if(req.method === "GET"){
+  if (req.method === "GET") {
     data = await getReposApi(username);
   }
-  if(req.method === "PATCH"){
+  if (req.method === "PATCH") {
     data = await updateReposOrderApi(username, req.body);
   }
 
@@ -28,9 +28,9 @@ export async function updateReposOrderApi(username, data) {
   await connectMongo();
   const log = logger.child({ username });
 
-  const repoList =  data.map(async (repo, idx) => {
+  const repoList = data.map(async (repo, idx) => {
     try {
-      return  Profile.findOneAndUpdate(
+      return Profile.findOneAndUpdate(
         {
           username,
           "repos._id": repo._id,
@@ -46,7 +46,7 @@ export async function updateReposOrderApi(username, data) {
     }
   });
 
-  const repos = await Promise.allSettled(repoList).then(() => { 
+  const repos = await Promise.allSettled(repoList).then(() => {
     return getReposApi(username);
   })
 
