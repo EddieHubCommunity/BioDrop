@@ -16,15 +16,16 @@ test("Guest user cannot access premium referers stats", async ({ browser }) => {
   await expect(page).toHaveURL("/auth/signin");
 });
 
-test("Logged in free user cannot access premium referers stats", async ({
-  browser,
-}) => {
-  const context = await login(browser);
-  const page = await context.newPage();
-  await page.goto("/account/statistics/referers");
-  await page.waitForLoadState("domcontentloaded");
-  await expect(page).toHaveURL(/account\/onboarding/);
-});
+// THIS PREMIUM IS BEING GIVEN TO EVERYONE
+// test("Logged in free user cannot access premium referers stats", async ({
+//   browser,
+// }) => {
+//   const context = await login(browser);
+//   const page = await context.newPage();
+//   await page.goto("/account/statistics/referers");
+//   await page.waitForLoadState("domcontentloaded");
+//   await expect(page).toHaveURL(/account\/onboarding/);
+// });
 
 test("Logged in premium user can access premium referers stats", async ({
   browser,

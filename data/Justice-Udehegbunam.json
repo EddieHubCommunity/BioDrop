@@ -1,0 +1,20 @@
+{
+  "name": "Justice Udehegbunam",
+  "bio": "A results oriented web developer focused on creating jaw-dropping, reusable solutions for your needs.",
+  "links": [
+    {
+      "group": "Socials Primary",
+      "name": "Linkedin: Let's Connect am most active here.",
+      "url": "https://twitter.com/FavouredJustice",
+      "icon": "FaTwitter",
+      "color": "#00ACEE"
+    },
+    {
+      "group": "Socials Twitter",
+      "name": "Twitter: Follow me",
+      "url": "https://www.linkedin.com/in/justice-udehegbunam/",
+      "icon": "SiLinkedin",
+      "color": "#00ACEE"
+    }
+  ]
+}

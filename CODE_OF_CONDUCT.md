@@ -59,7 +59,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported (this can be done anonymously) to the Project Maintainers responsible for enforcement at http://eddiejaoude.io/contact.
+reported (this can be done anonymously) to the Project Maintainers responsible for enforcement at http://eddiejaoude.io.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All Project Maintainers are obligated to respect the privacy and security of the

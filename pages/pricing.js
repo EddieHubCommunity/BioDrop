@@ -87,30 +87,9 @@ export default function Premium({ user }) {
             return "Join Premium plan";
           }
         },
-        action: () => {
-          if (user.isLoggedIn && user.accountType === "premium") {
-            return "/api/stripe";
-          }
-          if (user.isLoggedIn && user.accountType === "free") {
-            return "/api/stripe";
-          }
-          if (!user.isLoggedIn) {
-            return "/auth/signin";
-          }
-        },
-        isDisabled: () => {
-          if (user.isLoggedIn && user.accountType === "premium") {
-            return true;
-          }
-          return false;
-        },
-        onClick: () => {
-          if (typeof window !== "undefined" && window.localStorage) {
-            if (user.accountType !== "premium") {
-              localStorage.setItem("premium-intent", true);
-            }
-          }
-        },
+        action: () => "/auth/signin",
+        isDisabled: () => true,
+        onClick: () => {},
       },
     },
   ];

@@ -57,7 +57,7 @@ jobs:
           DATA_DATE: ${{ steps.date.outputs.time }}
       - name: validate JSON
         run: jq . "data/${{ steps.issue-parser.outputs.issueparser_name }}/testimonials/${{ github.actor }}.json"
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Testimonial for '${{ steps.issue-parser.outputs.issueparser_name }}' by '${{ github.actor }}'"
 

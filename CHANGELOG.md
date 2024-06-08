@@ -1,45 +1,45 @@
-## [2.97.9](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.8...v2.97.9) (2024-01-07)
+## [2.101.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.0...v2.101.1) (2024-05-13)
 
 
 ### Bug Fixes
 
-* version description in bug template ([#9947](https://github.com/EddieHubCommunity/BioDrop/issues/9947))([#9946](https://github.com/EddieHubCommunity/BioDrop/issues/9946)) ([5083539](https://github.com/EddieHubCommunity/BioDrop/commit/5083539cf6820b852104b41e43be59e1eca2a9d1))
+* remove create profile button ([#10375](https://github.com/EddieHubCommunity/BioDrop/issues/10375)) ([e0e90a7](https://github.com/EddieHubCommunity/BioDrop/commit/e0e90a7ced6901c68dd063ed1d656dc5b6233d84))
 
 
 
-## [2.97.8](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.7...v2.97.8) (2024-01-05)
+# [2.101.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.4...v2.101.0) (2024-05-13)
 
 
-### Bug Fixes
+### Features
 
-* mongoose validate error and upgrade ([#10102](https://github.com/EddieHubCommunity/BioDrop/issues/10102)) ([052f076](https://github.com/EddieHubCommunity/BioDrop/commit/052f0765369dd86dfe25e1461d506e73540d1fea))
-
-
-
-## [2.97.7](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.6...v2.97.7) (2024-01-04)
-
-
-### Bug Fixes
-
-* rolled back mongoose version ([#10097](https://github.com/EddieHubCommunity/BioDrop/issues/10097)) ([8b13530](https://github.com/EddieHubCommunity/BioDrop/commit/8b13530294083b1578fba769436c20efa303c6cc))
+* premium plan for all ([#10361](https://github.com/EddieHubCommunity/BioDrop/issues/10361)) ([bb4383d](https://github.com/EddieHubCommunity/BioDrop/commit/bb4383dbebe033e7b87f89799c4127cffee98d56))
 
 
 
-## [2.97.6](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.5...v2.97.6) (2023-12-30)
+## [2.100.4](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.3...v2.100.4) (2024-05-06)
 
 
 ### Bug Fixes
 
-* alert info for dark mode ([#9902](https://github.com/EddieHubCommunity/BioDrop/issues/9902)) ([2e1ce65](https://github.com/EddieHubCommunity/BioDrop/commit/2e1ce6545f64e1b6ad7c1208715c540644d2f0d9))
+* archive website message about db deletion ([#10369](https://github.com/EddieHubCommunity/BioDrop/issues/10369)) ([57badca](https://github.com/EddieHubCommunity/BioDrop/commit/57badcab79555f2d6bbd7d8f977b958a6acb3241))
 
 
 
-## [2.97.5](https://github.com/EddieHubCommunity/BioDrop/compare/v2.97.4...v2.97.5) (2023-12-30)
+## [2.100.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.2...v2.100.3) (2024-05-05)
 
 
 ### Bug Fixes
 
-* update action dependencies ([#10053](https://github.com/EddieHubCommunity/BioDrop/issues/10053)) ([aa1149b](https://github.com/EddieHubCommunity/BioDrop/commit/aa1149b91b07f3b81e6a7c424f0bee908a1678e2))
+* archive alert message ([#10366](https://github.com/EddieHubCommunity/BioDrop/issues/10366)) ([8f52efc](https://github.com/EddieHubCommunity/BioDrop/commit/8f52efc97943ccb5796604726a0b71b1520f156c))
+
+
+
+## [2.100.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.1...v2.100.2) (2024-03-25)
+
+
+### Bug Fixes
+
+* revert husky to regular dependency ([#10310](https://github.com/EddieHubCommunity/BioDrop/issues/10310)) ([cccd62f](https://github.com/EddieHubCommunity/BioDrop/commit/cccd62f39b721b529aa9f626b07859cd53461fc4))
 
 
 
