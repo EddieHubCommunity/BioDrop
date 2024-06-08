@@ -1,3 +1,18 @@
+> [!IMPORTANT]
+> From **10 June 2024** BioDrop will be archived. What does this mean?
+> 
+> ### Profile
+> You will not be able to use your Profile from 10 June so remember to stop using your BioDrop url before then
+> You will not be able to access your Dashboard (meaning you will not be able to see any Stats or make changes to your Profile)
+> All database data will be deleted
+> 
+> ### GitHub Repo
+> 
+> No Issues or PRs can be raised
+> 
+> If you have an existing Issue or PR assigned to you this will not be reviewed/merged
+> A big thank you to our users and contributors, without which this project would not have been possible.
+
 [![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=EddieHubCommunity&name=BioDrop)](https://repo-rater.eddiehub.io/rate?owner=EddieHubCommunity&name=BioDrop)
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/BioDrop)
 ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Fbio-drop-biodrop-io%2Fuptime.json)

@@ -54,7 +54,6 @@ export async function middleware(req) {
 
     if (
       profile?.username &&
-      profile.user.type === "premium" &&
       profile.settings?.domain &&
       profile.settings.domain === hostname
     ) {

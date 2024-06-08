@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { IconContext } from "react-icons";
-import { FaArrowsRotate, FaEye, FaRegFaceSmileWink } from "react-icons/fa6";
+import { FaArrowsRotate, FaEye } from "react-icons/fa6";
 import { remark } from "remark";
 import strip from "strip-markdown";
 import requestIp from "request-ip";
@@ -10,7 +10,6 @@ import { getServerSession } from "next-auth/next";
 import { getUserApi } from "./api/profiles/[username]/index";
 import { clientEnv } from "@config/schemas/clientSchema";
 import logger from "@config/logger";
-import Link from "@components/Link";
 import PageHead from "@components/PageHead";
 import MultiLayout from "@components/layouts/MultiLayout";
 import Page from "@components/Page";
@@ -71,7 +70,7 @@ export async function getServerSideProps(context) {
   };
 }
 
-export default function User({ data, BASE_URL, isLoggedIn }) {
+export default function User({ data, BASE_URL }) {
   const [pwa, setPwa] = useState(false);
 
   useEffect(() => {
@@ -112,26 +111,6 @@ export default function User({ data, BASE_URL, isLoggedIn }) {
             </p>
           </div>
         </div>
-      )}
-
-      {!isLoggedIn && data.accountType === "free" && (
-        <Link
-          href="/pricing"
-          rel="noopener noreferrer"
-          target="_blank"
-          className="fixed bottom-5 right-5 rounded-full focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary-high"
-        >
-          <div className="flex px-4 py-2 bg-tertiary-medium text-primary-low items-center gap-1 rounded-full hover:bg-secondary-medium hover:drop-shadow-lg">
-            <IconContext.Provider
-              value={{ color: "white", style: { verticalAlign: "middle" } }}
-            >
-              <FaRegFaceSmileWink />
-            </IconContext.Provider>
-            <p className="text-sm font-medium text-primary-medium">
-              Create your BioDrop Profile
-            </p>
-          </div>
-        </Link>
       )}
 
       {pwa && (
