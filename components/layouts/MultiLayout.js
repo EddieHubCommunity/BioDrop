@@ -1,5 +1,3 @@
-import Navbar from "@components/navbar/Navbar";
-import Footer from "@components/Footer";
 import SkipLink from "@components/SkipLink";
 import Alert from "./Alert";
 
@@ -11,13 +9,11 @@ export default function MultiLayout({ settings, children }) {
         {(!settings || !settings.hideNavbar) && (
           <>
             <Alert />
-            <Navbar />
           </>
         )}
         <main id="main" className="flex-1 dark:bg-dark-2 dark:z-40">
           {children}
         </main>
-        {(!settings || !settings.hideFooter) && <Footer />}
       </div>
     </>
   );
