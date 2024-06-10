@@ -73,6 +73,7 @@ export default function ManageRepos({ BASE_URL, repos }) {
     const listRepos = await resRepos.json();
     setRepoList(listRepos);
     setUrl("");
+    setIsDisabled(false);
     return setShowNotification({
       show: true,
       type: "success",
