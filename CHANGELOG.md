@@ -1,3 +1,12 @@
+# [2.103.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.102.0...v2.103.0) (2024-06-10)
+
+
+### Features
+
+* archiving project redirect to user's github profile ([#10386](https://github.com/EddieHubCommunity/BioDrop/issues/10386)) ([ef5af9c](https://github.com/EddieHubCommunity/BioDrop/commit/ef5af9c7f5f0ae0afafb00906a74c4aa517ad3df))
+
+
+
 # [2.102.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.3...v2.102.0) (2024-06-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * remove create profile button ([#10375](https://github.com/EddieHubCommunity/BioDrop/issues/10375)) ([e0e90a7](https://github.com/EddieHubCommunity/BioDrop/commit/e0e90a7ced6901c68dd063ed1d656dc5b6233d84))
-
-
-
-# [2.101.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.100.4...v2.101.0) (2024-05-13)
-
-
-### Features
-
-* premium plan for all ([#10361](https://github.com/EddieHubCommunity/BioDrop/issues/10361)) ([bb4383d](https://github.com/EddieHubCommunity/BioDrop/commit/bb4383dbebe033e7b87f89799c4127cffee98d56))
 
 
 
