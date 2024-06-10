@@ -7,7 +7,11 @@ export const config = {
 };
 
 export async function middleware(req) {
-  const reqPathName = req.nextUrl.pathname;
+  const path = req.nextUrl.pathname;
 
-  return NextResponse.redirect(new URL(reqPathName, "https://github.com"));
+  if (path !== "/") {
+    return NextResponse.redirect(new URL(path, "https://github.com"));
+  }
+
+  return NextResponse.next();
 }
