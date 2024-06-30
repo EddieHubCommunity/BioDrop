@@ -1,3 +1,12 @@
+## [3.4.2](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.1...v3.4.2) (2024-06-30)
+
+
+### Bug Fixes
+
+* logging to middleware ([feb7d39](https://github.com/EddieHubCommunity/BioDrop/commit/feb7d39a60c9c60e3639cf7bab408b6170a57764))
+
+
+
 ## [3.4.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.0...v3.4.1) (2024-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * check for username first ([5ca8158](https://github.com/EddieHubCommunity/BioDrop/commit/5ca815899155555bf4124902b677ecdf1f436cb1))
-
-
-
-# [3.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v3.2.1...v3.3.0) (2024-06-30)
-
-
-### Features
-
-* no path redirect to repo ([7d81a17](https://github.com/EddieHubCommunity/BioDrop/commit/7d81a17828f70da158545cfa9bba8b3cf48e557b))
 
 
 
