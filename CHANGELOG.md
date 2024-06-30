@@ -1,3 +1,12 @@
+## [2.104.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.104.1...v2.104.2) (2024-06-30)
+
+
+### Bug Fixes
+
+* docker secrets ([be0e7bb](https://github.com/EddieHubCommunity/BioDrop/commit/be0e7bb430f95e0693cd290a332a244c273b3eee))
+
+
+
 ## [2.104.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.104.0...v2.104.1) (2024-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * archiving project redirect to user's github profile ([#10386](https://github.com/EddieHubCommunity/BioDrop/issues/10386)) ([ef5af9c](https://github.com/EddieHubCommunity/BioDrop/commit/ef5af9c7f5f0ae0afafb00906a74c4aa517ad3df))
-
-
-
-# [2.102.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.3...v2.102.0) (2024-06-08)
-
-
-### Features
-
-* navbar hover effect ([#10305](https://github.com/EddieHubCommunity/BioDrop/issues/10305)) ([#10355](https://github.com/EddieHubCommunity/BioDrop/issues/10355)) ([a475c61](https://github.com/EddieHubCommunity/BioDrop/commit/a475c6173a3cf2aeb367233578b1736a769e2fae))
 
 
 
