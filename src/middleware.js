@@ -9,6 +9,7 @@ export const config = {
 export async function middleware(req) {
   const path = req.nextUrl.pathname;
 
+  console.log("PATH", path);
   if (path !== "/") {
     return NextResponse.redirect(new URL(path, "https://github.com"));
   }
