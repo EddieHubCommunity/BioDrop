@@ -7,7 +7,7 @@ on:
       - "data/**"
 
 concurrency:
-  group: "main-branch"
+  group: "redirect-branch"
 
 jobs:
   changelog:
@@ -42,7 +42,7 @@ jobs:
       - name: create PR with release info
         if: steps.changelog.outputs.skipped == 'false'
         id: create-pr
-        run: gh pr create --base main --head release-from-${{ github.sha }} --title 'Merge new release into main' --body 'Created by Github action'
+        run: gh pr create --base redirect --head release-from-${{ github.sha }} --title 'Merge new release into redirect' --body 'Created by Github action'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -54,7 +54,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # release info is now in main so we can continue as before
+      # release info is now in redirect so we can continue as before
       - name: create release with last commit
         if: steps.changelog.outputs.skipped == 'false'
         uses: ncipollo/release-action@v1
