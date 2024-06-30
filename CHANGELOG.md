@@ -1,3 +1,12 @@
+## [2.104.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.104.0...v2.104.1) (2024-06-30)
+
+
+### Bug Fixes
+
+* delete release branch ([3d3aa86](https://github.com/EddieHubCommunity/BioDrop/commit/3d3aa867880d9fcb0c72756ff51c1b66d176fdea))
+
+
+
 # [2.104.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.103.1...v2.104.0) (2024-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * navbar hover effect ([#10305](https://github.com/EddieHubCommunity/BioDrop/issues/10305)) ([#10355](https://github.com/EddieHubCommunity/BioDrop/issues/10355)) ([a475c61](https://github.com/EddieHubCommunity/BioDrop/commit/a475c6173a3cf2aeb367233578b1736a769e2fae))
-
-
-
-## [2.101.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.2...v2.101.3) (2024-06-08)
-
-
-### Bug Fixes
-
-* uneditable url field to have title info ([#10348](https://github.com/EddieHubCommunity/BioDrop/issues/10348)) ([10a80de](https://github.com/EddieHubCommunity/BioDrop/commit/10a80dec4f5d4ffa3b2e7fed0ecc65689157db9f))
 
 
 
