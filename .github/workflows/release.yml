@@ -18,6 +18,7 @@ jobs:
       # check out the repository with all releases
       - uses: actions/checkout@v4
         with:
+          ref: redirect
           fetch-depth: 0
 
       # Create a temporary, uniquely named branch to push release info to

@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: redirect
       - name: npm install and build
         run: |
           npm ci
@@ -23,6 +25,8 @@ jobs:
     steps:
       - name: check out the repo
         uses: actions/checkout@v4
+        with:
+          ref: redirect
       - name: get-npm-version
         id: package-version
         uses: martinbeentjes/npm-get-version-action@master
