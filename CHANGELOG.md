@@ -1,3 +1,12 @@
+## [3.2.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.2.0...v3.2.1) (2024-06-30)
+
+
+### Bug Fixes
+
+* why this redirect branch ([1720751](https://github.com/EddieHubCommunity/BioDrop/commit/1720751568246538662be4bfe70531dacddee1db))
+
+
+
 # [3.2.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.104.2...v3.2.0) (2024-06-30)
 
 
@@ -40,15 +49,6 @@
 ### Features
 
 * caprover ([#10389](https://github.com/EddieHubCommunity/BioDrop/issues/10389)) ([e57c681](https://github.com/EddieHubCommunity/BioDrop/commit/e57c681fc966dbd96c8ed0b37d522b8093d014e1))
-
-
-
-## [2.103.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.103.0...v2.103.1) (2024-06-10)
-
-
-### Bug Fixes
-
-* add repo button in manage repo page  ([#10385](https://github.com/EddieHubCommunity/BioDrop/issues/10385)) ([f548044](https://github.com/EddieHubCommunity/BioDrop/commit/f548044560a271279c1661645aec7246ca41ec0e))
 
 
 
