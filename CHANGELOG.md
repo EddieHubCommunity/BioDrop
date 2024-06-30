@@ -1,3 +1,12 @@
+## [3.4.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.0...v3.4.1) (2024-06-30)
+
+
+### Bug Fixes
+
+* use image not dockerfile ([f2bea5c](https://github.com/EddieHubCommunity/BioDrop/commit/f2bea5c44e7f87ec560f2b3b6b88f04b817f52c0))
+
+
+
 # [3.4.0](https://github.com/EddieHubCommunity/BioDrop/compare/v3.3.2...v3.4.0) (2024-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * no path redirect to repo ([7d81a17](https://github.com/EddieHubCommunity/BioDrop/commit/7d81a17828f70da158545cfa9bba8b3cf48e557b))
-
-
-
-## [3.2.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.2.0...v3.2.1) (2024-06-30)
-
-
-### Bug Fixes
-
-* why this redirect branch ([1720751](https://github.com/EddieHubCommunity/BioDrop/commit/1720751568246538662be4bfe70531dacddee1db))
 
 
 
