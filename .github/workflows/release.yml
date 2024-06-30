@@ -28,22 +28,13 @@ jobs:
       - name: switch to new branch
         run: git checkout release-from-${{ github.sha }}
 
-      # update app config with version
-      - name: get-npm-version
-        id: package-version
-        run: |
-          LF_VERSION=$(cat package.json | jq -r '.version')
-          echo "current-version=$LF_VERSION" >> "$GITHUB_OUTPUT"
-      - name: update app config
-        run: sed -i 's/0.0.0/${{ steps.package-version.outputs.current-version}}/g' config/app.json
-
       # create release info and push it upstream
       - name: conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          version-file: "./package.json,./package-lock.json,./config/app.json"
+          version-file: "./package.json,./package-lock.json"
           git-branch: "release-from-${{ github.sha }}"
           skip-git-pull: true
 
