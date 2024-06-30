@@ -1,3 +1,12 @@
+# [2.104.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.103.1...v2.104.0) (2024-06-30)
+
+
+### Features
+
+* caprover ([#10389](https://github.com/EddieHubCommunity/BioDrop/issues/10389)) ([e57c681](https://github.com/EddieHubCommunity/BioDrop/commit/e57c681fc966dbd96c8ed0b37d522b8093d014e1))
+
+
+
 ## [2.103.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.103.0...v2.103.1) (2024-06-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * uneditable url field to have title info ([#10348](https://github.com/EddieHubCommunity/BioDrop/issues/10348)) ([10a80de](https://github.com/EddieHubCommunity/BioDrop/commit/10a80dec4f5d4ffa3b2e7fed0ecc65689157db9f))
-
-
-
-## [2.101.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.101.1...v2.101.2) (2024-06-08)
-
-
-### Bug Fixes
-
-* type in settings.js ([#10378](https://github.com/EddieHubCommunity/BioDrop/issues/10378)) ([f296ab2](https://github.com/EddieHubCommunity/BioDrop/commit/f296ab2d47555fe967b57ec7173e54f9b2eef039))
 
 
 
