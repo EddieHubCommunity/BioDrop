@@ -2,7 +2,7 @@ name: Releases
 on:
   push:
     branches:
-      - main
+      - redirect
     paths-ignore:
       - "data/**"
 

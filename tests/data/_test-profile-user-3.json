@@ -1,7 +1,0 @@
-{
-  "name": "Test User Name 3",
-  "bio": "Test user bio 3",
-
-  "tags": ["test user 2 tag 1", "test user 2 tag 2"],
-  "socials": [{ "icon": "FaTwitter", "url": "https://twitter.com/eddiejaoude" }]
-}

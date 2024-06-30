@@ -1,8 +1,0 @@
-/* Temporarily disabled due to issues with @tomfreudenberg/next-auth-mock/storybook */
-import Navbar from "@components/navbar/Navbar";
-
-export default {
-  component: Navbar,
-};
-
-export const Basic = {};

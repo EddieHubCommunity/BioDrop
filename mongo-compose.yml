@@ -1,7 +1,0 @@
-# docker compose -f mongo-compose.yml up
-version: "3.9"
-services:
-  mongodb:
-    image: mongo:6.0
-    ports:
-      - "27017:27017"
