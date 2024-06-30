@@ -1,0 +1,22 @@
+name: Deploy to Caprover
+
+on:
+  registry_package:
+    types: [published]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [18.x]
+
+    steps:
+      - name: Deploy Image to CapRrover
+        uses: caprover/deploy-from-github@v1.1.2
+        with:
+          server: "${{ secrets.CAPROVER_SERVER }}"
+          app: biodrop
+          token: "${{ secrets.CAPROVER_TOKEN }}"
+          image: ghcr.io/eddiehubcommunity/biodrop:latest
