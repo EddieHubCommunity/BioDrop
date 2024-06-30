@@ -1,3 +1,12 @@
+# [3.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v3.2.1...v3.3.0) (2024-06-30)
+
+
+### Features
+
+* no path redirect to repo ([7d81a17](https://github.com/EddieHubCommunity/BioDrop/commit/7d81a17828f70da158545cfa9bba8b3cf48e557b))
+
+
+
 ## [3.2.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.2.0...v3.2.1) (2024-06-30)
 
 
@@ -40,15 +49,6 @@
 ### Bug Fixes
 
 * delete release branch ([3d3aa86](https://github.com/EddieHubCommunity/BioDrop/commit/3d3aa867880d9fcb0c72756ff51c1b66d176fdea))
-
-
-
-# [2.104.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.103.1...v2.104.0) (2024-06-30)
-
-
-### Features
-
-* caprover ([#10389](https://github.com/EddieHubCommunity/BioDrop/issues/10389)) ([e57c681](https://github.com/EddieHubCommunity/BioDrop/commit/e57c681fc966dbd96c8ed0b37d522b8093d014e1))
 
 
 
