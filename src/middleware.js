@@ -9,6 +9,12 @@ export const config = {
 export async function middleware(req) {
   const path = req.nextUrl.pathname;
 
+  if (path === "/") {
+    return NextResponse.redirect(
+      new URL("/EddieHubCommunity/BioDrop", "https://github.com")
+    );
+  }
+
   if (path !== "/") {
     return NextResponse.redirect(new URL(path, "https://github.com"));
   }
