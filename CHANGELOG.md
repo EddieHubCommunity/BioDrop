@@ -1,3 +1,12 @@
+## [3.3.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.3.0...v3.3.1) (2024-06-30)
+
+
+### Bug Fixes
+
+* check for username first ([5ca8158](https://github.com/EddieHubCommunity/BioDrop/commit/5ca815899155555bf4124902b677ecdf1f436cb1))
+
+
+
 # [3.3.0](https://github.com/EddieHubCommunity/BioDrop/compare/v3.2.1...v3.3.0) (2024-06-30)
 
 
@@ -40,15 +49,6 @@
 ### Bug Fixes
 
 * docker secrets ([be0e7bb](https://github.com/EddieHubCommunity/BioDrop/commit/be0e7bb430f95e0693cd290a332a244c273b3eee))
-
-
-
-## [2.104.1](https://github.com/EddieHubCommunity/BioDrop/compare/v2.104.0...v2.104.1) (2024-06-30)
-
-
-### Bug Fixes
-
-* delete release branch ([3d3aa86](https://github.com/EddieHubCommunity/BioDrop/commit/3d3aa867880d9fcb0c72756ff51c1b66d176fdea))
 
 
 
