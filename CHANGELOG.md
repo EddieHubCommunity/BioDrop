@@ -1,3 +1,12 @@
+## [3.3.2](https://github.com/EddieHubCommunity/BioDrop/compare/v3.3.1...v3.3.2) (2024-06-30)
+
+
+### Bug Fixes
+
+* actions to use redirect branch ([3381bee](https://github.com/EddieHubCommunity/BioDrop/commit/3381bee0b27019fa7060be1a30b38fcc04a6f5ac))
+
+
+
 ## [3.3.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.3.0...v3.3.1) (2024-06-30)
 
 
@@ -40,15 +49,6 @@
 
 * docker file ([9ce9e3b](https://github.com/EddieHubCommunity/BioDrop/commit/9ce9e3b2473d012f270561e1c7bfae6655d9866a))
 * redirect only ([e97b3df](https://github.com/EddieHubCommunity/BioDrop/commit/e97b3df6c12af1e39bd2272b6c19c384d43e948f))
-
-
-
-## [2.104.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.104.1...v2.104.2) (2024-06-30)
-
-
-### Bug Fixes
-
-* docker secrets ([be0e7bb](https://github.com/EddieHubCommunity/BioDrop/commit/be0e7bb430f95e0693cd290a332a244c273b3eee))
 
 
 
