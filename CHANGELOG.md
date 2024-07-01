@@ -1,3 +1,12 @@
+## [3.4.5](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.4...v3.4.5) (2024-07-01)
+
+
+### Bug Fixes
+
+* rename caprover job ([3035efa](https://github.com/EddieHubCommunity/BioDrop/commit/3035efaf751928ce4b4621f3871f000d5459cc87))
+
+
+
 ## [3.4.4](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.3...v3.4.4) (2024-07-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * use image not dockerfile ([f2bea5c](https://github.com/EddieHubCommunity/BioDrop/commit/f2bea5c44e7f87ec560f2b3b6b88f04b817f52c0))
-
-
-
-# [3.4.0](https://github.com/EddieHubCommunity/BioDrop/compare/v3.3.2...v3.4.0) (2024-06-30)
-
-
-### Features
-
-* caprover config file ([b7eb36f](https://github.com/EddieHubCommunity/BioDrop/commit/b7eb36f96e8cbd3ad7b2481c83ecce1456528e7f))
 
 
 
