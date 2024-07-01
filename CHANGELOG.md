@@ -1,3 +1,12 @@
+## [3.4.4](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.3...v3.4.4) (2024-07-01)
+
+
+### Bug Fixes
+
+* output app version in deploy ([3b324b6](https://github.com/EddieHubCommunity/BioDrop/commit/3b324b61d117524c4953c6aaba097ebdeab3aaeb))
+
+
+
 ## [3.4.3](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.2...v3.4.3) (2024-07-01)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * caprover config file ([b7eb36f](https://github.com/EddieHubCommunity/BioDrop/commit/b7eb36f96e8cbd3ad7b2481c83ecce1456528e7f))
-
-
-
-## [3.3.2](https://github.com/EddieHubCommunity/BioDrop/compare/v3.3.1...v3.3.2) (2024-06-30)
-
-
-### Bug Fixes
-
-* actions to use redirect branch ([3381bee](https://github.com/EddieHubCommunity/BioDrop/commit/3381bee0b27019fa7060be1a30b38fcc04a6f5ac))
 
 
 
