@@ -1,3 +1,12 @@
+## [3.4.7](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.6...v3.4.7) (2024-07-01)
+
+
+### Bug Fixes
+
+* trigger deployment ([5ef3cee](https://github.com/EddieHubCommunity/BioDrop/commit/5ef3cee6cf956364e70b9bcf7ea2ff10f65635a5))
+
+
+
 ## [3.4.6](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.5...v3.4.6) (2024-07-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * login into ghcr ([1dcf8fc](https://github.com/EddieHubCommunity/BioDrop/commit/1dcf8fc293ac0aa94b3ab397811bfaa8bc4e0566))
-
-
-
-## [3.4.2](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.1...v3.4.2) (2024-06-30)
-
-
-### Bug Fixes
-
-* logging to middleware ([feb7d39](https://github.com/EddieHubCommunity/BioDrop/commit/feb7d39a60c9c60e3639cf7bab408b6170a57764))
 
 
 
