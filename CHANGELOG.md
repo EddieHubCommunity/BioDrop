@@ -1,3 +1,12 @@
+## [3.4.6](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.5...v3.4.6) (2024-07-01)
+
+
+### Bug Fixes
+
+* trigger deployment ([12a618e](https://github.com/EddieHubCommunity/BioDrop/commit/12a618e2c3d7995c7f95d89a9fc4c626281b4ba3))
+
+
+
 ## [3.4.5](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.4...v3.4.5) (2024-07-01)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * logging to middleware ([feb7d39](https://github.com/EddieHubCommunity/BioDrop/commit/feb7d39a60c9c60e3639cf7bab408b6170a57764))
-
-
-
-## [3.4.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.0...v3.4.1) (2024-06-30)
-
-
-### Bug Fixes
-
-* use image not dockerfile ([f2bea5c](https://github.com/EddieHubCommunity/BioDrop/commit/f2bea5c44e7f87ec560f2b3b6b88f04b817f52c0))
 
 
 
