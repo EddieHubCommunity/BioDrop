@@ -5,7 +5,7 @@ on:
     types: [published]
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -26,6 +26,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.repository_owner }}
           password: ${{ secrets.CR_PAT }}
+
       - name: Deploy Image to CapRrover
         uses: caprover/deploy-from-github@v1.1.2
         with:
