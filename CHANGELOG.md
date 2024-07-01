@@ -1,3 +1,12 @@
+## [3.4.3](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.2...v3.4.3) (2024-07-01)
+
+
+### Bug Fixes
+
+* login into ghcr ([1dcf8fc](https://github.com/EddieHubCommunity/BioDrop/commit/1dcf8fc293ac0aa94b3ab397811bfaa8bc4e0566))
+
+
+
 ## [3.4.2](https://github.com/EddieHubCommunity/BioDrop/compare/v3.4.1...v3.4.2) (2024-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * actions to use redirect branch ([3381bee](https://github.com/EddieHubCommunity/BioDrop/commit/3381bee0b27019fa7060be1a30b38fcc04a6f5ac))
-
-
-
-## [3.3.1](https://github.com/EddieHubCommunity/BioDrop/compare/v3.3.0...v3.3.1) (2024-06-30)
-
-
-### Bug Fixes
-
-* check for username first ([5ca8158](https://github.com/EddieHubCommunity/BioDrop/commit/5ca815899155555bf4124902b677ecdf1f436cb1))
 
 
 
