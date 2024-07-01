@@ -1,3 +1,12 @@
+## [2.104.3](https://github.com/EddieHubCommunity/BioDrop/compare/v2.104.2...v2.104.3) (2024-07-01)
+
+
+### Bug Fixes
+
+* delete deploy on main ([2ffd3f4](https://github.com/EddieHubCommunity/BioDrop/commit/2ffd3f4ca8eecc511817812d932979532502fdfd))
+
+
+
 ## [2.104.2](https://github.com/EddieHubCommunity/BioDrop/compare/v2.104.1...v2.104.2) (2024-06-30)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * add repo button in manage repo page  ([#10385](https://github.com/EddieHubCommunity/BioDrop/issues/10385)) ([f548044](https://github.com/EddieHubCommunity/BioDrop/commit/f548044560a271279c1661645aec7246ca41ec0e))
-
-
-
-# [2.103.0](https://github.com/EddieHubCommunity/BioDrop/compare/v2.102.0...v2.103.0) (2024-06-10)
-
-
-### Features
-
-* archiving project redirect to user's github profile ([#10386](https://github.com/EddieHubCommunity/BioDrop/issues/10386)) ([ef5af9c](https://github.com/EddieHubCommunity/BioDrop/commit/ef5af9c7f5f0ae0afafb00906a74c4aa517ad3df))
 
 
 
