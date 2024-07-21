@@ -10,6 +10,15 @@ export default function UserLinks({ BASE_URL, links, username }) {
     return { ...acc, [group]: [...curGroup, obj] };
   }, {});
 
+  links.forEach((link) => {
+    const regex = new RegExp("Mastodon", "i");
+    const match = regex.test(link.name) || regex.test(link.icon);
+    if (match) {
+      link.rel = "me";
+      return;
+    }
+  });
+
   return (
     <>
       {!links?.length && <Alert type="info" message="No Links found" />}
@@ -40,6 +49,7 @@ export default function UserLinks({ BASE_URL, links, username }) {
                   link={link}
                   username={username}
                   isEnabled={link.isEnabled}
+                  rel={link.rel}
                 />
               ))}
             </div>
